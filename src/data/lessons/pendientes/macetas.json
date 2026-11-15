@@ -1,6 +1,6 @@
 [
   {
-    "id": "macetas-1",
+    "id": "macetas-2",
     "unidad": "macetas",
     "titulo": "Macetas y drenaje",
     "gancho": "¿Sirve cualquier maceta linda que encuentre?",
@@ -65,10 +65,22 @@
         "tipo": "unir",
         "pregunta": "Uní cada cosa con lo que la caracteriza.",
         "pares": [
-          { "a": "Maceta de barro", "b": "Se seca más rápido" },
-          { "a": "Maceta de plástico", "b": "Guarda más humedad" },
-          { "a": "Maceta funda", "b": "Linda, sin agujero" },
-          { "a": "Plato", "b": "Se vacía tras regar" }
+          {
+            "a": "Maceta de barro",
+            "b": "Se seca más rápido"
+          },
+          {
+            "a": "Maceta de plástico",
+            "b": "Guarda más humedad"
+          },
+          {
+            "a": "Maceta funda",
+            "b": "Linda, sin agujero"
+          },
+          {
+            "a": "Plato",
+            "b": "Se vacía tras regar"
+          }
         ],
         "explicacion": "El barro es poroso, el plástico no. La funda es solo decorativa, y el plato no tiene que quedar con agua."
       },
@@ -126,7 +138,7 @@
     "xp": 20
   },
   {
-    "id": "macetas-2",
+    "id": "macetas-3",
     "unidad": "macetas",
     "titulo": "El sustrato",
     "gancho": "¿Le pongo tierra del cantero y listo?",
@@ -189,10 +201,22 @@
         "tipo": "unir",
         "pregunta": "Uní cada ingrediente con su tarea principal.",
         "pares": [
-          { "a": "Turba o fibra de coco", "b": "Guardar agua" },
-          { "a": "Perlita", "b": "Aire y drenaje" },
-          { "a": "Compost", "b": "Sumar nutrientes" },
-          { "a": "Arena gruesa", "b": "Mezcla para cactus" }
+          {
+            "a": "Turba o fibra de coco",
+            "b": "Guardar agua"
+          },
+          {
+            "a": "Perlita",
+            "b": "Aire y drenaje"
+          },
+          {
+            "a": "Compost",
+            "b": "Sumar nutrientes"
+          },
+          {
+            "a": "Arena gruesa",
+            "b": "Mezcla para cactus"
+          }
         ],
         "explicacion": "Las mezclas combinan ingredientes que retienen agua con otros que abren huecos para el aire."
       },
@@ -250,7 +274,7 @@
     "xp": 20
   },
   {
-    "id": "macetas-3",
+    "id": "macetas-6",
     "unidad": "macetas",
     "titulo": "Trasplante",
     "gancho": "¿Cómo sé si ya le queda chica la maceta?",

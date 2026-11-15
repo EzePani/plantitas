@@ -1,16 +1,7 @@
 import type { DatosMascotas, Experiencia, Objetivo, Perfil, UnidadId } from './tipos'
 
-export const ORDEN_BASE: UnidadId[] = [
-  'basico',
-  'luz',
-  'riego',
-  'familias',
-  'macetas',
-  'abono',
-  'agua',
-  'mascotas',
-  'comprar',
-]
+/** Orden por defecto del camino: unidades 1 a 12 */
+export const ORDEN_BASE: UnidadId[] = ['basico', 'luz', 'riego', 'macetas', 'abono', 'familias', 'estaciones', 'rutina', 'plagas', 'multiplicar', 'comprar', 'mascotas']
 
 /** Aciertos mínimos (de 3) en el mini test para confirmar el perfil Experimentado */
 export const MINIMO_TEST = 2
@@ -62,11 +53,12 @@ export function planDeCamino(
   if (perfil === 'experimentado') salteables = ['basico', 'luz', 'riego', 'macetas']
 
   if (objetivo === 'basico') recomendadas.add('basico').add('luz').add('riego')
+  // Objetivo "elegir y comprar": se destacan Comprar bien (11) y Familias (6)
   if (objetivo === 'elegir') recomendadas.add('comprar').add('familias')
-  if (objetivo === 'a_fondo') recomendadas.add('familias').add('abono').add('agua')
+  if (objetivo === 'a_fondo') recomendadas.add('familias').add('abono').add('multiplicar')
 
   if (mascotas.tipo !== 'ninguna') recomendadas.add('mascotas')
-  // Seguridad primero: si la mascota muerde plantas, la unidad de mascotas va antes que todo
+  // Seguridad primero: si la mascota muerde plantas, la Unidad 12 (Mascotas) va antes que todo
   if (mascotaMuerde(mascotas)) orden = alFrente(orden, ['mascotas'])
 
   for (const s of salteables) recomendadas.delete(s)

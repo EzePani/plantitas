@@ -5,12 +5,36 @@
     "titulo": "Tipos de luz",
     "gancho": "¿Qué quiere decir \"luz brillante indirecta\"?",
     "tarjetas": [
-      { "tipo": "concepto", "imagen": "luz-directa", "texto": "Luz directa: los rayos del sol pegan en las hojas, sin nada en el medio más que el vidrio. Es la más fuerte y la disfrutan pocas plantas, como los cactus y las suculentas." },
-      { "tipo": "concepto", "imagen": "luz-indirecta", "texto": "Luz brillante indirecta: mucha claridad, pero sin rayos de sol cayendo sobre las hojas. Se consigue cerca de una ventana luminosa o detrás de una cortina fina, y es la que prefiere la mayoría." },
-      { "tipo": "concepto", "imagen": "luz-indirecta", "texto": "Luz media: un lugar claro donde nunca da el sol, por ejemplo a unos pasos de la ventana. Es menos luz de lo que parece, pero varias plantas se adaptan bien." },
-      { "tipo": "concepto", "imagen": "luz-poca", "texto": "Poca luz: lejos de las ventanas o en rincones oscuros. Pocas plantas la aguantan, y poca luz no quiere decir nada de luz." },
-      { "tipo": "por_que", "imagen": "ventana-sol", "texto": "Tus ojos se acostumbran y no sirven para medir la luz. Probá con la mano a la hora de más luz: cuanto más nítida es la sombra que hace, más luz hay en ese lugar." },
-      { "tipo": "concepto", "imagen": "casa", "texto": "Estos nombres son una guía y no una medida exacta. La luz de cada lugar cambia con la distancia a la ventana, la hora, la estación y lo que haya afuera tapando, como árboles o edificios." }
+      {
+        "tipo": "concepto",
+        "imagen": "luz-directa",
+        "texto": "Luz directa: los rayos del sol pegan en las hojas, sin nada en el medio más que el vidrio. Es la más fuerte y la disfrutan pocas plantas, como los cactus y las suculentas."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "luz-indirecta",
+        "texto": "Luz brillante indirecta: mucha claridad, pero sin rayos de sol cayendo sobre las hojas. Se consigue cerca de una ventana luminosa o detrás de una cortina fina, y es la que prefiere la mayoría."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "luz-indirecta",
+        "texto": "Luz media: un lugar claro donde nunca da el sol, por ejemplo a unos pasos de la ventana. Es menos luz de lo que parece, pero varias plantas se adaptan bien."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "luz-poca",
+        "texto": "Poca luz: lejos de las ventanas o en rincones oscuros. Pocas plantas la aguantan, y poca luz no quiere decir nada de luz."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "ventana-sol",
+        "texto": "Tus ojos se acostumbran y no sirven para medir la luz. Probá con la mano a la hora de más luz: cuanto más nítida es la sombra que hace, más luz hay en ese lugar."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "casa",
+        "texto": "Estos nombres son una guía y no una medida exacta. La luz de cada lugar cambia con la distancia a la ventana, la hora, la estación y lo que haya afuera tapando, como árboles o edificios."
+      }
     ],
     "para_llevarte": [
       "Directa: rayos de sol sobre las hojas.",
@@ -18,28 +42,95 @@
       "Poca luz se aguanta, no se disfruta."
     ],
     "quiz": [
-      { "tipo": "opcion_multiple", "pregunta": "¿Qué es la luz brillante indirecta?", "opciones": ["Rayos de sol pegando en las hojas", "Mucha claridad sin sol directo en las hojas", "Un rincón oscuro"], "correcta": 1, "explicacion": "Es mucha claridad, pero sin que los rayos den de lleno en la planta." },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Qué es la luz brillante indirecta?",
+        "opciones": [
+          "Rayos de sol pegando en las hojas",
+          "Mucha claridad sin sol directo en las hojas",
+          "Un rincón oscuro"
+        ],
+        "correcta": 1,
+        "explicacion": "Es mucha claridad, pero sin que los rayos den de lleno en la planta."
+      },
       {
         "tipo": "unir",
         "pregunta": "Uní cada lugar con su tipo de luz",
         "pares": [
-          { "a": "Sol pegando en las hojas", "b": "Directa" },
-          { "a": "Detrás de una cortina fina", "b": "Brillante indirecta" },
-          { "a": "Claro, pero sin sol", "b": "Media" },
-          { "a": "Rincón lejos de la ventana", "b": "Poca" }
+          {
+            "a": "Sol pegando en las hojas",
+            "b": "Directa"
+          },
+          {
+            "a": "Detrás de una cortina fina",
+            "b": "Brillante indirecta"
+          },
+          {
+            "a": "Claro, pero sin sol",
+            "b": "Media"
+          },
+          {
+            "a": "Rincón lejos de la ventana",
+            "b": "Poca"
+          }
         ],
         "explicacion": "Cuanto más lejos de la ventana y del sol, menos luz recibe la planta."
       },
-      { "tipo": "verdadero_falso", "pregunta": "La mayoría de las plantas de interior disfruta de los rincones oscuros.", "correcta": false, "explicacion": "Algunas los toleran, pero casi todas crecen mejor con buena claridad." },
-      { "tipo": "opcion_multiple", "pregunta": "Ponés la mano y casi no hace sombra. ¿Qué luz hay?", "opciones": ["Directa", "Brillante indirecta", "Poca"], "correcta": 2, "explicacion": "Sin sombra visible, hay poca luz. Una sombra bien nítida indica mucha luz." }
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "La mayoría de las plantas de interior disfruta de los rincones oscuros.",
+        "correcta": false,
+        "explicacion": "Algunas los toleran, pero casi todas crecen mejor con buena claridad."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Ponés la mano y casi no hace sombra. ¿Qué luz hay?",
+        "opciones": [
+          "Directa",
+          "Brillante indirecta",
+          "Poca"
+        ],
+        "correcta": 2,
+        "explicacion": "Sin sombra visible, hay poca luz. Una sombra bien nítida indica mucha luz."
+      }
     ],
     "fuentes": [
-      { "titulo": "Light for Houseplants", "org": "UF/IFAS Gardening Solutions", "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/light-for-houseplants/", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Houseplants: The Ins and Outs of Light and Water", "org": "University of California Agriculture and Natural Resources", "url": "https://www.ucanr.edu/blog/over-fence-alameda-county/article/houseplants-ins-and-outs-light-and-water", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Extension Gardener Handbook, capítulo 18: Plants Grown in Containers", "org": "NC State Extension", "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers", "fecha_consulta": "2026-11-14" },
-      { "titulo": "How to find the best light for indoor plants", "org": "ABC (Gardening Australia)", "url": "https://www.abc.net.au/news/2020-10-23/how-to-find-the-best-light-for-indoor-plants/12769762", "fecha_consulta": "2026-11-14" },
-      { "titulo": "The Great Indoors: Location and Light", "org": "ABC (Gardening Australia)", "url": "https://www.abc.net.au/gardening/how-to/the-great-indoors-location-and-light/12804344", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Keep indoor plants healthy with the right amount of sunlight", "org": "ABC (Gardening Australia)", "url": "https://www.abc.net.au/news/2023-03-17/gardening-australia-houseplants/102102822", "fecha_consulta": "2026-11-14" }
+      {
+        "titulo": "Light for Houseplants",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/light-for-houseplants/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Houseplants: The Ins and Outs of Light and Water",
+        "org": "University of California Agriculture and Natural Resources",
+        "url": "https://www.ucanr.edu/blog/over-fence-alameda-county/article/houseplants-ins-and-outs-light-and-water",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Extension Gardener Handbook, capítulo 18: Plants Grown in Containers",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "How to find the best light for indoor plants",
+        "org": "ABC (Gardening Australia)",
+        "url": "https://www.abc.net.au/news/2020-10-23/how-to-find-the-best-light-for-indoor-plants/12769762",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "The Great Indoors: Location and Light",
+        "org": "ABC (Gardening Australia)",
+        "url": "https://www.abc.net.au/gardening/how-to/the-great-indoors-location-and-light/12804344",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Keep indoor plants healthy with the right amount of sunlight",
+        "org": "ABC (Gardening Australia)",
+        "url": "https://www.abc.net.au/news/2023-03-17/gardening-australia-houseplants/102102822",
+        "fecha_consulta": "2026-11-14"
+      }
     ],
     "confianza": "media",
     "xp": 20
@@ -50,11 +141,32 @@
     "titulo": "El mapa del sol en tu casa",
     "gancho": "¿En qué ventana pongo mis plantas?",
     "tarjetas": [
-      { "tipo": "concepto", "imagen": "mapa-sol", "texto": "No hace falta brújula ni saber de puntos cardinales. Alcanza con mirar, en un día despejado, a qué hora entra el sol por cada ventana." },
-      { "tipo": "dato_ba", "imagen": "mapa-sol", "texto": "En Buenos Aires el sol del mediodía queda hacia el norte. Por eso, la ventana donde da sol cerca del mediodía y durante buena parte del día es tu lugar más luminoso." },
-      { "tipo": "comparativa", "imagen_mal": "planta-quemada", "imagen_bien": "ventana-sol", "texto": "Si el sol entra solo a la mañana, es un sol más suave y fresco. Si entra a la tarde, es más intenso y caluroso, y puede quemar a las plantas delicadas." },
-      { "tipo": "concepto", "imagen": "luz-poca", "texto": "Si el sol no entra casi nunca, es tu lugar de menos luz. Guardalo para las plantas que toleran poca luz." },
-      { "tipo": "dato_ba", "imagen": "estaciones", "texto": "En invierno, de junio a agosto, el sol pasa más bajo y entra más adentro de los ambientes. En verano pasa alto, así que volvé a mirar cuando cambia la estación." }
+      {
+        "tipo": "concepto",
+        "imagen": "mapa-sol",
+        "texto": "No hace falta brújula ni saber de puntos cardinales. Alcanza con mirar, en un día despejado, a qué hora entra el sol por cada ventana."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "mapa-sol",
+        "texto": "En Buenos Aires el sol del mediodía queda hacia el norte. Por eso, la ventana donde da sol cerca del mediodía y durante buena parte del día es tu lugar más luminoso."
+      },
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "planta-quemada",
+        "imagen_bien": "ventana-sol",
+        "texto": "Si el sol entra solo a la mañana, es un sol más suave y fresco. Si entra a la tarde, es más intenso y caluroso, y puede quemar a las plantas delicadas."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "luz-poca",
+        "texto": "Si el sol no entra casi nunca, es tu lugar de menos luz. Guardalo para las plantas que toleran poca luz."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "estaciones",
+        "texto": "En invierno, de junio a agosto, el sol pasa más bajo y entra más adentro de los ambientes. En verano pasa alto, así que volvé a mirar cuando cambia la estación."
+      }
     ],
     "para_llevarte": [
       "Mirá a qué hora da el sol en cada lugar.",
@@ -62,44 +174,132 @@
       "Sol buena parte del día: tu lugar más luminoso."
     ],
     "quiz": [
-      { "tipo": "opcion_multiple", "pregunta": "¿Cuál es el sol más suave para una planta?", "opciones": ["El de la mañana", "El de la tarde", "Los dos son iguales"], "correcta": 0, "explicacion": "El sol de la mañana es más fresco. El de la tarde es más intenso y caluroso." },
-      { "tipo": "verdadero_falso", "pregunta": "Para ubicar tus plantas necesitás una brújula.", "correcta": false, "explicacion": "Alcanza con observar a qué hora entra el sol en cada lugar." },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Cuál es el sol más suave para una planta?",
+        "opciones": [
+          "El de la mañana",
+          "El de la tarde",
+          "Los dos son iguales"
+        ],
+        "correcta": 0,
+        "explicacion": "El sol de la mañana es más fresco. El de la tarde es más intenso y caluroso."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Para ubicar tus plantas necesitás una brújula.",
+        "correcta": false,
+        "explicacion": "Alcanza con observar a qué hora entra el sol en cada lugar."
+      },
       {
         "tipo": "unir",
         "pregunta": "Uní lo que ves con lo que significa",
         "pares": [
-          { "a": "Sol solo a la mañana", "b": "Sol suave" },
-          { "a": "Sol solo a la tarde", "b": "Sol fuerte y caluroso" },
-          { "a": "Sol buena parte del día", "b": "El lugar más luminoso" },
-          { "a": "Casi nunca da el sol", "b": "Lugar de poca luz" }
+          {
+            "a": "Sol solo a la mañana",
+            "b": "Sol suave"
+          },
+          {
+            "a": "Sol solo a la tarde",
+            "b": "Sol fuerte y caluroso"
+          },
+          {
+            "a": "Sol buena parte del día",
+            "b": "El lugar más luminoso"
+          },
+          {
+            "a": "Casi nunca da el sol",
+            "b": "Lugar de poca luz"
+          }
         ],
         "explicacion": "La hora a la que entra el sol te dice cuánta luz tiene cada lugar."
       },
-      { "tipo": "verdadero_falso", "pregunta": "El sol entra igual en tu casa en verano y en invierno.", "correcta": false, "explicacion": "En invierno pasa más bajo y entra más adentro. Conviene volver a mirar en cada estación." }
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "El sol entra igual en tu casa en verano y en invierno.",
+        "correcta": false,
+        "explicacion": "En invierno pasa más bajo y entra más adentro. Conviene volver a mirar en cada estación."
+      }
     ],
     "fuentes": [
-      { "titulo": "Asoleamiento y control solar (capítulo 5), G. San Juan", "org": "Universidad Nacional de La Plata (SEDICI)", "url": "http://sedici.unlp.edu.ar/bitstream/handle/10915/150850/Documento_completo.pdf?sequence=1", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Solar orientation: what is ideal for different rooms", "org": "Level (BRANZ, Nueva Zelanda)", "url": "https://www.level.org.nz/passive-design/location-orientation-and-layout/room-layout/", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Reasons for the seasons on Earth: background information", "org": "Museums Victoria (Australia)", "url": "https://museumsvictoria.com.au/media/12658/seasons-activities.pdf", "fecha_consulta": "2026-11-14" },
-      { "titulo": "How to find the best light for indoor plants", "org": "ABC (Gardening Australia)", "url": "https://www.abc.net.au/news/2020-10-23/how-to-find-the-best-light-for-indoor-plants/12769762", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Carbon Cops fact sheet: Windows", "org": "ABC (Australia)", "url": "https://www.abc.net.au/tv/carboncops/factsheets/cc_windows.pdf", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Houseplants: The Ins and Outs of Light and Water", "org": "University of California Agriculture and Natural Resources", "url": "https://www.ucanr.edu/blog/over-fence-alameda-county/article/houseplants-ins-and-outs-light-and-water", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Boletín Climatológico, Invierno 2024", "org": "Servicio Meteorológico Nacional (Argentina)", "url": "https://repositorio.smn.gob.ar/bitstream/handle/20.500.12160/2938/0069CL2024.pdf?sequence=1&isAllowed=y", "fecha_consulta": "2026-11-14" }
+      {
+        "titulo": "Asoleamiento y control solar (capítulo 5), G. San Juan",
+        "org": "Universidad Nacional de La Plata (SEDICI)",
+        "url": "http://sedici.unlp.edu.ar/bitstream/handle/10915/150850/Documento_completo.pdf?sequence=1",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Solar orientation: what is ideal for different rooms",
+        "org": "Level (BRANZ, Nueva Zelanda)",
+        "url": "https://www.level.org.nz/passive-design/location-orientation-and-layout/room-layout/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Reasons for the seasons on Earth: background information",
+        "org": "Museums Victoria (Australia)",
+        "url": "https://museumsvictoria.com.au/media/12658/seasons-activities.pdf",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "How to find the best light for indoor plants",
+        "org": "ABC (Gardening Australia)",
+        "url": "https://www.abc.net.au/news/2020-10-23/how-to-find-the-best-light-for-indoor-plants/12769762",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Carbon Cops fact sheet: Windows",
+        "org": "ABC (Australia)",
+        "url": "https://www.abc.net.au/tv/carboncops/factsheets/cc_windows.pdf",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Houseplants: The Ins and Outs of Light and Water",
+        "org": "University of California Agriculture and Natural Resources",
+        "url": "https://www.ucanr.edu/blog/over-fence-alameda-county/article/houseplants-ins-and-outs-light-and-water",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Boletín Climatológico, Invierno 2024",
+        "org": "Servicio Meteorológico Nacional (Argentina)",
+        "url": "https://repositorio.smn.gob.ar/bitstream/handle/20.500.12160/2938/0069CL2024.pdf?sequence=1&isAllowed=y",
+        "fecha_consulta": "2026-11-14"
+      }
     ],
     "confianza": "media",
     "xp": 20
   },
   {
-    "id": "luz-3",
+    "id": "luz-4",
     "unidad": "luz",
     "titulo": "Señales de poca o mucha luz",
     "gancho": "¿Por qué mi planta se estira tanto?",
     "tarjetas": [
-      { "tipo": "por_que", "imagen": "planta-estirada", "texto": "Con poca luz, la planta se estira buscando claridad: tallos largos y flacos, con mucho espacio entre hoja y hoja. Las hojas nuevas salen más chicas y más pálidas." },
-      { "tipo": "concepto", "imagen": "planta-triste", "texto": "Otras señales de poca luz: crece muy despacio, se inclina hacia la ventana o pierde hojas de abajo. Las plantas con hojas de colores pueden volverse todas verdes." },
-      { "tipo": "concepto", "imagen": "planta-quemada", "texto": "Con demasiado sol directo aparecen manchas marrones y secas, como quemaduras, o las hojas se ven desteñidas. Pasa sobre todo con el sol fuerte a través del vidrio en verano." },
-      { "tipo": "comparativa", "imagen_mal": "planta-quemada", "imagen_bien": "planta-feliz", "texto": "Si la vas a pasar a un lugar con más luz, hacelo de a poco, a lo largo de una o dos semanas. Un salto brusco al sol puede quemarla, aunque sea una planta que disfruta la luz." },
-      { "tipo": "dato_ba", "imagen": "estaciones", "texto": "En el invierno porteño, de junio a agosto, hay menos luz. Si una planta vive en un rincón oscuro, le viene bien pasar esos meses más cerca de la ventana." }
+      {
+        "tipo": "por_que",
+        "imagen": "planta-estirada",
+        "texto": "Con poca luz, la planta se estira buscando claridad: tallos largos y flacos, con mucho espacio entre hoja y hoja. Las hojas nuevas salen más chicas y más pálidas."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-triste",
+        "texto": "Otras señales de poca luz: crece muy despacio, se inclina hacia la ventana o pierde hojas de abajo. Las plantas con hojas de colores pueden volverse todas verdes."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-quemada",
+        "texto": "Con demasiado sol directo aparecen manchas marrones y secas, como quemaduras, o las hojas se ven desteñidas. Pasa sobre todo con el sol fuerte a través del vidrio en verano."
+      },
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "planta-quemada",
+        "imagen_bien": "planta-feliz",
+        "texto": "Si la vas a pasar a un lugar con más luz, hacelo de a poco, a lo largo de una o dos semanas. Un salto brusco al sol puede quemarla, aunque sea una planta que disfruta la luz."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "estaciones",
+        "texto": "En el invierno porteño, de junio a agosto, hay menos luz. Si una planta vive en un rincón oscuro, le viene bien pasar esos meses más cerca de la ventana."
+      }
     ],
     "para_llevarte": [
       "Se estira y sale pálida: le falta luz.",
@@ -107,28 +307,99 @@
       "Los cambios de lugar, de a poco."
     ],
     "quiz": [
-      { "tipo": "que_le_pasa", "pregunta": "¿Qué le pasa a esta planta?", "imagen": "planta-quemada", "opciones": ["Le falta luz", "Le sobra sol directo", "Tiene frío"], "correcta": 1, "explicacion": "Las manchas marrones y secas en las hojas suelen ser quemaduras de sol." },
-      { "tipo": "que_le_pasa", "pregunta": "Tallos largos y flacos, hojas chicas y pálidas. ¿Qué le pasa?", "imagen": "planta-estirada", "opciones": ["Le falta luz", "Le sobra sol", "Le sobra tierra"], "correcta": 0, "explicacion": "Se estira buscando claridad: necesita un lugar más luminoso." },
-      { "tipo": "verdadero_falso", "pregunta": "Si a una planta le falta luz, lo mejor es ponerla de golpe a pleno sol.", "correcta": false, "explicacion": "Mejor de a poco, en una o dos semanas. Un cambio brusco puede quemarle las hojas." },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "¿Qué le pasa a esta planta?",
+        "imagen": "planta-quemada",
+        "opciones": [
+          "Le falta luz",
+          "Le sobra sol directo",
+          "Tiene frío"
+        ],
+        "correcta": 1,
+        "explicacion": "Las manchas marrones y secas en las hojas suelen ser quemaduras de sol."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Tallos largos y flacos, hojas chicas y pálidas. ¿Qué le pasa?",
+        "imagen": "planta-estirada",
+        "opciones": [
+          "Le falta luz",
+          "Le sobra sol",
+          "Le sobra tierra"
+        ],
+        "correcta": 0,
+        "explicacion": "Se estira buscando claridad: necesita un lugar más luminoso."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Si a una planta le falta luz, lo mejor es ponerla de golpe a pleno sol.",
+        "correcta": false,
+        "explicacion": "Mejor de a poco, en una o dos semanas. Un cambio brusco puede quemarle las hojas."
+      },
       {
         "tipo": "unir",
         "pregunta": "Uní cada señal con su causa",
         "pares": [
-          { "a": "Tallos largos y flacos", "b": "Poca luz" },
-          { "a": "Manchas marrones y secas", "b": "Demasiado sol" },
-          { "a": "Hojas chicas y pálidas", "b": "Poca luz" }
+          {
+            "a": "Tallos largos y flacos",
+            "b": "Poca luz"
+          },
+          {
+            "a": "Manchas marrones y secas",
+            "b": "Demasiado sol"
+          },
+          {
+            "a": "Hojas chicas y pálidas",
+            "b": "Poca luz"
+          }
         ],
         "explicacion": "Estirada, chica y pálida es falta de luz. Las manchas secas son exceso de sol directo."
       }
     ],
     "fuentes": [
-      { "titulo": "How to help a poorly houseplant", "org": "Royal Horticultural Society", "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Extension Gardener Handbook, capítulo 18: Plants Grown in Containers", "org": "NC State Extension", "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Indoor Plants: Cleaning, Fertilizing, Containers & Light Requirements", "org": "Clemson Cooperative Extension (HGIC)", "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/", "fecha_consulta": "2026-11-14" },
-      { "titulo": "How to Care for Houseplants", "org": "Iowa State University Extension", "url": "https://yardandgarden.extension.iastate.edu/how-to/how-care-houseplants", "fecha_consulta": "2026-11-14" },
-      { "titulo": "How to find the best light for indoor plants", "org": "ABC (Gardening Australia)", "url": "https://www.abc.net.au/news/2020-10-23/how-to-find-the-best-light-for-indoor-plants/12769762", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Keep indoor plants healthy with the right amount of sunlight", "org": "ABC (Gardening Australia)", "url": "https://www.abc.net.au/news/2023-03-17/gardening-australia-houseplants/102102822", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Beautiful winter houseplants and care tips", "org": "Royal Horticultural Society", "url": "https://www.rhs.org.uk/plants/types/houseplants/winter-interest-houseplants-care", "fecha_consulta": "2026-11-14" }
+      {
+        "titulo": "How to help a poorly houseplant",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Extension Gardener Handbook, capítulo 18: Plants Grown in Containers",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Indoor Plants: Cleaning, Fertilizing, Containers & Light Requirements",
+        "org": "Clemson Cooperative Extension (HGIC)",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "How to Care for Houseplants",
+        "org": "Iowa State University Extension",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/how-care-houseplants",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "How to find the best light for indoor plants",
+        "org": "ABC (Gardening Australia)",
+        "url": "https://www.abc.net.au/news/2020-10-23/how-to-find-the-best-light-for-indoor-plants/12769762",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Keep indoor plants healthy with the right amount of sunlight",
+        "org": "ABC (Gardening Australia)",
+        "url": "https://www.abc.net.au/news/2023-03-17/gardening-australia-houseplants/102102822",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Beautiful winter houseplants and care tips",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/winter-interest-houseplants-care",
+        "fecha_consulta": "2026-11-14"
+      }
     ],
     "confianza": "alta",
     "xp": 20

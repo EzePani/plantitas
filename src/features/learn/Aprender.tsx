@@ -7,7 +7,7 @@ import { Ilustracion } from '../../components/Ilustracion'
 import { NIVELES } from '../../data/gamificacion'
 import { LECCIONES_POR_UNIDAD, leccionPorId } from '../../data/lessons'
 import { T } from '../../data/textos'
-import { UNIDADES } from '../../data/unidades'
+import { UNIDADES, idsDelPlan } from '../../data/unidades'
 import { construirCamino, type Nodo, type Tramo } from '../../lib/camino'
 import { hoyLocal } from '../../lib/fecha'
 import { metaDeHoyCumplida, nivelPara, rachaVigente } from '../../lib/gamificacion'
@@ -232,16 +232,28 @@ function TramoVista({ tramo, recomendada, salteable, onNodo, onSaltear, refActua
 
       {tramo.disponible ? (
         <div className="flex flex-col pt-9 pb-2">
-          {tramo.nodos.map((n, i) => (
-            <BotonNodo key={n.id} nodo={n} posicion={i} color={u.color} colorOsc={u.colorOsc} onClick={() => onNodo(n)} refActual={n.estado === 'actual' ? refActual : undefined} />
-          ))}
+          {/* Las lecciones se muestran en el orden del plan; las que todavía no tienen contenido quedan como "Próximamente" */}
+          {[...idsDelPlan(tramo.unidad), ...tramo.nodos.filter((n) => n.tipo !== 'leccion').map((n) => n.id)].map((id, i) => {
+            const n = tramo.nodos.find((x) => x.id === id)
+            if (n) return <BotonNodo key={id} nodo={n} posicion={i} color={u.color} colorOsc={u.colorOsc} onClick={() => onNodo(n)} refActual={n.estado === 'actual' ? refActual : undefined} />
+            return (
+              <div key={id} className="flex flex-col items-center py-2" style={{ transform: `translateX(${ZIGZAG[i % ZIGZAG.length]}px)` }}>
+                <span className="border-arena-osc grid size-14 place-items-center rounded-full border-[3px] border-dashed text-[#b5a784]" role="img" aria-label={`${u.plan[i]}: ${T.comun.proximamente}`}>
+                  <Leaf size={22} aria-hidden />
+                </span>
+                <span className="text-tinta-suave mt-1 max-w-36 text-center text-[12px] leading-tight font-extrabold">
+                  {u.plan[i]} · {T.comun.proximamente}
+                </span>
+              </div>
+            )
+          })}
         </div>
       ) : (
         <div className="px-3 pt-5 pb-2 text-center">
-          <div className="flex justify-center gap-3" aria-hidden>
-            {Array.from({ length: u.lecciones }, (_, i) => (
-              <span key={i} className="border-arena-osc grid size-12 place-items-center rounded-full border-[3px] border-dashed text-[#b5a784]">
-                <Leaf size={20} />
+          <div className="flex flex-wrap justify-center gap-3" aria-hidden>
+            {u.plan.map((t) => (
+              <span key={t} className="border-arena-osc grid size-12 place-items-center rounded-full border-[3px] border-dashed text-[#b5a784]">
+                <Lock size={18} />
               </span>
             ))}
           </div>

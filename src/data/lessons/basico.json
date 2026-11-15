@@ -5,21 +5,54 @@
     "titulo": "Qué necesita una planta",
     "gancho": "¿Qué necesita de verdad una planta para vivir?",
     "tarjetas": [
-      { "tipo": "concepto", "imagen": "necesidades", "texto": "Una planta necesita cuatro cosas: luz, agua, aire y una tierra donde apoyar las raíces. Las cuatro trabajan juntas." },
-      { "tipo": "por_que", "imagen": "ventana-sol", "texto": "Con la luz, la planta fabrica su propio alimento: azúcares que arma con agua y con un gas que toma del aire. Por eso, sin luz suficiente pasa hambre por más que la riegues." },
+      {
+        "tipo": "concepto",
+        "imagen": "necesidades",
+        "texto": "Una planta necesita cuatro cosas: luz, agua, aire y una tierra donde apoyar las raíces. Las cuatro trabajan juntas."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "ventana-sol",
+        "texto": "Con la luz, la planta fabrica su propio alimento: azúcares que arma con agua y con un gas que toma del aire. Por eso, sin luz suficiente pasa hambre por más que la riegues."
+      },
       {
         "tipo": "tactil",
         "imagen": "planta-partes",
         "texto": "Tocá cada parte de la planta para ver qué hace.",
         "zonas": [
-          { "id": "hojas", "etiqueta": "Hojas", "texto": "Atrapan la luz y ahí se fabrica el alimento. También intercambian gases con el aire." },
-          { "id": "tallo", "etiqueta": "Tallo", "texto": "Sostiene las hojas y transporta agua y alimento por toda la planta." },
-          { "id": "raices", "etiqueta": "Raíces", "texto": "Toman agua y nutrientes de la tierra y sujetan la planta. También necesitan aire." },
-          { "id": "maceta", "etiqueta": "Maceta", "texto": "Guarda la tierra. Tiene que tener un agujero abajo para que salga el agua que sobra." }
+          {
+            "id": "hojas",
+            "etiqueta": "Hojas",
+            "texto": "Atrapan la luz y ahí se fabrica el alimento. También intercambian gases con el aire."
+          },
+          {
+            "id": "tallo",
+            "etiqueta": "Tallo",
+            "texto": "Sostiene las hojas y transporta agua y alimento por toda la planta."
+          },
+          {
+            "id": "raices",
+            "etiqueta": "Raíces",
+            "texto": "Toman agua y nutrientes de la tierra y sujetan la planta. También necesitan aire."
+          },
+          {
+            "id": "maceta",
+            "etiqueta": "Maceta",
+            "texto": "Guarda la tierra. Tiene que tener un agujero abajo para que salga el agua que sobra."
+          }
         ]
       },
-      { "tipo": "comparativa", "imagen_mal": "maceta-sin-drenaje", "imagen_bien": "maceta-drenaje", "texto": "Las raíces necesitan aire además de agua. Si la tierra queda empapada, los huequitos de aire se llenan de agua y las raíces se ahogan." },
-      { "tipo": "dato_ba", "imagen": "calefaccion", "texto": "En Buenos Aires el invierno va de junio a agosto y viene con calefacción, que seca el aire de la casa. A muchas plantas de interior ese aire seco les cuesta." }
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "maceta-sin-drenaje",
+        "imagen_bien": "maceta-drenaje",
+        "texto": "Las raíces necesitan aire además de agua. Si la tierra queda empapada, los huequitos de aire se llenan de agua y las raíces se ahogan."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "calefaccion",
+        "texto": "En Buenos Aires el invierno va de junio a agosto y viene con calefacción, que seca el aire de la casa. A muchas plantas de interior ese aire seco les cuesta."
+      }
     ],
     "para_llevarte": [
       "Luz, agua, aire y tierra: las cuatro juntas.",
@@ -27,61 +60,91 @@
       "Las raíces necesitan agua, pero también aire."
     ],
     "quiz": [
-      { "tipo": "opcion_multiple", "pregunta": "¿Para qué usa la luz una planta?", "opciones": ["Para calentarse", "Para fabricar su propio alimento", "Para tomar agua"], "correcta": 1, "explicacion": "Con la luz arma azúcares a partir de agua y aire. Ese es su alimento." },
-      { "tipo": "verdadero_falso", "pregunta": "Las raíces solo necesitan agua.", "correcta": false, "explicacion": "También necesitan aire. Por eso el agua que sobra tiene que poder salir de la maceta." },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Para qué usa la luz una planta?",
+        "opciones": [
+          "Para calentarse",
+          "Para fabricar su propio alimento",
+          "Para tomar agua"
+        ],
+        "correcta": 1,
+        "explicacion": "Con la luz arma azúcares a partir de agua y aire. Ese es su alimento."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Las raíces solo necesitan agua.",
+        "correcta": false,
+        "explicacion": "También necesitan aire. Por eso el agua que sobra tiene que poder salir de la maceta."
+      },
       {
         "tipo": "unir",
         "pregunta": "Uní cada parte con lo que hace",
         "pares": [
-          { "a": "Hojas", "b": "Atrapan la luz" },
-          { "a": "Raíces", "b": "Toman agua y nutrientes" },
-          { "a": "Tallo", "b": "Sostiene y transporta" }
+          {
+            "a": "Hojas",
+            "b": "Atrapan la luz"
+          },
+          {
+            "a": "Raíces",
+            "b": "Toman agua y nutrientes"
+          },
+          {
+            "a": "Tallo",
+            "b": "Sostiene y transporta"
+          }
         ],
         "explicacion": "Las hojas atrapan la luz, las raíces toman agua y nutrientes, y el tallo sostiene y transporta."
       },
-      { "tipo": "opcion_multiple", "pregunta": "¿Qué pasa si la tierra queda siempre empapada?", "opciones": ["Las raíces se quedan sin aire", "La planta crece más rápido", "Las hojas atrapan más luz"], "correcta": 0, "explicacion": "El agua ocupa los huecos de aire de la tierra y las raíces se ahogan." }
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Qué pasa si la tierra queda siempre empapada?",
+        "opciones": [
+          "Las raíces se quedan sin aire",
+          "La planta crece más rápido",
+          "Las hojas atrapan más luz"
+        ],
+        "correcta": 0,
+        "explicacion": "El agua ocupa los huecos de aire de la tierra y las raíces se ahogan."
+      }
     ],
     "fuentes": [
-      { "titulo": "Extension Gardener Handbook, capítulo 3: Botany", "org": "NC State Extension", "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/3-botany", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Environmental factors affecting plant growth", "org": "Oregon State University Extension", "url": "https://extension.oregonstate.edu/gardening/techniques/environmental-factors-affecting-plant-growth", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Light for Houseplants", "org": "UF/IFAS Gardening Solutions", "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/light-for-houseplants/", "fecha_consulta": "2026-11-14" },
-      { "titulo": "How to grow houseplants", "org": "Royal Horticultural Society", "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Beautiful winter houseplants and care tips", "org": "Royal Horticultural Society", "url": "https://www.rhs.org.uk/plants/types/houseplants/winter-interest-houseplants-care", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Boletín Climatológico, Invierno 2024", "org": "Servicio Meteorológico Nacional (Argentina)", "url": "https://repositorio.smn.gob.ar/bitstream/handle/20.500.12160/2938/0069CL2024.pdf?sequence=1&isAllowed=y", "fecha_consulta": "2026-11-14" }
-    ],
-    "confianza": "alta",
-    "xp": 20
-  },
-  {
-    "id": "basico-2",
-    "unidad": "basico",
-    "titulo": "Planta feliz, planta que sufre",
-    "gancho": "¿Cómo me doy cuenta de si mi planta está bien?",
-    "tarjetas": [
-      { "tipo": "comparativa", "imagen_mal": "planta-triste", "imagen_bien": "planta-feliz", "texto": "Las hojas son las que avisan. Si se caen, se ponen amarillas, se secan en los bordes o se manchan, algo del lugar o del riego no le está gustando." },
-      { "tipo": "concepto", "imagen": "planta-seca", "texto": "Hojas caídas, bordes marrones y crocantes, y tierra seca: lo más probable es que tenga sed. Suelen amarillear primero las hojas viejas de abajo." },
-      { "tipo": "concepto", "imagen": "planta-ahogada", "texto": "Hojas amarillas que se caen, viejas y nuevas a la vez, con la tierra mojada hace días: lo más probable es que le sobre agua." },
-      { "tipo": "por_que", "imagen": "dedo", "texto": "Ojo, que una planta con agua de más también se puede ver caída, igual que una con sed. Por eso, antes de regar, metele el dedo a la tierra y fijate cómo está." },
-      { "tipo": "concepto", "imagen": "planta-estirada", "texto": "Si crece flaca, pálida y estirada, le está faltando luz. Si le aparecen manchas marrones y secas, puede ser demasiado sol directo." },
-      { "tipo": "concepto", "imagen": "planta-feliz", "texto": "Que cada tanto se seque una hoja vieja es parte de crecer: tranqui, no pasa nada. Si cambian de color muchas hojas juntas, ahí sí conviene revisar el riego y el lugar." }
-    ],
-    "para_llevarte": [
-      "Mirá las hojas: son las que avisan.",
-      "Antes de regar, tocá la tierra.",
-      "Una hoja vieja amarilla no es una emergencia."
-    ],
-    "quiz": [
-      { "tipo": "que_le_pasa", "pregunta": "Crece flaca, pálida y estirada. ¿Qué le pasa?", "imagen": "planta-estirada", "opciones": ["Le falta luz", "Le sobra agua", "Le sobra sol"], "correcta": 0, "explicacion": "El crecimiento débil, pálido y alargado es la señal típica de poca luz." },
-      { "tipo": "que_le_pasa", "pregunta": "Tierra mojada hace días y hojas amarillas que se caen. ¿Qué le pasa?", "imagen": "planta-ahogada", "opciones": ["Tiene sed", "Le sobra agua", "Le sobra luz"], "correcta": 1, "explicacion": "Tierra empapada y hojas amarillas que se caen suelen ser señal de exceso de riego." },
-      { "tipo": "verdadero_falso", "pregunta": "Si la planta está caída, seguro le falta agua.", "correcta": false, "explicacion": "También puede estar caída por exceso de agua. Tocá la tierra antes de regar." },
-      { "tipo": "verdadero_falso", "pregunta": "Si se seca una hoja vieja, la planta se está muriendo.", "correcta": false, "explicacion": "Las hojas viejas se van renovando. Prestá atención solo si son muchas a la vez." }
-    ],
-    "fuentes": [
-      { "titulo": "How to help a poorly houseplant", "org": "Royal Horticultural Society", "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant", "fecha_consulta": "2026-11-14" },
-      { "titulo": "How to grow houseplants", "org": "Royal Horticultural Society", "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Houseplant Care", "org": "University of Wisconsin-Madison Extension", "url": "https://hort.extension.wisc.edu/articles/houseplant-care/", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Houseplants: The Ins and Outs of Light and Water", "org": "University of California Agriculture and Natural Resources", "url": "https://www.ucanr.edu/blog/over-fence-alameda-county/article/houseplants-ins-and-outs-light-and-water", "fecha_consulta": "2026-11-14" },
-      { "titulo": "How to Care for Houseplants", "org": "Iowa State University Extension", "url": "https://yardandgarden.extension.iastate.edu/how-to/how-care-houseplants", "fecha_consulta": "2026-11-14" }
+      {
+        "titulo": "Extension Gardener Handbook, capítulo 3: Botany",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/3-botany",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Environmental factors affecting plant growth",
+        "org": "Oregon State University Extension",
+        "url": "https://extension.oregonstate.edu/gardening/techniques/environmental-factors-affecting-plant-growth",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Light for Houseplants",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/light-for-houseplants/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "How to grow houseplants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Beautiful winter houseplants and care tips",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/winter-interest-houseplants-care",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Boletín Climatológico, Invierno 2024",
+        "org": "Servicio Meteorológico Nacional (Argentina)",
+        "url": "https://repositorio.smn.gob.ar/bitstream/handle/20.500.12160/2938/0069CL2024.pdf?sequence=1&isAllowed=y",
+        "fecha_consulta": "2026-11-14"
+      }
     ],
     "confianza": "alta",
     "xp": 20
@@ -89,15 +152,156 @@
   {
     "id": "basico-3",
     "unidad": "basico",
+    "titulo": "Planta feliz, planta que sufre",
+    "gancho": "¿Cómo me doy cuenta de si mi planta está bien?",
+    "tarjetas": [
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "planta-triste",
+        "imagen_bien": "planta-feliz",
+        "texto": "Las hojas son las que avisan. Si se caen, se ponen amarillas, se secan en los bordes o se manchan, algo del lugar o del riego no le está gustando."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-seca",
+        "texto": "Hojas caídas, bordes marrones y crocantes, y tierra seca: lo más probable es que tenga sed. Suelen amarillear primero las hojas viejas de abajo."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-ahogada",
+        "texto": "Hojas amarillas que se caen, viejas y nuevas a la vez, con la tierra mojada hace días: lo más probable es que le sobre agua."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "dedo",
+        "texto": "Ojo, que una planta con agua de más también se puede ver caída, igual que una con sed. Por eso, antes de regar, metele el dedo a la tierra y fijate cómo está."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-estirada",
+        "texto": "Si crece flaca, pálida y estirada, le está faltando luz. Si le aparecen manchas marrones y secas, puede ser demasiado sol directo."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-feliz",
+        "texto": "Que cada tanto se seque una hoja vieja es parte de crecer: tranqui, no pasa nada. Si cambian de color muchas hojas juntas, ahí sí conviene revisar el riego y el lugar."
+      }
+    ],
+    "para_llevarte": [
+      "Mirá las hojas: son las que avisan.",
+      "Antes de regar, tocá la tierra.",
+      "Una hoja vieja amarilla no es una emergencia."
+    ],
+    "quiz": [
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Crece flaca, pálida y estirada. ¿Qué le pasa?",
+        "imagen": "planta-estirada",
+        "opciones": [
+          "Le falta luz",
+          "Le sobra agua",
+          "Le sobra sol"
+        ],
+        "correcta": 0,
+        "explicacion": "El crecimiento débil, pálido y alargado es la señal típica de poca luz."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Tierra mojada hace días y hojas amarillas que se caen. ¿Qué le pasa?",
+        "imagen": "planta-ahogada",
+        "opciones": [
+          "Tiene sed",
+          "Le sobra agua",
+          "Le sobra luz"
+        ],
+        "correcta": 1,
+        "explicacion": "Tierra empapada y hojas amarillas que se caen suelen ser señal de exceso de riego."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Si la planta está caída, seguro le falta agua.",
+        "correcta": false,
+        "explicacion": "También puede estar caída por exceso de agua. Tocá la tierra antes de regar."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Si se seca una hoja vieja, la planta se está muriendo.",
+        "correcta": false,
+        "explicacion": "Las hojas viejas se van renovando. Prestá atención solo si son muchas a la vez."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "How to help a poorly houseplant",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "How to grow houseplants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Houseplant Care",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/houseplant-care/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Houseplants: The Ins and Outs of Light and Water",
+        "org": "University of California Agriculture and Natural Resources",
+        "url": "https://www.ucanr.edu/blog/over-fence-alameda-county/article/houseplants-ins-and-outs-light-and-water",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "How to Care for Houseplants",
+        "org": "Iowa State University Extension",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/how-care-houseplants",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "alta",
+    "xp": 20
+  },
+  {
+    "id": "basico-4",
+    "unidad": "basico",
     "titulo": "Por qué adentro es distinto",
     "gancho": "¿Por qué adentro de casa cuesta más?",
     "tarjetas": [
-      { "tipo": "por_que", "imagen": "luz-poca", "texto": "Adentro hay muchísima menos luz que afuera, incluso en el ambiente más luminoso de la casa. Nuestros ojos se acostumbran y nos engañan: lo que vemos claro, para la planta puede ser penumbra." },
-      { "tipo": "comparativa", "imagen_mal": "luz-poca", "imagen_bien": "ventana-sol", "texto": "Un día de sol, afuera puede haber unas cien veces más luz que en un ambiente bien iluminado. Y apenas te alejás de la ventana, la luz baja rapidísimo." },
-      { "tipo": "concepto", "imagen": "maceta-drenaje", "texto": "En maceta hay poca tierra, y esa tierra se seca más rápido que el suelo de un jardín. Por eso la planta depende de tu riego." },
-      { "tipo": "concepto", "imagen": "calefaccion", "texto": "El aire de una casa suele ser más seco de lo que les gusta a las plantas tropicales, y la calefacción lo seca todavía más. Conviene tenerlas lejos de estufas y radiadores." },
-      { "tipo": "dato_ba", "imagen": "estaciones", "texto": "Acá el verano va de diciembre a febrero y el invierno de junio a agosto, al revés que en muchas guías de plantas. En invierno, con menos luz, crecen más despacio y piden menos agua." },
-      { "tipo": "concepto", "imagen": "planta-feliz", "texto": "La buena noticia: muchas plantas de interior vienen de selvas tropicales, donde crecen a la sombra de árboles más altos. Por eso se adaptan a vivir en una casa." }
+      {
+        "tipo": "por_que",
+        "imagen": "luz-poca",
+        "texto": "Adentro hay muchísima menos luz que afuera, incluso en el ambiente más luminoso de la casa. Nuestros ojos se acostumbran y nos engañan: lo que vemos claro, para la planta puede ser penumbra."
+      },
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "luz-poca",
+        "imagen_bien": "ventana-sol",
+        "texto": "Un día de sol, afuera puede haber unas cien veces más luz que en un ambiente bien iluminado. Y apenas te alejás de la ventana, la luz baja rapidísimo."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "maceta-drenaje",
+        "texto": "En maceta hay poca tierra, y esa tierra se seca más rápido que el suelo de un jardín. Por eso la planta depende de tu riego."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "calefaccion",
+        "texto": "El aire de una casa suele ser más seco de lo que les gusta a las plantas tropicales, y la calefacción lo seca todavía más. Conviene tenerlas lejos de estufas y radiadores."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "estaciones",
+        "texto": "Acá el verano va de diciembre a febrero y el invierno de junio a agosto, al revés que en muchas guías de plantas. En invierno, con menos luz, crecen más despacio y piden menos agua."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-feliz",
+        "texto": "La buena noticia: muchas plantas de interior vienen de selvas tropicales, donde crecen a la sombra de árboles más altos. Por eso se adaptan a vivir en una casa."
+      }
     ],
     "para_llevarte": [
       "Adentro hay mucha menos luz de la que parece.",
@@ -105,28 +309,97 @@
       "En invierno crecen menos y piden menos agua."
     ],
     "quiz": [
-      { "tipo": "verdadero_falso", "pregunta": "Un living luminoso tiene casi la misma luz que el exterior.", "correcta": false, "explicacion": "Adentro llega muchísima menos luz, aunque a nuestros ojos les parezca muy claro." },
-      { "tipo": "opcion_multiple", "pregunta": "En Buenos Aires, ¿cuándo crecen más despacio y piden menos agua?", "opciones": ["De diciembre a febrero", "De junio a agosto", "Todo el año igual"], "correcta": 1, "explicacion": "De junio a agosto es invierno acá: hay menos luz y las plantas frenan." },
-      { "tipo": "opcion_multiple", "pregunta": "¿Por qué una planta en maceta depende tanto de tu riego?", "opciones": ["Porque la maceta le da sombra", "Porque tiene poca tierra y se seca rápido", "Porque recibe más luz"], "correcta": 1, "explicacion": "La tierra de una maceta es poca y se seca antes que el suelo de un jardín." },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Un living luminoso tiene casi la misma luz que el exterior.",
+        "correcta": false,
+        "explicacion": "Adentro llega muchísima menos luz, aunque a nuestros ojos les parezca muy claro."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "En Buenos Aires, ¿cuándo crecen más despacio y piden menos agua?",
+        "opciones": [
+          "De diciembre a febrero",
+          "De junio a agosto",
+          "Todo el año igual"
+        ],
+        "correcta": 1,
+        "explicacion": "De junio a agosto es invierno acá: hay menos luz y las plantas frenan."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Por qué una planta en maceta depende tanto de tu riego?",
+        "opciones": [
+          "Porque la maceta le da sombra",
+          "Porque tiene poca tierra y se seca rápido",
+          "Porque recibe más luz"
+        ],
+        "correcta": 1,
+        "explicacion": "La tierra de una maceta es poca y se seca antes que el suelo de un jardín."
+      },
       {
         "tipo": "unir",
         "pregunta": "Uní cada cosa con lo que cambia adentro de casa",
         "pares": [
-          { "a": "Luz", "b": "Muchísima menos" },
-          { "a": "Tierra", "b": "Solo la de la maceta" },
-          { "a": "Aire", "b": "Más seco" }
+          {
+            "a": "Luz",
+            "b": "Muchísima menos"
+          },
+          {
+            "a": "Tierra",
+            "b": "Solo la de la maceta"
+          },
+          {
+            "a": "Aire",
+            "b": "Más seco"
+          }
         ],
         "explicacion": "Adentro hay menos luz, menos tierra y un aire más seco que afuera."
       }
     ],
     "fuentes": [
-      { "titulo": "Indoor Plants: Cleaning, Fertilizing, Containers & Light Requirements", "org": "Clemson Cooperative Extension (HGIC)", "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Extension Gardener Handbook, capítulo 18: Plants Grown in Containers", "org": "NC State Extension", "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers", "fecha_consulta": "2026-11-14" },
-      { "titulo": "How to Care for Houseplants", "org": "Iowa State University Extension", "url": "https://yardandgarden.extension.iastate.edu/how-to/how-care-houseplants", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Light for Houseplants", "org": "UF/IFAS Gardening Solutions", "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/light-for-houseplants/", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Beautiful winter houseplants and care tips", "org": "Royal Horticultural Society", "url": "https://www.rhs.org.uk/plants/types/houseplants/winter-interest-houseplants-care", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Boletín Climatológico, Verano 2023-24", "org": "Servicio Meteorológico Nacional (Argentina)", "url": "https://repositorio.smn.gob.ar/bitstream/handle/20.500.12160/2809/0039CL2024.pdf", "fecha_consulta": "2026-11-14" },
-      { "titulo": "Boletín Climatológico, Invierno 2024", "org": "Servicio Meteorológico Nacional (Argentina)", "url": "https://repositorio.smn.gob.ar/bitstream/handle/20.500.12160/2938/0069CL2024.pdf?sequence=1&isAllowed=y", "fecha_consulta": "2026-11-14" }
+      {
+        "titulo": "Indoor Plants: Cleaning, Fertilizing, Containers & Light Requirements",
+        "org": "Clemson Cooperative Extension (HGIC)",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Extension Gardener Handbook, capítulo 18: Plants Grown in Containers",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "How to Care for Houseplants",
+        "org": "Iowa State University Extension",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/how-care-houseplants",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Light for Houseplants",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/light-for-houseplants/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Beautiful winter houseplants and care tips",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/winter-interest-houseplants-care",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Boletín Climatológico, Verano 2023-24",
+        "org": "Servicio Meteorológico Nacional (Argentina)",
+        "url": "https://repositorio.smn.gob.ar/bitstream/handle/20.500.12160/2809/0039CL2024.pdf",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Boletín Climatológico, Invierno 2024",
+        "org": "Servicio Meteorológico Nacional (Argentina)",
+        "url": "https://repositorio.smn.gob.ar/bitstream/handle/20.500.12160/2938/0069CL2024.pdf?sequence=1&isAllowed=y",
+        "fecha_consulta": "2026-11-14"
+      }
     ],
     "confianza": "alta",
     "xp": 20

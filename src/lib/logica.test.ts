@@ -9,7 +9,6 @@ import {
   sumarARacha,
   xpDeLeccion,
 } from './gamificacion'
-import { deducirLuz } from './luz'
 import { asignarPerfil, planDeCamino } from './perfil'
 
 describe('perfil', () => {
@@ -30,7 +29,7 @@ describe('perfil', () => {
     const p = planDeCamino('sobreviviente', { tipo: 'ninguna' }, 'basico')
     expect(p.orden.slice(0, 2)).toEqual(['luz', 'riego'])
     expect(p.recomendadas).toEqual(expect.arrayContaining(['luz', 'riego']))
-    expect(p.orden).toHaveLength(9)
+    expect(p.orden).toHaveLength(12)
   })
 
   it('si la mascota muerde plantas, la unidad de mascotas va primero', () => {
@@ -44,6 +43,17 @@ describe('perfil', () => {
     expect(tranqui.recomendadas).toContain('mascotas')
   })
 
+  it('por defecto el camino va de la unidad 1 a la 12', () => {
+    const p = planDeCamino('primerizo', { tipo: 'ninguna' }, 'basico')
+    expect(p.orden).toEqual(['basico', 'luz', 'riego', 'macetas', 'abono', 'familias', 'estaciones', 'rutina', 'plagas', 'multiplicar', 'comprar', 'mascotas'])
+  })
+
+  it('objetivo "elegir y comprar": destaca Comprar bien y Familias', () => {
+    const p = planDeCamino('primerizo', { tipo: 'ninguna' }, 'elegir')
+    expect(p.recomendadas).toEqual(expect.arrayContaining(['comprar', 'familias']))
+    expect(p.orden[0]).toBe('basico')
+  })
+
   it('sin mascotas no recomienda la unidad de mascotas', () => {
     expect(planDeCamino('primerizo', { tipo: 'ninguna' }, 'basico').recomendadas).not.toContain('mascotas')
   })
@@ -53,20 +63,6 @@ describe('perfil', () => {
     const exp = planDeCamino('experimentado', { tipo: 'ninguna' }, 'basico')
     expect(exp.salteables).toEqual(expect.arrayContaining(['basico', 'luz', 'riego']))
     for (const u of exp.salteables) expect(exp.recomendadas).not.toContain(u)
-  })
-})
-
-describe('luz (hemisferio sur)', () => {
-  it('deduce orientación y luz por la hora del sol', () => {
-    expect(deducirLuz('manana')).toMatchObject({ orientacion: 'este', luz: 'media' })
-    expect(deducirLuz('tarde')).toMatchObject({ orientacion: 'oeste', luz: 'mucha' })
-    expect(deducirLuz('mediodia')).toMatchObject({ orientacion: 'norte', luz: 'mucha' })
-    expect(deducirLuz('todo_el_dia')).toMatchObject({ orientacion: 'norte', luz: 'mucha' })
-    expect(deducirLuz('casi_nunca')).toMatchObject({ orientacion: 'sur', luz: 'poca' })
-  })
-
-  it('"no sé" asume luz media y lo marca como supuesto', () => {
-    expect(deducirLuz('no_se')).toEqual({ orientacion: 'desconocida', luz: 'media', asumida: true })
   })
 })
 

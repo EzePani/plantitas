@@ -3,17 +3,18 @@ import type { Leccion, Pregunta } from './esquema'
 import basico from './basico.json'
 import luz from './luz.json'
 import riego from './riego.json'
-import macetas from './macetas.json'
 import mascotas from './mascotas.json'
 
 export type { Leccion, Pregunta, Tarjeta, Fuente } from './esquema'
 
-/** Unidades con contenido cargado. Las de la tanda 2 se agregan acá cuando estén listas. */
+/**
+ * Unidades con contenido cargado (tanda 1). Las de las tandas 2 y 3 se agregan acá cuando estén listas.
+ * En ./pendientes hay lecciones ya verificadas de unidades que todavía no se lanzaron.
+ */
 export const LECCIONES: Partial<Record<UnidadId, Leccion[]>> = {
   basico: basico as Leccion[],
   luz: luz as Leccion[],
   riego: riego as Leccion[],
-  macetas: macetas as Leccion[],
   mascotas: mascotas as Leccion[],
 }
 
