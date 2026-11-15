@@ -2,11 +2,12 @@ import { describe, expect, it } from 'vitest'
 import type { Planta } from '../data/plantas/esquema'
 import { esApta, seguridadPara } from './mascotas'
 import { recomendar, type DatosEspacio } from './recomendador'
+import type { PerfilLuz } from './tipos'
 
-type Extra = { luz?: Partial<Planta['luz']>; gato?: Planta['mascotas']['toxicidad_gato']; perro?: Planta['mascotas']['toxicidad_perro'] } & Partial<Omit<Planta, 'luz' | 'mascotas'>>
+type Extra = { gato?: Planta['mascotas']['toxicidad_gato']; perro?: Planta['mascotas']['toxicidad_perro'] } & Partial<Omit<Planta, 'mascotas'>>
 
 function planta(id: string, x: Extra = {}): Planta {
-  const { luz, gato = 'segura', perro = 'segura', ...resto } = x
+  const { gato = 'segura', perro = 'segura', ...resto } = x
   return {
     id,
     nombre_comun: id,
@@ -14,7 +15,12 @@ function planta(id: string, x: Extra = {}): Planta {
     nombre_cientifico: id,
     familia: 'x',
     grupo: 'follaje_tropical',
-    luz: { necesidad: 'media', tolera: [], sol_directo: false, detalle: 'x', confianza: 'alta', ...luz },
+    luz_requerida: 'indirecta_brillante',
+    luz_tolerada: [],
+    horas_sol_directo: 0,
+    tolera_sol_tarde: false,
+    sensibilidad_calor: 'media',
+    luz: { detalle: 'x', confianza: 'alta', confianza_sol: 'alta' },
     riego: { nivel: 'medio', verano: 'x', invierno: 'x', confianza: 'alta' },
     humedad: { nivel: 'media', detalle: 'x', confianza: 'alta' },
     sustrato: { tipo: 'x', confianza: 'alta' },
@@ -47,7 +53,14 @@ function planta(id: string, x: Extra = {}): Planta {
   }
 }
 
-const base: DatosEspacio = { tipo: 'living', horaSol: 'manana', tamano: 'mediano', mascotas: 'ninguna', esfuerzo: 'medio' }
+const sol = (desde: number, hasta: number, obstaculos: PerfilLuz['obstaculos'] = []): PerfilLuz => ({ tipo: 'directa', tramos: [{ desde, hasta }], obstaculos })
+const INDIRECTA: PerfilLuz = { tipo: 'indirecta', tramos: [], obstaculos: [] }
+const BAJA: PerfilLuz = { tipo: 'baja', tramos: [], obstaculos: [] }
+const NO_SE: PerfilLuz = { tipo: 'no_se', tramos: [], obstaculos: [] }
+const MANANA = sol(8, 12)
+const TARDE = sol(15, 19)
+
+const base: DatosEspacio = { tipo: 'living', luz: INDIRECTA, tamano: 'mediano', mascotas: 'ninguna', esfuerzo: 'medio' }
 
 describe('seguridad para mascotas', () => {
   const soloGato = planta('a', { gato: 'toxica' })
@@ -87,11 +100,12 @@ describe('recomendador', () => {
     planta('toxica-gato', { gato: 'toxica', tolerancia_descuido: 5 }),
     planta('dudosa-perro', { perro: 'no_verificada' }),
     planta('toxica-ambos', { gato: 'toxica', perro: 'toxica' }),
-    planta('sol', { luz: { necesidad: 'mucha', sol_directo: true }, apta: { interior: true, balcon: true, nota_balcon: '' } }),
-    planta('sombra', { luz: { necesidad: 'poca', tolera: ['media'] } }),
+    planta('sol', { luz_requerida: 'directa', luz_tolerada: ['indirecta_brillante'], horas_sol_directo: 6, tolera_sol_tarde: true, sensibilidad_calor: 'baja', apta: { interior: true, balcon: true, nota_balcon: '' } }),
+    planta('sol-suave', { horas_sol_directo: 3, apta: { interior: true, balcon: true, nota_balcon: '' } }),
+    planta('sombra', { luz_tolerada: ['indirecta_media', 'baja'] }),
     planta('grande', { tamano: 'grande' }),
     planta('dificil', { dificultad: 'dificil', tolerancia_descuido: 1 }),
-    planta('helecho', { humedad: { nivel: 'alta', detalle: 'x', confianza: 'alta' } }),
+    planta('helecho', { humedad: { nivel: 'alta', detalle: 'x', confianza: 'alta' }, sensibilidad_calor: 'alta' }),
   ]
   const ids = (d: Partial<DatosEspacio>, n = 20) => recomendar(catalogo, { ...base, ...d }, n).recomendadas.map((r) => r.planta.id)
 
@@ -117,10 +131,10 @@ describe('recomendador', () => {
 
   it('el filtro se cumple en todas las combinaciones de espacio', () => {
     for (const tipo of ['living', 'dormitorio', 'cocina', 'bano', 'balcon', 'escritorio'] as const)
-      for (const horaSol of ['manana', 'mediodia', 'tarde', 'todo_el_dia', 'casi_nunca', 'no_se'] as const)
+      for (const luz of [MANANA, TARDE, sol(9, 17), sol(8, 12, ['cortina']), INDIRECTA, BAJA, NO_SE])
         for (const mascotas of ['gato', 'perro', 'ambos'] as const)
           for (const esfuerzo of ['poco', 'medio', 'mucho'] as const) {
-            const r = recomendar(catalogo, { tipo, horaSol, tamano: 'mediano', mascotas, esfuerzo }, 20)
+            const r = recomendar(catalogo, { tipo, luz, tamano: 'mediano', mascotas, esfuerzo }, 20)
             for (const x of r.recomendadas) expect(esApta(x.planta, mascotas), `${x.planta.id} con ${mascotas}`).toBe(true)
           }
   })
@@ -129,30 +143,52 @@ describe('recomendador', () => {
     expect(ids({})).toContain('toxica-gato')
   })
 
-  it('respeta la luz deducida del horario de sol', () => {
-    expect(ids({ horaSol: 'casi_nunca' })).toEqual(['sombra'])
-    const mucha = ids({ horaSol: 'todo_el_dia' })
-    expect(mucha[0]).toBe('sol')
-    expect(mucha).not.toContain('sombra')
-    const media = ids({ horaSol: 'manana' })
-    expect(media).toContain('sombra')
-    expect(media).not.toContain('sol')
+  it('cada espacio usa su propio perfil de luz', () => {
+    expect(ids({ luz: BAJA })).toEqual(['sombra'])
+    expect(ids({ luz: NO_SE })).toEqual(['sombra'])
+    const brillante = ids({ luz: INDIRECTA })
+    expect(brillante).toContain('segura-media')
+    expect(brillante).toContain('sol')
+    expect(brillante[brillante.length - 1]).not.toBe('segura-media')
   })
 
-  it('adentro, con mucha luz, acepta las de luz indirecta avisando que hay que filtrarla; en el balcón no', () => {
-    const r = recomendar(catalogo, { ...base, horaSol: 'todo_el_dia' }, 20)
-    const media = r.recomendadas.find((x) => x.planta.id === 'segura-media')
-    expect(media?.motivos).toContain('luz_filtrada')
-    expect(ids({ tipo: 'balcon', horaSol: 'todo_el_dia' })).not.toContain('segura-media')
+  it('"no sé" asume luz indirecta media y lo avisa', () => {
+    expect(recomendar(catalogo, { ...base, luz: NO_SE }).luz).toMatchObject({ categoria: 'indirecta_media', asumida: true })
   })
 
-  it('"no sé" usa luz media y lo avisa', () => {
-    const r = recomendar(catalogo, { ...base, horaSol: 'no_se' })
-    expect(r).toMatchObject({ luz: 'media', luzAsumida: true })
+  it('en el balcón con sol, solo van las que toleran esas horas de sol directo', () => {
+    expect(ids({ tipo: 'balcon', luz: MANANA })).toEqual(['sol', 'sol-suave'])
+    // 8 horas: la de sol suave (3 h) ya no alcanza
+    expect(ids({ tipo: 'balcon', luz: sol(9, 17) })).toEqual(['sol'])
   })
 
-  it('en el balcón solo van las aptas para balcón', () => {
-    expect(ids({ tipo: 'balcon', horaSol: 'todo_el_dia' })).toEqual(['sol'])
+  it('aviso de calor: con sol de tarde en el balcón solo quedan las que lo toleran', () => {
+    expect(recomendar(catalogo, { ...base, tipo: 'balcon', luz: TARDE }).luz.avisoCalor).toBe(true)
+    expect(ids({ tipo: 'balcon', luz: TARDE })).toEqual(['sol'])
+    // Sol de mañana pero a través de un vidrio: también hay aviso de calor
+    expect(ids({ tipo: 'balcon', luz: sol(8, 12, ['vidrio']) })).toEqual(['sol'])
+  })
+
+  it('adentro, con sol directo, acepta las de luz indirecta avisando que hay que filtrarla', () => {
+    const r = recomendar(catalogo, { ...base, luz: MANANA }, 20)
+    expect(r.recomendadas[0].planta.id).toBe('sol')
+    expect(r.recomendadas.find((x) => x.planta.id === 'segura-media')?.motivos).toContain('luz_filtrada')
+    expect(r.recomendadas.find((x) => x.planta.id === 'sol')?.motivos).toEqual(expect.arrayContaining(['luz_ideal', 'aguanta_sol']))
+  })
+
+  it('una cortina convierte el sol directo en luz indirecta brillante', () => {
+    const r = recomendar(catalogo, { ...base, luz: sol(14, 19, ['cortina']) }, 20)
+    expect(r.luz).toMatchObject({ categoria: 'indirecta_brillante', avisoCalor: false })
+    expect(r.recomendadas.find((x) => x.planta.id === 'segura-media')?.motivos).toContain('luz_ideal')
+  })
+
+  it('con aviso de calor, las sensibles bajan y aparecen en "mejor evitar"', () => {
+    const tarde = recomendar(catalogo, { ...base, luz: TARDE }, 20)
+    const manana = recomendar(catalogo, { ...base, luz: MANANA }, 20)
+    const pos = (r: typeof tarde, id: string) => r.recomendadas.findIndex((x) => x.planta.id === id)
+    expect(pos(tarde, 'helecho')).toBeGreaterThan(pos(manana, 'helecho'))
+    const corto = recomendar(catalogo, { ...base, luz: TARDE }, 3)
+    expect(corto.evitar).toContainEqual({ planta: catalogo.find((p) => p.id === 'helecho'), motivo: 'calor' })
   })
 
   it('con poco esfuerzo prioriza las que aguantan descuido', () => {
@@ -183,7 +219,7 @@ describe('recomendador', () => {
   })
 
   it('"mejor evitar" por luz cuando no hay mascotas', () => {
-    const r = recomendar(catalogo, { ...base, horaSol: 'casi_nunca' })
+    const r = recomendar(catalogo, { ...base, luz: BAJA })
     expect(r.evitar).toHaveLength(1)
     expect(r.evitar[0].motivo).toBe('poca_luz')
   })

@@ -3,7 +3,7 @@ import peligrosas from '../peligrosas.json'
 import type { Fuente } from '../lessons'
 import type { Planta } from './esquema'
 
-export type { Planta, NivelLuz, Toxicidad } from './esquema'
+export type { Planta, CategoriaLuz, Toxicidad } from './esquema'
 
 export const PLANTAS = plantas as Planta[]
 

@@ -10,13 +10,9 @@
     "familia": "Asphodelaceae",
     "grupo": "suculenta_cactus",
     "luz": {
-      "necesidad": "mucha",
-      "tolera": [
-        "media"
-      ],
-      "sol_directo": true,
       "detalle": "Le gusta la mucha claridad: cerca de una ventana bien soleada anda bárbaro. Si el sol del verano pega muy fuerte, correla un poquito del vidrio.",
-      "confianza": "media"
+      "confianza": "media",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "bajo",
@@ -110,7 +106,14 @@
       "Luz: NC State y Penn State hablan de sol pleno a parcial; RHS recomienda luz brillante indirecta, lejos del sol directo fuerte. Se dejó sol_directo en true pero con la aclaración de correrla si el sol de verano es muy intenso.",
       "Familia: ASPCA la lista como Liliaceae; NC State como Asphodelaceae. Se usó Asphodelaceae.",
       "Humedad: solo RHS la menciona (humedad normal de casa, sin rociar); NC State y Penn State no dicen nada."
-    ]
+    ],
+    "luz_requerida": "directa",
+    "luz_tolerada": [
+      "indirecta_brillante"
+    ],
+    "horas_sol_directo": 6,
+    "tolera_sol_tarde": true,
+    "sensibilidad_calor": "baja"
   },
   {
     "id": "anturio",
@@ -123,11 +126,9 @@
     "familia": "Araceae",
     "grupo": "con_flor",
     "luz": {
-      "necesidad": "media",
-      "tolera": [],
-      "sol_directo": false,
       "detalle": "Quiere luz brillante pero indirecta: una ventana al este o al oeste, o una al norte con cortina fina. El sol directo de verano le quema las hojas.",
-      "confianza": "alta"
+      "confianza": "alta",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "medio",
@@ -214,7 +215,12 @@
       "Toxicidad: la ficha de ASPCA para 'flamingo flower' corresponde a Anthurium scherzeranum, no a A. andraeanum. La especie exacta está respaldada por NC State (problema para perros y gatos) y el género por Pet Poison Helpline.",
       "Gravedad: NC State la clasifica como severidad baja, pero describe los mismos síntomas que ASPCA da para el espatifilo (que NC State clasifica como media). Se tomó 'moderada' por criterio conservador.",
       "Riego de invierno: ni RHS ni NC State dan una pauta distinta para el invierno; se mantuvo la misma regla."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "alta"
   },
   {
     "id": "jade",
@@ -227,13 +233,9 @@
     "familia": "Crassulaceae",
     "grupo": "suculenta_cactus",
     "luz": {
-      "necesidad": "mucha",
-      "tolera": [
-        "media"
-      ],
-      "sol_directo": true,
       "detalle": "Crece mejor con varias horas de sol directo, aunque se la banca con luz brillante indirecta. Si la pasás de adentro al sol pleno, hacelo de a poco para que no se queme.",
-      "confianza": "alta"
+      "confianza": "alta",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "bajo",
@@ -339,7 +341,14 @@
       "Luz: Wisconsin Extension y la ficha de RHS piden sol directo o pleno; la guía de RHS Urban Show habla de luz brillante indirecta y NC State sugiere algo de sombra a la tarde. Se eligió \"mucha\" con tolerancia a \"media\".",
       "Nombre: la ficha de ASPCA usa Crassula argentea; NC State indica que es el nombre anterior de Crassula ovata, y la nota de ASPCA sobre suculentas nombra directamente a Crassula ovata.",
       "Partes tóxicas: ninguna fuente abierta las especifica (ASPCA indica principio tóxico desconocido); se dejó en null."
-    ]
+    ],
+    "luz_requerida": "directa",
+    "luz_tolerada": [
+      "indirecta_brillante"
+    ],
+    "horas_sol_directo": 6,
+    "tolera_sol_tarde": true,
+    "sensibilidad_calor": "baja"
   },
   {
     "id": "begonia",
@@ -352,11 +361,9 @@
     "familia": "Begoniaceae",
     "grupo": "follaje_tropical",
     "luz": {
-      "necesidad": "media",
-      "tolera": [],
-      "sol_directo": false,
       "detalle": "Luz brillante y filtrada. En verano protegela del sol directo, que le quema las hojas.",
-      "confianza": "alta"
+      "confianza": "alta",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "medio",
@@ -438,7 +445,12 @@
       "Tipo de oxalato: ASPCA dice oxalatos de calcio solubles; NC State dice solo 'oxalato de calcio'.",
       "Sustrato: la sección de RHS sobre begonias rex no nombra una mezcla; el dato sale de NC State y de la indicación general de RHS de mantener el compost húmedo pero bien drenado.",
       "ASPCA y NC State mencionan falla renal solo en animales de pastoreo, no en perros ni gatos; por eso no se puso advertencia grave."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "alta"
   },
   {
     "id": "cactus-de-navidad",
@@ -451,11 +463,9 @@
     "familia": "Cactaceae",
     "grupo": "con_flor",
     "luz": {
-      "necesidad": "media",
-      "tolera": [],
-      "sol_directo": false,
       "detalle": "Prefiere luz brillante indirecta o sombra liviana. El sol fuerte del verano le decolora los tallos; el sol suave de otoño e invierno sí le viene bien.",
-      "confianza": "alta"
+      "confianza": "alta",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "medio",
@@ -540,7 +550,12 @@
       "Oscuridad necesaria para florecer: NC State dice al menos 13 horas; Clemson, 14 o más durante 6 semanas.",
       "Nombre en ASPCA: la ficha \"Christmas Cactus\" usa Schlumbergera bridgesii; la confirmación para S. x buckleyi viene de NC State. No se abrió una ficha específica de S. truncata.",
       "Humedad: solo NC State la menciona; Clemson no trata la humedad ambiente."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "alta"
   },
   {
     "id": "calatea",
@@ -553,11 +568,9 @@
     "familia": "Marantaceae",
     "grupo": "amiga_humedad",
     "luz": {
-      "necesidad": "media",
-      "tolera": [],
-      "sol_directo": false,
       "detalle": "Lugar luminoso pero protegido del sol directo. En verano le va bien una ventana al sur o al este; en invierno podés acercarla a una ventana al norte.",
-      "confianza": "alta"
+      "confianza": "alta",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "alto",
@@ -638,7 +651,12 @@
     "discrepancias": [
       "Se tomó Goeppertia makoyana como especie de referencia. La guía de RHS cubre las 'calateas' en general (Goeppertia, Ctenanthe, Stromanthe) y la ficha de ASPCA es de Calathea spp.",
       "Luz: los atributos de NC State listan 'sombra parcial (2-6 h de sol directo)', pero su texto y RHS piden luz indirecta sin sol directo. Se tomó el criterio sin sol directo."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "alta"
   },
   {
     "id": "cinta",
@@ -651,13 +669,9 @@
     "familia": "Asparagaceae",
     "grupo": "follaje_tropical",
     "luz": {
-      "necesidad": "media",
-      "tolera": [
-        "poca"
-      ],
-      "sol_directo": false,
       "detalle": "Va bien con luz media a brillante, siempre indirecta: el sol directo le quema las hojas. Aguanta lugares más sombríos.",
-      "confianza": "alta"
+      "confianza": "alta",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "medio",
@@ -762,7 +776,15 @@
     "discrepancias": [
       "Toxicidad: la ficha de ASPCA y NC State la dan como no tóxica para gatos y perros, pero un artículo de ASPCA de 2019 la menciona como 'levemente tóxica' (vómitos y diarrea leves tras ingerirla) y Clemson aclara que comer mucha puede causar vómitos o diarrea. Se mantuvo 'segura' por la ficha oficial, con confianza media y aviso en la nota.",
       "Riego: NC State dice que crece mejor con tierra húmeda; Wisconsin y Clemson recomiendan dejar secar un poco entre riegos. Se usó esta última regla, más segura contra la pudrición."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media"
   },
   {
     "id": "echeveria",
@@ -774,13 +796,9 @@
     "familia": "Crassulaceae",
     "grupo": "suculenta_cactus",
     "luz": {
-      "necesidad": "mucha",
-      "tolera": [
-        "media"
-      ],
-      "sol_directo": true,
       "detalle": "Necesita muchísima claridad y disfruta del sol directo. Con poca luz se estira y pierde la forma de roseta.",
-      "confianza": "media"
+      "confianza": "media",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "bajo",
@@ -880,7 +898,14 @@
       "Luz: la ficha de RHS de E. elegans, NC State y UF/IFAS indican sol pleno; la guía de RHS del género recomienda luz brillante indirecta. Se eligió \"mucha\" con sol directo y confianza media.",
       "Riego de invierno: la ficha de RHS de la especie dice no regar en reposo; la guía de RHS del género dice un riego liviano cada varias semanas. Se tomó el riego mínimo.",
       "Toxicidad: la ficha de ASPCA \"Mexican Snowballs\" da el nombre científico solo a nivel género (escrito \"Echevaria\"); la confirmación a nivel especie viene de NC State."
-    ]
+    ],
+    "luz_requerida": "directa",
+    "luz_tolerada": [
+      "indirecta_brillante"
+    ],
+    "horas_sol_directo": 6,
+    "tolera_sol_tarde": true,
+    "sensibilidad_calor": "baja"
   },
   {
     "id": "espatifilo",
@@ -894,13 +919,9 @@
     "familia": "Araceae",
     "grupo": "con_flor",
     "luz": {
-      "necesidad": "media",
-      "tolera": [
-        "poca"
-      ],
-      "sol_directo": false,
       "detalle": "Crece mejor con luz brillante indirecta, cerca de una ventana pero sin sol directo. Aguanta lugares con poca luz, aunque ahí crece lento y casi no florece.",
-      "confianza": "alta"
+      "confianza": "alta",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "medio",
@@ -987,7 +1008,15 @@
       "Humedad: RHS dice que prefiere humedad moderada; NC State no la pide como requisito y solo menciona que el aire seco puede dar puntas marrones. Se tomó 'media'.",
       "Gravedad: NC State la clasifica como severidad media; la FDA dice que los síntomas suelen resolverse solos. Se tomó 'moderada' (criterio más conservador).",
       "Partes tóxicas: NC State nombra las hojas; ASPCA y FDA hablan de la planta en general."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media"
   },
   {
     "id": "ficus-lyrata",
@@ -1000,13 +1029,9 @@
     "familia": "Moraceae",
     "grupo": "follaje_tropical",
     "luz": {
-      "necesidad": "media",
-      "tolera": [
-        "mucha"
-      ],
-      "sol_directo": false,
       "detalle": "Necesita mucha claridad: luz brillante indirecta o filtrada, lo más cerca posible de una ventana. Protegelo del sol directo de la tarde, que le quema las hojas.",
-      "confianza": "alta"
+      "confianza": "alta",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "medio",
@@ -1101,7 +1126,12 @@
       "Toxicidad: ASPCA no tiene ficha propia de Ficus lyrata en su lista (la ficha 'Fiddle-Leaf' es un filodendro, Philodendron bipennifolium). La cubren un artículo de ASPCA de 2019 (levemente tóxica para perros y gatos), NC State y la ficha del género Ficus de Pet Poison Helpline. Confianza media.",
       "Principio tóxico: NC State lo atribuye a oxalatos de calcio insolubles; Pet Poison Helpline y ASPCA hablan de savia irritante.",
       "Riego: NC State pide tierra húmeda sin encharcar; Penn State y RHS, regar cuando se secan los primeros centímetros. Las fuentes no dan una pauta estacional clara (Penn State dice que no entra en reposo en invierno)."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [],
+    "horas_sol_directo": 2,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media"
   },
   {
     "id": "filodendro",
@@ -1114,13 +1144,9 @@
     "familia": "Araceae",
     "grupo": "follaje_tropical",
     "luz": {
-      "necesidad": "media",
-      "tolera": [
-        "poca"
-      ],
-      "sol_directo": false,
       "detalle": "Crece mejor con luz media y se adapta bien a rincones con poca luz. No necesita sol directo.",
-      "confianza": "alta"
+      "confianza": "alta",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "medio",
@@ -1214,7 +1240,15 @@
       "Gravedad: NC State clasifica la toxicidad como baja; Pet Poison Helpline menciona casos raros de hinchazón de garganta con dificultad para respirar. Se eligió \"moderada\" por ser el criterio más conservador; no se cargó advertencia_grave porque las fuentes no describen riesgo de vida habitual.",
       "Nombre: Clemson trata al filodendro hoja de corazón como Philodendron scandens; ASPCA y NC State usan Philodendron hederaceum para la misma planta de nombre común.",
       "Tamaño: NC State da de 10 cm a 1,8 m de alto y tallos de más de 1,2 m; depende de cuánto se la pode."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media"
   },
   {
     "id": "gomero",
@@ -1227,13 +1261,9 @@
     "familia": "Moraceae",
     "grupo": "follaje_tropical",
     "luz": {
-      "necesidad": "media",
-      "tolera": [
-        "poca"
-      ],
-      "sol_directo": false,
       "detalle": "Prefiere luz brillante indirecta, idealmente con algo de sol suave de la mañana, y protegido del sol de la tarde. Se adapta a menos luz, pero con muy poca puede perder hojas.",
-      "confianza": "alta"
+      "confianza": "alta",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "medio",
@@ -1327,7 +1357,15 @@
     "discrepancias": [
       "Toxicidad: no encontré ficha de Ficus elastica en ASPCA (la ficha 'Indian Rubber Plant' corresponde a Ficus benjamina). Pet Poison Helpline tiene ficha de la especie pero habla de 'animales' sin separar gato y perro; NC State la marca como problema para gatos y perros. Confianza media.",
       "Balcón: NC State la da como rústica desde zona USDA 9a, pero la misma ficha y Clemson dicen que sufre por debajo de 13 °C. Se eligió el criterio conservador (no apta todo el año)."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media"
   },
   {
     "id": "haworthia",
@@ -1340,13 +1378,9 @@
     "familia": "Asphodelaceae",
     "grupo": "suculenta_cactus",
     "luz": {
-      "necesidad": "media",
-      "tolera": [
-        "poca"
-      ],
-      "sol_directo": false,
       "detalle": "Le gusta la luz brillante pero protegida del sol fuerte, que le quema las hojas. Aguanta lugares menos luminosos, aunque ahí las rayas se le apagan.",
-      "confianza": "media"
+      "confianza": "media",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "bajo",
@@ -1428,7 +1462,15 @@
       "Luz: RHS la clasifica como \"full sun\" pero aclara protegerla del sol fuerte; NC State indica media sombra / luz brillante indirecta y que el sol directo quema. Se eligió \"media\" sin sol directo.",
       "Temperatura mínima: RHS da rusticidad H2 (1 a 5 °C); NC State recomienda mantenerla arriba de 10 °C. Para el balcón se tomó el criterio más conservador.",
       "Toxicidad: ASPCA lista \"Zebra Haworthia\" como Haworthia fasciata, que no es el nombre de esta especie; la confirmación para Haworthiopsis attenuata viene solo de NC State."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media"
   },
   {
     "id": "helecho-serrucho",
@@ -1441,11 +1483,9 @@
     "familia": "Polypodiaceae",
     "grupo": "amiga_humedad",
     "luz": {
-      "necesidad": "media",
-      "tolera": [],
-      "sol_directo": false,
       "detalle": "Luz brillante indirecta o filtrada. El sol directo le daña las frondas, así que no lo pongas pegado a una ventana muy soleada.",
-      "confianza": "alta"
+      "confianza": "alta",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "alto",
@@ -1528,7 +1568,12 @@
       "Familia: NC State lo ubica en Polypodiaceae y ASPCA en Dryopteridaceae; no pude abrir Kew POWO para confirmar la clasificación actual.",
       "La ficha de ASPCA nombra la planta como 'Nephrolepis exalta bostoniensis' (la variedad Boston de esta especie).",
       "Mantenimiento: NC State lo califica de bajo mantenimiento, pero ambas fuentes exigen humedad alta y tierra siempre húmeda, por eso se lo marcó como difícil en interior con calefacción (juicio propio)."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "alta"
   },
   {
     "id": "lengua-de-suegra",
@@ -1541,13 +1586,9 @@
     "familia": "Asparagaceae",
     "grupo": "suculenta_cactus",
     "luz": {
-      "necesidad": "media",
-      "tolera": [
-        "poca"
-      ],
-      "sol_directo": false,
       "detalle": "Crece mejor con luz brillante indirecta, pero aguanta muy poca luz (solo que crece más lento). Evitá el sol directo fuerte de la tarde, que puede quemar las hojas.",
-      "confianza": "alta"
+      "confianza": "alta",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "bajo",
@@ -1635,7 +1676,15 @@
       "Luz: NC State la lista para media sombra con 2 a 6 horas de sol directo; Clemson recomienda evitar el sol directo fuerte. Se dejó sol_directo en false por ser lo más conservador.",
       "Frecuencia de riego invernal: NC State dice cada 1-2 meses; Clemson, cada 4-6 semanas.",
       "ASPCA la ubica en la familia Agavaceae; NC State en Asparagaceae (clasificación actual)."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media"
   },
   {
     "id": "monstera",
@@ -1647,11 +1696,9 @@
     "familia": "Araceae",
     "grupo": "follaje_tropical",
     "luz": {
-      "necesidad": "media",
-      "tolera": [],
-      "sol_directo": false,
       "detalle": "Luz brillante indirecta, cerca de una ventana pero sin sol directo fuerte, que le quema las hojas. Con muy poca luz las hojas nuevas salen con menos agujeros.",
-      "confianza": "media"
+      "confianza": "media",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "medio",
@@ -1746,7 +1793,12 @@
       "Luz: Wisconsin Extension sugiere sol directo en invierno; RHS y NC State indican luz indirecta sin sol directo. Se eligió el criterio conservador (sin sol directo).",
       "Riego: RHS dice dejar secar casi todo el sustrato; NC State, el cuarto o tercio superior. Se usó la regla de NC State.",
       "Gravedad: NC State la clasifica como severidad baja y ASPCA describe este grupo de plantas como de gravedad baja, con hinchazón de garganta solo en casos raros."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "alta"
   },
   {
     "id": "orquidea-phalaenopsis",
@@ -1759,11 +1811,9 @@
     "familia": "Orchidaceae",
     "grupo": "con_flor",
     "luz": {
-      "necesidad": "media",
-      "tolera": [],
-      "sol_directo": false,
       "detalle": "Le gusta la claridad sin sol fuerte: una ventana al este o al oeste le viene bárbaro. En verano correla del sol directo porque le quema las hojas; en invierno acercala a la luz para que florezca.",
-      "confianza": "media"
+      "confianza": "media",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "medio",
@@ -1844,7 +1894,12 @@
     "discrepancias": [
       "Luz: NC State dice que prefiere poca luz (ventana este), mientras que RHS pide luz brillante en invierno y solo evitar el sol directo en verano. Se tomó 'media' (claridad sin sol fuerte).",
       "Riego: ninguna de las dos fuentes menciona cubitos de hielo; ambas piden agua tibia, por eso no se recomiendan."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "alta"
   },
   {
     "id": "palmera-areca",
@@ -1857,11 +1912,9 @@
     "familia": "Arecaceae",
     "grupo": "palmera",
     "luz": {
-      "necesidad": "media",
-      "tolera": [],
-      "sol_directo": false,
       "detalle": "Adentro quiere mucha claridad con luz indirecta, cerca de una ventana luminosa.",
-      "confianza": "alta"
+      "confianza": "alta",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "medio",
@@ -1945,7 +1998,12 @@
       "Sol: NC State dice que al exterior tolera pleno sol aunque prefiere media sombra; como planta de interior las dos fuentes piden luz indirecta, por eso sol_directo quedó en false.",
       "Riego de invierno: NC State no da pauta de invierno; se usó la regla general de Clemson para palmeras de interior.",
       "Humedad: NC State dice humedad alta; Clemson no da un requisito específico para la areca (solo la regla general de sumar humedad por debajo del 50 %)."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "alta"
   },
   {
     "id": "palmera-de-salon",
@@ -1958,13 +2016,9 @@
     "familia": "Arecaceae",
     "grupo": "palmera",
     "luz": {
-      "necesidad": "media",
-      "tolera": [
-        "poca"
-      ],
-      "sol_directo": false,
       "detalle": "Crece mejor con luz brillante indirecta, por ejemplo cerca de una ventana al sur o al este, pero se banca bien los rincones con poca luz.",
-      "confianza": "alta"
+      "confianza": "alta",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "medio",
@@ -2045,7 +2099,15 @@
       "Humedad: NC State dice humedad baja a media y que tolera el aire seco; Clemson dice que prefiere humedad alta a moderada pero es adaptable. Se tomó 'media'.",
       "Riego: NC State indica dejar secar apenas entre riegos; la regla general de Clemson para palmeras dice no dejar secar la tierra del todo. Se tomó regar al secarse la superficie.",
       "NC State advierte que el jugo de los frutos puede irritar la piel de las personas; no afecta la clasificación para mascotas (no peligrosa según NC State y ASPCA)."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media"
   },
   {
     "id": "palo-de-agua",
@@ -2059,13 +2121,9 @@
     "familia": "Asparagaceae",
     "grupo": "follaje_tropical",
     "luz": {
-      "necesidad": "media",
-      "tolera": [
-        "poca"
-      ],
-      "sol_directo": false,
       "detalle": "Luz brillante a media, filtrada. El sol directo le quema las hojas; con muy poca luz las hojas nuevas salen más angostas.",
-      "confianza": "alta"
+      "confianza": "alta",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "medio",
@@ -2152,7 +2210,15 @@
     "discrepancias": [
       "Gravedad: NC State la clasifica como severidad baja; un artículo de ASPCA (2019) describe a las Dracaena como moderadamente tóxicas, con cuadros más serios en ingestas grandes. Se dejó 'moderada'.",
       "Riego: NC State dice mantener la tierra húmeda en época de crecimiento; Clemson, dejar secar la superficie entre riegos. Se usó la regla de Clemson, más segura contra la pudrición."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media"
   },
   {
     "id": "peperomia",
@@ -2164,13 +2230,9 @@
     "familia": "Piperaceae",
     "grupo": "follaje_tropical",
     "luz": {
-      "necesidad": "media",
-      "tolera": [
-        "poca"
-      ],
-      "sol_directo": false,
       "detalle": "Prefiere luz brillante indirecta o filtrada. Aguanta varios meses con poca luz, sobre todo la de hojas verdes lisas; el sol fuerte de verano le quema las hojas.",
-      "confianza": "alta"
+      "confianza": "alta",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "bajo",
@@ -2251,7 +2313,15 @@
     "discrepancias": [
       "Humedad: NC State indica humedad relativa media a baja; la guía de RHS (del género) dice que se adaptan al aire de casa pero prefieren ambientes húmedos. Se eligió \"media\".",
       "Sustrato: la receta detallada viene de la guía de RHS, que es del género Peperomia y no específica de P. obtusifolia; NC State solo pide buen drenaje."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media"
   },
   {
     "id": "pilea",
@@ -2264,11 +2334,9 @@
     "familia": "Urticaceae",
     "grupo": "follaje_tropical",
     "luz": {
-      "necesidad": "media",
-      "tolera": [],
-      "sol_directo": false,
       "detalle": "Quiere luz brillante pero indirecta. El sol directo le mancha las hojas de marrón rojizo y con poca luz se estira y pierde la forma.",
-      "confianza": "alta"
+      "confianza": "alta",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "medio",
@@ -2361,7 +2429,12 @@
     "discrepancias": [
       "Humedad: la guía de cultivo de RHS dice que tolera el aire seco normal de casa; la ficha de RHS de la especie dice que necesita humedad alta; NC State dice moderada a alta pero tolera la de casa; Penn State habla de ambiente cálido y húmedo. Se eligió \"media\".",
       "Toxicidad: no encontré ficha propia de Pilea peperomioides en la base de plantas de ASPCA; ASPCA la nombra como no tóxica en una nota de 2021 sobre suculentas, y NC State dice que es segura para mascotas sin dar más detalle. No se usó la ficha de otras especies de Pilea."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media"
   },
   {
     "id": "potus",
@@ -2374,13 +2447,9 @@
     "familia": "Araceae",
     "grupo": "follaje_tropical",
     "luz": {
-      "necesidad": "media",
-      "tolera": [
-        "poca"
-      ],
-      "sol_directo": false,
       "detalle": "Le gusta la luz brillante pero filtrada, sin sol directo. Aguanta lugares con poca luz, aunque ahí las hojas salen más chicas y las variedades manchadas pierden el dibujo.",
-      "confianza": "alta"
+      "confianza": "alta",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "medio",
@@ -2473,7 +2542,15 @@
     "discrepancias": [
       "Gravedad: ASPCA describe el riesgo de las plantas con oxalatos como bajo y sin riesgo de vida; NC State la clasifica como severidad media (para personas). Se dejó 'moderada' por ser el criterio más conservador.",
       "Humedad: Wisconsin dice que prefiere humedad alta; NC State solo sugiere humidificador o bandeja con piedras. Se dejó 'media'."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media"
   },
   {
     "id": "violeta-africana",
@@ -2486,11 +2563,9 @@
     "familia": "Gesneriaceae",
     "grupo": "con_flor",
     "luz": {
-      "necesidad": "media",
-      "tolera": [],
-      "sol_directo": false,
       "detalle": "Mucha claridad pero con luz filtrada. De primavera a otoño le va bien una ventana al sur o al este; en invierno acercala a una al norte o al oeste. El sol fuerte de verano le quema las hojas.",
-      "confianza": "alta"
+      "confianza": "alta",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "medio",
@@ -2571,7 +2646,12 @@
       "Humedad: el texto de NC State dice que no tolera el aire seco, pero sus etiquetas incluyen 'tolerante al aire seco'; RHS coincide con que no le gusta el aire seco. Se tomó 'alta'.",
       "Luz: los atributos de NC State listan 'sombra profunda' y 'sombra parcial', mientras su texto y RHS piden luz brillante filtrada. Se tomó 'media'.",
       "Riego de invierno: ninguna fuente da una pauta distinta para invierno."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "alta"
   },
   {
     "id": "zamioculca",
@@ -2584,13 +2664,9 @@
     "familia": "Araceae",
     "grupo": "suculenta_cactus",
     "luz": {
-      "necesidad": "media",
-      "tolera": [
-        "poca"
-      ],
-      "sol_directo": false,
       "detalle": "Lo ideal es luz brillante indirecta, pero tolera muy poca luz. El sol directo de la tarde le quema las hojas.",
-      "confianza": "alta"
+      "confianza": "alta",
+      "confianza_sol": "baja"
     },
     "riego": {
       "nivel": "bajo",
@@ -2678,6 +2754,14 @@
       "Toxicidad: no encontré ficha propia de la zamioculca en la lista de plantas de ASPCA (la URL /zz-plant no devolvió datos). ASPCA sí la nombra (Zamioculcas spp.) en un artículo sobre plantas con oxalatos de calcio insolubles, y NC State la marca con toxicidad media para gatos y perros. Por eso figura como tóxica pero con confianza media.",
       "Gravedad: el artículo de ASPCA habla de gravedad baja para el grupo; NC State dice media. Se dejó 'moderada' (más conservador).",
       "Frecuencia de riego: Iowa State habla de cada 7 a 14 días; NC State, hasta dos veces por mes en verano y una en invierno. Se usó la regla de dejar secar."
-    ]
+    ],
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media"
   }
 ]

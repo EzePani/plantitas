@@ -3,7 +3,8 @@ import { esquemaFuente } from '../lessons/esquema'
 
 const texto = z.string().min(1)
 const confianza = z.enum(['alta', 'media', 'baja'])
-export const nivelLuz = z.enum(['poca', 'media', 'mucha'])
+/** Categorías del Modelo de luz */
+export const categoriaLuz = z.enum(['directa', 'indirecta_brillante', 'indirecta_media', 'baja'])
 export const toxicidad = z.enum(['segura', 'toxica', 'no_verificada'])
 
 export const esquemaPlanta = z.object({
@@ -13,15 +14,21 @@ export const esquemaPlanta = z.object({
   nombre_cientifico: texto,
   familia: texto,
   grupo: z.enum(['follaje_tropical', 'suculenta_cactus', 'amiga_humedad', 'con_flor', 'palmera']),
+  /** luz con la que mejor crece */
+  luz_requerida: categoriaLuz,
+  /** otras categorías que aguanta sin sufrir demasiado */
+  luz_tolerada: z.array(categoriaLuz),
+  /** horas de sol directo por día que tolera (0 = ninguna) */
+  horas_sol_directo: z.number().min(0).max(12),
+  /** aguanta el sol fuerte de la tarde */
+  tolera_sol_tarde: z.boolean(),
+  sensibilidad_calor: z.enum(['baja', 'media', 'alta']),
   luz: z.object({
-    /** nivel con el que mejor crece */
-    necesidad: nivelLuz,
-    /** otros niveles que aguanta sin sufrir demasiado */
-    tolera: z.array(nivelLuz),
-    /** true si aguanta sol directo fuerte (norte u oeste en Buenos Aires) */
-    sol_directo: z.boolean(),
     detalle: texto,
+    /** confianza de luz_requerida y luz_tolerada */
     confianza,
+    /** confianza de horas de sol, sol de tarde y calor ("baja" = estimación sin verificar) */
+    confianza_sol: confianza,
   }),
   riego: z.object({
     nivel: z.enum(['bajo', 'medio', 'alto']),
@@ -62,5 +69,5 @@ export const esquemaPlanta = z.object({
 })
 
 export type Planta = z.infer<typeof esquemaPlanta>
-export type NivelLuz = z.infer<typeof nivelLuz>
+export type CategoriaLuz = z.infer<typeof categoriaLuz>
 export type Toxicidad = z.infer<typeof toxicidad>

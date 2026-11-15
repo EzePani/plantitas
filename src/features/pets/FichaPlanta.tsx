@@ -1,4 +1,4 @@
-import { Droplet, Home, Info, Layers, Sun, TriangleAlert, Wind } from 'lucide-react'
+import { Droplet, Flame, Home, Info, Layers, Sun, TriangleAlert, Wind } from 'lucide-react'
 import type { ReactNode } from 'react'
 import { FotoPlanta } from '../../components/FotoPlanta'
 import { ListaFuentes } from '../../components/ListaFuentes'
@@ -70,8 +70,21 @@ export function FichaPlanta({ planta: p }: { planta: Planta }) {
 
         <h3 className="font-display text-tinta mt-6 mb-2 text-[20px] font-semibold">{F.cuidados}</h3>
         <div className="border-arena-osc rounded-2xl border-2 bg-white">
-          <Dato icono={<Sun size={20} aria-hidden />} titulo={`${F.luz} · ${P.luz[p.luz.necesidad]}`}>
-            {p.luz.detalle} {p.luz.sol_directo && F.solDirecto}
+          <Dato icono={<Sun size={20} aria-hidden />} titulo={`${F.luz} · ${TC.luz.categorias[p.luz_requerida]}`}>
+            {p.luz.detalle}
+            {p.luz_tolerada.length > 0 && (
+              <span className="text-tinta-suave mt-1 block text-[14px]">
+                {F.tambienTolera}: {p.luz_tolerada.map((c) => TC.luz.categorias[c].toLowerCase()).join(', ')}.
+              </span>
+            )}
+          </Dato>
+          <Dato icono={<Sun size={20} aria-hidden />} titulo={F.solDirecto}>
+            {p.horas_sol_directo === 0 ? F.sinSolDirecto : p.horas_sol_directo >= 6 ? F.plenoSol : F.horasSol(p.horas_sol_directo)} {p.horas_sol_directo > 0 && F.solTarde[p.tolera_sol_tarde ? 'si' : 'no']}
+            {p.luz.confianza_sol === 'baja' && <span className="mt-1 block text-[14px] text-[#7a5200]">{F.solEstimado}</span>}
+          </Dato>
+          <Dato icono={<Flame size={20} aria-hidden />} titulo={F.calor}>
+            {F.sensibilidad[p.sensibilidad_calor]}
+            {p.luz.confianza_sol === 'baja' && <span className="mt-1 block text-[14px] text-[#7a5200]">{F.solEstimado}</span>}
           </Dato>
           <Dato icono={<Droplet size={20} aria-hidden />} titulo={F.riegoVerano}>{p.riego.verano}</Dato>
           <Dato icono={<Droplet size={20} aria-hidden />} titulo={F.riegoInvierno}>{p.riego.invierno}</Dato>

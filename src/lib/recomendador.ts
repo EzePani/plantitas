@@ -1,15 +1,14 @@
 import type { Planta } from '../data/plantas/esquema'
-import { deducirLuz, type NivelLuz } from './luz'
+import { derivarLuz, type LuzDerivada } from './luz'
 import { esApta, especiesDe, seguridadPara } from './mascotas'
-import type { HoraSol, TipoMascota } from './tipos'
+import type { Esfuerzo, PerfilLuz, TamanoEspacio, TipoEspacio, TipoMascota } from './tipos'
 
-export type TipoEspacio = 'living' | 'dormitorio' | 'cocina' | 'bano' | 'balcon' | 'escritorio'
-export type TamanoEspacio = 'chico' | 'mediano' | 'amplio'
-export type Esfuerzo = 'poco' | 'medio' | 'mucho'
+export type { Esfuerzo, TamanoEspacio, TipoEspacio } from './tipos'
 
+/** Lo que el recomendador necesita de un espacio (un Espacio guardado lo cumple) */
 export interface DatosEspacio {
   tipo: TipoEspacio
-  horaSol: HoraSol
+  luz: PerfilLuz
   tamano: TamanoEspacio
   mascotas: TipoMascota
   esfuerzo: Esfuerzo
@@ -27,7 +26,7 @@ export type Motivo =
   | 'desafio'
   | 'aguanta_sol'
 
-export type MotivoEvitar = 'toxica' | 'no_verificada' | 'poca_luz' | 'demasiado_sol' | 'muy_grande' | 'pide_dedicacion'
+export type MotivoEvitar = 'toxica' | 'no_verificada' | 'poca_luz' | 'demasiado_sol' | 'calor' | 'muy_grande' | 'pide_dedicacion'
 
 export interface Recomendada {
   planta: Planta
@@ -41,8 +40,8 @@ export interface Evitar {
 }
 
 export interface Recomendacion {
-  luz: NivelLuz
-  luzAsumida: boolean
+  /** Perfil de luz derivado del espacio (estimación) */
+  luz: LuzDerivada
   recomendadas: Recomendada[]
   evitar: Evitar[]
 }
@@ -53,34 +52,44 @@ const PUNTOS_TAMANO: Record<TamanoEspacio, Record<Planta['tamano'], number>> = {
   amplio: { chica: 10, mediana: 16, grande: 20 },
 }
 
-/** El sol pega directo varias horas (norte u oeste en Buenos Aires) */
-const solFuerte = (h: HoraSol) => h === 'tarde' || h === 'mediodia' || h === 'todo_el_dia'
-
 type Compatibilidad = 'ideal' | 'tolera' | 'filtrada' | 'no'
 
-function luzCompatible(p: Planta, luz: NivelLuz, interior: boolean): Compatibilidad {
-  if (p.luz.necesidad === luz) return 'ideal'
-  if (p.luz.tolera.includes(luz)) return 'tolera'
-  // Adentro, un lugar muy luminoso también sirve para las de luz brillante indirecta:
-  // alcanza con correrlas un poco de la ventana o filtrar el sol con una cortina.
-  // En el balcón el sol directo no se puede esquivar, así que ahí no vale.
-  if (interior && luz === 'mucha' && p.luz.necesidad === 'media') return 'filtrada'
+/** Margen de tolerancia al comparar horas de sol (lo que carga el usuario es aproximado) */
+const MARGEN_HORAS = 1
+/** Desde estas horas de sol directo se considera planta de pleno sol: aguanta el día entero */
+const PLENO_SOL = 6
+
+function luzCompatible(p: Planta, luz: LuzDerivada, interior: boolean): Compatibilidad {
+  if (luz.categoria === 'directa') {
+    const aguantaHoras = p.horas_sol_directo > 0 && (p.horas_sol_directo >= PLENO_SOL || p.horas_sol_directo + MARGEN_HORAS >= luz.horasEfectivas)
+    const aguantaCalor = !luz.avisoCalor || p.tolera_sol_tarde
+    if (aguantaHoras && aguantaCalor) return p.luz_requerida === 'directa' ? 'ideal' : 'tolera'
+    // Adentro, un lugar con sol directo también sirve para las de luz indirecta brillante:
+    // alcanza con correrlas de la ventana o filtrar el sol con una cortina.
+    // En el balcón el sol no se puede esquivar, así que ahí no vale.
+    if (interior && (p.luz_requerida === 'indirecta_brillante' || p.luz_requerida === 'directa')) return 'filtrada'
+    return 'no'
+  }
+  if (p.luz_requerida === luz.categoria) return 'ideal'
+  if (p.luz_tolerada.includes(luz.categoria)) return 'tolera'
   return 'no'
 }
 
-function puntuar(p: Planta, d: DatosEspacio, luz: NivelLuz): Recomendada | null {
+function puntuar(p: Planta, d: DatosEspacio, luz: LuzDerivada): Recomendada | null {
   const motivos: Motivo[] = []
   const comp = luzCompatible(p, luz, d.tipo !== 'balcon')
   if (comp === 'no') return null
   let puntaje = comp === 'ideal' ? 40 : comp === 'tolera' ? 26 : 22
   motivos.push(comp === 'ideal' ? 'luz_ideal' : comp === 'tolera' ? 'luz_tolera' : 'luz_filtrada')
+  // Luz baja: se aguanta, no se disfruta
+  if (luz.categoria === 'baja' && comp === 'tolera') puntaje -= 6
 
-  if (luz === 'mucha' && solFuerte(d.horaSol)) {
-    if (p.luz.sol_directo) {
-      puntaje += 6
-      motivos.push('aguanta_sol')
-    } else if (d.tipo === 'balcon') puntaje -= 12
+  if (luz.categoria === 'directa' && comp !== 'filtrada') {
+    puntaje += 6
+    motivos.push('aguanta_sol')
   }
+  // Aviso de calor: a las sensibles les cuesta aunque estén corridas de la ventana
+  if (luz.avisoCalor) puntaje -= p.sensibilidad_calor === 'alta' ? 12 : p.sensibilidad_calor === 'media' ? 4 : 0
 
   const t = PUNTOS_TAMANO[d.tamano][p.tamano]
   puntaje += t
@@ -115,11 +124,13 @@ function puntuar(p: Planta, d: DatosEspacio, luz: NivelLuz): Recomendada | null 
 
 /**
  * Motor de "Armá tu espacio". Filtros duros: mascotas (solo plantas verificadas como seguras
- * para TODAS las especies de la casa), tipo de lugar (interior / balcón) y luz. El resto ordena.
+ * para TODAS las especies de la casa), tipo de lugar (interior / balcón) y luz del espacio
+ * (categoría, horas de sol directo y aviso de calor). El resto ordena.
  */
 export function recomendar(plantas: Planta[], d: DatosEspacio, cantidad = 5): Recomendacion {
-  const { luz, asumida } = deducirLuz(d.horaSol)
-  const delLugar = plantas.filter((p) => (d.tipo === 'balcon' ? p.apta.balcon : p.apta.interior))
+  const luz = derivarLuz(d.luz)
+  const interior = d.tipo !== 'balcon'
+  const delLugar = plantas.filter((p) => (interior ? p.apta.interior : p.apta.balcon))
 
   const recomendadas = delLugar
     .filter((p) => esApta(p, d.mascotas))
@@ -143,17 +154,16 @@ export function recomendar(plantas: Planta[], d: DatosEspacio, cantidad = 5): Re
     }
   }
 
-  // 2) La que peor se lleva con este lugar por luz, tamaño o dedicación
+  // 2) La que peor se lleva con este lugar: por calor, luz, tamaño o dedicación
   const candidatas = delLugar.filter((p) => !elegidas.has(p.id) && !evitar.some((e) => e.planta.id === p.id))
-  const interior = d.tipo !== 'balcon'
+  const porCalor = luz.avisoCalor ? candidatas.find((p) => p.sensibilidad_calor === 'alta') : undefined
   const porLuz = candidatas.find((p) => luzCompatible(p, luz, interior) === 'no')
-  const porSol = !interior && luz === 'mucha' && solFuerte(d.horaSol) ? candidatas.find((p) => !p.luz.sol_directo) : undefined
   const porTamano = d.tamano === 'chico' ? candidatas.find((p) => p.tamano === 'grande') : undefined
   const porEsfuerzo = d.esfuerzo === 'poco' ? candidatas.find((p) => p.dificultad === 'dificil') : undefined
-  if (porSol) evitar.push({ planta: porSol, motivo: 'demasiado_sol' })
-  else if (porLuz) evitar.push({ planta: porLuz, motivo: luz === 'mucha' ? 'demasiado_sol' : 'poca_luz' })
+  if (porCalor) evitar.push({ planta: porCalor, motivo: 'calor' })
+  else if (porLuz) evitar.push({ planta: porLuz, motivo: luz.categoria === 'directa' ? 'demasiado_sol' : 'poca_luz' })
   else if (porTamano) evitar.push({ planta: porTamano, motivo: 'muy_grande' })
   else if (porEsfuerzo) evitar.push({ planta: porEsfuerzo, motivo: 'pide_dedicacion' })
 
-  return { luz, luzAsumida: asumida, recomendadas, evitar: evitar.slice(0, 2) }
+  return { luz, recomendadas, evitar: evitar.slice(0, 2) }
 }

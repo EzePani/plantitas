@@ -36,7 +36,7 @@ export function TarjetaPlanta({ planta, onClick, detalle }: { planta: Planta; on
             <Semaforo planta={planta} especie="gato" compacto />
             <Semaforo planta={planta} especie="perro" compacto />
             <span className="text-tinta-suave text-[12px] font-extrabold">
-              {P.luz[planta.luz.necesidad]} · {P.dificultad[planta.dificultad]}
+              {TC.luz.categorias[planta.luz_requerida]} · {P.dificultad[planta.dificultad]}
             </span>
           </span>
         )}

@@ -84,8 +84,19 @@ describe('catálogo', () => {
     expect(seguras.length / PLANTAS.length).toBeGreaterThanOrEqual(0.3)
   })
 
-  it('una planta que no tolera un nivel de luz no lo lista dos veces', () => {
-    for (const p of PLANTAS) expect(p.luz.tolera, p.id).not.toContain(p.luz.necesidad)
+  it('la luz usa las categorías del Modelo de luz, sin repetir la requerida entre las toleradas', () => {
+    for (const p of PLANTAS) {
+      expect(p.luz_tolerada, p.id).not.toContain(p.luz_requerida)
+      // Una planta de luz directa tiene que tolerar horas de sol
+      if (p.luz_requerida === 'directa') expect(p.horas_sol_directo, p.id).toBeGreaterThan(0)
+      // Sin horas de sol directo no puede tolerar el sol fuerte de la tarde
+      if (p.horas_sol_directo === 0) expect(p.tolera_sol_tarde, p.id).toBe(false)
+    }
+  })
+
+  it('las plantas aptas para balcón existen para sol y para sombra', () => {
+    const balcon = PLANTAS.filter((p) => p.apta.balcon)
+    expect(balcon.some((p) => p.horas_sol_directo > 0)).toBe(true)
   })
 })
 
