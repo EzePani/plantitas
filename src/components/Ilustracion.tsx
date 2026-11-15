@@ -265,6 +265,68 @@ function Perro({ x, y, s = 1 }: { x: number; y: number; s?: number }) {
   )
 }
 
+
+function Mano({ x, y, s = 1, color = '#eab98d', opacity = 1, filter }: { x: number; y: number; s?: number; color?: string; opacity?: number; filter?: string }) {
+  return (
+    <g transform={`translate(${x} ${y}) scale(${s})`} fill={color} opacity={opacity} filter={filter}>
+      <rect x="-16" y="-6" width="32" height="34" rx="10" />
+      <rect x="-16" y="-34" width="7" height="36" rx="3.5" />
+      <rect x="-7.500" y="-41" width="7" height="42" rx="3.5" />
+      <rect x="1" y="-39" width="7" height="40" rx="3.5" />
+      <rect x="9.500" y="-31" width="6.5" height="32" rx="3.2" />
+      <rect x="-30" y="0" width="20" height="8" rx="4" transform="rotate(-28 -16 6)" />
+      <rect x="-9" y="22" width="18" height="30" rx="6" />
+    </g>
+  )
+}
+
+/** Maceta en corte, con las raíces a la vista */
+function RaicesEnCorte({ sanas }: { sanas: boolean }) {
+  const raiz = sanas ? '#f6ead0' : '#3a281c'
+  return (
+    <>
+      {sanas ? (
+        <>
+          <path d="M120 62V34" stroke={C.hojaOsc} strokeWidth="6" strokeLinecap="round" />
+          <Hoja x={120} y={56} rot={-58} color={C.hoja} />
+          <Hoja x={120} y={56} rot={58} color={C.hoja} />
+          <Hoja x={120} y={40} rot={-24} color={C.hojaClara} />
+          <Hoja x={120} y={40} rot={24} color={C.hojaClara} />
+        </>
+      ) : (
+        <>
+          <path d="M120 62V36" stroke="#8aa35f" strokeWidth="6" strokeLinecap="round" />
+          <Hoja x={120} y={42} rot={-108} color={C.amarilla} />
+          <Hoja x={120} y={42} rot={106} color={C.amarilla} />
+          <Hoja x={120} y={38} rot={-70} l={0.8} color={C.palida} />
+        </>
+      )}
+      <rect x="66" y="60" width="108" height="18" rx="9" fill={C.terraClara} />
+      <path d="M74 76h92l-9 76a10 10 0 0 1-10 9H93a10 10 0 0 1-10-9z" fill={C.terra} />
+      <path d="M84 84h72l-7 64a7 7 0 0 1-7 6H98a7 7 0 0 1-7-6z" fill={sanas ? C.tierra : '#2e1c12'} />
+      {!sanas && <path d="M88.500 126h63l-2.400 22a7 7 0 0 1-7 6H98a7 7 0 0 1-7-6z" fill={C.agua} opacity=".55" />}
+      {sanas ? (
+        <path
+          d="M120 84v52M120 92c-12 6-20 16-22 34M120 96c12 6 19 14 21 32M120 108c-7 5-10 12-11 28M120 112c7 5 10 12 11 26M104 110c-5 4-7 9-8 16M136 112c5 4 6 9 7 14"
+          stroke={raiz}
+          strokeWidth="3.4"
+          strokeLinecap="round"
+          fill="none"
+        />
+      ) : (
+        <path d="M120 84v30M120 92c-9 5-14 12-15 22M120 96c9 5 13 11 14 20" stroke={raiz} strokeWidth="6" strokeLinecap="round" fill="none" />
+      )}
+      {!sanas && (
+        <>
+          <circle cx="104" cy="118" r="5" fill={raiz} />
+          <circle cx="135" cy="120" r="5" fill={raiz} />
+          <circle cx="120" cy="118" r="6" fill={raiz} />
+        </>
+      )}
+    </>
+  )
+}
+
 function Escena({ fondo = C.arena, children }: { fondo?: string; children: ReactNode }) {
   return (
     <>
@@ -547,6 +609,135 @@ const ESCENAS: Record<string, () => ReactNode> = {
       <Maceta x={120} y={100} s={1.4} />
       <path d="M96 122h48l-5 38a8 8 0 0 1-8 7h-22a8 8 0 0 1-8-7z" fill={C.tierra} />
       <path d="M120 122v30M120 130c-8 6-12 12-12 22M120 134c8 6 12 10 13 20M120 142c-4 4-5 8-5 14" stroke="#f1e2c4" strokeWidth="3" strokeLinecap="round" fill="none" />
+    </Escena>
+  ),
+  'sombra-nitida': () => (
+    <Escena fondo="#fdf0cd">
+      <Sol x={38} y={36} r={15} />
+      <path d="M52 50l96 96H44z" fill={C.sol} opacity=".22" />
+      <Mano x={104} y={128} s={1.1} color={C.tierra} opacity={0.7} />
+      <Mano x={170} y={84} s={1.25} />
+    </Escena>
+  ),
+  'sombra-difusa': () => (
+    <Escena fondo="#e9e6dc">
+      <defs>
+        <filter id="ilu-desenfoque" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="7" />
+        </filter>
+      </defs>
+      <Ventana x={16} y={16} w={46} h={62} />
+      <Mano x={104} y={128} s={1.1} color={C.tierra} opacity={0.32} filter="url(#ilu-desenfoque)" />
+      <Mano x={170} y={84} s={1.25} />
+    </Escena>
+  ),
+  'raices-sanas': () => (
+    <Escena fondo="#e4f2d6">
+      <Piso color="#c5dcae" />
+      <Destello x={52} y={48} />
+      <Destello x={194} y={96} s={0.7} />
+      <RaicesEnCorte sanas />
+    </Escena>
+  ),
+  'raices-podridas': () => (
+    <Escena fondo="#dcebf1">
+      <Piso color="#b5cfda" />
+      <Gota x={50} y={54} />
+      <Gota x={196} y={70} s={0.8} />
+      <RaicesEnCorte sanas={false} />
+    </Escena>
+  ),
+  'sol-manana': () => (
+    <Escena fondo="#eaf3e2">
+      <Piso color="#c9dcb6" />
+      <rect x="26" y="20" width="84" height="100" rx="10" fill="#d9eef6" stroke="#fff" strokeWidth="6" />
+      <Sol x={52} y={92} r={10} suave />
+      <path d="M68 23v94M29 70h78" stroke="#fff" strokeWidth="5" />
+      <rect x="20" y="118" width="96" height="8" rx="4" fill="#fff" />
+      <path d="M110 60l92 90H100z" fill={C.solClaro} opacity=".75" />
+      <Planta x={160} y={98} s={1.05} />
+    </Escena>
+  ),
+  'sol-tarde': () => (
+    <Escena fondo="#fbdcb8">
+      <Piso color="#e6b98a" />
+      <rect x="26" y="20" width="84" height="100" rx="10" fill="#f9c98a" stroke="#fff" strokeWidth="6" />
+      <circle cx="74" cy="78" r="22" fill="#f08a3c" />
+      <path d="M68 23v94M29 70h78" stroke="#fff" strokeWidth="5" />
+      <rect x="20" y="118" width="96" height="8" rx="4" fill="#fff" />
+      <path d="M110 30l104 120H96z" fill="#f08a3c" opacity=".4" />
+      {[188, 204, 220].map((dx) => (
+        <path key={dx} d={`M${dx} 62c-6-8 6-12 0-21s6-12 0-20`} stroke={C.terra} strokeWidth="3.5" strokeLinecap="round" fill="none" opacity=".7" />
+      ))}
+      <Planta x={158} y={100} s={1.05} estado="quemada" />
+    </Escena>
+  ),
+  'plato-agua': () => (
+    <Escena fondo="#dcebf1">
+      <Piso color="#b5cfda" />
+      <ellipse cx="120" cy="150" rx="80" ry="16" fill="#fff" />
+      <ellipse cx="120" cy="148" rx="68" ry="11" fill={C.agua} opacity=".7" />
+      <Planta x={120} y={84} s={1.2} />
+    </Escena>
+  ),
+  ducha: () => (
+    <Escena fondo="#e3eef2">
+      <path d="M0 60h240M0 120h240M80 0v180M160 0v180" stroke="#fff" strokeWidth="3" opacity=".8" />
+      <path d="M200 0v8c0 10-8 14-20 14h-30" stroke="#9fb3bd" strokeWidth="8" strokeLinecap="round" fill="none" />
+      <path d="M126 20h44l10 16h-64z" fill="#8aa0ab" />
+      {[0, 1, 2, 3].map((i) => (
+        <g key={i}>
+          <Gota x={126 + i * 15} y={52 + (i % 2) * 12} s={0.42} />
+          <Gota x={120 + i * 17} y={80 - (i % 2) * 8} s={0.38} />
+        </g>
+      ))}
+      <Planta x={148} y={126} s={0.9} />
+    </Escena>
+  ),
+  autorriego: () => (
+    <Escena fondo="#e4f2d6">
+      <Piso color="#c5dcae" />
+      <path d="M36 88h52v52a10 10 0 0 1-10 10H46a10 10 0 0 1-10-10z" fill="#fff" opacity=".9" />
+      <path d="M36 108h52v32a10 10 0 0 1-10 10H46a10 10 0 0 1-10-10z" fill={C.agua} opacity=".75" />
+      <path d="M62 138C62 60 130 70 156 100" stroke="#f6ead0" strokeWidth="6" strokeLinecap="round" fill="none" />
+      <path d="M62 138C62 60 130 70 156 100" stroke={C.marron} strokeWidth="2" strokeLinecap="round" strokeDasharray="1 7" fill="none" />
+      <Planta x={168} y={98} s={1.1} />
+    </Escena>
+  ),
+  rociador: () => (
+    <Escena fondo="#e9f1e4">
+      <Piso color="#c9dcb6" />
+      <g transform="translate(52 96)">
+        <rect x="-18" y="0" width="36" height="52" rx="10" fill={C.agua} />
+        <rect x="-8" y="-16" width="16" height="18" rx="4" fill="#2a6a8c" />
+        <path d="M-8-22h34v12H-8z" fill="#2a6a8c" />
+        <path d="M2-10v16c0 6 14 6 14 0" stroke="#2a6a8c" strokeWidth="5" fill="none" strokeLinecap="round" />
+      </g>
+      {[
+        [96, 70, 3],
+        [108, 60, 2.4],
+        [112, 78, 3],
+        [124, 66, 2.2],
+        [128, 86, 2.6],
+        [138, 74, 2],
+        [104, 90, 2.2],
+      ].map(([cx, cy, r], i) => (
+        <circle key={i} cx={cx} cy={cy} r={r} fill={C.agua} opacity=".6" />
+      ))}
+      <Planta x={176} y={100} s={1.05} />
+    </Escena>
+  ),
+  palito: () => (
+    <Escena fondo="#f4e6c6">
+      <Piso color="#dcc699" />
+      <g transform="translate(120 96) scale(1.5)">
+        <Hoja x={-12} y={0} rot={-44} l={0.7} color={C.hoja} />
+        <Hoja x={-12} y={0} rot={-4} l={0.6} color={C.hojaClara} />
+        <ellipse cx="0" cy="3" rx="24" ry="4" fill={C.tierra} />
+        <Maceta x={0} y={0} cara="neutro" />
+      </g>
+      <path d="M150 22L136 98" stroke="#e2c08d" strokeWidth="6" strokeLinecap="round" />
+      <path d="M140 76l-4 22" stroke={C.marron} strokeWidth="6" strokeLinecap="round" />
     </Escena>
   ),
 }
