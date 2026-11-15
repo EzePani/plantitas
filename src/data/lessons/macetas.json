@@ -1,0 +1,796 @@
+[
+  {
+    "id": "macetas-1",
+    "unidad": "macetas",
+    "titulo": "Macetas según el material",
+    "gancho": "¿Da lo mismo una maceta de barro que una de plástico?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "macetas-materiales",
+        "texto": "El material de la maceta cambia cada cuánto vas a tener que regar. Algunas dejan pasar humedad por sus paredes y otras no dejan pasar nada."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "macetas-materiales",
+        "texto": "El barro o terracota sin esmaltar es poroso: la tierra pierde humedad también por las paredes y se seca más rápido. Por eso les viene bien a los cactus, a las suculentas y a quien suele regar de más."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "macetas-materiales",
+        "texto": "El plástico, la cerámica esmaltada, el metal y la fibra de vidrio no son porosos y guardan más la humedad. Van bien con plantas que quieren la tierra siempre algo húmeda, o si te solés olvidar de regar."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "macetas-materiales",
+        "texto": "Las macetas de tela también se secan rápido, como las de barro. Las de madera y las de fibra prensada quedan en el medio."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "macetas-materiales",
+        "texto": "Las de cemento y piedra son pesadas y duran mucho: cuesta moverlas, pero es difícil que una planta alta las vuelque. El plástico es liviano y barato, y el barro y la cerámica se rompen más fácil."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "estaciones",
+        "texto": "En el verano de Buenos Aires, de diciembre a febrero, una maceta de barro suele pedir agua más seguido que una de plástico. No hace falta sacar cuentas: tocá la tierra y regá cuando esté seca."
+      }
+    ],
+    "para_llevarte": [
+      "Barro sin esmaltar y tela: la tierra se seca más rápido.",
+      "Plástico y cerámica esmaltada: guardan más humedad.",
+      "Si cambiás de material, cambia cada cuánto regás."
+    ],
+    "quiz": [
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada maceta con lo que la caracteriza.",
+        "pares": [
+          {
+            "a": "Barro sin esmaltar",
+            "b": "Porosa, se seca rápido"
+          },
+          {
+            "a": "Plástico",
+            "b": "Liviana, guarda humedad"
+          },
+          {
+            "a": "Cemento",
+            "b": "Muy pesada y estable"
+          }
+        ],
+        "explicacion": "El barro deja escapar humedad por las paredes y el plástico no. El cemento pesa mucho, y por eso es difícil que se vuelque."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Una maceta de cerámica esmaltada se seca igual de rápido que una de barro común.",
+        "correcta": false,
+        "explicacion": "Las guías ponen a las macetas esmaltadas junto con el plástico: no son porosas y guardan más la humedad."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Tenés un cactus y sabés que solés regar de más. ¿Qué maceta te ayuda?",
+        "opciones": [
+          "Una de plástico",
+          "Una de barro sin esmaltar",
+          "Una de cerámica esmaltada"
+        ],
+        "correcta": 1,
+        "explicacion": "El barro sin esmaltar deja que la tierra se seque más rápido, justo lo que piden los cactus y las suculentas."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Pasaste un helecho de una maceta de plástico a una de barro. ¿Qué cambia?",
+        "opciones": [
+          "Nada, es lo mismo",
+          "La tierra se va a secar antes: conviene revisarla más seguido",
+          "Ya no hace falta que tenga agujero"
+        ],
+        "correcta": 1,
+        "explicacion": "En barro la tierra pierde humedad más rápido, así que vas a tener que tocarla más seguido. El agujero hace falta siempre."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Extension Gardener Handbook, cap. 18: Plants Grown in Containers",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Repotting Houseplants",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/repotting-houseplants",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "6 tips for watering container gardens",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/news-releases/6-tips-watering-container-gardens",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Growing Succulents Indoors",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-succulents-indoors",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplant Care",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/houseplant-care/",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "alta",
+    "xp": 20
+  },
+  {
+    "id": "macetas-2",
+    "unidad": "macetas",
+    "titulo": "Forma, tamaño y drenaje",
+    "gancho": "¿Sirve cualquier maceta linda que encuentre?",
+    "tarjetas": [
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "maceta-sin-drenaje",
+        "imagen_bien": "maceta-drenaje",
+        "texto": "El agujero de abajo deja salir el agua que sobra y permite que llegue aire a las raíces. Sin agujero, el agua se junta en el fondo y las raíces se pueden pudrir."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "maceta-drenaje",
+        "texto": "No hace falta tapar los agujeros chicos: dejan salir el agua y casi no se pierde tierra. Si el agujero es muy grande, alcanza con una mallita o un pedazo de maceta rota encima."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "cachepot",
+        "texto": "Si te encanta una maceta sin agujero, usala de funda: adentro va la planta en su maceta con drenaje. Después de regar, fijate que no quede agua juntada en el fondo de la funda."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "plato-agua",
+        "texto": "El plato protege el mueble, pero no es un depósito de agua. Vacialo después de regar para que la tierra pueda secarse un poco."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "raices-sanas",
+        "texto": "El ancho se elige mirando las raíces: la maceta ideal es apenas más ancha que el pan de raíces. En una demasiado grande, la tierra de más queda mojada mucho tiempo y eso favorece que las raíces se pudran."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "suculenta",
+        "texto": "A las suculentas les van bien las macetas chicas o bajas, porque poca tierra se seca más rápido. Una planta alta puede necesitar una maceta más grande o más pesada para no volcarse."
+      }
+    ],
+    "para_llevarte": [
+      "Maceta con agujero, siempre.",
+      "Las lindas sin agujero van de funda.",
+      "Apenas más ancha que las raíces, no enorme."
+    ],
+    "quiz": [
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Para qué sirve el agujero de la maceta?",
+        "opciones": [
+          "Para que la planta tome agua del plato",
+          "Para que salga el agua que sobra",
+          "Para que salgan las raíces"
+        ],
+        "correcta": 1,
+        "explicacion": "Deja escurrir el exceso de agua, y así las raíces no se quedan sin aire."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Cuanto más grande la maceta, mejor para la planta.",
+        "correcta": false,
+        "explicacion": "En una maceta demasiado grande sobra tierra, y esa tierra queda mojada mucho tiempo. Mejor una apenas más ancha que las raíces."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada cosa con lo que la caracteriza.",
+        "pares": [
+          {
+            "a": "Agujero",
+            "b": "Deja salir el agua que sobra"
+          },
+          {
+            "a": "Maceta funda",
+            "b": "Decorativa, sin agujero"
+          },
+          {
+            "a": "Plato",
+            "b": "Se vacía tras regar"
+          },
+          {
+            "a": "Maceta enorme",
+            "b": "Tierra mojada mucho tiempo"
+          }
+        ],
+        "explicacion": "La funda es solo decorativa, el plato no tiene que quedar con agua y una maceta demasiado grande tarda mucho en secarse."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Te regalaron una maceta hermosa pero sin agujero. ¿Qué hacés?",
+        "opciones": [
+          "Planto directo y riego poquito",
+          "La uso de funda, con otra maceta con agujero adentro",
+          "Le pongo piedras abajo y planto"
+        ],
+        "correcta": 1,
+        "explicacion": "De funda queda igual de linda y la planta sigue teniendo drenaje. Acordate de sacar el agua que quede en el fondo."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Container Drainage Options",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/container-gardens/container-drainage-options",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Extension Gardener Handbook, cap. 18: Plants Grown in Containers",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Repotting Houseplants",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/repotting-houseplants",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Indoor Plants – Transplanting & Repotting",
+        "org": "Clemson Cooperative Extension (HGIC)",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Growing Succulents Indoors",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-succulents-indoors",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to plant up a container",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/container-gardening/how-to-plant-up-a-container",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplants: Get Started",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/get-started",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "alta",
+    "xp": 20
+  },
+  {
+    "id": "macetas-3",
+    "unidad": "macetas",
+    "titulo": "Tipos de tierra y sustrato",
+    "gancho": "¿Le pongo tierra del cantero y listo?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "sustrato",
+        "texto": "El sustrato es la mezcla donde viven las raíces. Tiene que sostener la planta, guardar algo de agua y nutrientes, y dejar pasar el aire."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "sustrato",
+        "texto": "La tierra común, la del jardín o del cantero, es pesada: en maceta se apelmaza, retiene demasiada agua y deja poco aire para las raíces. Además puede traer plagas, enfermedades y semillas de yuyos."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "sustrato",
+        "texto": "Cada ingrediente tiene su tarea: la turba y la fibra de coco son livianas y guardan agua. La perlita y la corteza en trozos abren huecos para el aire, y la arena gruesa suma peso y drenaje."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "dedo",
+        "texto": "Una prueba simple que describe una universidad: apretá en la mano un puñado de sustrato húmedo. Tendría que formar una bola que se desarma fácil, casi sin gotear."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "cactus",
+        "texto": "Los cactus y las suculentas piden una mezcla que drene muy rápido, con arena gruesa o piedritas mezcladas en todo el sustrato. Las tropicales de hoja prefieren mezclas que guarden más humedad, a base de turba o coco con algo de perlita."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "casa",
+        "texto": "En Argentina, el INTA explica que en un buen sustrato los poros chicos guardan el agua y los más grandes dejan salir el sobrante y entrar el aire. Cuando compres, mirá qué ingredientes trae la bolsa."
+      }
+    ],
+    "para_llevarte": [
+      "En maceta va sustrato, no tierra del jardín.",
+      "Tiene que guardar agua y dejar pasar aire.",
+      "Suculentas: mezcla que drene rápido. Tropicales: que guarde más humedad."
+    ],
+    "quiz": [
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "La tierra del jardín sola es ideal para macetas.",
+        "correcta": false,
+        "explicacion": "En maceta se apelmaza, retiene demasiada agua, deja poco aire y puede traer plagas o enfermedades. Mejor un sustrato para macetas."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Apretás un puñado de sustrato húmedo. ¿Cuál es una buena señal?",
+        "opciones": [
+          "Chorrea agua entre los dedos",
+          "Forma una bola que se desarma fácil",
+          "Queda un bloque duro y pegajoso"
+        ],
+        "correcta": 1,
+        "explicacion": "Una bola que mantiene la forma pero se desarma fácil, y casi no gotea, habla de una mezcla húmeda y aireada."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada ingrediente con su tarea principal.",
+        "pares": [
+          {
+            "a": "Turba o fibra de coco",
+            "b": "Guardar agua"
+          },
+          {
+            "a": "Perlita",
+            "b": "Abrir huecos de aire"
+          },
+          {
+            "a": "Arena gruesa",
+            "b": "Sumar peso y drenaje"
+          }
+        ],
+        "explicacion": "Las mezclas combinan ingredientes que retienen agua con otros que abren huecos para el aire."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Qué mezcla le viene mejor a un cactus?",
+        "opciones": [
+          "Una que guarde mucha humedad",
+          "Una que drene muy rápido",
+          "Tierra del cantero bien apretada"
+        ],
+        "correcta": 1,
+        "explicacion": "Los cactus y las suculentas guardan agua en su cuerpo y sufren si la tierra queda mojada mucho tiempo."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Indoor Plants – Soil Mixes",
+        "org": "Clemson Cooperative Extension (HGIC)",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-plants-soil-mixes/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Extension Gardener Handbook, cap. 18: Plants Grown in Containers",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Potting Media: Components and Handling",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/article/2025/03/potting-media-components-and-handling",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Cómo elegir un buen sustrato para las macetas",
+        "org": "INTA (argentina.gob.ar)",
+        "url": "https://www.argentina.gob.ar/node/402876",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Houseplants: Get Started",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/get-started",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "How to grow cacti and succulents",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Houseplant Care",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/houseplant-care/",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "alta",
+    "xp": 20
+  },
+  {
+    "id": "macetas-4",
+    "unidad": "macetas",
+    "titulo": "Compost y tierra de vivero",
+    "gancho": "¿Uso el compost que hice en casa o compro una bolsa en el vivero?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "sustrato",
+        "texto": "El compost es materia orgánica ya descompuesta y estable: restos de cocina y de jardín transformados por microorganismos. Se usa como enmienda, o sea, para mejorar la tierra."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "sustrato",
+        "texto": "Está listo cuando ya no se reconoce qué era cada cosa, está a temperatura ambiente, se ve oscuro y parejo, y huele a tierra mojada. Si tiene olor agrio o feo, todavía le falta."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "maceta-drenaje",
+        "texto": "En maceta el compost va como una parte de la mezcla y no solo: una guía universitaria sugiere entre el 15 y el 40 por ciento. Es que cambia mucho según de qué esté hecho, puede traer sales o semillas de yuyos y sigue descomponiéndose."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "sustrato",
+        "texto": "Antes de comprar una bolsa de tierra en el vivero, leé qué trae adentro. Para macetas buscá un sustrato con ingredientes como turba, fibra de coco, corteza o perlita, y no tierra sola."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-feliz",
+        "texto": "Cuándo conviene cada uno: el sustrato de bolsa es la base para todo lo que va en maceta. El compost suma nutrientes de a poco y ayuda a guardar agua, como una parte de esa mezcla o para mejorar canteros y jardín."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "casa",
+        "texto": "Según el Gobierno de la Ciudad de Buenos Aires, el compost casero se puede hacer en una compostera de recipientes apilados y tarda entre 3 y 5 meses. El resultado es una tierra oscura y sin olor que sirve para macetas, canteros y jardines."
+      }
+    ],
+    "para_llevarte": [
+      "El compost mejora la mezcla, pero no va solo en la maceta.",
+      "Compost listo: oscuro, parejo y con olor a tierra mojada.",
+      "En el vivero, leé los ingredientes de la bolsa."
+    ],
+    "quiz": [
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Lo mejor para una maceta de interior es llenarla solo con compost.",
+        "correcta": false,
+        "explicacion": "El compost suma nutrientes, pero en maceta va como una parte de la mezcla. El resto tiene que ser sustrato que guarde agua y deje pasar aire."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Cómo te das cuenta de que el compost está listo?",
+        "opciones": [
+          "Todavía se ven las cáscaras y está tibio",
+          "Es oscuro, parejo y huele a tierra mojada",
+          "Tiene olor agrio y está muy mojado"
+        ],
+        "correcta": 1,
+        "explicacion": "Cuando ya no se reconoce qué era cada resto, está a temperatura ambiente y huele a tierra mojada, está maduro."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Estás en el vivero. ¿Qué bolsa te conviene para un potus en maceta?",
+        "opciones": [
+          "Una de tierra sola, la más pesada",
+          "Un sustrato con turba o coco, corteza y perlita",
+          "Arena fina"
+        ],
+        "correcta": 1,
+        "explicacion": "Para macetas conviene un sustrato liviano, con ingredientes que guarden agua y otros que dejen pasar aire. La tierra sola se apelmaza."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Querés sumar compost casero a la mezcla de una maceta. ¿Cuánto ponés?",
+        "opciones": [
+          "Todo compost",
+          "Una parte: menos de la mitad de la mezcla",
+          "Nada: el compost no sirve para macetas"
+        ],
+        "correcta": 1,
+        "explicacion": "Como referencia, una guía universitaria habla de entre el 15 y el 40 por ciento de la mezcla."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Instructivo para la producción de Compost Domiciliario",
+        "org": "INTI e INTA ProHuerta (argentina.gob.ar)",
+        "url": "https://www.argentina.gob.ar/sites/default/files/instructivo_para_la_produccion_de_compost_domiciliario.pdf",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Compost: cómo y dónde prepararlo",
+        "org": "Gobierno de la Ciudad de Buenos Aires",
+        "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/compost-como-y-donde-prepararlo",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Extension Gardener Handbook, cap. 18: Plants Grown in Containers",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Potting Media: Components and Handling",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/article/2025/03/potting-media-components-and-handling",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Potting Media and Plant Propagation",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/potting-media-and-plant-propagation",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Cómo elegir un buen sustrato para las macetas",
+        "org": "INTA (argentina.gob.ar)",
+        "url": "https://www.argentina.gob.ar/node/402876",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Repotting Houseplants",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/repotting-houseplants",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "media",
+    "xp": 20
+  },
+  {
+    "id": "macetas-5",
+    "unidad": "macetas",
+    "titulo": "Piedras: para qué sí y para qué no",
+    "gancho": "¿Le pongo piedritas a la maceta, arriba o abajo?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "piedras-arriba",
+        "texto": "Una capa de grava o piedritas sobre la tierra es una terminación clásica para cactus y suculentas: la Royal Horticultural Society la sugiere después del trasplante. Queda prolija y ayuda a frenar los yuyos."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "piedras-arriba",
+        "texto": "Ojo con lo que no hace: no seca la tierra más rápido. Cualquier cobertura frena la evaporación, así que debajo de las piedras la tierra sigue húmeda más tiempo y conviene tocarla antes de regar."
+      },
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "piedras-fondo",
+        "imagen_bien": "maceta-drenaje",
+        "texto": "Poner piedras en el fondo para que drene mejor es un consejo muy repetido, pero varias universidades lo desaconsejan y algunas lo llaman directamente un mito. Recomiendan llenar toda la maceta con buen sustrato."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "piedras-fondo",
+        "texto": "La explicación que dan: el agua no baja a las piedras hasta que la tierra de arriba está saturada. Por eso, dicen, la capa hace poco para evitar que esa tierra quede empapada."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "piedras-fondo",
+        "texto": "El tema no está cerrado: un estudio de 2025 midió macetas con agujero y vio que una capa de drenaje no aumentó el agua retenida, y con algunos sustratos la bajó. No probó con plantas vivas y usó un solo tamaño de maceta, así que todavía falta evidencia."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "maceta-sin-drenaje",
+        "texto": "Lo que nadie discute: las piedras no reemplazan al agujero. Sin salida, el agua que sobra se junta en el fondo igual."
+      }
+    ],
+    "para_llevarte": [
+      "Piedras arriba: prolijidad y menos yuyos, no más drenaje.",
+      "Piedras en el fondo: las guías universitarias no las recomiendan.",
+      "Con o sin piedras, la maceta necesita agujero."
+    ],
+    "quiz": [
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Si la maceta no tiene agujero, alcanza con poner piedras en el fondo.",
+        "correcta": false,
+        "explicacion": "Las piedras no le dan salida al agua: se junta igual y las raíces quedan mojadas. Lo que hace falta es el agujero."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Para qué sirve la grava encima de la tierra de un cactus?",
+        "opciones": [
+          "Para que la tierra se seque más rápido",
+          "Para que quede prolija y salgan menos yuyos",
+          "Para no tener que regar más"
+        ],
+        "correcta": 1,
+        "explicacion": "Es una terminación linda que frena los yuyos. Como toda cobertura, más bien conserva la humedad de abajo."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Con piedritas encima, la tierra de abajo puede seguir húmeda aunque arriba se vea todo seco.",
+        "correcta": true,
+        "explicacion": "La cobertura frena la evaporación. Por eso conviene correr un poco las piedras y tocar la tierra antes de regar."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Qué se puede decir hoy de la capa de piedras en el fondo?",
+        "opciones": [
+          "Que reemplaza al agujero",
+          "Que las guías no la recomiendan, aunque falta evidencia",
+          "Que es obligatoria para los cactus"
+        ],
+        "correcta": 1,
+        "explicacion": "Varias universidades la desaconsejan y un estudio reciente midió otra cosa, sin probar con plantas. Lo seguro es que no reemplaza al agujero."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "How to grow cacti and succulents",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "How to plant up a container",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/container-gardening/how-to-plant-up-a-container",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "6 tips for watering container gardens",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/news-releases/6-tips-watering-container-gardens",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Container Drainage Options",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/container-gardens/container-drainage-options",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Extension Gardener Handbook, cap. 18: Plants Grown in Containers",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Indoor Plants – Transplanting & Repotting",
+        "org": "Clemson Cooperative Extension (HGIC)",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Gardening Myth Busters",
+        "org": "Mississippi State University Extension",
+        "url": "https://extension.msstate.edu/blogs/extension-for-real-life/gardening-myth-busters",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Growing Succulents Indoors",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-succulents-indoors",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Effect of drainage layers on water retention of potting media in containers (Rowe, 2025)",
+        "org": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0318716",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "media",
+    "xp": 20
+  },
+  {
+    "id": "macetas-6",
+    "unidad": "macetas",
+    "titulo": "Trasplante",
+    "gancho": "¿Cómo sé si ya le queda chica la maceta?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "raices-apretadas",
+        "texto": "Señales de que le queda chica: raíces que asoman por los agujeros o dan vueltas apretadas alrededor de la tierra. Otra pista es que la tierra se seca rapidísimo y tenés que regar cada vez más seguido."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-feliz",
+        "texto": "No hace falta trasplantar seguido: las que crecen rápido pueden pedirlo cada año y las lentas cada dos o tres. Ante la duda, sacala con cuidado de la maceta y mirá las raíces."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "trasplante",
+        "texto": "Pasala a una maceta apenas más grande: entre 2 y 5 centímetros más de diámetro alcanza. En una enorme, la tierra de más queda mojada demasiado tiempo."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "estaciones",
+        "texto": "La mejor época es la primavera, cuando la planta arranca a crecer. En Buenos Aires eso es de septiembre a noviembre."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-triste",
+        "texto": "Mejor no trasplantar una planta que está débil, en reposo o a punto de florecer. Esperá a que esté creciendo con ganas."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "trasplante",
+        "texto": "Aflojá con suavidad las raíces que dan vueltas, ubicala a la misma altura que estaba y rellená con sustrato nuevo sin apretar de más. Para terminar, regá a fondo y dejá escurrir."
+      }
+    ],
+    "para_llevarte": [
+      "Raíces apretadas o asomando: pide maceta nueva.",
+      "Un talle más, no tres.",
+      "Mejor en primavera: de septiembre a noviembre."
+    ],
+    "quiz": [
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿A qué maceta la pasás?",
+        "opciones": [
+          "A la más grande que tenga",
+          "A una apenas más grande",
+          "A una más chica"
+        ],
+        "correcta": 1,
+        "explicacion": "Con unos centímetros más de diámetro alcanza. En una maceta enorme la tierra queda mojada demasiado tiempo."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Le asoman raíces por los agujeros y la tierra se seca en un día. ¿Qué le pasa?",
+        "imagen": "raices-apretadas",
+        "opciones": [
+          "Tiene agua de más",
+          "Le queda chica la maceta",
+          "Le falta luz"
+        ],
+        "correcta": 1,
+        "explicacion": "Cuando las raíces ocupan casi todo, queda poca tierra para guardar agua. Es momento de pasarla a una maceta un poco más grande."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "En Buenos Aires, ¿cuál es la mejor época para trasplantar?",
+        "opciones": [
+          "De junio a agosto",
+          "De septiembre a noviembre",
+          "De marzo a mayo"
+        ],
+        "correcta": 1,
+        "explicacion": "Las guías recomiendan la primavera, cuando la planta arranca a crecer. En el hemisferio sur eso es de septiembre a noviembre."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Después de trasplantar conviene regar a fondo y dejar escurrir.",
+        "correcta": true,
+        "explicacion": "Ese primer riego acomoda el sustrato nuevo alrededor de las raíces."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Indoor Plants – Transplanting & Repotting",
+        "org": "Clemson Cooperative Extension (HGIC)",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Repotting Houseplants",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/repotting-houseplants",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Houseplant Care",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/houseplant-care/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "How to grow houseplants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Houseplants: Get Started",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/get-started",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "alta",
+    "xp": 20
+  }
+]

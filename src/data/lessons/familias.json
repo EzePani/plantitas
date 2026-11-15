@@ -1,0 +1,669 @@
+[
+  {
+    "id": "familias-1",
+    "unidad": "familias",
+    "titulo": "Suculentas y cactus",
+    "gancho": "¿Por qué el aloe se banca que me olvide de regarlo?",
+    "tarjetas": [
+      {
+        "tipo": "por_que",
+        "imagen": "suculenta",
+        "texto": "Las suculentas vienen, en su mayoría, de lugares secos donde pasa mucho tiempo sin llover. Por eso guardan agua en hojas, tallos o raíces gruesas y carnosas, como una cantimplora propia."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "cactus",
+        "texto": "Todos los cactus son suculentas, pero no todas las suculentas son cactus. La mayoría de los cactus no tiene hojas: guarda el agua en el tallo carnoso."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-ahogada",
+        "texto": "Como ya traen su reserva, el riego es poco: a fondo, y recién cuando la tierra se secó del todo. El exceso de agua es de lo que más las daña, porque se pudren con facilidad."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "sustrato",
+        "texto": "Necesitan una tierra que drene rápido: mezcla para cactus y suculentas, o tierra común con bastante perlita o grava fina. Y siempre en maceta con agujeros."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "sol-manana",
+        "texto": "La mayoría quiere mucha luz: el aloe, el jade y la echeveria disfrutan unas horas de luz directa, mejor a la mañana que con el sol fuerte de la tarde. La haworthia es la excepción: prefiere luz indirecta brillante y hasta tolera luz indirecta media o luz baja."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "calefaccion",
+        "texto": "En el invierno porteño, de junio a agosto, casi no crecen: regalas muy poco, lo justo para que no se arruguen. La buena noticia es que el aire seco de la calefacción no les molesta."
+      }
+    ],
+    "para_llevarte": [
+      "Guardan agua: riego poco, a fondo y con la tierra seca.",
+      "Tierra que drene rápido y maceta con agujeros.",
+      "Mucha luz, pero no todas quieren sol fuerte."
+    ],
+    "quiz": [
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Mirá esas hojas gorditas, armadas en roseta. ¿A qué grupo pertenece esta planta?",
+        "imagen": "planta:echeveria",
+        "opciones": [
+          "Follaje tropical",
+          "Suculentas y cactus",
+          "Amigas de la humedad"
+        ],
+        "correcta": 1,
+        "explicacion": "Es una echeveria. Las hojas gruesas y carnosas son la pista: ahí guarda agua, como buena suculenta."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Todas las suculentas quieren pleno sol todo el día.",
+        "correcta": false,
+        "explicacion": "Quieren mucha luz, pero el sol fuerte de la tarde puede quemarlas. Y algunas, como la haworthia, prefieren luz indirecta brillante."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada cuidado con lo que piden las suculentas.",
+        "pares": [
+          {
+            "a": "Riego",
+            "b": "Con la tierra seca del todo"
+          },
+          {
+            "a": "Tierra",
+            "b": "Mezcla que drene rápido"
+          },
+          {
+            "a": "Invierno",
+            "b": "Casi nada de agua"
+          }
+        ],
+        "explicacion": "Todo sale de lo mismo: ya tienen agua guardada, así que lo que más las daña es la tierra mojada mucho tiempo."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Tu echeveria se estiró, está pálida y perdió la forma de roseta. ¿Qué es lo más probable?",
+        "imagen": "planta-estirada",
+        "opciones": [
+          "Le sobra sol",
+          "Le falta luz",
+          "Le falta agua"
+        ],
+        "correcta": 1,
+        "explicacion": "Con poca luz las suculentas se estiran y se ponen pálidas. Acercala a la ventana de a poco, para que no se queme con el cambio."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Por qué una suculenta aguanta tanto sin riego?",
+        "opciones": [
+          "Porque no necesita agua",
+          "Porque guarda agua en sus hojas o tallos carnosos",
+          "Porque toma agua del aire"
+        ],
+        "correcta": 1,
+        "explicacion": "Vienen de lugares secos y traen su propia reserva. Agua necesitan igual, solo que cada mucho más tiempo."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "How to grow houseplant cacti and succulents",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Indoor Cacti",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-cacti/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Growing Succulents Indoors",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-succulents-indoors",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Succulents",
+        "org": "UC Master Gardeners of Sonoma County (Univ. of California ANR)",
+        "url": "https://ucanr.edu/site/mg-sonoma/succulents",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Jade Plant, Crassula ovata",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/jade-plant-crassula-ovata/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Haworthias: Super Succulents for Small Spaces",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/haworthias-super-succulents-for-small-spaces/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Haworthiopsis attenuata",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/haworthiopsis-attenuata/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Humidity and Houseplants",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/humidity-and-houseplants",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "media",
+    "xp": 20
+  },
+  {
+    "id": "familias-2",
+    "unidad": "familias",
+    "titulo": "Follaje tropical",
+    "gancho": "¿Por qué al potus no le gusta el sol si viene del trópico?",
+    "tarjetas": [
+      {
+        "tipo": "por_que",
+        "imagen": "monstera-hoja",
+        "texto": "El potus, la monstera y el filodendro vienen de zonas tropicales, donde crecen en la selva a la sombra de árboles enormes. Ahí abajo el sol casi nunca les pega de lleno: les llega filtrado por las copas."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "luz-indirecta",
+        "texto": "Por eso en casa quieren luz indirecta brillante: mucha claridad, pero sin sol sobre las hojas. La luz directa fuerte se las quema."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "luz-poca",
+        "texto": "El potus y el filodendro también se adaptan a la luz indirecta media y hasta toleran la luz baja. Eso sí: con poca luz el potus manchado pierde el dibujo y la monstera saca hojas sin agujeros."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "altura",
+        "texto": "En la selva son trepadoras: se agarran a los troncos con raíces que salen del tallo, y cuanto más suben, más grandes salen las hojas. Por eso a la monstera le viene bien un tutor para treparse."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "dedo",
+        "texto": "Con el riego, nada de extremos: a fondo cuando se secaron los primeros centímetros de tierra, y sin agua en el plato. Les gusta el aire húmedo, aunque el potus y el filodendro se adaptan bien al de casa."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-feliz",
+        "texto": "La zamioculca es de la misma familia, pero viene de África: guarda agua en sus hojas brillantes y tiene tallos gruesos bajo la tierra. Tolera la luz baja y se riega como una suculenta, solo cuando la tierra se secó por completo."
+      }
+    ],
+    "para_llevarte": [
+      "Vienen de la selva: luz filtrada, no sol directo.",
+      "Luz indirecta brillante; potus y filodendro toleran menos.",
+      "Riego cuando se seca arriba; la zamioculca, mucho menos."
+    ],
+    "quiz": [
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Hojas grandes, verdes y con agujeros. ¿A qué grupo pertenece esta planta?",
+        "imagen": "planta:monstera",
+        "opciones": [
+          "Suculentas y cactus",
+          "Follaje tropical",
+          "Amigas de la humedad"
+        ],
+        "correcta": 1,
+        "explicacion": "Es una monstera, una trepadora de la selva. Sus hojas enormes están hechas para la luz filtrada que llega entre los árboles."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Por qué estas plantas prefieren la luz indirecta brillante?",
+        "opciones": [
+          "Porque en la selva crecen bajo los árboles, con luz filtrada",
+          "Porque vienen de lugares fríos",
+          "Porque guardan agua en las hojas"
+        ],
+        "correcta": 0,
+        "explicacion": "En su casa de origen el sol les llega tamizado por las copas. Con luz directa fuerte, las hojas se queman."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Tu monstera está en un rincón oscuro y las hojas nuevas salen sin agujeros. ¿Qué es lo más probable?",
+        "imagen": "monstera-hoja",
+        "opciones": [
+          "Le falta luz",
+          "Le sobra agua",
+          "Tiene demasiado sol"
+        ],
+        "correcta": 0,
+        "explicacion": "Con poca luz la monstera hace hojas con menos agujeros o sin ninguno. Probá acercarla a un lugar con luz indirecta brillante."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "La zamioculca se riega tan seguido como un potus.",
+        "correcta": false,
+        "explicacion": "La zamioculca guarda agua y se cuida parecido a una suculenta: se riega solo cuando la tierra se secó por completo."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada planta con su dato.",
+        "pares": [
+          {
+            "a": "Monstera",
+            "b": "Agradece un tutor"
+          },
+          {
+            "a": "Potus manchado",
+            "b": "Con poca luz pierde el dibujo"
+          },
+          {
+            "a": "Zamioculca",
+            "b": "Guarda agua en las hojas"
+          },
+          {
+            "a": "Filodendro",
+            "b": "Cómodo con luz indirecta media"
+          }
+        ],
+        "explicacion": "Son parientes, pero cada una tiene su maña. A todas les va bien sin sol directo."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "How to grow Swiss cheese plants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Swiss-Cheese Plant, Monstera deliciosa",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/monstera-deliciosa/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Monstera deliciosa",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/monstera-deliciosa/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Pothos, Epipremnum aureum",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Epipremnum aureum (Pothos)",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Philodendron hederaceum",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Philodendron",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/philodendron/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Zamioculcas zamiifolia",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "I recently purchased a ZZ plant. How do I care for it?",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "alta",
+    "xp": 20
+  },
+  {
+    "id": "familias-3",
+    "unidad": "familias",
+    "titulo": "Amigas de la humedad",
+    "gancho": "¿Por qué a mi helecho se le secan las puntas si lo riego bien?",
+    "tarjetas": [
+      {
+        "tipo": "por_que",
+        "imagen": "helecho",
+        "texto": "El helecho serrucho viene de bosques húmedos de América tropical, y la calatea, de selvas de Brasil cálidas, sombrías y húmedas. Están hechas para un aire cargado de humedad."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-seca",
+        "texto": "Con el aire seco, las puntas y los bordes de las hojas se ponen marrones, y a la calatea además se le pueden enrollar. Los helechos de hoja fina son los que más lo sufren."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "calefaccion",
+        "texto": "En el invierno porteño, de junio a agosto, la calefacción reseca el aire de casa y es cuando más lo notan. Tranqui, no es culpa tuya: alejalas de estufas y radiadores."
+      },
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "rociador",
+        "imagen_bien": "casa",
+        "texto": "Rociar las hojas casi no sirve: el agua se evapora en minutos y la humedad vuelve a bajar. Juntar varias plantas o usar un humidificador sí ayuda."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "luz-indirecta",
+        "texto": "Las dos quieren luz indirecta brillante, y el helecho serrucho también se adapta a la luz indirecta media. La luz directa les quema las hojas."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "riego",
+        "texto": "La tierra, siempre apenas húmeda: ni encharcada ni seca del todo. Regar de más no reemplaza la humedad del aire, porque el problema está en el aire y no en la tierra."
+      }
+    ],
+    "para_llevarte": [
+      "Vienen de selvas húmedas: sufren el aire seco.",
+      "Rociar casi no sirve; agrupar o humidificador, sí.",
+      "Luz indirecta brillante y tierra apenas húmeda."
+    ],
+    "quiz": [
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Es julio, la calefacción está prendida y a tu helecho se le secan las puntas, aunque la tierra está húmeda. ¿Qué es lo más probable?",
+        "imagen": "planta:helecho-serrucho",
+        "opciones": [
+          "Le falta luz directa",
+          "El aire está muy seco",
+          "Necesita una maceta más grande"
+        ],
+        "correcta": 1,
+        "explicacion": "La calefacción reseca el aire y los helechos lo sienten enseguida en las puntas. Alejalo de la estufa y juntalo con otras plantas."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Qué ayuda más a subir la humedad alrededor de tus plantas?",
+        "opciones": [
+          "Rociar las hojas una vez por día",
+          "Juntar varias plantas o usar un humidificador",
+          "Regarlas el doble"
+        ],
+        "correcta": 1,
+        "explicacion": "El rociado se evapora en minutos. Las plantas juntas se comparten la humedad que largan, y un humidificador la sube de verdad."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Hojas finas con dibujos, que viene de la selva. ¿A qué grupo pertenece esta planta?",
+        "imagen": "planta:calatea",
+        "opciones": [
+          "Suculentas y cactus",
+          "Amigas de la humedad",
+          "Con flor y orquídeas"
+        ],
+        "correcta": 1,
+        "explicacion": "Es una calatea. Viene de selvas húmedas de Brasil y no se lleva bien con el aire seco."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "A los helechos y las calateas les gusta la luz directa.",
+        "correcta": false,
+        "explicacion": "Se queman con facilidad. Prefieren luz indirecta brillante: mucha claridad, sin sol sobre las hojas."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada planta con el lugar de donde viene.",
+        "pares": [
+          {
+            "a": "Helecho serrucho",
+            "b": "Bosques húmedos de América"
+          },
+          {
+            "a": "Calatea",
+            "b": "Selvas de Brasil"
+          },
+          {
+            "a": "Suculentas",
+            "b": "Lugares secos"
+          }
+        ],
+        "explicacion": "Saber de dónde viene una planta te dice qué aire le gusta: húmedo para helechos y calateas, seco para las suculentas."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Boston Fern, Nephrolepis exaltata",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/boston-fern-nephrolepis-exaltata/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Indoor Ferns (HGIC 1505)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Nephrolepis exaltata (Boston Fern)",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow calatheas",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Goeppertia makoyana (Peacock Plant)",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/goeppertia-makoyana/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Humidity and Houseplants",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/humidity-and-houseplants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "The air in our home is extremely dry in winter. Should I mist the houseplants?",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/faq/air-our-home-extremely-dry-winter-should-i-mist-houseplants",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "media",
+    "xp": 20
+  },
+  {
+    "id": "familias-4",
+    "unidad": "familias",
+    "titulo": "Con flor y orquídeas",
+    "gancho": "¿Por qué mi orquídea no volvió a florecer?",
+    "tarjetas": [
+      {
+        "tipo": "por_que",
+        "imagen": "ventana-sol",
+        "texto": "Cuando una planta de interior sana no florece, lo más habitual es que le falte luz. Pasa con la violeta africana, con el espatifilo y con las orquídeas."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "luz-indirecta",
+        "texto": "Casi todas quieren luz indirecta brillante: mucha claridad, sin luz directa fuerte, que les quema las hojas. El espatifilo tolera la luz indirecta media y la luz baja, pero ahí casi no da flores."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "orquidea",
+        "texto": "La orquídea phalaenopsis no crece en la tierra: en la naturaleza vive agarrada a las ramas de los árboles. Por eso va en corteza suelta y aireada, nunca en tierra común."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "riego",
+        "texto": "Regala más o menos una vez por semana con agua tibia, dejando que corra por la corteza y escurra bien. Que no quede agua en el plato ni en el centro de las hojas, y que las raíces tampoco se sequen del todo."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-feliz",
+        "texto": "En el espatifilo y el anturio, lo que parece un pétalo es una hoja especial de color, y las flores verdaderas son chiquitas y están en la espiga del centro. Duran semanas y hasta meses."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "estaciones",
+        "texto": "El cactus de Navidad es un cactus de selva: quiere luz indirecta brillante y más riego que uno de desierto. Arma los pimpollos con las noches largas y frescas del otoño, que en Buenos Aires empieza en marzo y no en septiembre como dicen las guías del norte."
+      }
+    ],
+    "para_llevarte": [
+      "Si no florece, lo primero a revisar es la luz.",
+      "Luz indirecta brillante para casi todas.",
+      "Orquídea: corteza, agua tibia y que escurra bien."
+    ],
+    "quiz": [
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Tu espatifilo está sano, en un rincón con luz baja, y hace mucho que no da flores. ¿Qué probás primero?",
+        "imagen": "planta:espatifilo",
+        "opciones": [
+          "Regarlo más seguido",
+          "Pasarlo a un lugar con luz indirecta brillante",
+          "Ponerlo al sol directo de la tarde"
+        ],
+        "correcta": 1,
+        "explicacion": "El espatifilo aguanta la luz baja, pero ahí casi no florece. Con más claridad y sin sol directo, que le quema las hojas, tiene más chances."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Cómo conviene regar una orquídea phalaenopsis?",
+        "opciones": [
+          "Un chorrito todos los días",
+          "Con agua tibia que corra por la corteza y escurra bien",
+          "Dejándola siempre parada en un plato con agua"
+        ],
+        "correcta": 1,
+        "explicacion": "Más o menos una vez por semana, con agua tibia y dejando escurrir. Las raíces no tienen que quedar en agua ni secarse del todo."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "La orquídea phalaenopsis se planta en tierra común para macetas.",
+        "correcta": false,
+        "explicacion": "En la naturaleza vive sobre los árboles, con las raíces al aire. Necesita corteza suelta: la tierra común se las ahoga."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "A la violeta africana conviene regarla con agua que no esté fría.",
+        "correcta": true,
+        "explicacion": "El agua fría le hace mal y le puede manchar las hojas. Mejor a temperatura ambiente, y directo a la tierra o por abajo."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Para cerrar la unidad: uní cada planta con su grupo.",
+        "pares": [
+          {
+            "a": "Echeveria",
+            "b": "Suculentas y cactus"
+          },
+          {
+            "a": "Potus",
+            "b": "Follaje tropical"
+          },
+          {
+            "a": "Calatea",
+            "b": "Amigas de la humedad"
+          },
+          {
+            "a": "Phalaenopsis",
+            "b": "Con flor y orquídeas"
+          }
+        ],
+        "explicacion": "Cada grupo viene de un lugar distinto, y eso explica qué luz, qué riego y qué aire le gusta."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "How to grow Phalaenopsis (moth orchids)",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Phalaenopsis culture sheet",
+        "org": "American Orchid Society",
+        "url": "https://www.aos.org/orchid-care/care-sheets/phalaenopsis-culture-sheet",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Orchids",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/orchids/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Orchids",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/orchids/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow African violets",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/african-violets/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "African Violet",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/african-violet/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow peace lilies",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/peace-lilies/how-to-grow-peace-lilies",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Peace Lily",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/peace-lily/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow anthuriums",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Anthurium",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/anthurium/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Thanksgiving & Christmas Cacti",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/thanksgiving-christmas-cacti/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Schlumbergera x buckleyi",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/schlumbergera-x-buckleyi/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow houseplant cacti and succulents",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Indoor Cacti",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-cacti/",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "alta",
+    "xp": 20
+  }
+]

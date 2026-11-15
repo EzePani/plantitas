@@ -1,0 +1,606 @@
+[
+  {
+    "id": "estaciones-1",
+    "unidad": "estaciones",
+    "titulo": "Calor y verano",
+    "gancho": "¿Por qué a la hora de la siesta tu planta parece desmayada?",
+    "tarjetas": [
+      {
+        "tipo": "por_que",
+        "imagen": "planta-triste",
+        "texto": "Con mucho calor la planta pierde agua por las hojas más rápido de lo que la repone, y se afloja. Si se cae en las horas más calurosas y se levanta sola al atardecer, lo más probable es que sea calor."
+      },
+      {
+        "tipo": "tactil",
+        "imagen": "planta-partes",
+        "texto": "Tocá cada parte para ver cómo avisa una planta sofocada.",
+        "zonas": [
+          {
+            "id": "hojas",
+            "etiqueta": "Hojas",
+            "texto": "Se caen, se enrollan o se les secan los bordes. Si además les pega el sol, aparecen manchas marrones o se ven desteñidas."
+          },
+          {
+            "id": "maceta",
+            "etiqueta": "Tierra",
+            "texto": "Con calor y viento, la tierra de una maceta puede secarse en el mismo día."
+          }
+        ]
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "dedo",
+        "texto": "Antes de regar, tocá la tierra: si está seca, regá a fondo ahora mismo, sin esperar a la noche. Si está húmeda y la planta igual está caída, es el calor: más agua no la ayuda, la sombra sí."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "sol-tarde",
+        "texto": "En el verano porteño, de diciembre a febrero, las olas de calor son cada vez más frecuentes y más largas. En un balcón con sol de tarde, revisá las macetas todos los días, y en los días más bravos, dos veces."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "ventana-sol",
+        "texto": "Un balcón cerrado con vidrio junta calor como un invernadero, y ahí las plantas se marchitan, se queman y se resecan más fácil. Los días de sol abrí las ventanas y poné una cortina o una media sombra."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "casa",
+        "texto": "Durante una ola de calor, corré las macetas a la sombra y juntalas: entre ellas se dan sombra y guardan humedad. El abono y el trasplante, mejor cuando afloje el calor."
+      }
+    ],
+    "para_llevarte": [
+      "Caída a la siesta y repuesta a la noche: es calor.",
+      "Tierra seca: regá ya. Tierra húmeda: sombra, no más agua.",
+      "En ola de calor: sombra, macetas juntas y nada de abono."
+    ],
+    "quiz": [
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Enero, cuatro de la tarde. Tu planta del balcón está caída, pero a la mañana estaba perfecta y la tierra sigue húmeda. ¿Qué es lo más probable?",
+        "imagen": "planta-triste",
+        "opciones": [
+          "Le falta agua",
+          "La sofocó el calor de la tarde",
+          "Le falta abono"
+        ],
+        "correcta": 1,
+        "explicacion": "Si la tierra está húmeda y la planta se cae justo a la hora de más calor, es el calor. Lo que la ayuda es la sombra, no más agua."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Llegás al mediodía, hace un calor tremendo y tu planta está marchita con la tierra seca. ¿Cuándo la regás?",
+        "opciones": [
+          "Ahora mismo, y a fondo",
+          "Espero a la noche",
+          "Mañana a primera hora"
+        ],
+        "correcta": 0,
+        "explicacion": "Cuanto más tiempo pasa marchita, más chances de que le quede daño. Si la tierra está seca, regala en el momento."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "En plena ola de calor conviene abonar la planta para darle fuerzas.",
+        "correcta": false,
+        "explicacion": "El abono la empuja a sacar brotes nuevos, que son los que más sufren el calor, y con poca agua puede dañarla. Mejor esperar a que refresque."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada situación con lo que conviene hacer.",
+        "pares": [
+          {
+            "a": "Balcón cerrado con vidrio",
+            "b": "Ventilar y dar sombra"
+          },
+          {
+            "a": "Maceta al sol de la tarde",
+            "b": "Correrla a la sombra"
+          },
+          {
+            "a": "Caída y con tierra seca",
+            "b": "Regar a fondo ya"
+          },
+          {
+            "a": "Caída y con tierra húmeda",
+            "b": "Solo sombra, sin más agua"
+          }
+        ],
+        "explicacion": "Con calor, la sombra y el aire ayudan siempre. El agua, solo si la tierra está seca."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Heat wave in the garden: How to identify and prevent heat stress in plants",
+        "org": "Oregon State University Extension Service",
+        "url": "https://extension.oregonstate.edu/gardening/flowers-shrubs-trees/heat-wave-garden-how-identify-prevent-heat-stress-plants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Protecting Plants From Heat Stress",
+        "org": "South Dakota State University Extension",
+        "url": "https://extension.sdstate.edu/protecting-plants-heat-stress",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Container maintenance",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/container-gardening/maintenance",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to help a poorly houseplant",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Greenhouse: ventilation and shading",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/garden-features/ventilation-and-shading-greenhouses",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "El Clima en la Ciudad",
+        "org": "Gobierno de la Ciudad de Buenos Aires, Agencia de Protección Ambiental",
+        "url": "https://buenosaires.gob.ar/adaptacion/el-clima-en-la-ciudad",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "media",
+    "xp": 20
+  },
+  {
+    "id": "estaciones-2",
+    "unidad": "estaciones",
+    "titulo": "Invierno, frío y calefacción",
+    "gancho": "¿Hay que entrar las plantas del balcón cuando llega el frío?",
+    "tarjetas": [
+      {
+        "tipo": "dato_ba",
+        "imagen": "helada",
+        "texto": "En Buenos Aires el invierno va de junio a agosto, y la ciudad suele estar más templada que sus alrededores, sobre todo de noche. Igual, si el pronóstico anuncia helada o mínimas cerca de cero, toca cuidar las plantas del balcón."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "helada",
+        "texto": "Para esas noches, juntá las macetas contra la pared de la casa, en un rincón reparado y seco, así se protegen entre ellas. Si el frío viene fuerte, tapalas con una tela antihelada o envolvé la maceta para cuidar las raíces."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "casa",
+        "texto": "Muchas plantas de interior son tropicales y no aguantan ni un rato bajo cero. Si pasan el verano en el balcón, entralas antes del frío: una buena referencia es cuando las noches empiezan a bajar de unos 10 grados."
+      },
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "calefaccion",
+        "imagen_bien": "planta-feliz",
+        "texto": "Ni pegada a la estufa ni en el chiflete: el aire caliente directo reseca y quema las hojas finas, y las corrientes las ponen amarillas. Buscale un lugar de temperatura pareja, lejos de estufas, radiadores, puertas y de la salida del aire acondicionado."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "ventana-sol",
+        "texto": "De noche el vidrio se enfría mucho, y una planta que queda entre la ventana y la cortina pasa de templada a fría en pocas horas. En las noches heladas, corré la maceta hacia adentro o dejala del lado de la habitación."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-triste",
+        "texto": "Las puntas marrones y secas suelen venir del aire seco de la calefacción, y las hojas ennegrecidas o la planta desplomada, del frío. Para el aire seco, como viste en riego, rinde más juntar las plantas o un humidificador que rociarlas."
+      }
+    ],
+    "para_llevarte": [
+      "Si anuncian helada: macetas juntas, contra la pared y tapadas.",
+      "Lejos de estufas, chifletes y del aire acondicionado.",
+      "De noche, nunca entre el vidrio y la cortina."
+    ],
+    "quiz": [
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Julio. Tu planta vive en la ventana y de noche queda detrás de la cortina. Amaneció con hojas ennegrecidas y caídas. ¿Qué pasó?",
+        "imagen": "planta-triste",
+        "opciones": [
+          "Sufrió el frío del vidrio",
+          "Le falta abono",
+          "Tiene demasiada luz"
+        ],
+        "correcta": 0,
+        "explicacion": "La cortina cerrada deja a la planta encerrada con el frío del vidrio. De noche conviene dejarla del lado de la habitación."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Pegar la planta a la estufa la ayuda a pasar mejor el invierno.",
+        "correcta": false,
+        "explicacion": "El aire caliente directo reseca y puede quemar las hojas. Les va mejor un lugar de temperatura pareja, lejos del calor directo."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Anuncian helada para esta noche y tenés macetas en el balcón. ¿Qué hacés?",
+        "opciones": [
+          "Las riego bien para que aguanten",
+          "Las junto contra la pared y las tapo",
+          "Las dejo donde están"
+        ],
+        "correcta": 1,
+        "explicacion": "Juntas y contra la pared se protegen entre ellas, y una tela antihelada suma un par de grados. Regar justo antes de una helada no conviene."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada situación con lo que conviene hacer.",
+        "pares": [
+          {
+            "a": "Pegada al radiador",
+            "b": "Alejarla del calor"
+          },
+          {
+            "a": "Detrás de la cortina, de noche",
+            "b": "Pasarla del lado de la habitación"
+          },
+          {
+            "a": "Bajo la salida del aire",
+            "b": "Sacarla del chorro"
+          },
+          {
+            "a": "Tropical en el balcón en junio",
+            "b": "Entrarla a casa"
+          }
+        ],
+        "explicacion": "A las plantas de interior les gusta la temperatura pareja: sin chorros de aire, sin calor directo y sin vidrios helados."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Winter Care of Houseplants",
+        "org": "University of Wisconsin-Madison Extension (Chippewa County)",
+        "url": "https://chippewa.extension.wisc.edu/2025/11/19/winter-care-of-houseplants-2",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Beautiful winter houseplants and care tips",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/winter-interest-houseplants-care",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Diagnosing Houseplant Problems from Improper Environmental Conditions",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/diagnosing-houseplant-problems-improper-environmental-conditions",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplants: Care",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/care",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to help a poorly houseplant",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Container maintenance",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/container-gardening/maintenance",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Preventing winter damage",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/prevention-protection/preventing-winter-damage",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Moving houseplants outdoors for summer",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/moving-houseplants-outdoors",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Humidity and Houseplants",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/humidity-and-houseplants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Schefflera Plant (respuesta en Ask Extension)",
+        "org": "University of Maryland Extension (HGIC), en Ask Extension",
+        "url": "https://ask.extension.org/kb/faq.php?id=679195",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "El Clima en la Ciudad",
+        "org": "Gobierno de la Ciudad de Buenos Aires, Agencia de Protección Ambiental",
+        "url": "https://buenosaires.gob.ar/adaptacion/el-clima-en-la-ciudad",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Evolución y disponibilidad de horas-frío en la Ciudad de Buenos Aires (Raffetti Ballerini y otros)",
+        "org": "FCEN-UBA y Jardín Botánico Carlos Thays, con datos del Servicio Meteorológico Nacional (SEDICI)",
+        "url": "https://sedici.unlp.edu.ar/bitstream/handle/10915/193587/Documento_completo.pdf?sequence=1",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Boletín Climatológico, Invierno 2024",
+        "org": "Servicio Meteorológico Nacional (Argentina)",
+        "url": "https://repositorio.smn.gob.ar/bitstream/handle/20.500.12160/2938/0069CL2024.pdf?sequence=1&isAllowed=y",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "media",
+    "xp": 20
+  },
+  {
+    "id": "estaciones-3",
+    "unidad": "estaciones",
+    "titulo": "Cuándo es normal que pierda hojas",
+    "gancho": "¿Se le cayeron tres hojas y ya te imaginás lo peor?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "hojas-caidas",
+        "texto": "Las hojas no viven para siempre: que cada tanto se ponga amarilla y se caiga alguna hoja vieja, de las de abajo o de adentro, es normal. Si la planta se ve sana y sigue sacando hojas nuevas, tranqui."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "casa",
+        "texto": "Después de un cambio de lugar, muchas plantas sueltan hojas, porque las que tenían estaban hechas para otra luz. Con cuidados parejos suelen acomodarse en uno o dos meses y sacan hojas nuevas, a medida del lugar."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-feliz",
+        "texto": "El ficus llorón es el más dramático: puede tirar un montón de hojas solo porque lo cambiaste de lugar o de maceta. Si el lugar nuevo es bueno, dejalo quieto, que se adapta y vuelve a brotar."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "estaciones",
+        "texto": "En Buenos Aires el otoño va de marzo a mayo: con menos luz, y al entrar las plantas que estaban en el balcón, es común que suelten algunas hojas. En invierno casi todas frenan, y algunas, como los caladios y las alocasias, pueden quedarse sin hojas y rebrotar en primavera."
+      },
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "hojas-caidas",
+        "imagen_bien": "planta-feliz",
+        "texto": "Alarma: caen muchas hojas juntas, o caen las nuevas además de las viejas. Normal: de a poco, solo hojas viejas, y con la planta sana."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "dedo",
+        "texto": "Si es alarma, revisá de a una cosa: la tierra, por si está empapada o reseca, después las corrientes de aire y la luz, y por último si hay bichos. Y no la marees con cambios todos los días, porque el cuidado desparejo alarga la adaptación."
+      }
+    ],
+    "para_llevarte": [
+      "Hoja vieja de abajo que cae cada tanto: normal.",
+      "Después de un cambio de lugar, dale uno o dos meses.",
+      "Muchas juntas o las nuevas: revisá agua, aire, luz y bichos."
+    ],
+    "quiz": [
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Hace tres semanas cambiaste el ficus de lugar y ahora pierde hojas. La tierra está bien y no ves bichos. ¿Qué es lo más probable?",
+        "imagen": "hojas-caidas",
+        "opciones": [
+          "Se está adaptando al lugar nuevo",
+          "Se está muriendo",
+          "Necesita una maceta más grande"
+        ],
+        "correcta": 0,
+        "explicacion": "El ficus suele tirar hojas cuando lo mueven. Si el lugar es bueno, se adapta, deja de perder hojas y saca nuevas."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Que una planta sana pierda cada tanto una hoja vieja de abajo es normal.",
+        "correcta": true,
+        "explicacion": "Las hojas tienen su tiempo de vida. Mientras salgan hojas nuevas, perder alguna vieja no es problema."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Cuál de estas caídas de hojas merece que revises la planta?",
+        "opciones": [
+          "Una hoja vieja amarilla cada tanto",
+          "Hojas nuevas y viejas cayendo al mismo tiempo",
+          "Un caladio que se queda sin hojas en invierno"
+        ],
+        "correcta": 1,
+        "explicacion": "Cuando caen juntas las nuevas y las viejas, algo anda mal, y muchas veces es agua de más. Tocá la tierra y revisá las raíces."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada caso con lo que significa.",
+        "pares": [
+          {
+            "a": "Hoja vieja de abajo, de a una",
+            "b": "Normal, es la edad"
+          },
+          {
+            "a": "Recién cambiada de lugar",
+            "b": "Darle tiempo sin moverla"
+          },
+          {
+            "a": "Caen nuevas y viejas, tierra empapada",
+            "b": "Agua de más: dejar secar"
+          },
+          {
+            "a": "Caladio pelado en julio",
+            "b": "Descansa y rebrota en primavera"
+          }
+        ],
+        "explicacion": "Cuáles hojas caen, cuántas y en qué momento te dicen si es normal o si hay que revisar."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Diagnosing Houseplant Problems from Improper Environmental Conditions",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/diagnosing-houseplant-problems-improper-environmental-conditions",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Several houseplants that were brought indoors in fall are dropping leaves. Why?",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/faq/several-houseplants-were-brought-indoors-fall-are-dropping-leaves-why",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Schefflera Plant (respuesta en Ask Extension)",
+        "org": "University of Maryland Extension (HGIC), en Ask Extension",
+        "url": "https://ask.extension.org/kb/faq.php?id=679195",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Weeping Ficus",
+        "org": "Clemson Cooperative Extension (HGIC)",
+        "url": "https://hgic.clemson.edu/factsheet/weeping-ficus/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Plant of the Week: Weeping Fig (Ficus)",
+        "org": "University of Arkansas Cooperative Extension",
+        "url": "https://www.uaex.uada.edu/yard-garden/resource-library/plant-week/weeping-fig.aspx",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to help a poorly houseplant",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Moving houseplants outdoors for summer",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/moving-houseplants-outdoors",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplant Care During the Winter Months",
+        "org": "University of Vermont Extension",
+        "url": "https://www.uvm.edu/extension/news/houseplant-care-during-winter-months",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "alta",
+    "xp": 20
+  },
+  {
+    "id": "estaciones-4",
+    "unidad": "estaciones",
+    "titulo": "Si te vas de viaje",
+    "gancho": "¿Quién cuida las plantas mientras vos estás en la playa?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "valija",
+        "texto": "Antes de salir, regá a fondo, dejá escurrir y corré las plantas lejos de la ventana con sol, a un lugar más fresco y con luz indirecta. Con menos luz y menos calor gastan menos agua."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "estaciones",
+        "texto": "Unos días, hasta más o menos una semana: con esa preparación suele alcanzar. En invierno aguantan una o dos semanas solas, siempre que no queden contra un vidrio frío."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "autorriego",
+        "texto": "Dos o tres semanas: armá un riego por mecha, con un cordón de algodón que va desde un recipiente grande con agua hasta la tierra de cada maceta. Mojá el cordón antes, enterrá bien la punta y poné el recipiente más alto que las macetas."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "autorriego",
+        "texto": "La mecha falla por dos cosas: el recipiente es chico y se vacía, o la punta se sale de la tierra. No la uses con cactus y suculentas, que aguantan semanas sin agua."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "valija",
+        "texto": "Las macetas del balcón son las que más sufren: juntalas en un rincón con sombra, así guardan humedad y son fáciles de regar para quien venga. Si tenés riego por goteo con temporizador, armalo y probalo una semana antes."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "casa",
+        "texto": "Más de dos o tres semanas: lo más seguro es pedirle a alguien que pase a regar, al menos una vez por semana. Contale lo de tocar la tierra antes, así no las ahoga de cariño."
+      }
+    ],
+    "para_llevarte": [
+      "Siempre: riego a fondo y lejos del sol antes de salir.",
+      "Dos o tres semanas: mecha de algodón desde un recipiente con agua.",
+      "Más tiempo: alguien que pase una vez por semana."
+    ],
+    "quiz": [
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Te vas cinco días. ¿Qué suele alcanzar?",
+        "opciones": [
+          "Regar a fondo y alejarlas del sol",
+          "Pasarlas a macetas nuevas",
+          "Dejarlas al sol para que se sequen bien"
+        ],
+        "correcta": 0,
+        "explicacion": "La mayoría aguanta unos días sola. Bien regadas y en un lugar más fresco y sin sol directo, gastan menos agua."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada caso con lo que conviene.",
+        "pares": [
+          {
+            "a": "Unos días",
+            "b": "Riego a fondo y sacar del sol"
+          },
+          {
+            "a": "Dos o tres semanas",
+            "b": "Riego por mecha"
+          },
+          {
+            "a": "Más de un mes",
+            "b": "Alguien que pase a regar"
+          },
+          {
+            "a": "Cactus y suculentas",
+            "b": "Aguantan semanas sin agua"
+          }
+        ],
+        "explicacion": "Cuanto más largo el viaje, más ayuda necesitan. Los cactus y las suculentas son los más independientes."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "La semana antes de un viaje corto conviene pasar todas las plantas a macetas con autorriego.",
+        "correcta": false,
+        "explicacion": "Las macetas con autorriego funcionan mejor como solución de todo el año. Trasplantar a último momento, solo por unos días afuera, no vale la pena."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Volvés a las dos semanas: el recipiente de la mecha sigue lleno, pero la planta está seca. ¿Qué pasó?",
+        "imagen": "autorriego",
+        "opciones": [
+          "La mecha se salió de la tierra",
+          "Le faltó sol",
+          "Tenía agua de más"
+        ],
+        "correcta": 0,
+        "explicacion": "Si la punta no queda bien enterrada, el agua no llega. La próxima, enterrala bien y fijate que funcione antes de irte."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Houseplants: holiday care",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/holiday-care",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Vacation Plant Care",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/design/outdoor-living/vacation-plant-care/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to Save Your Houseplants While Vacationing",
+        "org": "NC State Extension (Pender County, Extension Master Gardener)",
+        "url": "https://pender.ces.ncsu.edu/2022/02/how-to-save-your-houseplants-while-vacationing",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplants: Care",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/care",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "media",
+    "xp": 20
+  }
+]

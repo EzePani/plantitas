@@ -1,0 +1,635 @@
+[
+  {
+    "id": "abono-1",
+    "unidad": "abono",
+    "titulo": "Qué comen las plantas",
+    "gancho": "¿El abono es la comida de la planta?",
+    "tarjetas": [
+      {
+        "tipo": "por_que",
+        "imagen": "necesidades",
+        "texto": "La comida de verdad la fabrica la planta sola: con luz, agua y aire arma sus propios azúcares. El abono no le da energía, le acerca minerales que necesita para crecer."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "abono-npk",
+        "texto": "Los tres minerales que más importan en un abono son nitrógeno, fósforo y potasio, que en las etiquetas aparecen como N, P y K. Los tres números del envase dicen qué porcentaje trae de cada uno, siempre en ese orden."
+      },
+      {
+        "tipo": "tactil",
+        "imagen": "planta-partes",
+        "texto": "Tocá cada parte para ver a qué ayuda cada mineral.",
+        "zonas": [
+          {
+            "id": "hojas",
+            "etiqueta": "Nitrógeno (N)",
+            "texto": "Ayuda a que crezcan hojas y tallos, y hace falta para fabricar el verde de la hoja."
+          },
+          {
+            "id": "raices",
+            "etiqueta": "Fósforo (P)",
+            "texto": "Acompaña el crecimiento sano de raíces y brotes."
+          },
+          {
+            "id": "tallo",
+            "etiqueta": "Potasio (K)",
+            "texto": "Ayuda a la floración, a los frutos y a que la planta aguante mejor el frío."
+          }
+        ]
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "abono-npk",
+        "texto": "Un abono 20-20-20 trae los tres en partes iguales y alcanza para muchas plantas de interior. Para las que dan flor se suelen recomendar fórmulas con más fósforo y potasio."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "sustrato",
+        "texto": "En una maceta hay poca tierra de donde sacar minerales. Por eso cada tanto conviene reponerlos, sin apuro y sin exagerar."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "luz-poca",
+        "texto": "El abono no hace crecer a la planta por sí solo: acompaña cuando la luz, el agua y la temperatura están bien. Adentro de casa, con menos luz, las plantas necesitan bastante poco."
+      }
+    ],
+    "para_llevarte": [
+      "La planta fabrica su comida con la luz.",
+      "El abono aporta minerales, no energía.",
+      "N, P y K: los tres números de la etiqueta."
+    ],
+    "quiz": [
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "El abono le da energía a la planta, igual que la comida a nosotros.",
+        "correcta": false,
+        "explicacion": "La energía la saca de la luz, con la que fabrica sus propios azúcares. El abono solo le acerca minerales."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada mineral con lo que más ayuda.",
+        "pares": [
+          {
+            "a": "Nitrógeno (N)",
+            "b": "Hojas y tallos"
+          },
+          {
+            "a": "Fósforo (P)",
+            "b": "Raíces y brotes"
+          },
+          {
+            "a": "Potasio (K)",
+            "b": "Flores y frutos"
+          }
+        ],
+        "explicacion": "Un truco para acordarte del orden N, P, K: hojas, raíces, flores."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "En un envase dice 10-5-8. ¿Qué significan esos números?",
+        "opciones": [
+          "La dosis por litro de agua",
+          "Cuánto nitrógeno, fósforo y potasio trae",
+          "Los meses en que se puede usar"
+        ],
+        "correcta": 1,
+        "explicacion": "Son los porcentajes de nitrógeno, fósforo y potasio, siempre en ese orden. La dosis está aparte, en las instrucciones."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Tu planta está en un rincón con poca luz y casi no crece. ¿Qué la ayuda más?",
+        "opciones": [
+          "Darle más abono",
+          "Llevarla a un lugar con más luz",
+          "Abono y riego todos los días"
+        ],
+        "correcta": 1,
+        "explicacion": "Si lo que falta es luz, el abono no lo compensa. Primero el lugar, después los minerales."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "How plants absorb nutrients",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/advice/understanding-plants/how-plants-absorb-nutrients",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Fertilisers",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/garden-jobs/fertilisers",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Indoor Plants – Cleaning, Fertilizing, Containers & Light Requirements",
+        "org": "Clemson Cooperative Extension (HGIC)",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Sunlight v. Fertilizer",
+        "org": "UF/IFAS Extension Pasco County",
+        "url": "https://blogs.ifas.ufl.edu/pascoco/2024/11/12/sunlight-v-fertilizer/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to Fertilize House Plants",
+        "org": "NC State Extension (N.C. Cooperative Extension, Union County)",
+        "url": "https://union.ces.ncsu.edu/2022/04/how-to-fertilize-house-plants/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Is it a Plant “Nutrient” or “Food”?",
+        "org": "Utah State University Extension",
+        "url": "https://extension.usu.edu/dirtdiggersdigest/plant-nutrient-or-food",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplant Care",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/houseplant-care/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow houseplants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Repotting & Fertilizing Houseplants",
+        "org": "University of Arkansas Division of Agriculture, Cooperative Extension",
+        "url": "https://www.uaex.uada.edu/counties/white/news/horticulture/20210428RepottingHouseplants.aspx",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "alta",
+    "xp": 20
+  },
+  {
+    "id": "abono-2",
+    "unidad": "abono",
+    "titulo": "Tipos de abono",
+    "gancho": "¿Líquido, en bolitas o humus de lombriz?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "abono-tipos",
+        "texto": "El abono líquido o en polvo se disuelve en el agua de riego y la planta lo tiene disponible enseguida. Bien diluido es el más fácil de manejar, porque es más difícil pasarse."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "abono-tipos",
+        "texto": "El granulado se esparce sobre la tierra una o dos veces por temporada. Los de liberación lenta, en bolitas, palitos o tabletas, van soltando un poquito con cada riego durante semanas o meses."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "sustrato",
+        "texto": "Los abonos orgánicos vienen de restos de plantas o animales y actúan más despacio, porque primero los tienen que descomponer los organismos de la tierra. Los sintéticos son más concentrados y rápidos, y por eso piden más cuidado con la dosis."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "abono-tipos",
+        "texto": "El humus de lombriz mejora la tierra y ayuda a que la planta aproveche mejor los nutrientes. Suma mucho, pero no reemplaza del todo a un abono."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "casa",
+        "texto": "En el Gran Buenos Aires, el INTA enseña a hacer compost en casa con los restos de la cocina, incluso en un balcón, usando un tacho cerrado con tapa y drenaje. Lo recomienda para enriquecer y reactivar la tierra de la huerta, el jardín o el cantero."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "abono-npk",
+        "texto": "Para plantas de hoja van bien las fórmulas parejas o con más nitrógeno, y para las de flor, las que traen más fósforo y potasio. Adentro de casa, tené en cuenta que algunos abonos orgánicos pueden dar un poco de olor."
+      }
+    ],
+    "para_llevarte": [
+      "Líquido: rápido y fácil de diluir.",
+      "Liberación lenta: menos trabajo, dura semanas o meses.",
+      "Orgánicos: más lentos, mejoran la tierra."
+    ],
+    "quiz": [
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada abono con cómo funciona.",
+        "pares": [
+          {
+            "a": "Líquido",
+            "b": "Se diluye en el agua de riego"
+          },
+          {
+            "a": "Granulado",
+            "b": "Se esparce sobre la tierra"
+          },
+          {
+            "a": "Liberación lenta",
+            "b": "Suelta de a poco por meses"
+          },
+          {
+            "a": "Humus de lombriz",
+            "b": "Orgánico, mejora la tierra"
+          }
+        ],
+        "explicacion": "Todos sirven: cambia la velocidad y cuánto trabajo te dan. Elegí el que te resulte más cómodo."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Los abonos orgánicos actúan más rápido que los sintéticos.",
+        "correcta": false,
+        "explicacion": "Es al revés: los orgánicos necesitan que los organismos de la tierra los descompongan, y eso lleva tiempo. Los sintéticos son más concentrados y rápidos."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Sos de olvidarte de abonar. ¿Qué tipo te simplifica la vida?",
+        "opciones": [
+          "Líquido en cada riego",
+          "De liberación lenta",
+          "Doble dosis cuando me acuerdo"
+        ],
+        "correcta": 1,
+        "explicacion": "Los de liberación lenta sueltan un poquito con cada riego durante semanas o meses. La doble dosis nunca es buena idea."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "El humus de lombriz reemplaza por completo a cualquier abono.",
+        "correcta": false,
+        "explicacion": "Mejora la tierra y ayuda a aprovechar los nutrientes, pero no reemplaza del todo a un abono. Se llevan bien juntos."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Fertilisers",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/garden-jobs/fertilisers",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow houseplants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Indoor Plants – Cleaning, Fertilizing, Containers & Light Requirements",
+        "org": "Clemson Cooperative Extension (HGIC)",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Fertilizing Houseplants",
+        "org": "University of New Hampshire Extension",
+        "url": "https://extension.unh.edu/blog/2018/03/fertilizing-houseplants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Success With Houseplants - Fertilization",
+        "org": "University of Nebraska-Lincoln Extension (Lancaster County)",
+        "url": "https://lancaster.unl.edu/success-houseplants-fertilization",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Vermicomposting for the Mississippi Gardener",
+        "org": "Mississippi State University Extension",
+        "url": "https://extension.msstate.edu/publications/vermicomposting-for-the-mississippi-gardener",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Compost: cómo transformar residuos orgánicos en abono",
+        "org": "INTA (INTA AMBA), en argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/node/425764",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Enmiendas orgánicas para la conservación del suelo, agua y semillas criollas",
+        "org": "INTA, en argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/node/417418",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "media",
+    "xp": 20
+  },
+  {
+    "id": "abono-3",
+    "unidad": "abono",
+    "titulo": "En la tierra, en el agua o en las hojas",
+    "gancho": "¿Le pongo el abono en el agua, en la tierra o se lo rocío?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "riego",
+        "texto": "Lo más común es disolver el abono en el agua de riego. Nunca lo prepares más fuerte de lo que dice la etiqueta: ante la duda, a la mitad o menos."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "abono-tipos",
+        "texto": "El granulado y el de liberación lenta van directo sobre la tierra, en la cantidad que indica el envase. Con cualquiera, regá primero si la tierra está seca, porque el abono sobre tierra seca puede quemar las raíces."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "rociador",
+        "texto": "El abono foliar se rocía sobre las hojas, pero la planta absorbe por ahí solo una parte chica de lo que le ponés. Sirve como complemento puntual y no reemplaza al abono en la tierra, porque las raíces son su vía principal."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "abono-exceso",
+        "texto": "El abono disuelto son sales, y las que la planta no usa se van juntando en la tierra. Cuando hay demasiadas, a las raíces les cuesta tomar agua aunque la tierra esté húmeda, y se pueden quemar."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "abono-exceso",
+        "texto": "Las señales de exceso son puntas y bordes marrones, hojas de abajo que se caen, planta decaída y una costra blanca sobre la tierra o en el borde de la maceta. Ojo, que varias de esas señales también pueden venir de otras causas."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "ducha",
+        "texto": "Si te pasaste, tranqui: sacá la costra de arriba y hacé correr despacio mucha agua por la maceta, más o menos el doble de su volumen, dejando que escurra toda. Después esperá a que la tierra se seque como siempre antes de volver a regar."
+      }
+    ],
+    "para_llevarte": [
+      "Nunca más fuerte que la etiqueta.",
+      "En las hojas: complemento, no reemplazo.",
+      "Si te pasaste, mucha agua y que escurra."
+    ],
+    "quiz": [
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Puntas marrones y una costra blanca sobre la tierra, después de abonar muy seguido. ¿Qué es lo más probable?",
+        "imagen": "abono-exceso",
+        "opciones": [
+          "Le falta abono",
+          "Se juntaron sales por exceso de abono",
+          "Le falta una maceta más chica"
+        ],
+        "correcta": 1,
+        "explicacion": "La costra blanca son sales que se fueron acumulando, y pueden quemar las puntas de las hojas y las raíces. No pasa nada: se lavan con agua."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Te pasaste con el abono. ¿Qué hacés?",
+        "opciones": [
+          "Le pongo un poco más para compensar",
+          "Hago correr mucha agua por la maceta y dejo escurrir",
+          "La dejo al sol para que se seque rápido"
+        ],
+        "correcta": 1,
+        "explicacion": "El agua que pasa y escurre se lleva las sales que sobran. Con más o menos el doble del volumen de la maceta alcanza."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Rociar abono en las hojas alcanza para reemplazar al abono en la tierra.",
+        "correcta": false,
+        "explicacion": "Por las hojas entra solo una parte chica de lo que se rocía. Es un complemento: la vía principal son las raíces."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Si la tierra está seca, conviene regar antes de abonar.",
+        "correcta": true,
+        "explicacion": "El abono sobre tierra seca puede quemar las raíces. Con la tierra ya húmeda es mucho más suave."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "La etiqueta dice una tapita por litro de agua. ¿Qué conviene?",
+        "opciones": [
+          "Dos tapitas, así crece más rápido",
+          "Una tapita o menos",
+          "Tres tapitas, pero una sola vez por año"
+        ],
+        "correcta": 1,
+        "explicacion": "La dosis de la etiqueta es el máximo. Más abono no es más crecimiento: es más riesgo de quemar las raíces."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Success With Houseplants - Fertilization",
+        "org": "University of Nebraska-Lincoln Extension (Lancaster County)",
+        "url": "https://lancaster.unl.edu/success-houseplants-fertilization",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Fertilizing Houseplants",
+        "org": "Kansas State University Research and Extension",
+        "url": "https://www.k-state.edu/news/wild-west-district/articles/2025/09/fertilizing-houseplants.html",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to Fertilize House Plants",
+        "org": "NC State Extension (N.C. Cooperative Extension, Union County)",
+        "url": "https://union.ces.ncsu.edu/2022/04/how-to-fertilize-house-plants/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Indoor Plants – Cleaning, Fertilizing, Containers & Light Requirements",
+        "org": "Clemson Cooperative Extension (HGIC)",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Fertilizing Houseplants",
+        "org": "University of New Hampshire Extension",
+        "url": "https://extension.unh.edu/blog/2018/03/fertilizing-houseplants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow houseplants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Foliar Feeding Revisited",
+        "org": "University of Missouri, Integrated Pest Management (Missouri Produce Growers Bulletin)",
+        "url": "https://ipm.missouri.edu/mpg/2019/4/foliarFeeding",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Fertilisers",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/garden-jobs/fertilisers",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How plants absorb nutrients",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/advice/understanding-plants/how-plants-absorb-nutrients",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "alta",
+    "xp": 20
+  },
+  {
+    "id": "abono-4",
+    "unidad": "abono",
+    "titulo": "Cuándo abonar y cuándo no",
+    "gancho": "¿Le pongo abono para que se recupere?",
+    "tarjetas": [
+      {
+        "tipo": "dato_ba",
+        "imagen": "estaciones",
+        "texto": "Las guías del hemisferio norte dicen abonar más o menos de marzo a septiembre, que allá es primavera y verano. En Buenos Aires es al revés: de septiembre a marzo, cuando hay más luz y la planta está creciendo."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "luz-poca",
+        "texto": "En invierno, de junio a agosto, hay menos luz y muchas plantas casi dejan de crecer. Si abonás igual no lo aprovechan y las sales se juntan en la tierra, así que lo mejor es guardar el abono hasta la primavera."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-feliz",
+        "texto": "La señal más clara la da la planta: si está sacando hojas nuevas o pimpollos, está activa y puede aprovechar el abono. Cada cuánto depende del producto, así que seguí la etiqueta y, ante la duda, quedate corto."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "trasplante",
+        "texto": "A una planta recién trasplantada o recién comprada no hace falta abonarla. Muchas tierras nuevas ya traen abono para varios meses, y las plantas de vivero suelen venir con nutrientes para dos o tres meses."
+      },
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "planta-triste",
+        "imagen_bien": "necesidades",
+        "texto": "El abono no es un remedio: a una planta enferma, dañada o decaída no la cura y hasta le puede hacer peor. Primero revisá la luz, el riego y si tiene plagas, y abonala recién cuando se recupere."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "sustrato",
+        "texto": "Las cáscaras de huevo y de banana tardan muchísimo en soltar sus nutrientes, y del agua de arroz no hay estudios que la respalden en plantas de interior. Mejor mandá las cáscaras al compost y usá un abono con dosis conocida."
+      }
+    ],
+    "para_llevarte": [
+      "Abonar de septiembre a marzo, si está creciendo.",
+      "En invierno, recién trasplantada o enferma: no.",
+      "El abono no es un remedio."
+    ],
+    "quiz": [
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿En qué época conviene abonar en Buenos Aires?",
+        "opciones": [
+          "De junio a agosto",
+          "De septiembre a marzo",
+          "Todo el año igual"
+        ],
+        "correcta": 1,
+        "explicacion": "Primavera y verano son la época de crecimiento, y acá caen de septiembre a marzo. En invierno, mejor guardar el abono."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Tu planta está decaída y con hojas amarillas, y no sabés por qué. ¿Qué hacés primero?",
+        "imagen": "planta-triste",
+        "opciones": [
+          "Le doy abono para que se recupere",
+          "Reviso la luz, el riego y si tiene plagas",
+          "Le doy doble dosis de abono"
+        ],
+        "correcta": 1,
+        "explicacion": "El abono no cura. Si el problema es otro, sumarle sales a una planta débil puede empeorarla, así que primero hay que encontrar la causa."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Una planta recién trasplantada necesita abono enseguida.",
+        "correcta": false,
+        "explicacion": "No hace falta. Muchas tierras nuevas ya traen abono para un buen tiempo, así que podés esperar tranqui."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "La borra de café usada vuelve más ácida la tierra.",
+        "correcta": false,
+        "explicacion": "Es un mito muy repetido: el café sin usar es ácido, pero la borra ya usada no. Donde más rinde es en el compost."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada situación con lo que conviene hacer.",
+        "pares": [
+          {
+            "a": "Julio, casi no crece",
+            "b": "Guardar el abono"
+          },
+          {
+            "a": "Octubre, hojas nuevas",
+            "b": "Abonar según la etiqueta"
+          },
+          {
+            "a": "Recién trasplantada",
+            "b": "Esperar, sin apuro"
+          },
+          {
+            "a": "Enferma o decaída",
+            "b": "Buscar la causa primero"
+          }
+        ],
+        "explicacion": "El abono acompaña a una planta sana que está creciendo. En los demás casos, esperar es cuidarla."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Fertilizing Houseplants",
+        "org": "Kansas State University Research and Extension",
+        "url": "https://www.k-state.edu/news/wild-west-district/articles/2025/09/fertilizing-houseplants.html",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to Fertilize House Plants",
+        "org": "NC State Extension (N.C. Cooperative Extension, Union County)",
+        "url": "https://union.ces.ncsu.edu/2022/04/how-to-fertilize-house-plants/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Success With Houseplants - Fertilization",
+        "org": "University of Nebraska-Lincoln Extension (Lancaster County)",
+        "url": "https://lancaster.unl.edu/success-houseplants-fertilization",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Indoor Plants – Cleaning, Fertilizing, Containers & Light Requirements",
+        "org": "Clemson Cooperative Extension (HGIC)",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Fertilizing Houseplants",
+        "org": "University of New Hampshire Extension",
+        "url": "https://extension.unh.edu/blog/2018/03/fertilizing-houseplants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Repotting & Fertilizing Houseplants",
+        "org": "University of Arkansas Division of Agriculture, Cooperative Extension",
+        "url": "https://www.uaex.uada.edu/counties/white/news/horticulture/20210428RepottingHouseplants.aspx",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplant Care",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/houseplant-care/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow houseplants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Debunking a few common garden remedy myths",
+        "org": "UC Master Gardener Program of Sonoma County (UC ANR)",
+        "url": "https://ucanr.edu/site/mg-sonoma/article/debunking-few-common-garden-remedy-myths",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "The biggest gardening myth of all",
+        "org": "UC Marin Master Gardeners (UC ANR)",
+        "url": "https://ucanr.edu/site/uc-marin-master-gardeners/article/biggest-gardening-myth-all",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to make rice water fertilizer? (respuesta de experto)",
+        "org": "University of Maryland Extension (HGIC), en Ask Extension",
+        "url": "https://ask.extension.org/kb/faq.php?id=862689",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "media",
+    "xp": 20
+  }
+]

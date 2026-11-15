@@ -1,0 +1,267 @@
+{
+  "fuentes": [
+    {
+      "org": "NC State Extension",
+      "titulo": "Extension Gardener Handbook, cap. 18: Plants Grown in Containers",
+      "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Reabierta. Macetas no porosas (plástico, metal, fibra de vidrio, esmaltadas), semiporosas (madera, fibra prensada) y porosas (barro, terracota, cerámica sin esmaltar); las porosas pierden humedad más rápido y convienen a cactus, suculentas y a quien riega de más; maceta 1-2 pulgadas más ancha que el pan de raíces; agujero necesario en toda maceta; doble maceta; la grava en el fondo hace poco para evitar que la tierra de arriba se sature; la cobertura (mulch) reduce la pérdida de humedad; tierra de campo no recomendada (pesada, poco poro, plagas); perlita, corteza, arena gruesa (casi 50 % para que drene), turba; compost: retención de agua, nutrientes, pH alto, limitar a 15-40 % de la mezcla.",
+      "usado_en": ["macetas-1", "macetas-2", "macetas-3", "macetas-4", "macetas-5"]
+    },
+    {
+      "org": "Penn State Extension",
+      "titulo": "Repotting Houseplants",
+      "url": "https://extension.psu.edu/repotting-houseplants",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Reabierta. Barro sin esmaltar poroso y pide riego más seguido que el plástico; terracota y cerámica se rompen más fácil; plástico liviano y barato; piedra y cemento pesados, duraderos y menos propensos a volcarse; cachepot sin agujero: no plantar directo, dejar la planta en su maceta y vaciar el agua; mallita sobre el agujero; no usar tierra de jardín adentro; mezcla sin suelo (perlita, vermiculita, turba, coco); señales de trasplante y aflojar raíces que dan vueltas.",
+      "usado_en": ["macetas-1", "macetas-2", "macetas-4", "macetas-6"]
+    },
+    {
+      "org": "University of Illinois Extension",
+      "titulo": "6 tips for watering container gardens",
+      "url": "https://extension.illinois.edu/news-releases/6-tips-watering-container-gardens",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "La mezcla en macetas de barro, tela y cerámica sin esmaltar se seca más rápido que en plástico o esmaltadas; la cobertura sobre la maceta reduce la evaporación.",
+      "usado_en": ["macetas-1", "macetas-5"]
+    },
+    {
+      "org": "Iowa State University Extension and Outreach",
+      "titulo": "Growing Succulents Indoors",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-succulents-indoors",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Barro o terracota ideales para suculentas por porosos; macetas chicas o bajas porque poca tierra se seca más rápido; plantas altas pueden necesitar maceta más grande por estabilidad; la capa de grava en el fondo no reemplaza al agujero; doble maceta para las decorativas sin agujero.",
+      "usado_en": ["macetas-1", "macetas-2", "macetas-5"]
+    },
+    {
+      "org": "Iowa State University Extension and Outreach",
+      "titulo": "Potting Media: Components and Handling",
+      "url": "https://yardandgarden.extension.iastate.edu/article/2025/03/potting-media-components-and-handling",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "El suelo en maceta pierde poros de aire y se compacta; perlita da poros de aire duraderos; arena mala para airear, suma lastre; coco se vuelve difícil de mojar si se seca; compost: aporte chico de nutrientes, variable según origen, puede seguir descomponiéndose y traer semillas; prueba de apretar: el sustrato húmedo debe formar una bola que mantiene la forma pero se desarma fácil, casi sin gotear (la da para el momento de llenar macetas, no como test de calidad de una bolsa).",
+      "usado_en": ["macetas-3", "macetas-4"]
+    },
+    {
+      "org": "Varias (no reabiertas hoy)",
+      "titulo": "Houseplant Care (Wisconsin); Houseplants: Get Started (Illinois); How to grow houseplants (RHS)",
+      "url": "https://hort.extension.wisc.edu/articles/houseplant-care/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Fuentes heredadas de la pasada anterior para datos que no cambié (barro se seca antes, maceta sobredimensionada, tierra de jardín, trasplante). Ver investigacion/riego-macetas-notas.json. URLs: https://extension.illinois.edu/houseplants/get-started y https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+      "usado_en": ["macetas-1", "macetas-2", "macetas-3", "macetas-6"]
+    },
+    {
+      "org": "University of Illinois Extension",
+      "titulo": "Container Drainage Options",
+      "url": "https://extension.illinois.edu/container-gardens/container-drainage-options",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Reabierta. Agujero crítico; grava en el fondo = mito (el agua queda 'colgada' en la tierra sobre la grava hasta que se llenan los poros); doble maceta sin agua estancada; plato desmontable y vaciarlo; no hace falta tapar agujeros chicos.",
+      "usado_en": ["macetas-2", "macetas-5"]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to plant up a container",
+      "url": "https://www.rhs.org.uk/container-gardening/how-to-plant-up-a-container",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Solo tapar agujeros de más de 2,5 cm (con trozos de maceta o piedras); no indica capa de grava en la base; cobertura de grava, piedras o corteza: conserva humedad, frena yuyos y queda linda (optativa).",
+      "usado_en": ["macetas-2", "macetas-5"]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow cacti and succulents",
+      "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Reabierta. Después del trasplante, terminar con una cobertura de gravilla hortícola o grava fina (no explica para qué sirve); mezcla muy drenante con hasta 30 % de gravilla; no menciona piedras en la base; maceta demasiado grande queda húmeda.",
+      "usado_en": ["macetas-3", "macetas-5"]
+    },
+    {
+      "org": "Clemson Cooperative Extension (HGIC)",
+      "titulo": "Indoor Plants – Transplanting & Repotting",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Reabierta. Un trozo de maceta rota sobre el agujero; no agregar capa de piedras porque frena el paso del agua; señales, frecuencia, tamaño y pasos del trasplante; no trata tierra agotada ni materiales.",
+      "usado_en": ["macetas-2", "macetas-5", "macetas-6"]
+    },
+    {
+      "org": "Mississippi State University Extension",
+      "titulo": "Gardening Myth Busters",
+      "url": "https://extension.msstate.edu/blogs/extension-for-real-life/gardening-myth-busters",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Reabierta. Lista la grava en el fondo entre los mitos: dificulta el movimiento del agua; alternativa: varios agujeros chicos y buena tierra.",
+      "usado_en": ["macetas-5"]
+    },
+    {
+      "org": "PLOS ONE (Rowe, 2025)",
+      "titulo": "Effect of drainage layers on water retention of potting media in containers",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0318716",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Reabierta. Macetas de plástico con un agujero; capas de grava, arcilla expandida y arena de 3 y 6 cm; tres sustratos. Las capas redujeron la retención de agua en sustratos sin suelo y casi no cambiaron en el sustrato con suelo (una combinación la subió); 'casi nunca la aumentaron'. Limitaciones declaradas: sin plantas, un solo tamaño y forma de maceta, macetas saturadas por inmersión, modelos sin validar, un solo autor. Ahora SÍ se cita en macetas-5, presentado como evidencia que deja el tema abierto.",
+      "usado_en": ["macetas-5"]
+    },
+    {
+      "org": "Clemson Cooperative Extension (HGIC)",
+      "titulo": "Indoor Plants – Soil Mixes",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-soil-mixes/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Reabierta. Requisitos de una buena mezcla; mezclas sin suelo livianas; coco como alternativa a la turba; tierra de jardín no recomendada. No describe ningún test de apretar ni de drenaje; no trata compost.",
+      "usado_en": ["macetas-3"]
+    },
+    {
+      "org": "INTA (argentina.gob.ar)",
+      "titulo": "Cómo elegir un buen sustrato para las macetas",
+      "url": "https://www.argentina.gob.ar/node/402876",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Reabierta: ahora con el título literal (pendiente de la pasada anterior). Sustrato = material distinto del suelo; poros chicos retienen agua, medianos y grandes drenan y airean; componentes orgánicos (turba, corteza compostada, cáscara de arroz, compost) y minerales (perlita, vermiculita, piedra pómez). Para elegir sugiere análisis de laboratorio, no tests caseros.",
+      "usado_en": ["macetas-3", "macetas-4"]
+    },
+    {
+      "org": "INTI (Centro Regional Córdoba) e INTA ProHuerta, alojado en argentina.gob.ar",
+      "titulo": "Instructivo para la producción de Compost Domiciliario",
+      "url": "https://www.argentina.gob.ar/sites/default/files/instructivo_para_la_produccion_de_compost_domiciliario.pdf",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Qué es el compost (materia orgánica estabilizada, producto del compostaje aeróbico, inocuo); enmienda para jardines, huertas y balcones; está listo cuando no se identifica el origen de los materiales, está a temperatura ambiente, huele a tierra mojada, es oscuro y homogéneo; se zarandea para separar lo grueso. OJO: WebFetch descargó el PDF pero no pudo extraer el texto; lo leí decodificando el PDF descargado con un script local (texto legible salvo acentos). No da proporciones para macetas.",
+      "usado_en": ["macetas-4"]
+    },
+    {
+      "org": "Gobierno de la Ciudad de Buenos Aires",
+      "titulo": "Compost: cómo y dónde prepararlo",
+      "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/compost-como-y-donde-prepararlo",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Nota de 2015: compostera de recipientes apilados; 3 a 5 meses; resultado tierra oscura sin olor; se usa en macetas, canteros y jardines. No da proporciones. (También abrí la nota gemela de 2014, 'Cómo hacer tu propio compost', con el mismo contenido.)",
+      "usado_en": ["macetas-4"]
+    },
+    {
+      "org": "Penn State Extension",
+      "titulo": "Potting Media and Plant Propagation",
+      "url": "https://extension.psu.edu/potting-media-and-plant-propagation",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "El compost libera nutrientes de a poco; las mezclas con compost pueden tener muchas sales; usar compost bien maduro (olor agrio o podrido = señal de alarma). Está orientado a plantines, no a plantas de interior.",
+      "usado_en": ["macetas-4"]
+    },
+    {
+      "org": "INTA (argentina.gob.ar)",
+      "titulo": "Enmiendas orgánicas para la conservación del suelo, agua y semillas criollas",
+      "url": "https://www.argentina.gob.ar/node/417418",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Solo contexto: el INTA promueve compost y sustratos locales para reducir la extracción de suelo nativo en viveros. No se cita en las lecciones.",
+      "usado_en": []
+    },
+    {
+      "org": "Bichos de Campo (prensa, no institucional)",
+      "titulo": "De Raíz: El rol de los sustratos en el éxito del cultivo y la tecnología del INTA",
+      "url": "https://bichosdecampo.com/de-raiz-el-rol-de-los-sustratos-en-el-exito-del-cultivo-y-la-tecnologia-del-inta/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Solo contexto (entrevista a técnicos del INTA): no hay receta única de sustrato. No se cita por ser prensa.",
+      "usado_en": []
+    },
+    {
+      "org": "University of Illinois Extension",
+      "titulo": "Container gardens: Watering",
+      "url": "https://extension.illinois.edu/container-gardens/watering",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Abierta buscando materiales: no los trata. No se cita.",
+      "usado_en": []
+    }
+  ],
+  "revisar": [
+    {
+      "id": "macetas-5",
+      "dato": "capa de piedras en el fondo",
+      "motivo": "Fuentes en conflicto, lección en confianza media. Illinois y Mississippi State lo llaman mito; NC State y Clemson lo desaconsejan (la tierra sobre la grava queda saturada / frena el agua); Iowa State dice que no reemplaza al agujero. Rowe 2025 (PLOS ONE) midió en macetas con agujero que la capa redujo o no cambió el agua retenida, sin plantas y con un solo tamaño de maceta. La lección dice: varias universidades lo desaconsejan y por qué, que un estudio midió otra cosa y sus límites, y que lo indiscutido es que no reemplaza al agujero. No afirma que las piedras empeoren el drenaje ni que lo mejoren.",
+      "fuentes": [
+        "https://extension.illinois.edu/container-gardens/container-drainage-options",
+        "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+        "https://extension.msstate.edu/blogs/extension-for-real-life/gardening-myth-busters",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0318716"
+      ]
+    },
+    {
+      "id": "macetas-5",
+      "dato": "para qué sirven las piedras sobre la tierra en cactus y suculentas",
+      "motivo": "RHS recomienda la cobertura de grava en cactus pero no explica su función. Los beneficios (frenar yuyos, verse bien, conservar humedad) salen de la guía general de macetas de RHS; que la cobertura reduce la evaporación lo confirman Illinois y NC State para macetas en general. NO encontré fuente institucional para lo que se repite en blogs (mantiene seco el cuello, evita pudrición, ahuyenta mosquitas del sustrato): no se incluyó. 'No seca la tierra más rápido' es la consecuencia directa de que la cobertura conserva humedad, no una frase literal de una fuente sobre suculentas.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+        "https://www.rhs.org.uk/container-gardening/how-to-plant-up-a-container",
+        "https://extension.illinois.edu/news-releases/6-tips-watering-container-gardens"
+      ]
+    },
+    {
+      "id": "macetas-4",
+      "dato": "qué es la 'tierra de vivero' / 'tierra negra' que se vende en Argentina",
+      "motivo": "NO VERIFICADO. No encontré ninguna fuente institucional abierta que defina qué traen las bolsas de 'tierra negra', 'tierra fértil' o 'tierra de vivero'. Por eso la lección no afirma qué contienen: solo aconseja leer los ingredientes y preferir un sustrato formulado antes que tierra sola (respaldado por Penn State, NC State, Iowa State y la definición del INTA). Un trabajo del INTA (Barbaro, Imhoff y Morisigue, Ciencia del Suelo 2014) dice que usar suelo en macetas dificulta el manejo y agota un recurso no renovable, pero no pude abrirlo (solo vi el resumen en resultados de búsqueda), así que no se cita.",
+      "fuentes": ["https://www.argentina.gob.ar/node/402876"]
+    },
+    {
+      "id": "macetas-4",
+      "dato": "proporción de compost en la mezcla (15 a 40 %)",
+      "motivo": "Una sola fuente (NC State), y pensada para contenedores en general. Las fuentes argentinas abiertas (INTI/INTA, GCBA) dicen que sirve para macetas pero no dan proporción. Iowa State y Penn State respaldan los motivos de cautela (variable, sales, semillas, sigue descomponiéndose). La tarjeta lo atribuye a 'una guía universitaria'. Lección en confianza media.",
+      "fuentes": ["https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers"]
+    },
+    {
+      "id": "macetas-4",
+      "dato": "tarjeta dato_ba sobre compost en la Ciudad",
+      "motivo": "La nota del GCBA es de 2015 y está en el sitio histórico. Solo se tomó lo atemporal (cómo se hace, 3 a 5 meses, para qué sirve); no se afirma que hoy haya talleres. El instructivo INTI/INTA se leyó desde el PDF descargado con un script propio porque WebFetch no extrajo el texto: conviene que alguien lo abra a mano para confirmar.",
+      "fuentes": [
+        "https://buenosaires.gob.ar/gcaba_historico/noticias/compost-como-y-donde-prepararlo",
+        "https://www.argentina.gob.ar/sites/default/files/instructivo_para_la_produccion_de_compost_domiciliario.pdf"
+      ]
+    },
+    {
+      "id": "macetas-3",
+      "dato": "test de apretar la tierra y test de drenaje",
+      "motivo": "Test de apretar: UNA sola fuente institucional (Iowa State), y lo describe como control de humedad al llenar macetas, no como test de calidad de una bolsa; la tarjeta lo atribuye a 'una universidad'. Los blogs lo interpretan de formas contradictorias. Test de drenaje: ninguna fuente institucional abierta lo describe (solo blogs), así que NO se incluyó. Clemson e INTA sugieren comparar ingredientes o hacer análisis de laboratorio.",
+      "fuentes": ["https://yardandgarden.extension.iastate.edu/article/2025/03/potting-media-components-and-handling"]
+    },
+    {
+      "id": "macetas-3",
+      "dato": "cómo reconocer cada ingrediente a simple vista",
+      "motivo": "Las fuentes describen función y peso (perlita: roca volcánica expandida, liviana; arena: pesada; tierra de campo: pesada), pero casi nada de aspecto o color. No puse descripciones visuales de memoria (por ejemplo, el color de la perlita). 'Tierra negra' no aparece en la lección porque no pude verificar con fuente abierta que equivalga a tierra común de jardín.",
+      "fuentes": ["https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers"]
+    },
+    {
+      "id": "macetas-1",
+      "dato": "cemento, tela y fibra",
+      "motivo": "Cemento: solo verifiqué peso, duración y estabilidad (Penn State); ninguna fuente abierta habla de su porosidad, así que no se afirma si 'respira'. Tela: una fuente (Illinois) dice que seca más rápido, como el barro; las páginas específicas de macetas de tela (Oklahoma State, UC ANR, Maryland) no abrieron. 'Fibra': NC State distingue fibra de vidrio (no porosa) y fibra prensada (semiporosa); no encontré nada sobre fibrocemento ni macetas de fibra de coco.",
+      "fuentes": [
+        "https://extension.psu.edu/repotting-houseplants",
+        "https://extension.illinois.edu/news-releases/6-tips-watering-container-gardens",
+        "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers"
+      ]
+    },
+    {
+      "id": "macetas-1",
+      "dato": "tarjeta dato_ba del verano",
+      "motivo": "Adaptación propia: las fuentes dicen que las macetas porosas piden riego más seguido; lo ubiqué en el verano de Buenos Aires (diciembre a febrero). No hay fuente argentina que lo diga.",
+      "fuentes": ["https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers"]
+    },
+    {
+      "id": "macetas-2",
+      "dato": "profundidad de la maceta",
+      "motivo": "Para plantas de interior hay poco: Iowa State (suculentas en macetas chicas o bajas; altas necesitan más maceta por estabilidad). NC State da profundidades solo para hortalizas. Iowa State explica que las macetas más altas dejan más sustrato aireado sobre la zona saturada del fondo, pero es una sola fuente y podía confundir junto a lo de las suculentas: no se incluyó.",
+      "fuentes": ["https://yardandgarden.extension.iastate.edu/how-to/growing-succulents-indoors"]
+    },
+    {
+      "id": "macetas-6",
+      "dato": "'tierra agotada' como señal de trasplante",
+      "motivo": "El plan lo pedía, pero ni Clemson ni Penn State (reabiertas) lo mencionan como señal; Penn State suma 'crecimiento frenado aunque se abone'. No se agregó. Siguen vigentes las tres observaciones de la pasada anterior (tamaño 2-5 cm, época adaptada al hemisferio sur, no trasplantar plantas débiles: una sola fuente).",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+        "https://extension.psu.edu/repotting-houseplants"
+      ]
+    }
+  ],
+  "no_pude_abrir": [
+    "intainforma.inta.gob.ar (todo el dominio corta la conexión: 'Compostaje: reducir los desechos domiciliarios es tendencia urbana' y 'Cómo elegir un buen sustrato para las macetas'; esta última sí abrió en su copia de argentina.gob.ar/node/402876)",
+    "repositorio.inta.gob.ar (corta la conexión: guía de compost y lombricompuesto de EEA Mendoza; 'Agricultura orgánica: el compost' de EEA Valle Inferior)",
+    "https://repositoriosdigitales.mincyt.gob.ar/vufind/Record/INTADig_0af36abbfa53963302ed8dd3fdd0a42a (conexión rechazada; Barbaro et al. 2014)",
+    "https://buscador.una.edu.ni/Record/INTA10093/Details (corta la conexión; mismo trabajo)",
+    "https://core.ac.uk/download/479928097.pdf y https://core.ac.uk/download/52482646.pdf (403)",
+    "https://www.argentina.gob.ar/ambiente/contenidos/compostar (403)",
+    "https://extension.okstate.edu/articles/2023/grow_bags.html (403; macetas de tela)",
+    "https://www.ucanr.edu/node/146080 (403; macetas de tela)",
+    "https://extension.umd.edu/node/11586/ (certificado rechazado; macetas de tela)",
+    "https://extension.umn.edu/houseplants/cacti-and-succulents (403)",
+    "https://extension.illinois.edu/container-gardens/choosing-container (404, URL adivinada)",
+    "https://homegarden-cahnr.media.uconn.edu/wp-content/uploads/sites/3479/2022/08/Potting-Media.pdf (404)",
+    "https://ucanr.edu/sites/MGWTest/Gardening/Houseplants/Growing_Media (403)"
+  ]
+}

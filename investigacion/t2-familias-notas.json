@@ -1,0 +1,530 @@
+{
+  "fuentes": [
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow houseplant cacti and succulents",
+      "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "La mayoría viene de zonas áridas; hojas o tallos carnosos que guardan agua; vulnerables al exceso de riego; alféizar soleado; descanso invernal con riego mínimo (lo justo para que no se arruguen); sustrato muy drenante; toleran el aire seco de la calefacción. Los cactus de selva (Schlumbergera) quieren media sombra, más riego y más humedad.",
+      "usado_en": [
+        "familias-1",
+        "familias-4"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Indoor Cacti",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-cacti/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "La mayoría de los cactus no tiene hojas y el tallo es carnoso; cactus de desierto: varias horas de sol directo; cactus de selva (los de Navidad): luz brillante filtrada, se queman con sol directo, más agua; en invierno, riego apenas para que no se arruguen; sustrato muy drenante.",
+      "usado_en": [
+        "familias-1",
+        "familias-4"
+      ]
+    },
+    {
+      "org": "Iowa State University Extension and Outreach",
+      "titulo": "Growing Succulents Indoors",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-succulents-indoors",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Todos los cactus son suculentas pero no al revés; nativas de climas cálidos y secos; con poca luz se estiran y se ponen pálidas; ciclo mojado-seco (regar a fondo y dejar secar del todo); sustrato de drenaje rápido con perlita o grava fina; maceta con agujero; la baja humedad del invierno les sienta bien. Recomienda luz indirecta brillante (matiz frente a otras fuentes).",
+      "usado_en": [
+        "familias-1"
+      ]
+    },
+    {
+      "org": "UC Master Gardeners of Sonoma County (Univ. of California ANR)",
+      "titulo": "Succulents",
+      "url": "https://ucanr.edu/site/mg-sonoma/succulents",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Guardan agua en hojas, tallos o raíces engrosados; orígenes (desiertos de América, África, Sudáfrica); muchas toleran pleno sol pero no el calor intenso: mejor sol de mañana; el sol intenso prolongado quema las hojas; Echeveria elegans mejor con media sombra; Haworthia prefiere luz media a baja; regar con la tierra seca; drenaje crítico.",
+      "usado_en": [
+        "familias-1"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Jade Plant, Crassula ovata",
+      "url": "https://hort.extension.wisc.edu/articles/jade-plant-crassula-ovata/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Nativa del sur de África; guarda agua en hojas, tallos y raíces; mejor con 4 o más horas de sol directo, sobrevive con luz indirecta brillante; aclimatar de a poco para que no se queme; en invierno, tierra más bien seca; mezcla porosa para cactus.",
+      "usado_en": [
+        "familias-1"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Haworthias: Super Succulents for Small Spaces",
+      "url": "https://hort.extension.wisc.edu/articles/haworthias-super-succulents-for-small-spaces/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Sudáfrica; muchas viven en lugares protegidos y están adaptadas a la media sombra; con poca luz se estiran y pierden color; dejar secar entre riegos; sustrato muy drenante.",
+      "usado_en": [
+        "familias-1"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Haworthiopsis attenuata",
+      "url": "https://plants.ces.ncsu.edu/plants/haworthiopsis-attenuata/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Prefiere luz indirecta brillante, tolera poca luz; el sol directo le quema las hojas; riego escaso; mezcla para cactus.",
+      "usado_en": [
+        "familias-1"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Zamioculcas zamiifolia",
+      "url": "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Familia Araceae; nativa de África tropical; rizomas gruesos bajo tierra; las hojas guardan agua; se cuida parecido a cactus y suculentas; tolera muy poca luz, mejor luz indirecta brillante; el sol directo quema las hojas; regar solo con la tierra seca por completo.",
+      "usado_en": [
+        "familias-2"
+      ]
+    },
+    {
+      "org": "Iowa State University Extension and Outreach",
+      "titulo": "I recently purchased a ZZ plant. How do I care for it?",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz indirecta brillante ideal, tolera muy poca luz; el sol directo de la tarde daña las hojas; dejar secar la tierra antes de regar.",
+      "usado_en": [
+        "familias-2"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Swiss-Cheese Plant, Monstera deliciosa",
+      "url": "https://hort.extension.wisc.edu/articles/monstera-deliciosa/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Araceae; selvas del sur de México a Panamá; trepa a los árboles con raíces aéreas; sin luz suficiente las hojas no forman agujeros; humedad media a alta; necesita soporte (tutor de musgo). Atribuye los agujeros al viento (hipótesis, no usada).",
+      "usado_en": [
+        "familias-2"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow Swiss cheese plants",
+      "url": "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Selvas tropicales; crece en el sotobosque sombrío y trepa a los árboles buscando luz, con raíces que salen del tallo; por eso luz filtrada o indirecta; el sol directo quema las hojas; con muy poca luz, menos agujeros; los agujeros aparecen cuando la planta empieza a trepar; aire húmedo: agrupar plantas ayuda.",
+      "usado_en": [
+        "familias-2"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Monstera deliciosa",
+      "url": "https://plants.ces.ncsu.edu/plants/monstera-deliciosa/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Araceae; México a Panamá; trepadora que se vuelve epífita; hojas muy grandes con agujeros al madurar; claridad sin sol directo; regar cuando se seca el cuarto o tercio superior; humedad alta.",
+      "usado_en": [
+        "familias-2"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Pothos, Epipremnum aureum",
+      "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Araceae; en zonas tropicales cubre el suelo o trepa por los árboles con raíces aéreas; las hojas salen más grandes cuanto más alto trepa; luz filtrada, no tolera mucho sol directo; con poca luz pierde el variegado; regar cuando la superficie está seca.",
+      "usado_en": [
+        "familias-2"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Epipremnum aureum (Pothos)",
+      "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Araceae; trepa con raíces aéreas; prefiere luz indirecta brillante y tolera poca luz mucho tiempo; con poca luz pierde el variegado; con soporte y luz da hojas grandes; dejar secar entre riegos.",
+      "usado_en": [
+        "familias-2"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Philodendron hederaceum",
+      "url": "https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Araceae; de México a América tropical; trepa o cuelga; prefiere luz media y tolera poca luz; tierra apenas húmeda; tolera el aire seco. Recomienda rociar (discrepancia registrada, no usada).",
+      "usado_en": [
+        "familias-2"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Philodendron",
+      "url": "https://hgic.clemson.edu/factsheet/philodendron/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz indirecta o filtrada, toleran poca luz; tierra pareja de húmeda sin encharcar; toleran la humedad baja de las casas.",
+      "usado_en": [
+        "familias-2"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Boston Fern, Nephrolepis exaltata",
+      "url": "https://hort.extension.wisc.edu/articles/boston-fern-nephrolepis-exaltata/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Viene de bosques húmedos de América tropical; con aire seco, sobre todo en invierno, se le ponen marrones las puntas y los bordes; luz media a brillante sin sol directo; sustrato parejo de húmedo sin saturar.",
+      "usado_en": [
+        "familias-3"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Indoor Ferns (HGIC 1505)",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "El aire de casa suele ser muy seco para los helechos, sobre todo en invierno; los de hoja fina son los más afectados (hojas marrones); luz indirecta, el sol directo daña el follaje; ninguno debe secarse del todo. Sugiere rociar de vez en cuando (discrepancia registrada).",
+      "usado_en": [
+        "familias-3"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Nephrolepis exaltata (Boston Fern)",
+      "url": "https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "América tropical y subtropical; necesita humedad alta y tierra que nunca se seque; luz indirecta brillante.",
+      "usado_en": [
+        "familias-3"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow calatheas",
+      "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Lugar luminoso protegido del sol directo; humedad alta; agrupar con otras plantas; puntas y bordes marrones con aire seco; tierra pareja de húmeda, que no se seque del todo; lejos de radiadores y corrientes. También sugiere rociar (discrepancia registrada).",
+      "usado_en": [
+        "familias-3"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Goeppertia makoyana (Peacock Plant)",
+      "url": "https://plants.ces.ncsu.edu/plants/goeppertia-makoyana/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Nativa de las selvas tropicales del sudeste de Brasil; ambiente cálido, sombreado y húmedo; cerca de 60 % de humedad; con aire seco las hojas se enrollan o se ponen marrones; luz indirecta brillante, el sol directo quema; tierra húmeda sin encharcar.",
+      "usado_en": [
+        "familias-3"
+      ]
+    },
+    {
+      "org": "Penn State Extension",
+      "titulo": "Humidity and Houseplants",
+      "url": "https://extension.psu.edu/humidity-and-houseplants",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Con calefacción la humedad interior baja fácil de 30 %; el efecto de rociar dura minutos, hasta que el agua se evapora; agrupar plantas y humidificador ayudan; bandeja con piedras: efecto casi nulo; baño: difícil de confirmar; cactus y suculentas son la excepción (no piden más humedad).",
+      "usado_en": [
+        "familias-1",
+        "familias-3"
+      ]
+    },
+    {
+      "org": "Iowa State University Extension and Outreach",
+      "titulo": "The air in our home is extremely dry in winter. Should I mist the houseplants?",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/air-our-home-extremely-dry-winter-should-i-mist-houseplants",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Rociar no es eficaz para subir la humedad (las hojas se secan enseguida); recomienda humidificador, agrupar plantas (liberan humedad entre sí) y bandejas con piedras.",
+      "usado_en": [
+        "familias-3"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow Phalaenopsis (moth orchids)",
+      "url": "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Epífita: vive sobre ramas de árboles; sustrato de corteza, nunca tierra común; regar con agua tibia más o menos una vez por semana, dejando escurrir; sin agua en el plato ni en el centro de las hojas; que las raíces no se sequen del todo; en invierno, luz brillante para florecer; en verano, sin sol directo.",
+      "usado_en": [
+        "familias-4"
+      ]
+    },
+    {
+      "org": "American Orchid Society",
+      "titulo": "Phalaenopsis culture sheet",
+      "url": "https://www.aos.org/orchid-care/care-sheets/phalaenopsis-culture-sheet",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante con poco o nada de sol; regar a fondo y esperar a que el sustrato esté casi seco, sin que se seque del todo; evitar agua en el centro (pudrición); corteza de grano medio; noches frescas en otoño disparan la vara floral. No menciona temperatura del agua ni hielo.",
+      "usado_en": [
+        "familias-4"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Orchids",
+      "url": "https://hgic.clemson.edu/factsheet/orchids/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "La mayoría son epífitas, con raíces gruesas que se agarran a la corteza; plantarlas en tierra las mata; la poca luz es una de las razones principales de que no florezcan; phalaenopsis: ventana luminosa con poco o nada de sol directo; riego semanal dejando escurrir; no dejar agua en las hojas.",
+      "usado_en": [
+        "familias-4"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Orchids",
+      "url": "https://hort.extension.wisc.edu/articles/orchids/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "La mayoría de las orquídeas son epífitas; luz indirecta brillante, sin sol directo; sustrato de corteza; no dejarlas paradas en agua.",
+      "usado_en": [
+        "familias-4"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow African violets",
+      "url": "https://www.rhs.org.uk/plants/african-violets/growing-guide",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Mucha luz brillante sin sol directo; si no florece, lo habitual es falta de luz; agua a temperatura ambiente (la fría la enfría); no mojar las hojas.",
+      "usado_en": [
+        "familias-4"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "African Violet",
+      "url": "https://hgic.clemson.edu/factsheet/african-violet/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "La falta de flores es de los problemas más comunes y en general se debe a poca luz; lejos del sol de la tarde; usar agua tibia porque la fría mancha las hojas.",
+      "usado_en": [
+        "familias-4"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow peace lilies",
+      "url": "https://www.rhs.org.uk/plants/peace-lilies/how-to-grow-peace-lilies",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Selvas tropicales de América Central y Colombia; luz indirecta brillante; en sombra más profunda rara vez florece; si no florece, la causa habitual es poca luz; lo blanco es una espata que rodea la espiga (espádice) con las flores verdaderas, y dura meses.",
+      "usado_en": [
+        "familias-4"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Peace Lily",
+      "url": "https://hgic.clemson.edu/factsheet/peace-lily/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Tolera poca luz pero crece mejor con luz indirecta brillante; sin sol directo; no florece cuando es muy joven o le falta luz.",
+      "usado_en": [
+        "familias-4"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow anthuriums",
+      "url": "https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Lo que parece una flor es una espata (estructura parecida a una hoja) alrededor de una espiga central; dura varias semanas; luz indirecta brillante; el sol directo de verano quema las hojas.",
+      "usado_en": [
+        "familias-4"
+      ]
+    },
+    {
+      "org": "UF/IFAS Gardening Solutions",
+      "titulo": "Anthurium",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/anthurium/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Brácteas de color duraderas (unas seis semanas cada una); en interior, luz indirecta brillante; ambiente húmedo.",
+      "usado_en": [
+        "familias-4"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Thanksgiving & Christmas Cacti",
+      "url": "https://hgic.clemson.edu/factsheet/thanksgiving-christmas-cacti/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Epífitas de selvas sombrías de Brasil; sombra liviana, el sol fuerte de verano las decolora; para armar pimpollos necesitan noches largas (14 horas de oscuridad seguida desde mediados de septiembre del norte, unas 6 semanas) y fresco; no dejar secar del todo.",
+      "usado_en": [
+        "familias-4"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Schlumbergera x buckleyi",
+      "url": "https://plants.ces.ncsu.edu/plants/schlumbergera-x-buckleyi/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Cactus epífito; luz indirecta brillante; florece con noches frescas y al menos 13 horas de oscuridad sin interrupción desde mediados de septiembre (hemisferio norte); tierra húmeda, nunca reseca del todo en primavera y verano.",
+      "usado_en": [
+        "familias-4"
+      ]
+    }
+  ],
+  "adaptaciones": [
+    {
+      "id": "familias-1",
+      "dato": "descanso invernal",
+      "nota": "RHS habla de noviembre a marzo y Clemson de invierno del norte; se convirtió a junio a agosto (Buenos Aires)."
+    },
+    {
+      "id": "familias-1",
+      "dato": "sol de mañana vs. tarde",
+      "nota": "Las fuentes hablan de ventanas sur/oeste (norte del mundo). No se menciona orientación: se usa el Modelo de luz y \"mejor a la mañana que con el sol fuerte de la tarde\", siguiendo el criterio conservador del catálogo (tolera_sol_tarde: false)."
+    },
+    {
+      "id": "familias-3",
+      "dato": "calefacción",
+      "nota": "Invierno del norte convertido a junio a agosto."
+    },
+    {
+      "id": "familias-4",
+      "dato": "pimpollos del cactus de Navidad",
+      "nota": "Clemson y NC State indican noches largas desde mediados de septiembre (otoño del norte); convertido a otoño de Buenos Aires, que empieza en marzo. No se afirma en qué mes florece acá porque ninguna fuente abierta lo dice."
+    }
+  ],
+  "revisar": [
+    {
+      "id": "familias-1",
+      "dato": "luz de las suculentas",
+      "motivo": "Fuentes con matices: RHS pide alféizar soleado todo el año; Clemson, varias horas de sol directo para cactus de desierto; Wisconsin, 4+ horas de sol directo para el jade; Iowa State recomienda luz indirecta brillante; UC Sonoma dice que muchas toleran pleno sol pero no calor intenso (mejor sol de mañana) y a la vez menciona unas 6 horas de sol para florecer. Se siguió el criterio conservador del catálogo (unas horas de luz directa, mejor de mañana). Por eso confianza media.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+        "https://yardandgarden.extension.iastate.edu/how-to/growing-succulents-indoors",
+        "https://ucanr.edu/site/mg-sonoma/succulents",
+        "https://hort.extension.wisc.edu/articles/jade-plant-crassula-ovata/"
+      ]
+    },
+    {
+      "id": "familias-1",
+      "dato": "luz de la haworthia",
+      "motivo": "NC State: luz indirecta brillante, el sol directo quema; UC Sonoma: luz media a baja; Wisconsin acepta unas horas de sol directo en ventana este u oeste. Se usó el dato del catálogo (indirecta brillante; tolera indirecta media y baja).",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/haworthiopsis-attenuata/",
+        "https://ucanr.edu/site/mg-sonoma/succulents",
+        "https://hort.extension.wisc.edu/articles/haworthias-super-succulents-for-small-spaces/"
+      ]
+    },
+    {
+      "id": "familias-1",
+      "dato": "tierra con arena",
+      "motivo": "Wisconsin (haworthias) desaconseja la arena porque tapa los poros; Wisconsin (jade), Clemson e Iowa aceptan arena gruesa. En la tarjeta se nombró solo perlita o grava fina para no entrar en el conflicto (el catálogo menciona arena gruesa para el jade).",
+      "fuentes": [
+        "https://hort.extension.wisc.edu/articles/haworthias-super-succulents-for-small-spaces/",
+        "https://hort.extension.wisc.edu/articles/jade-plant-crassula-ovata/",
+        "https://yardandgarden.extension.iastate.edu/how-to/growing-succulents-indoors"
+      ]
+    },
+    {
+      "id": "familias-2",
+      "dato": "zamioculca guarda agua en las hojas",
+      "motivo": "Solo NC State lo dice de forma explícita (hojas que guardan agua, rizomas gruesos, se cuida como suculenta). Iowa State confirma luz y riego pero no habla de reserva de agua. El plan la ubica en follaje tropical y el catálogo en el grupo suculenta_cactus: la lección explica las dos cosas (pariente de las tropicales, se riega como suculenta) y ningún quiz pregunta su grupo.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+        "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it"
+      ]
+    },
+    {
+      "id": "familias-2",
+      "dato": "origen del potus",
+      "motivo": "Wisconsin dice que en zonas tropicales cubre el suelo o trepa árboles, pero no usa la palabra selva ni sotobosque; NC State solo da el origen (Islas de la Sociedad). El \"crecen en la selva a la sombra de árboles\" está respaldado de forma explícita para la monstera (RHS, Wisconsin); para potus y filodendro es una generalización razonable (trepadoras tropicales de árboles) pero no textual.",
+      "fuentes": [
+        "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+        "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+        "https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/",
+        "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants"
+      ]
+    },
+    {
+      "id": "familias-2",
+      "dato": "luz de la monstera",
+      "motivo": "Matiz: Wisconsin sugiere sol directo en invierno y NC State lista 2 a 6 horas de sol en su ficha, aunque en el texto dice sin sol directo; RHS dice que el sol directo quema. Se siguió el catálogo (luz indirecta brillante, 0 horas de sol directo).",
+      "fuentes": [
+        "https://hort.extension.wisc.edu/articles/monstera-deliciosa/",
+        "https://plants.ces.ncsu.edu/plants/monstera-deliciosa/",
+        "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants"
+      ]
+    },
+    {
+      "id": "familias-2",
+      "dato": "por qué la monstera tiene agujeros",
+      "motivo": "Wisconsin lo atribuye al viento y RHS a dejar pasar luz a las hojas de abajo. Fuentes en conflicto: no se incluyó ninguna explicación en la lección.",
+      "fuentes": [
+        "https://hort.extension.wisc.edu/articles/monstera-deliciosa/",
+        "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants"
+      ]
+    },
+    {
+      "id": "familias-3",
+      "dato": "rociar las hojas",
+      "motivo": "Penn State e Iowa State dicen que rociar no sube la humedad de forma útil. RHS (calatea, orquídea, anturio, espatifilo), Clemson (helechos), Wisconsin (orquídeas) y NC State (filodendro) lo siguen recomendando. Se mantuvo la postura ya verificada en la app (casi no sirve). Por eso confianza media.",
+      "fuentes": [
+        "https://extension.psu.edu/humidity-and-houseplants",
+        "https://yardandgarden.extension.iastate.edu/faq/air-our-home-extremely-dry-winter-should-i-mist-houseplants",
+        "https://www.rhs.org.uk/plants/calathea/growing-guide",
+        "https://hgic.clemson.edu/factsheet/indoor-ferns/"
+      ]
+    },
+    {
+      "id": "familias-3",
+      "dato": "plato con piedritas y baño",
+      "motivo": "Penn State dice que la bandeja con piedras tiene un efecto casi nulo y que lo del baño es difícil de confirmar; Iowa State, RHS, NC State y AOS recomiendan la bandeja. El catálogo la recomienda en varias fichas. La lección no menciona ni la bandeja ni el baño para no contradecir a ninguno.",
+      "fuentes": [
+        "https://extension.psu.edu/humidity-and-houseplants",
+        "https://yardandgarden.extension.iastate.edu/faq/air-our-home-extremely-dry-winter-should-i-mist-houseplants"
+      ]
+    },
+    {
+      "id": "familias-3",
+      "dato": "humidificador",
+      "motivo": "Lo recomiendan Penn State e Iowa State; las fichas de helechos y calatea abiertas (Clemson, Wisconsin, RHS) no lo nombran: proponen doble maceta con musgo, agrupar o bandeja.",
+      "fuentes": [
+        "https://extension.psu.edu/humidity-and-houseplants",
+        "https://yardandgarden.extension.iastate.edu/faq/air-our-home-extremely-dry-winter-should-i-mist-houseplants"
+      ]
+    },
+    {
+      "id": "familias-4",
+      "dato": "agua tibia para la orquídea",
+      "motivo": "Solo RHS especifica agua tibia. AOS, Clemson y Wisconsin no hablan de la temperatura del agua. No se menciona el hielo en la lección. (En notas anteriores, t1-riego, figura un estudio de Ohio State donde el hielo no dañó a las phalaenopsis: discrepancia ya registrada; acá simplemente no se recomienda.)",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide",
+        "https://www.aos.org/orchid-care/care-sheets/phalaenopsis-culture-sheet"
+      ]
+    },
+    {
+      "id": "familias-4",
+      "dato": "la falta de luz como causa de que no florezcan",
+      "motivo": "Explícito para violeta africana (RHS, Clemson), espatifilo (RHS, Clemson) y orquídeas (Clemson: una de las razones principales; RHS: luz brillante en invierno para florecer). Para el anturio ninguna fuente abierta lo dice, así que la tarjeta no lo nombra en esa frase. Clemson aclara que el espatifilo es de las pocas plantas que florece con poca luz, pero que la luz insuficiente igual lo impide; RHS dice que en sombra profunda rara vez florece.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/peace-lilies/how-to-grow-peace-lilies",
+        "https://hgic.clemson.edu/factsheet/peace-lily/",
+        "https://hgic.clemson.edu/factsheet/orchids/"
+      ]
+    },
+    {
+      "id": "familias-4",
+      "dato": "horas de oscuridad del cactus de Navidad",
+      "motivo": "Clemson dice 14 horas y NC State 13. No se dio un número en la lección, solo \"noches largas y frescas\".",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/thanksgiving-christmas-cacti/",
+        "https://plants.ces.ncsu.edu/plants/schlumbergera-x-buckleyi/"
+      ]
+    },
+    {
+      "id": "familias-4",
+      "dato": "riego semanal de la orquídea",
+      "motivo": "RHS y Clemson dicen más o menos una vez por semana; AOS da un rango según el clima (de día por medio a cada 10 días). Se dejó \"más o menos una vez por semana\", igual que el catálogo.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide",
+        "https://hgic.clemson.edu/factsheet/orchids/",
+        "https://www.aos.org/orchid-care/care-sheets/phalaenopsis-culture-sheet"
+      ]
+    }
+  ],
+  "ilustraciones_deseadas": [
+    "plantas-agrupadas (varias macetas juntas o un humidificador): en familias-3 se usó \"casa\" como imagen_bien de la comparativa",
+    "orquidea-raices u orquidea-corteza (maceta transparente con corteza y raíces): en familias-4 se usó \"riego\" para la tarjeta de riego de la orquídea",
+    "espata (flor de espatifilo o anturio con la espiga central señalada): se usó \"planta-feliz\"",
+    "trepadora-tutor (planta trepando un tutor de musgo o un tronco): se usó \"altura\"",
+    "selva-sotobosque (plantas bajo árboles con luz filtrada): se usó \"monstera-hoja\"",
+    "cactus-navidad: se usó \"estaciones\"",
+    "zamioculca: se usó \"planta-feliz\""
+  ],
+  "no_pude_abrir": [
+    "https://extension.umn.edu/houseplants/cacti-and-succulents (403)"
+  ]
+}
