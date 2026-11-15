@@ -323,19 +323,9 @@
         "texto": "Ojo que los gatos trepan, y las flores sueltan hojas y polen que caen al piso. Por eso las plantas más peligrosas, como los lirios si tenés gato, conviene directamente no tenerlas."
       },
       {
-        "tipo": "concepto",
-        "imagen": "gato",
-        "texto": "Ofrecele su propia planta para masticar: pasto para gatos, que es avena, trigo o cebada sembrados en una maceta. Ayuda, aunque algunos gatos igual siguen probando otras plantas."
-      },
-      {
         "tipo": "por_que",
         "imagen": "perro",
         "texto": "Morder plantas suele ser curiosidad, juego o aburrimiento, no maldad. Más juego, paseos y juguetes para morder ayudan más que retarlo."
-      },
-      {
-        "tipo": "concepto",
-        "imagen": "planta-feliz",
-        "texto": "Las plantas que supuestamente ahuyentan por el olor no son una solución comprobada. Además, la lavanda y los cítricos figuran como tóxicos para perros y gatos en la lista de ASPCA."
       },
       {
         "tipo": "concepto",
@@ -345,8 +335,8 @@
     ],
     "para_llevarte": [
       "Lo riesgoso, fuera de su alcance o fuera de casa.",
-      "Ofrecé una alternativa segura para masticar.",
-      "Juego y distracción, sin retos ni aceites."
+      "Más juego y distracción, sin retos.",
+      "Nada de aceites esenciales ni sprays caseros."
     ],
     "quiz": [
       {
@@ -361,16 +351,10 @@
         "opciones": [
           "La reto fuerte",
           "Le doy más juego y una alternativa segura",
-          "Rocío las hojas con aceite esencial"
+          "Lo dejo mordiendo lo que quiera"
         ],
         "correcta": 1,
         "explicacion": "Distraer y ofrecer algo seguro funciona mejor que retar. Los aceites esenciales pueden hacerle daño, sobre todo a los gatos."
-      },
-      {
-        "tipo": "verdadero_falso",
-        "pregunta": "Poner lavanda cerca de mis plantas es una forma segura y comprobada de alejar al gato.",
-        "correcta": false,
-        "explicacion": "No está comprobado que funcione, y ASPCA lista a la lavanda como tóxica para gatos y perros."
       },
       {
         "tipo": "que_le_pasa",
@@ -424,12 +408,6 @@
         "titulo": "Poisonous Plants",
         "org": "International Cat Care",
         "url": "https://icatcare.org/articles/poisonous-plants",
-        "fecha_consulta": "2026-11-14"
-      },
-      {
-        "titulo": "Cat Grass: Safety and Information",
-        "org": "Hill's Pet Nutrition",
-        "url": "https://www.hillspet.com/cat-care/nutrition-feeding/cat-grass-safety-and-information",
         "fecha_consulta": "2026-11-14"
       },
       {

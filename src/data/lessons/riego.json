@@ -154,19 +154,14 @@
       },
       {
         "tipo": "concepto",
-        "imagen": "palito",
-        "texto": "Si la tierra está muy apretada o la maceta es honda, clavá un palito de madera, como los de brochette. Si sale con tierra húmeda pegada, esperá, y si sale seco, toca regar."
-      },
-      {
-        "tipo": "concepto",
         "imagen": "sustrato",
         "texto": "La tierra húmeda se ve oscura y al secarse se pone más clara. Es una pista rápida, pero muestra solo la superficie, así que confirmá con el dedo."
       }
     ],
     "para_llevarte": [
       "La tierra decide, no el calendario.",
-      "Dedo, peso, palito y color: cuatro pistas gratis.",
-      "El medidor barato puede fallar: confirmá con el dedo."
+      "Dedo, peso y color: pistas gratis.",
+      "Si dudás, confirmá con el dedo."
     ],
     "quiz": [
       {
@@ -197,10 +192,6 @@
           {
             "a": "Peso",
             "b": "Maceta liviana"
-          },
-          {
-            "a": "Palito",
-            "b": "Sale seco"
           },
           {
             "a": "Color",
@@ -256,12 +247,6 @@
         "titulo": "To Buy or Not to Buy: The Gear Your Houseplants Really Need",
         "org": "Penn State Extension",
         "url": "https://extension.psu.edu/to-buy-or-not-to-buy-the-gear-your-houseplants-really-need",
-        "fecha_consulta": "2026-11-15"
-      },
-      {
-        "titulo": "Are House Plant Moisture Meters accurate, and safe to use?",
-        "org": "University of Maryland Extension (HGIC), en Ask Extension",
-        "url": "https://ask.extension.org/kb/faq.php?id=799752",
         "fecha_consulta": "2026-11-15"
       },
       {
@@ -591,12 +576,6 @@
         "org": "Iowa State University Extension and Outreach",
         "url": "https://yardandgarden.extension.iastate.edu/faq/air-our-home-extremely-dry-winter-should-i-mist-houseplants",
         "fecha_consulta": "2026-11-14"
-      },
-      {
-        "titulo": "Four Misguided Plant Health Trends on Social Media",
-        "org": "University of Connecticut (UConn Today, por un educador de Extensión)",
-        "url": "https://today.uconn.edu/?p=189123",
-        "fecha_consulta": "2026-11-15"
       },
       {
         "titulo": "How to grow houseplants",
