@@ -1,0 +1,49 @@
+import {
+  AppWindow, ArrowDownToLine, Ban, Bean, BookOpen, CalendarDays, Cat, Check, CircleQuestionMark, Clock,
+  Cloud, Columns2, Dog, Droplet, Fence, Flame, Gift, Heart, House, Leaf, LeafyGreen, LibraryBig, PawPrint,
+  Scale, Search, ShoppingBag, Sprout, Star, Sun, SunDim, Sunrise, Sunset, TriangleAlert, Trophy,
+  type LucideIcon,
+} from 'lucide-react'
+
+/** Los datos de contenido nombran íconos en castellano; acá se traducen al set de íconos */
+const MAPA: Record<string, LucideIcon> = {
+  semilla: Bean,
+  'hoja-caida': Leaf,
+  maceta: Sprout,
+  estrella: Star,
+  casa: House,
+  balcon: Fence,
+  ambos: Columns2,
+  ventana: AppWindow,
+  amanecer: Sunrise,
+  sol: SunDim,
+  atardecer: Sunset,
+  'sol-fuerte': Sun,
+  nube: Cloud,
+  duda: CircleQuestionMark,
+  gato: Cat,
+  perro: Dog,
+  huella: PawPrint,
+  no: Ban,
+  alerta: TriangleAlert,
+  'mas-menos': Scale,
+  ok: Check,
+  abajo: ArrowDownToLine,
+  estante: LibraryBig,
+  reloj: Clock,
+  calendario: CalendarDays,
+  corazon: Heart,
+  bolsa: ShoppingBag,
+  lupa: Search,
+  fuego: Flame,
+  gota: Droplet,
+  trofeo: Trophy,
+  cofre: Gift,
+  libro: BookOpen,
+  hoja: LeafyGreen,
+}
+
+export function Icono({ nombre, size = 24, className }: { nombre: string; size?: number; className?: string }) {
+  const I = MAPA[nombre] ?? Leaf
+  return <I size={size} className={className} strokeWidth={2.4} aria-hidden />
+}
