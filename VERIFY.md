@@ -2,7 +2,52 @@
 
 Generado con `node scripts/generar-fuentes.mjs`. No editar a mano: se pisa.
 
-Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en conflicto (253 puntos en 53 ítems). Mientras no se revise, la app aplica el criterio más conservador.
+Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en conflicto (300 puntos en 68 ítems). Mientras no se revise, la app aplica el criterio más conservador.
+
+## abono-1
+
+- [ ] **fórmulas con más fósforo para plantas de flor**: Clemson y RHS (guía de plantas de interior) lo recomiendan; Arkansas Extension dice que el fósforo extra no hace falta y puede estirar los tallos. Se dejó con la fórmula suave 'se suelen recomendar'.
+  - https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/
+  - https://www.rhs.org.uk/plants/types/houseplants/growing-guide
+  - https://www.uaex.uada.edu/counties/white/news/horticulture/20210428RepottingHouseplants.aspx
+- [ ] **qué hace cada mineral (N hojas, P raíces, K flores)**: El reparto simple sale de una sola fuente abierta (RHS Fertilisers); Utah State describe las funciones a nivel bioquímico y no lo contradice, pero no usa ese reparto. Las páginas de Minnesota y Maryland que lo confirmarían no abrieron.
+  - https://www.rhs.org.uk/garden-jobs/fertilisers
+  - https://extension.usu.edu/dirtdiggersdigest/plant-nutrient-or-food
+
+## abono-2
+
+- [ ] **humus de lombriz y compost en macetas de interior**: Confianza media: ninguna fuente institucional abierta trata el humus específicamente en plantas de interior ni da dosis. Mississippi State habla de huerta y flores; el INTA, de huerta y canteros. No se dan dosis. El folleto de ProHuerta sobre lombricultura no se pudo abrir.
+  - https://extension.msstate.edu/publications/vermicomposting-for-the-mississippi-gardener
+  - https://www.argentina.gob.ar/node/425764
+  - https://www.argentina.gob.ar/node/417418
+- [ ] **para qué plantas conviene cada tipo de abono**: Las fuentes solo distinguen follaje y flor por fórmula; no encontré respaldo para recomendaciones por tipo de planta (cactus, orquídeas, etc.), así que no se afirmó nada de eso.
+  - https://www.rhs.org.uk/plants/types/houseplants/growing-guide
+
+## abono-3
+
+- [ ] **dosis de dilución**: Las fuentes varían: Clemson un décimo en cada riego, RHS un cuarto en cada riego, NC State y K-State media dosis. Se usó el criterio común: nunca más que la etiqueta y, ante la duda, la mitad o menos.
+  - https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/
+  - https://www.rhs.org.uk/plants/types/houseplants/growing-guide
+  - https://union.ces.ncsu.edu/2022/04/how-to-fertilize-house-plants/
+- [ ] **abono foliar en plantas de interior**: La fuente principal (Missouri) habla de huerta y producción, no de plantas de interior; RHS lo presenta como útil para micronutrientes. La página de UConn sobre abono foliar no abrió.
+  - https://ipm.missouri.edu/mpg/2019/4/foliarFeeding
+  - https://www.rhs.org.uk/advice/understanding-plants/how-plants-absorb-nutrients
+- [ ] **cantidad de agua para lavar las sales**: Nebraska: el doble del volumen de la maceta; K-State: varias pasadas de al menos el volumen de la maceta; UNH y NC State: abundante, sin cifra. Se usó el doble.
+  - https://lancaster.unl.edu/success-houseplants-fertilization
+  - https://www.k-state.edu/news/wild-west-district/articles/2025/09/fertilizing-houseplants.html
+
+## abono-4
+
+- [ ] **abonar en invierno**: RHS admite hasta una vez por mes en invierno; Clemson, UNH, K-State y NC State dicen poco o nada, y Nebraska aclara que una planta con mucha luz puede seguir activa. Se eligió el criterio conservador: no abonar en invierno.
+  - https://www.rhs.org.uk/plants/types/houseplants/growing-guide
+  - https://lancaster.unl.edu/success-houseplants-fertilization
+- [ ] **cuánto esperar después de trasplantar**: Nebraska dice que no se abona recién trasplantada, pero ninguna fuente institucional abierta da un plazo (las 4 a 6 semanas que circulan vienen de sitios no institucionales). No se puso plazo.
+  - https://lancaster.unl.edu/success-houseplants-fertilization
+- [ ] **agua de arroz**: Una sola fuente institucional (Maryland, vía Ask Extension): no hay investigación en plantas de casa. Se presenta como 'sin estudios que la respalden', no como dañina.
+  - https://ask.extension.org/kb/faq.php?id=862689
+- [ ] **borra de café como abono**: Las fuentes abiertas (programas Master Gardener de UC, no publicaciones revisadas de extensión) solo desmienten que la borra usada acidifique; no evalúan su valor como abono. La lección afirma solo eso. La página de Minnesota sobre café y cáscaras dio error 403.
+  - https://ucanr.edu/site/mg-sonoma/article/debunking-few-common-garden-remedy-myths
+  - https://ucanr.edu/site/uc-marin-master-gardeners/article/biggest-gardening-myth-all
 
 ## aloe-vera
 
@@ -200,6 +245,114 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
 - [ ] **fuentes en conflicto**: Gravedad: NC State la clasifica como severidad media; la FDA dice que los síntomas suelen resolverse solos. Se tomó 'moderada' (criterio más conservador).
 - [ ] **fuentes en conflicto**: Partes tóxicas: NC State nombra las hojas; ASPCA y FDA hablan de la planta en general.
 - [ ] **fuentes en conflicto**: Le gusta el ambiente cálido (NC State y Clemson: 20 a 29 °C), pero Clemson y RHS advierten que el sol directo y el aire caliente de la calefacción la dañan. Por eso figura como sensible al calor directo, no al ambiente templado.
+
+## estaciones-1
+
+- [ ] **balcón cerrado con vidrio: ventilar y sombrear**: Una sola institución (RHS, dos páginas), y hablando de invernaderos y jardines de invierno, no de balcones. Es una adaptación razonable pero no verificada para balcones porteños.
+  - https://www.rhs.org.uk/garden-features/ventilation-and-shading-greenhouses
+  - https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant
+- [ ] **planta caída con tierra húmeda = calor, no regar más**: Es la combinación de dos fuentes: Oregon (marchitez a la hora de más calor que se recupera sola es calor) y South Dakota (si la tierra está mojada, no regar; el exceso ahoga). La página de Minnesota que lo dice de forma directa dio error 403. Ojo: según riego-1, tierra mojada y planta caída también puede ser raíces dañadas; la lección lo acota a la caída que aparece en las horas de calor y se va al atardecer.
+  - https://extension.oregonstate.edu/gardening/flowers-shrubs-trees/heat-wave-garden-how-identify-prevent-heat-stress-plants
+  - https://extension.sdstate.edu/protecting-plants-heat-stress
+
+## estaciones-2
+
+- [ ] **heladas en la Ciudad de Buenos Aires (frecuencia, meses, cantidad de días por año)**: No pude leer ninguna fuente oficial con cifras para la ciudad. La página de noticias del SMN devolvió error 402, el informe 'Cambios observados CABA 2020' del Gobierno de la Ciudad dio 404, y el Boletín Climatológico del SMN de invierno 2024 trae la frecuencia de heladas solo en un mapa, sin número para la ciudad en el texto. Por eso la tarjeta NO da números ni dice cada cuánto hiela: solo dice que la ciudad suele ser más templada que sus alrededores (isla de calor, fuente GCBA) y que hay que mirar el pronóstico. Un medio (La Nación, citando al SMN) decía que el Observatorio Central no baja de cero desde 2011, pero no es fuente admitida y no lo usé.
+  - https://buenosaires.gob.ar/adaptacion/el-clima-en-la-ciudad
+  - https://repositorio.smn.gob.ar/bitstream/handle/20.500.12160/2938/0069CL2024.pdf?sequence=1&isAllowed=y
+- [ ] **proteger macetas del balcón de la helada (agrupar contra la pared, tapar con tela antihelada, envolver la maceta, no regar antes)**: Sale de dos páginas de la misma institución (RHS), pensadas para jardines ingleses. Iowa State solo confirma que las tropicales no toleran ni un rato bajo cero. Falta una segunda institución independiente, idealmente argentina (INTA).
+  - https://www.rhs.org.uk/container-gardening/maintenance
+  - https://www.rhs.org.uk/prevention-protection/preventing-winter-damage
+- [ ] **entrar las plantas cuando las noches bajan de unos 10 grados**: El número es solo de RHS (que además da umbrales distintos por especie: 10 a 15 grados). Illinois y Clemson dicen entrarlas antes del frío, sin número.
+  - https://www.rhs.org.uk/plants/types/houseplants/moving-houseplants-outdoors
+- [ ] **bandeja con piedras y agua para subir la humedad**: Fuentes en conflicto: RHS, Wisconsin, Illinois y Vermont la recomiendan; Penn State dice que casi no cambia la humedad. Criterio conservador: no se menciona en la lección; solo agrupar y humidificador, donde todas coinciden.
+  - https://extension.psu.edu/humidity-and-houseplants
+  - https://www.rhs.org.uk/plants/types/houseplants/winter-interest-houseplants-care
+- [ ] **aire acondicionado**: Solo Illinois (rejillas de aire acondicionado) y Maryland (salidas de climatización) lo nombran, como corriente de aire a evitar. Ninguna fuente abierta dice que el aire acondicionado reseque el ambiente, así que la lección solo dice que hay que sacar la planta del chorro.
+  - https://extension.illinois.edu/houseplants/care
+  - https://ask.extension.org/kb/faq.php?id=679195
+
+## estaciones-3
+
+- [ ] **caladios y alocasias que pierden las hojas en invierno y rebrotan**: Una sola fuente institucional (Vermont Extension). El resto de la lección tiene 2 o más.
+  - https://www.uvm.edu/extension/news/houseplant-care-during-winter-months
+
+## estaciones-4
+
+- [ ] **duraciones (hasta una semana, dos a tres semanas, más)**: Las fuentes no coinciden en los cortes. RHS: unos días sin nada, más de una semana pide sistema, más de un par de semanas pide una persona. UF/IFAS: mecha para 3 a 4 semanas, persona recién pasado el mes. Tomé lo más conservador (RHS). El tramo 'hasta una semana' de la consigna es un poco más generoso que 'unos días' de RHS: por eso el texto dice 'unos días, hasta más o menos una semana'.
+  - https://www.rhs.org.uk/plants/types/houseplants/holiday-care
+  - https://gardeningsolutions.ifas.ufl.edu/design/outdoor-living/vacation-plant-care/
+- [ ] **métodos que las instituciones describen y NO incluí**: Bolsa o tapa plástica transparente (RHS, solo ausencias cortas; Illinois, 7 a 8 días): tiene respaldo, pero con el calor del verano porteño no encontré fuente que la avale y la dejé afuera. Maceta sobre piedras con agua en el plato y bañera con toallas mojadas (UF/IFAS, NC State): contradicen el 'vaciá el plato' de riego-3 y riego-4, así que no las recomendé. Manta capilar (RHS): no sé si se consigue acá. Botellas invertidas: ninguna institución abierta las describe.
+  - https://www.rhs.org.uk/plants/types/houseplants/holiday-care
+  - https://extension.illinois.edu/houseplants/care
+  - https://gardeningsolutions.ifas.ufl.edu/design/outdoor-living/vacation-plant-care/
+- [ ] **probar el riego por goteo una semana antes**: UF/IFAS lo dice para el goteo con temporizador en macetas de exterior. Para la mecha, ninguna fuente dice 'probala antes' de forma explícita: RHS solo lista las fallas (depósito chico, mecha que se sale). La explicación del quiz dice 'fijate que funcione antes de irte', que es una inferencia suave.
+  - https://gardeningsolutions.ifas.ufl.edu/design/outdoor-living/vacation-plant-care/
+
+## familias-1
+
+- [ ] **luz de las suculentas**: Fuentes con matices: RHS pide alféizar soleado todo el año; Clemson, varias horas de sol directo para cactus de desierto; Wisconsin, 4+ horas de sol directo para el jade; Iowa State recomienda luz indirecta brillante; UC Sonoma dice que muchas toleran pleno sol pero no calor intenso (mejor sol de mañana) y a la vez menciona unas 6 horas de sol para florecer. Se siguió el criterio conservador del catálogo (unas horas de luz directa, mejor de mañana). Por eso confianza media.
+  - https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide
+  - https://yardandgarden.extension.iastate.edu/how-to/growing-succulents-indoors
+  - https://ucanr.edu/site/mg-sonoma/succulents
+  - https://hort.extension.wisc.edu/articles/jade-plant-crassula-ovata/
+- [ ] **luz de la haworthia**: NC State: luz indirecta brillante, el sol directo quema; UC Sonoma: luz media a baja; Wisconsin acepta unas horas de sol directo en ventana este u oeste. Se usó el dato del catálogo (indirecta brillante; tolera indirecta media y baja).
+  - https://plants.ces.ncsu.edu/plants/haworthiopsis-attenuata/
+  - https://ucanr.edu/site/mg-sonoma/succulents
+  - https://hort.extension.wisc.edu/articles/haworthias-super-succulents-for-small-spaces/
+- [ ] **tierra con arena**: Wisconsin (haworthias) desaconseja la arena porque tapa los poros; Wisconsin (jade), Clemson e Iowa aceptan arena gruesa. En la tarjeta se nombró solo perlita o grava fina para no entrar en el conflicto (el catálogo menciona arena gruesa para el jade).
+  - https://hort.extension.wisc.edu/articles/haworthias-super-succulents-for-small-spaces/
+  - https://hort.extension.wisc.edu/articles/jade-plant-crassula-ovata/
+  - https://yardandgarden.extension.iastate.edu/how-to/growing-succulents-indoors
+
+## familias-2
+
+- [ ] **zamioculca guarda agua en las hojas**: Solo NC State lo dice de forma explícita (hojas que guardan agua, rizomas gruesos, se cuida como suculenta). Iowa State confirma luz y riego pero no habla de reserva de agua. El plan la ubica en follaje tropical y el catálogo en el grupo suculenta_cactus: la lección explica las dos cosas (pariente de las tropicales, se riega como suculenta) y ningún quiz pregunta su grupo.
+  - https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/
+  - https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it
+- [ ] **origen del potus**: Wisconsin dice que en zonas tropicales cubre el suelo o trepa árboles, pero no usa la palabra selva ni sotobosque; NC State solo da el origen (Islas de la Sociedad). El "crecen en la selva a la sombra de árboles" está respaldado de forma explícita para la monstera (RHS, Wisconsin); para potus y filodendro es una generalización razonable (trepadoras tropicales de árboles) pero no textual.
+  - https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/
+  - https://plants.ces.ncsu.edu/plants/epipremnum-aureum/
+  - https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/
+  - https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants
+- [ ] **luz de la monstera**: Matiz: Wisconsin sugiere sol directo en invierno y NC State lista 2 a 6 horas de sol en su ficha, aunque en el texto dice sin sol directo; RHS dice que el sol directo quema. Se siguió el catálogo (luz indirecta brillante, 0 horas de sol directo).
+  - https://hort.extension.wisc.edu/articles/monstera-deliciosa/
+  - https://plants.ces.ncsu.edu/plants/monstera-deliciosa/
+  - https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants
+- [ ] **por qué la monstera tiene agujeros**: Wisconsin lo atribuye al viento y RHS a dejar pasar luz a las hojas de abajo. Fuentes en conflicto: no se incluyó ninguna explicación en la lección.
+  - https://hort.extension.wisc.edu/articles/monstera-deliciosa/
+  - https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants
+
+## familias-3
+
+- [ ] **rociar las hojas**: Penn State e Iowa State dicen que rociar no sube la humedad de forma útil. RHS (calatea, orquídea, anturio, espatifilo), Clemson (helechos), Wisconsin (orquídeas) y NC State (filodendro) lo siguen recomendando. Se mantuvo la postura ya verificada en la app (casi no sirve). Por eso confianza media.
+  - https://extension.psu.edu/humidity-and-houseplants
+  - https://yardandgarden.extension.iastate.edu/faq/air-our-home-extremely-dry-winter-should-i-mist-houseplants
+  - https://www.rhs.org.uk/plants/calathea/growing-guide
+  - https://hgic.clemson.edu/factsheet/indoor-ferns/
+- [ ] **plato con piedritas y baño**: Penn State dice que la bandeja con piedras tiene un efecto casi nulo y que lo del baño es difícil de confirmar; Iowa State, RHS, NC State y AOS recomiendan la bandeja. El catálogo la recomienda en varias fichas. La lección no menciona ni la bandeja ni el baño para no contradecir a ninguno.
+  - https://extension.psu.edu/humidity-and-houseplants
+  - https://yardandgarden.extension.iastate.edu/faq/air-our-home-extremely-dry-winter-should-i-mist-houseplants
+- [ ] **humidificador**: Lo recomiendan Penn State e Iowa State; las fichas de helechos y calatea abiertas (Clemson, Wisconsin, RHS) no lo nombran: proponen doble maceta con musgo, agrupar o bandeja.
+  - https://extension.psu.edu/humidity-and-houseplants
+  - https://yardandgarden.extension.iastate.edu/faq/air-our-home-extremely-dry-winter-should-i-mist-houseplants
+
+## familias-4
+
+- [ ] **agua tibia para la orquídea**: Solo RHS especifica agua tibia. AOS, Clemson y Wisconsin no hablan de la temperatura del agua. No se menciona el hielo en la lección. (En notas anteriores, t1-riego, figura un estudio de Ohio State donde el hielo no dañó a las phalaenopsis: discrepancia ya registrada; acá simplemente no se recomienda.)
+  - https://www.rhs.org.uk/plants/phalaenopsis/growing-guide
+  - https://www.aos.org/orchid-care/care-sheets/phalaenopsis-culture-sheet
+- [ ] **la falta de luz como causa de que no florezcan**: Explícito para violeta africana (RHS, Clemson), espatifilo (RHS, Clemson) y orquídeas (Clemson: una de las razones principales; RHS: luz brillante en invierno para florecer). Para el anturio ninguna fuente abierta lo dice, así que la tarjeta no lo nombra en esa frase. Clemson aclara que el espatifilo es de las pocas plantas que florece con poca luz, pero que la luz insuficiente igual lo impide; RHS dice que en sombra profunda rara vez florece.
+  - https://www.rhs.org.uk/plants/peace-lilies/how-to-grow-peace-lilies
+  - https://hgic.clemson.edu/factsheet/peace-lily/
+  - https://hgic.clemson.edu/factsheet/orchids/
+- [ ] **horas de oscuridad del cactus de Navidad**: Clemson dice 14 horas y NC State 13. No se dio un número en la lección, solo "noches largas y frescas".
+  - https://hgic.clemson.edu/factsheet/thanksgiving-christmas-cacti/
+  - https://plants.ces.ncsu.edu/plants/schlumbergera-x-buckleyi/
+- [ ] **riego semanal de la orquídea**: RHS y Clemson dicen más o menos una vez por semana; AOS da un rango según el clima (de día por medio a cada 10 días). Se dejó "más o menos una vez por semana", igual que el catálogo.
+  - https://www.rhs.org.uk/plants/phalaenopsis/growing-guide
+  - https://hgic.clemson.edu/factsheet/orchids/
+  - https://www.aos.org/orchid-care/care-sheets/phalaenopsis-culture-sheet
 
 ## ficus-lyrata
 
@@ -409,6 +562,12 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
   - https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/
   - https://extension.msstate.edu/blogs/extension-for-real-life/gardening-myth-busters
   - https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0318716
+- [ ] **cemento, tela y fibra**: Cemento: solo verifiqué peso, duración y estabilidad (Penn State); ninguna fuente abierta habla de su porosidad, así que no se afirma si 'respira'. Tela: una fuente (Illinois) dice que seca más rápido, como el barro; las páginas específicas de macetas de tela (Oklahoma State, UC ANR, Maryland) no abrieron. 'Fibra': NC State distingue fibra de vidrio (no porosa) y fibra prensada (semiporosa); no encontré nada sobre fibrocemento ni macetas de fibra de coco.
+  - https://extension.psu.edu/repotting-houseplants
+  - https://extension.illinois.edu/news-releases/6-tips-watering-container-gardens
+  - https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers
+- [ ] **tarjeta dato_ba del verano**: Adaptación propia: las fuentes dicen que las macetas porosas piden riego más seguido; lo ubiqué en el verano de Buenos Aires (diciembre a febrero). No hay fuente argentina que lo diga.
+  - https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers
 
 ## macetas-2
 
@@ -417,6 +576,8 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
   - https://hgic.clemson.edu/factsheet/indoor-plants-soil-mixes/
 - [ ] **fuente argentina**: La página del INTA en argentina.gob.ar define sustrato y lista componentes, pero no dice explícitamente 'no usar tierra de jardín en maceta' ni habla de plantas de interior. El título de la fuente en el JSON es descriptivo (no registré el título literal): conviene abrir la URL y copiar el título exacto. No encontré material de FAUBA.
   - https://www.argentina.gob.ar/node/402876
+- [ ] **profundidad de la maceta**: Para plantas de interior hay poco: Iowa State (suculentas en macetas chicas o bajas; altas necesitan más maceta por estabilidad). NC State da profundidades solo para hortalizas. Iowa State explica que las macetas más altas dejan más sustrato aireado sobre la zona saturada del fondo, pero es una sola fuente y podía confundir junto a lo de las suculentas: no se incluyó.
+  - https://yardandgarden.extension.iastate.edu/how-to/growing-succulents-indoors
 
 ## macetas-3
 
@@ -428,6 +589,39 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
   - https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/
 - [ ] **no trasplantar plantas débiles, en reposo o por florecer**: Una sola fuente (Clemson). Confianza media para esa tarjeta.
   - https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/
+- [ ] **test de apretar la tierra y test de drenaje**: Test de apretar: UNA sola fuente institucional (Iowa State), y lo describe como control de humedad al llenar macetas, no como test de calidad de una bolsa; la tarjeta lo atribuye a 'una universidad'. Los blogs lo interpretan de formas contradictorias. Test de drenaje: ninguna fuente institucional abierta lo describe (solo blogs), así que NO se incluyó. Clemson e INTA sugieren comparar ingredientes o hacer análisis de laboratorio.
+  - https://yardandgarden.extension.iastate.edu/article/2025/03/potting-media-components-and-handling
+- [ ] **cómo reconocer cada ingrediente a simple vista**: Las fuentes describen función y peso (perlita: roca volcánica expandida, liviana; arena: pesada; tierra de campo: pesada), pero casi nada de aspecto o color. No puse descripciones visuales de memoria (por ejemplo, el color de la perlita). 'Tierra negra' no aparece en la lección porque no pude verificar con fuente abierta que equivalga a tierra común de jardín.
+  - https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers
+
+## macetas-4
+
+- [ ] **qué es la 'tierra de vivero' / 'tierra negra' que se vende en Argentina**: NO VERIFICADO. No encontré ninguna fuente institucional abierta que defina qué traen las bolsas de 'tierra negra', 'tierra fértil' o 'tierra de vivero'. Por eso la lección no afirma qué contienen: solo aconseja leer los ingredientes y preferir un sustrato formulado antes que tierra sola (respaldado por Penn State, NC State, Iowa State y la definición del INTA). Un trabajo del INTA (Barbaro, Imhoff y Morisigue, Ciencia del Suelo 2014) dice que usar suelo en macetas dificulta el manejo y agota un recurso no renovable, pero no pude abrirlo (solo vi el resumen en resultados de búsqueda), así que no se cita.
+  - https://www.argentina.gob.ar/node/402876
+- [ ] **proporción de compost en la mezcla (15 a 40 %)**: Una sola fuente (NC State), y pensada para contenedores en general. Las fuentes argentinas abiertas (INTI/INTA, GCBA) dicen que sirve para macetas pero no dan proporción. Iowa State y Penn State respaldan los motivos de cautela (variable, sales, semillas, sigue descomponiéndose). La tarjeta lo atribuye a 'una guía universitaria'. Lección en confianza media.
+  - https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers
+- [ ] **tarjeta dato_ba sobre compost en la Ciudad**: La nota del GCBA es de 2015 y está en el sitio histórico. Solo se tomó lo atemporal (cómo se hace, 3 a 5 meses, para qué sirve); no se afirma que hoy haya talleres. El instructivo INTI/INTA se leyó desde el PDF descargado con un script propio porque WebFetch no extrajo el texto: conviene que alguien lo abra a mano para confirmar.
+  - https://buenosaires.gob.ar/gcaba_historico/noticias/compost-como-y-donde-prepararlo
+  - https://www.argentina.gob.ar/sites/default/files/instructivo_para_la_produccion_de_compost_domiciliario.pdf
+
+## macetas-5
+
+- [ ] **capa de piedras en el fondo**: Fuentes en conflicto, lección en confianza media. Illinois y Mississippi State lo llaman mito; NC State y Clemson lo desaconsejan (la tierra sobre la grava queda saturada / frena el agua); Iowa State dice que no reemplaza al agujero. Rowe 2025 (PLOS ONE) midió en macetas con agujero que la capa redujo o no cambió el agua retenida, sin plantas y con un solo tamaño de maceta. La lección dice: varias universidades lo desaconsejan y por qué, que un estudio midió otra cosa y sus límites, y que lo indiscutido es que no reemplaza al agujero. No afirma que las piedras empeoren el drenaje ni que lo mejoren.
+  - https://extension.illinois.edu/container-gardens/container-drainage-options
+  - https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers
+  - https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/
+  - https://extension.msstate.edu/blogs/extension-for-real-life/gardening-myth-busters
+  - https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0318716
+- [ ] **para qué sirven las piedras sobre la tierra en cactus y suculentas**: RHS recomienda la cobertura de grava en cactus pero no explica su función. Los beneficios (frenar yuyos, verse bien, conservar humedad) salen de la guía general de macetas de RHS; que la cobertura reduce la evaporación lo confirman Illinois y NC State para macetas en general. NO encontré fuente institucional para lo que se repite en blogs (mantiene seco el cuello, evita pudrición, ahuyenta mosquitas del sustrato): no se incluyó. 'No seca la tierra más rápido' es la consecuencia directa de que la cobertura conserva humedad, no una frase literal de una fuente sobre suculentas.
+  - https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide
+  - https://www.rhs.org.uk/container-gardening/how-to-plant-up-a-container
+  - https://extension.illinois.edu/news-releases/6-tips-watering-container-gardens
+
+## macetas-6
+
+- [ ] **'tierra agotada' como señal de trasplante**: El plan lo pedía, pero ni Clemson ni Penn State (reabiertas) lo mencionan como señal; Penn State suma 'crecimiento frenado aunque se abone'. No se agregó. Siguen vigentes las tres observaciones de la pasada anterior (tamaño 2-5 cm, época adaptada al hemisferio sur, no trasplantar plantas débiles: una sola fuente).
+  - https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/
+  - https://extension.psu.edu/repotting-houseplants
 
 ## mascotas-1
 
@@ -837,3 +1031,32 @@ Datos convertidos desde fuentes del hemisferio norte (orientación de ventanas, 
 - https://extension.missouri.edu/media/wysiwyg/Extensiondata/Pub/pdf/agguides/hort/g06510.pdf (403)
 - https://extension.umn.edu/news/moving-houseplants-outdoors (403)
 - https://ucanr.edu/blog/stanislaus-sprout/article/houseplant-care-july-classes-uc-master-gardeners (403)
+- https://extension.umd.edu/resource/fertilizing-indoor-plants (certificado rechazado; todo extension.umd.edu)
+- https://extension.umn.edu/manage-soil-nutrients/coffee-grounds-eggshells-epsom-salts (403)
+- https://extension.umn.edu/manage-soil-nutrients/quick-guide-fertilizing-plants (403)
+- https://repositorio.inta.gob.ar (folleto ProHuerta 'Lombricultura. ¿Cómo producir abono de lombriz?': la ficha abrió, el PDF dio timeout y cortes de conexión; otros registros del repositorio tampoco abrieron)
+- https://yardandgarden.extension.iastate.edu/how-to/how-fertilize-houseplants (404)
+- https://plantsoilcenter.cahnr.uconn.edu/fertilizing-houseplants/ y /foliar-fertilization/ (404 tras redirección desde soiltesting.cahnr.uconn.edu)
+- https://homegarden.cahnr.uconn.edu/wp-content/uploads/sites/3479/2022/08/Houseplant-Fertilization.pdf (404)
+- https://extension.psu.edu/over-fertilization-of-potted-plants (abrió una página índice sin el artículo)
+- https://www.rhs.org.uk/soil-composts-mulches/fertilisers (404; se usó https://www.rhs.org.uk/garden-jobs/fertilisers)
+- https://espacepourlavie.ca/en/foliar-feeding (redirige a otra página)
+- https://extension.umn.edu/node/179151 (University of Minnesota Extension, estrés por calor: error 403)
+- https://www.smn.gob.ar/noticias/heladas (Servicio Meteorológico Nacional: error 402; el sitio smn.gob.ar no apareció en ninguna búsqueda)
+- https://buenosaires.gob.ar/sites/default/files/2023-02/Cambios%20observados%20CABA%202020.pdf (Gobierno de la Ciudad: error 404)
+- https://core.ac.uk/download/144234519.pdf (trabajo sobre temperaturas mínimas e isla de calor en Buenos Aires: error 403)
+- INTA: no encontré ninguna página sobre heladas en la ciudad o el AMBA; las búsquedas solo devolvieron informes de Balcarce y Concordia, que no abrí ni usé
+- Los dos PDF argentinos usados (SEDICI/Jardín Botánico y Boletín del SMN) bajaron bien, pero WebFetch no pudo extraerles el texto; los leí decodificando el archivo descargado
+- https://extension.umn.edu/houseplants/cacti-and-succulents (403)
+- intainforma.inta.gob.ar (todo el dominio corta la conexión: 'Compostaje: reducir los desechos domiciliarios es tendencia urbana' y 'Cómo elegir un buen sustrato para las macetas'; esta última sí abrió en su copia de argentina.gob.ar/node/402876)
+- repositorio.inta.gob.ar (corta la conexión: guía de compost y lombricompuesto de EEA Mendoza; 'Agricultura orgánica: el compost' de EEA Valle Inferior)
+- https://repositoriosdigitales.mincyt.gob.ar/vufind/Record/INTADig_0af36abbfa53963302ed8dd3fdd0a42a (conexión rechazada; Barbaro et al. 2014)
+- https://buscador.una.edu.ni/Record/INTA10093/Details (corta la conexión; mismo trabajo)
+- https://core.ac.uk/download/479928097.pdf y https://core.ac.uk/download/52482646.pdf (403)
+- https://www.argentina.gob.ar/ambiente/contenidos/compostar (403)
+- https://extension.okstate.edu/articles/2023/grow_bags.html (403; macetas de tela)
+- https://www.ucanr.edu/node/146080 (403; macetas de tela)
+- https://extension.umd.edu/node/11586/ (certificado rechazado; macetas de tela)
+- https://extension.illinois.edu/container-gardens/choosing-container (404, URL adivinada)
+- https://homegarden-cahnr.media.uconn.edu/wp-content/uploads/sites/3479/2022/08/Potting-Media.pdf (404)
+- https://ucanr.edu/sites/MGWTest/Gardening/Houseplants/Growing_Media (403)

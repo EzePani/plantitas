@@ -100,7 +100,7 @@ describe('catálogo', () => {
   })
 })
 
-describe('lecciones de la tanda 1', () => {
+describe('lecciones', () => {
   it('tienen 4 a 6 tarjetas y 3 a 5 preguntas', () => {
     for (const l of lecciones) {
       expect(l.tarjetas.length, l.id).toBeGreaterThanOrEqual(4)
