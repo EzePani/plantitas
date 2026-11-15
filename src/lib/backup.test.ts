@@ -4,7 +4,7 @@ import type { DatosPersistidos } from './tipos'
 
 const datos: DatosPersistidos = {
   onboardingCompleto: true,
-  respuestas: { experiencia: 'bastante', aciertosTest: 2, lugar: 'ambos', abertura: 'ventana', horaSol: 'manana', tiempo: 'un_rato', objetivo: 'a_fondo' },
+  respuestas: { experiencia: 'bastante', aciertosTest: 2, lugar: 'ambos', tiempo: 'un_rato', objetivo: 'a_fondo' },
   perfil: 'experimentado',
   mascotas: { tipo: 'gato', muerde: 'a_veces', alcance: 'bajo' },
   completadas: { 'riego-1': { fecha: '2026-11-14', aciertos: 2, total: 3 }, 'repaso-riego': { fecha: '2026-11-14', aciertos: 4, total: 4 } },
@@ -13,7 +13,10 @@ const datos: DatosPersistidos = {
   racha: { dias: 3, ultima: '2026-11-14' },
   insignias: { 'primera-leccion': '2026-11-12' },
   semillas: ['basico'],
-  espacios: [{ id: 'living-1', nombre: 'Living', creado: '2026-11-14', datos: { sol: 'manana' }, plantas: ['potus'] }],
+  espacios: [
+    { id: 'living-1', nombre: 'Living', creado: '2026-11-14', tipo: 'living', luz: { tipo: 'indirecta', tramos: [], obstaculos: [] }, tamano: 'mediano', mascotas: 'gato', esfuerzo: 'medio' },
+    { id: 'balcon-1', nombre: 'Balcón', creado: '2026-11-14', tipo: 'balcon', luz: { tipo: 'directa', tramos: [{ desde: 8, hasta: 11.5 }, { desde: 17, hasta: 18 }], obstaculos: ['edificio', 'vidrio'] }, tamano: 'chico', mascotas: 'gato', esfuerzo: 'poco' },
+  ],
 }
 
 const serializar = (d: unknown, version = VERSION_DATOS) => JSON.stringify({ app: 'plantitas', version, exportado: '2026-11-14T12:00:00.000Z', datos: d })
@@ -52,13 +55,15 @@ describe('backup', () => {
       { ...datos, completadas: { '<script>alert(1)</script>': { fecha: '2026-11-14', aciertos: 1, total: 1 } } },
       { ...datos, salteadas: ['no-existe'] },
       { ...datos, espacios: 'muchos' },
+      { ...datos, espacios: [{ ...datos.espacios[0], luz: { tipo: 'laser', tramos: [], obstaculos: [] } }] },
+      { ...datos, espacios: [{ ...datos.espacios[0], luz: { tipo: 'directa', tramos: [{ desde: 8, hasta: 99 }], obstaculos: [] } }] },
       { xp: 10 },
     ]
     for (const m of malos) expect(leerBackup(serializar(m))).toEqual({ ok: false, error: 'datos_invalidos' })
   })
 
   it('un backup malicioso no contamina prototipos ni cuela campos extra', () => {
-    const texto = `{"app":"plantitas","version":1,"exportado":"x","__proto__":{"admin":true},"datos":${JSON.stringify({ ...datos, reiniciar: 'pisado', completarNodo: 1 }).replace('{', '{"__proto__":{"contaminado":true},')}}`
+    const texto = `{"app":"plantitas","version":${VERSION_DATOS},"exportado":"x","__proto__":{"admin":true},"datos":${JSON.stringify({ ...datos, reiniciar: 'pisado', completarNodo: 1 }).replace('{', '{"__proto__":{"contaminado":true},')}}`
     const r = leerBackup(texto)
     expect(r.ok).toBe(true)
     if (!r.ok) return

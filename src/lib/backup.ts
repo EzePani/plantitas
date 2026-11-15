@@ -1,23 +1,22 @@
 import { z } from 'zod'
+import { MIGRACIONES } from './migraciones'
 import type { DatosPersistidos } from './tipos'
 
 /** Versión del formato de datos persistidos. Subir al cambiar el modelo y agregar migración. */
-export const VERSION_DATOS = 1
+export const VERSION_DATOS = 2
 const MAX_BYTES = 1_000_000
 
 const idSeguro = z.string().regex(/^[a-z0-9-]{1,60}$/)
 const fecha = z.string().regex(/^\d{4}-\d{2}-\d{2}$/)
-const unidad = z.enum([
-  'basico',
-  'luz',
-  'riego',
-  'familias',
-  'macetas',
-  'abono',
-  'agua',
-  'mascotas',
-  'comprar',
-])
+const unidad = z.enum(['basico', 'luz', 'riego', 'macetas', 'abono', 'familias', 'estaciones', 'rutina', 'plagas', 'multiplicar', 'comprar', 'mascotas'])
+const tipoMascota = z.enum(['gato', 'perro', 'ambos', 'ninguna'])
+const hora = z.number().min(0).max(24)
+
+export const esquemaLuz = z.object({
+  tipo: z.enum(['directa', 'indirecta', 'baja', 'no_se']),
+  tramos: z.array(z.object({ desde: hora, hasta: hora })).max(2),
+  obstaculos: z.array(z.enum(['edificio', 'arbol', 'techo', 'vidrio', 'cortina'])).max(5),
+})
 
 export const esquemaDatos = z.object({
   onboardingCompleto: z.boolean(),
@@ -26,15 +25,13 @@ export const esquemaDatos = z.object({
       experiencia: z.enum(['nunca', 'murieron', 'algunas', 'bastante']),
       aciertosTest: z.number().int().min(0).max(3).optional(),
       lugar: z.enum(['interior', 'balcon', 'ambos']),
-      abertura: z.enum(['ventana', 'balcon', 'ambas']),
-      horaSol: z.enum(['manana', 'mediodia', 'tarde', 'todo_el_dia', 'casi_nunca', 'no_se']),
       tiempo: z.enum(['casi_nada', 'un_rato', 'me_encanta']),
       objetivo: z.enum(['basico', 'elegir', 'a_fondo']),
     })
     .nullable(),
   perfil: z.enum(['primerizo', 'sobreviviente', 'en_camino', 'experimentado']).nullable(),
   mascotas: z.object({
-    tipo: z.enum(['gato', 'perro', 'ambos', 'ninguna']),
+    tipo: tipoMascota,
     muerde: z.enum(['siempre', 'a_veces', 'nunca', 'no_se']).optional(),
     alcance: z.enum(['todo', 'bajo', 'puedo_aislar']).optional(),
   }),
@@ -57,8 +54,11 @@ export const esquemaDatos = z.object({
         id: idSeguro,
         nombre: z.string().max(80),
         creado: fecha,
-        datos: z.record(idSeguro, z.string().max(80)),
-        plantas: z.array(idSeguro).max(20),
+        tipo: z.enum(['living', 'dormitorio', 'cocina', 'bano', 'balcon', 'escritorio']),
+        luz: esquemaLuz,
+        tamano: z.enum(['chico', 'mediano', 'amplio']),
+        mascotas: tipoMascota,
+        esfuerzo: z.enum(['poco', 'medio', 'mucho']),
       }),
     )
     .max(50),
@@ -77,12 +77,6 @@ export interface Backup {
   exportado: string
   datos: DatosPersistidos
 }
-
-/**
- * Migraciones entre versiones del formato: MIGRACIONES[n] lleva los datos de la versión n a la n+1.
- * Hoy solo existe la versión 1, así que está vacío.
- */
-const MIGRACIONES: Record<number, (datos: unknown) => unknown> = {}
 
 export function migrar(datos: unknown, desde: number): unknown {
   let actual = datos
