@@ -2,7 +2,7 @@
 
 Generado con `node scripts/generar-fuentes.mjs`. No editar a mano: se pisa.
 
-Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en conflicto (168 puntos en 49 ítems). Mientras no se revise, la app aplica el criterio más conservador.
+Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en conflicto (193 puntos en 49 ítems). Mientras no se revise, la app aplica el criterio más conservador.
 
 ## aloe-vera
 
@@ -16,6 +16,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
   - https://plants.ces.ncsu.edu/plants/aloe-vera/
   - https://extension.psu.edu/aloe-a-hardy-houseplant
 - [ ] **humedad**: Confianza baja.
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 6 h de sol directo, tolera sol de tarde, sensibilidad al calor baja. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Luz: NC State y Penn State hablan de sol pleno a parcial; RHS recomienda luz brillante indirecta, lejos del sol directo fuerte. Se dejó sol_directo en true pero con la aclaración de correrla si el sol de verano es muy intenso.
 - [ ] **fuentes en conflicto**: Familia: ASPCA la lista como Liliaceae; NC State como Asphodelaceae. Se usó Asphodelaceae.
 - [ ] **fuentes en conflicto**: Humedad: solo RHS la menciona (humedad normal de casa, sin rociar); NC State y Penn State no dicen nada.
@@ -28,6 +29,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
   - https://www.petpoisonhelpline.com/poison/anthurium/
 - [ ] **gravedad**: NC State dice severidad baja; se puso 'moderada' por criterio conservador (mismos síntomas por oxalatos que el espatifilo). Revisar si se prefiere 'leve'.
   - https://plants.ces.ncsu.edu/plants/anthurium-andraeanum/
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 0 h de sol directo, no tolera sol de tarde, sensibilidad al calor alta. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Toxicidad: la ficha de ASPCA para 'flamingo flower' corresponde a Anthurium scherzeranum, no a A. andraeanum. La especie exacta está respaldada por NC State (problema para perros y gatos) y el género por Pet Poison Helpline.
 - [ ] **fuentes en conflicto**: Gravedad: NC State la clasifica como severidad baja, pero describe los mismos síntomas que ASPCA da para el espatifilo (que NC State clasifica como media). Se tomó 'moderada' por criterio conservador.
 - [ ] **fuentes en conflicto**: Riego de invierno: ni RHS ni NC State dan una pauta distinta para el invierno; se mantuvo la misma regla.
@@ -53,6 +55,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
 - [ ] **especie representativa y sustrato**: Se tomó Begonia rex; B. maculata (begonia de caña) no se investigó y su cuidado puede diferir. El sustrato sale casi solo de NC State (confianza media).
   - https://plants.ces.ncsu.edu/plants/begonia-rex-types/
   - https://www.rhs.org.uk/plants/begonias/houseplants
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 0 h de sol directo, no tolera sol de tarde, sensibilidad al calor alta. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Se tomó Begonia rex (grupo Rex-cultorum) como la begonia de interior del catálogo; no se investigó B. maculata por separado. La ficha de ASPCA cubre todo el género (Begonia spp.).
 - [ ] **fuentes en conflicto**: Tipo de oxalato: ASPCA dice oxalatos de calcio solubles; NC State dice solo 'oxalato de calcio'.
 - [ ] **fuentes en conflicto**: Sustrato: la sección de RHS sobre begonias rex no nombra una mezcla; el dato sale de NC State y de la indicación general de RHS de mantener el compost húmedo pero bien drenado.
@@ -80,6 +83,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
   - https://hgic.clemson.edu/factsheet/thanksgiving-christmas-cacti/
 - [ ] **otros_nombres**: "Santa Teresita" y "Zygocactus" están puestos de memoria; no verificados en fuente abierta.
 - [ ] **humedad**: Confianza baja.
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 0 h de sol directo, no tolera sol de tarde, sensibilidad al calor alta. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Riego: NC State pide tierra húmeda (ni empapada ni seca) en primavera-verano y reducir cuando se forman los pimpollos; Clemson pide regar cuando el sustrato está seco al tacto en primavera-verano y mantenerlo parejo y húmedo una vez formados los pimpollos. Se tomó el criterio más conservador contra el exceso de agua en verano y el de Clemson para la etapa de pimpollos.
 - [ ] **fuentes en conflicto**: Oscuridad necesaria para florecer: NC State dice al menos 13 horas; Clemson, 14 o más durante 6 semanas.
 - [ ] **fuentes en conflicto**: Nombre en ASPCA: la ficha "Christmas Cactus" usa Schlumbergera bridgesii; la confirmación para S. x buckleyi viene de NC State. No se abrió una ficha específica de S. truncata.
@@ -87,6 +91,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
 
 ## calatea
 
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 0 h de sol directo, no tolera sol de tarde, sensibilidad al calor alta. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Se tomó Goeppertia makoyana como especie de referencia. La guía de RHS cubre las 'calateas' en general (Goeppertia, Ctenanthe, Stromanthe) y la ficha de ASPCA es de Calathea spp.
 - [ ] **fuentes en conflicto**: Luz: los atributos de NC State listan 'sombra parcial (2-6 h de sol directo)', pero su texto y RHS piden luz indirecta sin sol directo. Se tomó el criterio sin sol directo.
 
@@ -101,6 +106,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
   - https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/
 - [ ] **atractivo_para_mascotas**: El único respaldo es una página de Clemson Extension (no veterinaria) que menciona reacción leve tipo hierba gatera en algunos gatos.
   - https://hgic.clemson.edu/exciting-houseplant-selections-for-beginners/
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 0 h de sol directo, no tolera sol de tarde, sensibilidad al calor media. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Toxicidad: la ficha de ASPCA y NC State la dan como no tóxica para gatos y perros, pero un artículo de ASPCA de 2019 la menciona como 'levemente tóxica' (vómitos y diarrea leves tras ingerirla) y Clemson aclara que comer mucha puede causar vómitos o diarrea. Se mantuvo 'segura' por la ficha oficial, con confianza media y aviso en la nota.
 - [ ] **fuentes en conflicto**: Riego: NC State dice que crece mejor con tierra húmeda; Wisconsin y Clemson recomiendan dejar secar un poco entre riegos. Se usó esta última regla, más segura contra la pudrición.
 
@@ -129,6 +135,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
   - https://plants.ces.ncsu.edu/plants/echeveria-elegans/
 - [ ] **otros_nombres**: "Rosa de alabastro" está puesto de memoria como nombre usado en español; no fue verificado en una fuente abierta.
 - [ ] **humedad**: Confianza baja.
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 6 h de sol directo, tolera sol de tarde, sensibilidad al calor baja. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Luz: la ficha de RHS de E. elegans, NC State y UF/IFAS indican sol pleno; la guía de RHS del género recomienda luz brillante indirecta. Se eligió "mucha" con sol directo y confianza media.
 - [ ] **fuentes en conflicto**: Riego de invierno: la ficha de RHS de la especie dice no regar en reposo; la guía de RHS del género dice un riego liviano cada varias semanas. Se tomó el riego mínimo.
 - [ ] **fuentes en conflicto**: Toxicidad: la ficha de ASPCA "Mexican Snowballs" da el nombre científico solo a nivel género (escrito "Echevaria"); la confirmación a nivel especie viene de NC State.
@@ -141,6 +148,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
 - [ ] **humedad**: Solo RHS da un nivel ('moderada'); NC State apenas menciona puntas marrones por aire seco. Confianza media.
   - https://www.rhs.org.uk/plants/peace-lilies/how-to-grow-peace-lilies
   - https://plants.ces.ncsu.edu/plants/spathiphyllum/
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 0 h de sol directo, no tolera sol de tarde, sensibilidad al calor media. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Humedad: RHS dice que prefiere humedad moderada; NC State no la pide como requisito y solo menciona que el aire seco puede dar puntas marrones. Se tomó 'media'.
 - [ ] **fuentes en conflicto**: Gravedad: NC State la clasifica como severidad media; la FDA dice que los síntomas suelen resolverse solos. Se tomó 'moderada' (criterio más conservador).
 - [ ] **fuentes en conflicto**: Partes tóxicas: NC State nombra las hojas; ASPCA y FDA hablan de la planta en general.
@@ -156,6 +164,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
   - https://plants.ces.ncsu.edu/plants/ficus-lyrata/
   - https://extension.psu.edu/programs/master-gardener/counties/adams/news/fiddle-leaf-fig-ficus-lyrata
   - https://www.rhs.org.uk/plants/ornamental-figs
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 2 h de sol directo, no tolera sol de tarde, sensibilidad al calor media. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Toxicidad: ASPCA no tiene ficha propia de Ficus lyrata en su lista (la ficha 'Fiddle-Leaf' es un filodendro, Philodendron bipennifolium). La cubren un artículo de ASPCA de 2019 (levemente tóxica para perros y gatos), NC State y la ficha del género Ficus de Pet Poison Helpline. Confianza media.
 - [ ] **fuentes en conflicto**: Principio tóxico: NC State lo atribuye a oxalatos de calcio insolubles; Pet Poison Helpline y ASPCA hablan de savia irritante.
 - [ ] **fuentes en conflicto**: Riego: NC State pide tierra húmeda sin encharcar; Penn State y RHS, regar cuando se secan los primeros centímetros. Las fuentes no dan una pauta estacional clara (Penn State dice que no entra en reposo en invierno).
@@ -168,6 +177,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
 - [ ] **sustrato**: Solo Clemson detalla el sustrato (tierra de uso general, drenaje rápido); NC State solo dice buen drenaje y húmedo. Confianza media.
   - https://hgic.clemson.edu/factsheet/philodendron/
   - https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 0 h de sol directo, no tolera sol de tarde, sensibilidad al calor media. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Humedad: NC State dice que prefiere humedad media y tolera aire seco; Clemson dice que la humedad alta es ideal pero tolera la baja de las casas. Se eligió "media".
 - [ ] **fuentes en conflicto**: Gravedad: NC State clasifica la toxicidad como baja; Pet Poison Helpline menciona casos raros de hinchazón de garganta con dificultad para respirar. Se eligió "moderada" por ser el criterio más conservador; no se cargó advertencia_grave porque las fuentes no describen riesgo de vida habitual.
 - [ ] **fuentes en conflicto**: Nombre: Clemson trata al filodendro hoja de corazón como Philodendron scandens; ASPCA y NC State usan Philodendron hederaceum para la misma planta de nombre común.
@@ -182,6 +192,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
 - [ ] **apta.balcon**: NC State da zona USDA 9a (sugiere algo de tolerancia al frío) pero también dice que sufre bajo 13 °C. Se puso false por criterio conservador; no verifiqué con fuente argentina cómo se comporta al aire libre en Buenos Aires.
   - https://plants.ces.ncsu.edu/plants/ficus-elastica/
   - https://hgic.clemson.edu/factsheet/rubber-plant/
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 0 h de sol directo, no tolera sol de tarde, sensibilidad al calor media. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Toxicidad: no encontré ficha de Ficus elastica en ASPCA (la ficha 'Indian Rubber Plant' corresponde a Ficus benjamina). Pet Poison Helpline tiene ficha de la especie pero habla de 'animales' sin separar gato y perro; NC State la marca como problema para gatos y perros. Confianza media.
 - [ ] **fuentes en conflicto**: Balcón: NC State la da como rústica desde zona USDA 9a, pero la misma ficha y Clemson dicen que sufre por debajo de 13 °C. Se eligió el criterio conservador (no apta todo el año).
 
@@ -196,6 +207,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
 - [ ] **apta.balcon**: RHS da mínima de 1 a 5 °C; NC State pide mantenerla arriba de 10 °C. Se marcó apta con resguardo; revisar si se prefiere false.
   - https://www.rhs.org.uk/plants/504241/haworthiopsis-attenuata/details
   - https://plants.ces.ncsu.edu/plants/haworthiopsis-attenuata/
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 0 h de sol directo, no tolera sol de tarde, sensibilidad al calor media. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Luz: RHS la clasifica como "full sun" pero aclara protegerla del sol fuerte; NC State indica media sombra / luz brillante indirecta y que el sol directo quema. Se eligió "media" sin sol directo.
 - [ ] **fuentes en conflicto**: Temperatura mínima: RHS da rusticidad H2 (1 a 5 °C); NC State recomienda mantenerla arriba de 10 °C. Para el balcón se tomó el criterio más conservador.
 - [ ] **fuentes en conflicto**: Toxicidad: ASPCA lista "Zebra Haworthia" como Haworthia fasciata, que no es el nombre de esta especie; la confirmación para Haworthiopsis attenuata viene solo de NC State.
@@ -207,6 +219,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
   - https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/boston-fern
 - [ ] **toxicidad_gato / toxicidad_perro**: ASPCA solo tiene ficha del helecho de Boston (Nephrolepis exaltata bostoniensis), no tóxico. No pude confirmar qué especie exacta usa el catálogo para 'helecho serrucho' (la carpeta src/data/plantas todavía no tiene fichas), así que no lo usé en el quiz.
   - https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/boston-fern
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 0 h de sol directo, no tolera sol de tarde, sensibilidad al calor alta. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Familia: NC State lo ubica en Polypodiaceae y ASPCA en Dryopteridaceae; no pude abrir Kew POWO para confirmar la clasificación actual.
 - [ ] **fuentes en conflicto**: La ficha de ASPCA nombra la planta como 'Nephrolepis exalta bostoniensis' (la variedad Boston de esta especie).
 - [ ] **fuentes en conflicto**: Mantenimiento: NC State lo califica de bajo mantenimiento, pero ambas fuentes exigen humedad alta y tierra siempre húmeda, por eso se lo marcó como difícil en interior con calefacción (juicio propio).
@@ -220,6 +233,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
   - https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/jade-plant
   - https://plants.ces.ncsu.edu/plants/crassula-ovata/
   - https://www.aspca.org/news/are-succulents-safe-have-around-pets
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 6 h de sol directo, tolera sol de tarde, sensibilidad al calor baja. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Luz: Wisconsin Extension y la ficha de RHS piden sol directo o pleno; la guía de RHS Urban Show habla de luz brillante indirecta y NC State sugiere algo de sombra a la tarde. Se eligió "mucha" con tolerancia a "media".
 - [ ] **fuentes en conflicto**: Nombre: la ficha de ASPCA usa Crassula argentea; NC State indica que es el nombre anterior de Crassula ovata, y la nota de ASPCA sobre suculentas nombra directamente a Crassula ovata.
 - [ ] **fuentes en conflicto**: Partes tóxicas: ninguna fuente abierta las especifica (ASPCA indica principio tóxico desconocido); se dejó en null.
@@ -235,6 +249,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
 
 - [ ] **sustrato**: Solo NC State describe el sustrato; las otras dos fuentes no lo tratan.
   - https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 0 h de sol directo, no tolera sol de tarde, sensibilidad al calor media. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Luz: NC State la lista para media sombra con 2 a 6 horas de sol directo; Clemson recomienda evitar el sol directo fuerte. Se dejó sol_directo en false por ser lo más conservador.
 - [ ] **fuentes en conflicto**: Frecuencia de riego invernal: NC State dice cada 1-2 meses; Clemson, cada 4-6 semanas.
 - [ ] **fuentes en conflicto**: ASPCA la ubica en la familia Agavaceae; NC State en Asparagaceae (clasificación actual).
@@ -338,6 +353,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
   - https://hort.extension.wisc.edu/articles/monstera-deliciosa/
   - https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants
   - https://plants.ces.ncsu.edu/plants/monstera-deliciosa/
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 0 h de sol directo, no tolera sol de tarde, sensibilidad al calor alta. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Luz: Wisconsin Extension sugiere sol directo en invierno; RHS y NC State indican luz indirecta sin sol directo. Se eligió el criterio conservador (sin sol directo).
 - [ ] **fuentes en conflicto**: Riego: RHS dice dejar secar casi todo el sustrato; NC State, el cuarto o tercio superior. Se usó la regla de NC State.
 - [ ] **fuentes en conflicto**: Gravedad: NC State la clasifica como severidad baja y ASPCA describe este grupo de plantas como de gravedad baja, con hinchazón de garganta solo en casos raros.
@@ -347,6 +363,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
 - [ ] **luz**: NC State dice 'poca luz', RHS dice luz brillante sin sol directo de verano. Se puso 'media' con confianza media.
   - https://plants.ces.ncsu.edu/plants/phalaenopsis/
   - https://www.rhs.org.uk/plants/phalaenopsis/growing-guide
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 0 h de sol directo, no tolera sol de tarde, sensibilidad al calor alta. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Luz: NC State dice que prefiere poca luz (ventana este), mientras que RHS pide luz brillante en invierno y solo evitar el sol directo en verano. Se tomó 'media' (claridad sin sol fuerte).
 - [ ] **fuentes en conflicto**: Riego: ninguna de las dos fuentes menciona cubitos de hielo; ambas piden agua tibia, por eso no se recomiendan.
 
@@ -367,6 +384,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
 - [ ] **apta.balcon**: Zonas USDA 10-11 (NC State) y daño por frío bajo ~7 °C (regla general de Clemson). No se verificó con fuente argentina la zona de rusticidad de Buenos Aires; se puso false por criterio conservador.
   - https://plants.ces.ncsu.edu/plants/dypsis-lutescens/
   - https://hgic.clemson.edu/factsheet/indoor-palms/
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 0 h de sol directo, no tolera sol de tarde, sensibilidad al calor alta. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Nombre: ASPCA la lista como Dypsis lutescens; NC State y Clemson usan Chrysalidocarpus lutescens.
 - [ ] **fuentes en conflicto**: Toxicidad: ASPCA y las etiquetas de NC State la dan como no tóxica para gatos y perros, pero la sección de toxicidad de NC State menciona glucósidos cianogénicos en hojas y tallos con severidad baja (náuseas y vómitos, sin aclarar si aplica a mascotas). Se dejó 'segura' con confianza media.
 - [ ] **fuentes en conflicto**: Sol: NC State dice que al exterior tolera pleno sol aunque prefiere media sombra; como planta de interior las dos fuentes piden luz indirecta, por eso sol_directo quedó en false.
@@ -378,6 +396,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
 - [ ] **humedad**: NC State (baja a media, tolera aire seco) vs Clemson (alta a moderada, adaptable). Se puso 'media'.
   - https://plants.ces.ncsu.edu/plants/chamaedorea-elegans/
   - https://hgic.clemson.edu/factsheet/indoor-palms/
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 0 h de sol directo, no tolera sol de tarde, sensibilidad al calor media. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Humedad: NC State dice humedad baja a media y que tolera el aire seco; Clemson dice que prefiere humedad alta a moderada pero es adaptable. Se tomó 'media'.
 - [ ] **fuentes en conflicto**: Riego: NC State indica dejar secar apenas entre riegos; la regla general de Clemson para palmeras dice no dejar secar la tierra del todo. Se tomó regar al secarse la superficie.
 - [ ] **fuentes en conflicto**: NC State advierte que el jugo de los frutos puede irritar la piel de las personas; no afecta la clasificación para mascotas (no peligrosa según NC State y ASPCA).
@@ -387,6 +406,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
 - [ ] **gravedad**: NC State: baja; artículo ASPCA 2019: moderada (género Dracaena). Se dejó 'moderada'.
   - https://plants.ces.ncsu.edu/plants/dracaena-fragrans/
   - https://www.aspca.org/news/houseplant-safe-your-pets
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 0 h de sol directo, no tolera sol de tarde, sensibilidad al calor media. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Gravedad: NC State la clasifica como severidad baja; un artículo de ASPCA (2019) describe a las Dracaena como moderadamente tóxicas, con cuadros más serios en ingestas grandes. Se dejó 'moderada'.
 - [ ] **fuentes en conflicto**: Riego: NC State dice mantener la tierra húmeda en época de crecimiento; Clemson, dejar secar la superficie entre riegos. Se usó la regla de Clemson, más segura contra la pudrición.
 
@@ -400,6 +420,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
 - [ ] **humedad / sustrato**: La segunda fuente (RHS) es una guía del género Peperomia, no específica de P. obtusifolia; además difiere de NC State en humedad. Confianza media.
   - https://www.rhs.org.uk/plants/peperomia/how-to-grow-peperomia
   - https://plants.ces.ncsu.edu/plants/peperomia-obtusifolia/
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 0 h de sol directo, no tolera sol de tarde, sensibilidad al calor media. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Humedad: NC State indica humedad relativa media a baja; la guía de RHS (del género) dice que se adaptan al aire de casa pero prefieren ambientes húmedos. Se eligió "media".
 - [ ] **fuentes en conflicto**: Sustrato: la receta detallada viene de la guía de RHS, que es del género Peperomia y no específica de P. obtusifolia; NC State solo pide buen drenaje.
 
@@ -413,6 +434,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
   - https://www.rhs.org.uk/plants/13015/pilea-peperomioides/details
   - https://plants.ces.ncsu.edu/plants/pilea-peperomioides/
   - https://extension.psu.edu/pilea-as-a-houseplant
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 0 h de sol directo, no tolera sol de tarde, sensibilidad al calor media. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Humedad: la guía de cultivo de RHS dice que tolera el aire seco normal de casa; la ficha de RHS de la especie dice que necesita humedad alta; NC State dice moderada a alta pero tolera la de casa; Penn State habla de ambiente cálido y húmedo. Se eligió "media".
 - [ ] **fuentes en conflicto**: Toxicidad: no encontré ficha propia de Pilea peperomioides en la base de plantas de ASPCA; ASPCA la nombra como no tóxica en una nota de 2021 sobre suculentas, y NC State dice que es segura para mascotas sin dar más detalle. No se usó la ficha de otras especies de Pilea.
 
@@ -422,6 +444,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
   - https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/
   - https://plants.ces.ncsu.edu/plants/epipremnum-aureum/
   - https://www.aspca.org/news/houseplant-safe-your-pets
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 0 h de sol directo, no tolera sol de tarde, sensibilidad al calor media. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Gravedad: ASPCA describe el riesgo de las plantas con oxalatos como bajo y sin riesgo de vida; NC State la clasifica como severidad media (para personas). Se dejó 'moderada' por ser el criterio más conservador.
 - [ ] **fuentes en conflicto**: Humedad: Wisconsin dice que prefiere humedad alta; NC State solo sugiere humidificador o bandeja con piedras. Se dejó 'media'.
 
@@ -476,6 +499,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
 
 ## violeta-africana
 
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 0 h de sol directo, no tolera sol de tarde, sensibilidad al calor alta. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Humedad: el texto de NC State dice que no tolera el aire seco, pero sus etiquetas incluyen 'tolerante al aire seco'; RHS coincide con que no le gusta el aire seco. Se tomó 'alta'.
 - [ ] **fuentes en conflicto**: Luz: los atributos de NC State listan 'sombra profunda' y 'sombra parcial', mientras su texto y RHS piden luz brillante filtrada. Se tomó 'media'.
 - [ ] **fuentes en conflicto**: Riego de invierno: ninguna fuente da una pauta distinta para invierno.
@@ -492,6 +516,7 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
 - [ ] **sustrato**: Solo NC State describe el sustrato; no pude abrir la ficha de UF/IFAS (EP480).
   - https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/
 - [ ] **humedad**: Confianza baja.
+- [ ] **horas de sol directo, sol de tarde y sensibilidad al calor**: Estimación propia sin fuente (se derivó de los datos de luz ya relevados): 0 h de sol directo, no tolera sol de tarde, sensibilidad al calor media. Verificar y cargar en src/data/plantas/luz-verificada.json.
 - [ ] **fuentes en conflicto**: Toxicidad: no encontré ficha propia de la zamioculca en la lista de plantas de ASPCA (la URL /zz-plant no devolvió datos). ASPCA sí la nombra (Zamioculcas spp.) en un artículo sobre plantas con oxalatos de calcio insolubles, y NC State la marca con toxicidad media para gatos y perros. Por eso figura como tóxica pero con confianza media.
 - [ ] **fuentes en conflicto**: Gravedad: el artículo de ASPCA habla de gravedad baja para el grupo; NC State dice media. Se dejó 'moderada' (más conservador).
 - [ ] **fuentes en conflicto**: Frecuencia de riego: Iowa State habla de cada 7 a 14 días; NC State, hasta dos veces por mes en verano y una en invierno. Se usó la regla de dejar secar.

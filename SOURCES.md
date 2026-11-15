@@ -12,7 +12,7 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 
 | Contenido | Total | Alta | Media | Baja |
 | --- | --- | --- | --- | --- |
-| Lecciones | 15 | 11 | 4 | 0 |
+| Lecciones | 12 | 9 | 3 | 0 |
 | Plantas (cuidados) | 25 | 12 | 13 | 0 |
 | Plantas (toxicidad) | 25 | 16 | 9 | 0 |
 | Advertencias graves | 6 | 5 | 1 | 0 |
@@ -23,14 +23,11 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 | Lección | Título | Confianza | Fuentes |
 | --- | --- | --- | --- |
 | basico-1 | Qué necesita una planta | alta | 6 |
-| basico-2 | Planta feliz, planta que sufre | alta | 5 |
-| basico-3 | Por qué adentro es distinto | alta | 7 |
+| basico-3 | Planta feliz, planta que sufre | alta | 5 |
+| basico-4 | Por qué adentro es distinto | alta | 7 |
 | luz-1 | Tipos de luz | media | 6 |
 | luz-2 | El mapa del sol en tu casa | media | 7 |
-| luz-3 | Señales de poca o mucha luz | alta | 7 |
-| macetas-1 | Macetas y drenaje | media | 6 |
-| macetas-2 | El sustrato | alta | 6 |
-| macetas-3 | Trasplante | alta | 5 |
+| luz-4 | Señales de poca o mucha luz | alta | 7 |
 | mascotas-1 | Por qué algunas plantas hacen mal | alta | 10 |
 | mascotas-2 | Qué hacer si mordió una planta | alta | 7 |
 | mascotas-3 | Organizar el espacio | media | 11 |
@@ -67,7 +64,7 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 | Violeta africana (*Streptocarpus ionanthus (sin. Saintpaulia ionantha)*) | alta | segura / segura | alta | 3 |
 | Zamioculca (*Zamioculcas zamiifolia*) | media | toxica / toxica | media | 3 |
 
-## Fuentes por organización (157 en total)
+## Fuentes por organización (149 en total)
 
 ### ASPCA
 
@@ -295,7 +292,7 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 
 - [Beautiful winter houseplants and care tips](https://www.rhs.org.uk/plants/types/houseplants/winter-interest-houseplants-care) · consultada el 2026-11-14
   - Qué se tomó: La calefacción seca el aire; en invierno hay menos luz, crecen menos y necesitan menos agua; conviene sacar las plantas de los rincones oscuros en invierno.
-  - Usada en: lección basico-1, lección basico-3, lección luz-3
+  - Usada en: lección basico-1, lección basico-4, lección luz-4
 - [Care tips for light-loving houseplants (RHS Urban Show 2024)](https://www.rhs.org.uk/shows-events/rhs-urban-show/houseplant-profiles/houseplants-for-sunlight) · consultada el 2026-11-14
   - Qué se tomó: Aloe vera y jade: luz brillante indirecta, dejar secar del todo, humedad normal de casa sin rociar, temperaturas; aloe dañina si se come (personas y mascotas)
   - Usada en: planta aloe-vera (cuidados), planta jade (cuidados)
@@ -311,12 +308,9 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Haworthiopsis attenuata (zebra plant)](https://www.rhs.org.uk/plants/504241/haworthiopsis-attenuata/details) · consultada el 2026-11-14
   - Qué se tomó: Sinónimo Haworthia attenuata, mucha luz protegida del sol fuerte, sustrato para cactus, humedad baja, casi seca en invierno, rusticidad H2
   - Usada en: planta haworthia (cuidados)
-- [How to grow cacti and succulents](https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide) · consultada el 2026-11-14
-  - Qué se tomó: Sustrato para cactus muy drenante con arena gruesa o gravilla mezclada (2:1, hasta 30 %); maceta demasiado grande queda húmeda y pudre; trasplante en primavera.
-  - Usada en: lección macetas-2
 - [How to grow houseplants](https://www.rhs.org.uk/plants/types/houseplants/growing-guide) · consultada el 2026-11-14
   - Qué se tomó: Las raíces necesitan aire y se ahogan si la maceta queda en agua; maceta siempre con agujero; calefacción central baja la humedad; lejos de radiadores; exceso de riego = hojas amarillas que caen o colapso; falta = bordes marrones; época de crecimiento primavera-otoño. / Regar cuando la superficie está seca y no por rutina; maceta seca pesa menos; regar a fondo hasta que salga por el agujero; vaciar platos; la calefacción central seca las macetas más rápido; marchitez con sustrato mojado indica daño de raíces; maceta siempre con agujero; trasplante cada 2-3 años en primavera; maceta 5-10 cm más ancha.
-  - Usada en: lección basico-1, lección basico-2, lección macetas-3, lección riego-1, lección riego-2, lección riego-3
+  - Usada en: lección basico-1, lección basico-3, lección riego-1, lección riego-2, lección riego-3
 - [How to grow peperomia](https://www.rhs.org.uk/plants/peperomia/how-to-grow-peperomia) · consultada el 2026-11-14
   - Qué se tomó: Género: luz brillante indirecta, dejar secar en parte entre riegos, menos en invierno, se adapta al aire de casa pero prefiere humedad, sustrato suelto, 18-30 °C
   - Usada en: planta peperomia (cuidados)
@@ -325,7 +319,7 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Usada en: planta pilea (cuidados)
 - [How to help a poorly houseplant](https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant) · consultada el 2026-11-14
   - Qué se tomó: Síntomas por causa: poca luz (crecimiento débil y alargado, hojas pálidas, caída de hojas bajas, variegadas que se vuelven verdes), exceso de sol (manchas marrones, aspecto desteñido), falta de agua (marchitez, bordes crocantes, amarillean primero las hojas viejas), exceso de agua (también marchita; hojas viejas y nuevas amarillean juntas), aire seco; las hojas viejas se secan naturalmente.
-  - Usada en: lección basico-2, lección luz-3
+  - Usada en: lección basico-3, lección luz-4
 - [Monthly gardening tips: December – greenhouse, conservatory and houseplants](https://www.rhs.org.uk/advice/in-month/december/greenhouse,-conservatory-and-houseplants) · consultada el 2026-11-14
   - Qué se tomó: Reducir riego y fertilización de plantas de interior en invierno (diciembre del hemisferio norte, equivalente a junio en Buenos Aires).
   - Usada en: lección riego-3
@@ -418,7 +412,7 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Usada en: planta cinta (cuidados), planta lengua-de-suegra (cuidados)
 - [Houseplant Care](https://hort.extension.wisc.edu/articles/houseplant-care/) · consultada el 2026-11-14
   - Qué se tomó: Exceso de agua asfixia las raíces y amarillea el follaje; falta de agua marchita; poca luz = hojas descoloridas y poco crecimiento; mucha luz = quemaduras y aspecto lavado. / Exceso de agua asfixia raíces, hojas amarillas y marchitez; dedo a 1 pulgada (2,5 cm); macetas chicas y de barro se secan antes; regar hasta que escurra y vaciar plato a los 10-20 min; riego desde el plato 20-30 min para plantas que no quieren hojas mojadas; menos agua en invierno; mezclas sin suelo; maceta demasiado grande favorece pudrición; señales de trasplante; un tamaño más; trasplantar en primavera.
-  - Usada en: lección basico-2, lección macetas-2, lección macetas-3, lección riego-1, lección riego-2, lección riego-3
+  - Usada en: lección basico-3, lección riego-1, lección riego-2, lección riego-3
 - [Jade Plant, Crassula ovata](https://hort.extension.wisc.edu/articles/jade-plant-crassula-ovata/) · consultada el 2026-11-14
   - Qué se tomó: 4 o más horas de sol directo, riego generoso en crecimiento dejando secar y restringido en invierno, mezcla para suculentas, tolera amplio rango de humedad, puede sobrevivir heladas leves
   - Usada en: planta jade (cuidados)
@@ -431,36 +425,6 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Swiss-Cheese Plant, Monstera deliciosa](https://hort.extension.wisc.edu/articles/monstera-deliciosa/) · consultada el 2026-11-14
   - Qué se tomó: Riego, humedad, no crece bajo 10 °C, la helada la mata; sol directo en invierno
   - Usada en: planta monstera (cuidados)
-
-### Clemson Cooperative Extension (HGIC)
-
-- [Indoor Plants – Soil Mixes](https://hgic.clemson.edu/factsheet/indoor-plants-soil-mixes/) · consultada el 2026-11-14
-  - Qué se tomó: Tierra de jardín no recomendada en contenedores; requisitos de una buena mezcla (sostén, nutrientes, agua y aire, libre de plagas); fibra de coco como alternativa a la turba; recetas para plantas de follaje a base de turba con perlita, arena o corteza.
-  - Usada en: lección macetas-2
-- [Indoor Plants – Transplanting & Repotting](https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/) · consultada el 2026-11-14
-  - Qué se tomó: Señales (raíces en masa, saliendo por el agujero, se seca rápido); maceta 1-2 pulgadas más ancha; primavera y verano en crecimiento activo; no trasplantar plantas débiles, en reposo o empezando a florecer; frecuencia (anual las rápidas, 2-3 años las lentas); capa de piedras frena el paso del agua; pasos y riego final.
-  - Usada en: lección macetas-1, lección macetas-3
-- [Indoor Plants – Watering](https://hgic.clemson.edu/factsheet/indoor-plants-watering/) · consultada el 2026-11-14
-  - Qué se tomó: Exceso de riego como causa principal de muerte en maceta; raíces sin oxígeno; marchitez también por raíces dañadas; test del dedo hasta la primera articulación; peso y color de la tierra; regar hasta que escurra y vaciar el plato; inmersión para rehidratar tierra muy seca; barro se seca más rápido; suculentas necesitan menos riego.
-  - Usada en: lección riego-1, lección riego-2, lección riego-3
-- [Indoor Plants: Cleaning, Fertilizing, Containers & Light Requirements](https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/) · consultada el 2026-11-14
-  - Qué se tomó: Interior bien iluminado: a menudo menos de 100 ft-c; exterior en día de sol: puede superar 10.000 ft-c; demasiada luz directa decolora o quema; los cambios de intensidad de luz deben ser graduales.
-  - Usada en: lección basico-3, lección luz-3
-
-### Penn State Extension
-
-- [Aloe, a Hardy Houseplant](https://extension.psu.edu/aloe-a-hardy-houseplant) · consultada el 2026-11-14
-  - Qué se tomó: Sol pleno a parcial, regar a fondo cuando la superficie está seca y menos en otoño-invierno, mezcla gruesa y drenante, no tolera heladas
-  - Usada en: planta aloe-vera (cuidados)
-- [Humidity and Houseplants](https://extension.psu.edu/humidity-and-houseplants) · consultada el 2026-11-14
-  - Qué se tomó: La calefacción baja la humedad interior (menos de 30 %); rociar sube la humedad solo unos minutos; bandeja con piedras de efecto mínimo; agrupar y humidificador ayudan.
-  - Usada en: lección riego-3
-- [Pilea as a Houseplant](https://extension.psu.edu/pilea-as-a-houseplant) · consultada el 2026-11-14
-  - Qué se tomó: Sin sol directo, riego equilibrado, sustrato drenante, ambiente cálido y húmedo, noches arriba de 13 °C, 20-30 cm
-  - Usada en: planta pilea (cuidados)
-- [Repotting Houseplants](https://extension.psu.edu/repotting-houseplants) · consultada el 2026-11-14
-  - Qué se tomó: Señales de trasplante; maceta apenas más grande; primavera; no usar tierra de jardín; agujero de drenaje necesario; cachepot (funda) vaciando el agua; barro poroso (ideal suculentas) vs plástico (plantas que quieren humedad); pasos del trasplante.
-  - Usada en: lección macetas-1, lección macetas-3
 
 ### VCA Animal Hospitals
 
@@ -481,10 +445,10 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 
 - [How to find the best light for indoor plants](https://www.abc.net.au/news/2020-10-23/how-to-find-the-best-light-for-indoor-plants/12769762) · consultada el 2026-11-14
   - Qué se tomó: Fuente del hemisferio sur: ventana norte = el nivel más alto de luz, con sol directo; oeste = sol de tarde, más fuerte; este = mañana; luz directa / indirecta / poca; prueba de la sombra de la mano; la planta se estira con poca luz; quemadura = parches desteñidos; aclimatar en 1-2 semanas.
-  - Usada en: lección luz-1, lección luz-2, lección luz-3
+  - Usada en: lección luz-1, lección luz-2, lección luz-4
 - [Keep indoor plants healthy with the right amount of sunlight](https://www.abc.net.au/news/2023-03-17/gardening-australia-houseplants/102102822) · consultada el 2026-11-14
   - Qué se tomó: Poca luz no es nada de luz; etiolación, hojas más chicas, pérdida de color, inclinación hacia la ventana; quemadura por exceso; la posición del sol cambia con la hora y la estación.
-  - Usada en: lección luz-1, lección luz-3
+  - Usada en: lección luz-1, lección luz-4
 - [The Great Indoors: Location and Light](https://www.abc.net.au/gardening/how-to/the-great-indoors-location-and-light/12804344) · consultada el 2026-11-14
   - Qué se tomó: Luz directa es la que entra por una ventana al norte (hemisferio sur); luz indirecta para la mayoría; cuanto más nítida la sombra, más luz; con poca luz los tallos se alargan.
   - Usada en: lección luz-1
@@ -501,11 +465,32 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: No todas las plantas venenosas tienen mal gusto; tipos de signos (digestivos, boca, corazón, nerviosos, riñón/hígado); adelfa toda la planta fresca o seca; ricino toda la planta, sobre todo semillas; algunos signos tardan días.
   - Usada en: lección mascotas-1, advertencia adelfa, advertencia ricino
 
+### Penn State Extension
+
+- [Aloe, a Hardy Houseplant](https://extension.psu.edu/aloe-a-hardy-houseplant) · consultada el 2026-11-14
+  - Qué se tomó: Sol pleno a parcial, regar a fondo cuando la superficie está seca y menos en otoño-invierno, mezcla gruesa y drenante, no tolera heladas
+  - Usada en: planta aloe-vera (cuidados)
+- [Humidity and Houseplants](https://extension.psu.edu/humidity-and-houseplants) · consultada el 2026-11-14
+  - Qué se tomó: La calefacción baja la humedad interior (menos de 30 %); rociar sube la humedad solo unos minutos; bandeja con piedras de efecto mínimo; agrupar y humidificador ayudan.
+  - Usada en: lección riego-3
+- [Pilea as a Houseplant](https://extension.psu.edu/pilea-as-a-houseplant) · consultada el 2026-11-14
+  - Qué se tomó: Sin sol directo, riego equilibrado, sustrato drenante, ambiente cálido y húmedo, noches arriba de 13 °C, 20-30 cm
+  - Usada en: planta pilea (cuidados)
+
+### Clemson Cooperative Extension (HGIC)
+
+- [Indoor Plants – Watering](https://hgic.clemson.edu/factsheet/indoor-plants-watering/) · consultada el 2026-11-14
+  - Qué se tomó: Exceso de riego como causa principal de muerte en maceta; raíces sin oxígeno; marchitez también por raíces dañadas; test del dedo hasta la primera articulación; peso y color de la tierra; regar hasta que escurra y vaciar el plato; inmersión para rehidratar tierra muy seca; barro se seca más rápido; suculentas necesitan menos riego.
+  - Usada en: lección riego-1, lección riego-2, lección riego-3
+- [Indoor Plants: Cleaning, Fertilizing, Containers & Light Requirements](https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/) · consultada el 2026-11-14
+  - Qué se tomó: Interior bien iluminado: a menudo menos de 100 ft-c; exterior en día de sol: puede superar 10.000 ft-c; demasiada luz directa decolora o quema; los cambios de intensidad de luz deben ser graduales.
+  - Usada en: lección basico-4, lección luz-4
+
 ### Iowa State University Extension
 
 - [How to Care for Houseplants](https://yardandgarden.extension.iastate.edu/how-to/how-care-houseplants) · consultada el 2026-11-14
   - Qué se tomó: Aun el interior mejor iluminado tiene mucha menos luz que cualquier lugar exterior; la luz cae rápido al alejarse de la ventana; muchas plantas de interior son tropicales de sotobosque; aire muy seco en invierno con calefacción; síntomas de poca y mucha luz.
-  - Usada en: lección basico-2, lección basico-3, lección luz-3
+  - Usada en: lección basico-3, lección basico-4, lección luz-4
 - [I recently purchased a ZZ plant. How do I care for it?](https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it) · consultada el 2026-11-14
   - Qué se tomó: Luz, riego dejando secar; venenosa para personas y mascotas
   - Usada en: planta zamioculca (cuidados), planta zamioculca (toxicidad)
@@ -514,7 +499,7 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 
 - [Extension Gardener Handbook, capítulo 18: Plants Grown in Containers](https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers) · consultada el 2026-11-14
   - Qué se tomó: Tabla: oficina ~50 fc, día nublado ~1000 fc, pleno sol ~10.000 fc; categorías de luz por distancia a la ventana; síntomas de poca luz (hojas chicas, pálidas, entrenudos largos) y de exceso (quemadura); aclimatación gradual; el riego excesivo deja a las raíces sin oxígeno; las macetas se secan más rápido que el suelo; origen tropical de sotobosque; aire interior seco y conductos de calefacción. Se leyeron los primeros 100.000 caracteres. / Síntomas de exceso y falta se superponen; raíces marrones y blandas con exceso; pudrición rara vez se recupera; menos riego en invierno; rociado de efecto breve; por qué no suelo de campo en maceta; función de perlita, corteza, turba, compost (15-40 %), arena; macetas porosas vs no porosas; piedras en el fondo no mejoran el drenaje; doble maceta; tamaños de trasplante.
-  - Usada en: lección basico-3, lección luz-1, lección luz-3, lección macetas-1, lección macetas-2, lección riego-1, lección riego-3
+  - Usada en: lección basico-4, lección luz-1, lección luz-4, lección riego-1, lección riego-3
 - [Extension Gardener Handbook, capítulo 3: Botany](https://content.ces.ncsu.edu/extension-gardener-handbook/3-botany) · consultada el 2026-11-14
   - Qué se tomó: Fotosíntesis (luz + dióxido de carbono + agua -> azúcares y oxígeno, sobre todo en las hojas); funciones de hoja, tallo y raíz; la falta de oxígeno en el suelo limita a las raíces. Se leyeron los primeros 100.000 caracteres.
   - Usada en: lección basico-1
@@ -523,10 +508,10 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 
 - [Boletín Climatológico, Invierno 2024](https://repositorio.smn.gob.ar/bitstream/handle/20.500.12160/2938/0069CL2024.pdf?sequence=1&isAllowed=y) · consultada el 2026-11-14
   - Qué se tomó: El SMN define el invierno como junio, julio y agosto. PDF bajado con WebFetch; el texto se extrajo localmente.
-  - Usada en: lección basico-1, lección basico-3, lección luz-2
+  - Usada en: lección basico-1, lección basico-4, lección luz-2
 - [Boletín Climatológico, Verano 2023-24](https://repositorio.smn.gob.ar/bitstream/handle/20.500.12160/2809/0039CL2024.pdf) · consultada el 2026-11-14
   - Qué se tomó: El SMN define el verano como diciembre, enero y febrero. PDF bajado con WebFetch; el texto se extrajo localmente.
-  - Usada en: lección basico-3
+  - Usada en: lección basico-4
 
 ### UF/IFAS Gardening Solutions
 
@@ -535,16 +520,7 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Usada en: planta echeveria (cuidados)
 - [Light for Houseplants](https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/light-for-houseplants/) · consultada el 2026-11-14
   - Qué se tomó: La luz convierte CO2 y agua en azúcares; categorías baja/media/alta/sol directo (son generalizaciones, no términos científicos); el ojo se adapta y no sirve para juzgar la luz; sol de invierno afuera >4000 ftc vs ventana sin sol <400 ftc vs oficina ~40 ftc.
-  - Usada en: lección basico-1, lección basico-3, lección luz-1
-
-### University of Illinois Extension
-
-- [Container Drainage Options](https://extension.illinois.edu/container-gardens/container-drainage-options) · consultada el 2026-11-14
-  - Qué se tomó: Toda maceta necesita agujero (sale agua, entra aire); la capa de grava para drenar es un mito; doble maceta (funda) sin dejar agua estancada; vaciar platos; de la pudrición rara vez se recuperan.
-  - Usada en: lección macetas-1
-- [Houseplants: Get Started](https://extension.illinois.edu/houseplants/get-started) · consultada el 2026-11-14
-  - Qué se tomó: No sobredimensionar la maceta (la tierra queda mojada demasiado tiempo); 1-2 pulgadas más de diámetro; tierra de jardín sola no drena bien en maceta y puede traer plagas; mezclas sin suelo con turba, perlita y corteza.
-  - Usada en: lección macetas-1, lección macetas-2, lección macetas-3
+  - Usada en: lección basico-1, lección basico-4, lección luz-1
 
 ### ABC (Australia)
 
@@ -576,12 +552,6 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: El pasto para gatos es trigo, cebada, avena o centeno sembrado en interior; puede desviar al gato de otras plantas; plantas tóxicas en estantes altos o macetas colgantes.
   - Usada en: lección mascotas-3
 
-### INTA (argentina.gob.ar)
-
-- [Nota sobre sustratos del Instituto de Floricultura del INTA](https://www.argentina.gob.ar/node/402876) · consultada el 2026-11-14
-  - Qué se tomó: Definición de sustrato como material distinto del suelo; debe retener agua y nutrientes, airear y anclar; poros chicos retienen agua y grandes drenan y airean; componentes: turba, corteza compostada, compost, perlita, vermiculita, piedra pómez.
-  - Usada en: lección macetas-2
-
 ### International Cat Care
 
 - [Poisonous Plants](https://icatcare.org/articles/poisonous-plants) · consultada el 2026-11-14
@@ -605,12 +575,6 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Solar orientation: what is ideal for different rooms](https://www.level.org.nz/passive-design/location-orientation-and-layout/room-layout/) · consultada el 2026-11-14
   - Qué se tomó: Hemisferio sur: ambientes al norte reciben sol la mayor parte del día todo el año; este = sol temprano de mañana; oeste = sol bajo de tarde, sobrecalentamiento y encandilamiento; sur = poca o ninguna ganancia solar y menos luz.
   - Usada en: lección luz-2
-
-### Mississippi State University Extension
-
-- [Gardening Myth Busters](https://extension.msstate.edu/blogs/extension-for-real-life/gardening-myth-busters) · consultada el 2026-11-14
-  - Qué se tomó: La grava en el fondo de la maceta es un mito; mejor agujeros y buen sustrato.
-  - Usada en: lección macetas-1
 
 ### Museums Victoria (Australia)
 
@@ -640,7 +604,7 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 
 - [Houseplants: The Ins and Outs of Light and Water](https://www.ucanr.edu/blog/over-fence-alameda-county/article/houseplants-ins-and-outs-light-and-water) · consultada el 2026-11-14
   - Qué se tomó: Definición de luz brillante indirecta; la luz interior es mucho menor que la exterior aun a la sombra; sol de mañana más fresco, sol de tarde más intenso y caluroso; el sol bajo de invierno entra más adentro; marchitez puede ser exceso o falta de agua; drenaje devuelve aire a las raíces; aclimatar en 1-2 semanas al sacar afuera.
-  - Usada en: lección basico-2, lección luz-1, lección luz-2
+  - Usada en: lección basico-3, lección luz-1, lección luz-2
 
 ### Utah State University Extension
 

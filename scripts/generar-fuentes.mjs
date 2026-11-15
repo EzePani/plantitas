@@ -88,6 +88,7 @@ for (const p of plantas) {
   for (const e of ['gato', 'perro']) if (p.mascotas[`toxicidad_${e}`] === 'no_verificada') agregar(p.id, `toxicidad_${e}`, 'Sin fuente veterinaria: figura como "no verificada" y la app la trata como no apta.')
   if (p.mascotas.confianza === 'baja') agregar(p.id, 'toxicidad', 'Confianza baja en el dato de mascotas.')
   for (const k of ['luz', 'riego', 'humedad', 'sustrato']) if (p[k].confianza === 'baja') agregar(p.id, k, 'Confianza baja.')
+  if (p.luz.confianza_sol === 'baja') agregar(p.id, 'horas de sol directo, sol de tarde y sensibilidad al calor', `Estimación propia sin fuente (se derivó de los datos de luz ya relevados): ${p.horas_sol_directo} h de sol directo, ${p.tolera_sol_tarde ? 'tolera' : 'no tolera'} sol de tarde, sensibilidad al calor ${p.sensibilidad_calor}. Verificar y cargar en src/data/plantas/luz-verificada.json.`)
   for (const d of p.discrepancias) agregar(p.id, 'fuentes en conflicto', d)
 }
 const vistos = new Set()
