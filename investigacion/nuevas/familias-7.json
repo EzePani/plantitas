@@ -1,0 +1,216 @@
+[
+  {
+    "id": "familias-7",
+    "unidad": "familias",
+    "titulo": "Plantas de flor y plantas de hojas",
+    "gancho": "¿Por qué mi potus nunca me da flores?",
+    "tarjetas": [
+      {
+        "tipo": "por_que",
+        "imagen": "planta-follaje",
+        "texto": "El potus, la monstera, la zamioculca y la lengua de suegra se cultivan por **las hojas**, no por las flores. En casa **casi nunca florecen**: el potus no florece en cultivo y las otras tres lo hacen muy rara vez."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-flor",
+        "texto": "Hay plantas de hojas y plantas de flor, y a veces **en la misma familia**: entre las begonias, las Rex se cultivan por sus hojas de colores y otras por sus flores. Las de flor suelen **pedir más cuidado** adentro de casa que las de hojas."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "vivero",
+        "texto": "Al comprar, **con decir \"begonia\" no alcanza**: preguntá de qué tipo es, porque algunas son de hojas y otras de flor. En una de flor, fijate que tenga **muchos pimpollos** y leé la etiqueta para saber dónde ponerla."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "luz-indirecta",
+        "texto": "Para florecer necesitan **mucha luz**: la violeta africana pide unas 12 horas de luz por día y, si falta, un foco ayuda en invierno. Y **abono en la época de crecimiento**: uno para orquídeas en el anturio y la phalaenopsis, y uno alto en potasio en las begonias de raíz fibrosa y de caña."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "estaciones",
+        "texto": "Las guías europeas hablan de abonar de abril a octubre; en Buenos Aires eso se traduce en **de octubre a abril**, de primavera a otoño. En invierno, de junio a agosto, la phalaenopsis se abona **poco o nada**, y siempre con la dosis de la etiqueta."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "tijera-poda",
+        "texto": "La floración dura **varias semanas** en el anturio, **varios meses** en el espatifilo y la phalaenopsis, y puede llegar a **muchos meses** en la violeta africana. Cuando se marchitan, **cortá la flor seca en la base**, con guantes en anturio y espatifilo, porque la savia irrita la piel."
+      }
+    ],
+    "para_llevarte": [
+      "Potus, monstera, zamioculca y lengua de suegra son **de hojas**: no esperes flores.",
+      "Las de flor piden **mucha luz** y **abono en primavera y verano**.",
+      "Cuando la flor se seca, **cortala en la base** y seguí cuidándola."
+    ],
+    "quiz": [
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Si cuidás bien un potus, tarde o temprano va a florecer en tu casa.",
+        "correcta": false,
+        "explicacion": "El potus de interior **no florece**: en casa se mantiene en una etapa joven. **Lo tuyo no es falta de cuidado**: se cultiva por las hojas."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Estás en el vivero eligiendo una planta de flor. ¿Cuál conviene llevar?",
+        "opciones": [
+          "La que tiene todas las flores ya abiertas",
+          "La que tiene muchos pimpollos por abrirse",
+          "La más grande del estante"
+        ],
+        "correcta": 1,
+        "explicacion": "La RHS recomienda mirar que **todavía haya muchos pimpollos**, así disfrutás las flores más tiempo."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada planta con lo que se cultiva en ella.",
+        "pares": [
+          {
+            "a": "Potus",
+            "b": "Las hojas"
+          },
+          {
+            "a": "Begonia Rex",
+            "b": "Hojas de colores"
+          },
+          {
+            "a": "Anturio",
+            "b": "Flores de varias semanas"
+          },
+          {
+            "a": "Violeta africana",
+            "b": "Flores durante muchos meses"
+          }
+        ],
+        "explicacion": "**Saber para qué se cultiva** una planta te dice **qué esperar** de ella."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Tenés un gato curioso. ¿Cuál de estas plantas con flor figura como no tóxica para gatos?",
+        "opciones": [
+          "Espatifilo",
+          "Anturio",
+          "Begonia",
+          "Violeta africana"
+        ],
+        "correcta": 3,
+        "explicacion": "La ASPCA da la violeta africana como **no tóxica**. El espatifilo y el anturio **irritan la boca**, la begonia y el kalanchoe también son tóxicos, y los **lirios verdaderos (Lilium) son peligrosos para los gatos**."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Cuándo abonás una planta de flor en Buenos Aires?",
+        "opciones": [
+          "Todo el año, sin parar",
+          "En invierno, para que florezca",
+          "De octubre a abril, y poco o nada en invierno"
+        ],
+        "correcta": 2,
+        "explicacion": "Se abona **cuando crece**, de primavera a otoño, y siempre con **la dosis de la etiqueta**. En invierno se baja o se corta."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "How to grow begonias (guía de begonias)",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/begonias",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to choose healthy plants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/how-to-choose-healthy-plants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow African violets",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/african-violets/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow anthuriums",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow peace lilies",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/peace-lilies/how-to-grow-peace-lilies",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow Phalaenopsis (moth orchids)",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Dependable & Durable Houseplants",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/dependable-durable-houseplants/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Pothos, Epipremnum aureum",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Swiss-Cheese Plant, Monstera deliciosa",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/monstera-deliciosa/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Dracaena trifasciata (Snake Plant)",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Zamioculcas zamiifolia (ZZ Plant)",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Peace Lily - Toxic and Non-Toxic Plants",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Flamingo Flower - Toxic and Non-Toxic Plants",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/flamingo-flower",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Begonia - Toxic and Non-Toxic Plants",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/begonia",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "African Violet - Toxic and Non-Toxic Plants",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/african-violet",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Easter Lily - Toxic and Non-Toxic Plants",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/easter-lily",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Kalanchoe - Toxic and Non-Toxic Plants",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/kalanchoe",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "alta",
+    "xp": 20
+  }
+]

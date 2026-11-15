@@ -1,0 +1,159 @@
+{
+  "fuentes": [
+    {
+      "org": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Monstera trepa por árboles buscando luz; raíces del tallo; al trepar da hojas más grandes con más agujeros",
+      "usado_en": "tarjeta 1,2,5, quiz 3",
+      "titulo": "How to grow Swiss cheese plants"
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/hoya/growing-guide",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Hoya es trepadora o colgante; colgar en maceta alta o trepar con aro/cañas",
+      "usado_en": "tarjeta 4, quiz 2,4",
+      "titulo": "How to grow hoyas"
+    },
+    {
+      "org": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/blogs/ilriverhort/2016-09-16-how-plants-climb",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Trepadoras que se agarran vs no; enroscadas, zarcillos (uva, pasionaria), jazmín que se apoya",
+      "usado_en": "tarjeta 3, quiz 1,4",
+      "titulo": "How plants climb"
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Potus: raíces aéreas adhesivas; se usa colgante o guiado vertical",
+      "usado_en": "tarjeta 2,4",
+      "titulo": "Pothos, Epipremnum aureum"
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "url": "https://hort.extension.wisc.edu/articles/monstera-deliciosa/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Monstera: raíces aéreas que se agarran; sin soporte los tallos pueden quebrarse; poca luz sin agujeros",
+      "usado_en": "tarjeta 2,5, quiz 3",
+      "titulo": "Swiss-Cheese Plant, Monstera deliciosa"
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Potus trepa con raíces aéreas; en maceta conserva hoja joven, con soporte y luz da hojas grandes maduras",
+      "usado_en": "tarjeta 2,5",
+      "titulo": "Epipremnum aureum (Pothos)"
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "url": "https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Filodendro hoja de corazón: raíces adventicias, trepa o cuelga; tóxico para gatos y perros",
+      "usado_en": "tarjeta 2,4",
+      "titulo": "Philodendron hederaceum"
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "url": "https://hgic.clemson.edu/factsheet/philodendron/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Filodendros trepadores: hojas no llegan a tamaño completo si no se guían en vertical varios años",
+      "usado_en": "tarjeta 5",
+      "titulo": "Philodendron"
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/ivy/growing-guide",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Hiedra se ancla con raíces adventicias del tallo; cultivares aptos para maceta",
+      "usado_en": "tarjeta 2",
+      "titulo": "How to grow ivy"
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "url": "https://plants.ces.ncsu.edu/plants/hedera-helix/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Hiedra: raíces adventicias para trepar; usable como planta de interior",
+      "usado_en": "tarjeta 2",
+      "titulo": "Hedera helix (English ivy)"
+    },
+    {
+      "org": "ASPCA",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/pothos",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Potus tóxico para perros y gatos (oxalatos de calcio)",
+      "usado_en": "tarjeta 6, quiz 5",
+      "titulo": "Pothos (Epipremnum aureum)"
+    },
+    {
+      "org": "ASPCA",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/swiss-cheese-plant",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Monstera tóxica para perros y gatos",
+      "usado_en": "tarjeta 6",
+      "titulo": "Swiss Cheese Plant (Monstera deliciosa)"
+    },
+    {
+      "org": "ASPCA",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/heartleaf-philodendron",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Filodendro hoja de corazón tóxico para perros y gatos",
+      "usado_en": "tarjeta 6",
+      "titulo": "Heartleaf Philodendron (Philodendron hederaceum)"
+    },
+    {
+      "org": "ASPCA",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/english-ivy",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Hiedra tóxica para perros, gatos y caballos (saponinas); vómitos, salivación",
+      "usado_en": "tarjeta 6, quiz 5",
+      "titulo": "English Ivy (Hedera helix)"
+    }
+  ],
+  "revisar": [
+    {
+      "id": "hoya",
+      "dato": "toxicidad",
+      "motivo": "No abrí ficha ASPCA de hoya; no se afirma nada de su toxicidad (solo se menciona como colgante o trepadora)",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/hoya/growing-guide"
+      ]
+    },
+    {
+      "id": "tarjeta-5",
+      "dato": "hojas más grandes al subir",
+      "motivo": "RHS (monstera), NC State (potus) y Clemson (filodendro) lo dicen; Wisconsin monstera no lo dice (liga el tamaño a la edad). Se acepta por 3 fuentes",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants",
+        "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+        "https://hgic.clemson.edu/factsheet/philodendron/"
+      ]
+    },
+    {
+      "id": "tarjeta-3",
+      "dato": "zarcillos/enroscado/jazmín",
+      "motivo": "Solo una fuente institucional (Illinois Extension); jazmín figura allí como 'rambler' (se apoya), no se afirma que sea de interior; sin stephanotis (RHS 404)",
+      "fuentes": [
+        "https://extension.illinois.edu/blogs/ilriverhort/2016-09-16-how-plants-climb"
+      ]
+    },
+    {
+      "id": "tarjeta-2",
+      "dato": "hiedra raíces",
+      "motivo": "RHS e NC State coinciden en raíces adventicias; ASPCA hiedra no habla de irritación bucal, por eso la tarjeta 6 solo dice babeo y vómitos",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/ivy/growing-guide"
+      ]
+    }
+  ],
+  "no_pude_abrir": [
+    "https://www.rhs.org.uk/plants/stephanotis/growing-guide (404)",
+    "https://www.rhs.org.uk/plants/types/climbers (abrió pero sin detalle de mecanismos)",
+    "https://www.aspca.org/.../heart-leaf-philodendron (sin ficha; usé heartleaf-philodendron sin guion)",
+    "https://www.aspca.org/.../english-ivy ok; ASPCA hoya no abierta"
+  ],
+  "ilustraciones_deseadas": []
+}

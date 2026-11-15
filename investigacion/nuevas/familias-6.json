@@ -1,0 +1,164 @@
+[
+  {
+    "id": "familias-6",
+    "unidad": "familias",
+    "titulo": "Tutores y soportes",
+    "gancho": "¿Para qué le pongo un palo a mi planta y cómo lo uso sin lastimarla?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "poste-musgo",
+        "texto": "Un tutor es **cualquier soporte que sostiene a la planta**: un poste, una caña, un enrejado o un aro. Sirve para plantas altas, **de tallos débiles** o trepadoras."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "raices-aereas",
+        "texto": "La monstera, el potus y los filodendros trepadores **largan raíces aéreas** que se agarran a los árboles. Un poste cubierto de musgo o fibra de coco **les da dónde agarrarse** y ayuda a sostener plantas que se ponen pesadas arriba."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "poste-musgo",
+        "texto": "Si usás poste de musgo, **mantené el musgo húmedo**: así los tallos echan raíces en él y quedan bien firmes. En la monstera, también conviene **regar el poste** para que las raíces aéreas tomen agua."
+      },
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "nudo",
+        "imagen_bien": "atar-tutor",
+        "texto": "Atá el tallo con algo blando, como hilo suave, velcro o cinta, y **dejalo flojo**, en un ocho que no apriete. **Un atado muy justo daña el tallo** y la planta tiene que poder moverse un poquito."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "enrejado",
+        "texto": "Poné el soporte **temprano, cuando la planta todavía no creció mucho**: más adelante cuesta más y se pueden lastimar los tallos. Clavalo **cerca del tallo pero sin tocar las raíces**."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "estaciones",
+        "texto": "Cuando la planta arranca a crecer, en primavera, **revisá las ataduras de vez en cuando** y sumá una más arriba a medida que el tallo se alarga. Así la punta no se dobla ni se quiebra."
+      }
+    ],
+    "para_llevarte": [
+      "Un tutor **sostiene plantas altas, de tallos débiles o trepadoras**; en la monstera el poste da dónde agarrarse.",
+      "Atá **flojo y con material blando**, y revisá las ataduras de tanto en tanto.",
+      "Ponelo **temprano y cerca del tallo, sin dañar las raíces**; si es de musgo, **mantenelo húmedo**."
+    ],
+    "quiz": [
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Con qué conviene atar el tallo a un tutor?",
+        "opciones": [
+          "Con alambre fino bien apretado",
+          "Con algo blando y flojo, como hilo suave o velcro",
+          "Con cinta adhesiva, vuelta tras vuelta"
+        ],
+        "correcta": 1,
+        "explicacion": "**Un material blando y flojo** no aprieta ni lastima el tallo mientras engrosa. Lo justo es que sostenga sin ahorcar."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Si el tutor es un poste de musgo, conviene mantener el musgo húmedo.",
+        "correcta": true,
+        "explicacion": "Con el musgo húmedo, **los tallos echan raíces en el poste** y quedan bien agarrados. Es la forma de que el poste cumpla su función."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Esta monstera ya está bastante alta y larga raíces en el tallo. ¿Qué tipo de soporte la ayuda?",
+        "imagen": "planta:monstera",
+        "opciones": [
+          "Un poste de musgo para que las raíces aéreas se agarren",
+          "Ninguno: las trepadoras no necesitan nada",
+          "Un aro de alambre bien chiquito"
+        ],
+        "correcta": 0,
+        "explicacion": "La monstera es trepadora y **sus raíces aéreas buscan dónde agarrarse**. Un poste de musgo o fibra de coco se lo da. Ojo: monstera, potus y filodendro son **tóxicos para gatos y perros** según ASPCA, así que ubicalos fuera de su alcance."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada situación con lo que conviene hacer.",
+        "pares": [
+          {
+            "a": "Poner el tutor",
+            "b": "Temprano, antes de que crezca mucho"
+          },
+          {
+            "a": "Clavarlo",
+            "b": "Cerca del tallo, sin tocar las raíces"
+          },
+          {
+            "a": "Atar",
+            "b": "Flojo y con material blando"
+          },
+          {
+            "a": "Cuando el tallo se alarga",
+            "b": "Sumar una atadura más arriba"
+          }
+        ],
+        "explicacion": "Todo busca lo mismo: **sostener sin lastimar** ni raíces ni tallos."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Philodendron: growing guide",
+        "org": "Royal Horticultural Society (RHS)",
+        "url": "https://www.rhs.org.uk/plants/philodendron/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Epipremnum: growing guide",
+        "org": "Royal Horticultural Society (RHS)",
+        "url": "https://www.rhs.org.uk/plants/epipremnum/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow Swiss cheese plants",
+        "org": "Royal Horticultural Society (RHS)",
+        "url": "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Swiss-Cheese Plant, Monstera deliciosa",
+        "org": "University of Wisconsin-Madison Extension (Horticulture)",
+        "url": "https://hort.extension.wisc.edu/articles/monstera-deliciosa/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Monstera as a Houseplant",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/monstera-as-a-houseplant",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Supporting Herbaceous Plants in a Flower Garden",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/supporting-herbaceous-plants-in-a-flower-garden",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Perennials: Staking for Support",
+        "org": "Royal Horticultural Society (RHS)",
+        "url": "https://www.rhs.org.uk/plants/types/perennials/staking",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Cutleaf Philodendron (Monstera deliciosa)",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Golden Pothos / Devil's Ivy (Epipremnum aureum)",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/pothos",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Split Leaf Philodendron",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/split-leaf-philodendron",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "media",
+    "xp": 20
+  }
+]

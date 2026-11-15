@@ -1533,6 +1533,152 @@ const ESCENAS: Record<string, () => ReactNode> = {
       </g>
     </Escena>
   ),
+  'poste-musgo': () => (
+    <Escena fondo="#e9f1e4">
+      <Piso color="#c9dcb6" />
+      <rect x="112" y="22" width="22" height="84" rx="9" fill="#6f8f3f" />
+      {[34, 50, 66, 82, 98].map((y, i) => (
+        <path key={y} d={`M114 ${y}c4-4 8 4 12 0s6 4 8 0`} stroke={i % 2 ? '#8fb15a' : '#557333'} strokeWidth="3" strokeLinecap="round" fill="none" />
+      ))}
+      <path d="M96 106c0-26 8-40 18-52M116 106c2-30 12-48 8-72" stroke="#5f9a52" strokeWidth="5" strokeLinecap="round" fill="none" />
+      <Hoja x={114} y={56} rot={-62} l={1.1} color={C.hoja} />
+      <Hoja x={122} y={42} rot={58} l={1.1} color={C.hojaClara} />
+      <Hoja x={118} y={30} rot={-18} l={1} color={C.hoja} />
+      <Hoja x={98} y={92} rot={-76} l={0.9} color={C.hojaClara} />
+      <ellipse cx="116" cy="109" rx="31" ry="5" fill={C.tierra} />
+      <Maceta x={116} y={106} s={1.2} cara="feliz" />
+    </Escena>
+  ),
+  enrejado: () => (
+    <Escena fondo={C.pared}>
+      <Piso />
+      <g stroke={C.marron} strokeWidth="5" strokeLinecap="round">
+        <path d="M70 24v110M110 24v110M150 24v110M190 24v110" />
+        <path d="M62 44h136M62 76h136M62 108h136" />
+      </g>
+      <path d="M96 138c-2-30 10-46 6-70s14-30 14-44M96 138c10-20 34-30 50-52s28-20 40-40" stroke="#5f9a52" strokeWidth="4.5" strokeLinecap="round" fill="none" />
+      <Hoja x={104} y={70} rot={-50} l={0.85} color={C.hoja} />
+      <Hoja x={120} y={42} rot={52} l={0.85} color={C.hojaClara} />
+      <Hoja x={146} y={88} rot={70} l={0.85} color={C.hoja} />
+      <Hoja x={172} y={62} rot={-40} l={0.85} color={C.hojaClara} />
+      <Hoja x={190} y={46} rot={34} l={0.8} color={C.hoja} />
+      <Maceta x={96} y={138} s={0.8} cara="feliz" />
+    </Escena>
+  ),
+  trepadora: () => (
+    <Escena fondo={C.cielo}>
+      <Piso color="#a9cfdf" />
+      <path d="M150 150V18" stroke={C.marron} strokeWidth="7" strokeLinecap="round" />
+      <path d="M92 110c0-30 54-26 58-54M150 56c-8-10-24-10-30-22" stroke="#5f9a52" strokeWidth="5" strokeLinecap="round" fill="none" />
+      <path d="M96 108c4-22 40-20 52-40s-18-30 0-48" stroke="#5f9a52" strokeWidth="5" strokeLinecap="round" fill="none" />
+      <Hoja x={112} y={90} rot={-70} l={0.95} color={C.hoja} />
+      <Hoja x={134} y={80} rot={70} l={0.95} color={C.hojaClara} />
+      <Hoja x={150} y={60} rot={-64} l={1} color={C.hoja} />
+      <Hoja x={152} y={40} rot={64} l={1} color={C.hojaClara} />
+      <Hoja x={148} y={22} rot={-10} l={1.05} color={C.hoja} />
+      <ellipse cx="90" cy="113" rx="29" ry="5" fill={C.tierra} />
+      <Maceta x={90} y={110} s={1.15} cara="feliz" />
+    </Escena>
+  ),
+  colgante: () => (
+    <Escena fondo={C.pared}>
+      <rect x="0" y="0" width="240" height="14" fill="#d7c8a2" />
+      <path d="M120 14L96 52M120 14l24 38" stroke={C.marron} strokeWidth="3.5" strokeLinecap="round" />
+      <path d="M92 52h56l-7 38a8 8 0 0 1-8 6h-26a8 8 0 0 1-8-6z" fill={C.terra} />
+      <rect x="86" y="46" width="68" height="13" rx="6" fill={C.terraClara} />
+      <path d="M100 56c-6 30-4 56-10 84M112 58c-2 24 4 50-2 90M130 58c4 28-4 48 4 84M144 56c8 26 6 52 12 78" stroke="#5f9a52" strokeWidth="4.5" strokeLinecap="round" fill="none" />
+      {[
+        [96, 84, -80],
+        [94, 118, 80],
+        [108, 96, 90],
+        [108, 128, -80],
+        [132, 92, -90],
+        [134, 122, 90],
+        [152, 98, 80],
+        [154, 124, -80],
+      ].map(([x, y, r], i) => (
+        <Hoja key={i} x={x} y={y} rot={r} l={0.6} color={i % 2 ? C.hojaClara : C.hoja} />
+      ))}
+    </Escena>
+  ),
+  zarcillo: () => (
+    <Escena fondo="#e9f1e4">
+      <path d="M170 168V20" stroke={C.marron} strokeWidth="8" strokeLinecap="round" />
+      <path d="M40 150c30-6 50-30 68-50" stroke="#5f9a52" strokeWidth="6" strokeLinecap="round" fill="none" />
+      <Hoja x={64} y={140} rot={-30} l={1.1} color={C.hoja} />
+      <Hoja x={90} y={118} rot={60} l={1.1} color={C.hojaClara} />
+      <path d="M108 100c20-8 36-22 54-12c14 8 4 24-6 18s0-18 14-16c10 2 10 14 0 16s-14-10-4-16" stroke="#7fae62" strokeWidth="3.5" strokeLinecap="round" fill="none" />
+      <path d="M168 88c-14-12-2-26 6-20s-2 16-8 12" stroke="#7fae62" strokeWidth="3.5" strokeLinecap="round" fill="none" />
+      <circle cx="108" cy="100" r="5" fill="#3f7a3a" />
+    </Escena>
+  ),
+  'atar-tutor': () => (
+    <Escena fondo="#f4e6c6">
+      <Piso color="#dcc699" />
+      <path d="M142 24v82" stroke={C.marron} strokeWidth="7" strokeLinecap="round" />
+      <path d="M118 106c-2-26 2-50 16-74" stroke="#5f9a52" strokeWidth="5.5" strokeLinecap="round" fill="none" />
+      <Hoja x={120} y={80} rot={-60} l={1} color={C.hoja} />
+      <Hoja x={126} y={58} rot={-50} l={1} color={C.hojaClara} />
+      <Hoja x={134} y={36} rot={-24} l={1} color={C.hoja} />
+      <path d="M128 72c8-4 14-4 18 0M128 72c8 6 14 4 18 0" stroke={C.terra} strokeWidth="4" strokeLinecap="round" fill="none" />
+      <path d="M130 52c8-4 12-4 16 0" stroke={C.terra} strokeWidth="4" strokeLinecap="round" fill="none" />
+      <ellipse cx="118" cy="109" rx="29" ry="5" fill={C.tierra} />
+      <Maceta x={118} y={106} s={1.15} cara="feliz" />
+    </Escena>
+  ),
+  'planta-flor': () => (
+    <Escena fondo="#fbe9ef">
+      <Piso color="#efd0da" />
+      <path d="M120 100V62M120 88c-14-4-24-12-28-26M120 84c14-4 24-12 28-26" stroke="#5f9a52" strokeWidth="5" strokeLinecap="round" fill="none" />
+      <Hoja x={120} y={92} rot={-50} l={0.85} color={C.hoja} />
+      <Hoja x={120} y={92} rot={50} l={0.85} color={C.hojaClara} />
+      <Flor x={120} y={52} s={1.3} color="#f08aa6" />
+      <Flor x={88} y={62} s={1} color="#f6c1d0" />
+      <Flor x={152} y={58} s={1} color="#f6c1d0" />
+      <Destello x={64} y={40} s={1.2} />
+      <Destello x={178} y={36} />
+      <ellipse cx="120" cy="103" rx="29" ry="5" fill={C.tierra} />
+      <Maceta x={120} y={100} s={1.2} cara="feliz" />
+    </Escena>
+  ),
+  'planta-follaje': () => (
+    <Escena fondo="#e9f1e4">
+      <Piso color="#c9dcb6" />
+      <path d="M120 100V50" stroke="#5f9a52" strokeWidth="5" strokeLinecap="round" />
+      {[-70, -42, -14, 14, 42, 70].map((r, i) => (
+        <Hoja key={r} x={120} y={96 - Math.abs(r) * 0.2} rot={r} l={1.5 - Math.abs(r) / 160} color={i % 2 ? C.hojaClara : C.hoja} />
+      ))}
+      <Hoja x={120} y={56} rot={0} l={1.2} color={C.hojaOsc} />
+      <ellipse cx="120" cy="103" rx="29" ry="5" fill={C.tierra} />
+      <Maceta x={120} y={100} s={1.2} cara="feliz" />
+    </Escena>
+  ),
+  'raices-aereas': () => (
+    <Escena fondo="#e9f1e4">
+      <rect x="150" y="14" width="26" height="150" rx="10" fill="#6f8f3f" />
+      {[30, 52, 74, 96, 118, 140].map((y, i) => (
+        <path key={y} d={`M152 ${y}c4-4 8 4 12 0s6 4 10 0`} stroke={i % 2 ? '#8fb15a' : '#557333'} strokeWidth="3" strokeLinecap="round" fill="none" />
+      ))}
+      <path d="M60 164c0-40 40-44 64-60s30-40 36-80" stroke="#5f9a52" strokeWidth="7" strokeLinecap="round" fill="none" />
+      <Hoja x={96} y={124} rot={-72} l={1.15} color={C.hoja} />
+      <Hoja x={126} y={96} rot={-70} l={1.15} color={C.hojaClara} />
+      <path d="M126 106c10 4 20 2 26-4M138 88c8 4 14 2 18-2M148 66c4 2 8 2 8 0" stroke="#c9a46a" strokeWidth="3.5" strokeLinecap="round" fill="none" />
+      <path d="M132 112c-2 10 2 18 0 24" stroke="#c9a46a" strokeWidth="3.5" strokeLinecap="round" fill="none" />
+    </Escena>
+  ),
+  'atado-apretado': () => (
+    <Escena fondo="#f4e6c6">
+      <Piso color="#dcc699" />
+      <path d="M142 24v82" stroke={C.marron} strokeWidth="7" strokeLinecap="round" />
+      <path d="M118 106c-2-26 2-50 16-74" stroke="#5f9a52" strokeWidth="5.5" strokeLinecap="round" fill="none" />
+      <Hoja x={120} y={80} rot={-60} l={1} color={C.hoja} />
+      <Hoja x={134} y={36} rot={-24} l={1} color={C.hojaClara} />
+      <path d="M121 66l16 5M121 70l16 5M121 74l16 5M122 78l15 5" stroke={'#c2452d'} strokeWidth="2.6" strokeLinecap="round" fill="none" />
+      <path d="M124 58c-4 4-4 8-2 10M130 84c-4 3-4 6-2 9" stroke="#8a5a2b" strokeWidth="3" strokeLinecap="round" fill="none" />
+      <ellipse cx="118" cy="109" rx="29" ry="5" fill={C.tierra} />
+      <Maceta x={118} y={106} s={1.15} cara="triste" />
+    </Escena>
+  ),
 }
 
 export const NOMBRES_ILUSTRACIONES = Object.keys(ESCENAS)

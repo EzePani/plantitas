@@ -1,0 +1,233 @@
+{
+  "fuentes": [
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow begonias (guía de begonias)",
+      "url": "https://www.rhs.org.uk/plants/begonias",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Begonias: Rex por hojas, cane-stemmed por flores; potasio alto para fibrosas y de caña, nitrógeno para Rex",
+      "usado_en": [
+        "familias-7",
+        "familias-7 tarjeta 2, 3, 4"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to choose healthy plants",
+      "url": "https://www.rhs.org.uk/plants/how-to-choose-healthy-plants",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Elegir plantas con muchos pimpollos; leer la etiqueta antes de ubicarla",
+      "usado_en": [
+        "familias-7",
+        "tarjeta 3"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow African violets",
+      "url": "https://www.rhs.org.uk/plants/african-violets/growing-guide",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Violeta africana: 12 h de luz, lámpara en invierno, flores por meses, cómo cortar flores secas, abono diluido cada 3-4 semanas",
+      "usado_en": [
+        "familias-7",
+        "tarjeta 4"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow anthuriums",
+      "url": "https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Anturio: flores varias semanas, abono para orquídeas abril-octubre, cortar tallos secos en la base con guantes (savia irritante)",
+      "usado_en": [
+        "familias-7",
+        "tarjeta 5, 6"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow peace lilies",
+      "url": "https://www.rhs.org.uk/plants/peace-lilies/how-to-grow-peace-lilies",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Espatifilo: espatas varios meses, abono abril-octubre, cortar flores marchitas, guantes",
+      "usado_en": [
+        "familias-7",
+        "tarjeta 4, 5, 6"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow Phalaenopsis (moth orchids)",
+      "url": "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Phalaenopsis: flores varios meses, abono para orquídeas, poco o nada en invierno",
+      "usado_en": [
+        "familias-7",
+        "tarjeta 5, 6"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Dependable & Durable Houseplants",
+      "url": "https://hort.extension.wisc.edu/dependable-durable-houseplants/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Las plantas de flor son más exigentes que las de hojas",
+      "usado_en": [
+        "familias-7",
+        "tarjeta 2"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Pothos, Epipremnum aureum",
+      "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Potus no florece en cultivo (fase juvenil)",
+      "usado_en": [
+        "familias-7",
+        "tarjeta 1, quiz 1"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Swiss-Cheese Plant, Monstera deliciosa",
+      "url": "https://hort.extension.wisc.edu/articles/monstera-deliciosa/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Monstera: flores casi nunca vistas como planta de interior",
+      "usado_en": [
+        "familias-7",
+        "tarjeta 1"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Dracaena trifasciata (Snake Plant)",
+      "url": "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Lengua de suegra rara vez florece en interior",
+      "usado_en": [
+        "familias-7",
+        "tarjeta 1"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Zamioculcas zamiifolia (ZZ Plant)",
+      "url": "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Zamioculca rara vez florece",
+      "usado_en": [
+        "familias-7",
+        "tarjeta 1"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Peace Lily - Toxic and Non-Toxic Plants",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Espatifilo tóxico para perros y gatos (oxalatos)",
+      "usado_en": [
+        "familias-7",
+        "quiz 4"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Flamingo Flower - Toxic and Non-Toxic Plants",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/flamingo-flower",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Anturio tóxico para perros y gatos",
+      "usado_en": [
+        "familias-7",
+        "quiz 4"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Begonia - Toxic and Non-Toxic Plants",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/begonia",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Begonia tóxica para perros y gatos, más tóxica bajo tierra",
+      "usado_en": [
+        "familias-7",
+        "quiz 4"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "African Violet - Toxic and Non-Toxic Plants",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/african-violet",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Violeta africana no tóxica",
+      "usado_en": [
+        "familias-7",
+        "quiz 4"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Easter Lily - Toxic and Non-Toxic Plants",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/easter-lily",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Lilium longiflorum tóxico para gatos, riesgo de falla renal",
+      "usado_en": [
+        "familias-7",
+        "quiz 4"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Kalanchoe - Toxic and Non-Toxic Plants",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/kalanchoe",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Kalanchoe tóxico para perros y gatos",
+      "usado_en": [
+        "familias-7",
+        "quiz 4"
+      ]
+    }
+  ],
+  "adaptaciones_hemisferio_sur": [
+    "RHS da abril-octubre como época de abono (hemisferio norte); en Buenos Aires se tradujo a octubre-abril. Es una conversión aproximada de las estaciones, no un dato literal de la fuente."
+  ],
+  "revisar": [
+    {
+      "id": "familias-7",
+      "dato": "abono alto en potasio para begonias",
+      "motivo": "Solo la RHS (una fuente) lo dice; el intento de abrir UConn (fósforo/floración) dio 404, por eso no se afirmó nada sobre fósforo.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/begonias"
+      ]
+    },
+    {
+      "id": "familias-7",
+      "dato": "foco de luz para violeta africana en invierno",
+      "motivo": "Solo RHS; Clemson no lo cubrió.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/african-violets/growing-guide"
+      ]
+    },
+    {
+      "id": "familias-7",
+      "dato": "kalanchoe (noches largas para florecer)",
+      "motivo": "Clemson (hgic.clemson.edu/factsheet/kalanchoe/) lo abrí y dice 6 semanas de noches de 14-16 h, pero lo dejé afuera por una sola fuente y por la conversión de fechas al hemisferio sur; solo aparece como tóxico (ASPCA).",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/kalanchoe/"
+      ]
+    },
+    {
+      "id": "familias-7",
+      "dato": "mayoría de las afirmaciones de 'una sola fuente'",
+      "motivo": "Duración de floración de espatifilo, anturio, phalaenopsis y violeta: solo RHS (una fuente por planta); por eso la lección es confianza alta pero con respaldo mayormente RHS más Wisconsin/NC State para follaje.",
+      "fuentes": []
+    }
+  ],
+  "no_pude_abrir": [
+    "https://hgic.clemson.edu/factsheet/flowering-houseplants/ (404)",
+    "https://extension.umn.edu/houseplants/flowering-houseplants (403)",
+    "https://www.rhs.org.uk/plants/begonias/how-to-grow-begonias (404)",
+    "UConn Fertilizing Houseplants (404 tras redirect)",
+    "https://extension.umd.edu/resource/selecting-indoor-plants (certificado rechazado)"
+  ]
+}

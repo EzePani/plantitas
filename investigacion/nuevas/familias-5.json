@@ -1,0 +1,193 @@
+[
+  {
+    "id": "familias-5",
+    "unidad": "familias",
+    "titulo": "Trepadoras y colgantes",
+    "gancho": "¿Qué es una planta trepadora y cómo se agarra para subir?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "trepadora",
+        "texto": "Una trepadora es una planta de **tallos largos que crecen apoyándose en algo** para subir. En la selva, la monstera **trepa por los árboles** buscando más luz."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "raices-aereas",
+        "texto": "El potus, la monstera y el filodendro de hoja de corazón se sostienen con **raíces que les salen del tallo** y se agarran al soporte: se llaman raíces aéreas. La hiedra también se agarra con raicitas que le salen del tallo."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "zarcillo",
+        "texto": "Otras trepadoras **se enroscan en espiral** alrededor de un soporte o usan **zarcillos**, que son hojas o tallos modificados que se enrollan. La uva y la pasionaria usan zarcillos, y el jazmín más bien **se apoya** en lo que tiene cerca."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "colgante",
+        "texto": "Una colgante deja **caer sus tallos** desde una maceta alta, y una trepadora **sube**. Muchas hacen las dos cosas: el potus y la hoya pueden **colgar o trepar**, según dónde las pongas."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "monstera-hoja",
+        "texto": "Cuando **sube por un soporte**, la planta suele largar **hojas más grandes**, y la monstera además con más agujeros. Cómo armar ese soporte lo vemos en la próxima lección."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "gato",
+        "texto": "Según ASPCA, **potus, monstera, filodendro e hiedra son tóxicos para perros y gatos**: si los muerden pueden dar babeo y vómitos. **Colgalos alto**, lejos de las guías que caen, y ante una mordida consultá a tu veterinario."
+      }
+    ],
+    "para_llevarte": [
+      "La trepadora **se apoya en algo para subir**: con raíces del tallo, zarcillos o enroscándose.",
+      "Potus, monstera y filodendro se agarran con **raíces aéreas**; muchas pueden **colgar o trepar**.",
+      "**Subiendo**, las hojas suelen crecer más grandes. Y ojo: **son tóxicas para perros y gatos**."
+    ],
+    "quiz": [
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Cómo se agarran el potus, la monstera y el filodendro de hoja de corazón a un soporte?",
+        "opciones": [
+          "Con zarcillos que se enrollan",
+          "Con raíces que les salen del tallo",
+          "Con pegamento natural en las hojas"
+        ],
+        "correcta": 1,
+        "explicacion": "Se agarran con **raíces aéreas que salen del tallo**. Los zarcillos son de otras trepadoras, como la uva."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Una misma planta no puede ser trepadora y colgante a la vez.",
+        "correcta": false,
+        "explicacion": "**El potus y la hoya pueden colgar o trepar**, según dónde las pongas. Si tienen un soporte, suben; si no, caen."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Tu monstera lleva tiempo subiendo por un soporte y está sana. ¿Qué es lo más probable que pase con sus hojas?",
+        "imagen": "planta:monstera",
+        "opciones": [
+          "Salen más grandes y con más agujeros",
+          "Salen cada vez más chicas",
+          "Dejan de salir"
+        ],
+        "correcta": 0,
+        "explicacion": "Al trepar, la monstera suele dar **hojas más grandes y con más agujeros**. Con muy poca luz, en cambio, salen con menos agujeros."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada planta con cómo se sostiene o crece.",
+        "pares": [
+          {
+            "a": "Monstera",
+            "b": "Raíces que salen del tallo"
+          },
+          {
+            "a": "Uva",
+            "b": "Zarcillos"
+          },
+          {
+            "a": "Jazmín",
+            "b": "Se apoya en lo que tiene cerca"
+          },
+          {
+            "a": "Hoya",
+            "b": "Cuelga o trepa"
+          }
+        ],
+        "explicacion": "Cada una tiene **su manera de sostenerse**. Con saber cuál usa, ya sabés qué tipo de soporte le va a servir."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Según ASPCA, el potus y la hiedra son tóxicos para perros y gatos.",
+        "correcta": true,
+        "explicacion": "Los dos figuran como **tóxicos para perros y gatos**. Ponelos **fuera de su alcance** y, si los muerden, consultá a tu veterinario."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "How to grow Swiss cheese plants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow hoyas",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/hoya/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How plants climb",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/blogs/ilriverhort/2016-09-16-how-plants-climb",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Pothos, Epipremnum aureum",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Swiss-Cheese Plant, Monstera deliciosa",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/monstera-deliciosa/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Epipremnum aureum (Pothos)",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Philodendron hederaceum",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Philodendron",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/philodendron/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow ivy",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/ivy/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Hedera helix (English ivy)",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/hedera-helix/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Pothos (Epipremnum aureum)",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/pothos",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Swiss Cheese Plant (Monstera deliciosa)",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/swiss-cheese-plant",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Heartleaf Philodendron (Philodendron hederaceum)",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/heartleaf-philodendron",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "English Ivy (Hedera helix)",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/english-ivy",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "alta",
+    "xp": 20
+  }
+]

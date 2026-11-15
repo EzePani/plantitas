@@ -27,7 +27,7 @@ const u = (id: UnidadId, numero: number, tanda: 1 | 2 | 3, titulo: string, descr
   plan,
 })
 
-/** 12 unidades, 46 lecciones, 3 tandas */
+/** 12 unidades, 49 lecciones, 3 tandas */
 export const UNIDADES: Record<UnidadId, Unidad> = {
   basico: u('basico', 1, 1, 'Lo básico', 'Qué es una planta y qué necesita para vivir.', '#2f7d4a', '#1f5a36', 'Semilla de potus', [
     'Qué necesita una planta',
@@ -62,11 +62,14 @@ export const UNIDADES: Record<UnidadId, Unidad> = {
     'En la tierra, en el agua o en las hojas',
     'Cuándo abonar y cuándo no',
   ]),
-  familias: u('familias', 6, 2, 'Familias', 'Suculentas, tropicales, helechos y con flor.', '#7a9a3a', '#566f24', 'Semilla de monstera', [
+  familias: u('familias', 6, 2, 'Familias', 'Suculentas, tropicales, trepadoras y con flor.', '#7a9a3a', '#566f24', 'Semilla de monstera', [
     'Suculentas y cactus',
     'Follaje tropical',
     'Amigas de la humedad',
     'Con flor y orquídeas',
+    'Trepadoras y colgantes',
+    'Tutores y soportes',
+    'Plantas de flor y de hojas',
   ]),
   estaciones: u('estaciones', 7, 2, 'Estaciones, calor y viajes', 'El año de tus plantas, y qué hacer si te vas.', '#d0803a', '#9c5a20', 'Semilla de cactus', [
     'Calor y verano',

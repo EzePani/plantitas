@@ -664,5 +664,572 @@
     ],
     "confianza": "alta",
     "xp": 20
+  },
+  {
+    "id": "familias-5",
+    "unidad": "familias",
+    "titulo": "Trepadoras y colgantes",
+    "gancho": "¿Qué es una planta trepadora y cómo se agarra para subir?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "trepadora",
+        "texto": "Una trepadora es una planta de **tallos largos que crecen apoyándose en algo** para subir. En la selva, la monstera **trepa por los árboles** buscando más luz."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "raices-aereas",
+        "texto": "El potus, la monstera y el filodendro de hoja de corazón se sostienen con **raíces que les salen del tallo** y se agarran al soporte: se llaman raíces aéreas. La hiedra también se agarra con raicitas que le salen del tallo."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "zarcillo",
+        "texto": "Otras trepadoras **se enroscan en espiral** alrededor de un soporte o usan **zarcillos**, que son hojas o tallos modificados que se enrollan. La uva y la pasionaria usan zarcillos, y el jazmín más bien **se apoya** en lo que tiene cerca."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "colgante",
+        "texto": "Una colgante deja **caer sus tallos** desde una maceta alta, y una trepadora **sube**. Muchas hacen las dos cosas: el potus y la hoya pueden **colgar o trepar**, según dónde las pongas."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "monstera-hoja",
+        "texto": "Cuando **sube por un soporte**, la planta suele largar **hojas más grandes**, y la monstera además con más agujeros. Cómo armar ese soporte lo vemos en la próxima lección."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "gato",
+        "texto": "Según ASPCA, **potus, monstera, filodendro e hiedra son tóxicos para perros y gatos**: si los muerden pueden dar babeo y vómitos. **Colgalos alto**, lejos de las guías que caen, y ante una mordida consultá a tu veterinario."
+      }
+    ],
+    "para_llevarte": [
+      "La trepadora **se apoya en algo para subir**: con raíces del tallo, zarcillos o enroscándose.",
+      "Potus, monstera y filodendro se agarran con **raíces aéreas**; muchas pueden **colgar o trepar**.",
+      "**Subiendo**, las hojas suelen crecer más grandes. Y ojo: **son tóxicas para perros y gatos**."
+    ],
+    "quiz": [
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Cómo se agarran el potus, la monstera y el filodendro de hoja de corazón a un soporte?",
+        "opciones": [
+          "Con zarcillos que se enrollan",
+          "Con raíces que les salen del tallo",
+          "Con pegamento natural en las hojas"
+        ],
+        "correcta": 1,
+        "explicacion": "Se agarran con **raíces aéreas que salen del tallo**. Los zarcillos son de otras trepadoras, como la uva."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Una misma planta no puede ser trepadora y colgante a la vez.",
+        "correcta": false,
+        "explicacion": "**El potus y la hoya pueden colgar o trepar**, según dónde las pongas. Si tienen un soporte, suben; si no, caen."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Tu monstera lleva tiempo subiendo por un soporte y está sana. ¿Qué es lo más probable que pase con sus hojas?",
+        "imagen": "planta:monstera",
+        "opciones": [
+          "Salen más grandes y con más agujeros",
+          "Salen cada vez más chicas",
+          "Dejan de salir"
+        ],
+        "correcta": 0,
+        "explicacion": "Al trepar, la monstera suele dar **hojas más grandes y con más agujeros**. Con muy poca luz, en cambio, salen con menos agujeros."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada planta con cómo se sostiene o crece.",
+        "pares": [
+          {
+            "a": "Monstera",
+            "b": "Raíces que salen del tallo"
+          },
+          {
+            "a": "Uva",
+            "b": "Zarcillos"
+          },
+          {
+            "a": "Jazmín",
+            "b": "Se apoya en lo que tiene cerca"
+          },
+          {
+            "a": "Hoya",
+            "b": "Cuelga o trepa"
+          }
+        ],
+        "explicacion": "Cada una tiene **su manera de sostenerse**. Con saber cuál usa, ya sabés qué tipo de soporte le va a servir."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Según ASPCA, el potus y la hiedra son tóxicos para perros y gatos.",
+        "correcta": true,
+        "explicacion": "Los dos figuran como **tóxicos para perros y gatos**. Ponelos **fuera de su alcance** y, si los muerden, consultá a tu veterinario."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "How to grow Swiss cheese plants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow hoyas",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/hoya/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How plants climb",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/blogs/ilriverhort/2016-09-16-how-plants-climb",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Pothos, Epipremnum aureum",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Swiss-Cheese Plant, Monstera deliciosa",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/monstera-deliciosa/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Epipremnum aureum (Pothos)",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Philodendron hederaceum",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Philodendron",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/philodendron/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow ivy",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/ivy/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Hedera helix (English ivy)",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/hedera-helix/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Pothos (Epipremnum aureum)",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/pothos",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Swiss Cheese Plant (Monstera deliciosa)",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/swiss-cheese-plant",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Heartleaf Philodendron (Philodendron hederaceum)",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/heartleaf-philodendron",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "English Ivy (Hedera helix)",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/english-ivy",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "alta",
+    "xp": 20
+  },
+  {
+    "id": "familias-6",
+    "unidad": "familias",
+    "titulo": "Tutores y soportes",
+    "gancho": "¿Para qué le pongo un palo a mi planta y cómo lo uso sin lastimarla?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "poste-musgo",
+        "texto": "Un tutor es **cualquier soporte que sostiene a la planta**: un poste, una caña, un enrejado o un aro. Sirve para plantas altas, **de tallos débiles** o trepadoras."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "raices-aereas",
+        "texto": "La monstera, el potus y los filodendros trepadores **largan raíces aéreas** que se agarran a los árboles. Un poste cubierto de musgo o fibra de coco **les da dónde agarrarse** y ayuda a sostener plantas que se ponen pesadas arriba."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "poste-musgo",
+        "texto": "Si usás poste de musgo, **mantené el musgo húmedo**: así los tallos echan raíces en él y quedan bien firmes. En la monstera, también conviene **regar el poste** para que las raíces aéreas tomen agua."
+      },
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "atado-apretado",
+        "imagen_bien": "atar-tutor",
+        "texto": "Atá el tallo con algo blando, como hilo suave, velcro o cinta, y **dejalo flojo**, en un ocho que no apriete. **Un atado muy justo daña el tallo** y la planta tiene que poder moverse un poquito."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "enrejado",
+        "texto": "Poné el soporte **temprano, cuando la planta todavía no creció mucho**: más adelante cuesta más y se pueden lastimar los tallos. Clavalo **cerca del tallo pero sin tocar las raíces**."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "estaciones",
+        "texto": "Cuando la planta arranca a crecer, en primavera, **revisá las ataduras de vez en cuando** y sumá una más arriba a medida que el tallo se alarga. Así la punta no se dobla ni se quiebra."
+      }
+    ],
+    "para_llevarte": [
+      "Un tutor **sostiene plantas altas, de tallos débiles o trepadoras**; en la monstera el poste da dónde agarrarse.",
+      "Atá **flojo y con material blando**, y revisá las ataduras de tanto en tanto.",
+      "Ponelo **temprano y cerca del tallo, sin dañar las raíces**; si es de musgo, **mantenelo húmedo**."
+    ],
+    "quiz": [
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Con qué conviene atar el tallo a un tutor?",
+        "opciones": [
+          "Con alambre fino bien apretado",
+          "Con algo blando y flojo, como hilo suave o velcro",
+          "Con cinta adhesiva, vuelta tras vuelta"
+        ],
+        "correcta": 1,
+        "explicacion": "**Un material blando y flojo** no aprieta ni lastima el tallo mientras engrosa. Lo justo es que sostenga sin ahorcar."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Si el tutor es un poste de musgo, conviene mantener el musgo húmedo.",
+        "correcta": true,
+        "explicacion": "Con el musgo húmedo, **los tallos echan raíces en el poste** y quedan bien agarrados. Es la forma de que el poste cumpla su función."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Esta monstera ya está bastante alta y larga raíces en el tallo. ¿Qué tipo de soporte la ayuda?",
+        "imagen": "planta:monstera",
+        "opciones": [
+          "Un poste de musgo para que las raíces aéreas se agarren",
+          "Ninguno: las trepadoras no necesitan nada",
+          "Un aro de alambre bien chiquito"
+        ],
+        "correcta": 0,
+        "explicacion": "La monstera es trepadora y **sus raíces aéreas buscan dónde agarrarse**. Un poste de musgo o fibra de coco se lo da. Ojo: monstera, potus y filodendro son **tóxicos para gatos y perros** según ASPCA, así que ubicalos fuera de su alcance."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada situación con lo que conviene hacer.",
+        "pares": [
+          {
+            "a": "Poner el tutor",
+            "b": "Temprano, antes de que crezca mucho"
+          },
+          {
+            "a": "Clavarlo",
+            "b": "Cerca del tallo, sin tocar las raíces"
+          },
+          {
+            "a": "Atar",
+            "b": "Flojo y con material blando"
+          },
+          {
+            "a": "Cuando el tallo se alarga",
+            "b": "Sumar una atadura más arriba"
+          }
+        ],
+        "explicacion": "Todo busca lo mismo: **sostener sin lastimar** ni raíces ni tallos."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Philodendron: growing guide",
+        "org": "Royal Horticultural Society (RHS)",
+        "url": "https://www.rhs.org.uk/plants/philodendron/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Epipremnum: growing guide",
+        "org": "Royal Horticultural Society (RHS)",
+        "url": "https://www.rhs.org.uk/plants/epipremnum/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow Swiss cheese plants",
+        "org": "Royal Horticultural Society (RHS)",
+        "url": "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Swiss-Cheese Plant, Monstera deliciosa",
+        "org": "University of Wisconsin-Madison Extension (Horticulture)",
+        "url": "https://hort.extension.wisc.edu/articles/monstera-deliciosa/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Monstera as a Houseplant",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/monstera-as-a-houseplant",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Supporting Herbaceous Plants in a Flower Garden",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/supporting-herbaceous-plants-in-a-flower-garden",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Perennials: Staking for Support",
+        "org": "Royal Horticultural Society (RHS)",
+        "url": "https://www.rhs.org.uk/plants/types/perennials/staking",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Cutleaf Philodendron (Monstera deliciosa)",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Golden Pothos / Devil's Ivy (Epipremnum aureum)",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/pothos",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Split Leaf Philodendron",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/split-leaf-philodendron",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "media",
+    "xp": 20
+  },
+  {
+    "id": "familias-7",
+    "unidad": "familias",
+    "titulo": "Plantas de flor y plantas de hojas",
+    "gancho": "¿Por qué mi potus nunca me da flores?",
+    "tarjetas": [
+      {
+        "tipo": "por_que",
+        "imagen": "planta-follaje",
+        "texto": "El potus, la monstera, la zamioculca y la lengua de suegra se cultivan por **las hojas**, no por las flores. En casa **casi nunca florecen**: el potus no florece en cultivo y las otras tres lo hacen muy rara vez."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-flor",
+        "texto": "Hay plantas de hojas y plantas de flor, y a veces **en la misma familia**: entre las begonias, las Rex se cultivan por sus hojas de colores y otras por sus flores. Las de flor suelen **pedir más cuidado** adentro de casa que las de hojas."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "vivero",
+        "texto": "Al comprar, **con decir \"begonia\" no alcanza**: preguntá de qué tipo es, porque algunas son de hojas y otras de flor. En una de flor, fijate que tenga **muchos pimpollos** y leé la etiqueta para saber dónde ponerla."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "luz-indirecta",
+        "texto": "Para florecer necesitan **mucha luz**: la violeta africana pide unas 12 horas de luz por día y, si falta, un foco ayuda en invierno. Y **abono en la época de crecimiento**: uno para orquídeas en el anturio y la phalaenopsis, y uno alto en potasio en las begonias de raíz fibrosa y de caña."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "estaciones",
+        "texto": "Las guías europeas hablan de abonar de abril a octubre; en Buenos Aires eso se traduce en **de octubre a abril**, de primavera a otoño. En invierno, de junio a agosto, la phalaenopsis se abona **poco o nada**, y siempre con la dosis de la etiqueta."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "tijera-poda",
+        "texto": "La floración dura **varias semanas** en el anturio, **varios meses** en el espatifilo y la phalaenopsis, y puede llegar a **muchos meses** en la violeta africana. Cuando se marchitan, **cortá la flor seca en la base**, con guantes en anturio y espatifilo, porque la savia irrita la piel."
+      }
+    ],
+    "para_llevarte": [
+      "Potus, monstera, zamioculca y lengua de suegra son **de hojas**: no esperes flores.",
+      "Las de flor piden **mucha luz** y **abono en primavera y verano**.",
+      "Cuando la flor se seca, **cortala en la base** y seguí cuidándola."
+    ],
+    "quiz": [
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Si cuidás bien un potus, tarde o temprano va a florecer en tu casa.",
+        "correcta": false,
+        "explicacion": "El potus de interior **no florece**: en casa se mantiene en una etapa joven. **Lo tuyo no es falta de cuidado**: se cultiva por las hojas."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Estás en el vivero eligiendo una planta de flor. ¿Cuál conviene llevar?",
+        "opciones": [
+          "La que tiene todas las flores ya abiertas",
+          "La que tiene muchos pimpollos por abrirse",
+          "La más grande del estante"
+        ],
+        "correcta": 1,
+        "explicacion": "La RHS recomienda mirar que **todavía haya muchos pimpollos**, así disfrutás las flores más tiempo."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada planta con lo que se cultiva en ella.",
+        "pares": [
+          {
+            "a": "Potus",
+            "b": "Las hojas"
+          },
+          {
+            "a": "Begonia Rex",
+            "b": "Hojas de colores"
+          },
+          {
+            "a": "Anturio",
+            "b": "Flores de varias semanas"
+          },
+          {
+            "a": "Violeta africana",
+            "b": "Flores durante muchos meses"
+          }
+        ],
+        "explicacion": "**Saber para qué se cultiva** una planta te dice **qué esperar** de ella."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Tenés un gato curioso. ¿Cuál de estas plantas con flor figura como no tóxica para gatos?",
+        "opciones": [
+          "Espatifilo",
+          "Anturio",
+          "Begonia",
+          "Violeta africana"
+        ],
+        "correcta": 3,
+        "explicacion": "La ASPCA da la violeta africana como **no tóxica**. El espatifilo y el anturio **irritan la boca**, la begonia y el kalanchoe también son tóxicos, y los **lirios verdaderos (Lilium) son peligrosos para los gatos**."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Cuándo abonás una planta de flor en Buenos Aires?",
+        "opciones": [
+          "Todo el año, sin parar",
+          "En invierno, para que florezca",
+          "De octubre a abril, y poco o nada en invierno"
+        ],
+        "correcta": 2,
+        "explicacion": "Se abona **cuando crece**, de primavera a otoño, y siempre con **la dosis de la etiqueta**. En invierno se baja o se corta."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "How to grow begonias (guía de begonias)",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/begonias",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to choose healthy plants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/how-to-choose-healthy-plants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow African violets",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/african-violets/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow anthuriums",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow peace lilies",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/peace-lilies/how-to-grow-peace-lilies",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow Phalaenopsis (moth orchids)",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Dependable & Durable Houseplants",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/dependable-durable-houseplants/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Pothos, Epipremnum aureum",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Swiss-Cheese Plant, Monstera deliciosa",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/monstera-deliciosa/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Dracaena trifasciata (Snake Plant)",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Zamioculcas zamiifolia (ZZ Plant)",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Peace Lily - Toxic and Non-Toxic Plants",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Flamingo Flower - Toxic and Non-Toxic Plants",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/flamingo-flower",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Begonia - Toxic and Non-Toxic Plants",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/begonia",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "African Violet - Toxic and Non-Toxic Plants",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/african-violet",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Easter Lily - Toxic and Non-Toxic Plants",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/easter-lily",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Kalanchoe - Toxic and Non-Toxic Plants",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/kalanchoe",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "alta",
+    "xp": 20
   }
 ]

@@ -1,0 +1,134 @@
+{
+  "fuentes": [
+    {
+      "org": "RHS",
+      "titulo": "Philodendron growing guide",
+      "url": "https://www.rhs.org.uk/plants/philodendron/growing-guide",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Filodendros trepadores mejor con soporte; se atan a poste de musgo y enraízan si se mantiene húmedo",
+      "usado_en": [
+        "familias-6 tarjetas 2-3"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Epipremnum growing guide",
+      "url": "https://www.rhs.org.uk/plants/epipremnum/growing-guide",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Mantener húmedo el musgo/coco para que los tallos se agarren con raíces aéreas; atar tallos sueltos",
+      "usado_en": [
+        "familias-6 tarjetas 2-3"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow Swiss cheese plants",
+      "url": "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Poste de musgo sostiene plantas pesadas arriba; tallos enraízan si el musgo está húmedo",
+      "usado_en": [
+        "familias-6 tarjetas 2-3"
+      ]
+    },
+    {
+      "org": "UW-Madison Extension",
+      "titulo": "Monstera deliciosa",
+      "url": "https://hort.extension.wisc.edu/articles/monstera-deliciosa/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Necesita soporte para que no se rompan tallos; regar también el soporte de musgo",
+      "usado_en": [
+        "familias-6 tarjetas 1-3"
+      ]
+    },
+    {
+      "org": "Penn State Extension",
+      "titulo": "Monstera as a Houseplant",
+      "url": "https://extension.psu.edu/monstera-as-a-houseplant",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Interior necesita algo firme para trepar; fijar con suavidad; musgo, enrejados, bambú",
+      "usado_en": [
+        "familias-6 tarjeta 1-2"
+      ]
+    },
+    {
+      "org": "Penn State Extension",
+      "titulo": "Supporting Herbaceous Plants in a Flower Garden",
+      "url": "https://extension.psu.edu/supporting-herbaceous-plants-in-a-flower-garden",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Estaca cerca del tallo sin dañar raíces; ataduras blandas en ocho flojo; revisar y agregar atadura más arriba",
+      "usado_en": [
+        "familias-6 tarjetas 4-6"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Perennials: Staking for Support",
+      "url": "https://www.rhs.org.uk/plants/types/perennials/staking",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Poner soportes temprano; no atar rígido ni apretado; cañas de bambú y aros; revisar seguido",
+      "usado_en": [
+        "familias-6 tarjetas 1,4-6"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Cutleaf Philodendron (Monstera deliciosa)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Tóxica para gato y perro",
+      "usado_en": [
+        "familias-6 quiz 3"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Pothos",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/pothos",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Tóxico para gato y perro",
+      "usado_en": [
+        "familias-6 quiz 3"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Split Leaf Philodendron",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/split-leaf-philodendron",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Tóxico para gato y perro (genérico filodendro)",
+      "usado_en": [
+        "familias-6 quiz 3"
+      ]
+    }
+  ],
+  "revisar": [
+    {
+      "id": "familias-6",
+      "dato": "cuándo poner el tutor",
+      "motivo": "Ninguna fuente de interior dice 'al trasplantar'. Solo hay respaldo (RHS, plantas de jardín) para ponerlo temprano; se dejó afuera la frase sobre trasplante.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/types/perennials/staking"
+      ]
+    },
+    {
+      "id": "familias-6",
+      "dato": "atado y estacas",
+      "motivo": "Los consejos de atar flojo, ocho y no dañar raíces vienen de extensión/RHS para plantas de jardín, no específicos de interior; confianza media.",
+      "fuentes": [
+        "https://extension.psu.edu/supporting-herbaceous-plants-in-a-flower-garden"
+      ]
+    },
+    {
+      "id": "familias-6",
+      "dato": "toxicidad filodendro",
+      "motivo": "Se verificó ASPCA para Philodendron bipennifolium (split leaf) y monstera/potus; el catálogo usa heartleaf (no reabierta).",
+      "fuentes": [
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/split-leaf-philodendron"
+      ]
+    }
+  ],
+  "no_pude_abrir": [
+    "https://extension.umd.edu/resource/care-annuals-and-perennials (certificado rechazado)",
+    "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-minnesota/trellises-and-cages (403)"
+  ]
+}

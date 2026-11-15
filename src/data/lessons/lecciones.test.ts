@@ -14,15 +14,15 @@ describe('lecciones', () => {
     }
   })
 
-  it('la estructura tiene 12 unidades y 46 lecciones, en 3 tandas', () => {
+  it('la estructura tiene 12 unidades y 49 lecciones, en 3 tandas', () => {
     const us = Object.values(UNIDADES)
     expect(us).toHaveLength(12)
     expect(us.map((x) => x.numero).sort((a, b) => a - b)).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
-    expect(TOTAL_LECCIONES).toBe(46)
+    expect(TOTAL_LECCIONES).toBe(49)
     const porTanda = (t: number) => us.filter((x) => x.tanda === t)
     expect(porTanda(1).map((x) => x.numero).sort((a, b) => a - b)).toEqual([1, 2, 3, 12])
     expect(porTanda(1).reduce((n, x) => n + x.plan.length, 0)).toBe(16)
-    expect(porTanda(2).reduce((n, x) => n + x.plan.length, 0)).toBe(18)
+    expect(porTanda(2).reduce((n, x) => n + x.plan.length, 0)).toBe(21)
     expect(porTanda(3).reduce((n, x) => n + x.plan.length, 0)).toBe(12)
   })
 
@@ -39,7 +39,7 @@ describe('lecciones', () => {
     }
   })
 
-  it('las 3 tandas están completas: 46 lecciones con contenido', () => {
+  it('las 3 tandas están completas: 49 lecciones con contenido', () => {
     for (const x of Object.values(UNIDADES)) expect((LECCIONES[x.id] ?? []).map((l) => l.id), x.id).toEqual(idsDelPlan(x.id))
     expect(todas).toHaveLength(TOTAL_LECCIONES)
     for (const l of todas) expect(l.estado, l.id).toBeUndefined()

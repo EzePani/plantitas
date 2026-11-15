@@ -12,7 +12,7 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 
 | Contenido | Total | Alta | Media | Baja |
 | --- | --- | --- | --- | --- |
-| Lecciones | 46 | 24 | 22 | 0 |
+| Lecciones | 49 | 26 | 23 | 0 |
 | Plantas (cuidados) | 25 | 12 | 13 | 0 |
 | Plantas (toxicidad) | 25 | 16 | 9 | 0 |
 | Advertencias graves | 6 | 5 | 1 | 0 |
@@ -40,6 +40,9 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 | familias-2 | Follaje tropical | alta | 9 |
 | familias-3 | Amigas de la humedad | media | 7 |
 | familias-4 | Con flor y orquídeas | alta | 14 |
+| familias-5 | Trepadoras y colgantes | alta | 14 |
+| familias-6 | Tutores y soportes | media | 10 |
+| familias-7 | Plantas de flor y plantas de hojas | alta | 17 |
 | luz-1 | Luz directa y luz indirecta | media | 8 |
 | luz-2 | El mapa del sol de tu casa | media | 7 |
 | luz-3 | Sol de mañana y sol de tarde | media | 11 |
@@ -98,7 +101,7 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 | Violeta africana (*Streptocarpus ionanthus (sin. Saintpaulia ionantha)*) | alta | segura / segura | alta | 5 |
 | Zamioculca (*Zamioculcas zamiifolia*) | media | toxica / toxica | media | 3 |
 
-## Fuentes por organización (292 en total)
+## Fuentes por organización (308 en total)
 
 ### Royal Horticultural Society
 
@@ -153,12 +156,18 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [How plants absorb nutrients](https://www.rhs.org.uk/advice/understanding-plants/how-plants-absorb-nutrients) · consultada el 2026-11-15
   - Qué se tomó: La fotosíntesis fabrica los azúcares (energía); los minerales son materia prima y no energía; el nitrógeno hace falta para la clorofila; las raíces absorben minerales disueltos; el abono foliar es útil para micronutrientes.
   - Usada en: lección abono-1, lección abono-3
+- [How to choose healthy plants](https://www.rhs.org.uk/plants/how-to-choose-healthy-plants) · consultada el 2026-11-15
+  - Qué se tomó: Elegir plantas con muchos pimpollos; leer la etiqueta antes de ubicarla
+  - Usada en: lección familias-7
 - [How to grow African violets](https://www.rhs.org.uk/plants/african-violets/growing-guide) · consultada el 2026-11-15
-  - Qué se tomó: Mucha claridad sin sol directo según estación, regar con agua a temperatura ambiente cuando la superficie está seca sin mojar hojas, compost liviano, no rociar, 18-24 °C de día y 16 °C de noche / Mucha luz sin sol directo, sobre todo en verano; el sol fuerte y el sol concentrado por el vidrio queman; 18 a 24 °C. / Mucha luz brillante sin sol directo; si no florece, lo habitual es falta de luz; agua a temperatura ambiente (la fría la enfría); no mojar las hojas.
-  - Usada en: lección familias-4, planta violeta-africana (cuidados)
+  - Qué se tomó: Mucha claridad sin sol directo según estación, regar con agua a temperatura ambiente cuando la superficie está seca sin mojar hojas, compost liviano, no rociar, 18-24 °C de día y 16 °C de noche / Mucha luz sin sol directo, sobre todo en verano; el sol fuerte y el sol concentrado por el vidrio queman; 18 a 24 °C. / Mucha luz brillante sin sol directo; si no florece, lo habitual es falta de luz; agua a temperatura ambiente (la fría la enfría); no mojar las hojas. / Violeta africana: 12 h de luz, lámpara en invierno, flores por meses, cómo cortar flores secas, abono diluido cada 3-4 semanas
+  - Usada en: lección familias-4, lección familias-7, planta violeta-africana (cuidados)
 - [How to grow anthuriums](https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums) · consultada el 2026-11-15
-  - Qué se tomó: Luz brillante indirecta, regar cuando el compost está casi seco a 5 cm, mezcla ácida con perlita y corteza, humedad alta, 18-30 °C, ~30 cm, planta venenosa con savia irritante / Luz brillante indirecta (ventana este u oeste, o sur con cortina); el sol directo de verano quema; 18 a 30 °C; lejos de radiadores. / Lo que parece una flor es una espata (estructura parecida a una hoja) alrededor de una espiga central; dura varias semanas; luz indirecta brillante; el sol directo de verano quema las hojas.
-  - Usada en: lección familias-4, planta anturio (cuidados)
+  - Qué se tomó: Luz brillante indirecta, regar cuando el compost está casi seco a 5 cm, mezcla ácida con perlita y corteza, humedad alta, 18-30 °C, ~30 cm, planta venenosa con savia irritante / Luz brillante indirecta (ventana este u oeste, o sur con cortina); el sol directo de verano quema; 18 a 30 °C; lejos de radiadores. / Lo que parece una flor es una espata (estructura parecida a una hoja) alrededor de una espiga central; dura varias semanas; luz indirecta brillante; el sol directo de verano quema las hojas. / Anturio: flores varias semanas, abono para orquídeas abril-octubre, cortar tallos secos en la base con guantes (savia irritante)
+  - Usada en: lección familias-4, lección familias-7, planta anturio (cuidados)
+- [How to grow begonias (guía de begonias)](https://www.rhs.org.uk/plants/begonias) · consultada el 2026-11-15
+  - Qué se tomó: Begonias: Rex por hojas, cane-stemmed por flores; potasio alto para fibrosas y de caña, nitrógeno para Rex
+  - Usada en: lección familias-7
 - [How to grow calatheas](https://www.rhs.org.uk/plants/calathea/growing-guide) · consultada el 2026-11-15
   - Qué se tomó: Lugar luminoso sin sol directo, compost parejo húmedo en primavera-verano y superficie seca en otoño-invierno, agua de lluvia o reposada 24 h, humedad alta, 16-21 °C, 20-100 cm / Lugar luminoso fuera del sol directo; 16 a 21 °C; lejos de corrientes y de fuentes de calor como estufas y radiadores. / Lugar luminoso protegido del sol directo; humedad alta; agrupar con otras plantas; puntas y bordes marrones con aire seco; tierra pareja de húmeda, que no se seque del todo; lejos de radiadores y corrientes. También sugiere rociar (discrepancia registrada).
   - Usada en: lección familias-3, planta calatea (cuidados)
@@ -168,18 +177,21 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [How to grow houseplants](https://www.rhs.org.uk/plants/types/houseplants/growing-guide) · consultada el 2026-11-15
   - Qué se tomó: Las raíces necesitan aire y se ahogan si la maceta queda en agua; maceta siempre con agujero; calefacción central baja la humedad; lejos de radiadores; exceso de riego = hojas amarillas que caen o colapso; falta = bordes marrones; época de crecimiento primavera-otoño. / Regar cuando la superficie está seca y no por rutina; maceta seca pesa menos; regar a fondo hasta que salga por el agujero; vaciar platos; la calefacción central seca las macetas más rápido; marchitez con sustrato mojado indica daño de raíces; maceta siempre con agujero; trasplante cada 2-3 años en primavera; maceta 5-10 cm más ancha. / Planta sana al comprar: robusta, forma pareja, hojas sin decoloración ni manchas; se seca muy rápido y crece poco = posible maceta chica; maceta nueva 5 a 10 cm más ancha. Reabierta hoy. / Reabierta. Define la sombra luminosa como luz brillante que no hace una sombra bien definida; en verano el sol fuerte puede quemar plantas sensibles a través del vidrio. / Reabierta el 2026-11-15. Regar cuando la superficie se seca, no por rutina; maceta seca pesa menos; regar a fondo y vaciar platos; agua a temperatura ambiente, sobre todo en invierno; ambiente fresco = menos riego; en verano las plantas están más activas y se secan más rápido; la calefacción central baja la humedad y las macetas se secan antes; cerca de radiadores se deshidratan las hojas. / Abonar en la época de crecimiento; líquido una o dos veces por mes o diluido en cada riego; granulado sobre la tierra una o dos veces por temporada; liberación lenta ahorra trabajo; no abonar sobre tierra seca (quema raíces); orgánicos pueden dar olor adentro; más N para follaje, más P y K para flor; en invierno limitar a una vez por mes. / Compra: plantas fuertes, de forma equilibrada, hojas sin decoloración ni manchas; evitar plantas marchitas y sobre todo las marchitas con sustrato húmedo (posible daño de raíces); sustrato limpio, sin malezas ni algas; más pimpollos cerrados = más tiempo en flor; señales de arañuela (telitas finas, punteado color paja), cochinilla y escamas; cubrir la planta para el viaje, sobre todo en invierno; trasplantar preferentemente en primavera.
   - Usada en: lección abono-1, lección abono-2, lección abono-3, lección abono-4, lección basico-1, lección basico-2, lección basico-3, lección comprar-1, lección comprar-2, lección luz-1, lección luz-3, lección macetas-6, lección riego-1, lección riego-2, lección riego-3, lección riego-4, lección riego-5
+- [How to grow hoyas](https://www.rhs.org.uk/plants/hoya/growing-guide) · consultada el 2026-11-15
+  - Qué se tomó: Hoya es trepadora o colgante; colgar en maceta alta o trepar con aro/cañas
+  - Usada en: lección familias-5
+- [How to grow ivy](https://www.rhs.org.uk/plants/ivy/growing-guide) · consultada el 2026-11-15
+  - Qué se tomó: Hiedra se ancla con raíces adventicias del tallo; cultivares aptos para maceta
+  - Usada en: lección familias-5
 - [How to grow peace lilies](https://www.rhs.org.uk/plants/peace-lilies/how-to-grow-peace-lilies) · consultada el 2026-11-15
-  - Qué se tomó: Luz brillante indirecta, tolera sombra pero florece poco, regar al secarse los primeros centímetros y menos en invierno, compost con perlita 3:1, humedad moderada, 12-24 °C, planta venenosa / Luz brillante indirecta, fuera del sol directo de verano; sobrevive en sombra más profunda; 12 a 24 °C; lejos de radiadores calientes. / Selvas tropicales de América Central y Colombia; luz indirecta brillante; en sombra más profunda rara vez florece; si no florece, la causa habitual es poca luz; lo blanco es una espata que rodea la espiga (espádice) con las flores verdaderas, y dura meses. / Espatifilo: dividir en primavera una mata grande, cortando o separando el pan de raíces; cada pedazo con muchas raíces y varios tallos fuertes.
-  - Usada en: lección familias-4, lección multiplicar-3, planta espatifilo (cuidados)
+  - Qué se tomó: Luz brillante indirecta, tolera sombra pero florece poco, regar al secarse los primeros centímetros y menos en invierno, compost con perlita 3:1, humedad moderada, 12-24 °C, planta venenosa / Luz brillante indirecta, fuera del sol directo de verano; sobrevive en sombra más profunda; 12 a 24 °C; lejos de radiadores calientes. / Selvas tropicales de América Central y Colombia; luz indirecta brillante; en sombra más profunda rara vez florece; si no florece, la causa habitual es poca luz; lo blanco es una espata que rodea la espiga (espádice) con las flores verdaderas, y dura meses. / Espatifilo: dividir en primavera una mata grande, cortando o separando el pan de raíces; cada pedazo con muchas raíces y varios tallos fuertes. / Espatifilo: espatas varios meses, abono abril-octubre, cortar flores marchitas, guantes
+  - Usada en: lección familias-4, lección familias-7, lección multiplicar-3, planta espatifilo (cuidados)
 - [How to grow peperomia](https://www.rhs.org.uk/plants/peperomia/how-to-grow-peperomia) · consultada el 2026-11-14
   - Qué se tomó: Género: luz brillante indirecta, dejar secar en parte entre riegos, menos en invierno, se adapta al aire de casa pero prefiere humedad, sustrato suelto, 18-30 °C / Luz brillante indirecta o filtrada; el sol directo de verano quema, el de invierno es bienvenido; 18 a 30 °C, lejos de radiadores
   - Usada en: planta peperomia (cuidados)
 - [How to grow Phalaenopsis (moth orchids)](https://www.rhs.org.uk/plants/phalaenopsis/growing-guide) · consultada el 2026-11-15
-  - Qué se tomó: Ventana este u oeste, sin sol directo en verano, riego semanal aprox. con agua tibia y menos en invierno, compost de corteza, más de 16 °C, humedad con bandeja de grava / Luz brillante sin sol directo de verano; alféizar este u oeste; 19 a 30 °C de día; lejos de radiadores y estufas. / Epífita: vive sobre ramas de árboles; sustrato de corteza, nunca tierra común; regar con agua tibia más o menos una vez por semana, dejando escurrir; sin agua en el plato ni en el centro de las hojas; que las raíces no se sequen del todo; en invierno, luz brillante para florecer; en verano, sin sol directo.
-  - Usada en: lección familias-4, planta orquidea-phalaenopsis (cuidados)
-- [How to grow philodendrons](https://www.rhs.org.uk/plants/philodendron/growing-guide) · consultada el 2026-11-15
-  - Qué se tomó: Esquejes de tallo de unos 10 cm de primavera a fines del verano, cortando justo debajo de la unión de una hoja; sacar hojas de abajo y poner en un vaso con agua; raíces en un par de semanas; plantar cuando está bien enraizado; no dejar la planta adulta parada en agua.
-  - Usada en: lección multiplicar-1
+  - Qué se tomó: Ventana este u oeste, sin sol directo en verano, riego semanal aprox. con agua tibia y menos en invierno, compost de corteza, más de 16 °C, humedad con bandeja de grava / Luz brillante sin sol directo de verano; alféizar este u oeste; 19 a 30 °C de día; lejos de radiadores y estufas. / Epífita: vive sobre ramas de árboles; sustrato de corteza, nunca tierra común; regar con agua tibia más o menos una vez por semana, dejando escurrir; sin agua en el plato ni en el centro de las hojas; que las raíces no se sequen del todo; en invierno, luz brillante para florecer; en verano, sin sol directo. / Phalaenopsis: flores varios meses, abono para orquídeas, poco o nada en invierno
+  - Usada en: lección familias-4, lección familias-7, planta orquidea-phalaenopsis (cuidados)
 - [How to grow pilea](https://www.rhs.org.uk/plants/pilea/how-to-grow-pilea) · consultada el 2026-11-14
   - Qué se tomó: Luz brillante indirecta y orientación de ventanas, regar al secarse los primeros centímetros, menos en invierno, tolera aire seco de casa, arriba de 10 °C / Luz brillante sin sol directo; en ambientes muy soleados, lejos de la ventana sobre todo en verano; hojas marrón rojizo = demasiado sol directo
   - Usada en: planta pilea (cuidados)
@@ -190,8 +202,8 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: Hijitos de la cinta: sacar los de buen tamaño cuando tienen raíces y sujetarlos sobre compost húmedo, o cortarlos y ponerlos en un vaso con agua hasta que alarguen las raíces; las matas grandes se dividen, con cuchillo si hace falta, cada pedazo con un punto de crecimiento.
   - Usada en: lección multiplicar-1, lección multiplicar-3
 - [How to grow Swiss cheese plants](https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants) · consultada el 2026-11-15
-  - Qué se tomó: Luz indirecta, riego, humedad, sustrato abierto, 18-25 °C / Luz indirecta (ventana este u oeste o lejos de la ventana); el sol directo quema; lejos de calor directo como radiadores; el aire seco de calefacción pone marrones los bordes / Selvas tropicales; crece en el sotobosque sombrío y trepa a los árboles buscando luz, con raíces que salen del tallo; por eso luz filtrada o indirecta; el sol directo quema las hojas; con muy poca luz, menos agujeros; los agujeros aparecen cuando la planta empieza a trepar; aire húmedo: agrupar plantas ayuda.
-  - Usada en: lección familias-2, planta monstera (cuidados)
+  - Qué se tomó: Luz indirecta, riego, humedad, sustrato abierto, 18-25 °C / Luz indirecta (ventana este u oeste o lejos de la ventana); el sol directo quema; lejos de calor directo como radiadores; el aire seco de calefacción pone marrones los bordes / Selvas tropicales; crece en el sotobosque sombrío y trepa a los árboles buscando luz, con raíces que salen del tallo; por eso luz filtrada o indirecta; el sol directo quema las hojas; con muy poca luz, menos agujeros; los agujeros aparecen cuando la planta empieza a trepar; aire húmedo: agrupar plantas ayuda. / Monstera trepa por árboles buscando luz; raíces del tallo; al trepar da hojas más grandes con más agujeros / Poste de musgo sostiene plantas pesadas arriba; tallos enraízan si el musgo está húmedo
+  - Usada en: lección familias-2, lección familias-5, lección familias-6, planta monstera (cuidados)
 - [How to help a poorly houseplant](https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant) · consultada el 2026-11-14
   - Qué se tomó: Síntomas por causa: poca luz (crecimiento débil y alargado, hojas pálidas, caída de hojas bajas, variegadas que se vuelven verdes), exceso de sol (manchas marrones, aspecto desteñido), falta de agua (marchitez, bordes crocantes, amarillean primero las hojas viejas), exceso de agua (también marchita; hojas viejas y nuevas amarillean juntas), aire seco; las hojas viejas se secan naturalmente. / Plantas años en la misma maceta se quedan cortas de nutrientes; puntas y bordes marrones = signo clásico de aire seco; hojas que se enrollan por calor; manchas oscuras con borde amarillo = hongo; raíces oscuras y blandas por exceso de riego; amarilleo por falta/exceso de agua, poca luz o falta de nutrientes. Reabierta hoy. / Estrés por calor en interior (hojas marchitas, enrolladas, desteñidas o crocantes, típico de ambientes vidriados en verano); quemadura por radiador; daño por frío (hojas ennegrecidas, planta desplomada); cortina cerrada atrapa frío contra la ventana; corrientes dan hojas amarillas y bordes secos; puntas marrones por aire seco; hojas viejas que mueren es normal; exceso de agua hace caer hojas nuevas y viejas a la vez / Sacar el polvo deja llegar más luz a la hoja; cortar hojas totalmente marrones o amarillas (no se recuperan) y conservar las mayormente verdes hasta que haya hojas nuevas; puntas y bordes marrones = señal clásica de aire seco, común en invierno con calefacción, o de falta de riego; evitar productos de limpieza y aerosoles sobre las hojas; revisar plagas en plantas recién compradas.
   - Usada en: lección basico-1, lección basico-3, lección estaciones-1, lección estaciones-2, lección estaciones-3, lección luz-4, lección rutina-1, lección rutina-2
@@ -225,15 +237,15 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 
 ### ASPCA
 
-- [African Violet - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/african-violet) · consultada el 2026-11-14
-  - Qué se tomó: Saintpaulia spp.: no tóxica para perros ni gatos
-  - Usada en: planta violeta-africana (toxicidad)
+- [African Violet - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/african-violet) · consultada el 2026-11-15
+  - Qué se tomó: Saintpaulia spp.: no tóxica para perros ni gatos / Violeta africana no tóxica
+  - Usada en: lección familias-7, planta violeta-africana (toxicidad)
 - [Are Succulents Safe to Have Around Pets? (nota del 7/4/2021)](https://www.aspca.org/news/are-succulents-safe-have-around-pets) · consultada el 2026-11-14
   - Qué se tomó: Lista como no tóxicas a Pilea peperomioides y Echeveria sp.; como tóxica a Crassula ovata (vómitos, diarrea, letargo, inapetencia)
   - Usada en: planta jade (toxicidad), planta echeveria (toxicidad), planta pilea (toxicidad)
-- [Begonia - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/begonia) · consultada el 2026-11-14
-  - Qué se tomó: Begonia spp.: tóxica para perros y gatos; oxalatos de calcio solubles; vómitos y salivación; falla renal solo en animales de pastoreo; parte subterránea la más tóxica
-  - Usada en: planta begonia (toxicidad)
+- [Begonia - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/begonia) · consultada el 2026-11-15
+  - Qué se tomó: Begonia spp.: tóxica para perros y gatos; oxalatos de calcio solubles; vómitos y salivación; falla renal solo en animales de pastoreo; parte subterránea la más tóxica / Begonia tóxica para perros y gatos, más tóxica bajo tierra
+  - Usada en: lección familias-7, planta begonia (toxicidad)
 - [Boston Fern](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/boston-fern) · consultada el 2026-11-14
   - Qué se tomó: No tóxico para perros ni gatos / Nephrolepis exaltata bostoniensis no tóxica para perros ni gatos. No usada en el quiz (ver revisar).
   - Usada en: planta helecho-serrucho (toxicidad)
@@ -243,24 +255,51 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Corn Plant (Dracaena fragrans)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/corn-plant) · consultada el 2026-11-14
   - Qué se tomó: Tóxica para perros y gatos; saponinas; signos
   - Usada en: planta palo-de-agua (toxicidad)
-- [Flamingo Flower - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/flamingo-flower) · consultada el 2026-11-14
-  - Qué se tomó: Anthurium scherzeranum (no andraeanum): tóxica para perros y gatos; oxalatos de calcio insolubles; irritación oral, babeo, vómitos
-  - Usada en: planta anturio (toxicidad)
+- [Cutleaf Philodendron (Monstera deliciosa)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron) · consultada el 2026-11-15
+  - Qué se tomó: Tóxica para perros y gatos; oxalatos insolubles; signos / Monstera deliciosa tóxica para perros y gatos; oxalatos de calcio insolubles. / Tóxica para gato y perro
+  - Usada en: lección familias-6, lección mascotas-3, planta monstera (toxicidad)
+- [Easter Lily - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/easter-lily) · consultada el 2026-11-15
+  - Qué se tomó: Lilium longiflorum tóxico para gatos, riesgo de falla renal
+  - Usada en: lección familias-7
+- [English Ivy (Hedera helix)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/english-ivy) · consultada el 2026-11-15
+  - Qué se tomó: Hiedra tóxica para perros, gatos y caballos (saponinas); vómitos, salivación
+  - Usada en: lección familias-5
+- [Flamingo Flower - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/flamingo-flower) · consultada el 2026-11-15
+  - Qué se tomó: Anthurium scherzeranum (no andraeanum): tóxica para perros y gatos; oxalatos de calcio insolubles; irritación oral, babeo, vómitos / Anturio tóxico para perros y gatos
+  - Usada en: lección familias-7, planta anturio (toxicidad)
+- [Heartleaf Philodendron (Philodendron hederaceum)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/heartleaf-philodendron) · consultada el 2026-11-15
+  - Qué se tomó: Philodendron hederaceum: tóxica para perros y gatos; oxalatos de calcio insolubles; irritación oral, babeo, vómitos, dificultad para tragar / Filodendro hoja de corazón tóxico para perros y gatos
+  - Usada en: lección familias-5, planta filodendro (toxicidad)
 - [How to Safely Treat Your House with Insecticides](https://www.aspca.org/news/how-safely-treat-your-house-insecticides) · consultada el 2026-11-15
   - Qué se tomó: Los insecticidas son más peligrosos mojados: mantener a las mascotas lejos hasta que seque; leer la etiqueta; guardar bajo llave y en alto. (Se abrió por https://www.aspca.org/node/67862, que redirige a esta URL.)
   - Usada en: lección plagas-3
 - [Is That Houseplant Safe for Your Pets? (2019)](https://www.aspca.org/news/houseplant-safe-your-pets) · consultada el 2026-11-14
   - Qué se tomó: Ficus lyrata y cinta: levemente tóxicas; Dracaena spp.: moderadamente tóxica; potus: no pone en riesgo la vida / Palma sagú: semillas lo más concentrado, falla hepática en hasta tres días; plantas con oxalatos (potus, espatifilo, cala) no se consideran mortales.
   - Usada en: planta cinta (toxicidad), planta ficus-lyrata (toxicidad), planta palo-de-agua (toxicidad), planta potus (toxicidad), advertencia palma-sagu
+- [Kalanchoe - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/kalanchoe) · consultada el 2026-11-15
+  - Qué se tomó: Tóxica para perros y gatos; bufadienólidos; vómitos, diarrea, ritmo cardíaco anormal (raro). Evaluada para peligrosas y descartada (ver revisar). / Kalanchoe tóxico para perros y gatos
+  - Usada en: lección familias-7
 - [Parlor Palm - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/parlor-palm) · consultada el 2026-11-14
   - Qué se tomó: Chamaedorea elegans: no tóxica para perros ni gatos
   - Usada en: planta palmera-de-salon (toxicidad)
+- [Peace Lily - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily) · consultada el 2026-11-15
+  - Qué se tomó: Spathiphyllum: tóxica para perros y gatos; oxalatos de calcio insolubles; irritación oral, babeo, vómitos, dificultad para tragar / Spathiphyllum tóxico para perros y gatos; oxalatos de calcio insolubles; irritación oral, babeo, vómitos. / Espatifilo tóxico para perros y gatos (oxalatos)
+  - Usada en: lección familias-7, lección mascotas-2, planta espatifilo (toxicidad)
 - [Phalaenopsis Orchid - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/phalaenopsis-orchid) · consultada el 2026-11-14
   - Qué se tomó: Phalaenopsis sp.: no tóxica para perros ni gatos / Phalaenopsis sp. no tóxica para perros, gatos ni caballos. Verificada pero no usada en el quiz.
   - Usada en: planta orquidea-phalaenopsis (toxicidad)
+- [Pothos (Epipremnum aureum)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/pothos) · consultada el 2026-11-15
+  - Qué se tomó: Potus tóxico para perros y gatos (oxalatos de calcio) / Tóxico para gato y perro
+  - Usada en: lección familias-5, lección familias-6
 - [Snake Plant (Sansevieria trifasciata)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/snake-plant) · consultada el 2026-11-14
   - Qué se tomó: Tóxica para perros y gatos; saponinas; náuseas, vómitos, diarrea / Sansevieria trifasciata tóxica para perros y gatos; saponinas; náuseas, vómitos, diarrea. Verificada pero no usada en el quiz.
   - Usada en: planta lengua-de-suegra (toxicidad)
+- [Split Leaf Philodendron](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/split-leaf-philodendron) · consultada el 2026-11-15
+  - Qué se tomó: Tóxico para gato y perro (genérico filodendro)
+  - Usada en: lección familias-6
+- [Swiss Cheese Plant (Monstera deliciosa)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/swiss-cheese-plant) · consultada el 2026-11-15
+  - Qué se tomó: Monstera tóxica para perros y gatos
+  - Usada en: lección familias-5
 - [These Houseplants Can Cause Trouble for Your Pets](https://www.aspca.org/news/these-houseplants-can-cause-trouble-your-pets) · consultada el 2026-11-14
   - Qué se tomó: Grupo de plantas con oxalatos insolubles (incluye Zamioculcas spp., Epipremnum spp., Monstera spp.): mecanismo, signos, gravedad baja / Plantas con oxalatos insolubles (dieffenbachia, cala, potus, espatifilo, monstera): gravedad baja, muchas exposiciones se manejan en casa.
   - Usada en: planta monstera (toxicidad), planta zamioculca (toxicidad)
@@ -273,9 +312,6 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Toxic and Non-toxic Plants: Christmas Cactus](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/christmas-cactus) · consultada el 2026-11-14
   - Qué se tomó: Christmas cactus (figura como Schlumbergera bridgesii): no tóxica para perros, gatos y caballos
   - Usada en: planta cactus-de-navidad (toxicidad)
-- [Toxic and Non-toxic Plants: Heartleaf Philodendron](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/heartleaf-philodendron) · consultada el 2026-11-14
-  - Qué se tomó: Philodendron hederaceum: tóxica para perros y gatos; oxalatos de calcio insolubles; irritación oral, babeo, vómitos, dificultad para tragar
-  - Usada en: planta filodendro (toxicidad)
 - [Toxic and Non-toxic Plants: Jade Plant](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/jade-plant) · consultada el 2026-11-14
   - Qué se tomó: Jade (figura como Crassula argentea): tóxica para perros y gatos; principio desconocido; vómitos, depresión, incoordinación
   - Usada en: planta jade (toxicidad)
@@ -288,6 +324,66 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Which Lilies Are Toxic to Pets?](https://www.aspca.org/news/which-lilies-are-toxic-pets) · consultada el 2026-11-14
   - Qué se tomó: Lilium y Hemerocallis: todas las partes, polen lamido del pelo y agua del florero; suele ser mortal si el tratamiento se demora más de 18 horas; las flores sueltan hojas y polen; el espatifilo rara vez causa algo grave.
   - Usada en: lección mascotas-3, advertencia lirios
+
+### NC State Extension Gardener Plant Toolbox
+
+- [Anthurium andraeanum (Flamingo Flower)](https://plants.ces.ncsu.edu/plants/anthurium-andraeanum/) · consultada el 2026-11-14
+  - Qué se tomó: Luz brillante indirecta, regar al secarse los primeros 2-3 cm, humedad 60-80 %, 18-27 °C, zonas 11-12, 30-45 cm; toxicidad baja por oxalato de calcio, todas las partes, problema para perros y gatos / Luz brillante indirecta; el sol directo puede quemar las hojas; 18 a 27 °C.
+  - Usada en: planta anturio (cuidados), planta anturio (toxicidad)
+- [Begonia - Rex Types (Begonia rex)](https://plants.ces.ncsu.edu/plants/begonia-rex-types/) · consultada el 2026-11-14
+  - Qué se tomó: Luz brillante indirecta, tierra húmeda sin exceso, no rociar, humedad alta, sustrato orgánico con drenaje, zonas 10-12, 30-45 cm; toxicidad baja por oxalato de calcio, raíces lo más tóxico, problema para gatos y perros / Luz brillante indirecta; sol tamizado o media sombra; solo un cultivar figura como tolerante al calor.
+  - Usada en: planta begonia (cuidados), planta begonia (toxicidad)
+- [Chamaedorea elegans (Parlor Palm)](https://plants.ces.ncsu.edu/plants/chamaedorea-elegans/) · consultada el 2026-11-14
+  - Qué se tomó: Luz brillante indirecta, tolera poca luz, dejar secar apenas entre riegos, humedad baja a media, sustrato rico en humus con drenaje, zonas 10-12, hasta 1,5 m en interior; no peligrosa para mascotas / Luz brillante indirecta, tolera poca luz; ventana norte o este (hemisferio norte); sol tamizado a sombra profunda.
+  - Usada en: planta palmera-de-salon (cuidados), planta palmera-de-salon (toxicidad)
+- [Chrysalidocarpus lutescens (Areca Palm)](https://plants.ces.ncsu.edu/plants/dypsis-lutescens/) · consultada el 2026-11-14
+  - Qué se tomó: Luz brillante indirecta en interior, húmeda sin encharcar en época de crecimiento, humedad alta, zonas 10-11; etiquetas no tóxica para gatos y perros, pero menciona glucósidos cianogénicos de baja severidad / Adentro luz brillante indirecta; afuera tolera pleno sol pero prefiere media sombra; figura como resistente al calor.
+  - Usada en: planta palmera-areca (cuidados), planta palmera-areca (toxicidad)
+- [Dracaena sanderiana (Lucky Bamboo)](https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/) · consultada el 2026-11-15
+  - Qué se tomó: Puede cultivarse en agua sin cloro; cambiar el agua cada semana; abono líquido débil; luz indirecta brillante.
+  - Usada en: lección multiplicar-2
+- [Dracaena trifasciata (Snake Plant)](https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/) · consultada el 2026-11-15
+  - Qué se tomó: Luz, riego, humedad, temperatura y toxicidad (saponinas) / Media sombra (2 a 6 h de sol directo); tolera muy poca luz; resistente al calor y la sequía / Lengua de suegra rara vez florece en interior
+  - Usada en: lección familias-7, planta lengua-de-suegra (cuidados), planta lengua-de-suegra (toxicidad)
+- [Epipremnum aureum (Pothos)](https://plants.ces.ncsu.edu/plants/epipremnum-aureum/) · consultada el 2026-11-15
+  - Qué se tomó: Luz, riego, drenaje, humedad y toxicidad (oxalatos; problema para gatos y perros) / Luz brillante indirecta; sobrevive mucho tiempo con poca luz / Araceae; trepa con raíces aéreas; prefiere luz indirecta brillante y tolera poca luz mucho tiempo; con poca luz pierde el variegado; con soporte y luz da hojas grandes; dejar secar entre riegos. / Las guías enraízan fácil en agua (foto con raíces a las 2 semanas). / Potus trepa con raíces aéreas; en maceta conserva hoja joven, con soporte y luz da hojas grandes maduras
+  - Usada en: lección familias-2, lección familias-5, lección multiplicar-1, planta potus (cuidados), planta potus (toxicidad)
+- [Goeppertia makoyana (Peacock Plant)](https://plants.ces.ncsu.edu/plants/goeppertia-makoyana/) · consultada el 2026-11-15
+  - Qué se tomó: Luz brillante indirecta, tierra húmeda no encharcada, agua de lluvia o destilada por el flúor, humedad ~60 %, 18-24 °C, zonas 11-12, 30-60 cm, etiquetas no tóxica para gatos y perros / Luz brillante indirecta o media sombra; el sol directo quema; no tolera sol directo ni poca luz; 18 a 24 °C. / Nativa de las selvas tropicales del sudeste de Brasil; ambiente cálido, sombreado y húmedo; cerca de 60 % de humedad; con aire seco las hojas se enrollan o se ponen marrones; luz indirecta brillante, el sol directo quema; tierra húmeda sin encharcar.
+  - Usada en: lección familias-3, planta calatea (cuidados), planta calatea (toxicidad)
+- [Haworthiopsis attenuata](https://plants.ces.ncsu.edu/plants/haworthiopsis-attenuata/) · consultada el 2026-11-15
+  - Qué se tomó: Sinónimos, luz brillante indirecta, tolera poca luz, dejar secar entre riegos, humedad de casa, mantener arriba de 10 °C, no tóxica para mascotas y personas / Luz brillante indirecta; el sol directo puede quemar las hojas; algo tolerante a poca luz; 15 a 27 °C / Prefiere luz indirecta brillante, tolera poca luz; el sol directo le quema las hojas; riego escaso; mezcla para cactus.
+  - Usada en: lección familias-1, planta haworthia (cuidados), planta haworthia (toxicidad)
+- [Hedera helix (English ivy)](https://plants.ces.ncsu.edu/plants/hedera-helix/) · consultada el 2026-11-15
+  - Qué se tomó: Hiedra: raíces adventicias para trepar; usable como planta de interior
+  - Usada en: lección familias-5
+- [Monstera deliciosa](https://plants.ces.ncsu.edu/plants/monstera-deliciosa/) · consultada el 2026-11-15
+  - Qué se tomó: Luz, riego, humedad, temperatura, tamaño interior y toxicidad / Claridad moderada, sin sol directo; 15 a 29 °C / Araceae; México a Panamá; trepadora que se vuelve epífita; hojas muy grandes con agujeros al madurar; claridad sin sol directo; regar cuando se seca el cuarto o tercio superior; humedad alta.
+  - Usada en: lección familias-2, planta monstera (cuidados), planta monstera (toxicidad)
+- [Nephrolepis exaltata (Boston Fern)](https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/) · consultada el 2026-11-15
+  - Qué se tomó: Luz, riego, humedad, temperatura, tamaño; etiquetas no tóxica / Luz brillante indirecta, 15 a 21 °C; categorías sol tamizado y sombra profunda; solo el cultivar 'Dallas' figura como tolerante a poca luz. / América tropical y subtropical; necesita humedad alta y tierra que nunca se seque; luz indirecta brillante.
+  - Usada en: lección familias-3, planta helecho-serrucho (cuidados), planta helecho-serrucho (toxicidad)
+- [Phalaenopsis (Moth Orchid)](https://plants.ces.ncsu.edu/plants/phalaenopsis/) · consultada el 2026-11-14
+  - Qué se tomó: Luz baja/ventana este, riego semanal aprox. con agua tibia y buen escurrido, sustrato de corteza, humedad alta, zonas USDA 10-12, 45-60 cm, etiquetas no tóxica para gatos y perros / Prefiere poca luz y calor; mejor lugar: alféizar este; sur y oeste solo bien sombreados.
+  - Usada en: planta orquidea-phalaenopsis (cuidados), planta orquidea-phalaenopsis (toxicidad)
+- [Philodendron hederaceum](https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/) · consultada el 2026-11-15
+  - Qué se tomó: Luz media y tolera poca, tierra apenas húmeda y menos riego en invierno, humedad media, zonas 11a-12b, toxicidad baja por cristales de oxalato de calcio, todas las partes / Prefiere luz media, tolera poca luz y aguanta mucho tiempo con muy poca / Araceae; de México a América tropical; trepa o cuelga; prefiere luz media y tolera poca luz; tierra apenas húmeda; tolera el aire seco. Recomienda rociar (discrepancia registrada, no usada). / Filodendro hoja de corazón: raíces adventicias, trepa o cuelga; tóxico para gatos y perros
+  - Usada en: lección familias-2, lección familias-5, planta filodendro (cuidados), planta filodendro (toxicidad)
+- [Pilea peperomioides](https://plants.ces.ncsu.edu/plants/pilea-peperomioides/) · consultada el 2026-11-15
+  - Qué se tomó: Luz brillante indirecta, sustrato húmedo y drenante, humedad moderada a alta pero tolera la de casa, 20-30 cm, dice que es segura para mascotas y chicos / Luz brillante indirecta; evitar corrientes frías y fuentes de calor / La pilea se propaga por hijuelos y por esquejes de tallo; mejor en primavera o comienzos del verano.
+  - Usada en: lección multiplicar-3, planta pilea (cuidados), planta pilea (toxicidad)
+- [Schlumbergera x buckleyi](https://plants.ces.ncsu.edu/plants/schlumbergera-x-buckleyi/) · consultada el 2026-11-15
+  - Qué se tomó: Luz brillante indirecta, sustrato aireado, riego por temporada, humedad alta, floración diciembre-febrero (norte) con 13 h de oscuridad desde mediados de septiembre, no tóxica / Luz brillante indirecta / media sombra; el sol pleno decolora los tallos; 21 a 27 °C / Cactus epífito; luz indirecta brillante; florece con noches frescas y al menos 13 horas de oscuridad sin interrupción desde mediados de septiembre (hemisferio norte); tierra húmeda, nunca reseca del todo en primavera y verano.
+  - Usada en: lección familias-4, planta cactus-de-navidad (cuidados), planta cactus-de-navidad (toxicidad)
+- [Spathiphyllum (Peace Lily)](https://plants.ces.ncsu.edu/plants/spathiphyllum/) · consultada el 2026-11-14
+  - Qué se tomó: Sombra parcial a profunda sin sol directo, tierra húmeda no encharcada, sustrato orgánico con drenaje, daño por frío bajo 4 °C, zonas 11-12; toxicidad severidad media por oxalato de calcio, problema para gatos y perros / Sombra parcial a profunda; no ponerla al sol directo; puntas marrones por exceso de sol.
+  - Usada en: planta espatifilo (cuidados), planta espatifilo (toxicidad)
+- [Streptocarpus ionanthus (African Violet)](https://plants.ces.ncsu.edu/plants/saintpaulia-ionantha/) · consultada el 2026-11-14
+  - Qué se tomó: Luz brillante filtrada, riego por abajo con hojas secas y agua no fría, mezcla liviana de turba/vermiculita/perlita, humedad alta, 15-27 °C, 15-23 cm, etiquetas no tóxica para gatos y perros / Luz brillante filtrada; 15 a 27 °C.
+  - Usada en: planta violeta-africana (cuidados), planta violeta-africana (toxicidad)
+- [Zamioculcas zamiifolia](https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/) · consultada el 2026-11-15
+  - Qué se tomó: Luz, riego, sustrato, temperatura, tamaño y toxicidad media para gatos y perros / Luz brillante indirecta; el sol directo escalda y pone marrones las hojas / Rizomas carnosos que almacenan agua y la hacen muy tolerante a la sequía. / Familia Araceae; nativa de África tropical; rizomas gruesos bajo tierra; las hojas guardan agua; se cuida parecido a cactus y suculentas; tolera muy poca luz, mejor luz indirecta brillante; el sol directo quema las hojas; regar solo con la tierra seca por completo. / Zamioculca rara vez florece
+  - Usada en: lección basico-2, lección familias-2, lección familias-7, planta zamioculca (cuidados), planta zamioculca (toxicidad)
 
 ### Pet Poison Helpline
 
@@ -349,63 +445,6 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: Mayor concentración en bulbos; hojas y flores dan náuseas y vómitos leves; bulbos dan signos digestivos persistentes y decaimiento.
   - Usada en: advertencia bulbos
 
-### ASPCA Animal Poison Control
-
-- [Areca Palm](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/areca-palm) · consultada el 2026-11-14
-  - Qué se tomó: Dypsis lutescens: no tóxica para perros ni gatos / Dypsis lutescens no tóxica para perros, gatos ni caballos.
-  - Usada en: lección mascotas-3, planta palmera-areca (toxicidad)
-- [Azalea](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/azalea) · consultada el 2026-11-14
-  - Qué se tomó: Rhododendron spp. tóxica para perros, gatos y caballos; grayanotoxina; vómitos, diarrea, debilidad, falla cardíaca.
-  - Usada en: advertencia azalea
-- [Castor Bean Plant](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/castor-bean-plant) · consultada el 2026-11-14
-  - Qué se tomó: Ricinus communis tóxica para perros, gatos y caballos; ricina; semillas muy tóxicas; signos a las 12-48 h; puede ser mortal.
-  - Usada en: advertencia ricino
-- [Cutleaf Philodendron (Monstera deliciosa)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron) · consultada el 2026-11-14
-  - Qué se tomó: Tóxica para perros y gatos; oxalatos insolubles; signos / Monstera deliciosa tóxica para perros y gatos; oxalatos de calcio insolubles.
-  - Usada en: lección mascotas-3, planta monstera (toxicidad)
-- [Daffodil](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/daffodil) · consultada el 2026-11-14
-  - Qué se tomó: Narcissus tóxico para perros, gatos y caballos; bulbos lo más venenoso; ingestas grandes: convulsiones, presión baja, temblores, arritmias.
-  - Usada en: advertencia bulbos
-- [Day Lilies (many varieties)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/day-lilies-many-varieties) · consultada el 2026-11-14
-  - Qué se tomó: Hemerocallis: tóxica para gatos (vómitos, decaimiento, falla renal, muerte); no tóxica para perros.
-  - Usada en: advertencia lirios
-- [Garlic](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/garlic) · consultada el 2026-11-15
-  - Qué se tomó: El ajo es tóxico para perros y gatos (anemia hemolítica, vómitos).
-  - Usada en: lección plagas-3
-- [Golden Pothos](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos) · consultada el 2026-11-14
-  - Qué se tomó: Tóxica para perros y gatos; oxalatos de calcio insolubles; signos / Epipremnum aureum tóxico para perros y gatos; oxalatos de calcio insolubles; irritación oral, babeo, vómitos.
-  - Usada en: lección mascotas-1, planta potus (toxicidad)
-- [Lavender](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lavender) · consultada el 2026-11-14
-  - Qué se tomó: Lavandula angustifolia tóxica para perros, gatos y caballos; linalool y acetato de linalilo; náuseas, vómitos, inapetencia.
-  - Usada en: lección mascotas-3
-- [Lemon](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lemon) · consultada el 2026-11-14
-  - Qué se tomó: Limonero tóxico para perros, gatos y caballos; aceites esenciales y psoralenos; la fruta es comestible, cáscara y planta dan problemas.
-  - Usada en: lección mascotas-3
-- [Lily](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lily) · consultada el 2026-11-14
-  - Qué se tomó: Tóxico para gatos (falla renal); no tóxico para perros ni caballos; principio tóxico desconocido.
-  - Usada en: advertencia lirios
-- [Oleander](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/oleander) · consultada el 2026-11-14
-  - Qué se tomó: Nerium oleander tóxica para perros, gatos y caballos; glucósidos cardíacos; babeo, dolor abdominal, diarrea, muerte.
-  - Usada en: lección mascotas-1, advertencia adelfa
-- [Orange](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/orange) · consultada el 2026-11-14
-  - Qué se tomó: Naranjo: igual que el limonero.
-  - Usada en: lección mascotas-3
-- [Peace Lily](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily) · consultada el 2026-11-14
-  - Qué se tomó: Spathiphyllum: tóxica para perros y gatos; oxalatos de calcio insolubles; irritación oral, babeo, vómitos, dificultad para tragar / Spathiphyllum tóxico para perros y gatos; oxalatos de calcio insolubles; irritación oral, babeo, vómitos.
-  - Usada en: lección mascotas-2, planta espatifilo (toxicidad)
-- [Sago Palm](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/sago-palm) · consultada el 2026-11-14
-  - Qué se tomó: Cycas revoluta tóxica para perros, gatos y caballos; cicasina; daño y falla hepática, muerte.
-  - Usada en: lección mascotas-1, advertencia palma-sagu
-- [Spider Plant](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant) · consultada el 2026-11-14
-  - Qué se tomó: No tóxica para perros ni gatos / Chlorophytum comosum no tóxica para perros ni gatos.
-  - Usada en: lección mascotas-1, planta cinta (toxicidad)
-- [Toxic and Non-Toxic Plants List](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants) · consultada el 2026-11-14
-  - Qué se tomó: La lista no es completa; cualquier planta puede dar vómitos o malestar digestivo; las no tóxicas o de malestar leve no se esperan mortales.
-  - Usada en: lección mascotas-1
-- [Tulip](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/tulip) · consultada el 2026-11-14
-  - Qué se tomó: Tulipa tóxica para perros, gatos y caballos; mayor concentración en el bulbo; vómitos, decaimiento, diarrea, babeo.
-  - Usada en: advertencia bulbos
-
 ### Iowa State University Extension and Outreach
 
 - [All About African Violets](https://yardandgarden.extension.iastate.edu/how-to/all-about-african-violets) · consultada el 2026-11-15
@@ -460,59 +499,56 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: Causas de puntas marrones: aire seco (la más probable), riego irregular, exceso de abono, calidad del agua; se pueden recortar con tijera, pero vuelven si no se corrige la causa.
   - Usada en: lección rutina-2
 
-### NC State Extension Gardener Plant Toolbox
+### ASPCA Animal Poison Control
 
-- [Anthurium andraeanum (Flamingo Flower)](https://plants.ces.ncsu.edu/plants/anthurium-andraeanum/) · consultada el 2026-11-14
-  - Qué se tomó: Luz brillante indirecta, regar al secarse los primeros 2-3 cm, humedad 60-80 %, 18-27 °C, zonas 11-12, 30-45 cm; toxicidad baja por oxalato de calcio, todas las partes, problema para perros y gatos / Luz brillante indirecta; el sol directo puede quemar las hojas; 18 a 27 °C.
-  - Usada en: planta anturio (cuidados), planta anturio (toxicidad)
-- [Begonia - Rex Types (Begonia rex)](https://plants.ces.ncsu.edu/plants/begonia-rex-types/) · consultada el 2026-11-14
-  - Qué se tomó: Luz brillante indirecta, tierra húmeda sin exceso, no rociar, humedad alta, sustrato orgánico con drenaje, zonas 10-12, 30-45 cm; toxicidad baja por oxalato de calcio, raíces lo más tóxico, problema para gatos y perros / Luz brillante indirecta; sol tamizado o media sombra; solo un cultivar figura como tolerante al calor.
-  - Usada en: planta begonia (cuidados), planta begonia (toxicidad)
-- [Chamaedorea elegans (Parlor Palm)](https://plants.ces.ncsu.edu/plants/chamaedorea-elegans/) · consultada el 2026-11-14
-  - Qué se tomó: Luz brillante indirecta, tolera poca luz, dejar secar apenas entre riegos, humedad baja a media, sustrato rico en humus con drenaje, zonas 10-12, hasta 1,5 m en interior; no peligrosa para mascotas / Luz brillante indirecta, tolera poca luz; ventana norte o este (hemisferio norte); sol tamizado a sombra profunda.
-  - Usada en: planta palmera-de-salon (cuidados), planta palmera-de-salon (toxicidad)
-- [Chrysalidocarpus lutescens (Areca Palm)](https://plants.ces.ncsu.edu/plants/dypsis-lutescens/) · consultada el 2026-11-14
-  - Qué se tomó: Luz brillante indirecta en interior, húmeda sin encharcar en época de crecimiento, humedad alta, zonas 10-11; etiquetas no tóxica para gatos y perros, pero menciona glucósidos cianogénicos de baja severidad / Adentro luz brillante indirecta; afuera tolera pleno sol pero prefiere media sombra; figura como resistente al calor.
-  - Usada en: planta palmera-areca (cuidados), planta palmera-areca (toxicidad)
-- [Dracaena sanderiana (Lucky Bamboo)](https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/) · consultada el 2026-11-15
-  - Qué se tomó: Puede cultivarse en agua sin cloro; cambiar el agua cada semana; abono líquido débil; luz indirecta brillante.
-  - Usada en: lección multiplicar-2
-- [Epipremnum aureum (Pothos)](https://plants.ces.ncsu.edu/plants/epipremnum-aureum/) · consultada el 2026-11-15
-  - Qué se tomó: Luz, riego, drenaje, humedad y toxicidad (oxalatos; problema para gatos y perros) / Luz brillante indirecta; sobrevive mucho tiempo con poca luz / Araceae; trepa con raíces aéreas; prefiere luz indirecta brillante y tolera poca luz mucho tiempo; con poca luz pierde el variegado; con soporte y luz da hojas grandes; dejar secar entre riegos. / Las guías enraízan fácil en agua (foto con raíces a las 2 semanas).
-  - Usada en: lección familias-2, lección multiplicar-1, planta potus (cuidados), planta potus (toxicidad)
-- [Goeppertia makoyana (Peacock Plant)](https://plants.ces.ncsu.edu/plants/goeppertia-makoyana/) · consultada el 2026-11-15
-  - Qué se tomó: Luz brillante indirecta, tierra húmeda no encharcada, agua de lluvia o destilada por el flúor, humedad ~60 %, 18-24 °C, zonas 11-12, 30-60 cm, etiquetas no tóxica para gatos y perros / Luz brillante indirecta o media sombra; el sol directo quema; no tolera sol directo ni poca luz; 18 a 24 °C. / Nativa de las selvas tropicales del sudeste de Brasil; ambiente cálido, sombreado y húmedo; cerca de 60 % de humedad; con aire seco las hojas se enrollan o se ponen marrones; luz indirecta brillante, el sol directo quema; tierra húmeda sin encharcar.
-  - Usada en: lección familias-3, planta calatea (cuidados), planta calatea (toxicidad)
-- [Haworthiopsis attenuata](https://plants.ces.ncsu.edu/plants/haworthiopsis-attenuata/) · consultada el 2026-11-15
-  - Qué se tomó: Sinónimos, luz brillante indirecta, tolera poca luz, dejar secar entre riegos, humedad de casa, mantener arriba de 10 °C, no tóxica para mascotas y personas / Luz brillante indirecta; el sol directo puede quemar las hojas; algo tolerante a poca luz; 15 a 27 °C / Prefiere luz indirecta brillante, tolera poca luz; el sol directo le quema las hojas; riego escaso; mezcla para cactus.
-  - Usada en: lección familias-1, planta haworthia (cuidados), planta haworthia (toxicidad)
-- [Monstera deliciosa](https://plants.ces.ncsu.edu/plants/monstera-deliciosa/) · consultada el 2026-11-15
-  - Qué se tomó: Luz, riego, humedad, temperatura, tamaño interior y toxicidad / Claridad moderada, sin sol directo; 15 a 29 °C / Araceae; México a Panamá; trepadora que se vuelve epífita; hojas muy grandes con agujeros al madurar; claridad sin sol directo; regar cuando se seca el cuarto o tercio superior; humedad alta.
-  - Usada en: lección familias-2, planta monstera (cuidados), planta monstera (toxicidad)
-- [Nephrolepis exaltata (Boston Fern)](https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/) · consultada el 2026-11-15
-  - Qué se tomó: Luz, riego, humedad, temperatura, tamaño; etiquetas no tóxica / Luz brillante indirecta, 15 a 21 °C; categorías sol tamizado y sombra profunda; solo el cultivar 'Dallas' figura como tolerante a poca luz. / América tropical y subtropical; necesita humedad alta y tierra que nunca se seque; luz indirecta brillante.
-  - Usada en: lección familias-3, planta helecho-serrucho (cuidados), planta helecho-serrucho (toxicidad)
-- [Phalaenopsis (Moth Orchid)](https://plants.ces.ncsu.edu/plants/phalaenopsis/) · consultada el 2026-11-14
-  - Qué se tomó: Luz baja/ventana este, riego semanal aprox. con agua tibia y buen escurrido, sustrato de corteza, humedad alta, zonas USDA 10-12, 45-60 cm, etiquetas no tóxica para gatos y perros / Prefiere poca luz y calor; mejor lugar: alféizar este; sur y oeste solo bien sombreados.
-  - Usada en: planta orquidea-phalaenopsis (cuidados), planta orquidea-phalaenopsis (toxicidad)
-- [Philodendron hederaceum](https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/) · consultada el 2026-11-15
-  - Qué se tomó: Luz media y tolera poca, tierra apenas húmeda y menos riego en invierno, humedad media, zonas 11a-12b, toxicidad baja por cristales de oxalato de calcio, todas las partes / Prefiere luz media, tolera poca luz y aguanta mucho tiempo con muy poca / Araceae; de México a América tropical; trepa o cuelga; prefiere luz media y tolera poca luz; tierra apenas húmeda; tolera el aire seco. Recomienda rociar (discrepancia registrada, no usada).
-  - Usada en: lección familias-2, planta filodendro (cuidados), planta filodendro (toxicidad)
-- [Pilea peperomioides](https://plants.ces.ncsu.edu/plants/pilea-peperomioides/) · consultada el 2026-11-15
-  - Qué se tomó: Luz brillante indirecta, sustrato húmedo y drenante, humedad moderada a alta pero tolera la de casa, 20-30 cm, dice que es segura para mascotas y chicos / Luz brillante indirecta; evitar corrientes frías y fuentes de calor / La pilea se propaga por hijuelos y por esquejes de tallo; mejor en primavera o comienzos del verano.
-  - Usada en: lección multiplicar-3, planta pilea (cuidados), planta pilea (toxicidad)
-- [Schlumbergera x buckleyi](https://plants.ces.ncsu.edu/plants/schlumbergera-x-buckleyi/) · consultada el 2026-11-15
-  - Qué se tomó: Luz brillante indirecta, sustrato aireado, riego por temporada, humedad alta, floración diciembre-febrero (norte) con 13 h de oscuridad desde mediados de septiembre, no tóxica / Luz brillante indirecta / media sombra; el sol pleno decolora los tallos; 21 a 27 °C / Cactus epífito; luz indirecta brillante; florece con noches frescas y al menos 13 horas de oscuridad sin interrupción desde mediados de septiembre (hemisferio norte); tierra húmeda, nunca reseca del todo en primavera y verano.
-  - Usada en: lección familias-4, planta cactus-de-navidad (cuidados), planta cactus-de-navidad (toxicidad)
-- [Spathiphyllum (Peace Lily)](https://plants.ces.ncsu.edu/plants/spathiphyllum/) · consultada el 2026-11-14
-  - Qué se tomó: Sombra parcial a profunda sin sol directo, tierra húmeda no encharcada, sustrato orgánico con drenaje, daño por frío bajo 4 °C, zonas 11-12; toxicidad severidad media por oxalato de calcio, problema para gatos y perros / Sombra parcial a profunda; no ponerla al sol directo; puntas marrones por exceso de sol.
-  - Usada en: planta espatifilo (cuidados), planta espatifilo (toxicidad)
-- [Streptocarpus ionanthus (African Violet)](https://plants.ces.ncsu.edu/plants/saintpaulia-ionantha/) · consultada el 2026-11-14
-  - Qué se tomó: Luz brillante filtrada, riego por abajo con hojas secas y agua no fría, mezcla liviana de turba/vermiculita/perlita, humedad alta, 15-27 °C, 15-23 cm, etiquetas no tóxica para gatos y perros / Luz brillante filtrada; 15 a 27 °C.
-  - Usada en: planta violeta-africana (cuidados), planta violeta-africana (toxicidad)
-- [Zamioculcas zamiifolia](https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/) · consultada el 2026-11-15
-  - Qué se tomó: Luz, riego, sustrato, temperatura, tamaño y toxicidad media para gatos y perros / Luz brillante indirecta; el sol directo escalda y pone marrones las hojas / Rizomas carnosos que almacenan agua y la hacen muy tolerante a la sequía. / Familia Araceae; nativa de África tropical; rizomas gruesos bajo tierra; las hojas guardan agua; se cuida parecido a cactus y suculentas; tolera muy poca luz, mejor luz indirecta brillante; el sol directo quema las hojas; regar solo con la tierra seca por completo.
-  - Usada en: lección basico-2, lección familias-2, planta zamioculca (cuidados), planta zamioculca (toxicidad)
+- [Areca Palm](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/areca-palm) · consultada el 2026-11-14
+  - Qué se tomó: Dypsis lutescens: no tóxica para perros ni gatos / Dypsis lutescens no tóxica para perros, gatos ni caballos.
+  - Usada en: lección mascotas-3, planta palmera-areca (toxicidad)
+- [Azalea](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/azalea) · consultada el 2026-11-14
+  - Qué se tomó: Rhododendron spp. tóxica para perros, gatos y caballos; grayanotoxina; vómitos, diarrea, debilidad, falla cardíaca.
+  - Usada en: advertencia azalea
+- [Castor Bean Plant](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/castor-bean-plant) · consultada el 2026-11-14
+  - Qué se tomó: Ricinus communis tóxica para perros, gatos y caballos; ricina; semillas muy tóxicas; signos a las 12-48 h; puede ser mortal.
+  - Usada en: advertencia ricino
+- [Daffodil](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/daffodil) · consultada el 2026-11-14
+  - Qué se tomó: Narcissus tóxico para perros, gatos y caballos; bulbos lo más venenoso; ingestas grandes: convulsiones, presión baja, temblores, arritmias.
+  - Usada en: advertencia bulbos
+- [Day Lilies (many varieties)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/day-lilies-many-varieties) · consultada el 2026-11-14
+  - Qué se tomó: Hemerocallis: tóxica para gatos (vómitos, decaimiento, falla renal, muerte); no tóxica para perros.
+  - Usada en: advertencia lirios
+- [Garlic](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/garlic) · consultada el 2026-11-15
+  - Qué se tomó: El ajo es tóxico para perros y gatos (anemia hemolítica, vómitos).
+  - Usada en: lección plagas-3
+- [Golden Pothos](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos) · consultada el 2026-11-14
+  - Qué se tomó: Tóxica para perros y gatos; oxalatos de calcio insolubles; signos / Epipremnum aureum tóxico para perros y gatos; oxalatos de calcio insolubles; irritación oral, babeo, vómitos.
+  - Usada en: lección mascotas-1, planta potus (toxicidad)
+- [Lavender](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lavender) · consultada el 2026-11-14
+  - Qué se tomó: Lavandula angustifolia tóxica para perros, gatos y caballos; linalool y acetato de linalilo; náuseas, vómitos, inapetencia.
+  - Usada en: lección mascotas-3
+- [Lemon](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lemon) · consultada el 2026-11-14
+  - Qué se tomó: Limonero tóxico para perros, gatos y caballos; aceites esenciales y psoralenos; la fruta es comestible, cáscara y planta dan problemas.
+  - Usada en: lección mascotas-3
+- [Lily](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lily) · consultada el 2026-11-14
+  - Qué se tomó: Tóxico para gatos (falla renal); no tóxico para perros ni caballos; principio tóxico desconocido.
+  - Usada en: advertencia lirios
+- [Oleander](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/oleander) · consultada el 2026-11-14
+  - Qué se tomó: Nerium oleander tóxica para perros, gatos y caballos; glucósidos cardíacos; babeo, dolor abdominal, diarrea, muerte.
+  - Usada en: lección mascotas-1, advertencia adelfa
+- [Orange](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/orange) · consultada el 2026-11-14
+  - Qué se tomó: Naranjo: igual que el limonero.
+  - Usada en: lección mascotas-3
+- [Sago Palm](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/sago-palm) · consultada el 2026-11-14
+  - Qué se tomó: Cycas revoluta tóxica para perros, gatos y caballos; cicasina; daño y falla hepática, muerte.
+  - Usada en: lección mascotas-1, advertencia palma-sagu
+- [Spider Plant](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant) · consultada el 2026-11-14
+  - Qué se tomó: No tóxica para perros ni gatos / Chlorophytum comosum no tóxica para perros ni gatos.
+  - Usada en: lección mascotas-1, planta cinta (toxicidad)
+- [Toxic and Non-Toxic Plants List](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants) · consultada el 2026-11-14
+  - Qué se tomó: La lista no es completa; cualquier planta puede dar vómitos o malestar digestivo; las no tóxicas o de malestar leve no se esperan mortales.
+  - Usada en: lección mascotas-1
+- [Tulip](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/tulip) · consultada el 2026-11-14
+  - Qué se tomó: Tulipa tóxica para perros, gatos y caballos; mayor concentración en el bulbo; vómitos, decaimiento, diarrea, babeo.
+  - Usada en: advertencia bulbos
 
 ### Clemson Cooperative Extension HGIC
 
@@ -550,8 +586,8 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: Tolera poca luz; no va al sol directo porque el calor quema el follaje; no ponerla donde le sople la calefacción o el aire. / Tolera poca luz pero crece mejor con luz indirecta brillante; sin sol directo; no florece cuando es muy joven o le falta luz.
   - Usada en: lección familias-4, planta espatifilo (cuidados)
 - [Philodendron](https://hgic.clemson.edu/factsheet/philodendron/) · consultada el 2026-11-15
-  - Qué se tomó: Heartleaf (como P. scandens): tolera muy poca luz, tierra pareja húmeda sin encharcar, humedad alta ideal pero tolera la de casa, todas las partes con oxalato de calcio / Luz indirecta o filtrada por cortina; el hoja de corazón tolera muy poca luz; ventana norte, este u oeste (hemisferio norte); 21 a 29 °C de día / Luz indirecta o filtrada, toleran poca luz; tierra pareja de húmeda sin encharcar; toleran la humedad baja de las casas.
-  - Usada en: lección familias-2, planta filodendro (cuidados), planta filodendro (toxicidad)
+  - Qué se tomó: Heartleaf (como P. scandens): tolera muy poca luz, tierra pareja húmeda sin encharcar, humedad alta ideal pero tolera la de casa, todas las partes con oxalato de calcio / Luz indirecta o filtrada por cortina; el hoja de corazón tolera muy poca luz; ventana norte, este u oeste (hemisferio norte); 21 a 29 °C de día / Luz indirecta o filtrada, toleran poca luz; tierra pareja de húmeda sin encharcar; toleran la humedad baja de las casas. / Filodendros trepadores: hojas no llegan a tamaño completo si no se guían en vertical varios años
+  - Usada en: lección familias-2, lección familias-5, planta filodendro (cuidados), planta filodendro (toxicidad)
 - [Rubber Plant (HGIC 1510)](https://hgic.clemson.edu/factsheet/rubber-plant/) · consultada el 2026-11-14
   - Qué se tomó: Luz, riego, humedad, sustrato, temperaturas, tamaño; la savia irrita / Prefiere luz brillante y se adapta a poca luz; crece mejor con la luz de la mañana de una ventana este; ideal 24 a 27 °C de día.
   - Usada en: planta gomero (cuidados)
@@ -588,6 +624,9 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Houseplants: Watering](https://extension.illinois.edu/houseplants/watering) · consultada el 2026-11-15
   - Qué se tomó: Dedo a 2 pulgadas; el medidor 'puede ser útil pero no siempre es confiable'; no regar por calendario; riego por arriba (empapar, vaciar plato) y por abajo (maceta en unos centímetros de agua hasta que la humedad llega arriba); agua a temperatura ambiente; barro se seca antes.
   - Usada en: lección riego-2, lección riego-3
+- [How plants climb](https://extension.illinois.edu/blogs/ilriverhort/2016-09-16-how-plants-climb) · consultada el 2026-11-15
+  - Qué se tomó: Trepadoras que se agarran vs no; enroscadas, zarcillos (uva, pasionaria), jazmín que se apoya
+  - Usada en: lección familias-5
 - [Make sure houseplants get enough light this winter](https://extension.illinois.edu/blogs/over-garden-fence/2021-12-20-make-sure-houseplants-get-enough-light-winter) · consultada el 2026-11-15
   - Qué se tomó: Para evitar el crecimiento de un solo lado, rotar las plantas (sin frecuencia).
   - Usada en: lección rutina-2
@@ -612,9 +651,9 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Boston Fern, Nephrolepis exaltata](https://hort.extension.wisc.edu/articles/boston-fern-nephrolepis-exaltata/) · consultada el 2026-11-15
   - Qué se tomó: Luz media-brillante, ventana este o con cortina fina en sur/oeste, fuera del sol directo; día sin pasar de 35 °C. / Viene de bosques húmedos de América tropical; con aire seco, sobre todo en invierno, se le ponen marrones las puntas y los bordes; luz media a brillante sin sol directo; sustrato parejo de húmedo sin saturar.
   - Usada en: lección familias-3, planta helecho-serrucho (cuidados)
-- [Dependable, Durable Houseplants](https://hort.extension.wisc.edu/dependable-durable-houseplants/) · consultada el 2026-11-15
-  - Qué se tomó: Lengua de suegra: poca luz y riego espaciado; potus y cinta: luz media / Jade: necesita más luz que otras y le gustan ambientes cálidos y secos. Cinta: luz media a brillante. Potus: luz media filtrada. Lengua de suegra: apta para poca luz
-  - Usada en: planta jade (cuidados), planta cinta (cuidados), planta lengua-de-suegra (cuidados), planta potus (cuidados)
+- [Dependable & Durable Houseplants](https://hort.extension.wisc.edu/dependable-durable-houseplants/) · consultada el 2026-11-15
+  - Qué se tomó: Lengua de suegra: poca luz y riego espaciado; potus y cinta: luz media / Jade: necesita más luz que otras y le gustan ambientes cálidos y secos. Cinta: luz media a brillante. Potus: luz media filtrada. Lengua de suegra: apta para poca luz / Las plantas de flor son más exigentes que las de hojas
+  - Usada en: lección familias-7, planta jade (cuidados), planta cinta (cuidados), planta lengua-de-suegra (cuidados), planta potus (cuidados)
 - [Fungus Gnats on Houseplants](https://hort.extension.wisc.edu/articles/fungus-gnats-on-houseplants/) · consultada el 2026-11-15
   - Qué se tomó: Las hembras ponen huevos en tierra húmeda; adultas no comen la planta; lo más importante es dejar secar la capa de arriba; trampas amarillas para atrapar y monitorear; las trampas de vinagre son para moscas de la fruta y no sirven para mosquitas del sustrato; Bti contra larvas (no se usó en la lección).
   - Usada en: lección plagas-1, lección plagas-2, lección plagas-3
@@ -631,8 +670,8 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: Orquídeas fuera del sol directo, sobre todo en verano; Phalaenopsis tolera lugares más sombríos y prefiere 18 a 27 °C. / La mayoría de las orquídeas son epífitas; luz indirecta brillante, sin sol directo; sustrato de corteza; no dejarlas paradas en agua.
   - Usada en: lección familias-4, planta orquidea-phalaenopsis (cuidados)
 - [Pothos, Epipremnum aureum](https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/) · consultada el 2026-11-15
-  - Qué se tomó: Luz filtrada, riego al secarse la superficie, humedad alta, sustrato aireado, zonas 10-12 / Luz filtrada; no tolera mucho sol directo; 21 a 32 °C / Araceae; en zonas tropicales cubre el suelo o trepa por los árboles con raíces aéreas; las hojas salen más grandes cuanto más alto trepa; luz filtrada, no tolera mucho sol directo; con poca luz pierde el variegado; regar cuando la superficie está seca. / El potus se propaga fácil por esquejes; enraíza en agua o vermiculita en unas 3 a 4 semanas. No habla de dejarlo en agua de forma permanente.
-  - Usada en: lección familias-2, lección multiplicar-1, planta potus (cuidados)
+  - Qué se tomó: Luz filtrada, riego al secarse la superficie, humedad alta, sustrato aireado, zonas 10-12 / Luz filtrada; no tolera mucho sol directo; 21 a 32 °C / Araceae; en zonas tropicales cubre el suelo o trepa por los árboles con raíces aéreas; las hojas salen más grandes cuanto más alto trepa; luz filtrada, no tolera mucho sol directo; con poca luz pierde el variegado; regar cuando la superficie está seca. / El potus se propaga fácil por esquejes; enraíza en agua o vermiculita en unas 3 a 4 semanas. No habla de dejarlo en agua de forma permanente. / Potus no florece en cultivo (fase juvenil) / Potus: raíces aéreas adhesivas; se usa colgante o guiado vertical
+  - Usada en: lección familias-2, lección familias-5, lección familias-7, lección multiplicar-1, planta potus (cuidados)
 - [Root Rots on Houseplants](https://hort.extension.wisc.edu/articles/root-rots-houseplants/) · consultada el 2026-11-15
   - Qué se tomó: Marchitez con tierra húmeda, raíces blandas y marrones con mal olor; considerar descartar la planta; regar menos; no usar fungicidas en plantas de interior; no reusar el sustrato; desinfectar herramientas.
   - Usada en: lección plagas-4
@@ -640,38 +679,8 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: Luz, riego, humedad, sustrato, flúor/cloro y puntas marrones, tamaño / Luz media a brillante; afuera se quema a pleno sol; prefiere temperatura fresca a promedio pero tolera más calor
   - Usada en: planta cinta (cuidados)
 - [Swiss-Cheese Plant, Monstera deliciosa](https://hort.extension.wisc.edu/articles/monstera-deliciosa/) · consultada el 2026-11-15
-  - Qué se tomó: Riego, humedad, no crece bajo 10 °C, la helada la mata; sol directo en invierno / Luz brillante en verano y sol directo en invierno; se quema si no se aclimata de a poco / Araceae; selvas del sur de México a Panamá; trepa a los árboles con raíces aéreas; sin luz suficiente las hojas no forman agujeros; humedad media a alta; necesita soporte (tutor de musgo). Atribuye los agujeros al viento (hipótesis, no usada).
-  - Usada en: lección familias-2, planta monstera (cuidados)
-
-### NC State Extension Plant Toolbox
-
-- [Aloe vera](https://plants.ces.ncsu.edu/plants/aloe-vera/) · consultada el 2026-11-14
-  - Qué se tomó: Familia, sol pleno a media sombra, sustrato muy drenante, dejar secar del todo, zonas 10a-12b, toxicidad baja (glucósido de antraquinona, hojas), problema para gatos y perros / Sol pleno a media sombra; resistente a la sequía; no menciona quemaduras ni sol de tarde
-  - Usada en: planta aloe-vera (cuidados), planta aloe-vera (toxicidad)
-- [Chlorophytum comosum (Spider Plant)](https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/) · consultada el 2026-11-14
-  - Qué se tomó: Luz, riego, humedad, temperatura mínima, zonas; etiquetas no tóxica para gatos y perros / Prefiere luz media, tolera sombra profunda y no tolera el sol directo
-  - Usada en: planta cinta (cuidados), planta cinta (toxicidad)
-- [Crassula ovata](https://plants.ces.ncsu.edu/plants/crassula-ovata/) · consultada el 2026-11-14
-  - Qué se tomó: Sinónimo C. argentea, luz brillante con algo de sombra a la tarde, riego moderado con tierra seca y menos de otoño a fin de invierno, zonas 11a-12b, problema para gatos y perros / Lugar soleado con algo de sombra a la tarde; afuera, media sombra; temperaturas de interior promedio a frescas
-  - Usada en: planta jade (cuidados), planta jade (toxicidad)
-- [Dracaena fragrans (Corn Plant)](https://plants.ces.ncsu.edu/plants/dracaena-fragrans/) · consultada el 2026-11-14
-  - Qué se tomó: Luz, riego, flúor, humedad, temperatura, tamaño y toxicidad (saponinas) / Luz brillante a moderada filtrada; el sol directo quema el follaje; figura como resistente al calor; rinde entre 21 y 27 °C.
-  - Usada en: planta palo-de-agua (cuidados), planta palo-de-agua (toxicidad)
-- [Dracaena trifasciata (Snake Plant)](https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/) · consultada el 2026-11-14
-  - Qué se tomó: Luz, riego, humedad, temperatura y toxicidad (saponinas) / Media sombra (2 a 6 h de sol directo); tolera muy poca luz; resistente al calor y la sequía
-  - Usada en: planta lengua-de-suegra (cuidados), planta lengua-de-suegra (toxicidad)
-- [Echeveria elegans](https://plants.ces.ncsu.edu/plants/echeveria-elegans/) · consultada el 2026-11-14
-  - Qué se tomó: Sol pleno a media sombra, riego escaso, buen drenaje, zonas 9a-11b, etiquetada no tóxica para gatos, perros y caballos / Sol pleno a media sombra; resistente al calor y la sequía
-  - Usada en: planta echeveria (cuidados), planta echeveria (toxicidad)
-- [Ficus elastica (Indian Rubber Plant)](https://plants.ces.ncsu.edu/plants/ficus-elastica/) · consultada el 2026-11-14
-  - Qué se tomó: Luz, riego, humedad, temperatura, tamaño; marcada como problema para gatos y perros / Luz brillante indirecta o media sombra (2 a 6 h) con protección del sol de la tarde; se adapta a poca luz.
-  - Usada en: planta gomero (cuidados), planta gomero (toxicidad)
-- [Ficus lyrata (Fiddle-leaf Fig)](https://plants.ces.ncsu.edu/plants/ficus-lyrata/) · consultada el 2026-11-14
-  - Qué se tomó: Luz, riego, humedad, temperatura, tamaño y toxicidad para gatos y perros / Luz brillante indirecta o media sombra (2 a 6 h), protección del sol de la tarde; demasiado sol directo quema; manchas por rejillas de calefacción o aire.
-  - Usada en: planta ficus-lyrata (cuidados), planta ficus-lyrata (toxicidad)
-- [Peperomia obtusifolia](https://plants.ces.ncsu.edu/plants/peperomia-obtusifolia/) · consultada el 2026-11-14
-  - Qué se tomó: Luz brillante indirecta, tolera poca luz por meses, exceso de riego como problema principal, humedad media a baja, zonas 10a-12b, etiquetada no tóxica para gatos y perros / Luz brillante indirecta; tolera poca luz varios meses; el sol fuerte o directo quema las hojas
-  - Usada en: planta peperomia (cuidados), planta peperomia (toxicidad)
+  - Qué se tomó: Riego, humedad, no crece bajo 10 °C, la helada la mata; sol directo en invierno / Luz brillante en verano y sol directo en invierno; se quema si no se aclimata de a poco / Araceae; selvas del sur de México a Panamá; trepa a los árboles con raíces aéreas; sin luz suficiente las hojas no forman agujeros; humedad media a alta; necesita soporte (tutor de musgo). Atribuye los agujeros al viento (hipótesis, no usada). / Monstera: flores casi nunca vistas como planta de interior / Monstera: raíces aéreas que se agarran; sin soporte los tallos pueden quebrarse; poca luz sin agujeros / Necesita soporte para que no se rompan tallos; regar también el soporte de musgo
+  - Usada en: lección familias-2, lección familias-5, lección familias-6, lección familias-7, planta monstera (cuidados)
 
 ### Penn State Extension
 
@@ -687,6 +696,9 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Hydroponics Systems and Principles of Plant Nutrition: Essential Nutrients, Function, Deficiency, and Excess](https://extension.psu.edu/hydroponics-systems-and-principles-of-plant-nutrition-essential-nutrients-function-deficiency-and-excess) · consultada el 2026-11-15
   - Qué se tomó: Definición de hidroponía; las plantas necesitan 17 nutrientes esenciales, que en hidroponía vienen de la solución y no del suelo. No habla de oxígeno.
   - Usada en: lección multiplicar-2
+- [Monstera as a Houseplant](https://extension.psu.edu/monstera-as-a-houseplant) · consultada el 2026-11-15
+  - Qué se tomó: Interior necesita algo firme para trepar; fijar con suavidad; musgo, enrejados, bambú
+  - Usada en: lección familias-6
 - [Pilea as a Houseplant](https://extension.psu.edu/pilea-as-a-houseplant) · consultada el 2026-11-14
   - Qué se tomó: Sin sol directo, riego equilibrado, sustrato drenante, ambiente cálido y húmedo, noches arriba de 13 °C, 20-30 cm / Sin luz directa; luz brillante indirecta o filtrada con cortina; 18 a 24 °C; lejos de corrientes y rejillas de aire
   - Usada en: planta pilea (cuidados)
@@ -699,6 +711,9 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Repotting Houseplants](https://extension.psu.edu/repotting-houseplants) · consultada el 2026-11-15
   - Qué se tomó: Señales de trasplante; maceta apenas más grande; primavera; no usar tierra de jardín; agujero de drenaje necesario; cachepot (funda) vaciando el agua; barro poroso (ideal suculentas) vs plástico (plantas que quieren humedad); pasos del trasplante. / Señales de maceta chica: el sustrato se seca muy rápido, raíces por los agujeros, crecimiento frenado, raíces dando vueltas; maceta nueva apenas más grande. / Reabierta. Barro sin esmaltar poroso y pide riego más seguido que el plástico; terracota y cerámica se rompen más fácil; plástico liviano y barato; piedra y cemento pesados, duraderos y menos propensos a volcarse; cachepot sin agujero: no plantar directo, dejar la planta en su maceta y vaciar el agua; mallita sobre el agujero; no usar tierra de jardín adentro; mezcla sin suelo (perlita, vermiculita, turba, coco); señales de trasplante y aflojar raíces que dan vueltas.
   - Usada en: lección basico-2, lección macetas-1, lección macetas-2, lección macetas-4, lección macetas-6
+- [Supporting Herbaceous Plants in a Flower Garden](https://extension.psu.edu/supporting-herbaceous-plants-in-a-flower-garden) · consultada el 2026-11-15
+  - Qué se tomó: Estaca cerca del tallo sin dañar raíces; ataduras blandas en ocho flojo; revisar y agregar atadura más arriba
+  - Usada en: lección familias-6
 - [To Buy or Not to Buy: The Gear Your Houseplants Really Need](https://extension.psu.edu/to-buy-or-not-to-buy-the-gear-your-houseplants-really-need) · consultada el 2026-11-15
   - Qué se tomó: Medidor de humedad en la lista de 'no necesario' (interpretarlo confunde más de lo que ayuda; mejor el dedo); rociador 'no necesario' salvo plantas del aire; regadera de pico largo y fino para llevar el agua a la base; platos protegen muebles y se vacían; globos de riego solo para plantas de tierra siempre húmeda.
   - Usada en: lección riego-2, lección riego-4
@@ -729,6 +744,33 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Weeping Ficus](https://hgic.clemson.edu/factsheet/weeping-ficus/) · consultada el 2026-11-15
   - Qué se tomó: Leída como contexto de cuidados de ficus (es de F. benjamina); no usada como fuente de datos / El ficus llorón tira hojas al moverlo o trasplantarlo; si las condiciones son buenas se adapta, deja de tirar y rebrota; lejos de corrientes y rejillas de calefacción / El ficus benjamina suele perder hojas al cambiarlo de lugar o al trasplantarlo; con condiciones adecuadas se adapta y deja de perderlas; trasplantar a fines del invierno o principios de primavera; lejos de corrientes y salidas de calefacción.
   - Usada en: lección comprar-2, lección estaciones-3
+
+### NC State Extension Plant Toolbox
+
+- [Aloe vera](https://plants.ces.ncsu.edu/plants/aloe-vera/) · consultada el 2026-11-14
+  - Qué se tomó: Familia, sol pleno a media sombra, sustrato muy drenante, dejar secar del todo, zonas 10a-12b, toxicidad baja (glucósido de antraquinona, hojas), problema para gatos y perros / Sol pleno a media sombra; resistente a la sequía; no menciona quemaduras ni sol de tarde
+  - Usada en: planta aloe-vera (cuidados), planta aloe-vera (toxicidad)
+- [Chlorophytum comosum (Spider Plant)](https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/) · consultada el 2026-11-14
+  - Qué se tomó: Luz, riego, humedad, temperatura mínima, zonas; etiquetas no tóxica para gatos y perros / Prefiere luz media, tolera sombra profunda y no tolera el sol directo
+  - Usada en: planta cinta (cuidados), planta cinta (toxicidad)
+- [Crassula ovata](https://plants.ces.ncsu.edu/plants/crassula-ovata/) · consultada el 2026-11-14
+  - Qué se tomó: Sinónimo C. argentea, luz brillante con algo de sombra a la tarde, riego moderado con tierra seca y menos de otoño a fin de invierno, zonas 11a-12b, problema para gatos y perros / Lugar soleado con algo de sombra a la tarde; afuera, media sombra; temperaturas de interior promedio a frescas
+  - Usada en: planta jade (cuidados), planta jade (toxicidad)
+- [Dracaena fragrans (Corn Plant)](https://plants.ces.ncsu.edu/plants/dracaena-fragrans/) · consultada el 2026-11-14
+  - Qué se tomó: Luz, riego, flúor, humedad, temperatura, tamaño y toxicidad (saponinas) / Luz brillante a moderada filtrada; el sol directo quema el follaje; figura como resistente al calor; rinde entre 21 y 27 °C.
+  - Usada en: planta palo-de-agua (cuidados), planta palo-de-agua (toxicidad)
+- [Echeveria elegans](https://plants.ces.ncsu.edu/plants/echeveria-elegans/) · consultada el 2026-11-14
+  - Qué se tomó: Sol pleno a media sombra, riego escaso, buen drenaje, zonas 9a-11b, etiquetada no tóxica para gatos, perros y caballos / Sol pleno a media sombra; resistente al calor y la sequía
+  - Usada en: planta echeveria (cuidados), planta echeveria (toxicidad)
+- [Ficus elastica (Indian Rubber Plant)](https://plants.ces.ncsu.edu/plants/ficus-elastica/) · consultada el 2026-11-14
+  - Qué se tomó: Luz, riego, humedad, temperatura, tamaño; marcada como problema para gatos y perros / Luz brillante indirecta o media sombra (2 a 6 h) con protección del sol de la tarde; se adapta a poca luz.
+  - Usada en: planta gomero (cuidados), planta gomero (toxicidad)
+- [Ficus lyrata (Fiddle-leaf Fig)](https://plants.ces.ncsu.edu/plants/ficus-lyrata/) · consultada el 2026-11-14
+  - Qué se tomó: Luz, riego, humedad, temperatura, tamaño y toxicidad para gatos y perros / Luz brillante indirecta o media sombra (2 a 6 h), protección del sol de la tarde; demasiado sol directo quema; manchas por rejillas de calefacción o aire.
+  - Usada en: planta ficus-lyrata (cuidados), planta ficus-lyrata (toxicidad)
+- [Peperomia obtusifolia](https://plants.ces.ncsu.edu/plants/peperomia-obtusifolia/) · consultada el 2026-11-14
+  - Qué se tomó: Luz brillante indirecta, tolera poca luz por meses, exceso de riego como problema principal, humedad media a baja, zonas 10a-12b, etiquetada no tóxica para gatos y perros / Luz brillante indirecta; tolera poca luz varios meses; el sol fuerte o directo quema las hojas
+  - Usada en: planta peperomia (cuidados), planta peperomia (toxicidad)
 
 ### UF/IFAS Gardening Solutions
 
@@ -822,6 +864,18 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Potassium Salts of Fatty Acids (General Fact Sheet)](https://www.npic.orst.edu/factsheets/psfagen.pdf) · consultada el 2026-11-15
   - Qué se tomó: Jabón insecticida = sales potásicas de ácidos grasos; rompe las membranas de insectos de cuerpo blando; muy baja toxicidad por ingestión y por piel en animales; irrita ojos y piel; puede quemar plantas de hojas peludas. Ficha de 2001 que NPIC no actualiza. No es fuente veterinaria.
   - Usada en: lección plagas-3
+
+### Royal Horticultural Society (RHS)
+
+- [Epipremnum: growing guide](https://www.rhs.org.uk/plants/epipremnum/growing-guide) · consultada el 2026-11-15
+  - Qué se tomó: Mantener húmedo el musgo/coco para que los tallos se agarren con raíces aéreas; atar tallos sueltos
+  - Usada en: lección familias-6
+- [Perennials: Staking for Support](https://www.rhs.org.uk/plants/types/perennials/staking) · consultada el 2026-11-15
+  - Qué se tomó: Poner soportes temprano; no atar rígido ni apretado; cañas de bambú y aros; revisar seguido
+  - Usada en: lección familias-6
+- [Philodendron: growing guide](https://www.rhs.org.uk/plants/philodendron/growing-guide) · consultada el 2026-11-15
+  - Qué se tomó: Esquejes de tallo de unos 10 cm de primavera a fines del verano, cortando justo debajo de la unión de una hoja; sacar hojas de abajo y poner en un vaso con agua; raíces en un par de semanas; plantar cuando está bien enraizado; no dejar la planta adulta parada en agua. / Filodendros trepadores mejor con soporte; se atan a poste de musgo y enraízan si se mantiene húmedo
+  - Usada en: lección familias-6, lección multiplicar-1
 
 ### South Dakota State University Extension
 
