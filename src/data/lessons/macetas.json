@@ -1,0 +1,156 @@
+[
+  {
+    "id": "macetas-1",
+    "unidad": "macetas",
+    "titulo": "Macetas y drenaje",
+    "gancho": "¿Sirve cualquier maceta?",
+    "tarjetas": [
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "maceta-sin-drenaje",
+        "imagen_bien": "maceta-drenaje",
+        "texto": "El agujero de abajo es clave: deja salir el agua que sobra. Sin él, el agua se junta en el fondo."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "maceta-drenaje",
+        "texto": "Si te encanta una maceta sin agujero, usala de \"funda\": adentro va la planta en su maceta con drenaje."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "trasplante",
+        "texto": "El tamaño importa: una maceta demasiado grande guarda mucha agua que la planta no llega a tomar."
+      }
+    ],
+    "para_llevarte": [
+      "Maceta con agujero, siempre.",
+      "Las lindas sin agujero van de funda.",
+      "Ni muy chica ni muy grande."
+    ],
+    "quiz": [
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Una maceta sin agujero de drenaje es buena idea para no ensuciar.",
+        "correcta": false,
+        "explicacion": "Sin drenaje el agua se acumula y las raíces se ahogan."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Para qué sirve el agujero de la maceta?",
+        "opciones": [
+          "Para que entre aire frío",
+          "Para que salga el agua que sobra",
+          "Para que salgan las raíces"
+        ],
+        "correcta": 1,
+        "explicacion": "Deja escurrir el exceso de agua."
+      }
+    ],
+    "fuentes": [],
+    "confianza": "baja",
+    "estado": "no_verificado",
+    "xp": 20
+  },
+  {
+    "id": "macetas-2",
+    "unidad": "macetas",
+    "titulo": "El sustrato",
+    "gancho": "¿Le pongo tierra del cantero?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "sustrato",
+        "texto": "El sustrato es la mezcla donde viven las raíces. Tiene que retener algo de agua y, a la vez, dejar pasar el aire."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "sustrato",
+        "texto": "La tierra de jardín sola se apelmaza en la maceta y se vuelve un bloque. Por eso se usan mezclas más sueltas."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-feliz",
+        "texto": "No todas piden lo mismo: algunas quieren mezclas que se sequen rápido y otras que guarden más humedad."
+      }
+    ],
+    "para_llevarte": [
+      "El sustrato tiene que ser suelto.",
+      "Retiene agua y deja pasar aire.",
+      "Cada grupo de plantas tiene su mezcla."
+    ],
+    "quiz": [
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "La tierra de jardín sola es ideal para macetas.",
+        "correcta": false,
+        "explicacion": "En maceta se compacta y deja a las raíces sin aire."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Un buen sustrato...",
+        "opciones": [
+          "Queda siempre empapado",
+          "Retiene algo de agua y deja pasar aire",
+          "Se pone duro como piedra"
+        ],
+        "correcta": 1,
+        "explicacion": "Necesita las dos cosas: humedad y aire."
+      }
+    ],
+    "fuentes": [],
+    "confianza": "baja",
+    "estado": "no_verificado",
+    "xp": 20
+  },
+  {
+    "id": "macetas-3",
+    "unidad": "macetas",
+    "titulo": "Trasplante",
+    "gancho": "¿Cuándo le cambio la maceta?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "trasplante",
+        "texto": "Señales de que le queda chica: raíces que asoman por abajo o dan vueltas apretadas, y agua que pasa de largo."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "trasplante",
+        "texto": "Pasala a una maceta apenas más grande, no a una enorme. Un par de dedos más de ancho alcanza."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "estaciones",
+        "texto": "La mejor época suele ser la primavera, cuando arranca a crecer. Acá eso es de septiembre a noviembre."
+      }
+    ],
+    "para_llevarte": [
+      "Raíces apretadas: pide maceta nueva.",
+      "Un talle más, no tres.",
+      "Mejor en primavera."
+    ],
+    "quiz": [
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿A qué maceta la pasás?",
+        "opciones": [
+          "A la más grande que tenga",
+          "A una apenas más grande",
+          "A una más chica"
+        ],
+        "correcta": 1,
+        "explicacion": "Una maceta enorme guarda demasiada agua."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "En Buenos Aires la primavera va de septiembre a noviembre.",
+        "correcta": true,
+        "explicacion": "Sí: en el hemisferio sur las estaciones van al revés que en el norte."
+      }
+    ],
+    "fuentes": [],
+    "confianza": "baja",
+    "estado": "no_verificado",
+    "xp": 20
+  }
+]

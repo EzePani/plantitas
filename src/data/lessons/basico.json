@@ -1,0 +1,102 @@
+[
+  {
+    "id": "basico-1",
+    "unidad": "basico",
+    "titulo": "Qué necesita una planta",
+    "gancho": "¿Qué necesita de verdad una planta para vivir?",
+    "tarjetas": [
+      { "tipo": "concepto", "imagen": "necesidades", "texto": "Una planta necesita cuatro cosas: luz, agua, aire y tierra. Si una falla, las otras no alcanzan." },
+      { "tipo": "por_que", "imagen": "ventana-sol", "texto": "La luz es su comida: con ella fabrica su propia energía. Sin luz pasa hambre, por más que la riegues." },
+      {
+        "tipo": "tactil",
+        "imagen": "planta-partes",
+        "texto": "Tocá cada parte de la planta para ver qué hace.",
+        "zonas": [
+          { "id": "hojas", "etiqueta": "Hojas", "texto": "Atrapan la luz y la convierten en energía." },
+          { "id": "tallo", "etiqueta": "Tallo", "texto": "Sostiene a la planta y lleva el agua hacia arriba." },
+          { "id": "raices", "etiqueta": "Raíces", "texto": "Toman agua y nutrientes. También necesitan aire." },
+          { "id": "maceta", "etiqueta": "Maceta", "texto": "Es su casa: tiene que dejar salir el agua que sobra." }
+        ]
+      },
+      { "tipo": "comparativa", "imagen_mal": "maceta-sin-drenaje", "imagen_bien": "maceta-drenaje", "texto": "Las raíces también respiran. Una tierra siempre empapada las deja sin aire." },
+      { "tipo": "dato_ba", "imagen": "calefaccion", "texto": "En Buenos Aires el invierno viene con calefacción, que seca el aire. Tus plantas lo sienten aunque afuera esté húmedo." }
+    ],
+    "para_llevarte": [
+      "Luz, agua, aire y tierra: las cuatro juntas.",
+      "La luz es la comida de la planta.",
+      "Las raíces necesitan agua, pero también aire."
+    ],
+    "quiz": [
+      { "tipo": "opcion_multiple", "pregunta": "¿Cuál es la \"comida\" de una planta?", "opciones": ["El agua", "La luz", "La tierra"], "correcta": 1, "explicacion": "Con la luz la planta fabrica su propia energía. El agua y la tierra ayudan, pero no la reemplazan." },
+      { "tipo": "verdadero_falso", "pregunta": "Las raíces solo necesitan agua.", "correcta": false, "explicacion": "También necesitan aire. Por eso el agua que sobra tiene que poder salir." },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada parte con lo que hace",
+        "pares": [
+          { "a": "Hojas", "b": "Atrapan la luz" },
+          { "a": "Raíces", "b": "Toman agua" },
+          { "a": "Tallo", "b": "Sostiene y transporta" }
+        ],
+        "explicacion": "Hojas con la luz, raíces con el agua, y el tallo sostiene y transporta."
+      }
+    ],
+    "fuentes": [],
+    "confianza": "baja",
+    "estado": "no_verificado",
+    "xp": 20
+  },
+  {
+    "id": "basico-2",
+    "unidad": "basico",
+    "titulo": "Planta feliz, planta que sufre",
+    "gancho": "¿Cómo me doy cuenta de si mi planta está bien?",
+    "tarjetas": [
+      { "tipo": "comparativa", "imagen_mal": "planta-triste", "imagen_bien": "planta-feliz", "texto": "Una planta feliz tiene hojas firmes y de buen color. Una que sufre se cae, se decolora o se mancha." },
+      { "tipo": "concepto", "imagen": "planta-seca", "texto": "Hojas caídas y tierra bien seca: lo más probable es que tenga sed." },
+      { "tipo": "concepto", "imagen": "planta-ahogada", "texto": "Hojas amarillas y tierra mojada hace días: lo más probable es que le sobre agua." },
+      { "tipo": "por_que", "imagen": "planta-estirada", "texto": "Si crece flaca y torcida hacia la ventana, está buscando luz. No es capricho: tiene hambre." },
+      { "tipo": "concepto", "imagen": "planta-feliz", "texto": "Que cada tanto una hoja vieja se ponga amarilla es normal. Tranqui, no pasa nada." }
+    ],
+    "para_llevarte": [
+      "Mirá las hojas: son las que avisan.",
+      "Antes de regar, fijate cómo está la tierra.",
+      "Una hoja amarilla sola no es una emergencia."
+    ],
+    "quiz": [
+      { "tipo": "que_le_pasa", "pregunta": "¿Qué le pasa a esta planta?", "imagen": "planta-estirada", "opciones": ["Le falta luz", "Le sobra agua", "Tiene frío"], "correcta": 0, "explicacion": "Cuando se estira flaca hacia un lado, está buscando más luz." },
+      { "tipo": "que_le_pasa", "pregunta": "Tierra mojada hace días y hojas amarillas. ¿Qué le pasa?", "imagen": "planta-ahogada", "opciones": ["Tiene sed", "Le sobra agua", "Le sobra luz"], "correcta": 1, "explicacion": "Tierra empapada y hojas amarillas suelen ser señal de exceso de riego." },
+      { "tipo": "verdadero_falso", "pregunta": "Si aparece una hoja amarilla, la planta se está muriendo.", "correcta": false, "explicacion": "Las hojas viejas se renuevan. Preocupate solo si son muchas a la vez." }
+    ],
+    "fuentes": [],
+    "confianza": "baja",
+    "estado": "no_verificado",
+    "xp": 20
+  },
+  {
+    "id": "basico-3",
+    "unidad": "basico",
+    "titulo": "Por qué adentro es distinto",
+    "gancho": "¿Por qué adentro de casa cuesta más?",
+    "tarjetas": [
+      { "tipo": "concepto", "imagen": "casa", "texto": "Afuera la planta tiene lluvia, viento y sol todo el día. Adentro depende de vos." },
+      { "tipo": "por_que", "imagen": "luz-poca", "texto": "Adentro hay muchísima menos luz que afuera. A nuestros ojos parece luminoso, pero para la planta es penumbra." },
+      { "tipo": "concepto", "imagen": "maceta-drenaje", "texto": "En maceta las raíces no pueden ir a buscar agua más lejos. Esa maceta es todo su mundo." },
+      { "tipo": "dato_ba", "imagen": "estaciones", "texto": "Acá el verano va de diciembre a febrero: es cuando más crecen y más agua piden. En invierno frenan." },
+      { "tipo": "concepto", "imagen": "planta-feliz", "texto": "La buena noticia: muchas plantas de interior vienen de selvas sombrías. Por eso se adaptan bien a una casa." }
+    ],
+    "para_llevarte": [
+      "Adentro, la planta depende de vos.",
+      "La luz de interior es mucha menos de lo que parece.",
+      "En verano crecen; en invierno descansan."
+    ],
+    "quiz": [
+      { "tipo": "verdadero_falso", "pregunta": "Un living luminoso tiene la misma luz que el exterior.", "correcta": false, "explicacion": "Adentro llega mucha menos luz, aunque a nosotros nos parezca muy claro." },
+      { "tipo": "opcion_multiple", "pregunta": "En Buenos Aires, ¿cuándo crecen más las plantas?", "opciones": ["De junio a agosto", "De diciembre a febrero", "Todo el año igual"], "correcta": 1, "explicacion": "En el hemisferio sur el verano va de diciembre a febrero." },
+      { "tipo": "opcion_multiple", "pregunta": "¿Por qué una planta en maceta depende más del riego?", "opciones": ["Porque la maceta calienta la tierra", "Porque sus raíces no pueden buscar agua más lejos", "Porque toma menos luz"], "correcta": 1, "explicacion": "Las raíces solo tienen la tierra de la maceta: no pueden explorar." }
+    ],
+    "fuentes": [],
+    "confianza": "baja",
+    "estado": "no_verificado",
+    "xp": 20
+  }
+]

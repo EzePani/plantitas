@@ -1,0 +1,155 @@
+[
+  {
+    "id": "mascotas-1",
+    "unidad": "mascotas",
+    "titulo": "Por qué algunas plantas son tóxicas",
+    "gancho": "¿Mi planta le puede hacer mal a mi mascota?",
+    "tarjetas": [
+      {
+        "tipo": "por_que",
+        "imagen": "gato",
+        "texto": "Muchas plantas se defienden de que las coman con sustancias irritantes o tóxicas. No es maldad: es su forma de protegerse."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "perro",
+        "texto": "Que a tu mascota le guste una planta no significa que sea segura. Lo que atrae y lo que hace mal son cosas distintas."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "veterinario",
+        "texto": "Esta app es informativa y no reemplaza al veterinario. Ante cualquier duda, consultá enseguida."
+      }
+    ],
+    "para_llevarte": [
+      "Tóxica no es lo mismo que atractiva.",
+      "Cada especie reacciona distinto.",
+      "Ante la duda, veterinario."
+    ],
+    "quiz": [
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Si a mi gato le gusta morder una planta, es porque es segura.",
+        "correcta": false,
+        "explicacion": "El atractivo no dice nada sobre la toxicidad."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Ante la sospecha de que mordió una planta tóxica...",
+        "opciones": [
+          "Espero a ver qué pasa",
+          "Consulto al veterinario enseguida",
+          "Le doy leche"
+        ],
+        "correcta": 1,
+        "explicacion": "Siempre conviene consultar de inmediato."
+      }
+    ],
+    "fuentes": [],
+    "confianza": "baja",
+    "estado": "no_verificado",
+    "xp": 20
+  },
+  {
+    "id": "mascotas-2",
+    "unidad": "mascotas",
+    "titulo": "Qué hacer si mordió una planta",
+    "gancho": "¡Mi gato se comió una hoja! ¿Y ahora?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "veterinario",
+        "texto": "Llamá a tu veterinario o a una guardia de urgencias. No esperes a que aparezcan síntomas."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "gato",
+        "texto": "Llevá una foto o una muestra de la planta. Saber cuál es ayuda muchísimo a quien atienda."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "veterinario",
+        "texto": "No le provoques el vómito ni le des remedios caseros, salvo que un profesional te lo indique."
+      }
+    ],
+    "para_llevarte": [
+      "Llamá al veterinario o a una guardia.",
+      "Foto o muestra de la planta.",
+      "No induzcas el vómito por tu cuenta."
+    ],
+    "quiz": [
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Qué conviene llevar al veterinario?",
+        "opciones": [
+          "Una foto o muestra de la planta",
+          "La maceta entera",
+          "Nada"
+        ],
+        "correcta": 0,
+        "explicacion": "Identificar la planta ayuda a decidir el tratamiento."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Lo primero es hacerlo vomitar en casa.",
+        "correcta": false,
+        "explicacion": "Solo si un profesional lo indica. Puede empeorar las cosas."
+      }
+    ],
+    "fuentes": [],
+    "confianza": "baja",
+    "estado": "no_verificado",
+    "xp": 20
+  },
+  {
+    "id": "mascotas-3",
+    "unidad": "mascotas",
+    "titulo": "Organizar el espacio",
+    "gancho": "¿Cómo hago para que convivan?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "altura",
+        "texto": "La altura ayuda: estantes altos, macetas colgantes o un cuarto que quede cerrado."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "gato",
+        "texto": "Dale algo seguro para masticar, como pasto para gatos. Así tiene su propia planta."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "perro",
+        "texto": "Muchas veces muerden por aburrimiento. Más juego y distracción suele ayudar más que retarlos."
+      }
+    ],
+    "para_llevarte": [
+      "Lo riesgoso, fuera de su alcance.",
+      "Ofrecé una alternativa segura.",
+      "Juego y distracción, sin retos."
+    ],
+    "quiz": [
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Colgar las plantas o ponerlas en altura ayuda a protegerlas.",
+        "correcta": true,
+        "explicacion": "Si no llega, no la muerde. Ojo: los gatos trepan bastante."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Si tu mascota muerde plantas por aburrimiento...",
+        "opciones": [
+          "La reto fuerte",
+          "Le doy más juego y una alternativa segura",
+          "Saco todas las plantas"
+        ],
+        "correcta": 1,
+        "explicacion": "Distraer y ofrecer algo seguro funciona mejor que retar."
+      }
+    ],
+    "fuentes": [],
+    "confianza": "baja",
+    "estado": "no_verificado",
+    "xp": 20
+  }
+]

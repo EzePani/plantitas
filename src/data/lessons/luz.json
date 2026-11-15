@@ -1,0 +1,163 @@
+[
+  {
+    "id": "luz-1",
+    "unidad": "luz",
+    "titulo": "Tipos de luz",
+    "gancho": "¿Qué quiere decir \"luz brillante indirecta\"?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "luz-directa",
+        "texto": "Luz directa: los rayos del sol pegan en las hojas. Es la más fuerte."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "luz-indirecta",
+        "texto": "Luz brillante indirecta: mucha claridad, pero sin rayos pegando de lleno. Es la que prefiere la mayoría."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "luz-poca",
+        "texto": "Poca luz: lejos de la ventana o en ambientes oscuros. Muy pocas plantas la disfrutan; algunas la aguantan."
+      }
+    ],
+    "para_llevarte": [
+      "Directa: rayos sobre las hojas.",
+      "Brillante indirecta: mucha claridad sin rayos.",
+      "Poca luz se aguanta, no se disfruta."
+    ],
+    "quiz": [
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Qué es la luz brillante indirecta?",
+        "opciones": [
+          "Rayos de sol pegando en las hojas",
+          "Mucha claridad sin sol directo",
+          "Un rincón oscuro"
+        ],
+        "correcta": 1,
+        "explicacion": "Es mucha claridad, pero sin que los rayos den de lleno en la planta."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "La mayoría de las plantas de interior disfruta de los rincones oscuros.",
+        "correcta": false,
+        "explicacion": "Algunas los toleran, pero casi todas crecen mejor con buena claridad."
+      }
+    ],
+    "fuentes": [],
+    "confianza": "baja",
+    "estado": "no_verificado",
+    "xp": 20
+  },
+  {
+    "id": "luz-2",
+    "unidad": "luz",
+    "titulo": "El mapa del sol en tu casa",
+    "gancho": "¿En qué ventana pongo mis plantas?",
+    "tarjetas": [
+      {
+        "tipo": "dato_ba",
+        "imagen": "mapa-sol",
+        "texto": "En Buenos Aires el sol recorre el cielo por el norte. Por eso, donde da sol casi todo el día es tu lugar más luminoso."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "ventana-sol",
+        "texto": "Sol de mañana: suave y amable. Sol de tarde: más fuerte y caluroso, sobre todo en verano."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "luz-poca",
+        "texto": "Si casi nunca entra el sol, es un lugar de poca luz. No hace falta saber de puntos cardinales: alcanza con mirar a qué hora da el sol."
+      }
+    ],
+    "para_llevarte": [
+      "Mirá a qué hora da el sol en cada lugar.",
+      "Mañana es suave; tarde es fuerte.",
+      "Sol casi todo el día: tu lugar más luminoso."
+    ],
+    "quiz": [
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Cuál es el sol más suave?",
+        "opciones": [
+          "El de la mañana",
+          "El del mediodía",
+          "El de la tarde"
+        ],
+        "correcta": 0,
+        "explicacion": "El sol de la mañana es más amable que el de la tarde."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Para ubicar tus plantas necesitás una brújula.",
+        "correcta": false,
+        "explicacion": "Alcanza con observar a qué hora entra el sol en cada lugar."
+      }
+    ],
+    "fuentes": [],
+    "confianza": "baja",
+    "estado": "no_verificado",
+    "xp": 20
+  },
+  {
+    "id": "luz-3",
+    "unidad": "luz",
+    "titulo": "Señales de poca o mucha luz",
+    "gancho": "¿Por qué mi planta se estira tanto?",
+    "tarjetas": [
+      {
+        "tipo": "por_que",
+        "imagen": "planta-estirada",
+        "texto": "Poca luz: tallos largos y flacos, hojas chicas y pálidas. La planta se estira buscando claridad."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-quemada",
+        "texto": "Demasiado sol directo: manchas secas y marrones en las hojas, como quemaduras."
+      },
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "planta-estirada",
+        "imagen_bien": "planta-feliz",
+        "texto": "Si ves alguna de estas señales, movela de a poco. Los cambios bruscos también la estresan."
+      }
+    ],
+    "para_llevarte": [
+      "Se estira: le falta luz.",
+      "Manchas secas: le sobra sol directo.",
+      "Los cambios, de a poco."
+    ],
+    "quiz": [
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "¿Qué le pasa a esta planta?",
+        "imagen": "planta-quemada",
+        "opciones": [
+          "Le falta luz",
+          "Le sobra sol directo",
+          "Le falta agua"
+        ],
+        "correcta": 1,
+        "explicacion": "Las manchas secas y marrones suelen ser quemaduras de sol."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "¿Y a esta?",
+        "imagen": "planta-estirada",
+        "opciones": [
+          "Le falta luz",
+          "Le sobra sol",
+          "Le sobra agua"
+        ],
+        "correcta": 0,
+        "explicacion": "Tallos largos y flacos: está buscando luz."
+      }
+    ],
+    "fuentes": [],
+    "confianza": "baja",
+    "estado": "no_verificado",
+    "xp": 20
+  }
+]

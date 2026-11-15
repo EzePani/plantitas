@@ -1,0 +1,157 @@
+[
+  {
+    "id": "riego-1",
+    "unidad": "riego",
+    "titulo": "El exceso mata más que la falta",
+    "gancho": "¿Por qué se me puso amarillo el potus?",
+    "tarjetas": [
+      {
+        "tipo": "por_que",
+        "imagen": "planta-ahogada",
+        "texto": "Las raíces necesitan aire. Si la tierra está siempre empapada, se ahogan y se pudren."
+      },
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "planta-ahogada",
+        "imagen_bien": "planta-seca",
+        "texto": "Una planta con sed suele recuperarse al regarla. Una con raíces podridas, muchas veces no."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "riego",
+        "texto": "Por eso, ante la duda, es mejor esperar un día más. No pasa nada: a todos se nos murió alguna por quererla demasiado."
+      }
+    ],
+    "para_llevarte": [
+      "Regar de más es el error más común.",
+      "Las raíces necesitan aire.",
+      "Ante la duda, esperá."
+    ],
+    "quiz": [
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Es más fácil que una planta se recupere de la sed que del exceso de agua.",
+        "correcta": true,
+        "explicacion": "La sed se arregla regando; las raíces podridas son mucho más difíciles de salvar."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Si dudás entre regar hoy o mañana...",
+        "opciones": [
+          "Regá por las dudas",
+          "Esperá un día más",
+          "Regá el doble"
+        ],
+        "correcta": 1,
+        "explicacion": "Esperar casi nunca hace daño. Regar de más, sí."
+      }
+    ],
+    "fuentes": [],
+    "confianza": "baja",
+    "estado": "no_verificado",
+    "xp": 20
+  },
+  {
+    "id": "riego-2",
+    "unidad": "riego",
+    "titulo": "Cuándo regar",
+    "gancho": "¿Cada cuánto la riego?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "dedo",
+        "texto": "El test del dedo: metelo un par de centímetros en la tierra. Si sale seco, toca regar; si sale húmedo, esperá."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "maceta-drenaje",
+        "texto": "También podés levantar la maceta: recién regada pesa bastante, seca pesa poco."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "estaciones",
+        "texto": "No hay un \"cada tantos días\" que sirva siempre. La planta toma más o menos agua según la luz, el calor y la época."
+      }
+    ],
+    "para_llevarte": [
+      "La tierra decide, no el calendario.",
+      "Dedo seco: regá. Dedo húmedo: esperá.",
+      "El peso de la maceta también avisa."
+    ],
+    "quiz": [
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Metés el dedo y la tierra está húmeda. ¿Qué hacés?",
+        "opciones": [
+          "Riego igual",
+          "Espero",
+          "La cambio de maceta"
+        ],
+        "correcta": 1,
+        "explicacion": "Si todavía está húmeda, no necesita más agua."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Lo mejor es regar todas las plantas los mismos días de la semana.",
+        "correcta": false,
+        "explicacion": "Cada planta y cada época del año piden distinto. Mejor mirar la tierra."
+      }
+    ],
+    "fuentes": [],
+    "confianza": "baja",
+    "estado": "no_verificado",
+    "xp": 20
+  },
+  {
+    "id": "riego-3",
+    "unidad": "riego",
+    "titulo": "Cómo regar bien",
+    "gancho": "¿Le tiro un chorrito todos los días?",
+    "tarjetas": [
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "maceta-sin-drenaje",
+        "imagen_bien": "maceta-drenaje",
+        "texto": "Regá a fondo hasta que salga agua por abajo y dejá que escurra. Un chorrito diario moja solo la superficie."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "estaciones",
+        "texto": "En verano (diciembre a febrero) vas a regar más seguido. En invierno la planta frena y toma mucha menos agua."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "calefaccion",
+        "texto": "La calefacción seca el aire y la tierra de arriba. Antes de regar, fijate cómo está la tierra más abajo."
+      }
+    ],
+    "para_llevarte": [
+      "Riego profundo y que escurra.",
+      "Más agua en verano, menos en invierno.",
+      "Nunca dejes agua estancada en el plato."
+    ],
+    "quiz": [
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Cómo conviene regar?",
+        "opciones": [
+          "Un chorrito todos los días",
+          "A fondo, hasta que escurra",
+          "Solo rociando las hojas"
+        ],
+        "correcta": 1,
+        "explicacion": "El riego profundo moja todas las raíces. Después, que escurra bien."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "En invierno las plantas necesitan más agua que en verano.",
+        "correcta": false,
+        "explicacion": "En invierno crecen menos y toman menos agua."
+      }
+    ],
+    "fuentes": [],
+    "confianza": "baja",
+    "estado": "no_verificado",
+    "xp": 20
+  }
+]
