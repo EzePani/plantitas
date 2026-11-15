@@ -1,0 +1,231 @@
+{
+  "fuentes": [
+    {
+      "org": "NC State Extension",
+      "titulo": "Extension Gardener Handbook, capítulo 3: Botany",
+      "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/3-botany",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Funciones de la raíz (absorber agua y nutrientes, anclar, sostener, almacenar); raíz pivotante vs fibrosa; la absorción ocurre en la zona nueva con pelos radicales, las partes viejas no absorben; bulbos, cormos, rizomas y tubérculos son tallos subterráneos modificados que almacenan reservas (batata y dalia sí son raíces tuberosas). Reabierta hoy; leídos los primeros 100.000 caracteres.",
+      "usado_en": [
+        "basico-1",
+        "basico-2"
+      ]
+    },
+    {
+      "org": "Oregon State University Extension",
+      "titulo": "Vegetative plant parts",
+      "url": "https://extension.oregonstate.edu/gardening/techniques/vegetative-plant-parts",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Segunda fuente para funciones de la raíz, pivotante (zanahoria) vs fibrosa, pelos radicales, y bulbos/rizomas/tubérculos como tallos (los tallos tienen nudos, las raíces no).",
+      "usado_en": [
+        "basico-2"
+      ]
+    },
+    {
+      "org": "Oregon State University Extension",
+      "titulo": "Environmental factors affecting plant growth",
+      "url": "https://extension.oregonstate.edu/gardening/techniques/environmental-factors-affecting-plant-growth",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Las plantas necesitan 17 elementos; 3 vienen del aire y el agua y el resto del suelo; la mayoría se absorbe disuelta en agua por las raíces; el fertilizante no es el alimento de la planta. Reabierta hoy (ya citada en basico-1).",
+      "usado_en": [
+        "basico-1"
+      ]
+    },
+    {
+      "org": "NC State Extension",
+      "titulo": "Extension Gardener Handbook, capítulo 18: Plants Grown in Containers",
+      "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "En maceta los nutrientes se limitan al poco sustrato, la planta los consume y el riego los lava; raíces sanas blancas o tostadas en la mayoría de las especies; marchita con tierra húmeda = raíces podridas que no absorben; señales de maceta chica (raíces que salen, deja de crecer, se marchita seguido); maceta nueva 1 a 2 pulgadas más ancha. Reabierta hoy; leídos los primeros 100.000 caracteres.",
+      "usado_en": [
+        "basico-1",
+        "basico-2",
+        "basico-4"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to help a poorly houseplant",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Plantas años en la misma maceta se quedan cortas de nutrientes; puntas y bordes marrones = signo clásico de aire seco; hojas que se enrollan por calor; manchas oscuras con borde amarillo = hongo; raíces oscuras y blandas por exceso de riego; amarilleo por falta/exceso de agua, poca luz o falta de nutrientes. Reabierta hoy.",
+      "usado_en": [
+        "basico-1",
+        "basico-3"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow houseplants",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Planta sana al comprar: robusta, forma pareja, hojas sin decoloración ni manchas; se seca muy rápido y crece poco = posible maceta chica; maceta nueva 5 a 10 cm más ancha. Reabierta hoy.",
+      "usado_en": [
+        "basico-2",
+        "basico-3"
+      ]
+    },
+    {
+      "org": "Iowa State University Extension",
+      "titulo": "Root Rots of Houseplants",
+      "url": "https://yardandgarden.extension.iastate.edu/article/2014/02-14/rootrot.html",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Raíz sana: firme, blanca, con muchas raicillas; podrida: blanda, marrón o rojiza; la marchitez por pudrición se confunde con falta de agua; causa: sustrato mojado y exceso de riego.",
+      "usado_en": [
+        "basico-2",
+        "basico-3"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison, Plant Disease Diagnostics Clinic",
+      "titulo": "Root Rots on Houseplants",
+      "url": "https://pddc.wisc.edu/?p=24941",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Raíces afectadas blandas y marrones, pueden tener mal olor; marchitez con tierra mojada; hongos del suelo que prefieren suelo mojado.",
+      "usado_en": [
+        "basico-2"
+      ]
+    },
+    {
+      "org": "University of California Statewide IPM Program",
+      "titulo": "Houseplant Problems",
+      "url": "https://ipm.ucanr.edu/home-and-landscape/houseplant-problems/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Raíces sanas blancas; marrones, blandas u oscuras = pudrición; tabla de síntomas con varias causas cada uno (amarilleo, puntas marrones, marchitez, manchas por sol o por hongos/bacterias, hojas enruladas por pulgones y otros chupadores).",
+      "usado_en": [
+        "basico-2",
+        "basico-3"
+      ]
+    },
+    {
+      "org": "Iowa State University Extension",
+      "titulo": "Diagnosing Houseplant Problems from Improper Environmental Conditions",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/diagnosing-houseplant-problems-improper-environmental-conditions",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "La humedad baja es la causa más común de puntas marrones (también riego desparejo, sales, calidad del agua); marchitez por falta o exceso de agua; maceta demasiado grande como causa de tierra siempre mojada; suelen intervenir varios factores a la vez.",
+      "usado_en": [
+        "basico-2",
+        "basico-3"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension (HGIC)",
+      "titulo": "Houseplant Diseases & Disorders",
+      "url": "https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Amarilleo: lo más frecuente es exceso de riego (también poca luz, poco fertilizante, plagas); hojas enruladas por falta de agua crónica; manchas de hongos marrones con margen amarillento; raíces infectadas marrones a negras y blandas.",
+      "usado_en": [
+        "basico-3"
+      ]
+    },
+    {
+      "org": "Penn State Extension",
+      "titulo": "Repotting Houseplants",
+      "url": "https://extension.psu.edu/repotting-houseplants",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Señales de maceta chica: el sustrato se seca muy rápido, raíces por los agujeros, crecimiento frenado, raíces dando vueltas; maceta nueva apenas más grande.",
+      "usado_en": [
+        "basico-2"
+      ]
+    },
+    {
+      "org": "Brooklyn Botanic Garden",
+      "titulo": "When, Why, and How to Repot Your Houseplants",
+      "url": "https://www.bbg.org/article/when_why_and_how_to_repot_your_houseplants",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Maceta un paso más grande, no enorme: el exceso de tierra retiene agua y favorece la pudrición de raíces.",
+      "usado_en": [
+        "basico-2"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Zamioculcas zamiifolia",
+      "url": "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Rizomas carnosos que almacenan agua y la hacen muy tolerante a la sequía.",
+      "usado_en": [
+        "basico-2"
+      ]
+    }
+  ],
+  "revisar": [
+    {
+      "id": "basico-2",
+      "dato": "las raíces podridas pueden tener mal olor",
+      "motivo": "Una sola fuente institucional lo dice (Wisconsin PDDC: 'may have a bad odor'). Iowa State, UC IPM, Clemson y RHS describen color y textura pero no olor. Redactado como 'pueden tener mal olor'.",
+      "fuentes": [
+        "https://pddc.wisc.edu/?p=24941"
+      ]
+    },
+    {
+      "id": "basico-2",
+      "dato": "cuánto más grande tiene que ser la maceta nueva",
+      "motivo": "Las fuentes no coinciden en la medida: NC State 2,5 a 5 cm más ancha (macetas chicas), RHS 5 a 10 cm, Penn State y BBG 'apenas más grande'. Se eligió el criterio conservador y no se puso número ('apenas más grande').",
+      "fuentes": [
+        "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "https://www.rhs.org.uk/plants/types/houseplants/growing-guide"
+      ]
+    },
+    {
+      "id": "basico-2",
+      "dato": "maceta demasiado grande favorece la pudrición",
+      "motivo": "Lo dicen Iowa State (maceta muy grande como causa de tierra siempre mojada) y BBG (jardín botánico). Penn State solo da un motivo estético y NC State no lo trata. Redactado como 'se pueden pudrir'.",
+      "fuentes": [
+        "https://yardandgarden.extension.iastate.edu/how-to/diagnosing-houseplant-problems-improper-environmental-conditions",
+        "https://www.bbg.org/article/when_why_and_how_to_repot_your_houseplants"
+      ]
+    },
+    {
+      "id": "basico-2",
+      "dato": "bulbos, rizomas y tubérculos presentados dentro de la lección de raíces",
+      "motivo": "El plan los pedía como 'tipos de raíz', pero NC State y Oregon State coinciden en que son tallos subterráneos, no raíces. La tarjeta y el quiz lo aclaran. El ejemplo de la zamioculca tiene una sola fuente (NC State Plant Toolbox).",
+      "fuentes": [
+        "https://content.ces.ncsu.edu/extension-gardener-handbook/3-botany",
+        "https://extension.oregonstate.edu/gardening/techniques/vegetative-plant-parts"
+      ]
+    },
+    {
+      "id": "basico-3",
+      "dato": "hojas enruladas = sed o calor",
+      "motivo": "Fuentes con matices: Clemson dice falta de agua crónica, RHS dice hojas que se enrollan por calor, UC IPM solo menciona plagas chupadoras. La tarjeta nombra las tres; el quiz 'unir' usa 'Sed o calor' como causa más común. Por esto la lección queda en confianza media.",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/",
+        "https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant",
+        "https://ipm.ucanr.edu/home-and-landscape/houseplant-problems/"
+      ]
+    },
+    {
+      "id": "basico-3",
+      "dato": "brotes nuevos y tallos erguidos como señal de planta sana",
+      "motivo": "No hay una fuente que lo liste así. Se apoya de forma indirecta: RHS pide plantas 'robustas' y sin decoloración; RHS, NC State y Penn State tratan el crecimiento frenado en época de crecimiento como señal de problema.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/types/houseplants/growing-guide"
+      ]
+    },
+    {
+      "id": "basico-3",
+      "dato": "que una hoja vieja se seque es normal",
+      "motivo": "Arrastrado de la pasada anterior con una sola fuente (RHS). Iowa State ahora lo respalda: lista el envejecimiento normal entre las causas de amarilleo y caída.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant",
+        "https://yardandgarden.extension.iastate.edu/how-to/diagnosing-houseplant-problems-improper-environmental-conditions"
+      ]
+    },
+    {
+      "id": "basico-1",
+      "dato": "calefacción que seca el aire en Buenos Aires",
+      "motivo": "Sin cambios desde la pasada anterior: sigue sin fuente argentina (solo RHS para el efecto de la calefacción y SMN para los meses).",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/types/houseplants/winter-interest-houseplants-care"
+      ]
+    }
+  ],
+  "no_pude_abrir": [
+    "https://hort.extension.wisc.edu/articles/root-rots-on-houseplants/ (404; se usó la misma ficha en pddc.wisc.edu)",
+    "https://www.rhs.org.uk/plants/types/houseplants/repotting (404)",
+    "https://extension.umd.edu/resource/potting-and-repotting-indoor-plants (certificado rechazado)",
+    "https://extension.psu.edu/caring-for-houseplants y https://extension.psu.edu/preventing-diagnosing-and-correcting-common-houseplant-problems (abrieron, pero devolvieron un índice de artículos sin el contenido; no se citaron)",
+    "https://extension.oregonstate.edu/gardening/techniques/botany-basics (abrió, pero es solo un índice; no se citó)"
+  ]
+}

@@ -8,7 +8,7 @@
       {
         "tipo": "concepto",
         "imagen": "necesidades",
-        "texto": "Una planta necesita cuatro cosas: luz, agua, aire y una tierra donde apoyar las raíces. Las cuatro trabajan juntas."
+        "texto": "Una planta necesita cinco cosas: luz, agua, aire, nutrientes y una tierra donde apoyar las raíces. Las cinco trabajan juntas."
       },
       {
         "tipo": "por_que",
@@ -49,13 +49,18 @@
         "texto": "Las raíces necesitan aire además de agua. Si la tierra queda empapada, los huequitos de aire se llenan de agua y las raíces se ahogan."
       },
       {
+        "tipo": "concepto",
+        "imagen": "sustrato",
+        "texto": "Los nutrientes son minerales que las raíces toman disueltos en el agua de la tierra. En una maceta hay poca tierra, así que con el tiempo se van gastando."
+      },
+      {
         "tipo": "dato_ba",
         "imagen": "calefaccion",
         "texto": "En Buenos Aires el invierno va de junio a agosto y viene con calefacción, que seca el aire de la casa. A muchas plantas de interior ese aire seco les cuesta."
       }
     ],
     "para_llevarte": [
-      "Luz, agua, aire y tierra: las cuatro juntas.",
+      "Luz, agua, aire, tierra y nutrientes: los cinco juntos.",
       "Con la luz, la planta fabrica su alimento.",
       "Las raíces necesitan agua, pero también aire."
     ],
@@ -106,6 +111,12 @@
         ],
         "correcta": 0,
         "explicacion": "El agua ocupa los huecos de aire de la tierra y las raíces se ahogan."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Los nutrientes de la tierra de una maceta duran para siempre.",
+        "correcta": false,
+        "explicacion": "Con el tiempo se gastan: la planta los usa y el riego se lleva una parte. Más adelante vemos cómo reponerlos."
       }
     ],
     "fuentes": [
@@ -119,6 +130,18 @@
         "titulo": "Environmental factors affecting plant growth",
         "org": "Oregon State University Extension",
         "url": "https://extension.oregonstate.edu/gardening/techniques/environmental-factors-affecting-plant-growth",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Extension Gardener Handbook, capítulo 18: Plants Grown in Containers",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "How to help a poorly houseplant",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant",
         "fecha_consulta": "2026-11-14"
       },
       {
@@ -150,45 +173,236 @@
     "xp": 20
   },
   {
-    "id": "basico-3",
+    "id": "basico-2",
     "unidad": "basico",
-    "titulo": "Planta feliz, planta que sufre",
-    "gancho": "¿Cómo me doy cuenta de si mi planta está bien?",
+    "titulo": "Las raíces",
+    "gancho": "¿Qué pasa ahí abajo, donde no se ve?",
     "tarjetas": [
       {
-        "tipo": "comparativa",
-        "imagen_mal": "planta-triste",
-        "imagen_bien": "planta-feliz",
-        "texto": "Las hojas son las que avisan. Si se caen, se ponen amarillas, se secan en los bordes o se manchan, algo del lugar o del riego no le está gustando."
+        "tipo": "tactil",
+        "imagen": "planta-partes",
+        "texto": "Las raíces son la parte de la planta que no ves, y de ellas depende todo lo de arriba. Tocá cada parte para ver qué tiene que ver con las raíces.",
+        "zonas": [
+          {
+            "id": "raices",
+            "etiqueta": "Raíces",
+            "texto": "Toman agua y nutrientes, sujetan la planta a la tierra y guardan reservas."
+          },
+          {
+            "id": "tallo",
+            "etiqueta": "Tallo",
+            "texto": "Lleva hacia arriba el agua y los nutrientes que tomaron las raíces."
+          },
+          {
+            "id": "hojas",
+            "etiqueta": "Hojas",
+            "texto": "Si las raíces andan mal, las hojas lo muestran: se caen o se ponen amarillas."
+          },
+          {
+            "id": "maceta",
+            "etiqueta": "Maceta",
+            "texto": "Es todo el lugar que tienen las raíces para crecer."
+          }
+        ]
       },
       {
         "tipo": "concepto",
-        "imagen": "planta-seca",
-        "texto": "Hojas caídas, bordes marrones y crocantes, y tierra seca: lo más probable es que tenga sed. Suelen amarillear primero las hojas viejas de abajo."
+        "imagen": "raices-sanas",
+        "texto": "Hay raíces fibrosas, que son muchas y finitas, y raíces pivotantes, con una raíz principal gruesa que baja derecho, como la zanahoria. En las dos, el agua y los nutrientes entran por las puntas más nuevas y finitas."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "sustrato",
+        "texto": "Bulbos, rizomas y tubérculos son partes engrosadas que guardan reservas bajo tierra, aunque en rigor son tallos y no raíces. La zamioculca, por ejemplo, guarda agua en sus rizomas y por eso aguanta bastante sin riego."
+      },
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "raices-podridas",
+        "imagen_bien": "raices-sanas",
+        "texto": "Las raíces sanas son firmes y de color claro, blancas o tostadas en la mayoría de las plantas. Las podridas están blandas, se ven oscuras y pueden tener mal olor."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "planta-ahogada",
+        "texto": "Cuando la tierra queda mojada mucho tiempo, las raíces se pudren y ya no pueden tomar agua. Por eso una planta con las raíces podridas se ve marchita aunque la tierra esté húmeda."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "trasplante",
+        "texto": "Si las raíces asoman por el agujero, la tierra se seca rapidísimo o la planta dejó de crecer, puede que la maceta le haya quedado chica. Conviene pasarla a una apenas más grande, porque en una maceta enorme la tierra tarda en secarse y las raíces se pueden pudrir."
+      }
+    ],
+    "para_llevarte": [
+      "Las raíces toman agua y nutrientes, sujetan y guardan reservas.",
+      "Sanas: firmes y claras. Podridas: blandas y oscuras.",
+      "Maceta nueva: apenas más grande que la anterior."
+    ],
+    "quiz": [
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Qué hacen las raíces?",
+        "opciones": [
+          "Atrapan la luz",
+          "Toman agua y nutrientes y sujetan la planta",
+          "Fabrican el alimento"
+        ],
+        "correcta": 1,
+        "explicacion": "Toman agua y nutrientes, sujetan la planta y además guardan reservas."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Sacás la planta de la maceta y las raíces están oscuras y blandas. ¿Qué les pasa?",
+        "imagen": "raices-podridas",
+        "opciones": [
+          "Están sanas",
+          "Están podridas",
+          "Les falta luz"
+        ],
+        "correcta": 1,
+        "explicacion": "Las raíces sanas son firmes y claras. Oscuras y blandas es señal de que se pudrieron, casi siempre por tierra demasiado mojada."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada nombre con lo que es",
+        "pares": [
+          {
+            "a": "Raíces fibrosas",
+            "b": "Muchas raíces finitas"
+          },
+          {
+            "a": "Raíz pivotante",
+            "b": "Una raíz principal gruesa"
+          },
+          {
+            "a": "Rizoma",
+            "b": "Tallo que guarda reservas"
+          }
+        ],
+        "explicacion": "Las fibrosas son muchas y finitas, la pivotante es una sola raíz gruesa, y el rizoma es un tallo que guarda reservas."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Si la maceta quedó chica, lo mejor es pasar la planta a una mucho más grande.",
+        "correcta": false,
+        "explicacion": "Mejor una apenas más grande. En una maceta enorme sobra tierra, tarda en secarse y las raíces se pueden pudrir."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Una planta marchita con la tierra húmeda puede tener las raíces podridas.",
+        "correcta": true,
+        "explicacion": "Las raíces podridas no pueden tomar agua, así que la planta se marchita aunque tenga la tierra mojada."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Extension Gardener Handbook, capítulo 3: Botany",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/3-botany",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Vegetative plant parts",
+        "org": "Oregon State University Extension",
+        "url": "https://extension.oregonstate.edu/gardening/techniques/vegetative-plant-parts",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Extension Gardener Handbook, capítulo 18: Plants Grown in Containers",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Root Rots of Houseplants",
+        "org": "Iowa State University Extension",
+        "url": "https://yardandgarden.extension.iastate.edu/article/2014/02-14/rootrot.html",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Root Rots on Houseplants",
+        "org": "University of Wisconsin-Madison, Plant Disease Diagnostics Clinic",
+        "url": "https://pddc.wisc.edu/?p=24941",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplant Problems",
+        "org": "University of California Statewide IPM Program",
+        "url": "https://ipm.ucanr.edu/home-and-landscape/houseplant-problems/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Diagnosing Houseplant Problems from Improper Environmental Conditions",
+        "org": "Iowa State University Extension",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/diagnosing-houseplant-problems-improper-environmental-conditions",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow houseplants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Repotting Houseplants",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/repotting-houseplants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "When, Why, and How to Repot Your Houseplants",
+        "org": "Brooklyn Botanic Garden",
+        "url": "https://www.bbg.org/article/when_why_and_how_to_repot_your_houseplants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Zamioculcas zamiifolia",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "alta",
+    "xp": 20
+  },
+  {
+    "id": "basico-3",
+    "unidad": "basico",
+    "titulo": "Leer las señales de una planta",
+    "gancho": "¿Cómo me doy cuenta de si mi planta está bien?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "planta-feliz",
+        "texto": "Una planta sana tiene hojas firmes y de color parejo, tallos erguidos y, en época de crecimiento, brotes nuevos. Si la sacás de la maceta, las raíces se ven claras y firmes."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "planta-triste",
+        "texto": "Que cada tanto se seque una hoja vieja es parte de crecer: tranqui, no pasa nada. Cuando cambian muchas hojas juntas, tomalo como una pista y no como una sentencia, porque una misma señal puede tener más de una causa."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-ahogada",
-        "texto": "Hojas amarillas que se caen, viejas y nuevas a la vez, con la tierra mojada hace días: lo más probable es que le sobre agua."
+        "texto": "Hojas amarillas: lo más común es agua de más, sobre todo si la tierra lleva días mojada y amarillean hojas viejas y nuevas a la vez. También pueden ser sed, poca luz o falta de nutrientes."
       },
       {
-        "tipo": "por_que",
+        "tipo": "concepto",
         "imagen": "dedo",
-        "texto": "Ojo, que una planta con agua de más también se puede ver caída, igual que una con sed. Por eso, antes de regar, metele el dedo a la tierra y fijate cómo está."
+        "texto": "Hojas caídas: puede ser sed, pero también agua de más, porque las raíces dañadas no llegan a tomar agua. Por eso, antes de regar, metele el dedo a la tierra y fijate cómo está."
       },
       {
         "tipo": "concepto",
-        "imagen": "planta-estirada",
-        "texto": "Si crece flaca, pálida y estirada, le está faltando luz. Si le aparecen manchas marrones y secas, puede ser demasiado sol directo."
+        "imagen": "planta-seca",
+        "texto": "Puntas marrones y secas: lo más común es aire seco, y también puede ser un riego desparejo. Hojas enruladas: suelen avisar sed o demasiado calor, aunque a veces son bichitos que chupan la savia."
       },
       {
         "tipo": "concepto",
-        "imagen": "planta-feliz",
-        "texto": "Que cada tanto se seque una hoja vieja es parte de crecer: tranqui, no pasa nada. Si cambian de color muchas hojas juntas, ahí sí conviene revisar el riego y el lugar."
+        "imagen": "planta-quemada",
+        "texto": "Manchas marrones y secas después de pasarla a un lugar con más sol suelen ser quemaduras, y manchas oscuras con borde amarillo suelen ser hongos. Si en cambio crece flaca, pálida y estirada, le está faltando luz."
       }
     ],
     "para_llevarte": [
-      "Mirá las hojas: son las que avisan.",
+      "Una misma señal puede tener más de una causa.",
       "Antes de regar, tocá la tierra.",
       "Una hoja vieja amarilla no es una emergencia."
     ],
@@ -207,7 +421,7 @@
       },
       {
         "tipo": "que_le_pasa",
-        "pregunta": "Tierra mojada hace días y hojas amarillas que se caen. ¿Qué le pasa?",
+        "pregunta": "Tierra mojada hace días y hojas amarillas, viejas y nuevas a la vez. ¿Qué es lo más probable?",
         "imagen": "planta-ahogada",
         "opciones": [
           "Tiene sed",
@@ -215,13 +429,36 @@
           "Le sobra luz"
         ],
         "correcta": 1,
-        "explicacion": "Tierra empapada y hojas amarillas que se caen suelen ser señal de exceso de riego."
+        "explicacion": "Tierra empapada y hojas viejas y nuevas que amarillean juntas suelen ser señal de exceso de riego."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Si la planta está caída, seguro le falta agua.",
         "correcta": false,
         "explicacion": "También puede estar caída por exceso de agua. Tocá la tierra antes de regar."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada señal con su causa más común",
+        "pares": [
+          {
+            "a": "Puntas marrones y secas",
+            "b": "Aire seco"
+          },
+          {
+            "a": "Hojas enruladas",
+            "b": "Sed o calor"
+          },
+          {
+            "a": "Manchas secas tras más sol",
+            "b": "Quemadura de sol"
+          },
+          {
+            "a": "Manchas oscuras, borde amarillo",
+            "b": "Hongos"
+          }
+        ],
+        "explicacion": "Son las causas más comunes, no las únicas. Mirá siempre también la tierra, la luz y el lugar."
       },
       {
         "tipo": "verdadero_falso",
@@ -260,9 +497,33 @@
         "org": "Iowa State University Extension",
         "url": "https://yardandgarden.extension.iastate.edu/how-to/how-care-houseplants",
         "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Diagnosing Houseplant Problems from Improper Environmental Conditions",
+        "org": "Iowa State University Extension",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/diagnosing-houseplant-problems-improper-environmental-conditions",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplant Problems",
+        "org": "University of California Statewide IPM Program",
+        "url": "https://ipm.ucanr.edu/home-and-landscape/houseplant-problems/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplant Diseases & Disorders",
+        "org": "Clemson Cooperative Extension (HGIC)",
+        "url": "https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Root Rots of Houseplants",
+        "org": "Iowa State University Extension",
+        "url": "https://yardandgarden.extension.iastate.edu/article/2014/02-14/rootrot.html",
+        "fecha_consulta": "2026-11-15"
       }
     ],
-    "confianza": "alta",
+    "confianza": "media",
     "xp": 20
   },
   {
@@ -285,7 +546,7 @@
       {
         "tipo": "concepto",
         "imagen": "maceta-drenaje",
-        "texto": "En maceta hay poca tierra, y esa tierra se seca más rápido que el suelo de un jardín. Por eso la planta depende de tu riego."
+        "texto": "En maceta hay poca tierra: se seca más rápido que el suelo de un jardín y sus nutrientes se van gastando. Por eso la planta depende de tu cuidado."
       },
       {
         "tipo": "concepto",

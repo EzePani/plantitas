@@ -134,9 +134,14 @@
   {
     "id": "riego-2",
     "unidad": "riego",
-    "titulo": "Cuándo regar",
+    "titulo": "Cómo saber si hay que regar",
     "gancho": "¿Cada cuántos días la riego?",
     "tarjetas": [
+      {
+        "tipo": "por_que",
+        "imagen": "estaciones",
+        "texto": "No hay un cada tantos días que sirva siempre: depende de la luz, la temperatura, la planta y la maceta. Las macetas chicas y las de barro, por ejemplo, se secan más rápido que las grandes y las de plástico."
+      },
       {
         "tipo": "concepto",
         "imagen": "dedo",
@@ -148,25 +153,25 @@
         "texto": "También podés levantar la maceta: con la tierra seca pesa bastante menos que recién regada. Con el tiempo le agarrás la mano."
       },
       {
-        "tipo": "por_que",
-        "imagen": "estaciones",
-        "texto": "No hay un cada tantos días que sirva siempre. Cuánta agua toma la planta depende de la luz, la temperatura, el tamaño de la maceta y el tipo de tierra."
+        "tipo": "concepto",
+        "imagen": "palito",
+        "texto": "Si la tierra está muy apretada o la maceta es honda, clavá un palito de madera, como los de brochette. Si sale con tierra húmeda pegada, esperá, y si sale seco, toca regar."
       },
       {
         "tipo": "concepto",
-        "imagen": "maceta-drenaje",
-        "texto": "Las macetas chicas y las de barro se secan más rápido que las grandes y las de plástico. Por eso dos plantas iguales pueden pedir agua en días distintos."
+        "imagen": "sustrato",
+        "texto": "La tierra húmeda se ve oscura y al secarse se pone más clara. Es una pista rápida, pero muestra solo la superficie, así que confirmá con el dedo."
       },
       {
         "tipo": "concepto",
-        "imagen": "planta-feliz",
-        "texto": "No todas esperan lo mismo: los cactus y las suculentas guardan agua y prefieren que la tierra se seque bien. Las de hojas grandes y finas suelen pedir agua más seguido."
+        "imagen": "dedo",
+        "texto": "Los medidores de humedad baratos, los de aguja, no siempre aciertan: el abono y el tipo de tierra les cambian la lectura. Si tenés uno usalo como ayuda, pero el dedo sigue siendo más confiable."
       }
     ],
     "para_llevarte": [
       "La tierra decide, no el calendario.",
-      "Dedo seco: regá. Dedo húmedo: esperá.",
-      "El peso de la maceta también avisa."
+      "Dedo, peso, palito y color: cuatro pistas gratis.",
+      "El medidor barato puede fallar: confirmá con el dedo."
     ],
     "quiz": [
       {
@@ -188,14 +193,32 @@
       },
       {
         "tipo": "unir",
-        "pregunta": "Uní cada pista con lo que te dice.",
+        "pregunta": "Uní cada método con la señal de que toca regar.",
         "pares": [
-          { "a": "Dedo sale seco", "b": "Toca regar" },
-          { "a": "Dedo sale húmedo", "b": "Esperá" },
-          { "a": "Maceta liviana", "b": "Tierra seca" },
-          { "a": "Maceta pesada", "b": "Tierra con agua" }
+          {
+            "a": "Dedo",
+            "b": "Seca a 2 o 3 cm"
+          },
+          {
+            "a": "Peso",
+            "b": "Maceta liviana"
+          },
+          {
+            "a": "Palito",
+            "b": "Sale seco"
+          },
+          {
+            "a": "Color",
+            "b": "Tierra más clara"
+          }
         ],
-        "explicacion": "El dedo y el peso de la maceta son dos formas simples de saber cómo está la tierra."
+        "explicacion": "Son cuatro formas simples de saber cómo está la tierra. Si dudás, el dedo es la más confiable."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Un medidor de humedad barato siempre es más exacto que tocar la tierra.",
+        "correcta": false,
+        "explicacion": "Varias universidades avisan que estos medidores no siempre son confiables, porque el abono y el tipo de tierra alteran lo que marcan. Tocar la tierra sigue siendo la mejor prueba."
       },
       {
         "tipo": "opcion_multiple",
@@ -233,9 +256,39 @@
         "org": "Utah State University Extension",
         "url": "https://extension.usu.edu/archive/care-and-feeding-of-indoor-plants",
         "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Houseplants: Watering",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/watering",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "To Buy or Not to Buy: The Gear Your Houseplants Really Need",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/to-buy-or-not-to-buy-the-gear-your-houseplants-really-need",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Are House Plant Moisture Meters accurate, and safe to use?",
+        "org": "University of Maryland Extension (HGIC), en Ask Extension",
+        "url": "https://ask.extension.org/kb/faq.php?id=799752",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Watering Plants in Containers and Plug Trays",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/article/2025/04/watering-plants-containers-and-plug-trays",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Guía de cuidado de suculentas (PDF, título descriptivo)",
+        "org": "UC Cooperative Extension, Sacramento County",
+        "url": "https://ucanr.edu/sites/default/files/2025-08/331073.pdf",
+        "fecha_consulta": "2026-11-15"
       }
     ],
-    "confianza": "alta",
+    "confianza": "media",
     "xp": 20
   },
   {
@@ -248,38 +301,38 @@
         "tipo": "comparativa",
         "imagen_mal": "planta-triste",
         "imagen_bien": "riego",
-        "texto": "Regá a fondo, hasta que salga agua por los agujeros de abajo. Así el agua llega a las raíces del fondo y no se queda solo en la superficie."
+        "texto": "Mejor que un chorrito todos los días es regar a fondo, hasta que salga agua por los agujeros de abajo. Así se moja toda la tierra, también la del fondo, donde están casi todas las raíces."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "planta-ahogada",
+        "texto": "Regar a fondo no es regar seguido: después esperá a que la tierra se seque antes de volver a regar. Lo que ahoga a las raíces no es mucha agua de una vez, sino la tierra mojada todo el tiempo."
       },
       {
         "tipo": "concepto",
         "imagen": "maceta-drenaje",
-        "texto": "Dejá que escurra y, después de un rato, vaciá el plato. La maceta no tiene que quedar parada en agua."
+        "texto": "Dejá que escurra y, después de un rato, vaciá el plato. Si usás una maceta decorativa sin agujero, sacá la de adentro para regar y devolvela cuando terminó de escurrir."
       },
       {
         "tipo": "concepto",
         "imagen": "riego",
-        "texto": "Si la tierra se secó tanto que el agua pasa de largo, apoyá la maceta un rato en un recipiente con agua. Cuando la superficie se humedezca, sacala y dejala escurrir bien."
-      },
-      {
-        "tipo": "dato_ba",
-        "imagen": "estaciones",
-        "texto": "En invierno (junio a agosto) las plantas crecen más despacio y toman menos agua, así que se riega menos. En verano (diciembre a febrero), con más calor y luz, la tierra se seca más rápido."
-      },
-      {
-        "tipo": "dato_ba",
-        "imagen": "calefaccion",
-        "texto": "La calefacción seca el aire y puede secar la maceta más rápido, sobre todo cerca de la estufa. Por eso en invierno tampoco vale el calendario: tocá la tierra antes de regar."
+        "texto": "Apuntá el agua a la tierra y no a las hojas, y usala a temperatura ambiente. El agua muy fría les puede hacer mal, sobre todo en invierno."
       },
       {
         "tipo": "concepto",
-        "imagen": "calefaccion",
-        "texto": "Rociar las hojas casi no cambia la humedad, porque el agua se evapora en minutos. Si el aire está muy seco, ayuda más juntar las plantas o usar un humidificador."
+        "imagen": "plato-agua",
+        "texto": "Regar por abajo también vale: apoyás la maceta en unos centímetros de agua hasta que la tierra de arriba se humedezca, y después la dejás escurrir. Sirve para plantas que no quieren mojarse las hojas, pero cada tanto regá por arriba para lavar las sales que se van juntando."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-seca",
+        "texto": "Si la tierra se secó tanto que se despegó de la maceta y el agua pasa de largo, el remojo la rescata. Dejala en un recipiente con agua hasta que la superficie se humedezca y después escurrila bien."
       }
     ],
     "para_llevarte": [
-      "Riego a fondo, hasta que escurra.",
+      "Riego a fondo, hasta que escurra, y después esperar.",
       "Vaciá el plato: nada de agua estancada.",
-      "En invierno se riega menos, pero siempre tocando la tierra."
+      "Por arriba o por abajo, pero cada tanto por arriba."
     ],
     "quiz": [
       {
@@ -301,20 +354,32 @@
       },
       {
         "tipo": "verdadero_falso",
-        "pregunta": "En invierno las plantas de interior suelen necesitar menos agua que en verano.",
-        "correcta": true,
-        "explicacion": "En invierno crecen más despacio y toman menos agua. Igual, con la calefacción prendida la tierra puede secarse rápido, así que lo mejor es tocarla."
+        "pregunta": "Regar a fondo quiere decir regar más seguido.",
+        "correcta": false,
+        "explicacion": "Es al revés: mucha agua de una vez y después esperar a que la tierra se seque. Lo que hace daño es que esté mojada todo el tiempo."
       },
       {
         "tipo": "opcion_multiple",
-        "pregunta": "El aire está muy seco por la calefacción. ¿Qué ayuda más a tus plantas?",
+        "pregunta": "Regás siempre por abajo, desde un recipiente con agua. ¿Qué conviene hacer cada tanto?",
         "opciones": [
-          "Rociar las hojas una vez por día",
-          "Juntarlas o usar un humidificador",
-          "Regarlas el doble"
+          "Regar por arriba hasta que escurra",
+          "Dejarla en remojo toda la noche",
+          "Nada, así está perfecto"
+        ],
+        "correcta": 0,
+        "explicacion": "Regando solo por abajo se pueden ir juntando sales en la tierra. Un riego por arriba cada tanto las lava."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "La tierra está reseca y despegada de la maceta, y el agua sale por abajo apenas la echás. ¿Qué hacés?",
+        "imagen": "planta-seca",
+        "opciones": [
+          "Le doy un chorrito todos los días",
+          "La dejo en remojo hasta que se humedezca arriba",
+          "La cambio de lugar"
         ],
         "correcta": 1,
-        "explicacion": "El rociado se evapora en minutos y casi no cambia nada. Agruparlas o un humidificador rinde más, y regar de más solo ahoga las raíces."
+        "explicacion": "Cuando la tierra se seca del todo, el agua pasa por el costado sin mojarla. Un rato en remojo la vuelve a humedecer, y después hay que dejarla escurrir."
       }
     ],
     "fuentes": [
@@ -337,9 +402,354 @@
         "fecha_consulta": "2026-11-14"
       },
       {
+        "titulo": "Care and Feeding of Indoor Plants",
+        "org": "Utah State University Extension",
+        "url": "https://extension.usu.edu/archive/care-and-feeding-of-indoor-plants",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Extension Gardener Handbook, cap. 18: Plants Grown in Containers",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Houseplants: Watering",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/watering",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "All About African Violets",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/all-about-african-violets",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Container Gardens: Watering",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/container-gardens/watering",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "alta",
+    "xp": 20
+  },
+  {
+    "id": "riego-4",
+    "unidad": "riego",
+    "titulo": "Formas de regar",
+    "gancho": "¿Regadera, ducha, rociador o que se riegue sola?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "riego",
+        "texto": "Regar a mano con una regadera de pico fino es lo más simple y lo más preciso. Ves cuánta agua ponés y la llevás directo a la tierra."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "plato-agua",
+        "texto": "El plato cuida el piso y los muebles, pero no es una reserva de agua. Vacialo después de regar: el agua estancada puede pudrir las raíces y, en el balcón, criar mosquitos."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "ducha",
+        "texto": "Una ducha suave con agua tibia saca el polvo de las hojas y moja bien toda la tierra. Hacela cuando toque regar, dejá escurrir, y evitala en plantas de hojas con pelitos, que se limpian mejor con un pincel suave."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "estaciones",
+        "texto": "En Buenos Aires llueve más seguido en verano, y a las plantas del balcón la lluvia les limpia las hojas. Igual tocá la tierra después, y si llueve mucho poné los cactus y las suculentas bajo techo."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "autorriego",
+        "texto": "Las macetas con autorriego o una mecha suben el agua de a poco desde un depósito, y el riego por goteo la reparte solo entre muchas macetas. Ayudan en vacaciones o en el balcón, pero no reemplazan revisar la tierra y van mejor con plantas que quieren humedad pareja."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "rociador",
+        "texto": "Pulverizar las hojas casi no cambia la humedad, porque el agua se evapora en minutos. La excepción son las plantas del aire, que sí se riegan así."
+      }
+    ],
+    "para_llevarte": [
+      "A mano y a la tierra: lo más simple y preciso.",
+      "Plato, mecha y goteo ayudan, pero la tierra se revisa igual.",
+      "Rociar las hojas casi no cambia la humedad."
+    ],
+    "quiz": [
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Rociar las hojas todos los días es una buena forma de subir la humedad.",
+        "correcta": false,
+        "explicacion": "El agua se evapora en minutos y la humedad vuelve a bajar. Solo las plantas del aire aprovechan de verdad el rociado."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada forma de regar con lo que mejor hace.",
+        "pares": [
+          {
+            "a": "Regadera de pico fino",
+            "b": "Agua directo a la tierra"
+          },
+          {
+            "a": "Ducha tibia",
+            "b": "Sacar el polvo de las hojas"
+          },
+          {
+            "a": "Mecha o autorriego",
+            "b": "Unos días de vacaciones"
+          },
+          {
+            "a": "Goteo",
+            "b": "Muchas macetas juntas"
+          }
+        ],
+        "explicacion": "Cada forma tiene su momento. Con cualquiera, tocar la tierra sigue siendo la mejor guía."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Llovió y tus macetas están en el balcón. ¿Qué hacés?",
+        "opciones": [
+          "Doy por hecho que quedaron regadas",
+          "Toco la tierra para ver si se mojó de verdad",
+          "Las riego igual, por las dudas"
+        ],
+        "correcta": 1,
+        "explicacion": "La lluvia no siempre llega a mojar la tierra por debajo de la superficie. Tocarla te saca la duda, sin regar de más ni de menos."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Cuál de estas plantas no conviene meter bajo la ducha?",
+        "opciones": [
+          "Un potus",
+          "Una de hojas con pelitos, como la violeta africana",
+          "Un helecho"
+        ],
+        "correcta": 1,
+        "explicacion": "Las hojas con pelitos se limpian mejor en seco, con un pincel o cepillo suave. Las de hoja lisa se bancan bien una ducha tibia."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Garden watering methods",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/garden-jobs/garden-watering-methods",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "To Buy or Not to Buy: The Gear Your Houseplants Really Need",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/to-buy-or-not-to-buy-the-gear-your-houseplants-really-need",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplant Care",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/houseplant-care/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Extension Gardener Handbook, cap. 18: Plants Grown in Containers",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Dust has accumulated on the foliage of my houseplants. How can I clean the plants?",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/faq/dust-has-accumulated-foliage-my-houseplants-how-can-i-clean-plants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Moving houseplants outdoors for summer",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/moving-houseplants-outdoors",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Container maintenance",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/container-gardening/maintenance",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "El Clima en la Ciudad",
+        "org": "Gobierno de la Ciudad de Buenos Aires, Agencia de Protección Ambiental",
+        "url": "https://buenosaires.gob.ar/adaptacion/el-clima-en-la-ciudad",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplants: holiday care",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/holiday-care",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Vacation Plant Care",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/design/outdoor-living/vacation-plant-care/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Container Gardens: Watering",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/container-gardens/watering",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Humidity and Houseplants",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/humidity-and-houseplants",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "The air in our home is extremely dry in winter. Should I mist the houseplants?",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/faq/air-our-home-extremely-dry-winter-should-i-mist-houseplants",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Four Misguided Plant Health Trends on Social Media",
+        "org": "University of Connecticut (UConn Today, por un educador de Extensión)",
+        "url": "https://today.uconn.edu/?p=189123",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow houseplants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "media",
+    "xp": 20
+  },
+  {
+    "id": "riego-5",
+    "unidad": "riego",
+    "titulo": "El riego según la estación",
+    "gancho": "¿En invierno la riego igual que en verano?",
+    "tarjetas": [
+      {
+        "tipo": "dato_ba",
+        "imagen": "estaciones",
+        "texto": "En Buenos Aires el invierno va de junio a agosto y el verano de diciembre a febrero, al revés que en las guías del hemisferio norte. La regla es simple: en invierno se riega menos y en verano se revisa más seguido."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "luz-poca",
+        "texto": "En invierno hay menos luz y hace más fresco, así que la planta crece más despacio y toma menos agua. Si la seguís regando como en verano, la tierra queda mojada demasiado tiempo."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "calefaccion",
+        "texto": "La calefacción seca el aire, y una maceta cerca de la estufa o el radiador se seca más rápido. Alejala un poco del calor y seguí tocando la tierra, porque en invierno tampoco vale el calendario."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "casa",
+        "texto": "Si el aire está muy seco por la calefacción, ayuda juntar las plantas o usar un humidificador. Regar de más no lo arregla: el problema está en el aire, no en la tierra."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "sol-tarde",
+        "texto": "En verano, con calor y más luz, las plantas están más activas y la tierra se seca más rápido. En el balcón, con sol y viento, puede hacer falta revisar las macetas todos los días, y más en las olas de calor, que en la ciudad son cada vez más frecuentes."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "ventana-sol",
+        "texto": "Si te vas de vacaciones en verano, regá bien antes de salir y alejá las plantas de la ventana con sol. Para más de una o dos semanas, lo más seguro es pedirle a alguien que pase a regar."
+      }
+    ],
+    "para_llevarte": [
+      "Invierno (junio a agosto): menos riego.",
+      "Verano (diciembre a febrero): revisá más seguido.",
+      "Con calefacción o con calor, la tierra manda."
+    ],
+    "quiz": [
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "En invierno las plantas de interior suelen necesitar menos agua que en verano.",
+        "correcta": true,
+        "explicacion": "En invierno crecen más despacio y toman menos agua. Igual, con la calefacción prendida la tierra puede secarse rápido, así que lo mejor es tocarla."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Es julio, la regás igual que en enero y la tierra no termina de secarse nunca. ¿Qué está pasando?",
+        "imagen": "planta-ahogada",
+        "opciones": [
+          "Le falta agua",
+          "En invierno toma menos agua y le está sobrando",
+          "Necesita más abono"
+        ],
+        "correcta": 1,
+        "explicacion": "Con menos luz y más fresco la planta toma menos agua. Espaciá los riegos y esperá a que la tierra se seque."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "El aire está muy seco por la calefacción. ¿Qué ayuda más a tus plantas?",
+        "opciones": [
+          "Rociar las hojas una vez por día",
+          "Juntarlas o usar un humidificador",
+          "Regarlas el doble"
+        ],
+        "correcta": 1,
+        "explicacion": "El rociado se evapora en minutos y casi no cambia nada. Agruparlas o un humidificador rinde más, y regar de más solo ahoga las raíces."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada situación con lo que conviene hacer.",
+        "pares": [
+          {
+            "a": "Junio a agosto",
+            "b": "Regar menos"
+          },
+          {
+            "a": "Ola de calor en el balcón",
+            "b": "Revisar todos los días"
+          },
+          {
+            "a": "Maceta pegada a la estufa",
+            "b": "Alejarla del calor"
+          },
+          {
+            "a": "Vacaciones de verano",
+            "b": "Regar antes y sacar del sol"
+          }
+        ],
+        "explicacion": "Las estaciones cambian cuánta agua toma la planta. En todas, tocar la tierra antes de regar es lo que nunca falla."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Houseplant Care",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/houseplant-care/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "How to grow houseplants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
         "titulo": "Monthly gardening tips: December – greenhouse, conservatory and houseplants",
         "org": "Royal Horticultural Society",
         "url": "https://www.rhs.org.uk/advice/in-month/december/greenhouse,-conservatory-and-houseplants",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Extension Gardener Handbook, cap. 18: Plants Grown in Containers",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Care and Feeding of Indoor Plants",
+        "org": "Utah State University Extension",
+        "url": "https://extension.usu.edu/archive/care-and-feeding-of-indoor-plants",
         "fecha_consulta": "2026-11-14"
       },
       {
@@ -355,10 +765,28 @@
         "fecha_consulta": "2026-11-14"
       },
       {
-        "titulo": "Extension Gardener Handbook, cap. 18: Plants Grown in Containers",
-        "org": "NC State Extension",
-        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
-        "fecha_consulta": "2026-11-14"
+        "titulo": "Container maintenance",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/container-gardening/maintenance",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplants: holiday care",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/holiday-care",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Vacation Plant Care",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/design/outdoor-living/vacation-plant-care/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "El Clima en la Ciudad",
+        "org": "Gobierno de la Ciudad de Buenos Aires, Agencia de Protección Ambiental",
+        "url": "https://buenosaires.gob.ar/adaptacion/el-clima-en-la-ciudad",
+        "fecha_consulta": "2026-11-15"
       }
     ],
     "confianza": "alta",

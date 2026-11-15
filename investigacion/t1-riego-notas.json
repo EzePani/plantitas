@@ -1,0 +1,425 @@
+{
+  "fuentes": [
+    {
+      "org": "Clemson Cooperative Extension (HGIC)",
+      "titulo": "Indoor Plants – Watering",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-watering/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Reabierta el 2026-11-15. Dedo hasta la primera articulación; peso; la tierra pasa de oscura a clara al secarse; los medidores 'varían mucho en exactitud' (el abono y el tipo de tierra alteran la lectura); regar hasta que escurra lava sales y moja los dos tercios de abajo, donde está la mayoría de las raíces; no usar agua fría ni caliente; remojo para tierra muy seca. No menciona palito, mecha, rociado ni hielo.",
+      "usado_en": [
+        "riego-1",
+        "riego-2",
+        "riego-3"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Houseplant Care",
+      "url": "https://hort.extension.wisc.edu/articles/houseplant-care/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Reabierta el 2026-11-15. Dedo a 1 pulgada; macetas chicas y de barro se secan antes; regar hasta que escurra, vaciar plato a los 10-20 min; regadera de pico fino sobre la tierra; riego desde el plato 20-30 min (violeta africana); ducha o pileta con agua tibia para sacar polvo y lavar sales; menos agua en invierno.",
+      "usado_en": [
+        "riego-1",
+        "riego-2",
+        "riego-3",
+        "riego-4",
+        "riego-5"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow houseplants",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Reabierta el 2026-11-15. Regar cuando la superficie se seca, no por rutina; maceta seca pesa menos; regar a fondo y vaciar platos; agua a temperatura ambiente, sobre todo en invierno; ambiente fresco = menos riego; en verano las plantas están más activas y se secan más rápido; la calefacción central baja la humedad y las macetas se secan antes; cerca de radiadores se deshidratan las hojas.",
+      "usado_en": [
+        "riego-1",
+        "riego-2",
+        "riego-3",
+        "riego-4",
+        "riego-5"
+      ]
+    },
+    {
+      "org": "Utah State University Extension",
+      "titulo": "Care and Feeding of Indoor Plants",
+      "url": "https://extension.usu.edu/archive/care-and-feeding-of-indoor-plants",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "(No reabierta; dato de la pasada anterior.) Sin calendario universal; vaciar el plato; cerca de salidas de calefacción se seca más rápido.",
+      "usado_en": [
+        "riego-1",
+        "riego-2",
+        "riego-3",
+        "riego-5"
+      ]
+    },
+    {
+      "org": "NC State Extension",
+      "titulo": "Extension Gardener Handbook, cap. 18: Plants Grown in Containers",
+      "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Reabierta el 2026-11-15 (dos tramos). Regar hasta que salga por abajo; sacar el agua del plato (pudrición, sales, cría de mosquitos); maceta decorativa sin agujero: sacar la de adentro para regar; goteo cómodo pero con costo y mantenimiento; autorriego por capilaridad o mechas, útil en vacaciones y balcones; calor y viento aumentan el riego, a veces diario; en invierno menos riego; calefacción y aire acondicionado secan el aire; rociar 'no es útil' para la humedad; lavar hojas con ducha a 15-24 °C, las peludas con pincel.",
+      "usado_en": [
+        "riego-1",
+        "riego-3",
+        "riego-4",
+        "riego-5"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "Monthly gardening tips: December – greenhouse, conservatory and houseplants",
+      "url": "https://www.rhs.org.uk/advice/in-month/december/greenhouse,-conservatory-and-houseplants",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "(No reabierta.) Reducir riego en invierno (diciembre del norte = junio en Buenos Aires).",
+      "usado_en": [
+        "riego-5"
+      ]
+    },
+    {
+      "org": "Penn State Extension",
+      "titulo": "Humidity and Houseplants",
+      "url": "https://extension.psu.edu/humidity-and-houseplants",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Reabierta el 2026-11-15. Con calefacción la humedad puede bajar de 30 %; el rociado dura hasta que el agua se evapora; excepción: plantas del aire; agrupar y humidificador ayudan; bandeja con piedras, efecto débil.",
+      "usado_en": [
+        "riego-4",
+        "riego-5"
+      ]
+    },
+    {
+      "org": "Iowa State University Extension and Outreach",
+      "titulo": "The air in our home is extremely dry in winter. Should I mist the houseplants?",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/air-our-home-extremely-dry-winter-should-i-mist-houseplants",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "(No reabierta.) Rociar no es eficaz para subir la humedad.",
+      "usado_en": [
+        "riego-4",
+        "riego-5"
+      ]
+    },
+    {
+      "org": "University of Illinois Extension",
+      "titulo": "Houseplants: Watering",
+      "url": "https://extension.illinois.edu/houseplants/watering",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Dedo a 2 pulgadas; el medidor 'puede ser útil pero no siempre es confiable'; no regar por calendario; riego por arriba (empapar, vaciar plato) y por abajo (maceta en unos centímetros de agua hasta que la humedad llega arriba); agua a temperatura ambiente; barro se seca antes.",
+      "usado_en": [
+        "riego-2",
+        "riego-3"
+      ]
+    },
+    {
+      "org": "Penn State Extension",
+      "titulo": "To Buy or Not to Buy: The Gear Your Houseplants Really Need",
+      "url": "https://extension.psu.edu/to-buy-or-not-to-buy-the-gear-your-houseplants-really-need",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Medidor de humedad en la lista de 'no necesario' (interpretarlo confunde más de lo que ayuda; mejor el dedo); rociador 'no necesario' salvo plantas del aire; regadera de pico largo y fino para llevar el agua a la base; platos protegen muebles y se vacían; globos de riego solo para plantas de tierra siempre húmeda.",
+      "usado_en": [
+        "riego-2",
+        "riego-4"
+      ]
+    },
+    {
+      "org": "University of Maryland Extension (HGIC), en Ask Extension",
+      "titulo": "Are House Plant Moisture Meters accurate, and safe to use?",
+      "url": "https://ask.extension.org/kb/faq.php?id=799752",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Opinión (aclaran que no los ensayaron): los medidores 'probablemente no son tan exactos' como el dedo; dedo a 1-2 pulgadas (3 en macetas muy grandes); si el pan de raíces es muy denso, palito de madera: la tierra húmeda se le pega, la seca queda en polvo.",
+      "usado_en": [
+        "riego-2"
+      ]
+    },
+    {
+      "org": "Iowa State University Extension and Outreach",
+      "titulo": "Watering Plants in Containers and Plug Trays",
+      "url": "https://yardandgarden.extension.iastate.edu/article/2025/04/watering-plants-containers-and-plug-trays",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Sustrato seco se ve claro (tostado/gris) y húmedo oscuro; el color sirve en mezclas con turba, con cautela en otras; la superficie puede verse seca con el fondo húmedo; el peso de la maceta como guía.",
+      "usado_en": [
+        "riego-2"
+      ]
+    },
+    {
+      "org": "UC Cooperative Extension, Sacramento County",
+      "titulo": "Guía de cuidado de suculentas (PDF; título descriptivo, el PDF no trae título legible)",
+      "url": "https://ucanr.edu/sites/default/files/2025-08/331073.pdf",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Solo una frase: la humedad se puede probar con medidor, dedo o palito de madera (skewer). WebFetch devolvió el PDF en binario; el texto se extrajo localmente del mismo archivo descargado.",
+      "usado_en": [
+        "riego-2"
+      ]
+    },
+    {
+      "org": "Iowa State University Extension and Outreach",
+      "titulo": "All About African Violets",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/all-about-african-violets",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Riego por abajo desde un plato, sin dejar la maceta mucho tiempo en agua; se recomienda regar por arriba cada tanto para evitar acumulación de sales; agua a temperatura ambiente; macetas con depósito y mecha.",
+      "usado_en": [
+        "riego-3",
+        "riego-4"
+      ]
+    },
+    {
+      "org": "University of Illinois Extension",
+      "titulo": "Container Gardens: Watering",
+      "url": "https://extension.illinois.edu/container-gardens/watering",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Regar hasta que gotee por abajo (lava sales); goteo para muchas macetas juntas; mezclas resecas se despegan del borde y el agua pasa de largo: se rehidratan por inmersión; no mojar el follaje.",
+      "usado_en": [
+        "riego-3",
+        "riego-4"
+      ]
+    },
+    {
+      "org": "Iowa State University Extension and Outreach",
+      "titulo": "Dust has accumulated on the foliage of my houseplants. How can I clean the plants?",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/dust-has-accumulated-foliage-my-houseplants-how-can-i-clean-plants",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Pileta o ducha con agua tibia y poca presión; violetas africanas y similares con paño o cepillo suave.",
+      "usado_en": [
+        "riego-4"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "Moving houseplants outdoors for summer",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/moving-houseplants-outdoors",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Afuera la lluvia deja las hojas limpias; vigilar la humedad de la maceta (el aire en movimiento seca); cactus y suculentas bajo techo porque el exceso de lluvia pudre; levantar macetas para que no se encharquen.",
+      "usado_en": [
+        "riego-4"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "Container maintenance",
+      "url": "https://www.rhs.org.uk/container-gardening/maintenance",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Macetas de exterior: revisar la humedad a diario con calor o viento (dos veces con mucho calor); aunque haya llovido, revisar que la tierra esté húmeda debajo de la superficie; con lluvias muy fuertes, mover bajo techo; sacar platos en invierno.",
+      "usado_en": [
+        "riego-4",
+        "riego-5"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "Houseplants: holiday care",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/holiday-care",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Vacaciones: regar bien antes, llevar a un cuarto más fresco o lejos de la ventana; mecha de fieltro capilar a un recipiente con agua; autorriego mejor para plantas que quieren humedad todo el año; riesgos: depósito que se vacía, mecha que se sale, encharcamiento; más de un par de semanas, pedir a alguien.",
+      "usado_en": [
+        "riego-4",
+        "riego-5"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "Garden watering methods",
+      "url": "https://www.rhs.org.uk/garden-jobs/garden-watering-methods",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "La regadera da un riego preciso (se ve cuánta agua se pone) y es la mejor opción para macetas; el goteo entrega agua lenta y directa a la zona de raíces, con costo inicial más alto.",
+      "usado_en": [
+        "riego-4"
+      ]
+    },
+    {
+      "org": "UF/IFAS Gardening Solutions",
+      "titulo": "Vacation Plant Care",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/design/outdoor-living/vacation-plant-care/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Autorriego con depósito para 1-2 semanas; alejar las plantas de ventanas calurosas y del sol directo; mechas de algodón desde un recipiente (3-4 semanas); más de 4 semanas, alguien que las cuide.",
+      "usado_en": [
+        "riego-4",
+        "riego-5"
+      ]
+    },
+    {
+      "org": "University of Connecticut (UConn Today / The Conversation), Nick Goltz, educador de Extensión",
+      "titulo": "Four Misguided Plant Health Trends on Social Media",
+      "url": "https://today.uconn.edu/?p=189123",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Regar orquídeas con hielo figura como tendencia equivocada: a las plantas tropicales no les gusta el frío y el hielo cerca de las raíces puede dañarlas; recomienda agua tibia o a temperatura ambiente.",
+      "usado_en": [
+        "riego-4"
+      ]
+    },
+    {
+      "org": "The Ohio State University (blog de floricultura, K. South y M. Jones)",
+      "titulo": "Watering Phalaenopsis orchids with ice cubes",
+      "url": "https://u.osu.edu/greenhouse/category/postharvest",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Estudio OSU/Georgia (HortScience 2017): en orquídeas Phalaenopsis en corteza, el hielo no dañó flores, hojas ni raíces frente a la misma cantidad de agua. La dosis de 3 cubitos viene del productor que vende esas orquídeas. No se cita en la lección; se registra como discrepancia.",
+      "usado_en": []
+    },
+    {
+      "org": "Gobierno de la Ciudad de Buenos Aires, Agencia de Protección Ambiental",
+      "titulo": "El Clima en la Ciudad",
+      "url": "https://buenosaires.gob.ar/adaptacion/el-clima-en-la-ciudad",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Clima templado húmedo de tipo pampeano; veranos cálidos e inviernos frescos; las lluvias son más frecuentes en verano; olas de calor más frecuentes y duraderas (se duplicaron en 2010-2018 respecto de los 90). No da temperaturas por mes.",
+      "usado_en": [
+        "riego-4",
+        "riego-5"
+      ]
+    },
+    {
+      "org": "University of Georgia CAES",
+      "titulo": "Use care when moving houseplants outside for the spring, summer",
+      "url": "https://fieldreport.caes.uga.edu/news/use-care-when-moving-houseplants-outside-for-the-spring-summer/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Solo contexto: afuera, regar hasta que drene y, en veranos calurosos y secos, hasta cada dos días. No habla de lluvia. No se cita en las lecciones.",
+      "usado_en": []
+    }
+  ],
+  "revisar": [
+    {
+      "id": "riego-2",
+      "dato": "palito de madera",
+      "motivo": "Respaldo flojo: una sola fuente explica cómo leerlo (Univ. of Maryland en Ask Extension: la tierra húmeda se pega, la seca queda en polvo, y lo propone para panes de raíces densos). UC Cooperative Extension Sacramento solo lo nombra como método válido, en una guía de suculentas. Por esto la lección quedó en confianza media. 'Como los de brochette' es adaptación local de 'skewer'.",
+      "fuentes": [
+        "https://ask.extension.org/kb/faq.php?id=799752",
+        "https://ucanr.edu/sites/default/files/2025-08/331073.pdf"
+      ]
+    },
+    {
+      "id": "riego-2",
+      "dato": "medidores de humedad baratos",
+      "motivo": "Cuatro fuentes institucionales coinciden en que no son del todo confiables (Clemson: exactitud muy variable, el abono y el tipo de tierra alteran la lectura; Illinois: no siempre confiable; Penn State: innecesario y confuso; Maryland: probablemente menos exacto que el dedo, sin ensayos propios). Ninguna habla específicamente de 'los de aguja baratos' ni presenta mediciones: es opinión experta, no un ensayo. Se mostró con salvedad (ayuda, pero confirmar con el dedo), no como inútiles.",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/indoor-plants-watering/",
+        "https://extension.illinois.edu/houseplants/watering",
+        "https://extension.psu.edu/to-buy-or-not-to-buy-the-gear-your-houseplants-really-need",
+        "https://ask.extension.org/kb/faq.php?id=799752"
+      ]
+    },
+    {
+      "id": "riego-2",
+      "dato": "profundidad del test del dedo",
+      "motivo": "Sigue la discrepancia de la pasada anterior y se suma Illinois (2 pulgadas) y Maryland (1-2 pulgadas, 3 en macetas muy grandes). Se mantuvo 'primer nudillo, 2 o 3 cm'; para macetas grandes queda corto y ahí el palito ayuda.",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/indoor-plants-watering/",
+        "https://extension.illinois.edu/houseplants/watering",
+        "https://ask.extension.org/kb/faq.php?id=799752"
+      ]
+    },
+    {
+      "id": "riego-2",
+      "dato": "color de la tierra",
+      "motivo": "Clemson e Iowa State coinciden, pero Iowa State aclara que el color es confiable en mezclas con turba y menos en otros sustratos. La tarjeta lo presenta como pista rápida a confirmar con el dedo.",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/indoor-plants-watering/",
+        "https://yardandgarden.extension.iastate.edu/article/2025/04/watering-plants-containers-and-plug-trays"
+      ]
+    },
+    {
+      "id": "riego-3",
+      "dato": "regar por abajo junta sales",
+      "motivo": "Abierta y leída solo una fuente que lo dice directo (Iowa State, sobre violetas africanas). Que el riego por arriba lava sales lo respaldan además Clemson, Wisconsin e Illinois. Missouri (g6510) y Maryland lo dicen según los resultados de búsqueda, pero no se pudieron abrir, así que no se citan. Ninguna fuente abierta compara 'arriba vs abajo' como métodos de rutina; el riego por abajo aparece para plantas que no toleran hojas mojadas.",
+      "fuentes": [
+        "https://yardandgarden.extension.iastate.edu/how-to/all-about-african-violets",
+        "https://extension.illinois.edu/houseplants/watering"
+      ]
+    },
+    {
+      "id": "riego-3",
+      "dato": "tiempo de remojo y de vaciado del plato",
+      "motivo": "Sin número en las tarjetas: Wisconsin dice 20-30 min de riego por plato y vaciar a los 10-20 min; Utah, alrededor de una hora; Illinois, 'hasta que la humedad llegue arriba'.",
+      "fuentes": [
+        "https://hort.extension.wisc.edu/articles/houseplant-care/",
+        "https://extension.illinois.edu/houseplants/watering"
+      ]
+    },
+    {
+      "id": "riego-4",
+      "dato": "riego con cubitos de hielo",
+      "motivo": "Fuentes en conflicto. UConn (educador de Extensión) lo trata como tendencia equivocada: el frío puede dañar raíces de plantas tropicales. Un estudio de Ohio State y Georgia (HortScience 2017) no encontró daño en orquídeas Phalaenopsis en corteza; la recomendación de 3 cubitos viene de un productor comercial y el estudio no probó otras plantas ni que el hielo sea mejor. Criterio conservador: una pregunta verdadero/falso acotada a 'la mayoría de las plantas de interior', apoyada además en que RHS, Clemson e Illinois piden agua a temperatura ambiente. No hay tarjeta sobre hielo, solo la pregunta. Una sola fuente institucional trata el mito de forma directa.",
+      "fuentes": [
+        "https://today.uconn.edu/?p=189123",
+        "https://u.osu.edu/greenhouse/category/postharvest"
+      ]
+    },
+    {
+      "id": "riego-4",
+      "dato": "lluvia en balcones",
+      "motivo": "Las dos fuentes son de la misma institución (RHS) y hablan de plantas de interior sacadas afuera y de macetas de exterior en clima británico. Que en Buenos Aires llueve más seguido en verano sale de una sola fuente (Gobierno de la Ciudad). No encontré fuente argentina sobre riego de macetas en balcón. UGA no menciona la lluvia.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/types/houseplants/moving-houseplants-outdoors",
+        "https://www.rhs.org.uk/container-gardening/maintenance",
+        "https://buenosaires.gob.ar/adaptacion/el-clima-en-la-ciudad"
+      ]
+    },
+    {
+      "id": "riego-4",
+      "dato": "ducha: 'hacela cuando toque regar'",
+      "motivo": "Es una inferencia propia. Wisconsin, Iowa State y NC State respaldan la ducha tibia para limpiar hojas (y Wisconsin, para lavar sales), y NC State e Iowa State el pincel o cepillo para hojas peludas. Ninguna dice explícitamente que la ducha cuente como riego ni cuándo evitarla, más allá de las hojas con pelitos.",
+      "fuentes": [
+        "https://hort.extension.wisc.edu/articles/houseplant-care/",
+        "https://yardandgarden.extension.iastate.edu/faq/dust-has-accumulated-foliage-my-houseplants-how-can-i-clean-plants"
+      ]
+    },
+    {
+      "id": "riego-4",
+      "dato": "plato en exterior",
+      "motivo": "Matiz no incluido en la tarjeta: RHS dice que en macetas de exterior un plato puede ayudar a ahorrar agua en períodos secos de verano (y sacarlo en invierno). Para interior todas las fuentes piden vaciarlo. Los mosquitos los menciona solo NC State.",
+      "fuentes": [
+        "https://www.rhs.org.uk/container-gardening/maintenance",
+        "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers"
+      ]
+    },
+    {
+      "id": "riego-4",
+      "dato": "goteo y autorriego",
+      "motivo": "El goteo está respaldado para macetas de exterior en general (NC State, Illinois, RHS), no para plantas de interior. 'Van mejor con plantas que quieren humedad pareja' sale de RHS (autorriego) y Penn State (globos de riego); se aplicó a todo el grupo.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/types/houseplants/holiday-care",
+        "https://extension.illinois.edu/container-gardens/watering"
+      ]
+    },
+    {
+      "id": "riego-4",
+      "dato": "rociar las hojas",
+      "motivo": "Igual que en la pasada anterior: Penn State, Iowa State y NC State dicen que no sirve para la humedad; la guía de RHS lo menciona como opción si se hace seguido, aunque otra página de RHS dice que la bandeja con grava es 'mucho más eficaz que rociar'. Se mantuvo el criterio de no recomendarlo. Excepción (plantas del aire): Penn State, dos páginas de la misma institución.",
+      "fuentes": [
+        "https://extension.psu.edu/humidity-and-houseplants",
+        "https://www.rhs.org.uk/plants/types/houseplants/growing-guide"
+      ]
+    },
+    {
+      "id": "riego-5",
+      "dato": "datos de Buenos Aires",
+      "motivo": "No pude abrir el Servicio Meteorológico Nacional, así que no hay temperaturas ni lluvias en números. Lo local (veranos cálidos, inviernos frescos, olas de calor más frecuentes) sale de una sola fuente oficial, el Gobierno de la Ciudad. Los meses (invierno junio-agosto, verano diciembre-febrero) son la conversión de hemisferio indicada en el brief. El resto son fuentes del hemisferio norte adaptadas.",
+      "fuentes": [
+        "https://buenosaires.gob.ar/adaptacion/el-clima-en-la-ciudad"
+      ]
+    },
+    {
+      "id": "riego-5",
+      "dato": "invierno: menos riego vs calefacción que seca",
+      "motivo": "Mismo matiz que antes: Wisconsin, NC State y RHS (diciembre) dicen regar menos; RHS y Utah advierten que con calefacción las macetas se secan antes. La lección dice las dos cosas y manda a tocar la tierra. 'Menos luz' como causa es síntesis: las fuentes hablan de crecimiento más lento y de que con fresco y poca luz se necesita menos agua (Clemson, RHS, UF).",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+        "https://hort.extension.wisc.edu/articles/houseplant-care/"
+      ]
+    },
+    {
+      "id": "riego-5",
+      "dato": "revisar macetas del balcón todos los días en verano",
+      "motivo": "Sale de guías de macetas de exterior (RHS: a diario con calor o viento; NC State: a veces riego diario), no de plantas de interior. La tarjeta dice 'puede hacer falta revisar', no regar a diario.",
+      "fuentes": [
+        "https://www.rhs.org.uk/container-gardening/maintenance",
+        "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers"
+      ]
+    }
+  ],
+  "no_pude_abrir": [
+    "https://www.smn.gob.ar/estadisticas (402)",
+    "https://buenosaires.gob.ar/sites/default/files/2023-02/Cambios%20observados%20CABA%202020.pdf (404)",
+    "https://extension.umd.edu/resource/mineral-and-fertilizer-salt-deposits-indoor-plants (certificado rechazado)",
+    "https://extension.umd.edu/resource/self-watering-containers (certificado rechazado)",
+    "https://extension.missouri.edu/media/wysiwyg/Extensiondata/Pub/pdf/agguides/hort/g06510.pdf (403)",
+    "https://extension.umn.edu/news/moving-houseplants-outdoors (403)",
+    "https://ucanr.edu/blog/stanislaus-sprout/article/houseplant-care-july-classes-uc-master-gardeners (403)"
+  ]
+}

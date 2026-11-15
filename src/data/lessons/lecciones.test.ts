@@ -40,6 +40,13 @@ describe('lecciones', () => {
     }
   })
 
+  it('la tanda 1 está completa: las 16 lecciones de las unidades 1, 2, 3 y 12 tienen contenido', () => {
+    const tanda1 = Object.values(UNIDADES).filter((x) => x.tanda === 1)
+    for (const x of tanda1) expect((LECCIONES[x.id] ?? []).map((l) => l.id), x.id).toEqual(idsDelPlan(x.id))
+    expect(todas).toHaveLength(16)
+    for (const l of todas) expect(l.estado, l.id).toBeUndefined()
+  })
+
   it('las respuestas correctas apuntan a una opción que existe', () => {
     for (const l of todas)
       for (const p of l.quiz)

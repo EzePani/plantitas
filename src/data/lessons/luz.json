@@ -2,96 +2,91 @@
   {
     "id": "luz-1",
     "unidad": "luz",
-    "titulo": "Tipos de luz",
-    "gancho": "¿Qué quiere decir \"luz brillante indirecta\"?",
+    "titulo": "Luz directa y luz indirecta",
+    "gancho": "¿Cómo sé qué luz tiene cada rincón de mi casa?",
     "tarjetas": [
       {
         "tipo": "concepto",
         "imagen": "luz-directa",
-        "texto": "Luz directa: los rayos del sol pegan en las hojas, sin nada en el medio más que el vidrio. Es la más fuerte y la disfrutan pocas plantas, como los cactus y las suculentas."
+        "texto": "Luz directa: el sol toca la planta, aunque haya un vidrio en el medio. Es la más fuerte y la disfrutan pocas plantas, como los cactus y las suculentas."
       },
       {
         "tipo": "concepto",
         "imagen": "luz-indirecta",
-        "texto": "Luz brillante indirecta: mucha claridad, pero sin rayos de sol cayendo sobre las hojas. Se consigue cerca de una ventana luminosa o detrás de una cortina fina, y es la que prefiere la mayoría."
-      },
-      {
-        "tipo": "concepto",
-        "imagen": "luz-indirecta",
-        "texto": "Luz media: un lugar claro donde nunca da el sol, por ejemplo a unos pasos de la ventana. Es menos luz de lo que parece, pero varias plantas se adaptan bien."
+        "texto": "Luz indirecta brillante: el lugar está muy claro, pero el sol no pega sobre la planta. Se consigue cerca de una ventana luminosa o detrás de una cortina fina, y es la que prefiere la mayoría."
       },
       {
         "tipo": "concepto",
         "imagen": "luz-poca",
-        "texto": "Poca luz: lejos de las ventanas o en rincones oscuros. Pocas plantas la aguantan, y poca luz no quiere decir nada de luz."
+        "texto": "Luz indirecta media: un ambiente claro, pero lejos de la ventana. Luz baja: un ambiente oscuro, que pocas plantas toleran, y que no es lo mismo que nada de luz."
       },
       {
         "tipo": "por_que",
-        "imagen": "ventana-sol",
-        "texto": "Tus ojos se acostumbran y no sirven para medir la luz. Probá con la mano a la hora de más luz: cuanto más nítida es la sombra que hace, más luz hay en ese lugar."
+        "imagen": "sombra-nitida",
+        "texto": "Tus ojos se acostumbran y no sirven para medir la luz, así que probá con la mano a la hora de más claridad. Si la sombra sale bien marcada, ahí hay luz directa."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "sombra-difusa",
+        "texto": "Si la sombra se ve pero sale borrosa, es luz indirecta brillante. Si apenas se nota es indirecta media, y si casi no hay sombra es luz baja."
       },
       {
         "tipo": "concepto",
         "imagen": "casa",
-        "texto": "Estos nombres son una guía y no una medida exacta. La luz de cada lugar cambia con la distancia a la ventana, la hora, la estación y lo que haya afuera tapando, como árboles o edificios."
+        "texto": "Cada espacio de tu casa tiene su propia luz: el balcón puede tener luz directa y el living, indirecta. Por eso conviene probar en cada lugar donde quieras poner una planta."
       }
     ],
     "para_llevarte": [
-      "Directa: rayos de sol sobre las hojas.",
-      "Brillante indirecta: mucha claridad sin rayos.",
-      "Poca luz se aguanta, no se disfruta."
+      "Directa: el sol toca la planta.",
+      "Indirecta: mucha claridad, sin sol encima.",
+      "Sombra más marcada, más luz."
     ],
     "quiz": [
       {
         "tipo": "opcion_multiple",
-        "pregunta": "¿Qué es la luz brillante indirecta?",
+        "pregunta": "¿Qué es la luz indirecta brillante?",
         "opciones": [
-          "Rayos de sol pegando en las hojas",
-          "Mucha claridad sin sol directo en las hojas",
+          "El sol pegando sobre la planta",
+          "Un lugar muy claro, sin sol sobre la planta",
           "Un rincón oscuro"
         ],
         "correcta": 1,
-        "explicacion": "Es mucha claridad, pero sin que los rayos den de lleno en la planta."
+        "explicacion": "Es mucha claridad, pero sin que el sol toque la planta."
       },
       {
         "tipo": "unir",
-        "pregunta": "Uní cada lugar con su tipo de luz",
+        "pregunta": "Uní cada sombra de la mano con su luz",
         "pares": [
           {
-            "a": "Sol pegando en las hojas",
+            "a": "Sombra bien marcada",
             "b": "Directa"
           },
           {
-            "a": "Detrás de una cortina fina",
-            "b": "Brillante indirecta"
+            "a": "Sombra borrosa",
+            "b": "Indirecta brillante"
           },
           {
-            "a": "Claro, pero sin sol",
-            "b": "Media"
+            "a": "Sombra apenas visible",
+            "b": "Indirecta media"
           },
           {
-            "a": "Rincón lejos de la ventana",
-            "b": "Poca"
+            "a": "Casi sin sombra",
+            "b": "Baja"
           }
         ],
-        "explicacion": "Cuanto más lejos de la ventana y del sol, menos luz recibe la planta."
+        "explicacion": "Cuanto más marcada es la sombra, más luz hay. Es una guía práctica, no una medida exacta."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Todos los espacios de una casa tienen la misma luz.",
+        "correcta": false,
+        "explicacion": "Cada espacio tiene la suya: el balcón puede tener luz directa y el living, indirecta."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "La mayoría de las plantas de interior disfruta de los rincones oscuros.",
         "correcta": false,
-        "explicacion": "Algunas los toleran, pero casi todas crecen mejor con buena claridad."
-      },
-      {
-        "tipo": "opcion_multiple",
-        "pregunta": "Ponés la mano y casi no hace sombra. ¿Qué luz hay?",
-        "opciones": [
-          "Directa",
-          "Brillante indirecta",
-          "Poca"
-        ],
-        "correcta": 2,
-        "explicacion": "Sin sombra visible, hay poca luz. Una sombra bien nítida indica mucha luz."
+        "explicacion": "Algunas los toleran, pero casi todas crecen mejor con luz indirecta brillante."
       }
     ],
     "fuentes": [
@@ -130,6 +125,18 @@
         "org": "ABC (Gardening Australia)",
         "url": "https://www.abc.net.au/news/2023-03-17/gardening-australia-houseplants/102102822",
         "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "How to grow houseplants (growing guide)",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to Care for Houseplants",
+        "org": "Iowa State University Extension",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/how-care-houseplants",
+        "fecha_consulta": "2026-11-15"
       }
     ],
     "confianza": "media",
@@ -138,29 +145,33 @@
   {
     "id": "luz-2",
     "unidad": "luz",
-    "titulo": "El mapa del sol en tu casa",
-    "gancho": "¿En qué ventana pongo mis plantas?",
+    "titulo": "El mapa del sol de tu casa",
+    "gancho": "¿A qué hora le da el sol a cada rincón de tu casa?",
     "tarjetas": [
       {
         "tipo": "concepto",
         "imagen": "mapa-sol",
-        "texto": "No hace falta brújula ni saber de puntos cardinales. Alcanza con mirar, en un día despejado, a qué hora entra el sol por cada ventana."
+        "texto": "No hace falta brújula ni saber de puntos cardinales. En un día despejado, fijate a qué hora empieza a dar el sol en cada espacio y a qué hora deja de dar."
       },
       {
         "tipo": "dato_ba",
-        "imagen": "mapa-sol",
-        "texto": "En Buenos Aires el sol del mediodía queda hacia el norte. Por eso, la ventana donde da sol cerca del mediodía y durante buena parte del día es tu lugar más luminoso."
+        "imagen": "ventana-sol",
+        "texto": "En Buenos Aires el sol del mediodía queda hacia el norte. Si en un espacio el sol da muchas horas y con fuerza cerca del mediodía, ese espacio mira al norte y es tu lugar más luminoso."
       },
       {
-        "tipo": "comparativa",
-        "imagen_mal": "planta-quemada",
-        "imagen_bien": "ventana-sol",
-        "texto": "Si el sol entra solo a la mañana, es un sol más suave y fresco. Si entra a la tarde, es más intenso y caluroso, y puede quemar a las plantas delicadas."
+        "tipo": "concepto",
+        "imagen": "sol-manana",
+        "texto": "Si el sol empieza temprano y también se va temprano, ese espacio mira al este. Si recién llega a la tarde y se queda hasta que baja, mira al oeste."
       },
       {
         "tipo": "concepto",
         "imagen": "luz-poca",
-        "texto": "Si el sol no entra casi nunca, es tu lugar de menos luz. Guardalo para las plantas que toleran poca luz."
+        "texto": "Si el sol directo no llega casi nunca, ese espacio mira al sur. Es tu lugar de menos luz: guardalo para las plantas que se llevan bien sin sol directo."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "mapa-sol",
+        "texto": "El sol se mueve durante el día, y por eso cada espacio tiene su horario. Con esas dos horas ya sabés cuánto sol directo recibe cada lugar, sin tocar una brújula."
       },
       {
         "tipo": "dato_ba",
@@ -169,50 +180,50 @@
       }
     ],
     "para_llevarte": [
-      "Mirá a qué hora da el sol en cada lugar.",
-      "Sol de mañana: suave. Sol de tarde: fuerte.",
-      "Sol buena parte del día: tu lugar más luminoso."
+      "Mirá a qué hora empieza y termina el sol.",
+      "Muchas horas de sol al mediodía: tu lugar más luminoso.",
+      "Volvé a mirar cuando cambia la estación."
     ],
     "quiz": [
       {
         "tipo": "opcion_multiple",
-        "pregunta": "¿Cuál es el sol más suave para una planta?",
+        "pregunta": "¿Qué conviene mirar en cada espacio para armar tu mapa del sol?",
         "opciones": [
-          "El de la mañana",
-          "El de la tarde",
-          "Los dos son iguales"
+          "A qué hora empieza y a qué hora deja de dar el sol",
+          "Qué marca la brújula",
+          "De qué color son las paredes"
         ],
         "correcta": 0,
-        "explicacion": "El sol de la mañana es más fresco. El de la tarde es más intenso y caluroso."
+        "explicacion": "Con esas dos horas alcanza. La orientación sale sola de ahí."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Para ubicar tus plantas necesitás una brújula.",
         "correcta": false,
-        "explicacion": "Alcanza con observar a qué hora entra el sol en cada lugar."
+        "explicacion": "Alcanza con observar a qué hora empieza y a qué hora termina el sol en cada lugar."
       },
       {
         "tipo": "unir",
         "pregunta": "Uní lo que ves con lo que significa",
         "pares": [
           {
-            "a": "Sol solo a la mañana",
-            "b": "Sol suave"
+            "a": "Empieza y termina temprano",
+            "b": "Mira al este"
           },
           {
-            "a": "Sol solo a la tarde",
-            "b": "Sol fuerte y caluroso"
+            "a": "Muchas horas, fuerte al mediodía",
+            "b": "Mira al norte"
           },
           {
-            "a": "Sol buena parte del día",
-            "b": "El lugar más luminoso"
+            "a": "Recién llega a la tarde",
+            "b": "Mira al oeste"
           },
           {
             "a": "Casi nunca da el sol",
-            "b": "Lugar de poca luz"
+            "b": "Mira al sur"
           }
         ],
-        "explicacion": "La hora a la que entra el sol te dice cuánta luz tiene cada lugar."
+        "explicacion": "El horario del sol te dice hacia dónde mira cada espacio y cuánta luz tiene."
       },
       {
         "tipo": "verdadero_falso",
@@ -269,6 +280,176 @@
     "xp": 20
   },
   {
+    "id": "luz-3",
+    "unidad": "luz",
+    "titulo": "Sol de mañana y sol de tarde",
+    "gancho": "¿Da lo mismo que a tu planta le dé el sol a la mañana o a la tarde?",
+    "tarjetas": [
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "sol-tarde",
+        "imagen_bien": "sol-manana",
+        "texto": "El sol de la mañana es más suave y fresco. El de la tarde es más fuerte y caluroso, y puede quemar a las plantas delicadas."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "sol-tarde",
+        "texto": "El momento más caluroso del día no es el mediodía sino la media tarde, porque el aire y las superficies tardan en calentarse. Además, a esa hora el sol ya viene bajo y entra de frente por la ventana."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "luz-directa",
+        "texto": "Los cactus y las suculentas son de las pocas plantas que disfrutan el sol fuerte. Las de hojas finas y blandas, como los helechos y las calateas, se queman con facilidad."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-quemada",
+        "texto": "El vidrio no protege: el sol que entra directo por la ventana puede levantar tanto la temperatura que daña las hojas. Separar la maceta unos 15 centímetros del vidrio suele alcanzar para evitar ese calor extra."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "sol-manana",
+        "texto": "Si un espacio solo tiene sol de tarde, tranqui, se puede usar igual. Alejá las plantas delicadas de la ventana o poné una cortina fina que filtre los rayos."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "estaciones",
+        "texto": "En el verano porteño, de diciembre a febrero, el sol de la tarde pega fuerte en el balcón. Ahí las macetas se calientan y se secan mucho más rápido, así que las plantas delicadas agradecen sombra a esa hora."
+      }
+    ],
+    "para_llevarte": [
+      "Sol de mañana: suave. Sol de tarde: fuerte y caluroso.",
+      "Cactus y suculentas aguantan; las de hoja fina se queman.",
+      "El vidrio no protege del sol directo."
+    ],
+    "quiz": [
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Cuál es el sol más suave para una planta?",
+        "opciones": [
+          "El de la mañana",
+          "El de la tarde",
+          "Los dos son iguales"
+        ],
+        "correcta": 0,
+        "explicacion": "El sol de la mañana es más fresco. El de la tarde es más fuerte y caluroso."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "El momento más caluroso del día es justo el mediodía.",
+        "correcta": false,
+        "explicacion": "Suele ser a media tarde, porque el aire y las superficies tardan en calentarse."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Detrás de un vidrio, el sol directo ya no puede quemar las hojas.",
+        "correcta": false,
+        "explicacion": "El sol fuerte quema igual a través del vidrio, y pegado a la ventana hace todavía más calor."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Esta planta de hojas finas vive pegada a una ventana con sol de tarde. ¿Qué le pasó?",
+        "imagen": "planta-quemada",
+        "opciones": [
+          "Se quemó con el sol y el calor",
+          "Le falta luz",
+          "Tiene frío"
+        ],
+        "correcta": 0,
+        "explicacion": "El sol fuerte de la tarde quema las hojas delicadas. Alejala un poco o poné una cortina fina."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada caso con lo que le conviene",
+        "pares": [
+          {
+            "a": "Cactus y suculentas",
+            "b": "Aguantan el sol fuerte"
+          },
+          {
+            "a": "Helechos y calateas",
+            "b": "Mejor sin sol directo"
+          },
+          {
+            "a": "Maceta pegada al vidrio",
+            "b": "Correrla hacia adentro"
+          }
+        ],
+        "explicacion": "Pocas plantas disfrutan el sol fuerte. A las demás, un poco de distancia las cuida."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Houseplants: The Ins and Outs of Light and Water",
+        "org": "University of California Agriculture and Natural Resources",
+        "url": "https://www.ucanr.edu/blog/over-fence-alameda-county/article/houseplants-ins-and-outs-light-and-water",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "How to find the best light for indoor plants",
+        "org": "ABC (Gardening Australia)",
+        "url": "https://www.abc.net.au/news/2020-10-23/how-to-find-the-best-light-for-indoor-plants/12769762",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "UV Index: Diurnal Variability",
+        "org": "NOAA, National Weather Service (Climate Prediction Center)",
+        "url": "https://www.cpc.ncep.noaa.gov/products/stratosphere/uv_index/uv_diurnal.shtml",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Asoleamiento y control solar (capítulo 5), G. San Juan",
+        "org": "Universidad Nacional de La Plata (SEDICI)",
+        "url": "http://sedici.unlp.edu.ar/bitstream/handle/10915/150850/Documento_completo.pdf?sequence=1",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Solar orientation: what is ideal for different rooms",
+        "org": "Level (BRANZ, Nueva Zelanda)",
+        "url": "https://www.level.org.nz/passive-design/location-orientation-and-layout/room-layout/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Care of Houseplants (FSA2094)",
+        "org": "University of Arkansas Cooperative Extension",
+        "url": "https://www.uaex.uada.edu/publications/pdf/FSA-2094.pdf",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Best houseplants for sunny rooms",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/houseplants-for-sunny-rooms",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Ferns: Indoor Growing",
+        "org": "University of Connecticut Home and Garden Education Center",
+        "url": "https://homegarden.cahnr.uconn.edu/factsheets/growing-indoor-ferns/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Extension Gardener Handbook, capítulo 18: Plants Grown in Containers",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow houseplants (growing guide)",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Outdoor Container Gardening with Flowering and Foliage Plants (FS1215)",
+        "org": "Rutgers Cooperative Extension",
+        "url": "https://extension.rutgers.edu/fs1215",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "media",
+    "xp": 20
+  },
+  {
     "id": "luz-4",
     "unidad": "luz",
     "titulo": "Señales de poca o mucha luz",
@@ -290,20 +471,25 @@
         "texto": "Con demasiado sol directo aparecen manchas marrones y secas, como quemaduras, o las hojas se ven desteñidas. Pasa sobre todo con el sol fuerte a través del vidrio en verano."
       },
       {
+        "tipo": "dato_ba",
+        "imagen": "estaciones",
+        "texto": "Si le falta luz, acercala a la ventana, porque la claridad baja muy rápido al alejarse del vidrio. En el invierno porteño, de junio a agosto, hay menos luz y a las plantas de rincones oscuros les conviene pasar esos meses más cerca."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "luz-indirecta",
+        "texto": "Si le sobra sol, alejala un poco de la ventana o poné una cortina fina que filtre los rayos. Con eso la luz directa pasa a ser indirecta."
+      },
+      {
         "tipo": "comparativa",
         "imagen_mal": "planta-quemada",
         "imagen_bien": "planta-feliz",
         "texto": "Si la vas a pasar a un lugar con más luz, hacelo de a poco, a lo largo de una o dos semanas. Un salto brusco al sol puede quemarla, aunque sea una planta que disfruta la luz."
-      },
-      {
-        "tipo": "dato_ba",
-        "imagen": "estaciones",
-        "texto": "En el invierno porteño, de junio a agosto, hay menos luz. Si una planta vive en un rincón oscuro, le viene bien pasar esos meses más cerca de la ventana."
       }
     ],
     "para_llevarte": [
-      "Se estira y sale pálida: le falta luz.",
-      "Manchas secas o desteñida: le sobra sol directo.",
+      "Se estira y sale pálida: acercala a la luz.",
+      "Manchas secas o desteñida: alejala o poné una cortina.",
       "Los cambios de lugar, de a poco."
     ],
     "quiz": [
@@ -330,6 +516,17 @@
         ],
         "correcta": 0,
         "explicacion": "Se estira buscando claridad: necesita un lugar más luminoso."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "A tu planta le sobra sol en la ventana. ¿Qué podés hacer?",
+        "opciones": [
+          "Alejarla un poco o poner una cortina fina",
+          "Pegarla más al vidrio",
+          "Pasarla al rincón más oscuro de la casa"
+        ],
+        "correcta": 0,
+        "explicacion": "Un poco de distancia o una cortina fina convierten la luz directa en indirecta."
       },
       {
         "tipo": "verdadero_falso",
@@ -399,6 +596,24 @@
         "org": "Royal Horticultural Society",
         "url": "https://www.rhs.org.uk/plants/types/houseplants/winter-interest-houseplants-care",
         "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Care of Houseplants (FSA2094)",
+        "org": "University of Arkansas Cooperative Extension",
+        "url": "https://www.uaex.uada.edu/publications/pdf/FSA-2094.pdf",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Ferns: Indoor Growing",
+        "org": "University of Connecticut Home and Garden Education Center",
+        "url": "https://homegarden.cahnr.uconn.edu/factsheets/growing-indoor-ferns/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplant Basics (research guide)",
+        "org": "New York Botanical Garden",
+        "url": "https://libguides.nybg.org/houseplantbasics",
+        "fecha_consulta": "2026-11-15"
       }
     ],
     "confianza": "alta",
