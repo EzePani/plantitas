@@ -2,7 +2,7 @@
 
 Generado con `node scripts/generar-fuentes.mjs`. No editar a mano: se pisa.
 
-Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en conflicto (300 puntos en 68 ítems). Mientras no se revise, la app aplica el criterio más conservador.
+Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en conflicto (342 puntos en 78 ítems). Mientras no se revise, la app aplica el criterio más conservador.
 
 ## abono-1
 
@@ -192,6 +192,17 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
 ## cinta, potus, zamioculca, peperomia, filodendro
 
 - [ ] **sensibilidad_calor**: Ninguna fuente abierta advierte daño por calor ni las describe como resistentes: 'media' por defecto, sin respaldo directo. Por eso confianza_sol quedó en 'media' aunque horas y sol de tarde están bien respaldados.
+
+## comprar-2
+
+- [ ] **Duración de la cuarentena**: Las fuentes difieren: Wisconsin 1 a 2 semanas, Illinois 2 a 3 semanas, UF/IFAS al menos un mes, Penn State 'hasta estar seguro'. La tarjeta da el rango y recomienda el criterio conservador (un mes).
+  - https://hort.extension.wisc.edu/articles/houseplant-care/
+  - https://extension.illinois.edu/houseplants/get-started
+  - https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/houseplant-care/
+- [ ] **No trasplantar enseguida**: Respaldo indirecto: ninguna fuente abierta dice literalmente 'no trasplantes una planta recién comprada'. Se apoya en que el trasplante también provoca caída de hojas (Clemson, ficus; NC State, pérdida de raíces) y en que la época recomendada es la primavera (RHS, Wisconsin, Clemson). Una ficha de UF/IFAS EDIS (EP136) que según el buscador pide no mover, podar, trasplantar ni abonar por unas cuatro semanas no se pudo abrir. Por eso la tarjeta dice 'si no es urgente'.
+  - https://hgic.clemson.edu/factsheet/weeping-ficus/
+- [ ] **Frío por debajo de unos 10 grados en el traslado**: El umbral (50 °F) viene solo de NC State; Iowa State y RHS hablan de frío en general. No verifiqué con el SMN cada cuánto baja de 10 °C en Buenos Aires: la tarjeta solo dice 'en invierno, de junio a agosto'.
+  - https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers
 
 ## dieffenbachia
 
@@ -669,6 +680,63 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
 - [ ] **fuentes en conflicto**: Gravedad: NC State la clasifica como severidad baja y ASPCA describe este grupo de plantas como de gravedad baja, con hinchazón de garganta solo en casos raros.
 - [ ] **fuentes en conflicto**: Sol: Wisconsin sugiere sol directo en invierno; RHS y NC State piden luz indirecta y RHS dice que el sol directo quema. Se dejó sin sol directo.
 
+## multiplicar-1
+
+- [ ] **largo de raíces para pasar a tierra**: Fuentes en conflicto: Iowa State (esquejes de punta) dice 1 pulgada (2,5 cm); Iowa State (FAQ filodendro) 'varias pulgadas'; UVM más de 2 a 3 pulgadas (5 a 7,5 cm); Illinois, raíces tan largas como el esqueje. Se dejó sin número: 'unos centímetros'.
+  - https://yardandgarden.extension.iastate.edu/how-to/how-propagate-houseplants-stem-tip-cuttings
+  - https://yardandgarden.extension.iastate.edu/faq/how-do-i-propagate-philodendron
+  - https://www.uvm.edu/extension/news/more-please-propagating-houseplants
+  - https://extension.illinois.edu/blogs/good-growing/2025-02-21-winter-gardening-propagating-houseplants-beat-winter-blues
+- [ ] **si conviene o no enraizar en agua**: Matiz entre instituciones: RHS, Iowa State, Wisconsin, Clemson, SDSU, NC State y UVM describen el método en agua; Illinois Extension (página de propagación) y NYBG no lo recomiendan y prefieren sustrato, por la mala adaptación de las raíces de agua. La lección enseña el método y avisa del bajón al trasplantar. Por eso confianza media.
+  - https://extension.illinois.edu/houseplants/propagation
+  - https://libanswers.nybg.org/faq/223231
+  - https://www.rhs.org.uk/plants/philodendron/growing-guide
+- [ ] **frecuencia de cambio del agua**: Iowa State dice 1 a 2 veces por semana; UVM e Illinois, cuando se enturbia; Iowa (filodendro) 'seguido'. Se combinaron. Ninguna fuente abierta explica por qué las hojas no deben quedar bajo el agua (solo UVM da la indicación), así que la lección no da el motivo.
+  - https://yardandgarden.extension.iastate.edu/how-to/how-propagate-houseplants-stem-tip-cuttings
+  - https://www.uvm.edu/extension/news/more-please-propagating-houseplants
+- [ ] **monstera enraíza en agua; qué plantas NO conviene**: La monstera en agua sale de una sola fuente abierta (Iowa State la muestra como ejemplo); la página de Minnesota sobre monstera dio 403. Para las que no conviene, la única afirmación abierta es de Iowa State (la mayoría de las suculentas no enraíza bien en agua) más la frase general de Illinois (no todas responden bien). Lo de leñosas como cítricos o hibiscus (Minnesota) y dieffenbachia (Missouri) apareció solo en resultados de búsqueda de páginas que no abrieron: no se usó.
+  - https://yardandgarden.extension.iastate.edu/how-to/how-propagate-houseplants-stem-tip-cuttings
+  - https://yardandgarden.extension.iastate.edu/how-to/how-propagate-succulents
+
+## multiplicar-2
+
+- [ ] **potus o filodendro viviendo en agua de forma permanente**: Respaldo débil: ninguna fuente institucional abierta dice que el potus o el filodendro puedan vivir en agua indefinidamente ni por cuánto tiempo. Las dos páginas que lo tratarían (Missouri Botanical Garden 'Rooting Cuttings in Water' y UVM 'Indoor Water Gardens') no se pudieron abrir. Los cuidados de la tarjeta se extrapolan del bambú de la suerte (Clemson y NC State) y el texto lo presenta como una prueba, no como recomendación.
+  - https://hgic.clemson.edu/?p=38984
+  - https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/
+- [ ] **por qué algunas plantas pueden vivir en agua y otras no**: No encontré una fuente institucional que lo explique para plantas de interior. La lección solo afirma lo respaldado: las raíces necesitan oxígeno (RHS, UC ANR, Illinois), en agua hay que aportar nutrientes (Penn State, Illinois, Clemson) y las suculentas en general no enraízan bien en agua (Iowa State). El vínculo entre encharcamiento en tierra e hidroponía es una síntesis propia de esas fuentes, no una frase de una sola.
+  - https://www.rhs.org.uk/advice/profile?PID=235&cID=1378
+  - https://ucanr.edu/site/uc-master-gardeners-orange-county/hydroponics-home-gardener
+- [ ] **diferencia entre raíces de agua y raíces de tierra**: Respaldado solo a nivel práctico: Iowa State (más toscas, mal adaptadas a la tierra), Illinois (débiles) y NYBG (les cuesta adaptarse). Ninguna explica la causa ni la anatomía; lo que circula en blogs (menos pelos radicales, aerénquima, raíces que mueren al trasplantar) es contradictorio y no se usó.
+  - https://yardandgarden.extension.iastate.edu/how-to/how-propagate-houseplants-stem-tip-cuttings
+  - https://extension.illinois.edu/houseplants/propagation
+  - https://libanswers.nybg.org/faq/223231
+- [ ] **que cambiar el agua renueve el oxígeno**: No verificado: las fuentes indican cambiar el agua (semanal en bambú de la suerte; NC State dice que es por los mosquitos) pero ninguna lo vincula con el oxígeno. La lección no lo afirma.
+  - https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/
+
+## multiplicar-3
+
+- [ ] **lengua de suegra con borde amarillo: división en vez de esqueje de hoja**: Solo una fuente abierta lo dice (RHS: los esquejes de hoja de variedades variegadas vuelven al verde); la ficha de NC State de Dracaena trifasciata no lo menciona. Se dejó fuera de la lección; si se quiere sumar, hace falta una segunda fuente.
+  - https://www.rhs.org.uk/plants/sansevieria/growing-guide
+- [ ] **cuándo cortar los hijitos de la cinta**: Matiz: Illinois dice no sacarlos hasta que tengan raíces (aunque admite que sacarlos antes suele funcionar); RHS acepta cortarlos y enraizarlos en agua; SDSU, directo a tierra o dos semanas en agua. La lección ofrece las dos vías.
+  - https://extension.illinois.edu/houseplants/specialized-structures
+  - https://www.rhs.org.uk/plants/spider-plants/growing-guide
+  - https://extension.sdstate.edu/spider-plants-houseplant-how
+
+## multiplicar-4
+
+- [ ] **riego después de separar hijuelos de suculentas**: Fuentes con matices: Iowa State dice regar apenas después de plantar el hijuelo; UF/IFAS (aloe) dice esperar una semana antes de regar. Se eligió la fórmula conservadora 'muy poca agua al principio'.
+  - https://yardandgarden.extension.iastate.edu/how-to/how-propagate-succulents
+  - https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/passalong-plants/
+- [ ] **callo en esquejes de hoja y echeveria por hoja**: RHS pide callo para esquejes de tallo y de hoja; Iowa State solo lo pide para los de tallo y apoya la hoja directamente sobre sustrato apenas húmedo. La lección exige callo solo para el esqueje de tallo. Además, la echeveria por hoja sale solo de RHS (Iowa State la lista por tallo o roseta); el jade por hoja sí tiene tres fuentes.
+  - https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide
+  - https://yardandgarden.extension.iastate.edu/how-to/how-propagate-succulents
+- [ ] **mejor época para esquejes de suculentas**: Sale de dos fichas de la misma institución (Wisconsin: jade y aeonium); RHS e Iowa State no dan época para esquejes de suculentas. Confianza media en este dato puntual.
+  - https://hort.extension.wisc.edu/articles/jade-plant-crassula-ovata/
+  - https://hort.extension.wisc.edu/articles/aeonium/
+- [ ] **esquejes de cactus propiamente dichos**: El detalle para cactus (no suculentas en general) es escaso: RHS menciona hijuelos y esquejes de tallo con callo; Iowa State lista todas las cactáceas por hijuelos; Clemson solo dice que se propagan por semilla, esqueje, injerto o hijuelo. No se dan tiempos de callo específicos para cactus grandes.
+  - https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide
+  - https://hgic.clemson.edu/factsheet/indoor-cacti/
+
 ## orquidea-phalaenopsis
 
 - [ ] **luz**: NC State dice 'poca luz', RHS dice luz brillante sin sol directo de verano. Se puso 'media' con confianza media.
@@ -767,6 +835,56 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
   - https://extension.psu.edu/pilea-as-a-houseplant
 - [ ] **fuentes en conflicto**: Humedad: la guía de cultivo de RHS dice que tolera el aire seco normal de casa; la ficha de RHS de la especie dice que necesita humedad alta; NC State dice moderada a alta pero tolera la de casa; Penn State habla de ambiente cálido y húmedo. Se eligió "media".
 - [ ] **fuentes en conflicto**: Toxicidad: no encontré ficha propia de Pilea peperomioides en la base de plantas de ASPCA; ASPCA la nombra como no tóxica en una nota de 2021 sobre suculentas, y NC State dice que es segura para mascotas sin dar más detalle. No se usó la ficha de otras especies de Pilea.
+
+## plagas-2
+
+- [ ] **duración de la cuarentena**: Las fuentes varían: Colorado State al menos 3 semanas, RHS al menos un mes, Clemson 6 semanas. La lección dice 'al menos un mes, mejor seis semanas'.
+  - https://extension.colostate.edu/topic-areas/insects/managing-houseplant-pests-5-595/
+  - https://www.rhs.org.uk/biodiversity/mealybug
+  - https://hgic.clemson.edu/factsheet/common-houseplant-insects-related-pests/
+- [ ] **dato_ba calefacción y arañuela**: Adaptación propia: RHS dice que el ambiente cálido y seco favorece a la arañuela; que la calefacción porteña seca el aire en invierno viene del BRIEF y de lecciones ya verificadas. No hay fuente argentina que una ambas cosas.
+  - https://www.rhs.org.uk/biodiversity/glasshouse-red-spider-mite
+
+## plagas-3
+
+- [ ] **aceite de neem y mascotas**: No hay ficha propia de ASPCA ni Pet Poison Helpline. Lo que hay: NPIC (no veterinaria) reporta reacciones graves en gatos tratados con neem contra pulgas, y PetMD cita veterinarios que dicen que no figura como tóxico pero piden cuidado con gatos. Se eligió el criterio conservador (lejos de las mascotas, ojo con gatos). No se encontró dato para perros más allá de PetMD. No pude abrir el estudio de Veterinary Record 2009 (99 casos en gatos) que citan sitios secundarios.
+  - https://npic.orst.edu/factsheets/neemgen.html
+  - https://petmd.com/dog/wellness/neem-oil-pets-it-safe
+- [ ] **aceites hortícolas y mascotas**: No encontré ninguna fuente veterinaria. La lección dice 'no hay datos veterinarios claros: mantenelos lejos de tus mascotas'.
+- [ ] **trampas adhesivas amarillas y mascotas**: No encontré fuente veterinaria sobre la toxicidad del pegamento ni sobre qué hacer si se pega al pelo (solo blogs). La lección dice que no hay datos claros y que se pongan fuera de su alcance.
+- [ ] **jabón potásico y mascotas**: La única fuente es NPIC (toxicológica, no veterinaria, ficha de 2001 sin actualizar): muy baja toxicidad por ingestión y piel, irritante de ojos y piel. Sin ficha de ASPCA/PPH/VCA/Merck. El consejo de dejar secar viene de la guía general de ASPCA sobre insecticidas.
+  - https://www.npic.orst.edu/factsheets/psfagen.pdf
+  - https://www.aspca.org/news/how-safely-treat-your-house-insecticides
+- [ ] **alcohol: isopropílico vs. etílico**: Las fuentes hortícolas (Clemson, CSU) hablan de 'rubbing alcohol' (en EE.UU. suele ser isopropílico); en Argentina el alcohol común de farmacia es etílico. No encontré fuente que compare ambos para cochinilla. La lección dice solo 'alcohol'. Merck cubre los dos como tóxicos para mascotas (isopropanol el doble que etanol); la dosis publicada es solo para perros.
+  - https://www.merckvetmanual.com/toxicology/household-hazards/alcohols
+  - https://extension.colostate.edu/topic-areas/insects/managing-houseplant-pests-5-595/
+- [ ] **insecticidas sistémicos (imidacloprid) y mascotas**: Merck dice que los neonicotinoides son mucho menos tóxicos para vertebrados que para insectos, con signos a dosis altas en perros y sin datos específicos de imidacloprid en gatos. 'No usar en plantas que la mascota pueda morder' es un criterio conservador propio derivado de que el producto queda en los tejidos (NPIC), no una frase textual de una fuente veterinaria.
+  - https://merckvetmanual.com/toxicology/insecticide-and-acaricide-organic-toxicity/neonicotinoid-toxicosis-in-animals
+  - https://npic.orst.edu/factsheets/imidagen.html
+- [ ] **agua oxigenada contra mosquitas**: Fuentes en conflicto: respuestas de voluntarios en Ask Extension la recomiendan diluida; un resultado de búsqueda (no abierto) atribuye a Michigan State que no la recomienda. No encontré ningún estudio ni ficha institucional. La lección dice que 'las recomendaciones se contradicen' y no la recomienda.
+  - https://ask.extension.org/kb/faq.php?id=894323
+- [ ] **canela**: Sin respaldo: la única mención institucional abierta es anecdótica (OSU Master Gardeners: 'algunos reportan éxito' contra el moho). No encontré fuente institucional que la pruebe ni que la desmienta con datos contra mosquitas. La lección la presenta como no comprobada.
+  - https://www.douglascountymg.org/mg_articles/SoilMoldinHouseplants.pdf
+- [ ] **remedios caseros: INTA vs. extensión universitaria**: Conflicto: un folleto de INTA Pro-Huerta (para huerta, no para interior) recomienda preparados de tabaco, ajo, cáscara de naranja y jabón blanco; Penn State, UF/IFAS, Iowa State y USask los desaconsejan, y ASPCA/PPH marcan ajo y nicotina como tóxicos para mascotas. Se siguió el criterio conservador y la regla del brief (no recetas caseras).
+  - https://www.argentina.gob.ar/sites/default/files/2023/08/folletopreparadocasero.pdf
+  - https://extension.psu.edu/are-home-remedies-a-good-solution-penn-state-extension-says-no
+- [ ] **nombre 'jabón potásico' en Argentina**: No encontré fuente oficial argentina (INTA, FAUBA, SENASA) que use 'jabón potásico' para el jabón insecticida ni que indique qué productos están registrados para uso hogareño. La equivalencia con 'insecticidal soap / potassium salts of fatty acids' sale de NPIC e Iowa State. Tampoco verifiqué qué productos de neem, aceites o piretrinas se venden en Argentina.
+  - https://www.npic.orst.edu/factsheets/psfagen.pdf
+- [ ] **eficacia del jabón contra arañuela**: Clemson lo lista contra arañuela; Colorado State dice que es apenas efectivo y prefiere agua repetida y aceites. La lección no menciona la arañuela en la tarjeta del jabón y la pone en la de aceites.
+  - https://hgic.clemson.edu/factsheet/common-houseplant-insects-related-pests/
+  - https://extension.colostate.edu/topic-areas/insects/managing-houseplant-pests-5-595/
+
+## plagas-4
+
+- [ ] **moho en la tierra no daña la planta**: Confianza media: Clemson solo lo nombra como hongos saprófitos y la explicación completa viene de un artículo de Master Gardeners de OSU Extension (voluntarios). No pude abrir University of Maryland Extension, que varios sitios citan. No encontré fuente veterinaria sobre moho u hongos de maceta y mascotas, así que la lección no afirma nada al respecto.
+  - https://www.douglascountymg.org/mg_articles/SoilMoldinHouseplants.pdf
+  - https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/
+- [ ] **oídio en interior**: Clemson lo trata como enfermedad de plantas de interior; la página de RHS es de jardín y no habla de interior. Una sola fuente específica de interior.
+  - https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/
+  - https://www.rhs.org.uk/disease/powdery-mildews
+- [ ] **raíz podrida: salvar o descartar**: Matiz entre fuentes: Clemson indica cortar las raíces infectadas y trasplantar si son pocas; Wisconsin sugiere considerar primero descartar la planta. La lección da ambas opciones, coherente con riego-1 (es difícil que se recupere).
+  - https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/
+  - https://hort.extension.wisc.edu/articles/root-rots-houseplants/
 
 ## potus
 
@@ -869,6 +987,34 @@ Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en
   - https://hort.extension.wisc.edu/articles/houseplant-care/
 - [ ] **revisar macetas del balcón todos los días en verano**: Sale de guías de macetas de exterior (RHS: a diario con calor o viento; NC State: a veces riego diario), no de plantas de interior. La tarjeta dice 'puede hacer falta revisar', no regar a diario.
   - https://www.rhs.org.uk/container-gardening/maintenance
+  - https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers
+
+## rutina-1
+
+- [ ] **Pruina (cera blanquecina) de las suculentas: no frotarla**: Pedido en la consigna pero NO incluido en la lección: no encontré ninguna fuente institucional que lo trate (RHS, NC State Plant Toolbox e Iowa State solo mencionan que existe o directamente no hablan). Solo abrí un blog de aficionados (Succulents and Sunshine) que dice que la cera protege y no vuelve a crecer en la hoja. Si se quiere sumar, falta una fuente seria.
+  - https://www.succulentsandsunshine.com/white-powder-on-succulents/
+  - https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide
+- [ ] **Leche y cerveza para dar brillo**: No encontré ninguna fuente institucional que las recomiende ni que las desaconseje expresamente. La tarjeta dice solo eso ('no encontramos ninguna guía seria que las respalde'). Es una afirmación sobre el resultado de mi búsqueda, no un dato verificado de daño.
+- [ ] **Mayonesa, aceite, margarina como mito**: Respaldo institucional solo para 'sustancias aceitosas' (U. Maine: atraen polvo). El detalle de mayonesa y margarina y lo de tapar poros viene de un divulgador (Larry Hodgson), no de una institución. Confianza media para esa tarjeta.
+  - https://extension.umaine.edu/publications/2611e/
+  - https://laidbackgardener.blog/2021/12/05/home-gardening-remedies-pros-and-cons/
+- [ ] **Hojas peludas: ¿se pueden mojar?**: Fuentes con matices: Clemson, NC State, UF/IFAS e Illinois dicen brocha y no mojar; Iowa State admite paño suave húmedo o cepillo. Elegí el criterio conservador (pincel seco).
+  - https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/
+  - https://yardandgarden.extension.iastate.edu/faq/dust-has-accumulated-foliage-my-houseplants-how-can-i-clean-plants
+- [ ] **Cactus con pelos**: No encontré fuente específica para cactus peludos. La RHS solo dice pincel suave para cactus y suculentas espinosas; la tarjeta se limita a eso.
+  - https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide
+- [ ] **Frecuencia de limpieza**: Sin consenso: UF/IFAS habla de limpiezas semanales (pensando en plagas), NC State de cada 2 o 3 meses, el resto 'regularmente' o 'cada tanto'. La tarjeta lo dice así y propone guiarse por el polvo.
+  - https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/houseplant-care/
+  - https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers
+- [ ] **Abrillantadores**: Matiz: Clemson, NC State, Iowa State y RHS los desaconsejan; Illinois los admite 'con moderación y solo en hojas firmes'. Elegí el criterio conservador (no hacen falta).
+  - https://extension.illinois.edu/houseplants/care
+
+## rutina-2
+
+- [ ] **Cada cuánto girar la maceta**: Sin consenso. NC State: 90 grados cada tres meses; U. Maine: 'cada tanto'; Illinois: rotar, sin frecuencia. Un PDF de Utah State (180 grados dos veces por mes, según el buscador) no se pudo leer. La tarjeta no fija número. 'Siempre para el mismo lado' sale solo de NC State (sentido horario).
+  - https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers
+  - https://extension.umaine.edu/publications/2611e/
+- [ ] **Recortar puntas dejando un bordecito marrón**: Fuente única (NC State, que además lo limita a hojas con menos de un tercio dañado). Iowa State solo dice que se pueden recortar con tijera.
   - https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers
 
 ## todas
@@ -1060,3 +1206,37 @@ Datos convertidos desde fuentes del hemisferio norte (orientación de ventanas, 
 - https://extension.illinois.edu/container-gardens/choosing-container (404, URL adivinada)
 - https://homegarden-cahnr.media.uconn.edu/wp-content/uploads/sites/3479/2022/08/Potting-Media.pdf (404)
 - https://ucanr.edu/sites/MGWTest/Gardening/Houseplants/Growing_Media (403)
+- https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/rooting-cuttings-in-water (error de certificado; era la fuente más directa sobre plantas que quedan en agua)
+- https://pss.uvm.edu/ppp/articles/waterin.html (UVM 'Indoor Water Gardens', el dominio no resuelve)
+- https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/propagating-monstera-deliciosa (403)
+- https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/small-scale-hydroponics (403)
+- https://extension.missouri.edu/publications/g6560 (403)
+- https://extension.oregonstate.edu/news/hydroponics-speed-fresh-vegetables-table-growing-water (403)
+- https://www.canr.msu.edu/news/secrets_to_success_when_propagating_succulent_plants (la página llegó vacía)
+- https://www.rhs.org.uk/plants/types/houseplants/propagating (404, URL adivinada)
+- https://www.rhs.org.uk/plants/aloe/growing-guide (404, URL adivinada)
+- https://hort.extension.wisc.edu/articles/aloe-vera/ y https://hort.extension.wisc.edu/articles/snake-plant-sansevieria-trifasciata/ (404, URLs adivinadas)
+- https://extension.umn.edu/product-and-houseplant-pests/insects-indoor-plants (403)
+- https://extension.umd.edu/resource/root-rots-indoor-plants y otras páginas de extension.umd.edu (certificado rechazado)
+- https://www.missouribotanicalgarden.org/.../pesticides/imidacloprid (error de certificado)
+- https://extension.okstate.edu/announcements/horticulture-tips/hort-tips-2026/mid-to-late-august/a-cautionary-note-on-homemade-pesticides (403)
+- https://www.petpoisonhelpline.com/poison/pyrethrins-pyrethroids/ (404; se usó /poison/pyrethrin)
+- https://npic.orst.edu/factsheets/psfagen.html (404; se usó el PDF)
+- https://pubmed.ncbi.nlm.nih.gov (pide cookies; no pude ver el estudio de neem en gatos de Veterinary Record 2009)
+- https://ask.extension.org/kb/faq.php?id=775260 y ?id=682491 (respuesta privada, acceso denegado)
+- https://hort.extension.wisc.edu/articles/yellow-houseplant-mushroom-leucocoprinus-birnbaumii/ (404)
+- Fuentes argentinas: no encontré páginas de INTA, FAUBA ni SENASA sobre plagas de plantas de interior ni sobre jabón potásico; solo el folleto de Pro-Huerta de recetas caseras para huerta
+- https://extension.umd.edu/resource/grooming-indoor-plants (certificado rechazado)
+- https://www.missouribotanicalgarden.org/ (FAQ sobre caída de hojas del ficus: error de certificado)
+- https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care (403)
+- https://extension.umn.edu/yard-and-garden-insects/insects-indoor-plants (403)
+- https://extension.okstate.edu/fact-sheets/houseplant-care.html (403)
+- https://ucanr.edu/site/mg-sonoma/succulents (403)
+- https://edis.ifas.ufl.edu/ep136 (redirige a ask.ifas.ufl.edu y entra en bucle de redirecciones)
+- https://www.startribune.com/plant-lore-fact-or-fiction/85053087 (429, dos intentos)
+- https://hort.extension.wisc.edu/articles/echeveria/ (404)
+- https://faq.mountaincrestgardens.com/en-US/what-is-the-powdery-farina-epicuticular-wax-on-succulent-leaves-43676 (404)
+- https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az1025.pdf (PDF escaneado, sin texto legible)
+- https://extension.usu.edu/juab/files/GrowingIndoorPlants.pdf (PDF que no se pudo leer como texto)
+- https://innovate.ucanr.edu/sites/default/files/2025-08/331073.pdf (PDF que no se pudo leer como texto)
+- https://hortscans.ces.ncsu.edu/uploads/a/c/acclimat_53a06aa978d70.pdf (PDF escaneado, sin texto legible)
