@@ -1,7 +1,5 @@
 export type Experiencia = 'nunca' | 'murieron' | 'algunas' | 'bastante'
 export type Lugar = 'interior' | 'balcon' | 'ambos'
-export type Abertura = 'ventana' | 'balcon' | 'ambas'
-export type HoraSol = 'manana' | 'mediodia' | 'tarde' | 'todo_el_dia' | 'casi_nunca' | 'no_se'
 export type TipoMascota = 'gato' | 'perro' | 'ambos' | 'ninguna'
 export type Muerde = 'siempre' | 'a_veces' | 'nunca' | 'no_se'
 export type Alcance = 'todo' | 'bajo' | 'puedo_aislar'
@@ -13,12 +11,15 @@ export type UnidadId =
   | 'basico'
   | 'luz'
   | 'riego'
-  | 'familias'
   | 'macetas'
   | 'abono'
-  | 'agua'
-  | 'mascotas'
+  | 'familias'
+  | 'estaciones'
+  | 'rutina'
+  | 'plagas'
+  | 'multiplicar'
   | 'comprar'
+  | 'mascotas'
 
 export interface DatosMascotas {
   tipo: TipoMascota
@@ -31,8 +32,6 @@ export interface Respuestas {
   /** Aciertos del mini test (solo si eligió "Ya sé bastante") */
   aciertosTest?: number
   lugar: Lugar
-  abertura: Abertura
-  horaSol: HoraSol
   tiempo: Tiempo
   objetivo: Objetivo
 }
@@ -49,13 +48,40 @@ export interface Racha {
   ultima: string | null
 }
 
-/** Espacio guardado por el recomendador (se completa en la fase 5) */
+// ---------- Modelo de luz ----------
+
+/** Lo que el usuario ve en el lugar. Nunca se le pide la orientación. */
+export type TipoLuz = 'directa' | 'indirecta' | 'baja' | 'no_se'
+export type Obstaculo = 'edificio' | 'arbol' | 'techo' | 'vidrio' | 'cortina'
+
+/** Tramo de sol directo, en horas del día (0 a 24, admite medias horas) */
+export interface TramoSol {
+  desde: number
+  hasta: number
+}
+
+/** Perfil de luz de un espacio: solo lo que el usuario cargó. Lo demás se deriva (lib/luz.ts). */
+export interface PerfilLuz {
+  tipo: TipoLuz
+  /** Hasta 2 tramos de sol directo. Vacío si no hay sol directo o si no sabe las horas. */
+  tramos: TramoSol[]
+  obstaculos: Obstaculo[]
+}
+
+export type TipoEspacio = 'living' | 'dormitorio' | 'cocina' | 'bano' | 'balcon' | 'escritorio'
+export type TamanoEspacio = 'chico' | 'mediano' | 'amplio'
+export type Esfuerzo = 'poco' | 'medio' | 'mucho'
+
+/** Un espacio de la casa, con su propio perfil de luz. Las recomendaciones se calculan al mostrarlo. */
 export interface Espacio {
   id: string
   nombre: string
   creado: string
-  datos: Record<string, string>
-  plantas: string[]
+  tipo: TipoEspacio
+  luz: PerfilLuz
+  tamano: TamanoEspacio
+  mascotas: TipoMascota
+  esfuerzo: Esfuerzo
 }
 
 /** Todo lo que se persiste en localStorage y viaja en el backup */
