@@ -12,7 +12,7 @@
     "luz": {
       "detalle": "Le gusta la mucha claridad: cerca de una ventana bien soleada anda bárbaro. Si el sol del verano pega muy fuerte, correla un poquito del vidrio.",
       "confianza": "media",
-      "confianza_sol": "baja"
+      "confianza_sol": "media"
     },
     "riego": {
       "nivel": "bajo",
@@ -95,25 +95,46 @@
         "org": "Royal Horticultural Society",
         "url": "https://www.rhs.org.uk/shows-events/rhs-urban-show/houseplant-profiles/houseplants-for-sunlight",
         "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Aloe (guía del género)",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/aloe",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Succulents",
+        "org": "UC Master Gardeners of Sonoma County (Univ. of California ANR)",
+        "url": "https://ucanr.edu/site/mg-sonoma/succulents",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Succulents - Orange County",
+        "org": "UC Master Gardeners of Orange County (Univ. of California ANR)",
+        "url": "https://ucanr.edu/site/uc-master-gardeners-orange-county/succulents-orange-county",
+        "fecha_consulta": "2026-11-15"
       }
     ],
     "confianza": "media",
     "adaptaciones": [
       "RHS recomienda ventana sur u oeste (hemisferio norte); en Buenos Aires equivale a ventana norte u oeste.",
-      "Penn State habla de crecimiento de principios de primavera a principios de otoño y reposo en otoño-invierno; en Buenos Aires el crecimiento va aproximadamente de septiembre a marzo y el reposo de abril a agosto."
+      "Penn State habla de crecimiento de principios de primavera a principios de otoño y reposo en otoño-invierno; en Buenos Aires el crecimiento va aproximadamente de septiembre a marzo y el reposo de abril a agosto.",
+      "Las fuentes son del hemisferio norte y hablan de ventana sur como la más soleada: en Buenos Aires esa es la ventana norte. El sol de la tarde entra por el oeste igual que allá.",
+      "En un balcón porteño: sol de mañana (orientación este o noreste) y reparo desde el mediodía en verano (diciembre a febrero). Si viene de adentro, sacala al sol de a poco."
     ],
     "discrepancias": [
       "Luz: NC State y Penn State hablan de sol pleno a parcial; RHS recomienda luz brillante indirecta, lejos del sol directo fuerte. Se dejó sol_directo en true pero con la aclaración de correrla si el sol de verano es muy intenso.",
       "Familia: ASPCA la lista como Liliaceae; NC State como Asphodelaceae. Se usó Asphodelaceae.",
-      "Humedad: solo RHS la menciona (humedad normal de casa, sin rociar); NC State y Penn State no dicen nada."
+      "Humedad: solo RHS la menciona (humedad normal de casa, sin rociar); NC State y Penn State no dicen nada.",
+      "Sol: NC State y Penn State hablan de sol pleno a parcial y la guía de RHS del género pide plena luz; en cambio la guía de RHS para casa pide evitar el sol directo fuerte (pone marrones las hojas) y los Master Gardeners de la Univ. de California recomiendan protegerla del sol intenso. Se tomó el criterio más cuidadoso: unas 3 horas de sol suave, de mañana, y sombra a la tarde."
     ],
     "luz_requerida": "directa",
     "luz_tolerada": [
       "indirecta_brillante"
     ],
-    "horas_sol_directo": 6,
-    "tolera_sol_tarde": true,
-    "sensibilidad_calor": "baja"
+    "horas_sol_directo": 3,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media"
   },
   {
     "id": "anturio",
@@ -128,7 +149,7 @@
     "luz": {
       "detalle": "Quiere luz brillante pero indirecta: una ventana al este o al oeste, o una al norte con cortina fina. El sol directo de verano le quema las hojas.",
       "confianza": "alta",
-      "confianza_sol": "baja"
+      "confianza_sol": "media"
     },
     "riego": {
       "nivel": "medio",
@@ -205,11 +226,18 @@
         "org": "NC State Extension Gardener Plant Toolbox",
         "url": "https://plants.ces.ncsu.edu/plants/anthurium-andraeanum/",
         "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Anthurium",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/anthurium/",
+        "fecha_consulta": "2026-11-15"
       }
     ],
     "confianza": "alta",
     "adaptaciones": [
-      "RHS recomienda ventana este u oeste, o sur con cortina (hemisferio norte); en Buenos Aires la ventana equivalente a 'sur' es la norte."
+      "RHS recomienda ventana este u oeste, o sur con cortina (hemisferio norte); en Buenos Aires la ventana equivalente a 'sur' es la norte.",
+      "RHS recomienda ventana este u oeste, o sur con cortina: en Buenos Aires la que necesita cortina es la norte. El sol directo de verano que quema es el de diciembre a febrero."
     ],
     "discrepancias": [
       "Toxicidad: la ficha de ASPCA para 'flamingo flower' corresponde a Anthurium scherzeranum, no a A. andraeanum. La especie exacta está respaldada por NC State (problema para perros y gatos) y el género por Pet Poison Helpline.",
@@ -220,7 +248,7 @@
     "luz_tolerada": [],
     "horas_sol_directo": 0,
     "tolera_sol_tarde": false,
-    "sensibilidad_calor": "alta"
+    "sensibilidad_calor": "media"
   },
   {
     "id": "jade",
@@ -235,7 +263,7 @@
     "luz": {
       "detalle": "Crece mejor con varias horas de sol directo, aunque se la banca con luz brillante indirecta. Si la pasás de adentro al sol pleno, hacelo de a poco para que no se queme.",
       "confianza": "alta",
-      "confianza_sol": "baja"
+      "confianza_sol": "media"
     },
     "riego": {
       "nivel": "bajo",
@@ -330,25 +358,35 @@
         "org": "Royal Horticultural Society",
         "url": "https://www.rhs.org.uk/shows-events/rhs-urban-show/houseplant-profiles/houseplants-for-sunlight",
         "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Dependable, Durable Houseplants",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/dependable-durable-houseplants/",
+        "fecha_consulta": "2026-11-15"
       }
     ],
     "confianza": "alta",
     "adaptaciones": [
       "RHS recomienda orientación sur u oeste (hemisferio norte); en Buenos Aires equivale a ventana norte u oeste.",
-      "NC State indica reducir el riego de otoño a fines de invierno (norte); en Buenos Aires es aproximadamente de abril a agosto."
+      "NC State indica reducir el riego de otoño a fines de invierno (norte); en Buenos Aires es aproximadamente de abril a agosto.",
+      "Las fuentes son del hemisferio norte y hablan de ventana sur como la más soleada: en Buenos Aires esa es la ventana norte. El sol de la tarde entra por el oeste igual que allá.",
+      "En balcón: sol de mañana y sombra a la tarde, sobre todo en verano (diciembre a febrero). Al pasarla de adentro al sol, aclimatala de a poco durante unas semanas."
     ],
     "discrepancias": [
       "Luz: Wisconsin Extension y la ficha de RHS piden sol directo o pleno; la guía de RHS Urban Show habla de luz brillante indirecta y NC State sugiere algo de sombra a la tarde. Se eligió \"mucha\" con tolerancia a \"media\".",
       "Nombre: la ficha de ASPCA usa Crassula argentea; NC State indica que es el nombre anterior de Crassula ovata, y la nota de ASPCA sobre suculentas nombra directamente a Crassula ovata.",
-      "Partes tóxicas: ninguna fuente abierta las especifica (ASPCA indica principio tóxico desconocido); se dejó en null."
+      "Partes tóxicas: ninguna fuente abierta las especifica (ASPCA indica principio tóxico desconocido); se dejó en null.",
+      "Sol de tarde: la ficha de RHS la da para sol pleno con orientación oeste; NC State pide algo de sombra a la tarde y, afuera, media sombra; la guía de RHS para casa avisa que la luz demasiado intensa quema. Se eligió sin sol de tarde.",
+      "Calor: NC State dice que le convienen temperaturas de interior promedio a frescas; Wisconsin dice que le gustan los ambientes cálidos y secos y que tolera un rango amplio. Se dejó sensibilidad media."
     ],
     "luz_requerida": "directa",
     "luz_tolerada": [
       "indirecta_brillante"
     ],
-    "horas_sol_directo": 6,
-    "tolera_sol_tarde": true,
-    "sensibilidad_calor": "baja"
+    "horas_sol_directo": 4,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media"
   },
   {
     "id": "begonia",
@@ -363,7 +401,7 @@
     "luz": {
       "detalle": "Luz brillante y filtrada. En verano protegela del sol directo, que le quema las hojas.",
       "confianza": "alta",
-      "confianza_sol": "baja"
+      "confianza_sol": "media"
     },
     "riego": {
       "nivel": "medio",
@@ -434,17 +472,25 @@
         "org": "NC State Extension Gardener Plant Toolbox",
         "url": "https://plants.ces.ncsu.edu/plants/begonia-rex-types/",
         "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Begonia",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/begonia/",
+        "fecha_consulta": "2026-11-15"
       }
     ],
     "confianza": "media",
     "adaptaciones": [
-      "RHS marca la época de abonado de mayo a septiembre (hemisferio norte); en Buenos Aires equivale a noviembre a marzo aprox. El riego reducido de invierno corresponde a junio-agosto."
+      "RHS marca la época de abonado de mayo a septiembre (hemisferio norte); en Buenos Aires equivale a noviembre a marzo aprox. El riego reducido de invierno corresponde a junio-agosto.",
+      "RHS pide sombra en verano: en Buenos Aires, de diciembre a febrero."
     ],
     "discrepancias": [
       "Se tomó Begonia rex (grupo Rex-cultorum) como la begonia de interior del catálogo; no se investigó B. maculata por separado. La ficha de ASPCA cubre todo el género (Begonia spp.).",
       "Tipo de oxalato: ASPCA dice oxalatos de calcio solubles; NC State dice solo 'oxalato de calcio'.",
       "Sustrato: la sección de RHS sobre begonias rex no nombra una mezcla; el dato sale de NC State y de la indicación general de RHS de mantener el compost húmedo pero bien drenado.",
-      "ASPCA y NC State mencionan falla renal solo en animales de pastoreo, no en perros ni gatos; por eso no se puso advertencia grave."
+      "ASPCA y NC State mencionan falla renal solo en animales de pastoreo, no en perros ni gatos; por eso no se puso advertencia grave.",
+      "NC State la ubica en sol tamizado o media sombra (categoría que admite algunas horas de sol); RHS pide protegerla del sol directo y tenerla a la sombra en verano. Tomamos cero horas de sol directo."
     ],
     "luz_requerida": "indirecta_brillante",
     "luz_tolerada": [],
@@ -465,7 +511,7 @@
     "luz": {
       "detalle": "Prefiere luz brillante indirecta o sombra liviana. El sol fuerte del verano le decolora los tallos; el sol suave de otoño e invierno sí le viene bien.",
       "confianza": "alta",
-      "confianza_sol": "baja"
+      "confianza_sol": "media"
     },
     "riego": {
       "nivel": "medio",
@@ -543,17 +589,20 @@
       "Floración: NC State indica flores en invierno del hemisferio norte (diciembre a febrero). En Buenos Aires el invierno es de junio a agosto, así que la floración esperable es aproximadamente de junio a agosto y no en Navidad.",
       "Inducción de pimpollos: NC State y Clemson indican noches largas (13-14 h de oscuridad sin interrupción) y frescas desde mediados de septiembre, el comienzo del otoño boreal. En Buenos Aires equivale a mediados de marzo.",
       "Clemson indica crecimiento ideal de abril a septiembre (primavera-verano boreal); en Buenos Aires es aproximadamente de octubre a marzo.",
-      "Clemson dice que el sol pleno es beneficioso en otoño e invierno y dañino en verano; en Buenos Aires el sol fuerte a evitar es el de diciembre a febrero."
+      "Clemson dice que el sol pleno es beneficioso en otoño e invierno y dañino en verano; en Buenos Aires el sol fuerte a evitar es el de diciembre a febrero.",
+      "El sol suave que le viene bien es el de otoño e invierno: en Buenos Aires, de abril a agosto. De diciembre a febrero, nada de sol directo.",
+      "Las fuentes son del hemisferio norte y hablan de ventana sur como la más soleada: en Buenos Aires esa es la ventana norte. El sol de la tarde entra por el oeste igual que allá."
     ],
     "discrepancias": [
       "Riego: NC State pide tierra húmeda (ni empapada ni seca) en primavera-verano y reducir cuando se forman los pimpollos; Clemson pide regar cuando el sustrato está seco al tacto en primavera-verano y mantenerlo parejo y húmedo una vez formados los pimpollos. Se tomó el criterio más conservador contra el exceso de agua en verano y el de Clemson para la etapa de pimpollos.",
       "Oscuridad necesaria para florecer: NC State dice al menos 13 horas; Clemson, 14 o más durante 6 semanas.",
       "Nombre en ASPCA: la ficha \"Christmas Cactus\" usa Schlumbergera bridgesii; la confirmación para S. x buckleyi viene de NC State. No se abrió una ficha específica de S. truncata.",
-      "Humedad: solo NC State la menciona; Clemson no trata la humedad ambiente."
+      "Humedad: solo NC State la menciona; Clemson no trata la humedad ambiente.",
+      "Sol: Clemson dice que el sol pleno le hace bien en otoño e invierno; NC State solo advierte que el sol pleno decolora los tallos. Se dejó un rato de sol suave, solo en los meses frescos."
     ],
     "luz_requerida": "indirecta_brillante",
     "luz_tolerada": [],
-    "horas_sol_directo": 0,
+    "horas_sol_directo": 2,
     "tolera_sol_tarde": false,
     "sensibilidad_calor": "alta"
   },
@@ -570,7 +619,7 @@
     "luz": {
       "detalle": "Lugar luminoso pero protegido del sol directo. En verano le va bien una ventana al sur o al este; en invierno podés acercarla a una ventana al norte.",
       "confianza": "alta",
-      "confianza_sol": "baja"
+      "confianza_sol": "alta"
     },
     "riego": {
       "nivel": "alto",
@@ -646,7 +695,8 @@
     "confianza": "alta",
     "adaptaciones": [
       "RHS recomienda ventana norte o este en verano y sur en invierno (hemisferio norte); en Buenos Aires se invierte: sur o este en verano (diciembre-febrero) y norte en invierno (junio-agosto).",
-      "El invierno porteño con calefacción seca el aire: es cuando más conviene sumar humedad."
+      "El invierno porteño con calefacción seca el aire: es cuando más conviene sumar humedad.",
+      "RHS recomienda ventana norte o este en verano y sur en invierno: en Buenos Aires es al revés, sur o este en verano y norte en invierno."
     ],
     "discrepancias": [
       "Se tomó Goeppertia makoyana como especie de referencia. La guía de RHS cubre las 'calateas' en general (Goeppertia, Ctenanthe, Stromanthe) y la ficha de ASPCA es de Calathea spp.",
@@ -671,7 +721,7 @@
     "luz": {
       "detalle": "Va bien con luz media a brillante, siempre indirecta: el sol directo le quema las hojas. Aguanta lugares más sombríos.",
       "confianza": "alta",
-      "confianza_sol": "baja"
+      "confianza_sol": "media"
     },
     "riego": {
       "nivel": "medio",
@@ -771,7 +821,8 @@
     "confianza": "alta",
     "adaptaciones": [
       "Temperaturas pasadas de °F a °C (redondeadas).",
-      "Estaciones convertidas: la época de crecimiento (primavera-verano) va de septiembre a febrero y el invierno de junio a agosto."
+      "Estaciones convertidas: la época de crecimiento (primavera-verano) va de septiembre a febrero y el invierno de junio a agosto.",
+      "En balcón solo va a la sombra luminosa: el sol directo le quema las hojas. No es planta para balcón con sol."
     ],
     "discrepancias": [
       "Toxicidad: la ficha de ASPCA y NC State la dan como no tóxica para gatos y perros, pero un artículo de ASPCA de 2019 la menciona como 'levemente tóxica' (vómitos y diarrea leves tras ingerirla) y Clemson aclara que comer mucha puede causar vómitos o diarrea. Se mantuvo 'segura' por la ficha oficial, con confianza media y aviso en la nota.",
@@ -798,7 +849,7 @@
     "luz": {
       "detalle": "Necesita muchísima claridad y disfruta del sol directo. Con poca luz se estira y pierde la forma de roseta.",
       "confianza": "media",
-      "confianza_sol": "baja"
+      "confianza_sol": "media"
     },
     "riego": {
       "nivel": "bajo",
@@ -887,25 +938,41 @@
         "org": "UF/IFAS Gardening Solutions",
         "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/echeveria/",
         "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Succulents",
+        "org": "UC Master Gardeners of Sonoma County (Univ. of California ANR)",
+        "url": "https://ucanr.edu/site/mg-sonoma/succulents",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Succulents - Orange County",
+        "org": "UC Master Gardeners of Orange County (Univ. of California ANR)",
+        "url": "https://ucanr.edu/site/uc-master-gardeners-orange-county/succulents-orange-county",
+        "fecha_consulta": "2026-11-15"
       }
     ],
     "confianza": "media",
     "adaptaciones": [
       "RHS recomienda orientación sur u oeste (hemisferio norte); en Buenos Aires equivale a ventana norte u oeste.",
-      "RHS indica floración a fines de invierno y primavera; en Buenos Aires sería aproximadamente de agosto a noviembre."
+      "RHS indica floración a fines de invierno y primavera; en Buenos Aires sería aproximadamente de agosto a noviembre.",
+      "Las fuentes son del hemisferio norte y hablan de ventana sur como la más soleada: en Buenos Aires esa es la ventana norte. El sol de la tarde entra por el oeste igual que allá.",
+      "En balcón: sol de mañana y sombra desde el mediodía en verano (diciembre a febrero). Sacala al sol de a poco para que no se queme."
     ],
     "discrepancias": [
       "Luz: la ficha de RHS de E. elegans, NC State y UF/IFAS indican sol pleno; la guía de RHS del género recomienda luz brillante indirecta. Se eligió \"mucha\" con sol directo y confianza media.",
       "Riego de invierno: la ficha de RHS de la especie dice no regar en reposo; la guía de RHS del género dice un riego liviano cada varias semanas. Se tomó el riego mínimo.",
-      "Toxicidad: la ficha de ASPCA \"Mexican Snowballs\" da el nombre científico solo a nivel género (escrito \"Echevaria\"); la confirmación a nivel especie viene de NC State."
+      "Toxicidad: la ficha de ASPCA \"Mexican Snowballs\" da el nombre científico solo a nivel género (escrito \"Echevaria\"); la confirmación a nivel especie viene de NC State.",
+      "Sol: la ficha de RHS de la especie y UF/IFAS indican sol pleno y NC State sol pleno a media sombra; la guía de RHS del género pide luz brillante indirecta y los Master Gardeners de la Univ. de California dicen que Echeveria elegans pide media sombra y que el sol fuerte le marca las hojas. Se tomó el criterio más cuidadoso: unas 3 horas de sol suave y nada de sol de tarde.",
+      "Calor: NC State la lista como resistente al calor y UF/IFAS dice que prospera con el calor del verano; la Univ. de California avisa que el sol caliente de verano quema las hojas. Se dejó sensibilidad media."
     ],
     "luz_requerida": "directa",
     "luz_tolerada": [
       "indirecta_brillante"
     ],
-    "horas_sol_directo": 6,
-    "tolera_sol_tarde": true,
-    "sensibilidad_calor": "baja"
+    "horas_sol_directo": 3,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media"
   },
   {
     "id": "espatifilo",
@@ -921,7 +988,7 @@
     "luz": {
       "detalle": "Crece mejor con luz brillante indirecta, cerca de una ventana pero sin sol directo. Aguanta lugares con poca luz, aunque ahí crece lento y casi no florece.",
       "confianza": "alta",
-      "confianza_sol": "baja"
+      "confianza_sol": "alta"
     },
     "riego": {
       "nivel": "medio",
@@ -998,16 +1065,30 @@
         "org": "NC State Extension Gardener Plant Toolbox",
         "url": "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
         "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Peace Lily",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/peace-lily/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplants: Lighting",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/lighting",
+        "fecha_consulta": "2026-11-15"
       }
     ],
     "confianza": "alta",
     "adaptaciones": [
-      "RHS da la época de crecimiento como abril a octubre (hemisferio norte); en Buenos Aires equivale más o menos a octubre a abril, y el riego reducido va de junio a agosto."
+      "RHS da la época de crecimiento como abril a octubre (hemisferio norte); en Buenos Aires equivale más o menos a octubre a abril, y el riego reducido va de junio a agosto.",
+      "RHS habla del sol directo de verano: en Buenos Aires, de diciembre a febrero."
     ],
     "discrepancias": [
       "Humedad: RHS dice que prefiere humedad moderada; NC State no la pide como requisito y solo menciona que el aire seco puede dar puntas marrones. Se tomó 'media'.",
       "Gravedad: NC State la clasifica como severidad media; la FDA dice que los síntomas suelen resolverse solos. Se tomó 'moderada' (criterio más conservador).",
-      "Partes tóxicas: NC State nombra las hojas; ASPCA y FDA hablan de la planta en general."
+      "Partes tóxicas: NC State nombra las hojas; ASPCA y FDA hablan de la planta en general.",
+      "Le gusta el ambiente cálido (NC State y Clemson: 20 a 29 °C), pero Clemson y RHS advierten que el sol directo y el aire caliente de la calefacción la dañan. Por eso figura como sensible al calor directo, no al ambiente templado."
     ],
     "luz_requerida": "indirecta_brillante",
     "luz_tolerada": [
@@ -1016,7 +1097,7 @@
     ],
     "horas_sol_directo": 0,
     "tolera_sol_tarde": false,
-    "sensibilidad_calor": "media"
+    "sensibilidad_calor": "alta"
   },
   {
     "id": "ficus-lyrata",
@@ -1031,7 +1112,7 @@
     "luz": {
       "detalle": "Necesita mucha claridad: luz brillante indirecta o filtrada, lo más cerca posible de una ventana. Protegelo del sol directo de la tarde, que le quema las hojas.",
       "confianza": "alta",
-      "confianza_sol": "baja"
+      "confianza_sol": "media"
     },
     "riego": {
       "nivel": "medio",
@@ -1114,22 +1195,30 @@
         "org": "RHS",
         "url": "https://www.rhs.org.uk/plants/ornamental-figs",
         "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Houseplants: Lighting",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/lighting",
+        "fecha_consulta": "2026-11-15"
       }
     ],
     "confianza": "media",
     "adaptaciones": [
       "Temperaturas pasadas de °F a °C (redondeadas).",
       "Estaciones convertidas: la época de crecimiento (primavera-verano) va de septiembre a febrero y el invierno de junio a agosto.",
-      "El 'sol de la tarde' del que hay que protegerlo llega en Buenos Aires por ventanas oeste y norte."
+      "El 'sol de la tarde' del que hay que protegerlo llega en Buenos Aires por ventanas oeste y norte.",
+      "El sol de la tarde entra por el oeste igual que en el hemisferio norte; la ventana más soleada en Buenos Aires es la norte."
     ],
     "discrepancias": [
       "Toxicidad: ASPCA no tiene ficha propia de Ficus lyrata en su lista (la ficha 'Fiddle-Leaf' es un filodendro, Philodendron bipennifolium). La cubren un artículo de ASPCA de 2019 (levemente tóxica para perros y gatos), NC State y la ficha del género Ficus de Pet Poison Helpline. Confianza media.",
       "Principio tóxico: NC State lo atribuye a oxalatos de calcio insolubles; Pet Poison Helpline y ASPCA hablan de savia irritante.",
-      "Riego: NC State pide tierra húmeda sin encharcar; Penn State y RHS, regar cuando se secan los primeros centímetros. Las fuentes no dan una pauta estacional clara (Penn State dice que no entra en reposo en invierno)."
+      "Riego: NC State pide tierra húmeda sin encharcar; Penn State y RHS, regar cuando se secan los primeros centímetros. Las fuentes no dan una pauta estacional clara (Penn State dice que no entra en reposo en invierno).",
+      "NC State la clasifica como de media sombra (2 a 6 h de sol) siempre que esté protegida del sol de la tarde; RHS y Penn State dicen que no reciba sol directo. Tomamos el criterio más cuidadoso: sin sol directo. Un rato de sol suave de mañana probablemente lo tolere si se acostumbra de a poco."
     ],
     "luz_requerida": "indirecta_brillante",
     "luz_tolerada": [],
-    "horas_sol_directo": 2,
+    "horas_sol_directo": 0,
     "tolera_sol_tarde": false,
     "sensibilidad_calor": "media"
   },
@@ -1146,7 +1235,7 @@
     "luz": {
       "detalle": "Crece mejor con luz media y se adapta bien a rincones con poca luz. No necesita sol directo.",
       "confianza": "alta",
-      "confianza_sol": "baja"
+      "confianza_sol": "media"
     },
     "riego": {
       "nivel": "medio",
@@ -1233,7 +1322,8 @@
     ],
     "confianza": "media",
     "adaptaciones": [
-      "Clemson sugiere ventana norte, este u oeste (hemisferio norte, donde la norte es la menos soleada); en Buenos Aires equivale a ventana sur, este u oeste."
+      "Clemson sugiere ventana norte, este u oeste (hemisferio norte, donde la norte es la menos soleada); en Buenos Aires equivale a ventana sur, este u oeste.",
+      "Clemson sugiere ventana norte, este u oeste, pensando en el hemisferio norte, donde la norte es la de menos sol. En Buenos Aires la equivalente es la ventana sur; este y oeste valen igual, sin sol directo."
     ],
     "discrepancias": [
       "Humedad: NC State dice que prefiere humedad media y tolera aire seco; Clemson dice que la humedad alta es ideal pero tolera la baja de las casas. Se eligió \"media\".",
@@ -1241,9 +1331,9 @@
       "Nombre: Clemson trata al filodendro hoja de corazón como Philodendron scandens; ASPCA y NC State usan Philodendron hederaceum para la misma planta de nombre común.",
       "Tamaño: NC State da de 10 cm a 1,8 m de alto y tallos de más de 1,2 m; depende de cuánto se la pode."
     ],
-    "luz_requerida": "indirecta_brillante",
+    "luz_requerida": "indirecta_media",
     "luz_tolerada": [
-      "indirecta_media",
+      "indirecta_brillante",
       "baja"
     ],
     "horas_sol_directo": 0,
@@ -1263,7 +1353,7 @@
     "luz": {
       "detalle": "Prefiere luz brillante indirecta, idealmente con algo de sol suave de la mañana, y protegido del sol de la tarde. Se adapta a menos luz, pero con muy poca puede perder hojas.",
       "confianza": "alta",
-      "confianza_sol": "baja"
+      "confianza_sol": "media"
     },
     "riego": {
       "nivel": "medio",
@@ -1352,18 +1442,20 @@
     "adaptaciones": [
       "Temperaturas pasadas de °F a °C (redondeadas).",
       "El reposo 'de otoño a fines del invierno' corresponde en Buenos Aires a marzo-agosto aproximadamente.",
-      "Clemson recomienda ventana este (sol de la mañana); vale igual en Buenos Aires porque el este no cambia de hemisferio."
+      "Clemson recomienda ventana este (sol de la mañana); vale igual en Buenos Aires porque el este no cambia de hemisferio.",
+      "La ventana al este da sol de mañana igual que en el hemisferio norte. En Buenos Aires la ventana más soleada es la norte: ahí conviene filtrarle el sol."
     ],
     "discrepancias": [
       "Toxicidad: no encontré ficha de Ficus elastica en ASPCA (la ficha 'Indian Rubber Plant' corresponde a Ficus benjamina). Pet Poison Helpline tiene ficha de la especie pero habla de 'animales' sin separar gato y perro; NC State la marca como problema para gatos y perros. Confianza media.",
-      "Balcón: NC State la da como rústica desde zona USDA 9a, pero la misma ficha y Clemson dicen que sufre por debajo de 13 °C. Se eligió el criterio conservador (no apta todo el año)."
+      "Balcón: NC State la da como rústica desde zona USDA 9a, pero la misma ficha y Clemson dicen que sufre por debajo de 13 °C. Se eligió el criterio conservador (no apta todo el año).",
+      "Clemson dice que crece mejor con la luz de la mañana de una ventana al este y NC State acepta media sombra con protección del sol de la tarde; la guía general de RHS para ficus dice 'fuera del sol directo'. Dejamos solo sol suave de mañana."
     ],
     "luz_requerida": "indirecta_brillante",
     "luz_tolerada": [
       "indirecta_media",
       "baja"
     ],
-    "horas_sol_directo": 0,
+    "horas_sol_directo": 2,
     "tolera_sol_tarde": false,
     "sensibilidad_calor": "media"
   },
@@ -1380,7 +1472,7 @@
     "luz": {
       "detalle": "Le gusta la luz brillante pero protegida del sol fuerte, que le quema las hojas. Aguanta lugares menos luminosos, aunque ahí las rayas se le apagan.",
       "confianza": "media",
-      "confianza_sol": "baja"
+      "confianza_sol": "media"
     },
     "riego": {
       "nivel": "bajo",
@@ -1451,17 +1543,39 @@
         "org": "Royal Horticultural Society",
         "url": "https://www.rhs.org.uk/plants/504241/haworthiopsis-attenuata/details",
         "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Haworthia (guía del género)",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/haworthia",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Haworthias: Super Succulents for Small Spaces",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/haworthias-super-succulents-for-small-spaces/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Succulents",
+        "org": "UC Master Gardeners of Sonoma County (Univ. of California ANR)",
+        "url": "https://ucanr.edu/site/mg-sonoma/succulents",
+        "fecha_consulta": "2026-11-15"
       }
     ],
     "confianza": "media",
     "adaptaciones": [
       "RHS recomienda orientación este, sur u oeste (hemisferio norte); en Buenos Aires equivale a este, norte u oeste, siempre filtrando el sol fuerte.",
-      "NC State indica floración a fines de primavera y principios de verano; en Buenos Aires sería aproximadamente de noviembre a enero."
+      "NC State indica floración a fines de primavera y principios de verano; en Buenos Aires sería aproximadamente de noviembre a enero.",
+      "Las fuentes son del hemisferio norte y hablan de ventana sur como la más soleada: en Buenos Aires esa es la ventana norte. El sol de la tarde entra por el oeste igual que allá.",
+      "En balcón: lugar muy luminoso pero a la sombra, o como mucho un rato de sol temprano. En verano (diciembre a febrero), siempre reparada."
     ],
     "discrepancias": [
       "Luz: RHS la clasifica como \"full sun\" pero aclara protegerla del sol fuerte; NC State indica media sombra / luz brillante indirecta y que el sol directo quema. Se eligió \"media\" sin sol directo.",
       "Temperatura mínima: RHS da rusticidad H2 (1 a 5 °C); NC State recomienda mantenerla arriba de 10 °C. Para el balcón se tomó el criterio más conservador.",
-      "Toxicidad: ASPCA lista \"Zebra Haworthia\" como Haworthia fasciata, que no es el nombre de esta especie; la confirmación para Haworthiopsis attenuata viene solo de NC State."
+      "Toxicidad: ASPCA lista \"Zebra Haworthia\" como Haworthia fasciata, que no es el nombre de esta especie; la confirmación para Haworthiopsis attenuata viene solo de NC State.",
+      "Sol: NC State dice que el sol directo puede quemar las hojas y la guía de RHS del género pide luz brillante indirecta; la ficha de RHS de la especie la da para plena luz protegida del sol caliente, y Wisconsin (género) acepta unas horas de sol directo en ventana este u oeste. Se dejó sin sol directo por ser lo más cuidadoso; un rato de sol suave de mañana está respaldado por dos fuentes.",
+      "Calor: Wisconsin dice que aguantan calor fuerte si tienen algo de sombra y aire; RHS y la Univ. de California piden protegerlas del sol caliente y del calor fuerte. Se eligió sensibilidad alta."
     ],
     "luz_requerida": "indirecta_brillante",
     "luz_tolerada": [
@@ -1470,7 +1584,7 @@
     ],
     "horas_sol_directo": 0,
     "tolera_sol_tarde": false,
-    "sensibilidad_calor": "media"
+    "sensibilidad_calor": "alta"
   },
   {
     "id": "helecho-serrucho",
@@ -1485,7 +1599,7 @@
     "luz": {
       "detalle": "Luz brillante indirecta o filtrada. El sol directo le daña las frondas, así que no lo pongas pegado a una ventana muy soleada.",
       "confianza": "alta",
-      "confianza_sol": "baja"
+      "confianza_sol": "alta"
     },
     "riego": {
       "nivel": "alto",
@@ -1556,21 +1670,38 @@
         "org": "Clemson Cooperative Extension HGIC",
         "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
         "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Boston Fern, Nephrolepis exaltata",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/boston-fern-nephrolepis-exaltata/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplants: Lighting",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/lighting",
+        "fecha_consulta": "2026-11-15"
       }
     ],
     "confianza": "alta",
     "adaptaciones": [
       "Temperaturas pasadas de °F a °C (redondeadas).",
       "Estaciones convertidas: la época de crecimiento (primavera-verano) va de septiembre a febrero y el invierno de junio a agosto.",
-      "Clemson desaconseja ventanas sur u oeste (las más soleadas en el hemisferio norte); en Buenos Aires equivale a evitar ventanas norte u oeste con sol directo."
+      "Clemson desaconseja ventanas sur u oeste (las más soleadas en el hemisferio norte); en Buenos Aires equivale a evitar ventanas norte u oeste con sol directo.",
+      "Las fuentes del hemisferio norte dicen 'nunca en ventana sur u oeste': en Buenos Aires eso equivale a las ventanas norte y oeste."
     ],
     "discrepancias": [
       "Familia: NC State lo ubica en Polypodiaceae y ASPCA en Dryopteridaceae; no pude abrir Kew POWO para confirmar la clasificación actual.",
       "La ficha de ASPCA nombra la planta como 'Nephrolepis exalta bostoniensis' (la variedad Boston de esta especie).",
-      "Mantenimiento: NC State lo califica de bajo mantenimiento, pero ambas fuentes exigen humedad alta y tierra siempre húmeda, por eso se lo marcó como difícil en interior con calefacción (juicio propio)."
+      "Mantenimiento: NC State lo califica de bajo mantenimiento, pero ambas fuentes exigen humedad alta y tierra siempre húmeda, por eso se lo marcó como difícil en interior con calefacción (juicio propio).",
+      "Clemson y NC State la quieren en ambiente fresco (15 a 22 °C); Wisconsin dice que aguanta días de hasta 35 °C. Nos quedamos con el criterio más cuidadoso.",
+      "Wisconsin acepta una ventana al este sin cortina; Clemson dice que el sol directo daña las frondas. Tomamos cero horas de sol directo."
     ],
     "luz_requerida": "indirecta_brillante",
-    "luz_tolerada": [],
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
     "horas_sol_directo": 0,
     "tolera_sol_tarde": false,
     "sensibilidad_calor": "alta"
@@ -1588,7 +1719,7 @@
     "luz": {
       "detalle": "Crece mejor con luz brillante indirecta, pero aguanta muy poca luz (solo que crece más lento). Evitá el sol directo fuerte de la tarde, que puede quemar las hojas.",
       "confianza": "alta",
-      "confianza_sol": "baja"
+      "confianza_sol": "media"
     },
     "riego": {
       "nivel": "bajo",
@@ -1665,17 +1796,26 @@
         "org": "University of Wisconsin-Madison Extension",
         "url": "https://hort.extension.wisc.edu/dependable-durable-houseplants/",
         "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "How to grow sansevierias",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/sansevieria/growing-guide",
+        "fecha_consulta": "2026-11-15"
       }
     ],
     "confianza": "media",
     "adaptaciones": [
       "Temperaturas pasadas de °F a °C (redondeadas).",
-      "Estaciones convertidas: la época de crecimiento (primavera-verano) va de septiembre a febrero y el invierno de junio a agosto."
+      "Estaciones convertidas: la época de crecimiento (primavera-verano) va de septiembre a febrero y el invierno de junio a agosto.",
+      "El sol del mediodía de verano que RHS pide evitar es, en Buenos Aires, el de diciembre a febrero y entra por las ventanas al norte."
     ],
     "discrepancias": [
       "Luz: NC State la lista para media sombra con 2 a 6 horas de sol directo; Clemson recomienda evitar el sol directo fuerte. Se dejó sol_directo en false por ser lo más conservador.",
       "Frecuencia de riego invernal: NC State dice cada 1-2 meses; Clemson, cada 4-6 semanas.",
-      "ASPCA la ubica en la familia Agavaceae; NC State en Asparagaceae (clasificación actual)."
+      "ASPCA la ubica en la familia Agavaceae; NC State en Asparagaceae (clasificación actual).",
+      "Sol: NC State la lista para media sombra (2 a 6 horas de sol directo) y RHS dice que anda al sol o con sombra liviana, pero fuera del sol del mediodía en verano; Clemson pide evitar el sol directo y caliente porque quema. Se dejó sin sol directo por ser lo más cuidadoso; un rato de sol suave de mañana no debería hacerle mal.",
+      "Calor: NC State la lista como resistente al calor; RHS recomienda 15 a 24 °C y lejos de radiadores. Se dejó sensibilidad media."
     ],
     "luz_requerida": "indirecta_brillante",
     "luz_tolerada": [
@@ -1698,7 +1838,7 @@
     "luz": {
       "detalle": "Luz brillante indirecta, cerca de una ventana pero sin sol directo fuerte, que le quema las hojas. Con muy poca luz las hojas nuevas salen con menos agujeros.",
       "confianza": "media",
-      "confianza_sol": "baja"
+      "confianza_sol": "media"
     },
     "riego": {
       "nivel": "medio",
@@ -1787,15 +1927,20 @@
     "adaptaciones": [
       "Temperaturas pasadas de °F a °C (redondeadas).",
       "Estaciones convertidas: la época de crecimiento (primavera-verano) va de septiembre a febrero y el invierno de junio a agosto.",
-      "RHS recomienda ventana este u oeste (hemisferio norte); en Buenos Aires una ventana este, o norte con cortina que filtre el sol."
+      "RHS recomienda ventana este u oeste (hemisferio norte); en Buenos Aires una ventana este, o norte con cortina que filtre el sol.",
+      "RHS recomienda ventana este u oeste (vale igual en Buenos Aires) pero sin que le dé el sol directo; acá la ventana a evitar de cerca es la norte.",
+      "En invierno (junio a agosto), alejala de estufas y radiadores."
     ],
     "discrepancias": [
       "Luz: Wisconsin Extension sugiere sol directo en invierno; RHS y NC State indican luz indirecta sin sol directo. Se eligió el criterio conservador (sin sol directo).",
       "Riego: RHS dice dejar secar casi todo el sustrato; NC State, el cuarto o tercio superior. Se usó la regla de NC State.",
-      "Gravedad: NC State la clasifica como severidad baja y ASPCA describe este grupo de plantas como de gravedad baja, con hinchazón de garganta solo en casos raros."
+      "Gravedad: NC State la clasifica como severidad baja y ASPCA describe este grupo de plantas como de gravedad baja, con hinchazón de garganta solo en casos raros.",
+      "Sol: Wisconsin sugiere sol directo en invierno; RHS y NC State piden luz indirecta y RHS dice que el sol directo quema. Se dejó sin sol directo."
     ],
     "luz_requerida": "indirecta_brillante",
-    "luz_tolerada": [],
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
     "horas_sol_directo": 0,
     "tolera_sol_tarde": false,
     "sensibilidad_calor": "alta"
@@ -1813,7 +1958,7 @@
     "luz": {
       "detalle": "Le gusta la claridad sin sol fuerte: una ventana al este o al oeste le viene bárbaro. En verano correla del sol directo porque le quema las hojas; en invierno acercala a la luz para que florezca.",
       "confianza": "media",
-      "confianza_sol": "baja"
+      "confianza_sol": "media"
     },
     "riego": {
       "nivel": "medio",
@@ -1884,22 +2029,46 @@
         "org": "NC State Extension Gardener Plant Toolbox",
         "url": "https://plants.ces.ncsu.edu/plants/phalaenopsis/",
         "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Orchids",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/orchids/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Phalaenopsis culture sheet",
+        "org": "American Orchid Society",
+        "url": "https://www.aos.org/orchid-care/care-sheets/phalaenopsis-culture-sheet",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Orchids",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/orchids/",
+        "fecha_consulta": "2026-11-15"
       }
     ],
     "confianza": "media",
     "adaptaciones": [
       "NC State habla de ventanas al oeste o al sur con sombra (hemisferio norte); en Buenos Aires la equivalente a 'sur' es la ventana norte, que necesita cortina. Este y oeste no cambian.",
-      "RHS indica regar menos en invierno: en Buenos Aires es de junio a agosto."
+      "RHS indica regar menos en invierno: en Buenos Aires es de junio a agosto.",
+      "La ventana al este da sol de mañana igual que en el hemisferio norte. Donde las fuentes dicen 'sur sombreado', en Buenos Aires es la ventana norte con cortina.",
+      "RHS pide sacarla del sol directo en verano: acá eso es de diciembre a febrero."
     ],
     "discrepancias": [
       "Luz: NC State dice que prefiere poca luz (ventana este), mientras que RHS pide luz brillante en invierno y solo evitar el sol directo en verano. Se tomó 'media' (claridad sin sol fuerte).",
-      "Riego: ninguna de las dos fuentes menciona cubitos de hielo; ambas piden agua tibia, por eso no se recomiendan."
+      "Riego: ninguna de las dos fuentes menciona cubitos de hielo; ambas piden agua tibia, por eso no se recomiendan.",
+      "Cuatro fuentes recomiendan una ventana al este (sol suave de mañana) con 'poco o nada de sol directo'; Wisconsin dice directamente que las orquídeas no reciban sol directo. Dejamos solo un rato de sol suave temprano, y en verano filtrado.",
+      "RHS acepta alféizar al oeste; NC State y la American Orchid Society dicen que oeste y sur solo si están bien sombreados. Tomamos el criterio más cuidadoso: sin sol de tarde."
     ],
     "luz_requerida": "indirecta_brillante",
-    "luz_tolerada": [],
-    "horas_sol_directo": 0,
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 2,
     "tolera_sol_tarde": false,
-    "sensibilidad_calor": "alta"
+    "sensibilidad_calor": "media"
   },
   {
     "id": "palmera-areca",
@@ -1914,7 +2083,7 @@
     "luz": {
       "detalle": "Adentro quiere mucha claridad con luz indirecta, cerca de una ventana luminosa.",
       "confianza": "alta",
-      "confianza_sol": "baja"
+      "confianza_sol": "media"
     },
     "riego": {
       "nivel": "medio",
@@ -1990,20 +2159,23 @@
     "confianza": "media",
     "adaptaciones": [
       "Clemson sugiere ventanas al este, oeste o sur (hemisferio norte); en Buenos Aires la equivalente a 'sur' es la norte, con la luz filtrada.",
-      "NC State solo da la pauta de riego para la época de crecimiento, que en Buenos Aires va de primavera a otoño (octubre a abril aprox.)."
+      "NC State solo da la pauta de riego para la época de crecimiento, que en Buenos Aires va de primavera a otoño (octubre a abril aprox.).",
+      "Clemson recomienda cerca de una ventana este, oeste o sur: en Buenos Aires, este, oeste o norte."
     ],
     "discrepancias": [
       "Nombre: ASPCA la lista como Dypsis lutescens; NC State y Clemson usan Chrysalidocarpus lutescens.",
       "Toxicidad: ASPCA y las etiquetas de NC State la dan como no tóxica para gatos y perros, pero la sección de toxicidad de NC State menciona glucósidos cianogénicos en hojas y tallos con severidad baja (náuseas y vómitos, sin aclarar si aplica a mascotas). Se dejó 'segura' con confianza media.",
       "Sol: NC State dice que al exterior tolera pleno sol aunque prefiere media sombra; como planta de interior las dos fuentes piden luz indirecta, por eso sol_directo quedó en false.",
       "Riego de invierno: NC State no da pauta de invierno; se usó la regla general de Clemson para palmeras de interior.",
-      "Humedad: NC State dice humedad alta; Clemson no da un requisito específico para la areca (solo la regla general de sumar humedad por debajo del 50 %)."
+      "Humedad: NC State dice humedad alta; Clemson no da un requisito específico para la areca (solo la regla general de sumar humedad por debajo del 50 %).",
+      "Adentro las dos fuentes piden luz brillante indirecta, pero NC State dice que al aire libre tolera pleno sol aunque prefiere media sombra. Dejamos solo un poco de sol suave, y siempre acostumbrándola de a poco.",
+      "NC State dice que al aire libre tolera pleno sol, pero para interior las fuentes piden luz brillante indirecta. Se toma el criterio conservador: sin sol directo."
     ],
     "luz_requerida": "indirecta_brillante",
     "luz_tolerada": [],
     "horas_sol_directo": 0,
     "tolera_sol_tarde": false,
-    "sensibilidad_calor": "alta"
+    "sensibilidad_calor": "baja"
   },
   {
     "id": "palmera-de-salon",
@@ -2018,7 +2190,7 @@
     "luz": {
       "detalle": "Crece mejor con luz brillante indirecta, por ejemplo cerca de una ventana al sur o al este, pero se banca bien los rincones con poca luz.",
       "confianza": "alta",
-      "confianza_sol": "baja"
+      "confianza_sol": "media"
     },
     "riego": {
       "nivel": "medio",
@@ -2089,11 +2261,18 @@
         "org": "Clemson Cooperative Extension HGIC",
         "url": "https://hgic.clemson.edu/factsheet/indoor-palms/",
         "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Houseplants: Lighting",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/lighting",
+        "fecha_consulta": "2026-11-15"
       }
     ],
     "confianza": "alta",
     "adaptaciones": [
-      "NC State recomienda ventana al norte o al este (hemisferio norte, las de menos sol); en Buenos Aires equivale a ventana al sur o al este."
+      "NC State recomienda ventana al norte o al este (hemisferio norte, las de menos sol); en Buenos Aires equivale a ventana al sur o al este.",
+      "NC State recomienda ventana norte o este: en Buenos Aires la equivalente a la norte es la sur (la de menos sol)."
     ],
     "discrepancias": [
       "Humedad: NC State dice humedad baja a media y que tolera el aire seco; Clemson dice que prefiere humedad alta a moderada pero es adaptable. Se tomó 'media'.",
@@ -2123,7 +2302,7 @@
     "luz": {
       "detalle": "Luz brillante a media, filtrada. El sol directo le quema las hojas; con muy poca luz las hojas nuevas salen más angostas.",
       "confianza": "alta",
-      "confianza_sol": "baja"
+      "confianza_sol": "media"
     },
     "riego": {
       "nivel": "medio",
@@ -2209,7 +2388,8 @@
     ],
     "discrepancias": [
       "Gravedad: NC State la clasifica como severidad baja; un artículo de ASPCA (2019) describe a las Dracaena como moderadamente tóxicas, con cuadros más serios en ingestas grandes. Se dejó 'moderada'.",
-      "Riego: NC State dice mantener la tierra húmeda en época de crecimiento; Clemson, dejar secar la superficie entre riegos. Se usó la regla de Clemson, más segura contra la pudrición."
+      "Riego: NC State dice mantener la tierra húmeda en época de crecimiento; Clemson, dejar secar la superficie entre riegos. Se usó la regla de Clemson, más segura contra la pudrición.",
+      "NC State la marca como resistente al calor y dice que rinde entre 21 y 27 °C; Clemson recomienda 15 a 21 °C para las drácenas en general. Dejamos sensibilidad media."
     ],
     "luz_requerida": "indirecta_brillante",
     "luz_tolerada": [
@@ -2232,7 +2412,7 @@
     "luz": {
       "detalle": "Prefiere luz brillante indirecta o filtrada. Aguanta varios meses con poca luz, sobre todo la de hojas verdes lisas; el sol fuerte de verano le quema las hojas.",
       "confianza": "alta",
-      "confianza_sol": "baja"
+      "confianza_sol": "media"
     },
     "riego": {
       "nivel": "bajo",
@@ -2308,11 +2488,13 @@
     "confianza": "media",
     "adaptaciones": [
       "RHS sugiere ventana este u oeste, o alejada de una ventana sur (hemisferio norte); en Buenos Aires equivale a este u oeste, o alejada de una ventana norte.",
-      "RHS indica abonar de abril a octubre (primavera a otoño boreal); en Buenos Aires sería aproximadamente de octubre a abril."
+      "RHS indica abonar de abril a octubre (primavera a otoño boreal); en Buenos Aires sería aproximadamente de octubre a abril.",
+      "RHS recomienda ventana este u oeste, o alejada de una ventana sur: en Buenos Aires, alejada de una ventana norte. El sol de verano que quema es el de diciembre a febrero."
     ],
     "discrepancias": [
       "Humedad: NC State indica humedad relativa media a baja; la guía de RHS (del género) dice que se adaptan al aire de casa pero prefieren ambientes húmedos. Se eligió \"media\".",
-      "Sustrato: la receta detallada viene de la guía de RHS, que es del género Peperomia y no específica de P. obtusifolia; NC State solo pide buen drenaje."
+      "Sustrato: la receta detallada viene de la guía de RHS, que es del género Peperomia y no específica de P. obtusifolia; NC State solo pide buen drenaje.",
+      "Sol: RHS dice que el sol débil de invierno suele ser bienvenido; NC State dice que el sol fuerte o directo quema las hojas. Se dejó sin sol directo."
     ],
     "luz_requerida": "indirecta_brillante",
     "luz_tolerada": [
@@ -2336,7 +2518,7 @@
     "luz": {
       "detalle": "Quiere luz brillante pero indirecta. El sol directo le mancha las hojas de marrón rojizo y con poca luz se estira y pierde la forma.",
       "confianza": "alta",
-      "confianza_sol": "baja"
+      "confianza_sol": "alta"
     },
     "riego": {
       "nivel": "medio",
@@ -2424,7 +2606,8 @@
     "confianza": "alta",
     "adaptaciones": [
       "RHS indica como ideales las ventanas norte, este u oeste y pide alejarla de una ventana sur (hemisferio norte); en Buenos Aires las ideales son sur, este u oeste, y hay que alejarla de una ventana norte, sobre todo en verano.",
-      "RHS indica abonar de abril a septiembre (primavera-verano boreal); en Buenos Aires sería aproximadamente de octubre a marzo."
+      "RHS indica abonar de abril a septiembre (primavera-verano boreal); en Buenos Aires sería aproximadamente de octubre a marzo.",
+      "RHS sugiere ventana norte, este u oeste y alejarla en ambientes al sur: en Buenos Aires es al revés, va bien cerca de una ventana sur, este u oeste y alejada de una norte, sobre todo en verano (diciembre a febrero)."
     ],
     "discrepancias": [
       "Humedad: la guía de cultivo de RHS dice que tolera el aire seco normal de casa; la ficha de RHS de la especie dice que necesita humedad alta; NC State dice moderada a alta pero tolera la de casa; Penn State habla de ambiente cálido y húmedo. Se eligió \"media\".",
@@ -2434,7 +2617,7 @@
     "luz_tolerada": [],
     "horas_sol_directo": 0,
     "tolera_sol_tarde": false,
-    "sensibilidad_calor": "media"
+    "sensibilidad_calor": "alta"
   },
   {
     "id": "potus",
@@ -2449,7 +2632,7 @@
     "luz": {
       "detalle": "Le gusta la luz brillante pero filtrada, sin sol directo. Aguanta lugares con poca luz, aunque ahí las hojas salen más chicas y las variedades manchadas pierden el dibujo.",
       "confianza": "alta",
-      "confianza_sol": "baja"
+      "confianza_sol": "media"
     },
     "riego": {
       "nivel": "medio",
@@ -2532,6 +2715,12 @@
         "org": "Clemson Cooperative Extension HGIC",
         "url": "https://hgic.clemson.edu/exciting-houseplant-selections-for-beginners/",
         "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Dependable, Durable Houseplants",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/dependable-durable-houseplants/",
+        "fecha_consulta": "2026-11-15"
       }
     ],
     "confianza": "alta",
@@ -2565,7 +2754,7 @@
     "luz": {
       "detalle": "Mucha claridad pero con luz filtrada. De primavera a otoño le va bien una ventana al sur o al este; en invierno acercala a una al norte o al oeste. El sol fuerte de verano le quema las hojas.",
       "confianza": "alta",
-      "confianza_sol": "baja"
+      "confianza_sol": "media"
     },
     "riego": {
       "nivel": "medio",
@@ -2636,20 +2825,35 @@
         "org": "NC State Extension Gardener Plant Toolbox",
         "url": "https://plants.ces.ncsu.edu/plants/saintpaulia-ionantha/",
         "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "African Violet",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/african-violet/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "African Violets",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/african-violets/",
+        "fecha_consulta": "2026-11-15"
       }
     ],
     "confianza": "alta",
     "adaptaciones": [
-      "RHS recomienda ventana norte o este de primavera a otoño y sur u oeste en invierno (hemisferio norte); en Buenos Aires: sur o este de primavera a otoño, norte u oeste en invierno (junio-agosto)."
+      "RHS recomienda ventana norte o este de primavera a otoño y sur u oeste en invierno (hemisferio norte); en Buenos Aires: sur o este de primavera a otoño, norte u oeste en invierno (junio-agosto).",
+      "RHS recomienda alféizar norte o este de primavera a otoño y sur u oeste en invierno: en Buenos Aires es sur o este casi todo el año y norte u oeste en invierno (junio a agosto)."
     ],
     "discrepancias": [
       "Humedad: el texto de NC State dice que no tolera el aire seco, pero sus etiquetas incluyen 'tolerante al aire seco'; RHS coincide con que no le gusta el aire seco. Se tomó 'alta'.",
       "Luz: los atributos de NC State listan 'sombra profunda' y 'sombra parcial', mientras su texto y RHS piden luz brillante filtrada. Se tomó 'media'.",
-      "Riego de invierno: ninguna fuente da una pauta distinta para invierno."
+      "Riego de invierno: ninguna fuente da una pauta distinta para invierno.",
+      "RHS pide mantenerla fuera del sol directo, sobre todo en verano; Clemson y Wisconsin solo piden evitar el sol de la tarde o de las horas pico. Dejamos solo sol suave temprano y fuera del verano.",
+      "RHS da 18 a 24 °C y advierte que el sol a través del vidrio la quema; Clemson acepta hasta 27 a 29 °C de día. Tomamos el criterio más cuidadoso con el calor."
     ],
     "luz_requerida": "indirecta_brillante",
     "luz_tolerada": [],
-    "horas_sol_directo": 0,
+    "horas_sol_directo": 2,
     "tolera_sol_tarde": false,
     "sensibilidad_calor": "alta"
   },
@@ -2666,7 +2870,7 @@
     "luz": {
       "detalle": "Lo ideal es luz brillante indirecta, pero tolera muy poca luz. El sol directo de la tarde le quema las hojas.",
       "confianza": "alta",
-      "confianza_sol": "baja"
+      "confianza_sol": "media"
     },
     "riego": {
       "nivel": "bajo",

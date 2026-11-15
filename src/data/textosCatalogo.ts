@@ -125,6 +125,7 @@ export const TC = {
     resultado: {
       recomendadas: 'Te recomiendo',
       evitar: 'Mejor evitar acá',
+      sinResultadosCalor: 'Ninguna planta del catálogo aguanta ese sol fuerte sin protección. Si podés filtrarlo con una cortina o una media sombra, editá el espacio y marcalo: ahí sí aparecen opciones.',
       sinResultados: 'Con estas condiciones no encontré plantas que pueda recomendarte con seguridad. Probá con otro lugar o con más luz.',
       filtroMascotas: { gato: 'Solo plantas verificadas como seguras para gatos.', perro: 'Solo plantas verificadas como seguras para perros.', ambos: 'Solo plantas verificadas como seguras para gatos y perros.', ninguna: '' },
       guardar: 'Guardar este espacio',

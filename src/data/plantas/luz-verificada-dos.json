@@ -1,0 +1,421 @@
+{
+  "helecho-serrucho": {
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "alta",
+    "confianza_sol": "alta",
+    "fuentes_sol": [
+      {
+        "titulo": "Nephrolepis exaltata",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Indoor Ferns",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Boston Fern, Nephrolepis exaltata",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/boston-fern-nephrolepis-exaltata/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplants: Lighting",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/lighting",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "discrepancias_sol": [
+      "Clemson y NC State la quieren en ambiente fresco (15 a 22 °C); Wisconsin dice que aguanta días de hasta 35 °C. Nos quedamos con el criterio más cuidadoso.",
+      "Wisconsin acepta una ventana al este sin cortina; Clemson dice que el sol directo daña las frondas. Tomamos cero horas de sol directo."
+    ],
+    "adaptaciones_sol": [
+      "Las fuentes del hemisferio norte dicen 'nunca en ventana sur u oeste': en Buenos Aires eso equivale a las ventanas norte y oeste."
+    ],
+    "nota_sol": "Regla 'direct sun damages / bright indirect only' → 0 h. Clemson: el sol directo daña el follaje, nunca en ventana sur u oeste. NC State: luz brillante indirecta, sol tamizado o sombra profunda. Wisconsin: fuera del sol directo, con cortina en sur/oeste. Calor 'alta': Clemson y NC State piden ambiente fresco (15 a 21 °C).",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ]
+  },
+  "ficus-lyrata": {
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "confianza_sol": "media",
+    "fuentes_sol": [
+      {
+        "titulo": "Ficus lyrata",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/ficus-lyrata/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Fiddle Leaf Fig (Ficus lyrata)",
+        "org": "Penn State Extension (Master Gardeners)",
+        "url": "https://extension.psu.edu/programs/master-gardener/counties/adams/news/fiddle-leaf-fig-ficus-lyrata",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Ornamental figs",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/ornamental-figs",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplants: Lighting",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/lighting",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "discrepancias_sol": [
+      "NC State la clasifica como de media sombra (2 a 6 h de sol) siempre que esté protegida del sol de la tarde; RHS y Penn State dicen que no reciba sol directo. Tomamos el criterio más cuidadoso: sin sol directo. Un rato de sol suave de mañana probablemente lo tolere si se acostumbra de a poco."
+    ],
+    "adaptaciones_sol": [
+      "El sol de la tarde entra por el oeste igual que en el hemisferio norte; la ventana más soleada en Buenos Aires es la norte."
+    ],
+    "nota_sol": "Fuentes en conflicto → criterio conservador, 0 h. NC State: 'bright indirect light or partial shade', 'protection from the afternoon sun', se quema con demasiado sol directo. RHS (guía general de ficus): 'out of direct sun'. Penn State: hojas sin sol directo al sacarlo afuera, se queman. Calor: solo se advierte por rejillas de calefacción y cambios de temperatura → 'media'."
+  },
+  "gomero": {
+    "horas_sol_directo": 2,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "confianza_sol": "media",
+    "fuentes_sol": [
+      {
+        "titulo": "Ficus elastica",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/ficus-elastica/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Rubber Plant",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/rubber-plant/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Ornamental figs",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/ornamental-figs",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "discrepancias_sol": [
+      "Clemson dice que crece mejor con la luz de la mañana de una ventana al este y NC State acepta media sombra con protección del sol de la tarde; la guía general de RHS para ficus dice 'fuera del sol directo'. Dejamos solo sol suave de mañana."
+    ],
+    "adaptaciones_sol": [
+      "La ventana al este da sol de mañana igual que en el hemisferio norte. En Buenos Aires la ventana más soleada es la norte: ahí conviene filtrarle el sol."
+    ],
+    "nota_sol": "Regla 'morning sun only' → 2 h. Clemson: 'grow best with the morning light from an east window'. NC State: media sombra (2 a 6 h) con 'protection from the afternoon sun'. RHS (general): fuera del sol directo. Calor: Clemson da ideal 24 a 27 °C de día y ninguna fuente advierte daño por calor → 'media'."
+  },
+  "palo-de-agua": {
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "confianza_sol": "media",
+    "fuentes_sol": [
+      {
+        "titulo": "Dracaena fragrans",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dracaena-fragrans/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Dracaena",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "discrepancias_sol": [
+      "NC State la marca como resistente al calor y dice que rinde entre 21 y 27 °C; Clemson recomienda 15 a 21 °C para las drácenas en general. Dejamos sensibilidad media."
+    ],
+    "adaptaciones_sol": [],
+    "nota_sol": "Regla 'direct sun can burn the foliage / filtered light' → 0 h. NC State: luz brillante a moderada filtrada, el sol directo quema. Clemson (género): luz brillante indirecta, exceso de sol deja manchas secas. Calor: fuentes con matices (NC State resistente al calor, Clemson ambiente templado) → 'media'."
+  },
+  "orquidea-phalaenopsis": {
+    "horas_sol_directo": 2,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "confianza_sol": "media",
+    "fuentes_sol": [
+      {
+        "titulo": "Phalaenopsis growing guide",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Phalaenopsis",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/phalaenopsis/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Orchids",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/orchids/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Phalaenopsis culture sheet",
+        "org": "American Orchid Society",
+        "url": "https://www.aos.org/orchid-care/care-sheets/phalaenopsis-culture-sheet",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Orchids",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/orchids/",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "discrepancias_sol": [
+      "Cuatro fuentes recomiendan una ventana al este (sol suave de mañana) con 'poco o nada de sol directo'; Wisconsin dice directamente que las orquídeas no reciban sol directo. Dejamos solo un rato de sol suave temprano, y en verano filtrado.",
+      "RHS acepta alféizar al oeste; NC State y la American Orchid Society dicen que oeste y sur solo si están bien sombreados. Tomamos el criterio más cuidadoso: sin sol de tarde."
+    ],
+    "adaptaciones_sol": [
+      "La ventana al este da sol de mañana igual que en el hemisferio norte. Donde las fuentes dicen 'sur sombreado', en Buenos Aires es la ventana norte con cortina.",
+      "RHS pide sacarla del sol directo en verano: acá eso es de diciembre a febrero."
+    ],
+    "nota_sol": "Regla 'gentle/early sun tolerated' → 2 h. Clemson: ventana luminosa 'with little or no direct sun, such as an east window'. AOS: este ideal, sur u oeste sombreados. NC State: mejor en alféizar este. RHS: no sol directo de verano, quema. Calor: le gusta el calor (RHS 19 a 30 °C; AOS máxima 32 a 35 °C) pero RHS pide alejarla de radiadores y estufas → 'media'.",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ]
+  },
+  "espatifilo": {
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "alta",
+    "confianza_sol": "alta",
+    "fuentes_sol": [
+      {
+        "titulo": "How to grow peace lilies",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/peace-lilies/how-to-grow-peace-lilies",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Spathiphyllum",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Peace Lily",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/peace-lily/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplants: Lighting",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/lighting",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "discrepancias_sol": [
+      "Le gusta el ambiente cálido (NC State y Clemson: 20 a 29 °C), pero Clemson y RHS advierten que el sol directo y el aire caliente de la calefacción la dañan. Por eso figura como sensible al calor directo, no al ambiente templado."
+    ],
+    "adaptaciones_sol": [
+      "RHS habla del sol directo de verano: en Buenos Aires, de diciembre a febrero."
+    ],
+    "nota_sol": "Regla 'do not place in direct sun' → 0 h. NC State: 'Do not place plants in direct sun'. Clemson: no al sol directo porque el calor quema el follaje; no donde sople la calefacción. RHS: fuera del sol directo de verano, lejos de radiadores calientes. Calor 'alta' por advertencia de daño por aire caliente en dos fuentes."
+  },
+  "anturio": {
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "confianza_sol": "media",
+    "fuentes_sol": [
+      {
+        "titulo": "How to grow anthuriums",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Anthurium andraeanum",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/anthurium-andraeanum/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Anthurium",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/anthurium/",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "discrepancias_sol": [],
+    "adaptaciones_sol": [
+      "RHS recomienda ventana este u oeste, o sur con cortina: en Buenos Aires la que necesita cortina es la norte. El sol directo de verano que quema es el de diciembre a febrero."
+    ],
+    "nota_sol": "Regla 'direct sun can scorch / bright indirect' → 0 h. RHS: luz brillante indirecta, se quema con sol directo de verano. NC State: 'Direct sun can scorch its leaves'. Calor: RHS acepta 18 a 30 °C pero pide alejarla de radiadores; NC State no dice nada de calor → 'media'."
+  },
+  "begonia": {
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "alta",
+    "confianza_sol": "media",
+    "fuentes_sol": [
+      {
+        "titulo": "Begonias: houseplants",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/begonias/houseplants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Begonia (Rex types)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/begonia-rex-types/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Begonia",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/begonia/",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "discrepancias_sol": [
+      "NC State la ubica en sol tamizado o media sombra (categoría que admite algunas horas de sol); RHS pide protegerla del sol directo y tenerla a la sombra en verano. Tomamos cero horas de sol directo."
+    ],
+    "adaptaciones_sol": [
+      "RHS pide sombra en verano: en Buenos Aires, de diciembre a febrero."
+    ],
+    "nota_sol": "Regla 'protect from direct sun to avoid scorching' → 0 h. RHS: luz brillante filtrada, proteger del sol directo, Rex a la sombra en verano. NC State: luz brillante indirecta. Clemson: Rex adentro o a media sombra. Calor 'alta' con una sola fuente: RHS atribuye bordes marrones a temperatura demasiado alta."
+  },
+  "calatea": {
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "alta",
+    "confianza_sol": "alta",
+    "fuentes_sol": [
+      {
+        "titulo": "Calathea growing guide",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Goeppertia makoyana",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/goeppertia-makoyana/",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "discrepancias_sol": [],
+    "adaptaciones_sol": [
+      "RHS recomienda ventana norte o este en verano y sur en invierno: en Buenos Aires es al revés, sur o este en verano y norte en invierno."
+    ],
+    "nota_sol": "Regla 'out of direct sunlight / intolerant of direct sun' → 0 h. RHS: lugar luminoso fuera del sol directo. NC State: el sol directo quema, no tolera sol directo. Calor 'alta': RHS pide 16 a 21 °C y alejarla de estufas y radiadores; NC State pide 18 a 24 °C parejos."
+  },
+  "palmera-areca": {
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "baja",
+    "confianza_sol": "media",
+    "fuentes_sol": [
+      {
+        "titulo": "Dypsis lutescens",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Indoor Palms",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-palms/",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "discrepancias_sol": [
+      "Adentro las dos fuentes piden luz brillante indirecta, pero NC State dice que al aire libre tolera pleno sol aunque prefiere media sombra. Dejamos solo un poco de sol suave, y siempre acostumbrándola de a poco.",
+      "NC State dice que al aire libre tolera pleno sol, pero para interior las fuentes piden luz brillante indirecta. Se toma el criterio conservador: sin sol directo."
+    ],
+    "adaptaciones_sol": [
+      "Clemson recomienda cerca de una ventana este, oeste o sur: en Buenos Aires, este, oeste o norte."
+    ],
+    "nota_sol": "Regla 'some gentle sun tolerated' → 2 h (valor prudente entre 'bright indirect' de interior y 'tolerates full sun but prefers partial shade' de exterior, NC State). Clemson: luz brillante indirecta; las palmeras de interior no van al sol directo sin aclimatarse. Calor 'baja': NC State la lista como resistente al calor y Clemson da ideal 24 a 29 °C de día."
+  },
+  "palmera-de-salon": {
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "confianza_sol": "media",
+    "fuentes_sol": [
+      {
+        "titulo": "Chamaedorea elegans",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/chamaedorea-elegans/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Indoor Palms",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-palms/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplants: Lighting",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/lighting",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "discrepancias_sol": [],
+    "adaptaciones_sol": [
+      "NC State recomienda ventana norte o este: en Buenos Aires la equivalente a la norte es la sur (la de menos sol)."
+    ],
+    "nota_sol": "Regla 'bright indirect / deep shade' → 0 h. NC State: luz brillante indirecta, tolera poca luz, sol tamizado a sombra profunda. Clemson: las palmeras de salón toleran poca luz; luz filtrada para palmeras de interior. Ninguna fuente abierta habla del sol directo ni del calor para esta especie → calor 'media'."
+  },
+  "violeta-africana": {
+    "horas_sol_directo": 2,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "alta",
+    "confianza_sol": "media",
+    "fuentes_sol": [
+      {
+        "titulo": "African violets growing guide",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/african-violets/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Saintpaulia ionantha",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/saintpaulia-ionantha/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "African Violet",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/african-violet/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "African Violets",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/african-violets/",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "discrepancias_sol": [
+      "RHS pide mantenerla fuera del sol directo, sobre todo en verano; Clemson y Wisconsin solo piden evitar el sol de la tarde o de las horas pico. Dejamos solo sol suave temprano y fuera del verano.",
+      "RHS da 18 a 24 °C y advierte que el sol a través del vidrio la quema; Clemson acepta hasta 27 a 29 °C de día. Tomamos el criterio más cuidadoso con el calor."
+    ],
+    "adaptaciones_sol": [
+      "RHS recomienda alféizar norte o este de primavera a otoño y sur u oeste en invierno: en Buenos Aires es sur o este casi todo el año y norte u oeste en invierno (junio a agosto)."
+    ],
+    "nota_sol": "Regla 'gentle/early sun tolerated' → 2 h. Clemson: lugar luminoso 'that does not receive direct sunlight in the afternoon'. Wisconsin: en sur u oeste protegerla del sol directo en horas pico o se quema. RHS: fuera del sol directo (sobre todo en verano), pero la pasa a ventana soleada en invierno. Calor 'alta': RHS advierte quemaduras por sol concentrado por el vidrio."
+  }
+}

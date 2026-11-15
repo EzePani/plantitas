@@ -5,7 +5,7 @@ import { existsSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
 const DIR = 'src/data/plantas'
 const DESTINO = 'src/data/plants.json'
 // Datos de luz verificados con fuentes, por id de planta. Pisan lo derivado.
-const verificada = existsSync(`${DIR}/luz-verificada.json`) ? JSON.parse(readFileSync(`${DIR}/luz-verificada.json`, 'utf8')) : {}
+const verificada = Object.assign({}, ...readdirSync(DIR).filter((f) => /^luz-verificada.*\.json$/.test(f)).sort().map((f) => JSON.parse(readFileSync(`${DIR}/${f}`, 'utf8'))))
 
 /**
  * Los lotes guardan la luz como la relevó la investigación: necesidad (poca / media / mucha),
@@ -35,9 +35,19 @@ function luzNueva(p) {
     sensibilidad_calor: l.sol_directo ? 'baja' : p.humedad.nivel === 'alta' ? 'alta' : 'media',
     confianza_sol: 'baja',
   }
-  const v = verificada[p.id] ?? {}
+  // Lo verificado trae además sus fuentes y, si hace falta, discrepancias y adaptaciones propias
+  const { fuentes_sol = [], discrepancias_sol = [], adaptaciones_sol = [], nota_sol, ...v } = verificada[p.id] ?? {}
   const { confianza_sol, ...campos } = { ...estimado, ...v }
-  return { ...campos, luz: { detalle: l.detalle, confianza: l.confianza, confianza_sol } }
+  campos.luz_tolerada = campos.luz_tolerada.filter((c) => c !== campos.luz_requerida)
+  if (campos.horas_sol_directo === 0) campos.tolera_sol_tarde = false
+  const vistas = new Set(p.fuentes.map((f) => f.url))
+  return {
+    ...campos,
+    luz: { detalle: l.detalle, confianza: l.confianza, confianza_sol },
+    fuentes: [...p.fuentes, ...fuentes_sol.filter((f) => !vistas.has(f.url) && vistas.add(f.url))],
+    discrepancias: [...p.discrepancias, ...discrepancias_sol],
+    adaptaciones: [...p.adaptaciones, ...adaptaciones_sol],
+  }
 }
 
 const previas = new Map((existsSync(DESTINO) ? JSON.parse(readFileSync(DESTINO, 'utf8')) : []).map((p) => [p.id, p]))

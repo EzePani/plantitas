@@ -55,7 +55,7 @@ function Resultado({ espacio, onVerPlanta }: { espacio: Espacio; onVerPlanta: (p
 
       <h2 className="font-display text-tinta mt-2 mb-0 text-[22px] font-semibold">{R.recomendadas}</h2>
       {r.recomendadas.length === 0 ? (
-        <p className="text-tinta-suave m-0 text-[15px] leading-snug font-bold">{R.sinResultados}</p>
+        <p className="text-tinta-suave m-0 text-[15px] leading-snug font-bold">{r.luz.avisoCalor ? R.sinResultadosCalor : R.sinResultados}</p>
       ) : (
         r.recomendadas.map((x, i) => (
           <motion.div key={x.planta.id} initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.08 * i }}>

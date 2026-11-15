@@ -1,0 +1,522 @@
+{
+  "fuentes": [
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Aloe vera",
+      "url": "https://plants.ces.ncsu.edu/plants/aloe-vera/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Sol pleno a media sombra; resistente a la sequía; no menciona quemaduras ni sol de tarde",
+      "usado_en": [
+        "aloe-vera"
+      ]
+    },
+    {
+      "org": "Penn State Extension",
+      "titulo": "Aloe: A Hardy Houseplant",
+      "url": "https://extension.psu.edu/aloe-a-hardy-houseplant",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Sol pleno a parcial; adentro, de sol pleno a luz brillante indirecta; muy tolerante a la sequía",
+      "usado_en": [
+        "aloe-vera"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "Houseplants for sunlight (RHS Urban Show)",
+      "url": "https://www.rhs.org.uk/shows-events/rhs-urban-show/houseplant-profiles/houseplants-for-sunlight",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Aloe: ventana soleada pero sin sol directo fuerte, que pone marrones las hojas. Jade: unas 5 horas de luz; la luz demasiado intensa quema",
+      "usado_en": [
+        "aloe-vera",
+        "jade"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "Aloe (guía del género)",
+      "url": "https://www.rhs.org.uk/plants/aloe",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Plena luz y buena ventilación; no crecen bien a la sombra; pueden salir afuera en verano",
+      "usado_en": [
+        "aloe-vera"
+      ]
+    },
+    {
+      "org": "UC Master Gardeners of Sonoma County (Univ. of California ANR)",
+      "titulo": "Succulents",
+      "url": "https://ucanr.edu/site/mg-sonoma/succulents",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Aloe vera: afuera protegida del sol intenso. Echeveria elegans: pide media sombra y el sol la marca. Haworthia: luz media a baja y protección del calor fuerte",
+      "usado_en": [
+        "aloe-vera",
+        "echeveria",
+        "haworthia"
+      ]
+    },
+    {
+      "org": "UC Master Gardeners of Orange County (Univ. of California ANR)",
+      "titulo": "Succulents - Orange County",
+      "url": "https://ucanr.edu/site/uc-master-gardeners-orange-county/succulents-orange-county",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Suculentas en general: sol de mañana y sombra a la tarde; sombra de tarde en verano reduce el estrés",
+      "usado_en": [
+        "aloe-vera",
+        "echeveria"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Crassula ovata",
+      "url": "https://plants.ces.ncsu.edu/plants/crassula-ovata/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Lugar soleado con algo de sombra a la tarde; afuera, media sombra; temperaturas de interior promedio a frescas",
+      "usado_en": [
+        "jade"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Jade Plant, Crassula ovata",
+      "url": "https://hort.extension.wisc.edu/articles/jade-plant-crassula-ovata/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Cuatro o más horas de sol directo; aclimatar de a poco para evitar quemaduras; tolera un rango amplio de temperaturas",
+      "usado_en": [
+        "jade"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "Crassula ovata (ficha)",
+      "url": "https://www.rhs.org.uk/plants/4739/crassula-ovata/details",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Posición: sol pleno; orientación oeste o sur (hemisferio norte); plena luz",
+      "usado_en": [
+        "jade"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Dependable, Durable Houseplants",
+      "url": "https://hort.extension.wisc.edu/dependable-durable-houseplants/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Jade: necesita más luz que otras y le gustan ambientes cálidos y secos. Cinta: luz media a brillante. Potus: luz media filtrada. Lengua de suegra: apta para poca luz",
+      "usado_en": [
+        "cinta",
+        "jade",
+        "lengua-de-suegra",
+        "potus"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Echeveria elegans",
+      "url": "https://plants.ces.ncsu.edu/plants/echeveria-elegans/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Sol pleno a media sombra; resistente al calor y la sequía",
+      "usado_en": [
+        "echeveria"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "Echeveria elegans (ficha)",
+      "url": "https://www.rhs.org.uk/plants/6226/i-echeveria-elegans-i/details",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Posición: sol pleno; orientación sur u oeste (hemisferio norte); bajo vidrio",
+      "usado_en": [
+        "echeveria"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "Echeveria (guía del género)",
+      "url": "https://www.rhs.org.uk/plants/echeveria",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante pero indirecta; puede estar afuera en verano; no habla de sol directo ni quemaduras",
+      "usado_en": [
+        "echeveria"
+      ]
+    },
+    {
+      "org": "UF/IFAS Gardening Solutions",
+      "titulo": "Echeveria",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/echeveria/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Andan mejor a pleno sol y prosperan con el calor del verano",
+      "usado_en": [
+        "echeveria"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Haworthiopsis attenuata",
+      "url": "https://plants.ces.ncsu.edu/plants/haworthiopsis-attenuata/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante indirecta; el sol directo puede quemar las hojas; algo tolerante a poca luz; 15 a 27 °C",
+      "usado_en": [
+        "haworthia"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "Haworthiopsis attenuata (ficha)",
+      "url": "https://www.rhs.org.uk/plants/504241/haworthiopsis-attenuata/details",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Plena luz con protección del sol caliente; orientación este, sur u oeste (hemisferio norte)",
+      "usado_en": [
+        "haworthia"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "Haworthia (guía del género)",
+      "url": "https://www.rhs.org.uk/plants/haworthia",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante indirecta; crecen mejor entre 10 y 26 °C",
+      "usado_en": [
+        "haworthia"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Haworthias: Super Succulents for Small Spaces",
+      "url": "https://hort.extension.wisc.edu/articles/haworthias-super-succulents-for-small-spaces/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Género: ventana este u oeste con unas horas de sol directo; fuera del sol directo continuo en la época cálida; aguantan calor fuerte si tienen algo de sombra; aclimatar al salir afuera",
+      "usado_en": [
+        "haworthia"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Schlumbergera x buckleyi",
+      "url": "https://plants.ces.ncsu.edu/plants/schlumbergera-x-buckleyi/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante indirecta / media sombra; el sol pleno decolora los tallos; 21 a 27 °C",
+      "usado_en": [
+        "cactus-de-navidad"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Thanksgiving & Christmas Cacti",
+      "url": "https://hgic.clemson.edu/factsheet/thanksgiving-christmas-cacti/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Sombra liviana; sol pleno beneficioso en otoño e invierno; sol fuerte de verano las pone pálidas; no pasar de 32 °C con pimpollos; el calor continuo los hace caer",
+      "usado_en": [
+        "cactus-de-navidad"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Chlorophytum comosum",
+      "url": "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Prefiere luz media, tolera sombra profunda y no tolera el sol directo",
+      "usado_en": [
+        "cinta"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Spider Plant, Chlorophytum comosum",
+      "url": "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz media a brillante; afuera se quema a pleno sol; prefiere temperatura fresca a promedio pero tolera más calor",
+      "usado_en": [
+        "cinta"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Exciting Houseplant Selections for Beginners",
+      "url": "https://hgic.clemson.edu/exciting-houseplant-selections-for-beginners/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Cinta: luz indirecta media a brillante. Potus: luz brillante indirecta, tolera menos. Lengua de suegra: luz brillante indirecta, tolera poca luz, evitar sol directo y caliente que quema",
+      "usado_en": [
+        "cinta",
+        "lengua-de-suegra",
+        "potus"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Epipremnum aureum",
+      "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante indirecta; sobrevive mucho tiempo con poca luz",
+      "usado_en": [
+        "potus"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Pothos, Epipremnum aureum",
+      "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz filtrada; no tolera mucho sol directo; 21 a 32 °C",
+      "usado_en": [
+        "potus"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Monstera deliciosa",
+      "url": "https://plants.ces.ncsu.edu/plants/monstera-deliciosa/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Claridad moderada, sin sol directo; 15 a 29 °C",
+      "usado_en": [
+        "monstera"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow Swiss cheese plants",
+      "url": "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz indirecta (ventana este u oeste o lejos de la ventana); el sol directo quema; lejos de calor directo como radiadores; el aire seco de calefacción pone marrones los bordes",
+      "usado_en": [
+        "monstera"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Monstera deliciosa",
+      "url": "https://hort.extension.wisc.edu/articles/monstera-deliciosa/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante en verano y sol directo en invierno; se quema si no se aclimata de a poco",
+      "usado_en": [
+        "monstera"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Dracaena trifasciata",
+      "url": "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Media sombra (2 a 6 h de sol directo); tolera muy poca luz; resistente al calor y la sequía",
+      "usado_en": [
+        "lengua-de-suegra"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow sansevierias",
+      "url": "https://www.rhs.org.uk/plants/sansevieria/growing-guide",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Sol o sombra liviana; en verano, fuera del sol del mediodía porque quema; 15 a 24 °C y lejos de radiadores",
+      "usado_en": [
+        "lengua-de-suegra"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Zamioculcas zamiifolia",
+      "url": "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante indirecta; el sol directo escalda y pone marrones las hojas",
+      "usado_en": [
+        "zamioculca"
+      ]
+    },
+    {
+      "org": "Iowa State University Extension",
+      "titulo": "I recently purchased a ZZ plant. How do I care for it?",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante indirecta; tolera muy poca luz; el sol directo de la tarde puede dañar las hojas",
+      "usado_en": [
+        "zamioculca"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Philodendron hederaceum",
+      "url": "https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Prefiere luz media, tolera poca luz y aguanta mucho tiempo con muy poca",
+      "usado_en": [
+        "filodendro"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Philodendron",
+      "url": "https://hgic.clemson.edu/factsheet/philodendron/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz indirecta o filtrada por cortina; el hoja de corazón tolera muy poca luz; ventana norte, este u oeste (hemisferio norte); 21 a 29 °C de día",
+      "usado_en": [
+        "filodendro"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Peperomia obtusifolia",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia-obtusifolia/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante indirecta; tolera poca luz varios meses; el sol fuerte o directo quema las hojas",
+      "usado_en": [
+        "peperomia"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow peperomia",
+      "url": "https://www.rhs.org.uk/plants/peperomia/how-to-grow-peperomia",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante indirecta o filtrada; el sol directo de verano quema, el de invierno es bienvenido; 18 a 30 °C, lejos de radiadores",
+      "usado_en": [
+        "peperomia"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Pilea peperomioides",
+      "url": "https://plants.ces.ncsu.edu/plants/pilea-peperomioides/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante indirecta; evitar corrientes frías y fuentes de calor",
+      "usado_en": [
+        "pilea"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow pilea",
+      "url": "https://www.rhs.org.uk/plants/pilea/how-to-grow-pilea",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante sin sol directo; en ambientes muy soleados, lejos de la ventana sobre todo en verano; hojas marrón rojizo = demasiado sol directo",
+      "usado_en": [
+        "pilea"
+      ]
+    },
+    {
+      "org": "Penn State Extension",
+      "titulo": "Pilea as a Houseplant",
+      "url": "https://extension.psu.edu/pilea-as-a-houseplant",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Sin luz directa; luz brillante indirecta o filtrada con cortina; 18 a 24 °C; lejos de corrientes y rejillas de aire",
+      "usado_en": [
+        "pilea"
+      ]
+    }
+  ],
+  "revisar": [
+    {
+      "id": "aloe-vera",
+      "dato": "horas_sol_directo / tolera_sol_tarde",
+      "motivo": "Fuentes en conflicto (NC State y Penn State: sol pleno a parcial; RHS Urban Show: sin sol directo fuerte; UC MG Sonoma: protegida del sol intenso). Se bajó de 6 h con sol de tarde a 3 h sin sol de tarde. Ninguna fuente da horas exactas para la especie.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/aloe-vera/",
+        "https://extension.psu.edu/aloe-a-hardy-houseplant",
+        "https://www.rhs.org.uk/shows-events/rhs-urban-show/houseplant-profiles/houseplants-for-sunlight",
+        "https://ucanr.edu/site/mg-sonoma/succulents"
+      ]
+    },
+    {
+      "id": "echeveria",
+      "dato": "horas_sol_directo / tolera_sol_tarde",
+      "motivo": "Fuentes en conflicto (RHS ficha, UF/IFAS, NC State: sol pleno; RHS género: luz indirecta; UC MG Sonoma: E. elegans pide media sombra y se quema). Se dejó 3 h sin sol de tarde. Revisar también luz.detalle de la ficha ('disfruta del sol directo'), que queda más optimista que este criterio.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/echeveria-elegans/",
+        "https://www.rhs.org.uk/plants/6226/i-echeveria-elegans-i/details",
+        "https://www.rhs.org.uk/plants/echeveria",
+        "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/echeveria/",
+        "https://ucanr.edu/site/mg-sonoma/succulents"
+      ]
+    },
+    {
+      "id": "aloe-vera",
+      "dato": "luz.detalle",
+      "motivo": "El texto de la ficha habla de 'ventana bien soleada'; coincide, pero convendría sumar que en balcón va con sol de mañana y sombra a la tarde.",
+      "fuentes": [
+        "https://www.rhs.org.uk/shows-events/rhs-urban-show/houseplant-profiles/houseplants-for-sunlight"
+      ]
+    },
+    {
+      "id": "jade",
+      "dato": "tolera_sol_tarde / sensibilidad_calor",
+      "motivo": "RHS ficha dice sol pleno con orientación oeste; NC State pide sombra a la tarde. Calor: NC State (fresco) vs Wisconsin (cálido y seco). Se eligió lo conservador.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/crassula-ovata/",
+        "https://www.rhs.org.uk/plants/4739/crassula-ovata/details",
+        "https://hort.extension.wisc.edu/articles/jade-plant-crassula-ovata/"
+      ]
+    },
+    {
+      "id": "haworthia",
+      "dato": "horas_sol_directo",
+      "motivo": "NC State: el sol directo quema (-> 0). Wisconsin (género) y RHS ficha aceptan unas horas de sol suave. Se dejó 0 por regla conservadora; 2 h de sol de mañana sería defendible. Wisconsin y UC no nombran H. attenuata (hablan del género).",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/haworthiopsis-attenuata/",
+        "https://www.rhs.org.uk/plants/504241/haworthiopsis-attenuata/details",
+        "https://hort.extension.wisc.edu/articles/haworthias-super-succulents-for-small-spaces/"
+      ]
+    },
+    {
+      "id": "haworthia",
+      "dato": "sensibilidad_calor",
+      "motivo": "'alta' por avisos de RHS (sol caliente) y UC (calor fuerte), pero Wisconsin dice que aguantan hasta unos 38 °C con algo de sombra. Matices.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/504241/haworthiopsis-attenuata/details",
+        "https://ucanr.edu/site/mg-sonoma/succulents",
+        "https://hort.extension.wisc.edu/articles/haworthias-super-succulents-for-small-spaces/"
+      ]
+    },
+    {
+      "id": "lengua-de-suegra",
+      "dato": "horas_sol_directo",
+      "motivo": "Clemson: evitar sol directo y caliente (-> 0). NC State (2-6 h) y RHS (sol o sombra liviana, sin sol de mediodía en verano) aceptan sol suave. Se dejó 0; 2 h sería defendible.",
+      "fuentes": [
+        "https://hgic.clemson.edu/exciting-houseplant-selections-for-beginners/",
+        "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+        "https://www.rhs.org.uk/plants/sansevieria/growing-guide"
+      ]
+    },
+    {
+      "id": "cactus-de-navidad",
+      "dato": "horas_sol_directo",
+      "motivo": "Las 2 h valen solo para sol suave de otoño-invierno (Clemson); en verano corresponde 0. El campo no distingue estación.",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/thanksgiving-christmas-cacti/",
+        "https://plants.ces.ncsu.edu/plants/schlumbergera-x-buckleyi/"
+      ]
+    },
+    {
+      "id": "monstera",
+      "dato": "sensibilidad_calor",
+      "motivo": "'alta' apoyada solo en RHS (lejos de calor directo/radiadores, aire seco de calefacción). NC State y Wisconsin no advierten sobre calor.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants"
+      ]
+    },
+    {
+      "id": "filodendro",
+      "dato": "horas_sol_directo / luz_requerida",
+      "motivo": "Ninguna fuente abierta dice explícitamente que el sol directo queme; el 0 se deduce de 'indirect or curtain-filtered'. Se propone corregir luz_requerida a indirecta_media (NC State: prefiere luz media).",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/",
+        "https://hgic.clemson.edu/factsheet/philodendron/"
+      ]
+    },
+    {
+      "id": "cinta, potus, zamioculca, peperomia, filodendro",
+      "dato": "sensibilidad_calor",
+      "motivo": "Ninguna fuente abierta advierte daño por calor ni las describe como resistentes: 'media' por defecto, sin respaldo directo. Por eso confianza_sol quedó en 'media' aunque horas y sol de tarde están bien respaldados.",
+      "fuentes": []
+    },
+    {
+      "id": "pilea",
+      "dato": "fuente Penn State",
+      "motivo": "El artículo de Penn State trata el género Pilea en general, no solo P. peperomioides.",
+      "fuentes": [
+        "https://extension.psu.edu/pilea-as-a-houseplant"
+      ]
+    }
+  ],
+  "no_pude_abrir": [
+    "https://hort.extension.wisc.edu/articles/aloe-vera/ (404; URL probada a ciegas, no existe)",
+    "https://hort.extension.wisc.edu/articles/zebra-plant-haworthia-fasciata/ (404; URL probada a ciegas)",
+    "https://www.rhs.org.uk/plants/chlorophytum/growing-guide (404; URL probada a ciegas)",
+    "https://extension.psu.edu/zebra-plant-as-a-houseplant (apareció en una búsqueda pero no la abrí: no se cita)"
+  ]
+}

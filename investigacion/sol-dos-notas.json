@@ -1,0 +1,502 @@
+{
+  "fuentes": [
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Nephrolepis exaltata",
+      "url": "https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante indirecta, 15 a 21 °C; categorías sol tamizado y sombra profunda; solo el cultivar 'Dallas' figura como tolerante a poca luz.",
+      "usado_en": [
+        "helecho-serrucho"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Indoor Ferns",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "El sol directo daña el follaje; nunca en ventana sur u oeste (hemisferio norte); luz moderada indirecta; ideal 15 a 21 °C de día y noches más frescas.",
+      "usado_en": [
+        "helecho-serrucho"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Boston Fern, Nephrolepis exaltata",
+      "url": "https://hort.extension.wisc.edu/articles/boston-fern-nephrolepis-exaltata/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz media-brillante, ventana este o con cortina fina en sur/oeste, fuera del sol directo; día sin pasar de 35 °C.",
+      "usado_en": [
+        "helecho-serrucho"
+      ]
+    },
+    {
+      "org": "University of Illinois Extension",
+      "titulo": "Houseplants: Lighting",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Tabla de luz mínima por especie (helecho serrucho, palmera de salón y espatifilo en 'low'; ficus, drácena, anturio y begonia en 'medium').",
+      "usado_en": [
+        "helecho-serrucho",
+        "ficus-lyrata",
+        "espatifilo",
+        "palmera-de-salon"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Ficus lyrata",
+      "url": "https://plants.ces.ncsu.edu/plants/ficus-lyrata/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante indirecta o media sombra (2 a 6 h), protección del sol de la tarde; demasiado sol directo quema; manchas por rejillas de calefacción o aire.",
+      "usado_en": [
+        "ficus-lyrata"
+      ]
+    },
+    {
+      "org": "Penn State Extension (Master Gardeners)",
+      "titulo": "Fiddle Leaf Fig (Ficus lyrata)",
+      "url": "https://extension.psu.edu/programs/master-gardener/counties/adams/news/fiddle-leaf-fig-ficus-lyrata",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Mucha luz, pero al sacarlo afuera va a sombra o luz filtrada: las hojas se queman con sol directo si no está aclimatado.",
+      "usado_en": [
+        "ficus-lyrata"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Ornamental figs",
+      "url": "https://www.rhs.org.uk/plants/ornamental-figs",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Lugar cálido y luminoso fuera del sol directo; no les gustan los cambios de temperatura ni las corrientes (guía general del grupo).",
+      "usado_en": [
+        "ficus-lyrata",
+        "gomero"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Ficus elastica",
+      "url": "https://plants.ces.ncsu.edu/plants/ficus-elastica/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante indirecta o media sombra (2 a 6 h) con protección del sol de la tarde; se adapta a poca luz.",
+      "usado_en": [
+        "gomero"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Rubber Plant",
+      "url": "https://hgic.clemson.edu/factsheet/rubber-plant/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Prefiere luz brillante y se adapta a poca luz; crece mejor con la luz de la mañana de una ventana este; ideal 24 a 27 °C de día.",
+      "usado_en": [
+        "gomero"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Dracaena fragrans",
+      "url": "https://plants.ces.ncsu.edu/plants/dracaena-fragrans/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante a moderada filtrada; el sol directo quema el follaje; figura como resistente al calor; rinde entre 21 y 27 °C.",
+      "usado_en": [
+        "palo-de-agua"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Dracaena",
+      "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante indirecta, muchas toleran poca luz; demasiado sol deja manchas secas; 15 a 21 °C de día (guía general del género).",
+      "usado_en": [
+        "palo-de-agua"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Phalaenopsis growing guide",
+      "url": "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante sin sol directo de verano; alféizar este u oeste; 19 a 30 °C de día; lejos de radiadores y estufas.",
+      "usado_en": [
+        "orquidea-phalaenopsis"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Phalaenopsis",
+      "url": "https://plants.ces.ncsu.edu/plants/phalaenopsis/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Prefiere poca luz y calor; mejor lugar: alféizar este; sur y oeste solo bien sombreados.",
+      "usado_en": [
+        "orquidea-phalaenopsis"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Orchids",
+      "url": "https://hgic.clemson.edu/factsheet/orchids/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Phalaenopsis: ventana luminosa con poco o nada de sol directo, por ejemplo al este; se adapta a la luz de interior.",
+      "usado_en": [
+        "orquidea-phalaenopsis"
+      ]
+    },
+    {
+      "org": "American Orchid Society",
+      "titulo": "Phalaenopsis culture sheet",
+      "url": "https://www.aos.org/orchid-care/care-sheets/phalaenopsis-culture-sheet",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Ventana luminosa con poco o nada de sol; este ideal, sur u oeste sombreados; máxima recomendada 32 a 35 °C.",
+      "usado_en": [
+        "orquidea-phalaenopsis"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Orchids",
+      "url": "https://hort.extension.wisc.edu/articles/orchids/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Orquídeas fuera del sol directo, sobre todo en verano; Phalaenopsis tolera lugares más sombríos y prefiere 18 a 27 °C.",
+      "usado_en": [
+        "orquidea-phalaenopsis"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow peace lilies",
+      "url": "https://www.rhs.org.uk/plants/peace-lilies/how-to-grow-peace-lilies",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante indirecta, fuera del sol directo de verano; sobrevive en sombra más profunda; 12 a 24 °C; lejos de radiadores calientes.",
+      "usado_en": [
+        "espatifilo"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Spathiphyllum",
+      "url": "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Sombra parcial a profunda; no ponerla al sol directo; puntas marrones por exceso de sol.",
+      "usado_en": [
+        "espatifilo"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Peace Lily",
+      "url": "https://hgic.clemson.edu/factsheet/peace-lily/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Tolera poca luz; no va al sol directo porque el calor quema el follaje; no ponerla donde le sople la calefacción o el aire.",
+      "usado_en": [
+        "espatifilo"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow anthuriums",
+      "url": "https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante indirecta (ventana este u oeste, o sur con cortina); el sol directo de verano quema; 18 a 30 °C; lejos de radiadores.",
+      "usado_en": [
+        "anturio"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Anthurium andraeanum",
+      "url": "https://plants.ces.ncsu.edu/plants/anthurium-andraeanum/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante indirecta; el sol directo puede quemar las hojas; 18 a 27 °C.",
+      "usado_en": [
+        "anturio"
+      ]
+    },
+    {
+      "org": "UF/IFAS Gardening Solutions",
+      "titulo": "Anthurium",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/anthurium/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Como planta de interior necesita luz brillante indirecta (no dice nada de calor ni sol directo).",
+      "usado_en": [
+        "anturio"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Begonias: houseplants",
+      "url": "https://www.rhs.org.uk/plants/begonias/houseplants",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante filtrada, proteger del sol directo; las Rex van a la sombra en verano; bordes marrones por temperatura demasiado alta.",
+      "usado_en": [
+        "begonia"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Begonia (Rex types)",
+      "url": "https://plants.ces.ncsu.edu/plants/begonia-rex-types/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante indirecta; sol tamizado o media sombra; solo un cultivar figura como tolerante al calor.",
+      "usado_en": [
+        "begonia"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Begonia",
+      "url": "https://hgic.clemson.edu/factsheet/begonia/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Las Rex crecen mejor adentro o en maceta a media sombra; algunas begonias se queman con luz muy intensa.",
+      "usado_en": [
+        "begonia"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Calathea growing guide",
+      "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Lugar luminoso fuera del sol directo; 16 a 21 °C; lejos de corrientes y de fuentes de calor como estufas y radiadores.",
+      "usado_en": [
+        "calatea"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Goeppertia makoyana",
+      "url": "https://plants.ces.ncsu.edu/plants/goeppertia-makoyana/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante indirecta o media sombra; el sol directo quema; no tolera sol directo ni poca luz; 18 a 24 °C.",
+      "usado_en": [
+        "calatea"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Dypsis lutescens",
+      "url": "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Adentro luz brillante indirecta; afuera tolera pleno sol pero prefiere media sombra; figura como resistente al calor.",
+      "usado_en": [
+        "palmera-areca"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Indoor Palms",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-palms/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Areca: luz brillante indirecta cerca de ventana este, oeste o sur, 24 a 29 °C de día. Palmeras de salón toleran poca luz. Palmeras de interior no van al sol directo sin aclimatar.",
+      "usado_en": [
+        "palmera-areca",
+        "palmera-de-salon"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Chamaedorea elegans",
+      "url": "https://plants.ces.ncsu.edu/plants/chamaedorea-elegans/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante indirecta, tolera poca luz; ventana norte o este (hemisferio norte); sol tamizado a sombra profunda.",
+      "usado_en": [
+        "palmera-de-salon"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "African violets growing guide",
+      "url": "https://www.rhs.org.uk/plants/african-violets/growing-guide",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Mucha luz sin sol directo, sobre todo en verano; el sol fuerte y el sol concentrado por el vidrio queman; 18 a 24 °C.",
+      "usado_en": [
+        "violeta-africana"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Saintpaulia ionantha",
+      "url": "https://plants.ces.ncsu.edu/plants/saintpaulia-ionantha/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante filtrada; 15 a 27 °C.",
+      "usado_en": [
+        "violeta-africana"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "African Violet",
+      "url": "https://hgic.clemson.edu/factsheet/african-violet/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Lugar luminoso que no reciba sol directo a la tarde; hasta 27 a 29 °C de día.",
+      "usado_en": [
+        "violeta-africana"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "African Violets",
+      "url": "https://hort.extension.wisc.edu/articles/african-violets/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Luz brillante indirecta; en ventanas sur u oeste hay que protegerla del sol directo en las horas pico o se quema.",
+      "usado_en": [
+        "violeta-africana"
+      ]
+    }
+  ],
+  "revisar": [
+    {
+      "id": "ficus-lyrata",
+      "dato": "horas_sol_directo",
+      "motivo": "NC State admite media sombra (2-6 h) con protección del sol de tarde; RHS (guía general) y Penn State dicen sin sol directo. Se dejó 0 por criterio conservador; podría subirse a 2 (sol de mañana) si se prioriza la fuente específica de la especie.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/ficus-lyrata/",
+        "https://www.rhs.org.uk/plants/ornamental-figs",
+        "https://extension.psu.edu/programs/master-gardener/counties/adams/news/fiddle-leaf-fig-ficus-lyrata"
+      ]
+    },
+    {
+      "id": "gomero",
+      "dato": "horas_sol_directo",
+      "motivo": "Se dejó 2 (sol de mañana) con Clemson y NC State; la guía general de RHS para ficus dice fuera del sol directo. Con la regla conservadora estricta sería 0.",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/rubber-plant/",
+        "https://plants.ces.ncsu.edu/plants/ficus-elastica/",
+        "https://www.rhs.org.uk/plants/ornamental-figs"
+      ]
+    },
+    {
+      "id": "orquidea-phalaenopsis",
+      "dato": "horas_sol_directo",
+      "motivo": "Ninguna fuente dice 'morning sun' textual: se infiere de la recomendación de ventana este con 'little or no direct sun' (Clemson, AOS, NC State, RHS). Wisconsin dice sin sol directo. Con regla estricta sería 0.",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/orchids/",
+        "https://www.aos.org/orchid-care/care-sheets/phalaenopsis-culture-sheet",
+        "https://hort.extension.wisc.edu/articles/orchids/"
+      ]
+    },
+    {
+      "id": "orquidea-phalaenopsis",
+      "dato": "luz_tolerada",
+      "motivo": "Se agregó indirecta_media: NC State dice que prefiere 'low light', Clemson que se adapta a la luz de interior y Wisconsin que tolera lugares más sombríos. No se agregó 'baja' porque RHS pide luz brillante para florecer.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/phalaenopsis/",
+        "https://hgic.clemson.edu/factsheet/orchids/",
+        "https://hort.extension.wisc.edu/articles/orchids/"
+      ]
+    },
+    {
+      "id": "violeta-africana",
+      "dato": "horas_sol_directo",
+      "motivo": "RHS: fuera del sol directo (sobre todo verano). Clemson y Wisconsin solo excluyen sol de tarde/horas pico. Se dejó 2; con regla estricta sería 0.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/african-violets/growing-guide",
+        "https://hgic.clemson.edu/factsheet/african-violet/",
+        "https://hort.extension.wisc.edu/articles/african-violets/"
+      ]
+    },
+    {
+      "id": "violeta-africana",
+      "dato": "sensibilidad_calor",
+      "motivo": "'alta' se apoya en la advertencia de RHS sobre sol concentrado por el vidrio y rango 18-24 °C; Clemson acepta hasta 27-29 °C.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/african-violets/growing-guide",
+        "https://hgic.clemson.edu/factsheet/african-violet/"
+      ]
+    },
+    {
+      "id": "palmera-areca",
+      "dato": "horas_sol_directo",
+      "motivo": "Indoor: 'bright indirect' en las dos fuentes; el 2 se apoya en que NC State dice que al exterior tolera pleno sol. Las fichas de UF/IFAS (EDIS) no abrieron. Con regla estricta sería 0.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+        "https://hgic.clemson.edu/factsheet/indoor-palms/"
+      ]
+    },
+    {
+      "id": "palmera-de-salon",
+      "dato": "sensibilidad_calor",
+      "motivo": "Ninguna fuente abierta habla de calor ni de sol directo para la especie; 'media' por defecto. La ficha UF/IFAS FP119 no abrió.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/chamaedorea-elegans/",
+        "https://hgic.clemson.edu/factsheet/indoor-palms/"
+      ]
+    },
+    {
+      "id": "palo-de-agua",
+      "dato": "sensibilidad_calor",
+      "motivo": "NC State la lista como resistente al calor (21-27 °C); Clemson recomienda 15-21 °C para el género. Se dejó 'media'.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/dracaena-fragrans/",
+        "https://hgic.clemson.edu/factsheet/dracaena/"
+      ]
+    },
+    {
+      "id": "begonia",
+      "dato": "sensibilidad_calor",
+      "motivo": "'alta' con una sola fuente (RHS: bordes marrones por temperatura demasiado alta). NC State solo menciona un cultivar tolerante al calor.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/begonias/houseplants",
+        "https://plants.ces.ncsu.edu/plants/begonia-rex-types/"
+      ]
+    },
+    {
+      "id": "anturio",
+      "dato": "sensibilidad_calor",
+      "motivo": "Solo RHS menciona calor (lejos de radiadores, rango hasta 30 °C); 'media'.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums"
+      ]
+    },
+    {
+      "id": "espatifilo",
+      "dato": "sensibilidad_calor",
+      "motivo": "'alta' por la regla (Clemson y RHS advierten daño por aire caliente/sol), aunque la planta prefiere ambiente cálido de 20 a 29 °C. Conviene que el texto de la ficha aclare que el problema es el calor directo.",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/peace-lily/",
+        "https://www.rhs.org.uk/plants/peace-lilies/how-to-grow-peace-lilies"
+      ]
+    },
+    {
+      "id": "helecho-serrucho",
+      "dato": "luz_tolerada",
+      "motivo": "Se agregó indirecta_media (Clemson 'moderate, indirect light', Wisconsin 'medium bright light'). Illinois lo lista con mínimo 'low' y Clemson dice que los helechos crecen con poca luz en general, pero NC State solo lo dice del cultivar 'Dallas': no se agregó 'baja'.",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+        "https://hort.extension.wisc.edu/articles/boston-fern-nephrolepis-exaltata/",
+        "https://extension.illinois.edu/houseplants/lighting",
+        "https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/"
+      ]
+    },
+    {
+      "id": "helecho-serrucho",
+      "dato": "sensibilidad_calor",
+      "motivo": "Clemson/NC State piden fresco (15-22 °C); Wisconsin acepta hasta 35 °C de día.",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+        "https://hort.extension.wisc.edu/articles/boston-fern-nephrolepis-exaltata/"
+      ]
+    },
+    {
+      "id": "ficus-lyrata",
+      "dato": "luz_tolerada",
+      "motivo": "Illinois Extension lista Ficus lyrata, Ficus elastica, Anthurium, Begonia y Dracaena con luz mínima 'medium'. No se tocó luz_tolerada de ficus-lyrata, anturio ni begonia (hoy vacía) por ser una sola tabla genérica; evaluar si corresponde agregar indirecta_media.",
+      "fuentes": [
+        "https://extension.illinois.edu/houseplants/lighting"
+      ]
+    }
+  ],
+  "no_pude_abrir": [
+    "https://www.missouribotanicalgarden.org/PlantFinder/ (error de certificado en todas las fichas probadas, incl. taxonid=282753 Ficus lyrata)",
+    "https://extension.umn.edu/houseplants/moth-orchids (403)",
+    "https://extension.umd.edu/resource/lighting-indoor-plants (certificado rechazado)",
+    "https://edis.ifas.ufl.edu/fp119, /fr309 y /st254 (redirigen a ask.ifas.ufl.edu, que entra en bucle de redirecciones)",
+    "https://hgic.clemson.edu/factsheet/african-violets/ (404; la correcta es /african-violet/)",
+    "https://hgic.clemson.edu/factsheet/anthurium/ y /prayer-plant/ (404)",
+    "https://hort.extension.wisc.edu/articles/ rubber-tree-ficus-elastica, fiddle-leaf-fig-ficus-lyrata, peace-lily-spathiphyllum, rex-begonias, rex-begonia-begonia-rex-cultorum, parlor-palm-chamaedorea-elegans, corn-plant-dracaena-fragrans (404, URLs adivinadas)",
+    "https://www.rhs.org.uk/plants/dracaena/growing-guide, /palms/indoor/growing-guide, /ferns/indoor/growing-guide (404, URLs adivinadas)",
+    "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/calathea/ y .../palms-and-cycads/areca-palm/ (404)"
+  ]
+}

@@ -2,7 +2,7 @@
 
 Plantitas es una app para aprender sobre plantas de interior, para un usuario de Buenos Aires (hemisferio sur). Todo el contenido tiene que salir de fuentes confiables y verificables. **Prohibido afirmar datos de memoria**: tu memoria sirve para saber qué buscar, no como fuente.
 
-Fecha de consulta a registrar: 2026-11-14.
+Fecha de consulta a registrar: 2026-11-15 (las fuentes ya citadas en archivos existentes conservan su fecha).
 
 ## Jerarquía de fuentes
 1. Instituciones botánicas/hortícolas: Royal Horticultural Society (rhs.org.uk), Missouri Botanical Garden Plant Finder, Kew (powo.science.kew.org / kew.org), extensión universitaria (UF/IFAS, NC State Extension Plant Toolbox, Clemson HGIC, Univ. of Minnesota/Wisconsin/Maryland/Penn State Extension, etc.)
