@@ -8,45 +8,45 @@
       {
         "tipo": "por_que",
         "imagen": "gato",
-        "texto": "Muchas plantas fabrican sustancias que las defienden de los animales que se las comen. Algunas de esas sustancias también le hacen mal a un gato o a un perro."
+        "texto": "Muchas plantas fabrican **sustancias que las defienden** de los animales que se las comen. Algunas de esas sustancias también **le hacen mal a un gato o a un perro**."
       },
       {
         "tipo": "concepto",
         "imagen": "perro",
-        "texto": "Que a tu mascota le guste una planta no dice nada sobre si es segura. No todas las plantas tóxicas tienen feo gusto."
+        "texto": "Que a tu mascota le guste una planta **no dice nada sobre si es segura**. **No todas las plantas tóxicas tienen feo gusto**."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-triste",
-        "texto": "Algunas plantas solo irritan la boca, como el potus o el espatifilo, y otras pueden dañar los riñones, el hígado o el corazón. Por eso importa saber exactamente qué planta mordió."
+        "texto": "Algunas plantas solo irritan la boca, como el potus o el espatifilo, y otras pueden **dañar los riñones, el hígado o el corazón**. Por eso importa **saber exactamente qué planta mordió**."
       },
       {
         "tipo": "concepto",
         "imagen": "gato",
-        "texto": "Señales a vigilar: babeo, vómitos, diarrea, falta de apetito, decaimiento o que se toque la boca con la pata. Temblores, tambaleo, dificultad para respirar o un desmayo son una urgencia."
+        "texto": "Señales a vigilar: **babeo, vómitos, diarrea**, falta de apetito, decaimiento o que se toque la boca con la pata. **Temblores, tambaleo, dificultad para respirar o un desmayo son una urgencia**."
       },
       {
         "tipo": "por_que",
         "imagen": "casa",
-        "texto": "Los cachorros y los gatos jóvenes son los más curiosos, y un gato que no sale no tiene pasto para mordisquear. Por eso es más probable que prueben las plantas de casa."
+        "texto": "Los **cachorros y los gatos jóvenes** son los más curiosos, y **un gato que no sale** no tiene pasto para mordisquear. Por eso es más probable que prueben las plantas de casa."
       },
       {
         "tipo": "concepto",
         "imagen": "veterinario",
-        "texto": "Esta app es informativa y no reemplaza al veterinario. Las listas de plantas tóxicas no son completas, así que ante la duda consultá."
+        "texto": "Esta app es informativa y **no reemplaza al veterinario**. Las listas de plantas tóxicas no son completas, así que **ante la duda consultá**."
       }
     ],
     "para_llevarte": [
-      "Que le guste no significa que sea segura.",
-      "Babeo, vómitos o decaimiento: consultá.",
-      "Ante la duda, veterinario."
+      "Que le guste **no significa que sea segura**.",
+      "Babeo, vómitos o decaimiento: **consultá**.",
+      "Ante la duda, **veterinario**."
     ],
     "quiz": [
       {
         "tipo": "verdadero_falso",
         "pregunta": "Si a mi gato le gusta morder una planta, es porque es segura.",
         "correcta": false,
-        "explicacion": "El gusto no avisa. Hay plantas tóxicas que no saben feo, así que el atractivo no dice nada sobre la toxicidad."
+        "explicacion": "**El gusto no avisa**. Hay plantas tóxicas que no saben feo, así que **el atractivo no dice nada sobre la toxicidad**."
       },
       {
         "tipo": "que_le_pasa",
@@ -57,7 +57,7 @@
           "Tóxica"
         ],
         "correcta": 1,
-        "explicacion": "ASPCA lo lista como tóxico para gatos y perros. Tiene cristales que irritan la boca y causan babeo y vómitos."
+        "explicacion": "ASPCA lo lista como **tóxico para gatos y perros**. Tiene cristales que **irritan la boca y causan babeo y vómitos**."
       },
       {
         "tipo": "que_le_pasa",
@@ -68,7 +68,7 @@
           "Tóxica"
         ],
         "correcta": 0,
-        "explicacion": "ASPCA la lista como no tóxica para gatos y perros. Igual, comer mucho de cualquier planta puede caerle mal a la panza."
+        "explicacion": "ASPCA la lista como **no tóxica para gatos y perros**. Igual, **comer mucho de cualquier planta** puede caerle mal a la panza."
       },
       {
         "tipo": "unir",
@@ -91,7 +91,7 @@
             "b": "Corazón"
           }
         ],
-        "explicacion": "No todas las plantas tóxicas hacen lo mismo. Por eso al veterinario le sirve saber cuál fue."
+        "explicacion": "**No todas las plantas tóxicas hacen lo mismo**. Por eso al veterinario le sirve **saber cuál fue**."
       },
       {
         "tipo": "opcion_multiple",
@@ -102,7 +102,7 @@
           "Durmió la siesta de siempre"
         ],
         "correcta": 1,
-        "explicacion": "Temblores, tambaleo, dificultad para respirar o un desmayo piden atención veterinaria ya."
+        "explicacion": "**Temblores, tambaleo, dificultad para respirar o un desmayo** **piden atención veterinaria ya**."
       }
     ],
     "fuentes": [
@@ -179,38 +179,38 @@
       {
         "tipo": "concepto",
         "imagen": "veterinario",
-        "texto": "Llamá enseguida a tu veterinario o a una guardia veterinaria de urgencias, aunque todavía lo veas bien. Con algunas plantas el daño aparece recién horas o días después."
+        "texto": "**Llamá enseguida a tu veterinario** o a una **guardia veterinaria de urgencias**, **aunque todavía lo veas bien**. Con algunas plantas el daño aparece recién horas o días después."
       },
       {
         "tipo": "concepto",
         "imagen": "gato",
-        "texto": "Alejá la planta para que no siga comiendo. Fijate qué planta fue, cuánto comió más o menos y a qué hora: es lo primero que te van a preguntar."
+        "texto": "**Alejá la planta** para que no siga comiendo. Fijate **qué planta fue, cuánto comió más o menos y a qué hora**: es lo primero que te van a preguntar."
       },
       {
         "tipo": "concepto",
         "imagen": "veterinario",
-        "texto": "Llevá la planta, una muestra o una foto, y la etiqueta si la tenés. Saber cuál es ayuda muchísimo a quien lo atienda."
+        "texto": "**Llevá la planta, una muestra o una foto**, y **la etiqueta** si la tenés. Saber cuál es ayuda muchísimo a quien lo atienda."
       },
       {
         "tipo": "por_que",
         "imagen": "gato",
-        "texto": "No le provoques el vómito por tu cuenta: puede lastimarlo o hacer que el vómito se le vaya a los pulmones. En gatos no hay ninguna forma segura de hacerlo en casa."
+        "texto": "**No le provoques el vómito por tu cuenta**: puede lastimarlo o hacer que el vómito **se le vaya a los pulmones**. **En gatos no hay ninguna forma segura** de hacerlo en casa."
       },
       {
         "tipo": "concepto",
         "imagen": "perro",
-        "texto": "No le des leche, sal, aceite ni remedios caseros si no te lo indicó un profesional. No neutralizan nada y pueden empeorar las cosas."
+        "texto": "**No le des leche, sal, aceite ni remedios caseros** si no te lo indicó un profesional. No neutralizan nada y **pueden empeorar las cosas**."
       },
       {
         "tipo": "dato_ba",
         "imagen": "veterinario",
-        "texto": "Los teléfonos de ayuda que aparecen en internet suelen ser de Estados Unidos y acá no sirven. Tené agendados a tu veterinario y a una guardia veterinaria de 24 horas cerca de tu casa."
+        "texto": "Los teléfonos de ayuda que aparecen en internet **suelen ser de Estados Unidos** y acá no sirven. **Tené agendados a tu veterinario y a una guardia veterinaria de 24 horas** cerca de tu casa."
       }
     ],
     "para_llevarte": [
-      "Llamá al veterinario o a una guardia, sin esperar síntomas.",
-      "Planta, muestra o foto, y a qué hora fue.",
-      "No induzcas el vómito por tu cuenta."
+      "**Llamá al veterinario o a una guardia**, **sin esperar síntomas**.",
+      "**Planta, muestra o foto**, y a qué hora fue.",
+      "**No induzcas el vómito** por tu cuenta."
     ],
     "quiz": [
       {
@@ -222,19 +222,19 @@
           "Nada, alcanza con contarlo"
         ],
         "correcta": 0,
-        "explicacion": "Identificar la planta ayuda a decidir el tratamiento. Si tiene etiqueta, llevala también."
+        "explicacion": "**Identificar la planta** ayuda a decidir el tratamiento. Si tiene etiqueta, **llevala también**."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Lo primero es hacerlo vomitar en casa.",
         "correcta": false,
-        "explicacion": "Solo si un profesional lo indica. Puede lastimarlo, y en gatos no hay forma segura de hacerlo en casa."
+        "explicacion": "**Solo si un profesional lo indica**. Puede lastimarlo, y **en gatos no hay forma segura** de hacerlo en casa."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Si mordió una planta tóxica pero lo veo bien, puedo esperar a mañana para consultar.",
         "correcta": false,
-        "explicacion": "Algunos daños tardan horas o días en notarse, y tratar temprano cambia mucho el resultado. Mejor llamar enseguida."
+        "explicacion": "Algunos daños tardan **horas o días en notarse**, y tratar temprano cambia mucho el resultado. **Mejor llamar enseguida**."
       },
       {
         "tipo": "que_le_pasa",
@@ -245,7 +245,7 @@
           "Tóxica"
         ],
         "correcta": 1,
-        "explicacion": "ASPCA lo lista como tóxico para gatos y perros: irrita la boca y causa babeo y vómitos. No es un lirio verdadero, así que no daña los riñones, pero igual consultá."
+        "explicacion": "ASPCA lo lista como **tóxico para gatos y perros**: irrita la boca y causa babeo y vómitos. No es un lirio verdadero, así que no daña los riñones, pero **igual consultá**."
       },
       {
         "tipo": "opcion_multiple",
@@ -256,7 +256,7 @@
           "Nada que no me haya indicado un profesional"
         ],
         "correcta": 2,
-        "explicacion": "La leche no neutraliza nada y la sal es peligrosa. Lo mejor es seguir lo que te indique quien lo atienda."
+        "explicacion": "**La leche no neutraliza nada** y **la sal es peligrosa**. Lo mejor es **seguir lo que te indique quien lo atienda**."
       }
     ],
     "fuentes": [
@@ -315,35 +315,35 @@
       {
         "tipo": "concepto",
         "imagen": "altura",
-        "texto": "Lo único que protege de verdad a tu mascota y a tus plantas es que no llegue a ellas. Sirven los estantes altos, las macetas colgantes o un cuarto con la puerta cerrada."
+        "texto": "Lo único que protege de verdad a tu mascota y a tus plantas es **que no llegue a ellas**. Sirven los **estantes altos, las macetas colgantes o un cuarto con la puerta cerrada**."
       },
       {
         "tipo": "por_que",
         "imagen": "gato",
-        "texto": "Ojo que los gatos trepan, y las flores sueltan hojas y polen que caen al piso. Por eso las plantas más peligrosas, como los lirios si tenés gato, conviene directamente no tenerlas."
+        "texto": "Ojo que **los gatos trepan**, y las flores sueltan hojas y polen que caen al piso. Por eso las plantas más peligrosas, como **los lirios si tenés gato**, conviene **directamente no tenerlas**."
       },
       {
         "tipo": "por_que",
         "imagen": "perro",
-        "texto": "Morder plantas suele ser curiosidad, juego o aburrimiento, no maldad. Más juego, paseos y juguetes para morder ayudan más que retarlo."
+        "texto": "Morder plantas suele ser **curiosidad, juego o aburrimiento**, no maldad. **Más juego, paseos y juguetes para morder** ayudan más que retarlo."
       },
       {
         "tipo": "concepto",
         "imagen": "casa",
-        "texto": "No uses aceites esenciales ni sprays caseros para ahuyentarlo. Los gatos procesan mal esos aceites, y unas pocas lamidas o un poco en la piel pueden hacerles daño."
+        "texto": "**No uses aceites esenciales ni sprays caseros** para ahuyentarlo. Los gatos procesan mal esos aceites, y unas pocas lamidas o un poco en la piel pueden **hacerles daño**."
       }
     ],
     "para_llevarte": [
-      "Lo riesgoso, fuera de su alcance o fuera de casa.",
-      "Más juego y distracción, sin retos.",
-      "Nada de aceites esenciales ni sprays caseros."
+      "Lo riesgoso, **fuera de su alcance** o fuera de casa.",
+      "**Más juego y distracción**, sin retos.",
+      "**Nada de aceites esenciales ni sprays caseros**."
     ],
     "quiz": [
       {
         "tipo": "verdadero_falso",
         "pregunta": "Colgar las plantas o ponerlas en altura ayuda a proteger a tu mascota.",
         "correcta": true,
-        "explicacion": "Si no llega, no la muerde. Ojo: los gatos trepan bastante, y las hojas y el polen que caen también cuentan."
+        "explicacion": "**Si no llega, no la muerde**. Ojo: **los gatos trepan bastante**, y las hojas y el polen que caen también cuentan."
       },
       {
         "tipo": "opcion_multiple",
@@ -354,7 +354,7 @@
           "Lo dejo mordiendo lo que quiera"
         ],
         "correcta": 1,
-        "explicacion": "Distraer y ofrecer algo seguro funciona mejor que retar. Los aceites esenciales pueden hacerle daño, sobre todo a los gatos."
+        "explicacion": "**Distraer y ofrecer algo seguro** funciona mejor que retar. **Los aceites esenciales pueden hacerle daño**, sobre todo a los gatos."
       },
       {
         "tipo": "que_le_pasa",
@@ -365,7 +365,7 @@
           "Tóxica"
         ],
         "correcta": 0,
-        "explicacion": "ASPCA la lista como no tóxica para gatos y perros. Igual, si come mucho de cualquier planta le puede caer mal."
+        "explicacion": "ASPCA la lista como **no tóxica para gatos y perros**. Igual, **si come mucho de cualquier planta** le puede caer mal."
       },
       {
         "tipo": "que_le_pasa",
@@ -376,7 +376,7 @@
           "Tóxica"
         ],
         "correcta": 1,
-        "explicacion": "ASPCA la lista como tóxica para gatos y perros: irrita la boca y causa babeo y vómitos. Mejor ubicarla donde no llegue."
+        "explicacion": "ASPCA la lista como **tóxica para gatos y perros**: irrita la boca y causa babeo y vómitos. Mejor **ubicarla donde no llegue**."
       }
     ],
     "fuentes": [

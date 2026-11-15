@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { Check, X } from 'lucide-react'
 import { useState } from 'react'
 import { Ilustracion, ZONAS } from '../../components/Ilustracion'
+import { Rico } from '../../components/Rico'
 import type { Tarjeta } from '../../data/lessons'
 import { T } from '../../data/textos'
 import { vibrar } from '../../lib/haptics'
@@ -75,7 +76,7 @@ export function TarjetaVista({ tarjeta }: { tarjeta: Tarjeta }) {
             {activa ? (
               <motion.div key={activa.id} initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}>
                 <div className="font-display text-hoja-osc text-[17px] font-semibold">{activa.etiqueta}</div>
-                <div className="text-tinta text-[15px] leading-snug font-bold">{activa.texto}</div>
+                <div className="text-tinta text-[15px] leading-snug font-medium"><Rico texto={activa.texto} /></div>
               </motion.div>
             ) : (
               <motion.div key="vacio" className="text-tinta-suave py-2 text-center text-[15px] font-extrabold" exit={{ opacity: 0 }}>
@@ -96,7 +97,7 @@ export function TarjetaVista({ tarjeta }: { tarjeta: Tarjeta }) {
         {T.leccion.tipos[tarjeta.tipo]}
       </span>
       {imagen}
-      <p className="text-tinta m-0 text-[20px] leading-snug font-bold">{tarjeta.texto}</p>
+      <p className="text-tinta m-0 text-[20px] leading-snug font-medium"><Rico texto={tarjeta.texto} /></p>
     </article>
   )
 }

@@ -1,14 +1,15 @@
 import { ListaFuentes } from '../../components/ListaFuentes'
-import { LECCIONES, type Fuente } from '../../data/lessons'
+import type { Fuente, Leccion } from '../../data/lessons'
+import { useContenido } from '../../lib/useContenido'
 import { PELIGROSAS, PLANTAS } from '../../data/plantas'
 import { TC } from '../../data/textosCatalogo'
 
 /** Todas las fuentes citadas en lecciones, catálogo y advertencias, sin repetir, agrupadas por organización */
-export function todasLasFuentes(): Map<string, Fuente[]> {
+export function todasLasFuentes(lecciones: Leccion[]): Map<string, Fuente[]> {
   const vistas = new Set<string>()
   const porOrg = new Map<string, Fuente[]>()
   const todas: Fuente[] = [
-    ...Object.values(LECCIONES).flat().flatMap((l) => l.fuentes),
+    ...lecciones.flatMap((l) => l.fuentes),
     ...PLANTAS.flatMap((p) => [...p.fuentes, ...p.mascotas.fuentes_toxicidad]),
     ...PELIGROSAS.flatMap((p) => p.fuentes),
   ]
@@ -21,7 +22,8 @@ export function todasLasFuentes(): Map<string, Fuente[]> {
 }
 
 export function Fuentes() {
-  const grupos = todasLasFuentes()
+  const contenido = useContenido()
+  const grupos = todasLasFuentes(contenido ? Object.values(contenido.LECCIONES).flat() : [])
   const total = [...grupos.values()].reduce((n, g) => n + g.length, 0)
   return (
     <div className="px-5 pb-8">

@@ -8,17 +8,17 @@
       {
         "tipo": "concepto",
         "imagen": "necesidades",
-        "texto": "Una planta necesita cinco cosas: luz, agua, aire, nutrientes y una tierra donde apoyar las raíces. Las cinco trabajan juntas."
+        "texto": "Una planta necesita **cinco cosas**: luz, agua, aire, nutrientes y una tierra donde apoyar las raíces. **Las cinco trabajan juntas**."
       },
       {
         "tipo": "por_que",
         "imagen": "ventana-sol",
-        "texto": "Con la luz, la planta fabrica su propio alimento: azúcares que arma con agua y con un gas que toma del aire. Por eso, sin luz suficiente pasa hambre por más que la riegues."
+        "texto": "Con la luz, la planta **fabrica su propio alimento**: azúcares que arma con agua y con un gas que toma del aire. Por eso, **sin luz suficiente pasa hambre** por más que la riegues."
       },
       {
         "tipo": "tactil",
         "imagen": "planta-partes",
-        "texto": "Tocá cada parte de la planta para ver qué hace.",
+        "texto": "**Tocá cada parte** de la planta para ver qué hace.",
         "zonas": [
           {
             "id": "hojas",
@@ -46,23 +46,23 @@
         "tipo": "comparativa",
         "imagen_mal": "maceta-sin-drenaje",
         "imagen_bien": "maceta-drenaje",
-        "texto": "Las raíces necesitan aire además de agua. Si la tierra queda empapada, los huequitos de aire se llenan de agua y las raíces se ahogan."
+        "texto": "Las raíces **necesitan aire además de agua**. Si la tierra queda empapada, los huequitos de aire se llenan de agua y **las raíces se ahogan**."
       },
       {
         "tipo": "concepto",
         "imagen": "sustrato",
-        "texto": "Los nutrientes son minerales que las raíces toman disueltos en el agua de la tierra. En una maceta hay poca tierra, así que con el tiempo se van gastando."
+        "texto": "Los nutrientes son **minerales** que las raíces toman disueltos en el agua de la tierra. En una maceta hay poca tierra, así que con el tiempo **se van gastando**."
       },
       {
         "tipo": "dato_ba",
         "imagen": "calefaccion",
-        "texto": "En Buenos Aires el invierno va de junio a agosto y viene con calefacción, que seca el aire de la casa. A muchas plantas de interior ese aire seco les cuesta."
+        "texto": "En Buenos Aires el invierno va **de junio a agosto** y viene con calefacción, que seca el aire de la casa. A muchas plantas de interior ese **aire seco** les cuesta."
       }
     ],
     "para_llevarte": [
-      "Luz, agua, aire, tierra y nutrientes: los cinco juntos.",
-      "Con la luz, la planta fabrica su alimento.",
-      "Las raíces necesitan agua, pero también aire."
+      "Luz, agua, aire, tierra y nutrientes: **los cinco juntos**.",
+      "Con la luz, la planta **fabrica su alimento**.",
+      "Las raíces necesitan agua, pero **también aire**."
     ],
     "quiz": [
       {
@@ -74,13 +74,13 @@
           "Para tomar agua"
         ],
         "correcta": 1,
-        "explicacion": "Con la luz arma azúcares a partir de agua y aire. Ese es su alimento."
+        "explicacion": "Con la luz arma **azúcares** a partir de agua y aire. Ese es **su alimento**."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Las raíces solo necesitan agua.",
         "correcta": false,
-        "explicacion": "También necesitan aire. Por eso el agua que sobra tiene que poder salir de la maceta."
+        "explicacion": "**También necesitan aire**. Por eso el agua que sobra **tiene que poder salir** de la maceta."
       },
       {
         "tipo": "unir",
@@ -99,7 +99,7 @@
             "b": "Sostiene y transporta"
           }
         ],
-        "explicacion": "Las hojas atrapan la luz, las raíces toman agua y nutrientes, y el tallo sostiene y transporta."
+        "explicacion": "Las **hojas atrapan la luz**, las **raíces toman agua y nutrientes**, y el **tallo sostiene y transporta**."
       },
       {
         "tipo": "opcion_multiple",
@@ -110,13 +110,13 @@
           "Las hojas atrapan más luz"
         ],
         "correcta": 0,
-        "explicacion": "El agua ocupa los huecos de aire de la tierra y las raíces se ahogan."
+        "explicacion": "El agua **ocupa los huecos de aire** de la tierra y **las raíces se ahogan**."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Los nutrientes de la tierra de una maceta duran para siempre.",
         "correcta": false,
-        "explicacion": "Con el tiempo se gastan: la planta los usa y el riego se lleva una parte. Más adelante vemos cómo reponerlos."
+        "explicacion": "Con el tiempo **se gastan**: la planta los usa y el riego se lleva una parte. Más adelante vemos cómo reponerlos."
       }
     ],
     "fuentes": [
@@ -181,7 +181,7 @@
       {
         "tipo": "tactil",
         "imagen": "planta-partes",
-        "texto": "Las raíces son la parte de la planta que no ves, y de ellas depende todo lo de arriba. Tocá cada parte para ver qué tiene que ver con las raíces.",
+        "texto": "Las raíces son la parte de la planta que no ves, y **de ellas depende todo lo de arriba**. Tocá cada parte para ver qué tiene que ver con las raíces.",
         "zonas": [
           {
             "id": "raices",
@@ -208,34 +208,34 @@
       {
         "tipo": "concepto",
         "imagen": "raices-sanas",
-        "texto": "Hay raíces fibrosas, que son muchas y finitas, y raíces pivotantes, con una raíz principal gruesa que baja derecho, como la zanahoria. En las dos, el agua y los nutrientes entran por las puntas más nuevas y finitas."
+        "texto": "Hay raíces **fibrosas**, que son muchas y finitas, y raíces **pivotantes**, con una raíz principal gruesa que baja derecho, como la zanahoria. En las dos, el agua y los nutrientes **entran por las puntas más nuevas** y finitas."
       },
       {
         "tipo": "concepto",
         "imagen": "sustrato",
-        "texto": "Bulbos, rizomas y tubérculos son partes engrosadas que guardan reservas bajo tierra, aunque en rigor son tallos y no raíces. La zamioculca, por ejemplo, guarda agua en sus rizomas y por eso aguanta bastante sin riego."
+        "texto": "Bulbos, rizomas y tubérculos son partes engrosadas que **guardan reservas bajo tierra**, aunque en rigor son tallos y no raíces. La zamioculca, por ejemplo, guarda agua en sus rizomas y por eso **aguanta bastante sin riego**."
       },
       {
         "tipo": "comparativa",
         "imagen_mal": "raices-podridas",
         "imagen_bien": "raices-sanas",
-        "texto": "Las raíces sanas son firmes y de color claro, blancas o tostadas en la mayoría de las plantas. Las podridas están blandas, se ven oscuras y pueden tener mal olor."
+        "texto": "Las raíces sanas son **firmes y de color claro**, blancas o tostadas en la mayoría de las plantas. Las podridas están **blandas, se ven oscuras** y pueden tener mal olor."
       },
       {
         "tipo": "por_que",
         "imagen": "planta-ahogada",
-        "texto": "Cuando la tierra queda mojada mucho tiempo, las raíces se pudren y ya no pueden tomar agua. Por eso una planta con las raíces podridas se ve marchita aunque la tierra esté húmeda."
+        "texto": "Cuando la tierra queda mojada mucho tiempo, **las raíces se pudren** y ya no pueden tomar agua. Por eso una planta con las raíces podridas **se ve marchita aunque la tierra esté húmeda**."
       },
       {
         "tipo": "concepto",
         "imagen": "trasplante",
-        "texto": "Si las raíces asoman por el agujero, la tierra se seca rapidísimo o la planta dejó de crecer, puede que la maceta le haya quedado chica. Conviene pasarla a una apenas más grande, porque en una maceta enorme la tierra tarda en secarse y las raíces se pueden pudrir."
+        "texto": "Si las raíces **asoman por el agujero**, la tierra se seca rapidísimo o la planta dejó de crecer, puede que la maceta le haya quedado chica. Conviene pasarla a una **apenas más grande**, porque en una **maceta enorme** la tierra tarda en secarse y las raíces se pueden pudrir."
       }
     ],
     "para_llevarte": [
-      "Las raíces toman agua y nutrientes, sujetan y guardan reservas.",
-      "Sanas: firmes y claras. Podridas: blandas y oscuras.",
-      "Maceta nueva: apenas más grande que la anterior."
+      "Las raíces **toman agua y nutrientes**, sujetan y guardan reservas.",
+      "Sanas: **firmes y claras**. Podridas: **blandas y oscuras**.",
+      "Maceta nueva: **apenas más grande** que la anterior."
     ],
     "quiz": [
       {
@@ -247,7 +247,7 @@
           "Fabrican el alimento"
         ],
         "correcta": 1,
-        "explicacion": "Toman agua y nutrientes, sujetan la planta y además guardan reservas."
+        "explicacion": "Toman agua y nutrientes, sujetan la planta y además **guardan reservas**."
       },
       {
         "tipo": "que_le_pasa",
@@ -259,7 +259,7 @@
           "Les falta luz"
         ],
         "correcta": 1,
-        "explicacion": "Las raíces sanas son firmes y claras. Oscuras y blandas es señal de que se pudrieron, casi siempre por tierra demasiado mojada."
+        "explicacion": "Las raíces sanas son **firmes y claras**. Oscuras y blandas es señal de que **se pudrieron**, casi siempre por tierra demasiado mojada."
       },
       {
         "tipo": "unir",
@@ -278,19 +278,19 @@
             "b": "Tallo que guarda reservas"
           }
         ],
-        "explicacion": "Las fibrosas son muchas y finitas, la pivotante es una sola raíz gruesa, y el rizoma es un tallo que guarda reservas."
+        "explicacion": "Las **fibrosas son muchas y finitas**, la pivotante es una sola raíz gruesa, y el **rizoma es un tallo** que guarda reservas."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Si la maceta quedó chica, lo mejor es pasar la planta a una mucho más grande.",
         "correcta": false,
-        "explicacion": "Mejor una apenas más grande. En una maceta enorme sobra tierra, tarda en secarse y las raíces se pueden pudrir."
+        "explicacion": "Mejor una **apenas más grande**. En una maceta enorme **sobra tierra**, tarda en secarse y las raíces se pueden pudrir."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Una planta marchita con la tierra húmeda puede tener las raíces podridas.",
         "correcta": true,
-        "explicacion": "Las raíces podridas no pueden tomar agua, así que la planta se marchita aunque tenga la tierra mojada."
+        "explicacion": "Las raíces podridas **no pueden tomar agua**, así que la planta se marchita **aunque tenga la tierra mojada**."
       }
     ],
     "fuentes": [
@@ -373,38 +373,38 @@
       {
         "tipo": "concepto",
         "imagen": "planta-feliz",
-        "texto": "Una planta sana tiene hojas firmes y de color parejo, tallos erguidos y, en época de crecimiento, brotes nuevos. Si la sacás de la maceta, las raíces se ven claras y firmes."
+        "texto": "Una planta sana tiene **hojas firmes y de color parejo**, tallos erguidos y, en época de crecimiento, **brotes nuevos**. Si la sacás de la maceta, las raíces se ven claras y firmes."
       },
       {
         "tipo": "por_que",
         "imagen": "planta-triste",
-        "texto": "Que cada tanto se seque una hoja vieja es parte de crecer: tranqui, no pasa nada. Cuando cambian muchas hojas juntas, tomalo como una pista y no como una sentencia, porque una misma señal puede tener más de una causa."
+        "texto": "**Que cada tanto se seque una hoja vieja** es parte de crecer: tranqui, no pasa nada. Cuando cambian muchas hojas juntas, **tomalo como una pista** y no como una sentencia, porque una misma señal puede tener más de una causa."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-ahogada",
-        "texto": "Hojas amarillas: lo más común es agua de más, sobre todo si la tierra lleva días mojada y amarillean hojas viejas y nuevas a la vez. También pueden ser sed, poca luz o falta de nutrientes."
+        "texto": "Hojas amarillas: lo más común es **agua de más**, sobre todo si la tierra lleva días mojada y amarillean hojas viejas y nuevas a la vez. También pueden ser sed, **poca luz** o falta de nutrientes."
       },
       {
         "tipo": "concepto",
         "imagen": "dedo",
-        "texto": "Hojas caídas: puede ser sed, pero también agua de más, porque las raíces dañadas no llegan a tomar agua. Por eso, antes de regar, metele el dedo a la tierra y fijate cómo está."
+        "texto": "Hojas caídas: puede ser sed, pero **también agua de más**, porque las raíces dañadas no llegan a tomar agua. Por eso, antes de regar, **metele el dedo a la tierra** y fijate cómo está."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-seca",
-        "texto": "Puntas marrones y secas: lo más común es aire seco, y también puede ser un riego desparejo. Hojas enruladas: suelen avisar sed o demasiado calor, aunque a veces son bichitos que chupan la savia."
+        "texto": "Puntas marrones y secas: lo más común es **aire seco**, y también puede ser un riego desparejo. **Hojas enruladas**: suelen avisar sed o demasiado calor, aunque a veces son bichitos que chupan la savia."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-quemada",
-        "texto": "Manchas marrones y secas después de pasarla a un lugar con más sol suelen ser quemaduras, y manchas oscuras con borde amarillo suelen ser hongos. Si en cambio crece flaca, pálida y estirada, le está faltando luz."
+        "texto": "Manchas marrones y secas después de pasarla a un lugar con más sol suelen ser **quemaduras**, y manchas oscuras con borde amarillo suelen ser **hongos**. Si en cambio crece flaca, pálida y estirada, **le está faltando luz**."
       }
     ],
     "para_llevarte": [
-      "Una misma señal puede tener más de una causa.",
-      "Antes de regar, tocá la tierra.",
-      "Una hoja vieja amarilla no es una emergencia."
+      "Una misma señal puede tener **más de una causa**.",
+      "Antes de regar, **tocá la tierra**.",
+      "Una hoja vieja amarilla **no es una emergencia**."
     ],
     "quiz": [
       {
@@ -417,7 +417,7 @@
           "Le sobra sol"
         ],
         "correcta": 0,
-        "explicacion": "El crecimiento débil, pálido y alargado es la señal típica de poca luz."
+        "explicacion": "El crecimiento débil, pálido y alargado es la señal típica de **poca luz**."
       },
       {
         "tipo": "que_le_pasa",
@@ -429,13 +429,13 @@
           "Le sobra luz"
         ],
         "correcta": 1,
-        "explicacion": "Tierra empapada y hojas viejas y nuevas que amarillean juntas suelen ser señal de exceso de riego."
+        "explicacion": "Tierra empapada y hojas viejas y nuevas que amarillean juntas suelen ser señal de **exceso de riego**."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Si la planta está caída, seguro le falta agua.",
         "correcta": false,
-        "explicacion": "También puede estar caída por exceso de agua. Tocá la tierra antes de regar."
+        "explicacion": "También puede estar caída por **exceso de agua**. **Tocá la tierra antes de regar**."
       },
       {
         "tipo": "unir",
@@ -458,13 +458,13 @@
             "b": "Hongos"
           }
         ],
-        "explicacion": "Son las causas más comunes, no las únicas. Mirá siempre también la tierra, la luz y el lugar."
+        "explicacion": "Son las causas más comunes, **no las únicas**. Mirá siempre también **la tierra, la luz y el lugar**."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Si se seca una hoja vieja, la planta se está muriendo.",
         "correcta": false,
-        "explicacion": "Las hojas viejas se van renovando. Prestá atención solo si son muchas a la vez."
+        "explicacion": "Las hojas viejas **se van renovando**. Prestá atención solo **si son muchas a la vez**."
       }
     ],
     "fuentes": [
@@ -535,46 +535,46 @@
       {
         "tipo": "por_que",
         "imagen": "luz-poca",
-        "texto": "Adentro hay muchísima menos luz que afuera, incluso en el ambiente más luminoso de la casa. Nuestros ojos se acostumbran y nos engañan: lo que vemos claro, para la planta puede ser penumbra."
+        "texto": "Adentro hay **muchísima menos luz que afuera**, incluso en el ambiente más luminoso de la casa. Nuestros ojos se acostumbran y nos engañan: lo que vemos claro, **para la planta puede ser penumbra**."
       },
       {
         "tipo": "comparativa",
         "imagen_mal": "luz-poca",
         "imagen_bien": "ventana-sol",
-        "texto": "Un día de sol, afuera puede haber unas cien veces más luz que en un ambiente bien iluminado. Y apenas te alejás de la ventana, la luz baja rapidísimo."
+        "texto": "Un día de sol, afuera puede haber unas **cien veces más luz** que en un ambiente bien iluminado. Y **apenas te alejás de la ventana**, la luz baja rapidísimo."
       },
       {
         "tipo": "concepto",
         "imagen": "maceta-drenaje",
-        "texto": "En maceta hay poca tierra: se seca más rápido que el suelo de un jardín y sus nutrientes se van gastando. Por eso la planta depende de tu cuidado."
+        "texto": "En maceta hay poca tierra: **se seca más rápido** que el suelo de un jardín y sus nutrientes se van gastando. Por eso la planta **depende de tu cuidado**."
       },
       {
         "tipo": "concepto",
         "imagen": "calefaccion",
-        "texto": "El aire de una casa suele ser más seco de lo que les gusta a las plantas tropicales, y la calefacción lo seca todavía más. Conviene tenerlas lejos de estufas y radiadores."
+        "texto": "El aire de una casa suele ser **más seco de lo que les gusta** a las plantas tropicales, y la calefacción lo seca todavía más. Conviene tenerlas **lejos de estufas y radiadores**."
       },
       {
         "tipo": "dato_ba",
         "imagen": "estaciones",
-        "texto": "Acá el verano va de diciembre a febrero y el invierno de junio a agosto, al revés que en muchas guías de plantas. En invierno, con menos luz, crecen más despacio y piden menos agua."
+        "texto": "Acá el verano va **de diciembre a febrero** y el invierno **de junio a agosto**, al revés que en muchas guías de plantas. En invierno, con menos luz, crecen más despacio y **piden menos agua**."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-feliz",
-        "texto": "La buena noticia: muchas plantas de interior vienen de selvas tropicales, donde crecen a la sombra de árboles más altos. Por eso se adaptan a vivir en una casa."
+        "texto": "La buena noticia: muchas plantas de interior vienen de **selvas tropicales**, donde crecen a la sombra de árboles más altos. Por eso **se adaptan a vivir en una casa**."
       }
     ],
     "para_llevarte": [
-      "Adentro hay mucha menos luz de la que parece.",
-      "En maceta, la planta depende de tu riego.",
-      "En invierno crecen menos y piden menos agua."
+      "Adentro hay **mucha menos luz** de la que parece.",
+      "En maceta, la planta **depende de tu riego**.",
+      "En invierno crecen menos y **piden menos agua**."
     ],
     "quiz": [
       {
         "tipo": "verdadero_falso",
         "pregunta": "Un living luminoso tiene casi la misma luz que el exterior.",
         "correcta": false,
-        "explicacion": "Adentro llega muchísima menos luz, aunque a nuestros ojos les parezca muy claro."
+        "explicacion": "Adentro llega **muchísima menos luz**, aunque a nuestros ojos les parezca muy claro."
       },
       {
         "tipo": "opcion_multiple",
@@ -585,7 +585,7 @@
           "Todo el año igual"
         ],
         "correcta": 1,
-        "explicacion": "De junio a agosto es invierno acá: hay menos luz y las plantas frenan."
+        "explicacion": "**De junio a agosto** es invierno acá: hay menos luz y **las plantas frenan**."
       },
       {
         "tipo": "opcion_multiple",
@@ -596,7 +596,7 @@
           "Porque recibe más luz"
         ],
         "correcta": 1,
-        "explicacion": "La tierra de una maceta es poca y se seca antes que el suelo de un jardín."
+        "explicacion": "La tierra de una maceta es poca y **se seca antes** que el suelo de un jardín."
       },
       {
         "tipo": "unir",
@@ -615,7 +615,7 @@
             "b": "Más seco"
           }
         ],
-        "explicacion": "Adentro hay menos luz, menos tierra y un aire más seco que afuera."
+        "explicacion": "Adentro hay **menos luz, menos tierra y un aire más seco** que afuera."
       }
     ],
     "fuentes": [

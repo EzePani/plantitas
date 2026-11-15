@@ -1,13 +1,21 @@
 import { AnimatePresence, motion } from 'framer-motion'
-import { useState } from 'react'
+import { lazy, Suspense, useEffect, useState } from 'react'
 import { BarraNav, type Pestana } from './components/BarraNav'
 import { Onboarding } from './features/onboarding/Onboarding'
 import { Aprender } from './features/learn/Aprender'
-import { Plantas } from './features/pets/Plantas'
-import { MiEspacio } from './features/spaces/MiEspacio'
-import { Perfil } from './features/profile/Perfil'
-import { Reproductor, type Sesion } from './features/quiz/Reproductor'
+import type { Sesion } from './features/quiz/Reproductor'
+import { cargarContenido } from './lib/useContenido'
 import { useStore } from './store/useStore'
+
+// Estas pantallas (y los datos pesados que usan) se cargan aparte; se precargan apenas la app queda en reposo
+const cargarPlantas = () => import('./features/pets/Plantas').then((m) => ({ default: m.Plantas }))
+const cargarEspacio = () => import('./features/spaces/MiEspacio').then((m) => ({ default: m.MiEspacio }))
+const cargarPerfil = () => import('./features/profile/Perfil').then((m) => ({ default: m.Perfil }))
+const cargarReproductor = () => import('./features/quiz/Reproductor').then((m) => ({ default: m.Reproductor }))
+const Plantas = lazy(cargarPlantas)
+const MiEspacio = lazy(cargarEspacio)
+const Perfil = lazy(cargarPerfil)
+const Reproductor = lazy(cargarReproductor)
 
 const ORDEN: Pestana[] = ['aprender', 'plantas', 'espacio', 'perfil']
 
@@ -16,6 +24,22 @@ export function App() {
   const [pestana, setPestana] = useState<Pestana>('aprender')
   const [direccion, setDireccion] = useState(1)
   const [sesion, setSesion] = useState<Sesion | null>(null)
+
+  useEffect(() => {
+    const precargar = () => {
+      void cargarReproductor()
+      void cargarContenido()
+      void cargarPlantas()
+      void cargarEspacio()
+      void cargarPerfil()
+    }
+    if ('requestIdleCallback' in window) {
+      const id = window.requestIdleCallback(precargar, { timeout: 3000 })
+      return () => window.cancelIdleCallback(id)
+    }
+    const id = setTimeout(precargar, 1500)
+    return () => clearTimeout(id)
+  }, [])
 
   const cambiar = (p: Pestana) => {
     setDireccion(ORDEN.indexOf(p) >= ORDEN.indexOf(pestana) ? 1 : -1)
@@ -48,9 +72,11 @@ export function App() {
                   transition={{ duration: 0.2, ease: 'easeOut' }}
                 >
                   {pestana === 'aprender' && <Aprender onJugar={setSesion} onIrAEspacio={() => cambiar('espacio')} />}
-                  {pestana === 'plantas' && <Plantas />}
-                  {pestana === 'espacio' && <MiEspacio />}
-                  {pestana === 'perfil' && <Perfil />}
+                  <Suspense fallback={null}>
+                    {pestana === 'plantas' && <Plantas />}
+                    {pestana === 'espacio' && <MiEspacio />}
+                    {pestana === 'perfil' && <Perfil />}
+                  </Suspense>
                 </motion.div>
               </AnimatePresence>
             </main>
@@ -70,7 +96,9 @@ export function App() {
             exit={{ y: '100%' }}
             transition={{ type: 'spring', damping: 32, stiffness: 300 }}
           >
-            <Reproductor sesion={sesion} onCerrar={() => setSesion(null)} />
+            <Suspense fallback={null}>
+              <Reproductor sesion={sesion} onCerrar={() => setSesion(null)} />
+            </Suspense>
           </motion.div>
         )}
       </AnimatePresence>

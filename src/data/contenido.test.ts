@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { NOMBRES_ILUSTRACIONES } from '../components/Ilustracion'
 import { esquemaFuente } from './lessons/esquema'
-import { LECCIONES } from './lessons'
+import { LECCIONES } from './lessons/contenido'
 import { PELIGROSAS, PLANTAS } from './plantas'
 import { esquemaPlanta } from './plantas/esquema'
 

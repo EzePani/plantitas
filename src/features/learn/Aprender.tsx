@@ -5,7 +5,8 @@ import { Boton } from '../../components/Boton'
 import { HojaInferior } from '../../components/HojaInferior'
 import { Ilustracion } from '../../components/Ilustracion'
 import { NIVELES } from '../../data/gamificacion'
-import { LECCIONES_POR_UNIDAD, leccionPorId } from '../../data/lessons'
+import { LECCIONES_POR_UNIDAD } from '../../data/lessons'
+import { useContenido } from '../../lib/useContenido'
 import { T } from '../../data/textos'
 import { UNIDADES, idsDelPlan } from '../../data/unidades'
 import { construirCamino, type Nodo, type Tramo } from '../../lib/camino'
@@ -101,7 +102,8 @@ export function Aprender({ onJugar, onIrAEspacio }: Props) {
     else onJugar({ tipo: 'cofre', unidad: n.unidad })
   }
 
-  const leccionElegida = elegido?.tipo === 'leccion' ? leccionPorId(elegido.id) : undefined
+  const contenido = useContenido()
+  const leccionElegida = elegido?.tipo === 'leccion' ? contenido?.leccionPorId(elegido.id) : undefined
 
   return (
     <div className="relative flex min-h-0 flex-1 flex-col">

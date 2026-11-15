@@ -8,7 +8,7 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 
 - **alta**: 2 o más fuentes institucionales coinciden.
 - **media**: 1 fuente institucional más consenso práctico, o instituciones que coinciden con matices.
-- **baja**: poca evidencia. En la app se muestra con aviso. Todo lo de confianza baja está en [VERIFY.md](VERIFY.md).
+- **baja**: poca evidencia. En la app se muestra con aviso.
 
 | Contenido | Total | Alta | Media | Baja |
 | --- | --- | --- | --- | --- |
@@ -25,7 +25,7 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 | abono-1 | Qué comen las plantas | alta | 9 |
 | abono-2 | Tipos de abono | media | 8 |
 | abono-3 | En la tierra, en el agua o en las hojas | alta | 9 |
-| abono-4 | Cuándo abonar y cuándo no | media | 11 |
+| abono-4 | Cuándo abonar y cuándo no | media | 10 |
 | basico-1 | Qué necesita una planta | alta | 8 |
 | basico-2 | Las raíces | alta | 11 |
 | basico-3 | Leer las señales de una planta | media | 9 |
@@ -33,8 +33,8 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 | comprar-1 | Elegir una planta sana | alta | 7 |
 | comprar-2 | Las primeras semanas en casa | media | 9 |
 | estaciones-1 | Calor y verano | media | 6 |
-| estaciones-2 | Invierno, frío y calefacción | media | 13 |
-| estaciones-3 | Cuándo es normal que pierda hojas | alta | 8 |
+| estaciones-2 | Invierno, frío y calefacción | media | 12 |
+| estaciones-3 | Cuándo es normal que pierda hojas | alta | 7 |
 | estaciones-4 | Si te vas de viaje | media | 4 |
 | familias-1 | Suculentas y cactus | media | 8 |
 | familias-2 | Follaje tropical | alta | 9 |
@@ -52,21 +52,21 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 | macetas-6 | Trasplante | alta | 5 |
 | mascotas-1 | Por qué algunas plantas hacen mal | alta | 10 |
 | mascotas-2 | Qué hacer si mordió una planta | alta | 7 |
-| mascotas-3 | Organizar el espacio | media | 11 |
+| mascotas-3 | Organizar el espacio | media | 10 |
 | multiplicar-1 | Propagar en agua | media | 14 |
 | multiplicar-2 | Vivir en agua o pasar por el agua | media | 12 |
 | multiplicar-3 | Hijos: dividir y separar | alta | 12 |
 | multiplicar-4 | Hijos de cactus y suculentas | alta | 7 |
 | plagas-1 | Quién es quién entre las plagas | alta | 6 |
 | plagas-2 | Prevenir es más fácil que curar | alta | 6 |
-| plagas-3 | Qué funciona contra las plagas | media | 21 |
+| plagas-3 | Qué funciona contra las plagas | media | 20 |
 | plagas-4 | Hongos, moho y raíces podridas | media | 4 |
 | riego-1 | El exceso mata más que la falta | alta | 5 |
-| riego-2 | Cómo saber si hay que regar | media | 9 |
+| riego-2 | Cómo saber si hay que regar | media | 8 |
 | riego-3 | Cómo regar bien | alta | 8 |
-| riego-4 | Formas de regar | media | 15 |
+| riego-4 | Formas de regar | media | 14 |
 | riego-5 | El riego según la estación | alta | 11 |
-| rutina-1 | Hojas limpias | alta | 10 |
+| rutina-1 | Hojas limpias | alta | 9 |
 | rutina-2 | Hojas secas, tijera y un giro | media | 7 |
 
 ### Plantas
@@ -98,7 +98,7 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 | Violeta africana (*Streptocarpus ionanthus (sin. Saintpaulia ionantha)*) | alta | segura / segura | alta | 5 |
 | Zamioculca (*Zamioculcas zamiifolia*) | media | toxica / toxica | media | 3 |
 
-## Fuentes por organización (299 en total)
+## Fuentes por organización (292 en total)
 
 ### Royal Horticultural Society
 
@@ -835,18 +835,6 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: El hijito de la cinta se puede plantar directo en tierra o dejar unas dos semanas en agua para que desarrolle más raíces.
   - Usada en: lección multiplicar-3
 
-### University of Maryland Extension (HGIC), en Ask Extension
-
-- [Are House Plant Moisture Meters accurate, and safe to use?](https://ask.extension.org/kb/faq.php?id=799752) · consultada el 2026-11-15
-  - Qué se tomó: Opinión (aclaran que no los ensayaron): los medidores 'probablemente no son tan exactos' como el dedo; dedo a 1-2 pulgadas (3 en macetas muy grandes); si el pan de raíces es muy denso, palito de madera: la tierra húmeda se le pega, la seca queda en polvo.
-  - Usada en: lección riego-2
-- [How to make rice water fertilizer? (respuesta de experto)](https://ask.extension.org/kb/faq.php?id=862689) · consultada el 2026-11-15
-  - Qué se tomó: No hay investigación propia sobre agua de arroz en plantas de casa; el único estudio citado es en suelo y no en sustrato; no dan dosis; recomiendan un abono con contenido y dosis conocidos.
-  - Usada en: lección abono-4
-- [Schefflera Plant (respuesta en Ask Extension)](https://ask.extension.org/kb/faq.php?id=679195) · consultada el 2026-11-15
-  - Qué se tomó: Causas de caída de hojas (poca luz, riego, plagas, corrientes de ventanas frías, salidas de aire, radiadores); perder hojas viejas de abajo preocupa menos que perder brotes nuevos; tras un cambio de lugar la planta suelta hojas no adaptadas a la luz nueva y saca otras
-  - Usada en: lección estaciones-2, lección estaciones-3
-
 ### Gobierno de la Ciudad de Buenos Aires
 
 - [Compost: cómo y dónde prepararlo](https://buenosaires.gob.ar/gcaba_historico/noticias/compost-como-y-donde-prepararlo) · consultada el 2026-11-15
@@ -1000,12 +988,6 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: Solo Lilium y Hemerocallis causan falla renal en gatos; el peace lily tiene cristales de oxalato de calcio que irritan boca y garganta y suele resolverse solo / Toda la planta, polen y agua del florero; cronología de signos (0-12 h, 12-24 h, 24-72 h falla renal); perros solo malestar leve; espatifilo y cala no son lirios verdaderos e irritan la boca; llevar la planta o una foto; signos como tocarse la cara con la pata y babeo.
   - Usada en: lección mascotas-1, lección mascotas-2, planta espatifilo (toxicidad), advertencia lirios
 
-### Hill's Pet Nutrition
-
-- [Cat Grass: Safety and Information](https://www.hillspet.com/cat-care/nutrition-feeding/cat-grass-safety-and-information) · consultada el 2026-11-14
-  - Qué se tomó: El pasto para gatos es trigo, cebada, avena o centeno sembrado en interior; puede desviar al gato de otras plantas; plantas tóxicas en estantes altos o macetas colgantes.
-  - Usada en: lección mascotas-3
-
 ### INTA (argentina.gob.ar)
 
 - [Cómo elegir un buen sustrato para las macetas](https://www.argentina.gob.ar/node/402876) · consultada el 2026-11-14
@@ -1047,12 +1029,6 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Fertilizing Houseplants](https://www.k-state.edu/news/wild-west-district/articles/2025/09/fertilizing-houseplants.html) · consultada el 2026-11-15
   - Qué se tomó: Abonar solo de marzo a septiembre (hemisferio norte); nunca abonar plantas enfermas o dañadas; media dosis si dudás; síntomas de sales (puntas y bordes marrones, caída de hojas bajas, decaimiento, costra blanca); lavar con agua o cambiar la tierra.
   - Usada en: lección abono-3, lección abono-4
-
-### Laidback Gardener (Larry Hodgson, divulgador de jardinería)
-
-- [Home Gardening Remedies: Pros and Cons](https://laidbackgardener.blog/2021/12/05/home-gardening-remedies-pros-and-cons/) · consultada el 2026-11-15
-  - Qué se tomó: Margarina, mayonesa o aceite dan brillo al principio porque son grasas, pero pueden tapar estomas, son pegajosas y atrapan polvo; no tienen utilidad real en horticultura. Fuente de apoyo (nivel divulgador), no institucional. El título es el del slug de la URL: no confirmé el título literal de la página.
-  - Usada en: lección rutina-1
 
 ### Level (BRANZ, Nueva Zelanda)
 
@@ -1107,12 +1083,6 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Fiddle Leaf Fig (Ficus lyrata)](https://extension.psu.edu/programs/master-gardener/counties/adams/news/fiddle-leaf-fig-ficus-lyrata) · consultada el 2026-11-14
   - Qué se tomó: Mucha luz filtrada, riego al secarse la tierra, sustrato de drenaje rápido / Mucha luz, pero al sacarlo afuera va a sombra o luz filtrada: las hojas se queman con sol directo si no está aclimatado.
   - Usada en: planta ficus-lyrata (cuidados)
-
-### PetMD
-
-- [Neem Oil for Pets: Is It Safe?](https://petmd.com/dog/wellness/neem-oil-pets-it-safe) · consultada el 2026-11-15
-  - Qué se tomó: Veterinarios citados: el neem no figura como tóxico en ASPCA ni Pet Poison Helpline, pero piden más cuidado con gatos (se lamen); ingerirlo puede dar salivación y vómitos; sin diluir irrita la piel.
-  - Usada en: lección plagas-3
 
 ### PLOS ONE
 
@@ -1185,12 +1155,6 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Houseplant Problems](https://ipm.ucanr.edu/home-and-landscape/houseplant-problems/) · consultada el 2026-11-15
   - Qué se tomó: Raíces sanas blancas; marrones, blandas u oscuras = pudrición; tabla de síntomas con varias causas cada uno (amarilleo, puntas marrones, marchitez, manchas por sol o por hongos/bacterias, hojas enruladas por pulgones y otros chupadores).
   - Usada en: lección basico-2, lección basico-3
-
-### University of Connecticut (UConn Today, por un educador de Extensión)
-
-- [Four Misguided Plant Health Trends on Social Media](https://today.uconn.edu/?p=189123) · consultada el 2026-11-15
-  - Qué se tomó: Regar orquídeas con hielo figura como tendencia equivocada: a las plantas tropicales no les gusta el frío y el hielo cerca de las raíces puede dañarlas; recomienda agua tibia o a temperatura ambiente.
-  - Usada en: lección riego-4
 
 ### University of Connecticut Home and Garden Education Center
 

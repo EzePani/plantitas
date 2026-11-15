@@ -8,38 +8,38 @@
       {
         "tipo": "por_que",
         "imagen": "suculenta",
-        "texto": "Las suculentas vienen, en su mayoría, de lugares secos donde pasa mucho tiempo sin llover. Por eso guardan agua en hojas, tallos o raíces gruesas y carnosas, como una cantimplora propia."
+        "texto": "Las suculentas vienen, en su mayoría, de **lugares secos** donde pasa mucho tiempo sin llover. Por eso **guardan agua en hojas, tallos o raíces** gruesas y carnosas, como una cantimplora propia."
       },
       {
         "tipo": "concepto",
         "imagen": "cactus",
-        "texto": "Todos los cactus son suculentas, pero no todas las suculentas son cactus. La mayoría de los cactus no tiene hojas: guarda el agua en el tallo carnoso."
+        "texto": "Todos los cactus son suculentas, pero **no todas las suculentas son cactus**. La mayoría de los cactus no tiene hojas: **guarda el agua en el tallo** carnoso."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-ahogada",
-        "texto": "Como ya traen su reserva, el riego es poco: a fondo, y recién cuando la tierra se secó del todo. El exceso de agua es de lo que más las daña, porque se pudren con facilidad."
+        "texto": "Como ya traen su reserva, **el riego es poco**: a fondo, y recién **cuando la tierra se secó del todo**. El exceso de agua es de lo que más las daña, porque **se pudren con facilidad**."
       },
       {
         "tipo": "concepto",
         "imagen": "sustrato",
-        "texto": "Necesitan una tierra que drene rápido: mezcla para cactus y suculentas, o tierra común con bastante perlita o grava fina. Y siempre en maceta con agujeros."
+        "texto": "Necesitan **una tierra que drene rápido**: mezcla para cactus y suculentas, o tierra común con bastante perlita o grava fina. Y siempre en **maceta con agujeros**."
       },
       {
         "tipo": "concepto",
         "imagen": "sol-manana",
-        "texto": "La mayoría quiere mucha luz: el aloe, el jade y la echeveria disfrutan unas horas de luz directa, mejor a la mañana que con el sol fuerte de la tarde. La haworthia es la excepción: prefiere luz indirecta brillante y hasta tolera luz indirecta media o luz baja."
+        "texto": "La mayoría quiere **mucha luz**: el aloe, el jade y la echeveria disfrutan unas horas de luz directa, **mejor a la mañana** que con el sol fuerte de la tarde. **La haworthia es la excepción**: prefiere luz indirecta brillante y hasta tolera luz indirecta media o luz baja."
       },
       {
         "tipo": "dato_ba",
         "imagen": "calefaccion",
-        "texto": "En el invierno porteño, de junio a agosto, casi no crecen: regalas muy poco, lo justo para que no se arruguen. La buena noticia es que el aire seco de la calefacción no les molesta."
+        "texto": "En el invierno porteño, de junio a agosto, casi no crecen: **regalas muy poco**, lo justo para que no se arruguen. La buena noticia es que **el aire seco de la calefacción no les molesta**."
       }
     ],
     "para_llevarte": [
-      "Guardan agua: riego poco, a fondo y con la tierra seca.",
-      "Tierra que drene rápido y maceta con agujeros.",
-      "Mucha luz, pero no todas quieren sol fuerte."
+      "Guardan agua: **riego poco, a fondo** y con la tierra seca.",
+      "Tierra que **drene rápido** y maceta con agujeros.",
+      "Mucha luz, pero **no todas quieren sol fuerte**."
     ],
     "quiz": [
       {
@@ -52,13 +52,13 @@
           "Amigas de la humedad"
         ],
         "correcta": 1,
-        "explicacion": "Es una echeveria. Las hojas gruesas y carnosas son la pista: ahí guarda agua, como buena suculenta."
+        "explicacion": "Es una echeveria. **Las hojas gruesas y carnosas son la pista**: ahí guarda agua, como buena suculenta."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Todas las suculentas quieren pleno sol todo el día.",
         "correcta": false,
-        "explicacion": "Quieren mucha luz, pero el sol fuerte de la tarde puede quemarlas. Y algunas, como la haworthia, prefieren luz indirecta brillante."
+        "explicacion": "Quieren mucha luz, pero **el sol fuerte de la tarde puede quemarlas**. Y algunas, como la **haworthia**, prefieren luz indirecta brillante."
       },
       {
         "tipo": "unir",
@@ -77,7 +77,7 @@
             "b": "Casi nada de agua"
           }
         ],
-        "explicacion": "Todo sale de lo mismo: ya tienen agua guardada, así que lo que más las daña es la tierra mojada mucho tiempo."
+        "explicacion": "Todo sale de lo mismo: ya tienen agua guardada, así que **lo que más las daña es la tierra mojada mucho tiempo**."
       },
       {
         "tipo": "que_le_pasa",
@@ -89,7 +89,7 @@
           "Le falta agua"
         ],
         "correcta": 1,
-        "explicacion": "Con poca luz las suculentas se estiran y se ponen pálidas. Acercala a la ventana de a poco, para que no se queme con el cambio."
+        "explicacion": "Con poca luz las suculentas **se estiran y se ponen pálidas**. **Acercala a la ventana de a poco**, para que no se queme con el cambio."
       },
       {
         "tipo": "opcion_multiple",
@@ -100,7 +100,7 @@
           "Porque toma agua del aire"
         ],
         "correcta": 1,
-        "explicacion": "Vienen de lugares secos y traen su propia reserva. Agua necesitan igual, solo que cada mucho más tiempo."
+        "explicacion": "Vienen de lugares secos y traen su propia reserva. **Agua necesitan igual**, solo que **cada mucho más tiempo**."
       }
     ],
     "fuentes": [
@@ -165,38 +165,38 @@
       {
         "tipo": "por_que",
         "imagen": "monstera-hoja",
-        "texto": "El potus, la monstera y el filodendro vienen de zonas tropicales, donde crecen en la selva a la sombra de árboles enormes. Ahí abajo el sol casi nunca les pega de lleno: les llega filtrado por las copas."
+        "texto": "El potus, la monstera y el filodendro vienen de **zonas tropicales**, donde crecen en la selva a la sombra de árboles enormes. Ahí abajo **el sol casi nunca les pega de lleno**: les llega filtrado por las copas."
       },
       {
         "tipo": "concepto",
         "imagen": "luz-indirecta",
-        "texto": "Por eso en casa quieren luz indirecta brillante: mucha claridad, pero sin sol sobre las hojas. La luz directa fuerte se las quema."
+        "texto": "Por eso en casa quieren **luz indirecta brillante**: mucha claridad, pero **sin sol sobre las hojas**. La luz directa fuerte se las quema."
       },
       {
         "tipo": "concepto",
         "imagen": "luz-poca",
-        "texto": "El potus y el filodendro también se adaptan a la luz indirecta media y hasta toleran la luz baja. Eso sí: con poca luz el potus manchado pierde el dibujo y la monstera saca hojas sin agujeros."
+        "texto": "El potus y el filodendro también se adaptan a la **luz indirecta media** y hasta toleran la luz baja. Eso sí: **con poca luz** el potus manchado **pierde el dibujo** y la monstera saca hojas sin agujeros."
       },
       {
         "tipo": "concepto",
         "imagen": "altura",
-        "texto": "En la selva son trepadoras: se agarran a los troncos con raíces que salen del tallo, y cuanto más suben, más grandes salen las hojas. Por eso a la monstera le viene bien un tutor para treparse."
+        "texto": "En la selva son **trepadoras**: se agarran a los troncos con raíces que salen del tallo, y cuanto más suben, más grandes salen las hojas. Por eso a la monstera le viene bien **un tutor** para treparse."
       },
       {
         "tipo": "concepto",
         "imagen": "dedo",
-        "texto": "Con el riego, nada de extremos: a fondo cuando se secaron los primeros centímetros de tierra, y sin agua en el plato. Les gusta el aire húmedo, aunque el potus y el filodendro se adaptan bien al de casa."
+        "texto": "Con el riego, nada de extremos: **a fondo cuando se secaron los primeros centímetros** de tierra, y **sin agua en el plato**. Les gusta el aire húmedo, aunque el potus y el filodendro se adaptan bien al de casa."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-feliz",
-        "texto": "La zamioculca es de la misma familia, pero viene de África: guarda agua en sus hojas brillantes y tiene tallos gruesos bajo la tierra. Tolera la luz baja y se riega como una suculenta, solo cuando la tierra se secó por completo."
+        "texto": "La zamioculca es de la misma familia, pero viene de África: guarda agua en sus hojas brillantes y tiene tallos gruesos bajo la tierra. **Tolera la luz baja** y se riega como una suculenta, **solo cuando la tierra se secó por completo**."
       }
     ],
     "para_llevarte": [
-      "Vienen de la selva: luz filtrada, no sol directo.",
-      "Luz indirecta brillante; potus y filodendro toleran menos.",
-      "Riego cuando se seca arriba; la zamioculca, mucho menos."
+      "Vienen de la selva: **luz filtrada, no sol directo**.",
+      "**Luz indirecta brillante**; potus y filodendro toleran menos.",
+      "**Riego cuando se seca arriba**; la zamioculca, mucho menos."
     ],
     "quiz": [
       {
@@ -209,7 +209,7 @@
           "Amigas de la humedad"
         ],
         "correcta": 1,
-        "explicacion": "Es una monstera, una trepadora de la selva. Sus hojas enormes están hechas para la luz filtrada que llega entre los árboles."
+        "explicacion": "Es una monstera, una **trepadora de la selva**. Sus hojas enormes están hechas para **la luz filtrada** que llega entre los árboles."
       },
       {
         "tipo": "opcion_multiple",
@@ -220,7 +220,7 @@
           "Porque guardan agua en las hojas"
         ],
         "correcta": 0,
-        "explicacion": "En su casa de origen el sol les llega tamizado por las copas. Con luz directa fuerte, las hojas se queman."
+        "explicacion": "En su casa de origen el sol les llega tamizado por las copas. **Con luz directa fuerte, las hojas se queman**."
       },
       {
         "tipo": "que_le_pasa",
@@ -232,13 +232,13 @@
           "Tiene demasiado sol"
         ],
         "correcta": 0,
-        "explicacion": "Con poca luz la monstera hace hojas con menos agujeros o sin ninguno. Probá acercarla a un lugar con luz indirecta brillante."
+        "explicacion": "Con poca luz la monstera hace **hojas con menos agujeros o sin ninguno**. Probá acercarla a un lugar con **luz indirecta brillante**."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "La zamioculca se riega tan seguido como un potus.",
         "correcta": false,
-        "explicacion": "La zamioculca guarda agua y se cuida parecido a una suculenta: se riega solo cuando la tierra se secó por completo."
+        "explicacion": "La zamioculca guarda agua y se cuida parecido a una suculenta: se riega **solo cuando la tierra se secó por completo**."
       },
       {
         "tipo": "unir",
@@ -261,7 +261,7 @@
             "b": "Cómodo con luz indirecta media"
           }
         ],
-        "explicacion": "Son parientes, pero cada una tiene su maña. A todas les va bien sin sol directo."
+        "explicacion": "Son parientes, pero cada una tiene su maña. A todas les va bien **sin sol directo**."
       }
     ],
     "fuentes": [
@@ -332,38 +332,38 @@
       {
         "tipo": "por_que",
         "imagen": "helecho",
-        "texto": "El helecho serrucho viene de bosques húmedos de América tropical, y la calatea, de selvas de Brasil cálidas, sombrías y húmedas. Están hechas para un aire cargado de humedad."
+        "texto": "El helecho serrucho viene de bosques húmedos de América tropical, y la calatea, de selvas de Brasil cálidas, sombrías y húmedas. Están hechas para un **aire cargado de humedad**."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-seca",
-        "texto": "Con el aire seco, las puntas y los bordes de las hojas se ponen marrones, y a la calatea además se le pueden enrollar. Los helechos de hoja fina son los que más lo sufren."
+        "texto": "Con el aire seco, **las puntas y los bordes de las hojas se ponen marrones**, y a la calatea además se le pueden enrollar. **Los helechos de hoja fina** son los que más lo sufren."
       },
       {
         "tipo": "dato_ba",
         "imagen": "calefaccion",
-        "texto": "En el invierno porteño, de junio a agosto, la calefacción reseca el aire de casa y es cuando más lo notan. Tranqui, no es culpa tuya: alejalas de estufas y radiadores."
+        "texto": "En el invierno porteño, **de junio a agosto**, la calefacción reseca el aire de casa y es cuando más lo notan. Tranqui, no es culpa tuya: **alejalas de estufas y radiadores**."
       },
       {
         "tipo": "concepto",
         "imagen": "casa",
-        "texto": "Juntar varias plantas o usar un humidificador ayuda a subir la humedad del aire. Es lo que mejor funciona cuando la calefacción seca el ambiente."
+        "texto": "**Juntar varias plantas** o usar **un humidificador** ayuda a subir la humedad del aire. Es lo que mejor funciona cuando la calefacción seca el ambiente."
       },
       {
         "tipo": "concepto",
         "imagen": "luz-indirecta",
-        "texto": "Las dos quieren luz indirecta brillante, y el helecho serrucho también se adapta a la luz indirecta media. La luz directa les quema las hojas."
+        "texto": "Las dos quieren **luz indirecta brillante**, y el helecho serrucho también se adapta a la luz indirecta media. **La luz directa les quema las hojas**."
       },
       {
         "tipo": "concepto",
         "imagen": "riego",
-        "texto": "La tierra, siempre apenas húmeda: ni encharcada ni seca del todo. Regar de más no reemplaza la humedad del aire, porque el problema está en el aire y no en la tierra."
+        "texto": "La tierra, siempre **apenas húmeda**: ni encharcada ni seca del todo. **Regar de más no reemplaza la humedad del aire**, porque el problema está en el aire y no en la tierra."
       }
     ],
     "para_llevarte": [
-      "Vienen de selvas húmedas: sufren el aire seco.",
-      "Rociar casi no sirve; agrupar o humidificador, sí.",
-      "Luz indirecta brillante y tierra apenas húmeda."
+      "Vienen de selvas húmedas: **sufren el aire seco**.",
+      "Rociar casi no sirve; **agrupar o humidificador**, sí.",
+      "Luz indirecta brillante y **tierra apenas húmeda**."
     ],
     "quiz": [
       {
@@ -376,7 +376,7 @@
           "Necesita una maceta más grande"
         ],
         "correcta": 1,
-        "explicacion": "La calefacción reseca el aire y los helechos lo sienten enseguida en las puntas. Alejalo de la estufa y juntalo con otras plantas."
+        "explicacion": "La calefacción reseca el aire y los helechos lo sienten enseguida en las puntas. **Alejalo de la estufa** y **juntalo con otras plantas**."
       },
       {
         "tipo": "opcion_multiple",
@@ -387,7 +387,7 @@
           "Regarlas el doble"
         ],
         "correcta": 1,
-        "explicacion": "El rociado se evapora en minutos. Las plantas juntas se comparten la humedad que largan, y un humidificador la sube de verdad."
+        "explicacion": "**El rociado se evapora en minutos**. Las plantas juntas se comparten la humedad que largan, y **un humidificador la sube de verdad**."
       },
       {
         "tipo": "que_le_pasa",
@@ -399,13 +399,13 @@
           "Con flor y orquídeas"
         ],
         "correcta": 1,
-        "explicacion": "Es una calatea. Viene de selvas húmedas de Brasil y no se lleva bien con el aire seco."
+        "explicacion": "Es una calatea. Viene de selvas húmedas de Brasil y **no se lleva bien con el aire seco**."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "A los helechos y las calateas les gusta la luz directa.",
         "correcta": false,
-        "explicacion": "Se queman con facilidad. Prefieren luz indirecta brillante: mucha claridad, sin sol sobre las hojas."
+        "explicacion": "Se queman con facilidad. Prefieren **luz indirecta brillante**: mucha claridad, **sin sol sobre las hojas**."
       },
       {
         "tipo": "unir",
@@ -424,7 +424,7 @@
             "b": "Lugares secos"
           }
         ],
-        "explicacion": "Saber de dónde viene una planta te dice qué aire le gusta: húmedo para helechos y calateas, seco para las suculentas."
+        "explicacion": "Saber **de dónde viene una planta** te dice **qué aire le gusta**: húmedo para helechos y calateas, seco para las suculentas."
       }
     ],
     "fuentes": [
@@ -483,38 +483,38 @@
       {
         "tipo": "por_que",
         "imagen": "ventana-sol",
-        "texto": "Cuando una planta de interior sana no florece, lo más habitual es que le falte luz. Pasa con la violeta africana, con el espatifilo y con las orquídeas."
+        "texto": "Cuando una planta de interior sana no florece, lo más habitual es que **le falte luz**. Pasa con la violeta africana, con el espatifilo y con las orquídeas."
       },
       {
         "tipo": "concepto",
         "imagen": "luz-indirecta",
-        "texto": "Casi todas quieren luz indirecta brillante: mucha claridad, sin luz directa fuerte, que les quema las hojas. El espatifilo tolera la luz indirecta media y la luz baja, pero ahí casi no da flores."
+        "texto": "Casi todas quieren **luz indirecta brillante**: mucha claridad, **sin luz directa fuerte**, que les quema las hojas. El espatifilo tolera la luz indirecta media y la luz baja, pero ahí **casi no da flores**."
       },
       {
         "tipo": "concepto",
         "imagen": "orquidea",
-        "texto": "La orquídea phalaenopsis no crece en la tierra: en la naturaleza vive agarrada a las ramas de los árboles. Por eso va en corteza suelta y aireada, nunca en tierra común."
+        "texto": "La orquídea phalaenopsis **no crece en la tierra**: en la naturaleza vive agarrada a las ramas de los árboles. Por eso va en **corteza suelta y aireada**, **nunca en tierra común**."
       },
       {
         "tipo": "concepto",
         "imagen": "riego",
-        "texto": "Regala más o menos una vez por semana con agua tibia, dejando que corra por la corteza y escurra bien. Que no quede agua en el plato ni en el centro de las hojas, y que las raíces tampoco se sequen del todo."
+        "texto": "Regala más o menos **una vez por semana con agua tibia**, dejando que corra por la corteza y **escurra bien**. **Que no quede agua en el plato ni en el centro de las hojas**, y que las raíces tampoco se sequen del todo."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-feliz",
-        "texto": "En el espatifilo y el anturio, lo que parece un pétalo es una hoja especial de color, y las flores verdaderas son chiquitas y están en la espiga del centro. Duran semanas y hasta meses."
+        "texto": "En el espatifilo y el anturio, lo que parece un pétalo es **una hoja especial de color**, y **las flores verdaderas son chiquitas** y están en la espiga del centro. Duran semanas y hasta meses."
       },
       {
         "tipo": "dato_ba",
         "imagen": "estaciones",
-        "texto": "El cactus de Navidad es un cactus de selva: quiere luz indirecta brillante y más riego que uno de desierto. Arma los pimpollos con las noches largas y frescas del otoño, que en Buenos Aires empieza en marzo y no en septiembre como dicen las guías del norte."
+        "texto": "El cactus de Navidad es un cactus de selva: quiere **luz indirecta brillante** y **más riego** que uno de desierto. Arma los pimpollos con las noches largas y frescas del otoño, que en Buenos Aires **empieza en marzo** y no en septiembre como dicen las guías del norte."
       }
     ],
     "para_llevarte": [
-      "Si no florece, lo primero a revisar es la luz.",
-      "Luz indirecta brillante para casi todas.",
-      "Orquídea: corteza, agua tibia y que escurra bien."
+      "Si no florece, lo primero a **revisar es la luz**.",
+      "**Luz indirecta brillante** para casi todas.",
+      "Orquídea: **corteza, agua tibia** y que escurra bien."
     ],
     "quiz": [
       {
@@ -527,7 +527,7 @@
           "Ponerlo al sol directo de la tarde"
         ],
         "correcta": 1,
-        "explicacion": "El espatifilo aguanta la luz baja, pero ahí casi no florece. Con más claridad y sin sol directo, que le quema las hojas, tiene más chances."
+        "explicacion": "El espatifilo aguanta la luz baja, pero ahí **casi no florece**. Con **más claridad y sin sol directo**, que le quema las hojas, tiene más chances."
       },
       {
         "tipo": "opcion_multiple",
@@ -538,19 +538,19 @@
           "Dejándola siempre parada en un plato con agua"
         ],
         "correcta": 1,
-        "explicacion": "Más o menos una vez por semana, con agua tibia y dejando escurrir. Las raíces no tienen que quedar en agua ni secarse del todo."
+        "explicacion": "**Más o menos una vez por semana**, con **agua tibia** y **dejando escurrir**. Las raíces no tienen que quedar en agua ni secarse del todo."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "La orquídea phalaenopsis se planta en tierra común para macetas.",
         "correcta": false,
-        "explicacion": "En la naturaleza vive sobre los árboles, con las raíces al aire. Necesita corteza suelta: la tierra común se las ahoga."
+        "explicacion": "En la naturaleza vive sobre los árboles, con las raíces al aire. **Necesita corteza suelta**: **la tierra común se las ahoga**."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "A la violeta africana conviene regarla con agua que no esté fría.",
         "correcta": true,
-        "explicacion": "El agua fría le hace mal y le puede manchar las hojas. Mejor a temperatura ambiente, y directo a la tierra o por abajo."
+        "explicacion": "**El agua fría le hace mal** y le puede manchar las hojas. Mejor a **temperatura ambiente**, y directo a la tierra o por abajo."
       },
       {
         "tipo": "unir",
@@ -573,7 +573,7 @@
             "b": "Con flor y orquídeas"
           }
         ],
-        "explicacion": "Cada grupo viene de un lugar distinto, y eso explica qué luz, qué riego y qué aire le gusta."
+        "explicacion": "Cada grupo viene de un lugar distinto, y eso explica **qué luz, qué riego y qué aire** le gusta."
       }
     ],
     "fuentes": [

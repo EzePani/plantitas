@@ -8,12 +8,12 @@
       {
         "tipo": "concepto",
         "imagen": "vivero",
-        "texto": "Antes de enamorarte, levantá la maceta y mirá la planta de todos lados: tiene que verse firme, pareja y tupida, sin partes secas. Pensá también si en casa tenés un lugar con la luz que esa planta pide."
+        "texto": "Antes de enamorarte, **levantá la maceta** y mirá la planta de todos lados: tiene que verse **firme, pareja y tupida**, sin partes secas. Pensá también si en casa tenés un lugar con **la luz que esa planta pide**."
       },
       {
         "tipo": "tactil",
         "imagen": "planta-partes",
-        "texto": "Tocá cada parte para ver qué revisar antes de comprar.",
+        "texto": "**Tocá cada parte** para ver qué revisar antes de comprar.",
         "zonas": [
           {
             "id": "hojas",
@@ -40,29 +40,29 @@
       {
         "tipo": "concepto",
         "imagen": "lupa-hoja",
-        "texto": "Dales vuelta a las hojas: la mayoría de las plagas llega a casa en plantas nuevas, y el revés es su escondite preferido. Si ves telitas finas, puntitos claros, pelusa como de algodón o escamitas pegadas, elegí otra planta."
+        "texto": "**Dales vuelta a las hojas**: la mayoría de las plagas llega a casa en plantas nuevas, y el revés es su escondite preferido. Si ves telitas finas, puntitos claros, pelusa como de algodón o escamitas pegadas, **elegí otra planta**."
       },
       {
         "tipo": "comparativa",
         "imagen_mal": "planta-ahogada",
         "imagen_bien": "planta-feliz",
-        "texto": "Evitá las plantas decaídas, y sobre todo las que están caídas con la tierra mojada: puede ser señal de raíces dañadas por exceso de riego. Una planta firme y de buen color arranca con ventaja."
+        "texto": "**Evitá las plantas decaídas**, y sobre todo las que están **caídas con la tierra mojada**: puede ser señal de raíces dañadas por exceso de riego. Una planta firme y de buen color arranca con ventaja."
       },
       {
         "tipo": "concepto",
         "imagen": "orquidea",
-        "texto": "Con las plantas de flor, no te dejes llevar por la que tiene todo abierto. Una con muchos pimpollos todavía cerrados te va a durar florecida bastante más tiempo."
+        "texto": "Con las plantas de flor, no te dejes llevar por la que tiene todo abierto. Una con **muchos pimpollos todavía cerrados** te va a durar florecida bastante más tiempo."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-nueva",
-        "texto": "Pedí que la planta venga con su etiqueta o, por lo menos, anotá el nombre. Sabiendo qué planta es, después es fácil averiguar cuánta luz y cuánta agua necesita."
+        "texto": "Pedí que la planta venga con **su etiqueta** o, por lo menos, **anotá el nombre**. Sabiendo qué planta es, después es fácil averiguar cuánta luz y cuánta agua necesita."
       }
     ],
     "para_llevarte": [
-      "Mirala entera: hojas, tallos, raíces y tierra.",
-      "Siempre revisar el revés de las hojas.",
-      "Mejor muchos pimpollos que muchas flores abiertas."
+      "**Mirala entera**: hojas, tallos, raíces y tierra.",
+      "Siempre revisar **el revés de las hojas**.",
+      "Mejor **muchos pimpollos** que muchas flores abiertas."
     ],
     "quiz": [
       {
@@ -74,7 +74,7 @@
           "En la parte de arriba de las hojas más grandes"
         ],
         "correcta": 1,
-        "explicacion": "Los bichos buscan lugares escondidos: el revés de las hojas, las uniones con el tallo y los brotes nuevos. Un vistazo ahí te ahorra muchos dolores de cabeza."
+        "explicacion": "Los bichos buscan lugares escondidos: **el revés de las hojas**, las **uniones con el tallo** y los brotes nuevos. Un vistazo ahí te ahorra muchos dolores de cabeza."
       },
       {
         "tipo": "que_le_pasa",
@@ -86,13 +86,13 @@
           "Que le falta abono"
         ],
         "correcta": 1,
-        "explicacion": "Las raíces que asoman por abajo o dan vueltas apretadas indican que ya no tiene lugar. Se puede comprar igual, pero va a necesitar un trasplante hecho con cuidado."
+        "explicacion": "Las raíces que asoman por abajo o dan vueltas apretadas indican que **ya no tiene lugar**. Se puede comprar igual, pero va a necesitar un **trasplante hecho con cuidado**."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "La planta con más flores abiertas es siempre la mejor compra.",
         "correcta": false,
-        "explicacion": "Las flores abiertas ya están en su mejor momento. Una planta con muchos pimpollos cerrados va a estar florecida más tiempo en tu casa."
+        "explicacion": "Las flores abiertas ya están en su mejor momento. Una planta con **muchos pimpollos cerrados** va a estar florecida más tiempo en tu casa."
       },
       {
         "tipo": "que_le_pasa",
@@ -104,7 +104,7 @@
           "Llevarla y darle abono"
         ],
         "correcta": 0,
-        "explicacion": "Si está decaída aunque la tierra esté mojada, el problema puede estar en las raíces. Es de las más difíciles de recuperar, así que mejor otra."
+        "explicacion": "Si está decaída aunque la tierra esté mojada, **el problema puede estar en las raíces**. Es de las más difíciles de recuperar, así que **mejor otra**."
       },
       {
         "tipo": "unir",
@@ -127,7 +127,7 @@
             "b": "Muchos pimpollos cerrados"
           }
         ],
-        "explicacion": "Dos minutos de revisión en el vivero valen más que semanas de cuidados después."
+        "explicacion": "**Dos minutos de revisión** en el vivero valen más que semanas de cuidados después."
       }
     ],
     "fuentes": [
@@ -186,38 +186,38 @@
       {
         "tipo": "por_que",
         "imagen": "vivero",
-        "texto": "En el vivero la planta creció con mucha luz, mucha humedad y abono seguido. Tu casa es un cambio grande para ella, y necesita un tiempo para acostumbrarse."
+        "texto": "En el vivero la planta creció con mucha luz, mucha humedad y abono seguido. Tu casa es un cambio grande para ella, y **necesita un tiempo para acostumbrarse**."
       },
       {
         "tipo": "concepto",
         "imagen": "hojas-caidas",
-        "texto": "Es común que al llegar se le pongan amarillas o se le caigan algunas hojas: no pasa nada, se está adaptando. Si después de unas semanas sigue perdiendo hojas, revisá que no le dé una corriente de aire y que la luz y el riego sean parejos."
+        "texto": "Es común que al llegar se le pongan amarillas o se le caigan algunas hojas: **no pasa nada**, se está adaptando. Si después de unas semanas sigue perdiendo hojas, revisá que no le dé **una corriente de aire** y que la luz y el riego sean parejos."
       },
       {
         "tipo": "concepto",
         "imagen": "luz-indirecta",
-        "texto": "Dale desde el principio la luz que pide su especie y evitale los cambios bruscos: si la vas a pasar a un lugar más oscuro o más soleado, que sea de a poco. Con el riego, revisá la tierra seguido y regá recién cuando haga falta."
+        "texto": "Dale desde el principio **la luz que pide su especie** y evitale los cambios bruscos: si la vas a pasar a un lugar más oscuro o más soleado, que sea **de a poco**. Con el riego, revisá la tierra seguido y **regá recién cuando haga falta**."
       },
       {
         "tipo": "concepto",
         "imagen": "cuarentena",
-        "texto": "Las primeras semanas dejala separada de tus otras plantas, por si trajo algún bicho que no viste. Las guías piden entre una semana y un mes: lo más prudente es llegar al mes, revisándole seguido el revés de las hojas."
+        "texto": "Las primeras semanas dejala **separada de tus otras plantas**, por si trajo algún bicho que no viste. Las guías piden entre una semana y un mes: lo más prudente es **llegar al mes**, revisándole seguido el revés de las hojas."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-nueva",
-        "texto": "Mientras se adapta no la abones: esperá a que se acostumbre al lugar nuevo y recién ahí retomá el abono."
+        "texto": "Mientras se adapta **no la abones**: esperá a que se acostumbre al lugar nuevo y recién ahí retomá el abono."
       },
       {
         "tipo": "dato_ba",
         "imagen": "planta-nueva",
-        "texto": "En el invierno porteño, de junio a agosto, pedí que te la envuelvan para el viaje: a muchas plantas tropicales les hace mal el frío por debajo de unos 10 grados. En verano, de diciembre a febrero, no la dejes en el auto al sol, y en cualquier época comprala al final de la salida para llevarla derecho a casa."
+        "texto": "En el invierno porteño, de junio a agosto, **pedí que te la envuelvan** para el viaje: a muchas plantas tropicales les hace mal el frío por debajo de unos 10 grados. En verano, de diciembre a febrero, **no la dejes en el auto al sol**, y en cualquier época comprala al final de la salida para llevarla derecho a casa."
       }
     ],
     "para_llevarte": [
-      "Perder algunas hojas al llegar es normal.",
-      "Unas semanas separada de las otras plantas.",
-      "Sin abono mientras se adapta."
+      "Perder algunas hojas al llegar es **normal**.",
+      "Unas semanas **separada de las otras plantas**.",
+      "**Sin abono** mientras se adapta."
     ],
     "quiz": [
       {
@@ -230,7 +230,7 @@
           "Hay que trasplantarla ya"
         ],
         "correcta": 0,
-        "explicacion": "Casi todas las plantas sueltan alguna hoja cuando cambian de ambiente. Con luz y riego parejos, en unas semanas debería frenar."
+        "explicacion": "**Casi todas las plantas sueltan alguna hoja** cuando cambian de ambiente. Con **luz y riego parejos**, en unas semanas debería frenar."
       },
       {
         "tipo": "opcion_multiple",
@@ -241,19 +241,19 @@
           "En el rincón más oscuro, para que descanse"
         ],
         "correcta": 1,
-        "explicacion": "Si trajo algún bicho escondido, separada no se lo pasa a las demás. Igual necesita la luz que pide su especie, así que nada de rincones oscuros."
+        "explicacion": "Si trajo algún bicho escondido, **separada no se lo pasa a las demás**. Igual necesita la luz que pide su especie, así que nada de rincones oscuros."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "A una planta recién comprada conviene abonarla enseguida para ayudarla a adaptarse.",
         "correcta": false,
-        "explicacion": "Mientras se acostumbra a menos luz y menos humedad, el abono no la ayuda. Mejor esperar a que esté instalada y creciendo."
+        "explicacion": "Mientras se acostumbra a menos luz y menos humedad, **el abono no la ayuda**. Mejor esperar a que esté instalada y creciendo."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "En invierno conviene llevar la planta envuelta hasta casa.",
         "correcta": true,
-        "explicacion": "El frío del viaje puede dañar a las plantas tropicales, que son la mayoría de las de interior. Un papel o una bolsa alrededor la protegen."
+        "explicacion": "**El frío del viaje** puede dañar a las plantas tropicales, que son la mayoría de las de interior. Un papel o una bolsa alrededor la protegen."
       },
       {
         "tipo": "unir",
@@ -272,7 +272,7 @@
             "b": "De a poco"
           }
         ],
-        "explicacion": "Las primeras semanas la consigna es no sumarle cambios. Con calma, la planta se instala sola."
+        "explicacion": "Las primeras semanas la consigna es **no sumarle cambios**. Con calma, la planta se instala sola."
       }
     ],
     "fuentes": [

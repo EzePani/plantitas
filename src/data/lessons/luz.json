@@ -8,38 +8,38 @@
       {
         "tipo": "concepto",
         "imagen": "luz-directa",
-        "texto": "Luz directa: el sol toca la planta, aunque haya un vidrio en el medio. Es la más fuerte y la disfrutan pocas plantas, como los cactus y las suculentas."
+        "texto": "Luz directa: **el sol toca la planta**, aunque haya un vidrio en el medio. Es la más fuerte y la disfrutan **pocas plantas**, como los cactus y las suculentas."
       },
       {
         "tipo": "concepto",
         "imagen": "luz-indirecta",
-        "texto": "Luz indirecta brillante: el lugar está muy claro, pero el sol no pega sobre la planta. Se consigue cerca de una ventana luminosa o detrás de una cortina fina, y es la que prefiere la mayoría."
+        "texto": "Luz indirecta brillante: el lugar está muy claro, pero **el sol no pega sobre la planta**. Se consigue cerca de una ventana luminosa o detrás de una cortina fina, y es **la que prefiere la mayoría**."
       },
       {
         "tipo": "concepto",
         "imagen": "luz-poca",
-        "texto": "Luz indirecta media: un ambiente claro, pero lejos de la ventana. Luz baja: un ambiente oscuro, que pocas plantas toleran, y que no es lo mismo que nada de luz."
+        "texto": "Luz indirecta media: un ambiente claro, pero **lejos de la ventana**. Luz baja: un ambiente oscuro, que **pocas plantas toleran**, y que no es lo mismo que nada de luz."
       },
       {
         "tipo": "por_que",
         "imagen": "sombra-nitida",
-        "texto": "Tus ojos se acostumbran y no sirven para medir la luz, así que probá con la mano a la hora de más claridad. Si la sombra sale bien marcada, ahí hay luz directa."
+        "texto": "Tus ojos se acostumbran y no sirven para medir la luz, así que **probá con la mano** a la hora de más claridad. Si la **sombra sale bien marcada**, ahí hay luz directa."
       },
       {
         "tipo": "concepto",
         "imagen": "sombra-difusa",
-        "texto": "Si la sombra se ve pero sale borrosa, es luz indirecta brillante. Si apenas se nota es indirecta media, y si casi no hay sombra es luz baja."
+        "texto": "Si la **sombra se ve pero sale borrosa**, es luz indirecta brillante. Si apenas se nota es indirecta media, y si **casi no hay sombra es luz baja**."
       },
       {
         "tipo": "concepto",
         "imagen": "casa",
-        "texto": "Cada espacio de tu casa tiene su propia luz: el balcón puede tener luz directa y el living, indirecta. Por eso conviene probar en cada lugar donde quieras poner una planta."
+        "texto": "**Cada espacio de tu casa tiene su propia luz**: el balcón puede tener luz directa y el living, indirecta. Por eso conviene **probar en cada lugar** donde quieras poner una planta."
       }
     ],
     "para_llevarte": [
-      "Directa: el sol toca la planta.",
-      "Indirecta: mucha claridad, sin sol encima.",
-      "Sombra más marcada, más luz."
+      "Directa: **el sol toca la planta**.",
+      "Indirecta: mucha claridad, **sin sol encima**.",
+      "Sombra más marcada, **más luz**."
     ],
     "quiz": [
       {
@@ -51,7 +51,7 @@
           "Un rincón oscuro"
         ],
         "correcta": 1,
-        "explicacion": "Es mucha claridad, pero sin que el sol toque la planta."
+        "explicacion": "Es mucha claridad, pero **sin que el sol toque la planta**."
       },
       {
         "tipo": "unir",
@@ -74,19 +74,19 @@
             "b": "Baja"
           }
         ],
-        "explicacion": "Cuanto más marcada es la sombra, más luz hay. Es una guía práctica, no una medida exacta."
+        "explicacion": "Cuanto **más marcada es la sombra, más luz hay**. Es una guía práctica, no una medida exacta."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Todos los espacios de una casa tienen la misma luz.",
         "correcta": false,
-        "explicacion": "Cada espacio tiene la suya: el balcón puede tener luz directa y el living, indirecta."
+        "explicacion": "**Cada espacio tiene la suya**: el balcón puede tener luz directa y el living, indirecta."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "La mayoría de las plantas de interior disfruta de los rincones oscuros.",
         "correcta": false,
-        "explicacion": "Algunas los toleran, pero casi todas crecen mejor con luz indirecta brillante."
+        "explicacion": "Algunas los toleran, pero casi todas crecen mejor con **luz indirecta brillante**."
       }
     ],
     "fuentes": [
@@ -151,38 +151,38 @@
       {
         "tipo": "concepto",
         "imagen": "mapa-sol",
-        "texto": "No hace falta brújula ni saber de puntos cardinales. En un día despejado, fijate a qué hora empieza a dar el sol en cada espacio y a qué hora deja de dar."
+        "texto": "**No hace falta brújula** ni saber de puntos cardinales. En un día despejado, fijate **a qué hora empieza a dar el sol** en cada espacio y a qué hora deja de dar."
       },
       {
         "tipo": "dato_ba",
         "imagen": "ventana-sol",
-        "texto": "En Buenos Aires el sol del mediodía queda hacia el norte. Si en un espacio el sol da muchas horas y con fuerza cerca del mediodía, ese espacio mira al norte y es tu lugar más luminoso."
+        "texto": "En Buenos Aires el sol del mediodía queda **hacia el norte**. Si en un espacio el sol da muchas horas y con fuerza cerca del mediodía, ese espacio mira al norte y es **tu lugar más luminoso**."
       },
       {
         "tipo": "concepto",
         "imagen": "sol-manana",
-        "texto": "Si el sol empieza temprano y también se va temprano, ese espacio mira al este. Si recién llega a la tarde y se queda hasta que baja, mira al oeste."
+        "texto": "Si el sol empieza **temprano y también se va temprano**, ese espacio mira al este. Si recién llega a la tarde y se queda hasta que baja, **mira al oeste**."
       },
       {
         "tipo": "concepto",
         "imagen": "luz-poca",
-        "texto": "Si el sol directo no llega casi nunca, ese espacio mira al sur. Es tu lugar de menos luz: guardalo para las plantas que se llevan bien sin sol directo."
+        "texto": "Si el sol directo no llega casi nunca, ese espacio **mira al sur**. Es tu **lugar de menos luz**: guardalo para las plantas que se llevan bien sin sol directo."
       },
       {
         "tipo": "por_que",
         "imagen": "mapa-sol",
-        "texto": "El sol se mueve durante el día, y por eso cada espacio tiene su horario. Con esas dos horas ya sabés cuánto sol directo recibe cada lugar, sin tocar una brújula."
+        "texto": "El sol se mueve durante el día, y por eso **cada espacio tiene su horario**. Con esas **dos horas** ya sabés cuánto sol directo recibe cada lugar, sin tocar una brújula."
       },
       {
         "tipo": "dato_ba",
         "imagen": "estaciones",
-        "texto": "En invierno, de junio a agosto, el sol pasa más bajo y entra más adentro de los ambientes. En verano pasa alto, así que volvé a mirar cuando cambia la estación."
+        "texto": "En invierno, de junio a agosto, el sol **pasa más bajo** y entra más adentro de los ambientes. En verano pasa alto, así que **volvé a mirar cuando cambia la estación**."
       }
     ],
     "para_llevarte": [
-      "Mirá a qué hora empieza y termina el sol.",
-      "Muchas horas de sol al mediodía: tu lugar más luminoso.",
-      "Volvé a mirar cuando cambia la estación."
+      "Mirá **a qué hora empieza y termina el sol**.",
+      "Muchas horas de sol al mediodía: **tu lugar más luminoso**.",
+      "Volvé a mirar cuando **cambia la estación**."
     ],
     "quiz": [
       {
@@ -194,13 +194,13 @@
           "De qué color son las paredes"
         ],
         "correcta": 0,
-        "explicacion": "Con esas dos horas alcanza. La orientación sale sola de ahí."
+        "explicacion": "Con **esas dos horas** alcanza. La orientación sale sola de ahí."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Para ubicar tus plantas necesitás una brújula.",
         "correcta": false,
-        "explicacion": "Alcanza con observar a qué hora empieza y a qué hora termina el sol en cada lugar."
+        "explicacion": "Alcanza con observar **a qué hora empieza y a qué hora termina el sol** en cada lugar."
       },
       {
         "tipo": "unir",
@@ -223,13 +223,13 @@
             "b": "Mira al sur"
           }
         ],
-        "explicacion": "El horario del sol te dice hacia dónde mira cada espacio y cuánta luz tiene."
+        "explicacion": "El horario del sol te dice **hacia dónde mira cada espacio** y cuánta luz tiene."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "El sol entra igual en tu casa en verano y en invierno.",
         "correcta": false,
-        "explicacion": "En invierno pasa más bajo y entra más adentro. Conviene volver a mirar en cada estación."
+        "explicacion": "En invierno pasa más bajo y entra más adentro. Conviene **volver a mirar en cada estación**."
       }
     ],
     "fuentes": [
@@ -289,38 +289,38 @@
         "tipo": "comparativa",
         "imagen_mal": "sol-tarde",
         "imagen_bien": "sol-manana",
-        "texto": "El sol de la mañana es más suave y fresco. El de la tarde es más fuerte y caluroso, y puede quemar a las plantas delicadas."
+        "texto": "El sol de la **mañana es más suave** y fresco. El de la **tarde es más fuerte** y caluroso, y puede **quemar a las plantas delicadas**."
       },
       {
         "tipo": "por_que",
         "imagen": "sol-tarde",
-        "texto": "El momento más caluroso del día no es el mediodía sino la media tarde, porque el aire y las superficies tardan en calentarse. Además, a esa hora el sol ya viene bajo y entra de frente por la ventana."
+        "texto": "El momento más caluroso del día no es el mediodía sino la **media tarde**, porque el aire y las superficies tardan en calentarse. Además, a esa hora el sol ya viene bajo y **entra de frente por la ventana**."
       },
       {
         "tipo": "concepto",
         "imagen": "luz-directa",
-        "texto": "Los cactus y las suculentas son de las pocas plantas que disfrutan el sol fuerte. Las de hojas finas y blandas, como los helechos y las calateas, se queman con facilidad."
+        "texto": "Los **cactus y las suculentas** son de las pocas plantas que disfrutan el sol fuerte. Las de hojas finas y blandas, como los **helechos y las calateas, se queman** con facilidad."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-quemada",
-        "texto": "El vidrio no protege: el sol que entra directo por la ventana puede levantar tanto la temperatura que daña las hojas. Separar la maceta unos 15 centímetros del vidrio suele alcanzar para evitar ese calor extra."
+        "texto": "**El vidrio no protege**: el sol que entra directo por la ventana puede levantar tanto la temperatura que daña las hojas. Separar la maceta **unos 15 centímetros del vidrio** suele alcanzar para evitar ese calor extra."
       },
       {
         "tipo": "concepto",
         "imagen": "sol-manana",
-        "texto": "Si un espacio solo tiene sol de tarde, tranqui, se puede usar igual. Alejá las plantas delicadas de la ventana o poné una cortina fina que filtre los rayos."
+        "texto": "Si un espacio solo tiene sol de tarde, tranqui, se puede usar igual. **Alejá las plantas delicadas de la ventana** o poné una **cortina fina** que filtre los rayos."
       },
       {
         "tipo": "dato_ba",
         "imagen": "estaciones",
-        "texto": "En el verano porteño, de diciembre a febrero, el sol de la tarde pega fuerte en el balcón. Ahí las macetas se calientan y se secan mucho más rápido, así que las plantas delicadas agradecen sombra a esa hora."
+        "texto": "En el verano porteño, **de diciembre a febrero**, el sol de la tarde pega fuerte en el balcón. Ahí las macetas se calientan y **se secan mucho más rápido**, así que las plantas delicadas agradecen **sombra a esa hora**."
       }
     ],
     "para_llevarte": [
-      "Sol de mañana: suave. Sol de tarde: fuerte y caluroso.",
-      "Cactus y suculentas aguantan; las de hoja fina se queman.",
-      "El vidrio no protege del sol directo."
+      "Sol de mañana: **suave**. Sol de tarde: **fuerte y caluroso**.",
+      "Cactus y suculentas aguantan; **las de hoja fina se queman**.",
+      "El vidrio **no protege** del sol directo."
     ],
     "quiz": [
       {
@@ -332,19 +332,19 @@
           "Los dos son iguales"
         ],
         "correcta": 0,
-        "explicacion": "El sol de la mañana es más fresco. El de la tarde es más fuerte y caluroso."
+        "explicacion": "El sol de la **mañana es más fresco**. El de la **tarde es más fuerte** y caluroso."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "El momento más caluroso del día es justo el mediodía.",
         "correcta": false,
-        "explicacion": "Suele ser a media tarde, porque el aire y las superficies tardan en calentarse."
+        "explicacion": "Suele ser a **media tarde**, porque el aire y las superficies tardan en calentarse."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Detrás de un vidrio, el sol directo ya no puede quemar las hojas.",
         "correcta": false,
-        "explicacion": "El sol fuerte quema igual a través del vidrio, y pegado a la ventana hace todavía más calor."
+        "explicacion": "El sol fuerte **quema igual a través del vidrio**, y pegado a la ventana hace todavía más calor."
       },
       {
         "tipo": "que_le_pasa",
@@ -356,7 +356,7 @@
           "Tiene frío"
         ],
         "correcta": 0,
-        "explicacion": "El sol fuerte de la tarde quema las hojas delicadas. Alejala un poco o poné una cortina fina."
+        "explicacion": "El sol fuerte de la tarde quema las hojas delicadas. **Alejala un poco** o poné una **cortina fina**."
       },
       {
         "tipo": "unir",
@@ -375,7 +375,7 @@
             "b": "Correrla hacia adentro"
           }
         ],
-        "explicacion": "Pocas plantas disfrutan el sol fuerte. A las demás, un poco de distancia las cuida."
+        "explicacion": "**Pocas plantas disfrutan el sol fuerte**. A las demás, un poco de distancia las cuida."
       }
     ],
     "fuentes": [
@@ -458,39 +458,39 @@
       {
         "tipo": "por_que",
         "imagen": "planta-estirada",
-        "texto": "Con poca luz, la planta se estira buscando claridad: tallos largos y flacos, con mucho espacio entre hoja y hoja. Las hojas nuevas salen más chicas y más pálidas."
+        "texto": "Con poca luz, la planta **se estira buscando claridad**: tallos largos y flacos, con mucho espacio entre hoja y hoja. Las hojas nuevas salen **más chicas y más pálidas**."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-triste",
-        "texto": "Otras señales de poca luz: crece muy despacio, se inclina hacia la ventana o pierde hojas de abajo. Las plantas con hojas de colores pueden volverse todas verdes."
+        "texto": "Otras señales de poca luz: **crece muy despacio**, **se inclina hacia la ventana** o pierde hojas de abajo. Las plantas con hojas de colores pueden volverse todas verdes."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-quemada",
-        "texto": "Con demasiado sol directo aparecen manchas marrones y secas, como quemaduras, o las hojas se ven desteñidas. Pasa sobre todo con el sol fuerte a través del vidrio en verano."
+        "texto": "Con demasiado sol directo aparecen **manchas marrones y secas**, como quemaduras, o las hojas se ven desteñidas. Pasa sobre todo con el **sol fuerte a través del vidrio** en verano."
       },
       {
         "tipo": "dato_ba",
         "imagen": "estaciones",
-        "texto": "Si le falta luz, acercala a la ventana, porque la claridad baja muy rápido al alejarse del vidrio. En el invierno porteño, de junio a agosto, hay menos luz y a las plantas de rincones oscuros les conviene pasar esos meses más cerca."
+        "texto": "Si le falta luz, **acercala a la ventana**, porque la claridad baja muy rápido al alejarse del vidrio. En el invierno porteño, de junio a agosto, hay menos luz y a las plantas de rincones oscuros les conviene pasar esos meses **más cerca**."
       },
       {
         "tipo": "concepto",
         "imagen": "luz-indirecta",
-        "texto": "Si le sobra sol, alejala un poco de la ventana o poné una cortina fina que filtre los rayos. Con eso la luz directa pasa a ser indirecta."
+        "texto": "Si le sobra sol, **alejala un poco de la ventana** o poné una **cortina fina** que filtre los rayos. Con eso la luz directa **pasa a ser indirecta**."
       },
       {
         "tipo": "comparativa",
         "imagen_mal": "planta-quemada",
         "imagen_bien": "planta-feliz",
-        "texto": "Si la vas a pasar a un lugar con más luz, hacelo de a poco, a lo largo de una o dos semanas. Un salto brusco al sol puede quemarla, aunque sea una planta que disfruta la luz."
+        "texto": "Si la vas a pasar a un lugar con más luz, hacelo **de a poco**, a lo largo de **una o dos semanas**. Un salto brusco al sol **puede quemarla**, aunque sea una planta que disfruta la luz."
       }
     ],
     "para_llevarte": [
-      "Se estira y sale pálida: acercala a la luz.",
-      "Manchas secas o desteñida: alejala o poné una cortina.",
-      "Los cambios de lugar, de a poco."
+      "Se estira y sale pálida: **acercala a la luz**.",
+      "Manchas secas o desteñida: **alejala o poné una cortina**.",
+      "Los cambios de lugar, **de a poco**."
     ],
     "quiz": [
       {
@@ -503,7 +503,7 @@
           "Tiene frío"
         ],
         "correcta": 1,
-        "explicacion": "Las manchas marrones y secas en las hojas suelen ser quemaduras de sol."
+        "explicacion": "Las manchas marrones y secas en las hojas suelen ser **quemaduras de sol**."
       },
       {
         "tipo": "que_le_pasa",
@@ -515,7 +515,7 @@
           "Le sobra tierra"
         ],
         "correcta": 0,
-        "explicacion": "Se estira buscando claridad: necesita un lugar más luminoso."
+        "explicacion": "Se estira buscando claridad: **necesita un lugar más luminoso**."
       },
       {
         "tipo": "opcion_multiple",
@@ -526,13 +526,13 @@
           "Pasarla al rincón más oscuro de la casa"
         ],
         "correcta": 0,
-        "explicacion": "Un poco de distancia o una cortina fina convierten la luz directa en indirecta."
+        "explicacion": "Un poco de distancia o una **cortina fina** convierten la luz directa en indirecta."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Si a una planta le falta luz, lo mejor es ponerla de golpe a pleno sol.",
         "correcta": false,
-        "explicacion": "Mejor de a poco, en una o dos semanas. Un cambio brusco puede quemarle las hojas."
+        "explicacion": "Mejor **de a poco, en una o dos semanas**. Un **cambio brusco** puede quemarle las hojas."
       },
       {
         "tipo": "unir",
@@ -551,7 +551,7 @@
             "b": "Poca luz"
           }
         ],
-        "explicacion": "Estirada, chica y pálida es falta de luz. Las manchas secas son exceso de sol directo."
+        "explicacion": "Estirada, chica y pálida es **falta de luz**. Las manchas secas son **exceso de sol directo**."
       }
     ],
     "fuentes": [

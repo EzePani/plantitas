@@ -8,38 +8,38 @@
       {
         "tipo": "concepto",
         "imagen": "macetas-materiales",
-        "texto": "El material de la maceta cambia cada cuánto vas a tener que regar. Algunas dejan pasar humedad por sus paredes y otras no dejan pasar nada."
+        "texto": "El material de la maceta **cambia cada cuánto vas a tener que regar**. Algunas dejan pasar humedad por sus paredes y otras no dejan pasar nada."
       },
       {
         "tipo": "por_que",
         "imagen": "macetas-materiales",
-        "texto": "El barro o terracota sin esmaltar es poroso: la tierra pierde humedad también por las paredes y se seca más rápido. Por eso les viene bien a los cactus, a las suculentas y a quien suele regar de más."
+        "texto": "El **barro o terracota sin esmaltar es poroso**: la tierra pierde humedad también por las paredes y **se seca más rápido**. Por eso les viene bien a los cactus, a las suculentas y a quien suele regar de más."
       },
       {
         "tipo": "concepto",
         "imagen": "macetas-materiales",
-        "texto": "El plástico, la cerámica esmaltada, el metal y la fibra de vidrio no son porosos y guardan más la humedad. Van bien con plantas que quieren la tierra siempre algo húmeda, o si te solés olvidar de regar."
+        "texto": "El plástico, la cerámica esmaltada, el metal y la fibra de vidrio **no son porosos y guardan más la humedad**. Van bien con plantas que quieren la tierra siempre algo húmeda, o si **te solés olvidar de regar**."
       },
       {
         "tipo": "concepto",
         "imagen": "macetas-materiales",
-        "texto": "Las macetas de tela también se secan rápido, como las de barro. Las de madera y las de fibra prensada quedan en el medio."
+        "texto": "Las macetas de **tela también se secan rápido**, como las de barro. Las de madera y las de fibra prensada quedan en el medio."
       },
       {
         "tipo": "concepto",
         "imagen": "macetas-materiales",
-        "texto": "Las de cemento y piedra son pesadas y duran mucho: cuesta moverlas, pero es difícil que una planta alta las vuelque. El plástico es liviano y barato, y el barro y la cerámica se rompen más fácil."
+        "texto": "Las de **cemento y piedra son pesadas** y duran mucho: cuesta moverlas, pero es difícil que una planta alta las vuelque. El plástico **es liviano y barato**, y el barro y la cerámica se rompen más fácil."
       },
       {
         "tipo": "dato_ba",
         "imagen": "estaciones",
-        "texto": "En el verano de Buenos Aires, de diciembre a febrero, una maceta de barro suele pedir agua más seguido que una de plástico. No hace falta sacar cuentas: tocá la tierra y regá cuando esté seca."
+        "texto": "En el verano de Buenos Aires, de diciembre a febrero, una **maceta de barro suele pedir agua más seguido** que una de plástico. No hace falta sacar cuentas: **tocá la tierra** y regá cuando esté seca."
       }
     ],
     "para_llevarte": [
-      "Barro sin esmaltar y tela: la tierra se seca más rápido.",
-      "Plástico y cerámica esmaltada: guardan más humedad.",
-      "Si cambiás de material, cambia cada cuánto regás."
+      "Barro sin esmaltar y tela: la tierra **se seca más rápido**.",
+      "Plástico y cerámica esmaltada: **guardan más humedad**.",
+      "Si cambiás de material, **cambia cada cuánto regás**."
     ],
     "quiz": [
       {
@@ -59,13 +59,13 @@
             "b": "Muy pesada y estable"
           }
         ],
-        "explicacion": "El barro deja escapar humedad por las paredes y el plástico no. El cemento pesa mucho, y por eso es difícil que se vuelque."
+        "explicacion": "El **barro deja escapar humedad** por las paredes y el plástico no. El **cemento pesa mucho**, y por eso es difícil que se vuelque."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Una maceta de cerámica esmaltada se seca igual de rápido que una de barro común.",
         "correcta": false,
-        "explicacion": "Las guías ponen a las macetas esmaltadas junto con el plástico: no son porosas y guardan más la humedad."
+        "explicacion": "Las guías ponen a las macetas esmaltadas junto con el plástico: **no son porosas** y **guardan más la humedad**."
       },
       {
         "tipo": "opcion_multiple",
@@ -76,7 +76,7 @@
           "Una de cerámica esmaltada"
         ],
         "correcta": 1,
-        "explicacion": "El barro sin esmaltar deja que la tierra se seque más rápido, justo lo que piden los cactus y las suculentas."
+        "explicacion": "El barro sin esmaltar deja que la tierra **se seque más rápido**, justo lo que piden los cactus y las suculentas."
       },
       {
         "tipo": "opcion_multiple",
@@ -87,7 +87,7 @@
           "Ya no hace falta que tenga agujero"
         ],
         "correcta": 1,
-        "explicacion": "En barro la tierra pierde humedad más rápido, así que vas a tener que tocarla más seguido. El agujero hace falta siempre."
+        "explicacion": "En barro la tierra pierde humedad más rápido, así que vas a tener que **tocarla más seguido**. El **agujero hace falta siempre**."
       }
     ],
     "fuentes": [
@@ -135,38 +135,38 @@
         "tipo": "comparativa",
         "imagen_mal": "maceta-sin-drenaje",
         "imagen_bien": "maceta-drenaje",
-        "texto": "El agujero de abajo deja salir el agua que sobra y permite que llegue aire a las raíces. Sin agujero, el agua se junta en el fondo y las raíces se pueden pudrir."
+        "texto": "El agujero de abajo **deja salir el agua que sobra** y permite que llegue aire a las raíces. Sin agujero, el agua se junta en el fondo y **las raíces se pueden pudrir**."
       },
       {
         "tipo": "concepto",
         "imagen": "maceta-drenaje",
-        "texto": "No hace falta tapar los agujeros chicos: dejan salir el agua y casi no se pierde tierra. Si el agujero es muy grande, alcanza con una mallita o un pedazo de maceta rota encima."
+        "texto": "**No hace falta tapar los agujeros chicos**: dejan salir el agua y casi no se pierde tierra. Si el agujero es muy grande, alcanza con una **mallita** o un pedazo de maceta rota encima."
       },
       {
         "tipo": "concepto",
         "imagen": "cachepot",
-        "texto": "Si te encanta una maceta sin agujero, usala de funda: adentro va la planta en su maceta con drenaje. Después de regar, fijate que no quede agua juntada en el fondo de la funda."
+        "texto": "Si te encanta una maceta sin agujero, **usala de funda**: adentro va la planta en su maceta con drenaje. Después de regar, fijate que **no quede agua juntada** en el fondo de la funda."
       },
       {
         "tipo": "concepto",
         "imagen": "plato-agua",
-        "texto": "El plato protege el mueble, pero no es un depósito de agua. Vacialo después de regar para que la tierra pueda secarse un poco."
+        "texto": "El plato protege el mueble, pero **no es un depósito de agua**. **Vacialo después de regar** para que la tierra pueda secarse un poco."
       },
       {
         "tipo": "por_que",
         "imagen": "raices-sanas",
-        "texto": "El ancho se elige mirando las raíces: la maceta ideal es apenas más ancha que el pan de raíces. En una demasiado grande, la tierra de más queda mojada mucho tiempo y eso favorece que las raíces se pudran."
+        "texto": "El ancho se elige mirando las raíces: la maceta ideal es **apenas más ancha que el pan de raíces**. En una **demasiado grande**, la tierra de más queda mojada mucho tiempo y eso favorece que las raíces se pudran."
       },
       {
         "tipo": "concepto",
         "imagen": "suculenta",
-        "texto": "A las suculentas les van bien las macetas chicas o bajas, porque poca tierra se seca más rápido. Una planta alta puede necesitar una maceta más grande o más pesada para no volcarse."
+        "texto": "A las suculentas les van bien las **macetas chicas o bajas**, porque poca tierra se seca más rápido. Una planta alta puede necesitar una maceta **más grande o más pesada** para no volcarse."
       }
     ],
     "para_llevarte": [
-      "Maceta con agujero, siempre.",
-      "Las lindas sin agujero van de funda.",
-      "Apenas más ancha que las raíces, no enorme."
+      "Maceta **con agujero**, siempre.",
+      "Las lindas sin agujero **van de funda**.",
+      "**Apenas más ancha** que las raíces, no enorme."
     ],
     "quiz": [
       {
@@ -178,13 +178,13 @@
           "Para que salgan las raíces"
         ],
         "correcta": 1,
-        "explicacion": "Deja escurrir el exceso de agua, y así las raíces no se quedan sin aire."
+        "explicacion": "**Deja escurrir el exceso de agua**, y así las raíces no se quedan **sin aire**."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Cuanto más grande la maceta, mejor para la planta.",
         "correcta": false,
-        "explicacion": "En una maceta demasiado grande sobra tierra, y esa tierra queda mojada mucho tiempo. Mejor una apenas más ancha que las raíces."
+        "explicacion": "En una maceta **demasiado grande sobra tierra**, y esa tierra queda mojada mucho tiempo. Mejor una **apenas más ancha que las raíces**."
       },
       {
         "tipo": "unir",
@@ -207,7 +207,7 @@
             "b": "Tierra mojada mucho tiempo"
           }
         ],
-        "explicacion": "La funda es solo decorativa, el plato no tiene que quedar con agua y una maceta demasiado grande tarda mucho en secarse."
+        "explicacion": "La funda es solo decorativa, **el plato no tiene que quedar con agua** y una maceta demasiado grande tarda mucho en secarse."
       },
       {
         "tipo": "opcion_multiple",
@@ -218,7 +218,7 @@
           "Le pongo piedras abajo y planto"
         ],
         "correcta": 1,
-        "explicacion": "De funda queda igual de linda y la planta sigue teniendo drenaje. Acordate de sacar el agua que quede en el fondo."
+        "explicacion": "**De funda** queda igual de linda y **la planta sigue teniendo drenaje**. Acordate de sacar el agua que quede en el fondo."
       }
     ],
     "fuentes": [
@@ -277,45 +277,45 @@
       {
         "tipo": "concepto",
         "imagen": "sustrato",
-        "texto": "El sustrato es la mezcla donde viven las raíces. Tiene que sostener la planta, guardar algo de agua y nutrientes, y dejar pasar el aire."
+        "texto": "El sustrato es la **mezcla donde viven las raíces**. Tiene que sostener la planta, guardar algo de agua y nutrientes, y **dejar pasar el aire**."
       },
       {
         "tipo": "por_que",
         "imagen": "sustrato",
-        "texto": "La tierra común, la del jardín o del cantero, es pesada: en maceta se apelmaza, retiene demasiada agua y deja poco aire para las raíces. Además puede traer plagas, enfermedades y semillas de yuyos."
+        "texto": "La **tierra común**, la del jardín o del cantero, es pesada: en maceta **se apelmaza, retiene demasiada agua** y deja poco aire para las raíces. Además puede traer **plagas**, enfermedades y semillas de yuyos."
       },
       {
         "tipo": "concepto",
         "imagen": "sustrato",
-        "texto": "Cada ingrediente tiene su tarea: la turba y la fibra de coco son livianas y guardan agua. La perlita y la corteza en trozos abren huecos para el aire, y la arena gruesa suma peso y drenaje."
+        "texto": "Cada ingrediente tiene su tarea: la **turba y la fibra de coco** son livianas y guardan agua. La **perlita y la corteza** en trozos abren huecos para el aire, y la **arena gruesa** suma peso y drenaje."
       },
       {
         "tipo": "concepto",
         "imagen": "dedo",
-        "texto": "Una prueba simple que describe una universidad: apretá en la mano un puñado de sustrato húmedo. Tendría que formar una bola que se desarma fácil, casi sin gotear."
+        "texto": "Una prueba simple que describe una universidad: **apretá en la mano un puñado** de sustrato húmedo. Tendría que formar una **bola que se desarma fácil**, casi sin gotear."
       },
       {
         "tipo": "concepto",
         "imagen": "cactus",
-        "texto": "Los cactus y las suculentas piden una mezcla que drene muy rápido, con arena gruesa o piedritas mezcladas en todo el sustrato. Las tropicales de hoja prefieren mezclas que guarden más humedad, a base de turba o coco con algo de perlita."
+        "texto": "Los cactus y las suculentas piden una mezcla que **drene muy rápido**, con arena gruesa o piedritas mezcladas en todo el sustrato. Las tropicales de hoja prefieren mezclas que **guarden más humedad**, a base de turba o coco con algo de perlita."
       },
       {
         "tipo": "dato_ba",
         "imagen": "casa",
-        "texto": "En Argentina, el INTA explica que en un buen sustrato los poros chicos guardan el agua y los más grandes dejan salir el sobrante y entrar el aire. Cuando compres, mirá qué ingredientes trae la bolsa."
+        "texto": "En Argentina, el INTA explica que en un buen sustrato los **poros chicos guardan el agua** y los más grandes dejan salir el sobrante y entrar el aire. Cuando compres, mirá **qué ingredientes trae la bolsa**."
       }
     ],
     "para_llevarte": [
-      "En maceta va sustrato, no tierra del jardín.",
-      "Tiene que guardar agua y dejar pasar aire.",
-      "Suculentas: mezcla que drene rápido. Tropicales: que guarde más humedad."
+      "En maceta va **sustrato, no tierra del jardín**.",
+      "Tiene que **guardar agua y dejar pasar aire**.",
+      "Suculentas: mezcla que **drene rápido**. Tropicales: que **guarde más humedad**."
     ],
     "quiz": [
       {
         "tipo": "verdadero_falso",
         "pregunta": "La tierra del jardín sola es ideal para macetas.",
         "correcta": false,
-        "explicacion": "En maceta se apelmaza, retiene demasiada agua, deja poco aire y puede traer plagas o enfermedades. Mejor un sustrato para macetas."
+        "explicacion": "En maceta **se apelmaza**, retiene demasiada agua, deja poco aire y puede traer plagas o enfermedades. Mejor un **sustrato para macetas**."
       },
       {
         "tipo": "opcion_multiple",
@@ -326,7 +326,7 @@
           "Queda un bloque duro y pegajoso"
         ],
         "correcta": 1,
-        "explicacion": "Una bola que mantiene la forma pero se desarma fácil, y casi no gotea, habla de una mezcla húmeda y aireada."
+        "explicacion": "Una bola que mantiene la forma pero **se desarma fácil**, y **casi no gotea**, habla de una mezcla húmeda y aireada."
       },
       {
         "tipo": "unir",
@@ -345,7 +345,7 @@
             "b": "Sumar peso y drenaje"
           }
         ],
-        "explicacion": "Las mezclas combinan ingredientes que retienen agua con otros que abren huecos para el aire."
+        "explicacion": "Las mezclas combinan ingredientes que **retienen agua** con otros que **abren huecos para el aire**."
       },
       {
         "tipo": "opcion_multiple",
@@ -356,7 +356,7 @@
           "Tierra del cantero bien apretada"
         ],
         "correcta": 1,
-        "explicacion": "Los cactus y las suculentas guardan agua en su cuerpo y sufren si la tierra queda mojada mucho tiempo."
+        "explicacion": "Los cactus y las suculentas guardan agua en su cuerpo y **sufren si la tierra queda mojada** mucho tiempo."
       }
     ],
     "fuentes": [
@@ -415,45 +415,45 @@
       {
         "tipo": "concepto",
         "imagen": "sustrato",
-        "texto": "El compost es materia orgánica ya descompuesta y estable: restos de cocina y de jardín transformados por microorganismos. Se usa como enmienda, o sea, para mejorar la tierra."
+        "texto": "El compost es **materia orgánica ya descompuesta** y estable: restos de cocina y de jardín transformados por microorganismos. Se usa como enmienda, o sea, para **mejorar la tierra**."
       },
       {
         "tipo": "concepto",
         "imagen": "sustrato",
-        "texto": "Está listo cuando ya no se reconoce qué era cada cosa, está a temperatura ambiente, se ve oscuro y parejo, y huele a tierra mojada. Si tiene olor agrio o feo, todavía le falta."
+        "texto": "Está listo cuando ya no se reconoce qué era cada cosa, está a temperatura ambiente, se ve oscuro y parejo, y **huele a tierra mojada**. Si tiene **olor agrio o feo, todavía le falta**."
       },
       {
         "tipo": "por_que",
         "imagen": "maceta-drenaje",
-        "texto": "En maceta el compost va como una parte de la mezcla y no solo: una guía universitaria sugiere entre el 15 y el 40 por ciento. Es que cambia mucho según de qué esté hecho, puede traer sales o semillas de yuyos y sigue descomponiéndose."
+        "texto": "En maceta el compost va como **una parte de la mezcla y no solo**: una guía universitaria sugiere **entre el 15 y el 40 por ciento**. Es que cambia mucho según de qué esté hecho, puede traer sales o semillas de yuyos y sigue descomponiéndose."
       },
       {
         "tipo": "concepto",
         "imagen": "sustrato",
-        "texto": "Antes de comprar una bolsa de tierra en el vivero, leé qué trae adentro. Para macetas buscá un sustrato con ingredientes como turba, fibra de coco, corteza o perlita, y no tierra sola."
+        "texto": "Antes de comprar una bolsa de tierra en el vivero, **leé qué trae adentro**. Para macetas buscá un sustrato con ingredientes como turba, fibra de coco, corteza o perlita, y **no tierra sola**."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-feliz",
-        "texto": "Cuándo conviene cada uno: el sustrato de bolsa es la base para todo lo que va en maceta. El compost suma nutrientes de a poco y ayuda a guardar agua, como una parte de esa mezcla o para mejorar canteros y jardín."
+        "texto": "Cuándo conviene cada uno: el sustrato de bolsa es la **base para todo lo que va en maceta**. El compost **suma nutrientes de a poco** y ayuda a guardar agua, como una parte de esa mezcla o para mejorar canteros y jardín."
       },
       {
         "tipo": "dato_ba",
         "imagen": "casa",
-        "texto": "Según el Gobierno de la Ciudad de Buenos Aires, el compost casero se puede hacer en una compostera de recipientes apilados y tarda entre 3 y 5 meses. El resultado es una tierra oscura y sin olor que sirve para macetas, canteros y jardines."
+        "texto": "Según el Gobierno de la Ciudad de Buenos Aires, el compost casero se puede hacer en una compostera de recipientes apilados y tarda **entre 3 y 5 meses**. El resultado es una **tierra oscura y sin olor** que sirve para macetas, canteros y jardines."
       }
     ],
     "para_llevarte": [
-      "El compost mejora la mezcla, pero no va solo en la maceta.",
-      "Compost listo: oscuro, parejo y con olor a tierra mojada.",
-      "En el vivero, leé los ingredientes de la bolsa."
+      "El compost mejora la mezcla, pero **no va solo** en la maceta.",
+      "Compost listo: **oscuro, parejo y con olor a tierra mojada**.",
+      "En el vivero, **leé los ingredientes** de la bolsa."
     ],
     "quiz": [
       {
         "tipo": "verdadero_falso",
         "pregunta": "Lo mejor para una maceta de interior es llenarla solo con compost.",
         "correcta": false,
-        "explicacion": "El compost suma nutrientes, pero en maceta va como una parte de la mezcla. El resto tiene que ser sustrato que guarde agua y deje pasar aire."
+        "explicacion": "El compost suma nutrientes, pero en maceta va como **una parte de la mezcla**. El resto tiene que ser **sustrato que guarde agua y deje pasar aire**."
       },
       {
         "tipo": "opcion_multiple",
@@ -464,7 +464,7 @@
           "Tiene olor agrio y está muy mojado"
         ],
         "correcta": 1,
-        "explicacion": "Cuando ya no se reconoce qué era cada resto, está a temperatura ambiente y huele a tierra mojada, está maduro."
+        "explicacion": "Cuando **ya no se reconoce** qué era cada resto, está a temperatura ambiente y **huele a tierra mojada**, está maduro."
       },
       {
         "tipo": "opcion_multiple",
@@ -475,7 +475,7 @@
           "Arena fina"
         ],
         "correcta": 1,
-        "explicacion": "Para macetas conviene un sustrato liviano, con ingredientes que guarden agua y otros que dejen pasar aire. La tierra sola se apelmaza."
+        "explicacion": "Para macetas conviene un **sustrato liviano**, con ingredientes que guarden agua y otros que dejen pasar aire. **La tierra sola se apelmaza**."
       },
       {
         "tipo": "opcion_multiple",
@@ -486,7 +486,7 @@
           "Nada: el compost no sirve para macetas"
         ],
         "correcta": 1,
-        "explicacion": "Como referencia, una guía universitaria habla de entre el 15 y el 40 por ciento de la mezcla."
+        "explicacion": "Como referencia, una guía universitaria habla de **entre el 15 y el 40 por ciento** de la mezcla."
       }
     ],
     "fuentes": [
@@ -545,35 +545,35 @@
       {
         "tipo": "concepto",
         "imagen": "piedras-arriba",
-        "texto": "Una capa de grava o piedritas sobre la tierra es una terminación clásica para cactus y suculentas: la Royal Horticultural Society la sugiere después del trasplante."
+        "texto": "Una capa de **grava o piedritas sobre la tierra** es una terminación clásica para **cactus y suculentas**: la Royal Horticultural Society la sugiere después del trasplante."
       },
       {
         "tipo": "concepto",
         "imagen": "piedras-arriba",
-        "texto": "Queda prolija y ayuda a frenar los yuyos."
+        "texto": "Queda prolija y **ayuda a frenar los yuyos**."
       },
       {
         "tipo": "por_que",
         "imagen": "piedras-arriba",
-        "texto": "Ojo con lo que no hace: no seca la tierra más rápido. Cualquier cobertura frena la evaporación, así que debajo de las piedras la tierra sigue húmeda más tiempo y conviene tocarla antes de regar."
+        "texto": "Ojo con lo que no hace: **no seca la tierra más rápido**. Cualquier cobertura frena la evaporación, así que debajo de las piedras la tierra sigue húmeda más tiempo y conviene **tocarla antes de regar**."
       },
       {
         "tipo": "concepto",
         "imagen": "maceta-sin-drenaje",
-        "texto": "Lo que nadie discute: las piedras no reemplazan al agujero. Sin salida, el agua que sobra se junta en el fondo igual."
+        "texto": "Lo que nadie discute: **las piedras no reemplazan al agujero**. Sin salida, el agua que sobra se junta en el fondo igual."
       }
     ],
     "para_llevarte": [
-      "Piedras arriba: prolijidad y menos yuyos, no más drenaje.",
-      "Piedras en el fondo: las guías universitarias no las recomiendan.",
-      "Con o sin piedras, la maceta necesita agujero."
+      "Piedras arriba: prolijidad y menos yuyos, **no más drenaje**.",
+      "Piedras en el fondo: las guías universitarias **no las recomiendan**.",
+      "Con o sin piedras, la maceta **necesita agujero**."
     ],
     "quiz": [
       {
         "tipo": "verdadero_falso",
         "pregunta": "Si la maceta no tiene agujero, alcanza con poner piedras en el fondo.",
         "correcta": false,
-        "explicacion": "Las piedras no le dan salida al agua: se junta igual y las raíces quedan mojadas. Lo que hace falta es el agujero."
+        "explicacion": "Las piedras **no le dan salida al agua**: se junta igual y las raíces quedan mojadas. Lo que hace falta es el **agujero**."
       },
       {
         "tipo": "opcion_multiple",
@@ -584,13 +584,13 @@
           "Para no tener que regar más"
         ],
         "correcta": 1,
-        "explicacion": "Es una terminación linda que frena los yuyos. Como toda cobertura, más bien conserva la humedad de abajo."
+        "explicacion": "Es una terminación linda que **frena los yuyos**. Como toda cobertura, más bien **conserva la humedad** de abajo."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Con piedritas encima, la tierra de abajo puede seguir húmeda aunque arriba se vea todo seco.",
         "correcta": true,
-        "explicacion": "La cobertura frena la evaporación. Por eso conviene correr un poco las piedras y tocar la tierra antes de regar."
+        "explicacion": "La cobertura **frena la evaporación**. Por eso conviene correr un poco las piedras y **tocar la tierra antes de regar**."
       }
     ],
     "fuentes": [
@@ -661,38 +661,38 @@
       {
         "tipo": "concepto",
         "imagen": "raices-apretadas",
-        "texto": "Señales de que le queda chica: raíces que asoman por los agujeros o dan vueltas apretadas alrededor de la tierra. Otra pista es que la tierra se seca rapidísimo y tenés que regar cada vez más seguido."
+        "texto": "Señales de que le queda chica: **raíces que asoman por los agujeros** o dan vueltas apretadas alrededor de la tierra. Otra pista es que la tierra **se seca rapidísimo** y tenés que regar cada vez más seguido."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-feliz",
-        "texto": "No hace falta trasplantar seguido: las que crecen rápido pueden pedirlo cada año y las lentas cada dos o tres. Ante la duda, sacala con cuidado de la maceta y mirá las raíces."
+        "texto": "No hace falta trasplantar seguido: las que crecen rápido pueden pedirlo **cada año** y las lentas cada dos o tres. Ante la duda, **sacala con cuidado de la maceta y mirá las raíces**."
       },
       {
         "tipo": "concepto",
         "imagen": "trasplante",
-        "texto": "Pasala a una maceta apenas más grande: entre 2 y 5 centímetros más de diámetro alcanza. En una enorme, la tierra de más queda mojada demasiado tiempo."
+        "texto": "Pasala a una maceta **apenas más grande**: **entre 2 y 5 centímetros** más de diámetro alcanza. En una enorme, la tierra de más queda mojada demasiado tiempo."
       },
       {
         "tipo": "dato_ba",
         "imagen": "estaciones",
-        "texto": "La mejor época es la primavera, cuando la planta arranca a crecer. En Buenos Aires eso es de septiembre a noviembre."
+        "texto": "La mejor época es la **primavera**, cuando la planta arranca a crecer. En Buenos Aires eso es **de septiembre a noviembre**."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-triste",
-        "texto": "Mejor no trasplantar una planta que está débil, en reposo o a punto de florecer. Esperá a que esté creciendo con ganas."
+        "texto": "Mejor no trasplantar una planta que está **débil, en reposo o a punto de florecer**. Esperá a que esté **creciendo con ganas**."
       },
       {
         "tipo": "concepto",
         "imagen": "trasplante",
-        "texto": "Aflojá con suavidad las raíces que dan vueltas, ubicala a la misma altura que estaba y rellená con sustrato nuevo sin apretar de más. Para terminar, regá a fondo y dejá escurrir."
+        "texto": "**Aflojá con suavidad las raíces** que dan vueltas, ubicala a la misma altura que estaba y rellená con sustrato nuevo sin apretar de más. Para terminar, **regá a fondo y dejá escurrir**."
       }
     ],
     "para_llevarte": [
-      "Raíces apretadas o asomando: pide maceta nueva.",
-      "Un talle más, no tres.",
-      "Mejor en primavera: de septiembre a noviembre."
+      "Raíces apretadas o asomando: **pide maceta nueva**.",
+      "**Un talle más**, no tres.",
+      "Mejor **en primavera**: de septiembre a noviembre."
     ],
     "quiz": [
       {
@@ -704,7 +704,7 @@
           "A una más chica"
         ],
         "correcta": 1,
-        "explicacion": "Con unos centímetros más de diámetro alcanza. En una maceta enorme la tierra queda mojada demasiado tiempo."
+        "explicacion": "Con **unos centímetros más de diámetro** alcanza. En una maceta **enorme** la tierra queda mojada demasiado tiempo."
       },
       {
         "tipo": "que_le_pasa",
@@ -716,7 +716,7 @@
           "Le falta luz"
         ],
         "correcta": 1,
-        "explicacion": "Cuando las raíces ocupan casi todo, queda poca tierra para guardar agua. Es momento de pasarla a una maceta un poco más grande."
+        "explicacion": "Cuando las raíces ocupan casi todo, queda **poca tierra para guardar agua**. Es momento de pasarla a una maceta **un poco más grande**."
       },
       {
         "tipo": "opcion_multiple",
@@ -727,13 +727,13 @@
           "De marzo a mayo"
         ],
         "correcta": 1,
-        "explicacion": "Las guías recomiendan la primavera, cuando la planta arranca a crecer. En el hemisferio sur eso es de septiembre a noviembre."
+        "explicacion": "Las guías recomiendan la **primavera**, cuando la planta arranca a crecer. En el hemisferio sur eso es **de septiembre a noviembre**."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Después de trasplantar conviene regar a fondo y dejar escurrir.",
         "correcta": true,
-        "explicacion": "Ese primer riego acomoda el sustrato nuevo alrededor de las raíces."
+        "explicacion": "Ese primer riego **acomoda el sustrato nuevo** alrededor de las raíces."
       }
     ],
     "fuentes": [

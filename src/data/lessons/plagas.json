@@ -8,38 +8,38 @@
       {
         "tipo": "concepto",
         "imagen": "lupa-hoja",
-        "texto": "La mayoría de las plagas de interior son bichitos muy chicos que chupan la savia de la planta. Les gusta esconderse en el revés de las hojas, en los brotes nuevos y en la unión de la hoja con el tallo."
+        "texto": "La mayoría de las plagas de interior son bichitos muy chicos que **chupan la savia** de la planta. Les gusta esconderse en el **revés de las hojas**, en los brotes nuevos y en la unión de la hoja con el tallo."
       },
       {
         "tipo": "concepto",
         "imagen": "cochinilla",
-        "texto": "La cochinilla algodonosa parece una pelusita blanca pegada a la planta. La cochinilla de escudo se ve como bultitos duros que no se mueven, sobre los tallos y el revés de las hojas."
+        "texto": "La cochinilla algodonosa parece una **pelusita blanca** pegada a la planta. La cochinilla de escudo se ve como **bultitos duros** que no se mueven, sobre los tallos y el revés de las hojas."
       },
       {
         "tipo": "concepto",
         "imagen": "pulgon",
-        "texto": "Los pulgones son bichitos blandos, muchas veces verdes, que se amontonan en los brotes tiernos y los deforman. Igual que algunas cochinillas, dejan una melaza pegajosa sobre la que puede crecer un hongo negro como hollín."
+        "texto": "Los pulgones son bichitos blandos, muchas veces verdes, que se amontonan en los brotes tiernos y los deforman. Igual que algunas cochinillas, dejan una **melaza pegajosa** sobre la que puede crecer un **hongo negro** como hollín."
       },
       {
         "tipo": "concepto",
         "imagen": "aranuela",
-        "texto": "La arañuela roja es un ácaro diminuto, pariente de las arañas, que casi no se ve a simple vista. Deja puntitos claros en las hojas y, cuando hay muchas, una telaraña muy fina."
+        "texto": "La arañuela roja es un ácaro diminuto, pariente de las arañas, que casi no se ve a simple vista. Deja **puntitos claros** en las hojas y, cuando hay muchas, una **telaraña muy fina**."
       },
       {
         "tipo": "concepto",
         "imagen": "trips",
-        "texto": "Los trips son bichitos finitos y alargados que raspan la hoja para chupar la savia. Dejan manchas plateadas, puntitos oscuros y flores deformadas."
+        "texto": "Los trips son bichitos finitos y alargados que raspan la hoja para chupar la savia. Dejan **manchas plateadas**, puntitos oscuros y **flores deformadas**."
       },
       {
         "tipo": "concepto",
         "imagen": "mosquitas",
-        "texto": "Las mosquitas del sustrato son moscas chiquitas y oscuras que caminan o vuelan sobre la tierra. Las adultas molestan pero no comen la planta, y sus larvas viven en la tierra húmeda y pueden dañar sobre todo a plantines y gajos."
+        "texto": "Las mosquitas del sustrato son moscas chiquitas y oscuras que caminan o vuelan **sobre la tierra**. Las adultas molestan pero no comen la planta, y sus **larvas** viven en la tierra húmeda y pueden dañar sobre todo a plantines y gajos."
       }
     ],
     "para_llevarte": [
-      "Mirá el revés de las hojas y los brotes nuevos.",
-      "Pelusa blanca, bultitos, telaraña fina o manchas plateadas son pistas.",
-      "Hojas pegajosas: buscá cochinillas o pulgones."
+      "Mirá **el revés de las hojas** y los brotes nuevos.",
+      "**Pelusa blanca, bultitos**, telaraña fina o manchas plateadas son pistas.",
+      "Hojas pegajosas: **buscá cochinillas o pulgones**."
     ],
     "quiz": [
       {
@@ -52,7 +52,7 @@
           "Mosquitas del sustrato"
         ],
         "correcta": 0,
-        "explicacion": "Los puntitos claros y la telaraña fina son la marca de la arañuela, un ácaro tan chico que casi no se ve."
+        "explicacion": "Los **puntitos claros y la telaraña fina** son la marca de la arañuela, un ácaro tan chico que casi no se ve."
       },
       {
         "tipo": "que_le_pasa",
@@ -64,7 +64,7 @@
           "Trips"
         ],
         "correcta": 1,
-        "explicacion": "Esa pelusita blanca es la cera con la que se cubre la cochinilla algodonosa. Le gustan los rincones protegidos de la planta."
+        "explicacion": "Esa pelusita blanca es la **cera** con la que se cubre la cochinilla algodonosa. Le gustan los rincones protegidos de la planta."
       },
       {
         "tipo": "unir",
@@ -87,13 +87,13 @@
             "b": "Vuelan sobre la tierra"
           }
         ],
-        "explicacion": "Cada plaga deja su firma. Reconocerla es el primer paso para saber qué hacer."
+        "explicacion": "Cada plaga deja su firma. **Reconocerla es el primer paso** para saber qué hacer."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Las mosquitas adultas que vuelan sobre la maceta se comen las hojas.",
         "correcta": false,
-        "explicacion": "Las adultas no se alimentan de la planta, solo molestan. Las que viven en la tierra húmeda son sus larvas."
+        "explicacion": "Las adultas no se alimentan de la planta, solo molestan. Las que viven en la tierra húmeda son **sus larvas**."
       },
       {
         "tipo": "opcion_multiple",
@@ -104,7 +104,7 @@
           "Ponerla al sol directo"
         ],
         "correcta": 1,
-        "explicacion": "Esa melaza pegajosa la dejan los pulgones y algunas cochinillas. Revisá el revés de las hojas y los brotes."
+        "explicacion": "Esa melaza pegajosa la dejan los pulgones y algunas cochinillas. **Revisá el revés de las hojas** y los brotes."
       }
     ],
     "fuentes": [
@@ -157,38 +157,38 @@
       {
         "tipo": "concepto",
         "imagen": "cuarentena",
-        "texto": "La mayoría de las plagas llegan a casa escondidas en una planta nueva, comprada o regalada. Dejala separada de las demás al menos un mes, mejor seis semanas, y revisala bien antes de juntarlas."
+        "texto": "La mayoría de las plagas llegan a casa escondidas en una **planta nueva**, comprada o regalada. Dejala **separada** de las demás **al menos un mes**, mejor seis semanas, y revisala bien antes de juntarlas."
       },
       {
         "tipo": "concepto",
         "imagen": "lupa-hoja",
-        "texto": "Acostumbrate a mirar seguido el revés de las hojas y los brotes, por ejemplo cada vez que regás. Una plaga que recién empieza es muchísimo más fácil de frenar."
+        "texto": "Acostumbrate a **mirar seguido el revés de las hojas** y los brotes, por ejemplo cada vez que regás. Una plaga que recién empieza es muchísimo más **fácil de frenar**."
       },
       {
         "tipo": "por_que",
         "imagen": "mosquitas",
-        "texto": "Las mosquitas ponen sus huevos en la tierra húmeda, así que regar de más las invita. Dejar secar la capa de arriba entre riegos y no dejar agua en el plato es lo que más las frena."
+        "texto": "Las mosquitas ponen sus huevos en la tierra húmeda, así que **regar de más** las invita. Dejar secar la capa de arriba entre riegos y **no dejar agua en el plato** es lo que más las frena."
       },
       {
         "tipo": "concepto",
         "imagen": "pano-hoja",
-        "texto": "Limpiar con agua las hojas lisas cada dos o tres semanas saca el polvo y los bichitos recién llegados. Sacá también las hojas secas o caídas, porque ahí pueden esconderse cochinillas y sus huevos."
+        "texto": "Limpiar con agua las hojas lisas **cada dos o tres semanas** saca el polvo y los bichitos recién llegados. Sacá también las **hojas secas o caídas**, porque ahí pueden esconderse cochinillas y sus huevos."
       },
       {
         "tipo": "dato_ba",
         "imagen": "calefaccion",
-        "texto": "A la arañuela le encanta el aire cálido y seco, justo el que deja la calefacción en el invierno porteño. En esos meses revisá más seguido las plantas que están cerca de una estufa o un radiador."
+        "texto": "A la arañuela le encanta el **aire cálido y seco**, justo el que deja la calefacción en el invierno porteño. En esos meses **revisá más seguido** las plantas que están cerca de una estufa o un radiador."
       },
       {
         "tipo": "por_que",
         "imagen": "planta-feliz",
-        "texto": "Una planta estresada es más fácil de atacar. Buena luz, riego justo y un poco de aire entre maceta y maceta la ayudan a defenderse."
+        "texto": "Una planta estresada es más fácil de atacar. **Buena luz, riego justo** y un poco de aire entre maceta y maceta la ayudan a defenderse."
       }
     ],
     "para_llevarte": [
-      "Planta nueva: separada al menos un mes.",
-      "Revisá el revés de las hojas cada vez que regás.",
-      "Tierra siempre húmeda llama a las mosquitas."
+      "Planta nueva: **separada al menos un mes**.",
+      "**Revisá el revés de las hojas** cada vez que regás.",
+      "**Tierra siempre húmeda** llama a las mosquitas."
     ],
     "quiz": [
       {
@@ -200,7 +200,7 @@
           "Da lo mismo"
         ],
         "correcta": 1,
-        "explicacion": "Muchas plagas llegan en plantas nuevas. Tenerla aparte al menos un mes te deja ver si trae algo antes de que pase a las demás."
+        "explicacion": "Muchas plagas llegan en plantas nuevas. Tenerla aparte **al menos un mes** te deja ver si trae algo antes de que pase a las demás."
       },
       {
         "tipo": "que_le_pasa",
@@ -212,7 +212,7 @@
           "Falta de abono"
         ],
         "correcta": 0,
-        "explicacion": "Las mosquitas necesitan tierra húmeda para poner huevos. Dejar secar la capa de arriba entre riegos corta el ciclo."
+        "explicacion": "Las mosquitas necesitan **tierra húmeda** para poner huevos. **Dejar secar la capa de arriba** entre riegos corta el ciclo."
       },
       {
         "tipo": "opcion_multiple",
@@ -223,13 +223,13 @@
           "Solo en la maceta"
         ],
         "correcta": 1,
-        "explicacion": "Casi todas las plagas se esconden en el revés de las hojas, en los brotes tiernos y en las uniones con el tallo."
+        "explicacion": "Casi todas las plagas se esconden en el **revés de las hojas**, en los brotes tiernos y en las uniones con el tallo."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "En invierno, con la calefacción prendida, conviene estar más atento a la arañuela.",
         "correcta": true,
-        "explicacion": "La arañuela se multiplica más rápido con aire cálido y seco, como el que deja la calefacción."
+        "explicacion": "La arañuela se multiplica más rápido con **aire cálido y seco**, como el que deja la calefacción."
       }
     ],
     "fuentes": [
@@ -282,28 +282,28 @@
       {
         "tipo": "concepto",
         "imagen": "hisopo",
-        "texto": "Lo primero es aislar la planta y sacar bichos con un buen chorro de agua o, si son cochinillas, una por una con un hisopo mojado en alcohol. El alcohol es tóxico para perros y gatos si lo toman o les queda en la piel, así que guardalo bien cerrado y lejos de ellos."
+        "texto": "Lo primero es **aislar la planta** y sacar bichos con un buen chorro de agua o, si son cochinillas, una por una con un hisopo mojado en alcohol. El alcohol es **tóxico para perros y gatos** si lo toman o les queda en la piel, así que guardalo bien cerrado y **lejos de ellos**."
       },
       {
         "tipo": "concepto",
         "imagen": "rociador",
-        "texto": "El jabón potásico, también llamado jabón insecticida, mata por contacto a pulgones, trips y cochinillas jóvenes, y hay que repetirlo porque solo actúa mientras está mojado. Tiene muy baja toxicidad si se traga pero irrita ojos y piel, así que aplicalo sin tu mascota cerca y dejá secar antes de que vuelva."
+        "texto": "El jabón potásico, también llamado jabón insecticida, mata por contacto a pulgones, trips y cochinillas jóvenes, y hay que **repetirlo** porque solo actúa mientras está mojado. Tiene muy baja toxicidad si se traga pero irrita ojos y piel, así que **aplicalo sin tu mascota cerca** y **dejá secar** antes de que vuelva."
       },
       {
         "tipo": "concepto",
         "imagen": "trampa-amarilla",
-        "texto": "Las trampas adhesivas amarillas atrapan a las mosquitas adultas y te muestran cuántas hay, pero solas no terminan el problema si la tierra sigue húmeda. Ponelas donde tu perro o tu gato no lleguen."
+        "texto": "Las trampas adhesivas amarillas atrapan a las **mosquitas adultas** y te muestran cuántas hay, pero solas no terminan el problema si la tierra sigue húmeda. Ponelas **donde tu perro o tu gato no lleguen**."
       },
       {
         "tipo": "por_que",
         "imagen": "veterinario",
-        "texto": "Los insecticidas con piretrinas o permetrina pueden ser gravísimos para un gato, incluso en poca cantidad. Los sistémicos, como el imidacloprid, quedan adentro de toda la planta, así que no los uses en plantas que tu mascota pueda morder."
+        "texto": "Los insecticidas con piretrinas o permetrina pueden ser **gravísimos para un gato**, incluso en poca cantidad. Los sistémicos, como el imidacloprid, quedan adentro de toda la planta, así que **no los uses en plantas que tu mascota pueda morder**."
       }
     ],
     "para_llevarte": [
-      "Primero aislar, agua y sacar a mano.",
-      "Productos comprados, con etiqueta y lejos de tu mascota.",
-      "Con gatos, nada de piretrinas ni permetrina."
+      "Primero **aislar**, agua y sacar a mano.",
+      "Productos comprados, con etiqueta y **lejos de tu mascota**.",
+      "Con gatos, **nada de piretrinas ni permetrina**."
     ],
     "quiz": [
       {
@@ -315,7 +315,7 @@
           "Sacar los bichos a mano"
         ],
         "correcta": 0,
-        "explicacion": "Los gatos no pueden procesar bien las piretrinas ni la permetrina, y una exposición chica puede ser grave. Si creés que tuvo contacto, llamá al veterinario enseguida."
+        "explicacion": "Los gatos **no pueden procesar bien las piretrinas ni la permetrina**, y una exposición chica puede ser grave. Si creés que tuvo contacto, **llamá al veterinario enseguida**."
       },
       {
         "tipo": "unir",
@@ -338,7 +338,7 @@
             "b": "Ponerla fuera de su alcance"
           }
         ],
-        "explicacion": "Cualquier producto se guarda cerrado y en alto, y tu mascota vuelve cuando la planta ya está seca."
+        "explicacion": "Cualquier producto se **guarda cerrado y en alto**, y tu mascota vuelve cuando la planta **ya está seca**."
       },
       {
         "tipo": "opcion_multiple",
@@ -349,7 +349,7 @@
           "Dejarla junto a las demás"
         ],
         "correcta": 1,
-        "explicacion": "Tranqui, no es un fracaso: con una planta muy tomada, descartarla suele ser más fácil que curarla y protege a las otras."
+        "explicacion": "Tranqui, **no es un fracaso**: con una planta muy tomada, descartarla suele ser más fácil que curarla y protege a las otras."
       }
     ],
     "fuentes": [
@@ -486,39 +486,39 @@
       {
         "tipo": "concepto",
         "imagen": "manchas-hoja",
-        "texto": "Las manchas marrones con borde amarillento suelen ser hongos o bacterias que aprovechan las hojas mojadas y el aire quieto. Sacá las hojas afectadas, regá sin mojar el follaje y dale más aire a la planta."
+        "texto": "Las manchas marrones con borde amarillento suelen ser hongos o bacterias que aprovechan las hojas mojadas y el aire quieto. **Sacá las hojas afectadas**, **regá sin mojar el follaje** y dale más aire a la planta."
       },
       {
         "tipo": "concepto",
         "imagen": "oidio",
-        "texto": "El oídio es un polvillo blanco sobre las hojas, como si les hubiera caído harina. Aparece con aire húmedo y quieto, y mejora si sacás las hojas más tomadas, ventilás y separás un poco las macetas."
+        "texto": "El oídio es un **polvillo blanco** sobre las hojas, como si les hubiera caído harina. Aparece con aire húmedo y quieto, y mejora si sacás las hojas más tomadas, **ventilás** y separás un poco las macetas."
       },
       {
         "tipo": "por_que",
         "imagen": "moho-tierra",
-        "texto": "El moho blanco sobre la tierra es un hongo que se alimenta de materia muerta del sustrato, no de tu planta. Es más bien un aviso de que la tierra pasa demasiado tiempo mojada, con poca luz o poco aire."
+        "texto": "El moho blanco sobre la tierra es un hongo que se alimenta de materia muerta del sustrato, **no de tu planta**. Es más bien un aviso de que la **tierra pasa demasiado tiempo mojada**, con poca luz o poco aire."
       },
       {
         "tipo": "concepto",
         "imagen": "moho-tierra",
-        "texto": "Podés raspar la capa de arriba y reponerla con tierra nueva, pero si no cambiás el riego el moho vuelve. A las personas solo puede molestarles si son muy alérgicas al moho."
+        "texto": "Podés raspar la capa de arriba y reponerla con tierra nueva, pero **si no cambiás el riego el moho vuelve**. A las personas solo puede molestarles si son muy alérgicas al moho."
       },
       {
         "tipo": "comparativa",
         "imagen_mal": "raices-podridas",
         "imagen_bien": "raices-sanas",
-        "texto": "Si la planta se marchita con la tierra húmeda, sacala de la maceta y mirá las raíces. Las sanas son firmes y claras, y las podridas están blandas, oscuras y pueden tener mal olor."
+        "texto": "Si la planta se marchita con la tierra húmeda, **sacala de la maceta y mirá las raíces**. Las sanas son firmes y claras, y las podridas están **blandas, oscuras** y pueden tener mal olor."
       },
       {
         "tipo": "concepto",
         "imagen": "tijera-poda",
-        "texto": "Si solo algunas raíces están podridas, cortalas con una tijera limpia y pasá la planta a tierra nueva, sin reusar la vieja. Si casi todas están blandas es muy difícil que se recupere, y no pasa nada: a veces lo mejor es empezar de nuevo."
+        "texto": "Si solo algunas raíces están podridas, **cortalas con una tijera limpia** y pasá la planta a **tierra nueva**, sin reusar la vieja. Si casi todas están blandas es muy difícil que se recupere, y no pasa nada: a veces lo mejor es empezar de nuevo."
       }
     ],
     "para_llevarte": [
-      "Hojas secas y aire que circule frenan los hongos.",
-      "Moho en la tierra: aviso de riego de más.",
-      "Raíz podrida: cortar lo blando y tierra nueva."
+      "Hojas secas y **aire que circule** frenan los hongos.",
+      "Moho en la tierra: **aviso de riego de más**.",
+      "Raíz podrida: **cortar lo blando** y tierra nueva."
     ],
     "quiz": [
       {
@@ -531,13 +531,13 @@
           "Que la planta se está muriendo"
         ],
         "correcta": 0,
-        "explicacion": "Ese moho vive de la materia muerta de la tierra y aparece cuando hay humedad de sobra. Revisá el riego, la luz y la ventilación."
+        "explicacion": "Ese moho vive de la materia muerta de la tierra y aparece cuando hay **humedad de sobra**. **Revisá el riego**, la luz y la ventilación."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "El moho blanco de la tierra ataca directamente a la planta.",
         "correcta": false,
-        "explicacion": "Se alimenta de restos en descomposición, no de la planta. Lo que sí la puede dañar es el exceso de agua que lo hizo aparecer."
+        "explicacion": "Se alimenta de restos en descomposición, no de la planta. Lo que sí la puede dañar es **el exceso de agua** que lo hizo aparecer."
       },
       {
         "tipo": "que_le_pasa",
@@ -549,7 +549,7 @@
           "Amontonarla con otras plantas"
         ],
         "correcta": 1,
-        "explicacion": "Los hongos y bacterias de las manchas se pasan con el agua que salpica. Hojas secas y aire que circule los frenan."
+        "explicacion": "Los hongos y bacterias de las manchas **se pasan con el agua que salpica**. Hojas secas y **aire que circule** los frenan."
       },
       {
         "tipo": "opcion_multiple",
@@ -560,13 +560,13 @@
           "Volver a ponerla en la misma tierra"
         ],
         "correcta": 1,
-        "explicacion": "Se corta lo blando con una tijera limpia y se usa tierra nueva, porque la vieja puede guardar los hongos. Después, a regar con menos frecuencia."
+        "explicacion": "**Se corta lo blando** con una tijera limpia y se usa **tierra nueva**, porque la vieja puede guardar los hongos. Después, a regar con menos frecuencia."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Para salvar una planta con raíces podridas hace falta comprar un fungicida.",
         "correcta": false,
-        "explicacion": "Para plantas de interior no se recomienda: suele costar más que una planta nueva. Lo que cambia las cosas es el riego y el drenaje."
+        "explicacion": "Para plantas de interior **no se recomienda**: suele costar más que una planta nueva. Lo que cambia las cosas es **el riego y el drenaje**."
       }
     ],
     "fuentes": [

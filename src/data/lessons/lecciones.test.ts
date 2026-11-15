@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { TOTAL_LECCIONES, UNIDADES, idsDelPlan } from '../unidades'
 import { esquemaLeccion } from './esquema'
-import { LECCIONES, preguntasDeUnidad } from './index'
+import { LECCIONES, preguntasDeUnidad } from './contenido'
 import type { UnidadId } from '../../lib/tipos'
 
 const todas = Object.values(LECCIONES).flat()

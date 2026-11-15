@@ -8,12 +8,12 @@
       {
         "tipo": "por_que",
         "imagen": "necesidades",
-        "texto": "La comida de verdad la fabrica la planta sola: con luz, agua y aire arma sus propios azúcares. El abono no le da energía, le acerca minerales que necesita para crecer."
+        "texto": "La comida de verdad la fabrica la planta sola: **con luz, agua y aire arma sus propios azúcares**. El abono no le da energía, **le acerca minerales** que necesita para crecer."
       },
       {
         "tipo": "concepto",
         "imagen": "abono-npk",
-        "texto": "Los tres minerales que más importan en un abono son nitrógeno, fósforo y potasio, que en las etiquetas aparecen como N, P y K. Los tres números del envase dicen qué porcentaje trae de cada uno, siempre en ese orden."
+        "texto": "Los tres minerales que más importan en un abono son **nitrógeno, fósforo y potasio**, que en las etiquetas aparecen como **N, P y K**. Los tres números del envase dicen qué porcentaje trae de cada uno, siempre en ese orden."
       },
       {
         "tipo": "tactil",
@@ -40,30 +40,30 @@
       {
         "tipo": "concepto",
         "imagen": "abono-npk",
-        "texto": "Un abono 20-20-20 trae los tres en partes iguales y alcanza para muchas plantas de interior. Para las que dan flor se suelen recomendar fórmulas con más fósforo y potasio."
+        "texto": "Un abono **20-20-20** trae los tres en partes iguales y alcanza para muchas plantas de interior. Para las que dan flor se suelen recomendar fórmulas con **más fósforo y potasio**."
       },
       {
         "tipo": "por_que",
         "imagen": "sustrato",
-        "texto": "En una maceta hay poca tierra de donde sacar minerales. Por eso cada tanto conviene reponerlos, sin apuro y sin exagerar."
+        "texto": "En una maceta hay poca tierra de donde sacar minerales. Por eso **cada tanto conviene reponerlos**, sin apuro y **sin exagerar**."
       },
       {
         "tipo": "concepto",
         "imagen": "luz-poca",
-        "texto": "El abono no hace crecer a la planta por sí solo: acompaña cuando la luz, el agua y la temperatura están bien. Adentro de casa, con menos luz, las plantas necesitan bastante poco."
+        "texto": "El abono no hace crecer a la planta por sí solo: **acompaña** cuando la luz, el agua y la temperatura están bien. Adentro de casa, **con menos luz, las plantas necesitan bastante poco**."
       }
     ],
     "para_llevarte": [
-      "La planta fabrica su comida con la luz.",
-      "El abono aporta minerales, no energía.",
-      "N, P y K: los tres números de la etiqueta."
+      "La planta fabrica su comida **con la luz**.",
+      "El abono aporta **minerales, no energía**.",
+      "N, P y K: **los tres números de la etiqueta**."
     ],
     "quiz": [
       {
         "tipo": "verdadero_falso",
         "pregunta": "El abono le da energía a la planta, igual que la comida a nosotros.",
         "correcta": false,
-        "explicacion": "La energía la saca de la luz, con la que fabrica sus propios azúcares. El abono solo le acerca minerales."
+        "explicacion": "La energía la saca de la luz, **con la que fabrica sus propios azúcares**. El abono **solo le acerca minerales**."
       },
       {
         "tipo": "unir",
@@ -82,7 +82,7 @@
             "b": "Flores y frutos"
           }
         ],
-        "explicacion": "Un truco para acordarte del orden N, P, K: hojas, raíces, flores."
+        "explicacion": "Un truco para acordarte del orden N, P, K: **hojas, raíces, flores**."
       },
       {
         "tipo": "opcion_multiple",
@@ -93,7 +93,7 @@
           "Los meses en que se puede usar"
         ],
         "correcta": 1,
-        "explicacion": "Son los porcentajes de nitrógeno, fósforo y potasio, siempre en ese orden. La dosis está aparte, en las instrucciones."
+        "explicacion": "Son los porcentajes de nitrógeno, fósforo y potasio, **siempre en ese orden**. **La dosis está aparte**, en las instrucciones."
       },
       {
         "tipo": "opcion_multiple",
@@ -104,7 +104,7 @@
           "Abono y riego todos los días"
         ],
         "correcta": 1,
-        "explicacion": "Si lo que falta es luz, el abono no lo compensa. Primero el lugar, después los minerales."
+        "explicacion": "Si lo que falta es luz, **el abono no lo compensa**. **Primero el lugar**, después los minerales."
       }
     ],
     "fuentes": [
@@ -175,38 +175,38 @@
       {
         "tipo": "concepto",
         "imagen": "abono-tipos",
-        "texto": "El abono líquido o en polvo se disuelve en el agua de riego y la planta lo tiene disponible enseguida. Bien diluido es el más fácil de manejar, porque es más difícil pasarse."
+        "texto": "El abono líquido o en polvo **se disuelve en el agua de riego** y la planta lo tiene disponible enseguida. **Bien diluido** es el más fácil de manejar, porque es **más difícil pasarse**."
       },
       {
         "tipo": "concepto",
         "imagen": "abono-tipos",
-        "texto": "El granulado se esparce sobre la tierra una o dos veces por temporada. Los de liberación lenta, en bolitas, palitos o tabletas, van soltando un poquito con cada riego durante semanas o meses."
+        "texto": "El granulado se esparce sobre la tierra **una o dos veces por temporada**. Los de **liberación lenta**, en bolitas, palitos o tabletas, van soltando un poquito con cada riego durante semanas o meses."
       },
       {
         "tipo": "por_que",
         "imagen": "sustrato",
-        "texto": "Los abonos orgánicos vienen de restos de plantas o animales y actúan más despacio, porque primero los tienen que descomponer los organismos de la tierra. Los sintéticos son más concentrados y rápidos, y por eso piden más cuidado con la dosis."
+        "texto": "Los abonos orgánicos vienen de restos de plantas o animales y **actúan más despacio**, porque primero los tienen que descomponer los organismos de la tierra. Los sintéticos son más concentrados y rápidos, y por eso **piden más cuidado con la dosis**."
       },
       {
         "tipo": "concepto",
         "imagen": "abono-tipos",
-        "texto": "El humus de lombriz mejora la tierra y ayuda a que la planta aproveche mejor los nutrientes. Suma mucho, pero no reemplaza del todo a un abono."
+        "texto": "El humus de lombriz **mejora la tierra** y ayuda a que la planta aproveche mejor los nutrientes. Suma mucho, pero **no reemplaza del todo a un abono**."
       },
       {
         "tipo": "dato_ba",
         "imagen": "casa",
-        "texto": "En el Gran Buenos Aires, el INTA enseña a hacer compost en casa con los restos de la cocina, incluso en un balcón, usando un tacho cerrado con tapa y drenaje. Lo recomienda para enriquecer y reactivar la tierra de la huerta, el jardín o el cantero."
+        "texto": "En el Gran Buenos Aires, el INTA enseña a **hacer compost en casa** con los restos de la cocina, incluso en un balcón, usando un **tacho cerrado con tapa y drenaje**. Lo recomienda para enriquecer y reactivar la tierra de la huerta, el jardín o el cantero."
       },
       {
         "tipo": "concepto",
         "imagen": "abono-npk",
-        "texto": "Para plantas de hoja van bien las fórmulas parejas o con más nitrógeno, y para las de flor, las que traen más fósforo y potasio. Adentro de casa, tené en cuenta que algunos abonos orgánicos pueden dar un poco de olor."
+        "texto": "Para plantas de hoja van bien las fórmulas parejas o con **más nitrógeno**, y para las de flor, las que traen **más fósforo y potasio**. Adentro de casa, tené en cuenta que algunos abonos orgánicos pueden dar un poco de **olor**."
       }
     ],
     "para_llevarte": [
-      "Líquido: rápido y fácil de diluir.",
-      "Liberación lenta: menos trabajo, dura semanas o meses.",
-      "Orgánicos: más lentos, mejoran la tierra."
+      "Líquido: **rápido y fácil de diluir**.",
+      "Liberación lenta: **menos trabajo**, dura semanas o meses.",
+      "Orgánicos: **más lentos, mejoran la tierra**."
     ],
     "quiz": [
       {
@@ -230,13 +230,13 @@
             "b": "Orgánico, mejora la tierra"
           }
         ],
-        "explicacion": "Todos sirven: cambia la velocidad y cuánto trabajo te dan. Elegí el que te resulte más cómodo."
+        "explicacion": "Todos sirven: **cambia la velocidad** y cuánto trabajo te dan. **Elegí el que te resulte más cómodo**."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Los abonos orgánicos actúan más rápido que los sintéticos.",
         "correcta": false,
-        "explicacion": "Es al revés: los orgánicos necesitan que los organismos de la tierra los descompongan, y eso lleva tiempo. Los sintéticos son más concentrados y rápidos."
+        "explicacion": "Es al revés: los orgánicos **necesitan que los organismos de la tierra los descompongan**, y eso lleva tiempo. Los sintéticos son **más concentrados y rápidos**."
       },
       {
         "tipo": "opcion_multiple",
@@ -247,13 +247,13 @@
           "Doble dosis cuando me acuerdo"
         ],
         "correcta": 1,
-        "explicacion": "Los de liberación lenta sueltan un poquito con cada riego durante semanas o meses. La doble dosis nunca es buena idea."
+        "explicacion": "Los de liberación lenta sueltan un poquito con cada riego durante **semanas o meses**. **La doble dosis nunca es buena idea**."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "El humus de lombriz reemplaza por completo a cualquier abono.",
         "correcta": false,
-        "explicacion": "Mejora la tierra y ayuda a aprovechar los nutrientes, pero no reemplaza del todo a un abono. Se llevan bien juntos."
+        "explicacion": "Mejora la tierra y ayuda a aprovechar los nutrientes, pero **no reemplaza del todo a un abono**. **Se llevan bien juntos**."
       }
     ],
     "fuentes": [
@@ -318,38 +318,38 @@
       {
         "tipo": "concepto",
         "imagen": "riego",
-        "texto": "Lo más común es disolver el abono en el agua de riego. Nunca lo prepares más fuerte de lo que dice la etiqueta: ante la duda, a la mitad o menos."
+        "texto": "Lo más común es disolver el abono en el agua de riego. **Nunca lo prepares más fuerte** de lo que dice la etiqueta: ante la duda, **a la mitad o menos**."
       },
       {
         "tipo": "concepto",
         "imagen": "abono-tipos",
-        "texto": "El granulado y el de liberación lenta van directo sobre la tierra, en la cantidad que indica el envase. Con cualquiera, regá primero si la tierra está seca, porque el abono sobre tierra seca puede quemar las raíces."
+        "texto": "El granulado y el de liberación lenta van directo sobre la tierra, en la cantidad que indica el envase. Con cualquiera, **regá primero si la tierra está seca**, porque el abono sobre tierra seca **puede quemar las raíces**."
       },
       {
         "tipo": "concepto",
         "imagen": "rociador",
-        "texto": "El abono foliar se rocía sobre las hojas, pero la planta absorbe por ahí solo una parte chica de lo que le ponés. Sirve como complemento puntual y no reemplaza al abono en la tierra, porque las raíces son su vía principal."
+        "texto": "El abono foliar se rocía sobre las hojas, pero la planta absorbe por ahí **solo una parte chica** de lo que le ponés. Sirve como complemento puntual y **no reemplaza al abono en la tierra**, porque las raíces son su vía principal."
       },
       {
         "tipo": "por_que",
         "imagen": "abono-exceso",
-        "texto": "El abono disuelto son sales, y las que la planta no usa se van juntando en la tierra. Cuando hay demasiadas, a las raíces les cuesta tomar agua aunque la tierra esté húmeda, y se pueden quemar."
+        "texto": "El abono disuelto son sales, y **las que la planta no usa se van juntando** en la tierra. Cuando hay demasiadas, a las raíces **les cuesta tomar agua aunque la tierra esté húmeda**, y se pueden quemar."
       },
       {
         "tipo": "concepto",
         "imagen": "abono-exceso",
-        "texto": "Las señales de exceso son puntas y bordes marrones, hojas de abajo que se caen, planta decaída y una costra blanca sobre la tierra o en el borde de la maceta. Ojo, que varias de esas señales también pueden venir de otras causas."
+        "texto": "Las señales de exceso son **puntas y bordes marrones**, hojas de abajo que se caen, planta decaída y una **costra blanca** sobre la tierra o en el borde de la maceta. Ojo, que varias de esas señales también pueden venir de otras causas."
       },
       {
         "tipo": "concepto",
         "imagen": "ducha",
-        "texto": "Si te pasaste, tranqui: sacá la costra de arriba y hacé correr despacio mucha agua por la maceta, más o menos el doble de su volumen, dejando que escurra toda. Después esperá a que la tierra se seque como siempre antes de volver a regar."
+        "texto": "Si te pasaste, tranqui: **sacá la costra de arriba** y hacé correr despacio **mucha agua** por la maceta, más o menos **el doble de su volumen**, dejando que escurra toda. Después esperá a que la tierra se seque como siempre antes de volver a regar."
       }
     ],
     "para_llevarte": [
-      "Nunca más fuerte que la etiqueta.",
-      "En las hojas: complemento, no reemplazo.",
-      "Si te pasaste, mucha agua y que escurra."
+      "**Nunca más fuerte** que la etiqueta.",
+      "En las hojas: **complemento, no reemplazo**.",
+      "Si te pasaste, **mucha agua y que escurra**."
     ],
     "quiz": [
       {
@@ -362,7 +362,7 @@
           "Le falta una maceta más chica"
         ],
         "correcta": 1,
-        "explicacion": "La costra blanca son sales que se fueron acumulando, y pueden quemar las puntas de las hojas y las raíces. No pasa nada: se lavan con agua."
+        "explicacion": "La costra blanca son **sales que se fueron acumulando**, y pueden quemar las puntas de las hojas y las raíces. No pasa nada: **se lavan con agua**."
       },
       {
         "tipo": "opcion_multiple",
@@ -373,19 +373,19 @@
           "La dejo al sol para que se seque rápido"
         ],
         "correcta": 1,
-        "explicacion": "El agua que pasa y escurre se lleva las sales que sobran. Con más o menos el doble del volumen de la maceta alcanza."
+        "explicacion": "El agua que pasa y escurre **se lleva las sales que sobran**. Con más o menos **el doble del volumen de la maceta** alcanza."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Rociar abono en las hojas alcanza para reemplazar al abono en la tierra.",
         "correcta": false,
-        "explicacion": "Por las hojas entra solo una parte chica de lo que se rocía. Es un complemento: la vía principal son las raíces."
+        "explicacion": "Por las hojas entra solo **una parte chica** de lo que se rocía. Es un complemento: **la vía principal son las raíces**."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Si la tierra está seca, conviene regar antes de abonar.",
         "correcta": true,
-        "explicacion": "El abono sobre tierra seca puede quemar las raíces. Con la tierra ya húmeda es mucho más suave."
+        "explicacion": "El abono sobre tierra seca **puede quemar las raíces**. Con la **tierra ya húmeda** es mucho más suave."
       },
       {
         "tipo": "opcion_multiple",
@@ -396,7 +396,7 @@
           "Tres tapitas, pero una sola vez por año"
         ],
         "correcta": 1,
-        "explicacion": "La dosis de la etiqueta es el máximo. Más abono no es más crecimiento: es más riesgo de quemar las raíces."
+        "explicacion": "**La dosis de la etiqueta es el máximo**. **Más abono no es más crecimiento**: es más riesgo de quemar las raíces."
       }
     ],
     "fuentes": [
@@ -467,34 +467,34 @@
       {
         "tipo": "dato_ba",
         "imagen": "estaciones",
-        "texto": "Las guías del hemisferio norte dicen abonar más o menos de marzo a septiembre, que allá es primavera y verano. En Buenos Aires es al revés: de septiembre a marzo, cuando hay más luz y la planta está creciendo."
+        "texto": "Las guías del hemisferio norte dicen abonar más o menos de marzo a septiembre, que allá es primavera y verano. En Buenos Aires es al revés: **de septiembre a marzo**, cuando hay **más luz** y la planta está creciendo."
       },
       {
         "tipo": "por_que",
         "imagen": "luz-poca",
-        "texto": "En invierno, de junio a agosto, hay menos luz y muchas plantas casi dejan de crecer. Si abonás igual no lo aprovechan y las sales se juntan en la tierra, así que lo mejor es guardar el abono hasta la primavera."
+        "texto": "En invierno, **de junio a agosto**, hay menos luz y muchas plantas casi dejan de crecer. Si abonás igual no lo aprovechan y las sales se juntan en la tierra, así que lo mejor es **guardar el abono hasta la primavera**."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-feliz",
-        "texto": "La señal más clara la da la planta: si está sacando hojas nuevas o pimpollos, está activa y puede aprovechar el abono. Cada cuánto depende del producto, así que seguí la etiqueta y, ante la duda, quedate corto."
+        "texto": "La señal más clara la da la planta: si está sacando **hojas nuevas o pimpollos**, está activa y puede aprovechar el abono. Cada cuánto depende del producto, así que **seguí la etiqueta** y, ante la duda, **quedate corto**."
       },
       {
         "tipo": "concepto",
         "imagen": "trasplante",
-        "texto": "A una planta recién trasplantada o recién comprada no hace falta abonarla. Muchas tierras nuevas ya traen abono para varios meses, y las plantas de vivero suelen venir con nutrientes para dos o tres meses."
+        "texto": "A una planta recién trasplantada o recién comprada **no hace falta abonarla**. Muchas tierras nuevas **ya traen abono para varios meses**, y las plantas de vivero suelen venir con nutrientes para dos o tres meses."
       },
       {
         "tipo": "comparativa",
         "imagen_mal": "planta-triste",
         "imagen_bien": "necesidades",
-        "texto": "El abono no es un remedio: a una planta enferma, dañada o decaída no la cura y hasta le puede hacer peor. Primero revisá la luz, el riego y si tiene plagas, y abonala recién cuando se recupere."
+        "texto": "**El abono no es un remedio**: a una planta enferma, dañada o decaída no la cura y hasta le puede hacer peor. **Primero revisá la luz, el riego y si tiene plagas**, y abonala recién cuando se recupere."
       }
     ],
     "para_llevarte": [
-      "Abonar de septiembre a marzo, si está creciendo.",
-      "En invierno, recién trasplantada o enferma: no.",
-      "El abono no es un remedio."
+      "Abonar de **septiembre a marzo**, si está creciendo.",
+      "En invierno, **recién trasplantada o enferma**: no.",
+      "El abono **no es un remedio**."
     ],
     "quiz": [
       {
@@ -506,7 +506,7 @@
           "Todo el año igual"
         ],
         "correcta": 1,
-        "explicacion": "Primavera y verano son la época de crecimiento, y acá caen de septiembre a marzo. En invierno, mejor guardar el abono."
+        "explicacion": "Primavera y verano son la época de crecimiento, y acá caen **de septiembre a marzo**. **En invierno, mejor guardar el abono**."
       },
       {
         "tipo": "que_le_pasa",
@@ -518,13 +518,13 @@
           "Le doy doble dosis de abono"
         ],
         "correcta": 1,
-        "explicacion": "El abono no cura. Si el problema es otro, sumarle sales a una planta débil puede empeorarla, así que primero hay que encontrar la causa."
+        "explicacion": "**El abono no cura**. Si el problema es otro, sumarle sales a una planta débil puede empeorarla, así que **primero hay que encontrar la causa**."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Una planta recién trasplantada necesita abono enseguida.",
         "correcta": false,
-        "explicacion": "No hace falta. Muchas tierras nuevas ya traen abono para un buen tiempo, así que podés esperar tranqui."
+        "explicacion": "**No hace falta**. Muchas tierras nuevas **ya traen abono** para un buen tiempo, así que podés esperar tranqui."
       },
       {
         "tipo": "unir",
@@ -547,7 +547,7 @@
             "b": "Buscar la causa primero"
           }
         ],
-        "explicacion": "El abono acompaña a una planta sana que está creciendo. En los demás casos, esperar es cuidarla."
+        "explicacion": "El abono acompaña a una **planta sana que está creciendo**. En los demás casos, **esperar es cuidarla**."
       }
     ],
     "fuentes": [

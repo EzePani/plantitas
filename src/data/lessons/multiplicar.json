@@ -8,38 +8,38 @@
       {
         "tipo": "concepto",
         "imagen": "nudo",
-        "texto": "Un esqueje es un pedazo de tallo con hojas que, puesto a enraizar, se vuelve una planta nueva igual a la madre. Cortalo de unos 8 a 15 centímetros, justo debajo de un nudo: el bultito donde la hoja se une al tallo, que es de donde brotan las raíces."
+        "texto": "Un esqueje es un pedazo de tallo con hojas que, puesto a enraizar, se vuelve una planta nueva igual a la madre. Cortalo de unos **8 a 15 centímetros**, **justo debajo de un nudo**: el bultito donde la hoja se une al tallo, que es de donde brotan las raíces."
       },
       {
         "tipo": "concepto",
         "imagen": "esqueje-agua",
-        "texto": "Sacale las hojas de abajo y poné el tallo en un frasco con agua a temperatura ambiente, con al menos un nudo sumergido y ninguna hoja bajo el agua. Dejalo en un lugar con luz indirecta brillante, sin sol sobre las hojas."
+        "texto": "**Sacale las hojas de abajo** y poné el tallo en un frasco con agua a temperatura ambiente, con al menos un nudo sumergido y **ninguna hoja bajo el agua**. Dejalo en un lugar con **luz indirecta brillante**, sin sol sobre las hojas."
       },
       {
         "tipo": "concepto",
         "imagen": "esqueje-agua",
-        "texto": "Cambiá el agua una o dos veces por semana, o antes si se pone turbia, y no dejes que baje tanto que las raíces queden al aire. Las raíces pueden tardar desde un par de semanas hasta más de un mes, así que paciencia."
+        "texto": "**Cambiá el agua una o dos veces por semana**, o antes si se pone turbia, y no dejes que baje tanto que las raíces queden al aire. Las raíces pueden tardar desde un par de semanas hasta más de un mes, así que **paciencia**."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-feliz",
-        "texto": "El potus, el filodendro, la monstera y los hijitos de la cinta enraízan fácil en agua. Las suculentas, en cambio, en general no enraízan bien así y se multiplican de otra forma, que vas a ver más adelante."
+        "texto": "El potus, el filodendro, la monstera y los hijitos de la cinta **enraízan fácil en agua**. **Las suculentas**, en cambio, en general no enraízan bien así y se multiplican de otra forma, que vas a ver más adelante."
       },
       {
         "tipo": "por_que",
         "imagen": "trasplante",
-        "texto": "Cuando las raíces midan unos centímetros, pasá el esqueje a una maceta con tierra y mantenela húmeda las primeras semanas. Las raíces que nacen en agua son distintas y les cuesta adaptarse a la tierra, así que si se decae o pierde alguna hoja, tranqui: con cuidado parejo suele recuperarse."
+        "texto": "Cuando las raíces midan unos centímetros, **pasá el esqueje a una maceta con tierra** y **mantenela húmeda** las primeras semanas. Las raíces que nacen en agua son distintas y les cuesta adaptarse a la tierra, así que si se decae o pierde alguna hoja, tranqui: con cuidado parejo suele recuperarse."
       },
       {
         "tipo": "dato_ba",
         "imagen": "estaciones",
-        "texto": "Las guías del hemisferio norte recomiendan sacar esquejes desde el comienzo de la primavera y durante el verano, cuando la planta está creciendo. En Buenos Aires eso va de septiembre a febrero, aunque adentro de casa muchas plantas enraízan en cualquier momento del año."
+        "texto": "Las guías del hemisferio norte recomiendan sacar esquejes desde el comienzo de la primavera y durante el verano, cuando la planta está creciendo. En Buenos Aires eso va de **septiembre a febrero**, aunque adentro de casa muchas plantas enraízan en cualquier momento del año."
       }
     ],
     "para_llevarte": [
-      "Cortar justo debajo de un nudo.",
-      "Nudo bajo el agua, hojas afuera, agua limpia.",
-      "Con raíces de unos centímetros, a la tierra."
+      "Cortar **justo debajo de un nudo**.",
+      "**Nudo bajo el agua**, hojas afuera, agua limpia.",
+      "Con raíces de unos centímetros, **a la tierra**."
     ],
     "quiz": [
       {
@@ -51,13 +51,13 @@
           "Solo la hoja, sin nada de tallo"
         ],
         "correcta": 1,
-        "explicacion": "Las raíces brotan del nudo, el bultito donde la hoja se une al tallo. Un pedazo sin nudo no tiene de dónde sacarlas."
+        "explicacion": "**Las raíces brotan del nudo**, el bultito donde la hoja se une al tallo. Un pedazo sin nudo no tiene de dónde sacarlas."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Conviene que algunas hojas queden sumergidas en el frasco.",
         "correcta": false,
-        "explicacion": "Bajo el agua van el tallo y el nudo. Las hojas de abajo se sacan antes, para que ninguna quede sumergida."
+        "explicacion": "Bajo el agua van **el tallo y el nudo**. Las hojas de abajo se sacan antes, para que ninguna quede sumergida."
       },
       {
         "tipo": "que_le_pasa",
@@ -69,7 +69,7 @@
           "Hay que sacarlo y volver a cortarlo"
         ],
         "correcta": 0,
-        "explicacion": "Es un bajón normal del cambio. Mantené la tierra húmeda y la luz indirecta brillante, y dale unas semanas."
+        "explicacion": "Es un bajón normal del cambio. **Mantené la tierra húmeda** y la luz indirecta brillante, y dale **unas semanas**."
       },
       {
         "tipo": "unir",
@@ -88,7 +88,7 @@
             "b": "Mejor sin agua"
           }
         ],
-        "explicacion": "Las de follaje tropical enraízan fácil en agua. Las suculentas en general no, y tienen su propio método."
+        "explicacion": "Las de **follaje tropical enraízan fácil en agua**. Las suculentas en general no, y tienen su propio método."
       },
       {
         "tipo": "opcion_multiple",
@@ -99,7 +99,7 @@
           "Solo en marzo"
         ],
         "correcta": 1,
-        "explicacion": "Primavera y verano, cuando la planta está creciendo. Las guías del norte dicen lo mismo, pero con los meses al revés."
+        "explicacion": "**Primavera y verano**, cuando la planta está creciendo. Las guías del norte dicen lo mismo, pero con los meses al revés."
       }
     ],
     "fuentes": [
@@ -200,40 +200,40 @@
       {
         "tipo": "concepto",
         "imagen": "esqueje-agua",
-        "texto": "El agua se puede usar de dos maneras: de paso, hasta que el esqueje saca raíces, o como casa para quedarse. Para casi todas las plantas de interior, las guías la usan solo de paso y después las pasan a tierra."
+        "texto": "El agua se puede usar de dos maneras: de paso, hasta que el esqueje saca raíces, o como casa para quedarse. Para casi todas las plantas de interior, las guías la usan **solo de paso** y **después las pasan a tierra**."
       },
       {
         "tipo": "por_que",
         "imagen": "raices-podridas",
-        "texto": "Las raíces necesitan oxígeno además de agua. En una tierra empapada el agua ocupa los huecos donde había aire, y las raíces se ahogan y se pudren."
+        "texto": "Las raíces **necesitan oxígeno** además de agua. En una tierra empapada el agua ocupa los huecos donde había aire, y las raíces **se ahogan y se pudren**."
       },
       {
         "tipo": "por_que",
         "imagen": "planta-en-agua",
-        "texto": "Por eso la hidroponía, que es cultivar en agua con nutrientes y sin tierra, siempre se ocupa de que a las raíces les llegue oxígeno: con burbujas de aire o dejando parte de las raíces fuera del agua. El problema nunca fue el agua en sí, sino que falte el aire."
+        "texto": "Por eso la hidroponía, que es cultivar en agua con nutrientes y sin tierra, siempre se ocupa de que a las raíces les llegue **oxígeno**: con burbujas de aire o dejando parte de las raíces fuera del agua. **El problema nunca fue el agua en sí**, sino que falte el aire."
       },
       {
         "tipo": "concepto",
         "imagen": "abono-tipos",
-        "texto": "En la tierra la planta encuentra minerales, y en el agua se los tenés que dar vos. Para el bambú de la suerte, que puede vivir en agua, las guías indican cambiarla todas las semanas y sumar abono líquido muy diluido, a un cuarto de la dosis, cada dos meses."
+        "texto": "En la tierra la planta encuentra minerales, y en el agua se los tenés que dar vos. Para el bambú de la suerte, que puede vivir en agua, las guías indican **cambiarla todas las semanas** y sumar **abono líquido muy diluido**, a un cuarto de la dosis, cada dos meses."
       },
       {
         "tipo": "por_que",
         "imagen": "trasplante",
-        "texto": "Las raíces que se forman en agua son más toscas y se adaptan peor a la tierra que las que nacen en un sustrato. Si la idea es que la planta viva en maceta, pasala cuando las raíces midan unos centímetros y tenele paciencia mientras se acostumbra."
+        "texto": "Las raíces que se forman en agua son más toscas y **se adaptan peor a la tierra** que las que nacen en un sustrato. Si la idea es que la planta viva en maceta, pasala **cuando las raíces midan unos centímetros** y tenele paciencia mientras se acostumbra."
       }
     ],
     "para_llevarte": [
-      "Las raíces necesitan agua y también aire.",
-      "Para vivir en agua: agua nueva y abono muy diluido.",
-      "Las raíces de agua se adaptan con esfuerzo a la tierra."
+      "Las raíces necesitan **agua y también aire**.",
+      "Para vivir en agua: **agua nueva y abono muy diluido**.",
+      "Las raíces de agua **se adaptan con esfuerzo** a la tierra."
     ],
     "quiz": [
       {
         "tipo": "verdadero_falso",
         "pregunta": "A las raíces les alcanza con tener agua: el aire no les hace falta.",
         "correcta": false,
-        "explicacion": "Necesitan oxígeno. Por eso una tierra empapada las ahoga, y por eso la hidroponía se ocupa de que les llegue aire."
+        "explicacion": "**Necesitan oxígeno**. Por eso una tierra empapada las ahoga, y por eso la hidroponía se ocupa de que les llegue aire."
       },
       {
         "tipo": "que_le_pasa",
@@ -245,7 +245,7 @@
           "Les sobró luz"
         ],
         "correcta": 1,
-        "explicacion": "Con la tierra saturada no queda aire entre los granitos y las raíces se ahogan. No es culpa tuya: con una maceta con agujeros se evita."
+        "explicacion": "Con la tierra saturada no queda aire entre los granitos y **las raíces se ahogan**. No es culpa tuya: con una maceta con agujeros se evita."
       },
       {
         "tipo": "opcion_multiple",
@@ -256,7 +256,7 @@
           "No los necesita"
         ],
         "correcta": 1,
-        "explicacion": "Sin tierra, los minerales tienen que venir en el agua. Siempre en dosis muy chicas, mucho menos que para una maceta."
+        "explicacion": "Sin tierra, **los minerales tienen que venir en el agua**. Siempre en **dosis muy chicas**, mucho menos que para una maceta."
       },
       {
         "tipo": "unir",
@@ -275,13 +275,13 @@
             "b": "Nutrientes y oxígeno a las raíces"
           }
         ],
-        "explicacion": "En los tres casos la clave es la misma: que a las raíces no les falte ni agua, ni aire, ni minerales."
+        "explicacion": "En los tres casos la clave es la misma: que a las raíces no les falte **ni agua, ni aire, ni minerales**."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Cualquier planta de interior puede vivir en un florero con agua.",
         "correcta": false,
-        "explicacion": "No todas se llevan bien con el agua. Las suculentas, por ejemplo, en general ni siquiera enraízan bien ahí."
+        "explicacion": "**No todas se llevan bien con el agua**. Las suculentas, por ejemplo, en general ni siquiera enraízan bien ahí."
       }
     ],
     "fuentes": [
@@ -370,38 +370,38 @@
       {
         "tipo": "concepto",
         "imagen": "division",
-        "texto": "Algunas plantas crecen en mata, con varios tallos que salen juntos de la tierra, y se pueden separar en dos o más plantas. Eso es dividir, y va bien con el espatifilo, la lengua de suegra, la zamioculca, la calatea y los helechos."
+        "texto": "Algunas plantas **crecen en mata**, con varios tallos que salen juntos de la tierra, y se pueden separar en dos o más plantas. Eso es **dividir**, y va bien con el espatifilo, la lengua de suegra, la zamioculca, la calatea y los helechos."
       },
       {
         "tipo": "concepto",
         "imagen": "division",
-        "texto": "Sacá la planta de la maceta y abrí el pan de raíces con las manos, o con un cuchillo limpio si está muy duro. Cada pedazo tiene que quedarse con hojas, tallos y raíces propias, y va a su maceta con tierra nueva."
+        "texto": "Sacá la planta de la maceta y **abrí el pan de raíces** con las manos, o con un cuchillo limpio si está muy duro. Cada pedazo tiene que quedarse con **hojas, tallos y raíces propias**, y va a su maceta con tierra nueva."
       },
       {
         "tipo": "concepto",
         "imagen": "hijuelo",
-        "texto": "Otras plantas sacan hijuelos: plantitas chicas que nacen pegadas a la madre, como en el aloe, la lengua de suegra, la haworthia y la pilea. Separalos recién cuando tengan sus propias raíces y varias hojas."
+        "texto": "Otras plantas sacan **hijuelos**: plantitas chicas que nacen pegadas a la madre, como en el aloe, la lengua de suegra, la haworthia y la pilea. Separalos recién **cuando tengan sus propias raíces** y varias hojas."
       },
       {
         "tipo": "concepto",
         "imagen": "estolon",
-        "texto": "La cinta larga tallos finos y largos, los estolones, con hijitos en la punta. Podés apoyar el hijito en una macetita con tierra húmeda y cortarlo cuando agarró, o cortarlo y dejarlo en un vaso con agua hasta que alargue las raíces."
+        "texto": "La cinta larga tallos finos y largos, los **estolones**, con hijitos en la punta. Podés **apoyar el hijito en una macetita con tierra húmeda** y cortarlo cuando agarró, o cortarlo y dejarlo en un vaso con agua hasta que alargue las raíces."
       },
       {
         "tipo": "concepto",
         "imagen": "riego",
-        "texto": "Después de dividir, regá para asentar la tierra y dejá las plantas nuevas en un lugar con luz indirecta brillante. Esperá unas semanas antes de abonar, así las raíces se recuperan tranquilas."
+        "texto": "Después de dividir, **regá para asentar la tierra** y dejá las plantas nuevas en un lugar con luz indirecta brillante. **Esperá unas semanas antes de abonar**, así las raíces se recuperan tranquilas."
       },
       {
         "tipo": "dato_ba",
         "imagen": "estaciones",
-        "texto": "La mejor época para dividir es el comienzo de la primavera, cuando la planta vuelve a crecer: las guías del norte hablan de marzo a mayo. En Buenos Aires eso es de septiembre a noviembre, aunque si hace falta se puede en otro momento del año."
+        "texto": "La mejor época para dividir es el **comienzo de la primavera**, cuando la planta vuelve a crecer: las guías del norte hablan de marzo a mayo. En Buenos Aires eso es de **septiembre a noviembre**, aunque si hace falta se puede en otro momento del año."
       }
     ],
     "para_llevarte": [
-      "Dividir: cada pedazo con hojas y raíces.",
-      "Hijuelos: separarlos cuando ya tienen raíces propias.",
-      "Mejor al comienzo de la primavera: septiembre a noviembre."
+      "Dividir: **cada pedazo con hojas y raíces**.",
+      "Hijuelos: **separarlos cuando ya tienen raíces propias**.",
+      "Mejor al **comienzo de la primavera**: septiembre a noviembre."
     ],
     "quiz": [
       {
@@ -421,7 +421,7 @@
             "b": "Mata que se divide"
           }
         ],
-        "explicacion": "Cada planta te muestra su método: mirá si hace mata, si saca hijuelos al pie o si larga tallos con hijitos."
+        "explicacion": "Cada planta te muestra su método: **mirá si hace mata**, si saca hijuelos al pie o si larga tallos con hijitos."
       },
       {
         "tipo": "opcion_multiple",
@@ -432,13 +432,13 @@
           "Solo cuando la madre se seca"
         ],
         "correcta": 1,
-        "explicacion": "Un hijuelo con raíces y hojas ya se puede arreglar solo. Si todavía es muy chico, no pasa nada: dejalo crecer un poco más al lado de la madre."
+        "explicacion": "Un hijuelo **con raíces y hojas** ya se puede arreglar solo. Si todavía es muy chico, no pasa nada: **dejalo crecer un poco más** al lado de la madre."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Al dividir una mata, cada pedazo tiene que llevarse sus propias raíces.",
         "correcta": true,
-        "explicacion": "Hojas, tallos y raíces en cada parte. Los pedazos más grandes se recuperan más rápido."
+        "explicacion": "**Hojas, tallos y raíces en cada parte**. Los pedazos más grandes se recuperan más rápido."
       },
       {
         "tipo": "que_le_pasa",
@@ -450,7 +450,7 @@
           "Le falta agua"
         ],
         "correcta": 1,
-        "explicacion": "Es su forma de multiplicarse. Podés dejarlos colgando o usarlos para armar plantas nuevas."
+        "explicacion": "Es su forma de multiplicarse. Podés dejarlos colgando o usarlos para **armar plantas nuevas**."
       },
       {
         "tipo": "opcion_multiple",
@@ -461,7 +461,7 @@
           "Lo dejo sin regar al sol directo"
         ],
         "correcta": 1,
-        "explicacion": "Las raíces necesitan un tiempo para recuperarse. Agua para asentar, luz indirecta brillante y nada de abono por unas semanas."
+        "explicacion": "Las raíces necesitan un tiempo para recuperarse. Agua para asentar, luz indirecta brillante y **nada de abono por unas semanas**."
       }
     ],
     "fuentes": [
@@ -550,39 +550,39 @@
       {
         "tipo": "concepto",
         "imagen": "hijuelo",
-        "texto": "Muchas suculentas y cactus hacen el trabajo solos: sacan hijuelos al pie, como el aloe, la haworthia y los cactus que crecen en grupo. Cuando están bien enraizados se separan con cuidado y van a su maceta, con mezcla para cactus y muy poca agua al principio."
+        "texto": "Muchas suculentas y cactus hacen el trabajo solos: sacan **hijuelos al pie**, como el aloe, la haworthia y los cactus que crecen en grupo. Cuando están bien enraizados se separan con cuidado y van a su maceta, con mezcla para cactus y **muy poca agua al principio**."
       },
       {
         "tipo": "concepto",
         "imagen": "tijera-poda",
-        "texto": "De las que tienen tallo, como el jade, se corta un pedazo con una tijera limpia y filosa y se le sacan las hojas de abajo. A una echeveria se le puede cortar la roseta entera con unos centímetros de tallo, y el tronquito que queda suele dar rosetas nuevas."
+        "texto": "De las que tienen tallo, como el jade, **se corta un pedazo** con una tijera limpia y filosa y se le sacan las hojas de abajo. A una echeveria se le puede cortar la **roseta entera** con unos centímetros de tallo, y el tronquito que queda suele dar rosetas nuevas."
       },
       {
         "tipo": "concepto",
         "imagen": "hoja-suculenta",
-        "texto": "Algunas, como el jade y la echeveria, brotan desde una sola hoja, que tiene que salir entera, con la base donde se unía al tallo. Se apoya sobre tierra apenas húmeda, sin enterrarla, y en varias semanas aparecen raicitas y una roseta nueva."
+        "texto": "Algunas, como el jade y la echeveria, brotan desde **una sola hoja**, que tiene que salir entera, con la base donde se unía al tallo. Se apoya sobre tierra apenas húmeda, **sin enterrarla**, y en varias semanas aparecen raicitas y una roseta nueva."
       },
       {
         "tipo": "por_que",
         "imagen": "callo",
-        "texto": "Antes de plantar un esqueje de tallo, dejalo secar al aire entre un día y una semana, hasta que el corte forme una cascarita seca: el callo. Esa cicatriz baja el riesgo de que el esqueje se pudra antes de sacar raíces."
+        "texto": "Antes de plantar un esqueje de tallo, **dejalo secar al aire** entre un día y una semana, hasta que el corte forme una cascarita seca: **el callo**. Esa cicatriz baja el riesgo de que el esqueje se pudra antes de sacar raíces."
       },
       {
         "tipo": "comparativa",
         "imagen_mal": "planta-ahogada",
         "imagen_bien": "callo",
-        "texto": "Plantar el esqueje recién cortado y regarlo mucho es el camino más corto a que se pudra, y el vaso con agua tampoco les sirve. Dejalo hacer callo, plantalo en mezcla para cactus y mantené la tierra apenas húmeda mientras enraíza."
+        "texto": "Plantar el esqueje recién cortado y regarlo mucho es **el camino más corto a que se pudra**, y el vaso con agua tampoco les sirve. **Dejalo hacer callo**, plantalo en mezcla para cactus y mantené la tierra apenas húmeda mientras enraíza."
       },
       {
         "tipo": "dato_ba",
         "imagen": "estaciones",
-        "texto": "Las guías del norte dicen que los esquejes de suculentas prenden más fácil de primavera a verano. En Buenos Aires eso es de septiembre a febrero, aunque el jade, por ejemplo, se anima en cualquier momento del año."
+        "texto": "Las guías del norte dicen que los esquejes de suculentas prenden más fácil de primavera a verano. En Buenos Aires eso es de **septiembre a febrero**, aunque el jade, por ejemplo, se anima en cualquier momento del año."
       }
     ],
     "para_llevarte": [
-      "Hijuelos, tallos y hojas enteras: los tres sirven.",
-      "Primero el callo, después la tierra.",
-      "Poca agua mientras enraíza, y nada de frasco."
+      "Hijuelos, tallos y hojas enteras: **los tres sirven**.",
+      "**Primero el callo**, después la tierra.",
+      "Poca agua mientras enraíza, y **nada de frasco**."
     ],
     "quiz": [
       {
@@ -594,7 +594,7 @@
           "Lo planto enseguida y lo riego bien"
         ],
         "correcta": 1,
-        "explicacion": "El corte tiene que cicatrizar antes de tocar la tierra. Con el callo formado, es mucho menos probable que se pudra."
+        "explicacion": "El corte **tiene que cicatrizar** antes de tocar la tierra. Con el callo formado, es mucho menos probable que se pudra."
       },
       {
         "tipo": "que_le_pasa",
@@ -606,19 +606,19 @@
           "Le faltó abono"
         ],
         "correcta": 1,
-        "explicacion": "Le pasa a muchísima gente. La próxima, dejalo secar unos días antes de plantarlo y mantené la tierra apenas húmeda."
+        "explicacion": "Le pasa a muchísima gente. La próxima, **dejalo secar unos días antes de plantarlo** y mantené la tierra apenas húmeda."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Los esquejes de suculentas enraízan mejor en un vaso con agua.",
         "correcta": false,
-        "explicacion": "La mayoría de las suculentas no enraíza bien en agua. Lo suyo es callo, mezcla para cactus y poca humedad."
+        "explicacion": "La mayoría de las suculentas **no enraíza bien en agua**. Lo suyo es callo, mezcla para cactus y poca humedad."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Media hoja de suculenta sirve igual que una hoja entera para sacar una planta nueva.",
         "correcta": false,
-        "explicacion": "La hoja tiene que salir completa, con la base donde se unía al tallo, porque de ahí brota la planta nueva. Si se parte, no enraíza."
+        "explicacion": "La hoja tiene que **salir completa**, con la base donde se unía al tallo, porque de ahí brota la planta nueva. Si se parte, no enraíza."
       },
       {
         "tipo": "unir",
@@ -637,7 +637,7 @@
             "b": "Apoyarla sobre la tierra"
           }
         ],
-        "explicacion": "Tres caminos distintos y una misma regla: poca agua y nada de apuro."
+        "explicacion": "Tres caminos distintos y una misma regla: **poca agua y nada de apuro**."
       }
     ],
     "fuentes": [

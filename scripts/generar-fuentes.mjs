@@ -1,4 +1,4 @@
-// Arma SOURCES.md y VERIFY.md a partir del contenido (lecciones, catálogo, advertencias)
+// Arma SOURCES.md a partir del contenido (lecciones, catálogo, advertencias)
 // y de las notas de investigación (investigacion/*-notas.json).
 // Uso: node scripts/generar-fuentes.mjs
 import { existsSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
@@ -46,7 +46,7 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 
 - **alta**: 2 o más fuentes institucionales coinciden.
 - **media**: 1 fuente institucional más consenso práctico, o instituciones que coinciden con matices.
-- **baja**: poca evidencia. En la app se muestra con aviso. Todo lo de confianza baja está en [VERIFY.md](VERIFY.md).
+- **baja**: poca evidencia. En la app se muestra con aviso.
 
 | Contenido | Total | Alta | Media | Baja |
 | --- | --- | --- | --- | --- |
@@ -79,48 +79,4 @@ for (const [org, lista] of orgs) {
 }
 writeFileSync('SOURCES.md', s)
 
-// ---------- VERIFY.md ----------
-const items = []
-const agregar = (id, dato, motivo, urls = []) => items.push({ id, dato, motivo, urls })
-for (const n of notas) for (const r of n.revisar ?? []) agregar(r.id, r.dato, r.motivo, r.fuentes ?? [])
-for (const l of lecciones) if (l.confianza === 'baja' || l.estado) agregar(l.id, 'lección completa', `Confianza ${l.confianza}${l.estado ? ', marcada como no verificada' : ''}.`)
-for (const p of plantas) {
-  for (const e of ['gato', 'perro']) if (p.mascotas[`toxicidad_${e}`] === 'no_verificada') agregar(p.id, `toxicidad_${e}`, 'Sin fuente veterinaria: figura como "no verificada" y la app la trata como no apta.')
-  if (p.mascotas.confianza === 'baja') agregar(p.id, 'toxicidad', 'Confianza baja en el dato de mascotas.')
-  for (const k of ['luz', 'riego', 'humedad', 'sustrato']) if (p[k].confianza === 'baja') agregar(p.id, k, 'Confianza baja.')
-  if (p.luz.confianza_sol === 'baja') agregar(p.id, 'horas de sol directo, sol de tarde y sensibilidad al calor', `Estimación propia sin fuente (se derivó de los datos de luz ya relevados): ${p.horas_sol_directo} h de sol directo, ${p.tolera_sol_tarde ? 'tolera' : 'no tolera'} sol de tarde, sensibilidad al calor ${p.sensibilidad_calor}. Verificar y cargar en src/data/plantas/luz-verificada.json.`)
-  for (const d of p.discrepancias) agregar(p.id, 'fuentes en conflicto', d)
-}
-const vistos = new Set()
-const unicos = items.filter((i) => {
-  const k = `${i.id}|${i.dato}|${i.motivo}`
-  if (vistos.has(k)) return false
-  vistos.add(k)
-  return true
-})
-const porId = new Map()
-for (const i of unicos) porId.set(i.id, [...(porId.get(i.id) ?? []), i])
-const noAbiertos = [...new Set(notas.flatMap((n) => n.no_pude_abrir ?? []))]
-const adaptaciones = plantas.filter((p) => p.adaptaciones.length)
-
-let v = `# Para revisar a mano
-
-Generado con \`node scripts/generar-fuentes.mjs\`. No editar a mano: se pisa.
-
-Acá está todo lo que quedó con confianza baja, sin verificar o con fuentes en conflicto (${unicos.length} puntos en ${porId.size} ítems). Mientras no se revise, la app aplica el criterio más conservador.
-
-`
-for (const [id, lista] of [...porId].sort((a, b) => a[0].localeCompare(b[0]))) {
-  v += `## ${id}\n\n`
-  for (const i of lista) {
-    v += `- [ ] **${i.dato}**: ${i.motivo}\n`
-    for (const u of i.urls) v += `  - ${u}\n`
-  }
-  v += '\n'
-}
-v += `## Adaptaciones al hemisferio sur\n\nDatos convertidos desde fuentes del hemisferio norte (orientación de ventanas, meses). Conviene mirarlos con ojo local.\n\n`
-for (const p of adaptaciones) v += `- **${p.id}**: ${p.adaptaciones.join(' / ')}\n`
-if (noAbiertos.length) v += `\n## Sitios que no se pudieron abrir durante la investigación\n\n${noAbiertos.map((u) => `- ${u}`).join('\n')}\n`
-writeFileSync('VERIFY.md', v)
-
-console.log(`SOURCES.md: ${fuentes.size} fuentes de ${orgs.length} organizaciones. VERIFY.md: ${unicos.length} puntos para revisar.`)
+console.log(`SOURCES.md: ${fuentes.size} fuentes de ${orgs.length} organizaciones.`)

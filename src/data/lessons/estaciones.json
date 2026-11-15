@@ -8,7 +8,7 @@
       {
         "tipo": "por_que",
         "imagen": "planta-triste",
-        "texto": "Con mucho calor la planta pierde agua por las hojas más rápido de lo que la repone, y se afloja. Si se cae en las horas más calurosas y se levanta sola al atardecer, lo más probable es que sea calor."
+        "texto": "Con mucho calor la planta pierde agua por las hojas más rápido de lo que la repone, y se afloja. Si **se cae en las horas más calurosas** y **se levanta sola al atardecer**, lo más probable es que sea calor."
       },
       {
         "tipo": "tactil",
@@ -30,28 +30,28 @@
       {
         "tipo": "concepto",
         "imagen": "dedo",
-        "texto": "Antes de regar, tocá la tierra: si está seca, regá a fondo ahora mismo, sin esperar a la noche. Si está húmeda y la planta igual está caída, es el calor: más agua no la ayuda, la sombra sí."
+        "texto": "Antes de regar, **tocá la tierra**: si está seca, **regá a fondo ahora mismo**, sin esperar a la noche. Si está húmeda y la planta igual está caída, es el calor: **más agua no la ayuda, la sombra sí**."
       },
       {
         "tipo": "dato_ba",
         "imagen": "sol-tarde",
-        "texto": "En el verano porteño, de diciembre a febrero, las olas de calor son cada vez más frecuentes y más largas. En un balcón con sol de tarde, revisá las macetas todos los días, y en los días más bravos, dos veces."
+        "texto": "En el verano porteño, **de diciembre a febrero**, las olas de calor son cada vez más frecuentes y más largas. En un balcón con sol de tarde, **revisá las macetas todos los días**, y en los días más bravos, dos veces."
       },
       {
         "tipo": "concepto",
         "imagen": "ventana-sol",
-        "texto": "Un balcón cerrado con vidrio junta calor como un invernadero, y ahí las plantas se marchitan, se queman y se resecan más fácil. Los días de sol abrí las ventanas y poné una cortina o una media sombra."
+        "texto": "Un balcón cerrado con vidrio **junta calor como un invernadero**, y ahí las plantas se marchitan, se queman y se resecan más fácil. Los días de sol **abrí las ventanas** y poné una cortina o una **media sombra**."
       },
       {
         "tipo": "concepto",
         "imagen": "casa",
-        "texto": "Durante una ola de calor, corré las macetas a la sombra y juntalas: entre ellas se dan sombra y guardan humedad. El abono y el trasplante, mejor cuando afloje el calor."
+        "texto": "Durante una ola de calor, **corré las macetas a la sombra** y **juntalas**: entre ellas se dan sombra y guardan humedad. **El abono y el trasplante, mejor cuando afloje el calor**."
       }
     ],
     "para_llevarte": [
-      "Caída a la siesta y repuesta a la noche: es calor.",
-      "Tierra seca: regá ya. Tierra húmeda: sombra, no más agua.",
-      "En ola de calor: sombra, macetas juntas y nada de abono."
+      "Caída a la siesta y repuesta a la noche: **es calor**.",
+      "**Tierra seca: regá ya**. Tierra húmeda: sombra, no más agua.",
+      "En ola de calor: **sombra, macetas juntas y nada de abono**."
     ],
     "quiz": [
       {
@@ -64,7 +64,7 @@
           "Le falta abono"
         ],
         "correcta": 1,
-        "explicacion": "Si la tierra está húmeda y la planta se cae justo a la hora de más calor, es el calor. Lo que la ayuda es la sombra, no más agua."
+        "explicacion": "Si la tierra está húmeda y la planta se cae justo a la hora de más calor, **es el calor**. Lo que la ayuda es **la sombra, no más agua**."
       },
       {
         "tipo": "opcion_multiple",
@@ -75,13 +75,13 @@
           "Mañana a primera hora"
         ],
         "correcta": 0,
-        "explicacion": "Cuanto más tiempo pasa marchita, más chances de que le quede daño. Si la tierra está seca, regala en el momento."
+        "explicacion": "**Cuanto más tiempo pasa marchita**, más chances de que le quede daño. Si la tierra está seca, **regala en el momento**."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "En plena ola de calor conviene abonar la planta para darle fuerzas.",
         "correcta": false,
-        "explicacion": "El abono la empuja a sacar brotes nuevos, que son los que más sufren el calor, y con poca agua puede dañarla. Mejor esperar a que refresque."
+        "explicacion": "El abono la empuja a **sacar brotes nuevos**, que son los que más sufren el calor, y con poca agua puede dañarla. **Mejor esperar a que refresque**."
       },
       {
         "tipo": "unir",
@@ -104,7 +104,7 @@
             "b": "Solo sombra, sin más agua"
           }
         ],
-        "explicacion": "Con calor, la sombra y el aire ayudan siempre. El agua, solo si la tierra está seca."
+        "explicacion": "Con calor, **la sombra y el aire ayudan siempre**. El agua, **solo si la tierra está seca**."
       }
     ],
     "fuentes": [
@@ -157,39 +157,39 @@
       {
         "tipo": "dato_ba",
         "imagen": "helada",
-        "texto": "En Buenos Aires el invierno va de junio a agosto, y la ciudad suele estar más templada que sus alrededores, sobre todo de noche. Igual, si el pronóstico anuncia helada o mínimas cerca de cero, toca cuidar las plantas del balcón."
+        "texto": "En Buenos Aires el invierno va de junio a agosto, y la ciudad suele estar más templada que sus alrededores, sobre todo de noche. Igual, si el pronóstico anuncia **helada o mínimas cerca de cero**, toca **cuidar las plantas del balcón**."
       },
       {
         "tipo": "concepto",
         "imagen": "helada",
-        "texto": "Para esas noches, juntá las macetas contra la pared de la casa, en un rincón reparado y seco, así se protegen entre ellas. Si el frío viene fuerte, tapalas con una tela antihelada o envolvé la maceta para cuidar las raíces."
+        "texto": "Para esas noches, **juntá las macetas contra la pared** de la casa, en un rincón reparado y seco, así se protegen entre ellas. Si el frío viene fuerte, tapalas con una **tela antihelada** o **envolvé la maceta** para cuidar las raíces."
       },
       {
         "tipo": "concepto",
         "imagen": "casa",
-        "texto": "Muchas plantas de interior son tropicales y no aguantan ni un rato bajo cero. Si pasan el verano en el balcón, entralas antes del frío: una buena referencia es cuando las noches empiezan a bajar de unos 10 grados."
+        "texto": "Muchas plantas de interior son tropicales y **no aguantan ni un rato bajo cero**. Si pasan el verano en el balcón, **entralas antes del frío**: una buena referencia es cuando las noches empiezan a bajar de **unos 10 grados**."
       },
       {
         "tipo": "comparativa",
         "imagen_mal": "calefaccion",
         "imagen_bien": "planta-feliz",
-        "texto": "Ni pegada a la estufa ni en el chiflete: el aire caliente directo reseca y quema las hojas finas, y las corrientes las ponen amarillas. Buscale un lugar de temperatura pareja, lejos de estufas, radiadores, puertas y de la salida del aire acondicionado."
+        "texto": "**Ni pegada a la estufa ni en el chiflete**: el aire caliente directo reseca y quema las hojas finas, y las corrientes las ponen amarillas. Buscale un lugar de **temperatura pareja**, lejos de estufas, radiadores, puertas y de la salida del aire acondicionado."
       },
       {
         "tipo": "por_que",
         "imagen": "ventana-sol",
-        "texto": "De noche el vidrio se enfría mucho, y una planta que queda entre la ventana y la cortina pasa de templada a fría en pocas horas. En las noches heladas, corré la maceta hacia adentro o dejala del lado de la habitación."
+        "texto": "De noche el vidrio se enfría mucho, y **una planta que queda entre la ventana y la cortina** pasa de templada a fría en pocas horas. En las noches heladas, **corré la maceta hacia adentro** o dejala del lado de la habitación."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-triste",
-        "texto": "Las puntas marrones y secas suelen venir del aire seco de la calefacción, y las hojas ennegrecidas o la planta desplomada, del frío. Para el aire seco, como viste en riego, rinde más juntar las plantas o un humidificador que rociarlas."
+        "texto": "Las puntas marrones y secas suelen venir del **aire seco de la calefacción**, y las hojas ennegrecidas o la planta desplomada, del frío. Para el aire seco, como viste en riego, rinde más **juntar las plantas o un humidificador** que rociarlas."
       }
     ],
     "para_llevarte": [
-      "Si anuncian helada: macetas juntas, contra la pared y tapadas.",
-      "Lejos de estufas, chifletes y del aire acondicionado.",
-      "De noche, nunca entre el vidrio y la cortina."
+      "Si anuncian helada: **macetas juntas, contra la pared y tapadas**.",
+      "**Lejos de estufas, chifletes** y del aire acondicionado.",
+      "De noche, **nunca entre el vidrio y la cortina**."
     ],
     "quiz": [
       {
@@ -202,13 +202,13 @@
           "Tiene demasiada luz"
         ],
         "correcta": 0,
-        "explicacion": "La cortina cerrada deja a la planta encerrada con el frío del vidrio. De noche conviene dejarla del lado de la habitación."
+        "explicacion": "La cortina cerrada deja a la planta **encerrada con el frío del vidrio**. De noche conviene dejarla **del lado de la habitación**."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Pegar la planta a la estufa la ayuda a pasar mejor el invierno.",
         "correcta": false,
-        "explicacion": "El aire caliente directo reseca y puede quemar las hojas. Les va mejor un lugar de temperatura pareja, lejos del calor directo."
+        "explicacion": "El aire caliente directo **reseca y puede quemar las hojas**. Les va mejor un lugar de **temperatura pareja**, lejos del calor directo."
       },
       {
         "tipo": "opcion_multiple",
@@ -219,7 +219,7 @@
           "Las dejo donde están"
         ],
         "correcta": 1,
-        "explicacion": "Juntas y contra la pared se protegen entre ellas, y una tela antihelada suma un par de grados. Regar justo antes de una helada no conviene."
+        "explicacion": "**Juntas y contra la pared** se protegen entre ellas, y una tela antihelada suma un par de grados. **Regar justo antes de una helada no conviene**."
       },
       {
         "tipo": "unir",
@@ -242,7 +242,7 @@
             "b": "Entrarla a casa"
           }
         ],
-        "explicacion": "A las plantas de interior les gusta la temperatura pareja: sin chorros de aire, sin calor directo y sin vidrios helados."
+        "explicacion": "A las plantas de interior les gusta la **temperatura pareja**: **sin chorros de aire**, sin calor directo y sin vidrios helados."
       }
     ],
     "fuentes": [
@@ -331,39 +331,39 @@
       {
         "tipo": "concepto",
         "imagen": "hojas-caidas",
-        "texto": "Las hojas no viven para siempre: que cada tanto se ponga amarilla y se caiga alguna hoja vieja, de las de abajo o de adentro, es normal. Si la planta se ve sana y sigue sacando hojas nuevas, tranqui."
+        "texto": "Las hojas no viven para siempre: que cada tanto se ponga amarilla y **se caiga alguna hoja vieja**, de las de abajo o de adentro, **es normal**. Si la planta se ve sana y **sigue sacando hojas nuevas**, tranqui."
       },
       {
         "tipo": "por_que",
         "imagen": "casa",
-        "texto": "Después de un cambio de lugar, muchas plantas sueltan hojas, porque las que tenían estaban hechas para otra luz. Con cuidados parejos suelen acomodarse en uno o dos meses y sacan hojas nuevas, a medida del lugar."
+        "texto": "Después de un cambio de lugar, muchas plantas **sueltan hojas**, porque las que tenían estaban hechas para otra luz. Con cuidados parejos suelen acomodarse en **uno o dos meses** y sacan hojas nuevas, a medida del lugar."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-feliz",
-        "texto": "El ficus llorón es el más dramático: puede tirar un montón de hojas solo porque lo cambiaste de lugar o de maceta. Si el lugar nuevo es bueno, dejalo quieto, que se adapta y vuelve a brotar."
+        "texto": "El ficus llorón es el más dramático: puede tirar un montón de hojas solo porque lo cambiaste de lugar o de maceta. Si el lugar nuevo es bueno, **dejalo quieto**, que **se adapta y vuelve a brotar**."
       },
       {
         "tipo": "dato_ba",
         "imagen": "estaciones",
-        "texto": "En Buenos Aires el otoño va de marzo a mayo: con menos luz, y al entrar las plantas que estaban en el balcón, es común que suelten algunas hojas. En invierno casi todas frenan, y algunas, como los caladios y las alocasias, pueden quedarse sin hojas y rebrotar en primavera."
+        "texto": "En Buenos Aires el otoño va **de marzo a mayo**: con menos luz, y al entrar las plantas que estaban en el balcón, es común que suelten algunas hojas. En invierno casi todas frenan, y algunas, como los caladios y las alocasias, pueden quedarse sin hojas y **rebrotar en primavera**."
       },
       {
         "tipo": "comparativa",
         "imagen_mal": "hojas-caidas",
         "imagen_bien": "planta-feliz",
-        "texto": "Alarma: caen muchas hojas juntas, o caen las nuevas además de las viejas. Normal: de a poco, solo hojas viejas, y con la planta sana."
+        "texto": "Alarma: **caen muchas hojas juntas**, o **caen las nuevas además de las viejas**. Normal: de a poco, **solo hojas viejas**, y con la planta sana."
       },
       {
         "tipo": "concepto",
         "imagen": "dedo",
-        "texto": "Si es alarma, revisá de a una cosa: la tierra, por si está empapada o reseca, después las corrientes de aire y la luz, y por último si hay bichos. Y no la marees con cambios todos los días, porque el cuidado desparejo alarga la adaptación."
+        "texto": "Si es alarma, revisá de a una cosa: **la tierra, por si está empapada o reseca**, después **las corrientes de aire y la luz**, y por último si hay bichos. Y **no la marees con cambios todos los días**, porque el cuidado desparejo alarga la adaptación."
       }
     ],
     "para_llevarte": [
-      "Hoja vieja de abajo que cae cada tanto: normal.",
-      "Después de un cambio de lugar, dale uno o dos meses.",
-      "Muchas juntas o las nuevas: revisá agua, aire, luz y bichos."
+      "**Hoja vieja de abajo** que cae cada tanto: normal.",
+      "Después de un cambio de lugar, dale **uno o dos meses**.",
+      "**Muchas juntas o las nuevas**: revisá agua, aire, luz y bichos."
     ],
     "quiz": [
       {
@@ -376,13 +376,13 @@
           "Necesita una maceta más grande"
         ],
         "correcta": 0,
-        "explicacion": "El ficus suele tirar hojas cuando lo mueven. Si el lugar es bueno, se adapta, deja de perder hojas y saca nuevas."
+        "explicacion": "El ficus suele **tirar hojas cuando lo mueven**. Si el lugar es bueno, **se adapta**, deja de perder hojas y saca nuevas."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Que una planta sana pierda cada tanto una hoja vieja de abajo es normal.",
         "correcta": true,
-        "explicacion": "Las hojas tienen su tiempo de vida. Mientras salgan hojas nuevas, perder alguna vieja no es problema."
+        "explicacion": "Las hojas tienen su tiempo de vida. **Mientras salgan hojas nuevas**, **perder alguna vieja no es problema**."
       },
       {
         "tipo": "opcion_multiple",
@@ -393,7 +393,7 @@
           "Un caladio que se queda sin hojas en invierno"
         ],
         "correcta": 1,
-        "explicacion": "Cuando caen juntas las nuevas y las viejas, algo anda mal, y muchas veces es agua de más. Tocá la tierra y revisá las raíces."
+        "explicacion": "Cuando **caen juntas las nuevas y las viejas**, algo anda mal, y muchas veces es **agua de más**. **Tocá la tierra** y revisá las raíces."
       },
       {
         "tipo": "unir",
@@ -416,7 +416,7 @@
             "b": "Descansa y rebrota en primavera"
           }
         ],
-        "explicacion": "Cuáles hojas caen, cuántas y en qué momento te dicen si es normal o si hay que revisar."
+        "explicacion": "**Cuáles hojas caen, cuántas y en qué momento** te dicen si es normal o si hay que revisar."
       }
     ],
     "fuentes": [
@@ -475,38 +475,38 @@
       {
         "tipo": "concepto",
         "imagen": "valija",
-        "texto": "Antes de salir, regá a fondo, dejá escurrir y corré las plantas lejos de la ventana con sol, a un lugar más fresco y con luz indirecta. Con menos luz y menos calor gastan menos agua."
+        "texto": "Antes de salir, **regá a fondo**, dejá escurrir y **corré las plantas lejos de la ventana con sol**, a un lugar más fresco y con luz indirecta. Con menos luz y menos calor gastan menos agua."
       },
       {
         "tipo": "concepto",
         "imagen": "estaciones",
-        "texto": "Unos días, hasta más o menos una semana: con esa preparación suele alcanzar. En invierno aguantan una o dos semanas solas, siempre que no queden contra un vidrio frío."
+        "texto": "Unos días, hasta más o menos **una semana**: con esa preparación suele alcanzar. **En invierno aguantan una o dos semanas** solas, siempre que no queden contra un vidrio frío."
       },
       {
         "tipo": "concepto",
         "imagen": "autorriego",
-        "texto": "Dos o tres semanas: armá un riego por mecha, con un cordón de algodón que va desde un recipiente grande con agua hasta la tierra de cada maceta. Mojá el cordón antes, enterrá bien la punta y poné el recipiente más alto que las macetas."
+        "texto": "Dos o tres semanas: armá un **riego por mecha**, con un **cordón de algodón** que va desde un recipiente grande con agua hasta la tierra de cada maceta. Mojá el cordón antes, **enterrá bien la punta** y poné el recipiente más alto que las macetas."
       },
       {
         "tipo": "por_que",
         "imagen": "autorriego",
-        "texto": "La mecha falla por dos cosas: el recipiente es chico y se vacía, o la punta se sale de la tierra. No la uses con cactus y suculentas, que aguantan semanas sin agua."
+        "texto": "La mecha falla por dos cosas: **el recipiente es chico y se vacía**, o **la punta se sale de la tierra**. **No la uses con cactus y suculentas**, que aguantan semanas sin agua."
       },
       {
         "tipo": "concepto",
         "imagen": "valija",
-        "texto": "Las macetas del balcón son las que más sufren: juntalas en un rincón con sombra, así guardan humedad y son fáciles de regar para quien venga. Si tenés riego por goteo con temporizador, armalo y probalo una semana antes."
+        "texto": "**Las macetas del balcón son las que más sufren**: **juntalas en un rincón con sombra**, así guardan humedad y son fáciles de regar para quien venga. Si tenés riego por goteo con temporizador, armalo y **probalo una semana antes**."
       },
       {
         "tipo": "concepto",
         "imagen": "casa",
-        "texto": "Más de dos o tres semanas: lo más seguro es pedirle a alguien que pase a regar, al menos una vez por semana. Contale lo de tocar la tierra antes, así no las ahoga de cariño."
+        "texto": "Más de dos o tres semanas: lo más seguro es **pedirle a alguien que pase a regar**, al menos **una vez por semana**. **Contale lo de tocar la tierra antes**, así no las ahoga de cariño."
       }
     ],
     "para_llevarte": [
-      "Siempre: riego a fondo y lejos del sol antes de salir.",
-      "Dos o tres semanas: mecha de algodón desde un recipiente con agua.",
-      "Más tiempo: alguien que pase una vez por semana."
+      "Siempre: **riego a fondo y lejos del sol** antes de salir.",
+      "Dos o tres semanas: **mecha de algodón** desde un recipiente con agua.",
+      "Más tiempo: **alguien que pase una vez por semana**."
     ],
     "quiz": [
       {
@@ -518,7 +518,7 @@
           "Dejarlas al sol para que se sequen bien"
         ],
         "correcta": 0,
-        "explicacion": "La mayoría aguanta unos días sola. Bien regadas y en un lugar más fresco y sin sol directo, gastan menos agua."
+        "explicacion": "La mayoría **aguanta unos días sola**. Bien regadas y en un lugar **más fresco y sin sol directo**, gastan menos agua."
       },
       {
         "tipo": "unir",
@@ -541,13 +541,13 @@
             "b": "Aguantan semanas sin agua"
           }
         ],
-        "explicacion": "Cuanto más largo el viaje, más ayuda necesitan. Los cactus y las suculentas son los más independientes."
+        "explicacion": "**Cuanto más largo el viaje, más ayuda necesitan**. Los cactus y las suculentas son los **más independientes**."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "La semana antes de un viaje corto conviene pasar todas las plantas a macetas con autorriego.",
         "correcta": false,
-        "explicacion": "Las macetas con autorriego funcionan mejor como solución de todo el año. Trasplantar a último momento, solo por unos días afuera, no vale la pena."
+        "explicacion": "Las macetas con autorriego funcionan mejor como solución de todo el año. **Trasplantar a último momento**, solo por unos días afuera, **no vale la pena**."
       },
       {
         "tipo": "que_le_pasa",
@@ -559,7 +559,7 @@
           "Tenía agua de más"
         ],
         "correcta": 0,
-        "explicacion": "Si la punta no queda bien enterrada, el agua no llega. La próxima, enterrala bien y fijate que funcione antes de irte."
+        "explicacion": "Si la punta **no queda bien enterrada**, el agua no llega. La próxima, **enterrala bien** y fijate que funcione antes de irte."
       }
     ],
     "fuentes": [

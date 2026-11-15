@@ -8,28 +8,28 @@
       {
         "tipo": "por_que",
         "imagen": "pano-hoja",
-        "texto": "Adentro de casa las hojas juntan polvo, y esa capa les tapa parte de la luz que usan para fabricar su comida. Limpiarlas las ayuda a crecer mejor y, de paso, te deja ver a tiempo si apareció algún bicho."
+        "texto": "Adentro de casa las hojas juntan polvo, y esa capa les tapa parte de la luz que usan para fabricar su comida. Limpiarlas las ayuda a crecer mejor y, de paso, **te deja ver a tiempo** si apareció **algún bicho**."
       },
       {
         "tipo": "concepto",
         "imagen": "pano-hoja",
-        "texto": "Para las hojas lisas alcanza con un paño suave apenas humedecido con agua, pasado por arriba y por abajo de cada hoja. Sin jabón: los detergentes de la casa pueden dañar la capa que protege la hoja, y el agua sola limpia igual de bien."
+        "texto": "Para las hojas lisas alcanza con un **paño suave apenas humedecido** con agua, pasado por arriba y por abajo de cada hoja. **Sin jabón**: los detergentes de la casa pueden dañar la capa que protege la hoja, y el agua sola limpia igual de bien."
       },
       {
         "tipo": "concepto",
         "imagen": "ducha",
-        "texto": "Otra opción es una ducha suave con agua tibia, en la bacha o en la bañera, probando antes la presión y la temperatura. No hay una regla fija de cada cuánto: las guías van de todas las semanas a cada dos o tres meses, así que guiate por el polvo que veas."
+        "texto": "Otra opción es una **ducha suave con agua tibia**, en la bacha o en la bañera, probando antes la presión y la temperatura. No hay una regla fija de cada cuánto: las guías van de todas las semanas a cada dos o tres meses, así que **guiate por el polvo** que veas."
       },
       {
         "tipo": "concepto",
         "imagen": "pincel",
-        "texto": "Las plantas de hojas peludas, como la violeta africana, no se limpian con paño mojado ni con ducha: usá un pincel o una brocha suave y seca. El pincel también es lo mejor para los cactus y las suculentas que pinchan, mientras que a las suculentas lisas sí les va bien el paño húmedo."
+        "texto": "Las plantas de hojas peludas, como la violeta africana, no se limpian con paño mojado ni con ducha: usá un **pincel o una brocha suave y seca**. El pincel también es lo mejor para los **cactus** y las suculentas que pinchan, mientras que a las suculentas lisas sí les va bien el paño húmedo."
       }
     ],
     "para_llevarte": [
-      "Paño húmedo con agua sola, por arriba y por abajo.",
-      "Hojas peludas y cactus: pincel suave y seco.",
-      "Hoja limpia: más luz para la planta."
+      "**Paño húmedo con agua sola**, por arriba y por abajo.",
+      "Hojas peludas y cactus: **pincel suave y seco**.",
+      "Hoja limpia: **más luz** para la planta."
     ],
     "quiz": [
       {
@@ -41,7 +41,7 @@
           "Con abrillantador en aerosol"
         ],
         "correcta": 1,
-        "explicacion": "Con agua sola alcanza y no hay riesgo de dañar la hoja. El aceite y los abrillantadores dejan una película que junta más polvo."
+        "explicacion": "**Con agua sola alcanza** y no hay riesgo de dañar la hoja. El aceite y los abrillantadores dejan una película que junta más polvo."
       },
       {
         "tipo": "que_le_pasa",
@@ -53,13 +53,13 @@
           "Con abrillantador para hojas"
         ],
         "correcta": 0,
-        "explicacion": "Las hojas peludas no se llevan bien con el paño mojado ni con los productos. Un pincel o una brocha suave saca el polvo sin lastimarlas."
+        "explicacion": "Las hojas peludas no se llevan bien con el paño mojado ni con los productos. Un **pincel o una brocha suave** saca el polvo sin lastimarlas."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Al limpiar una hoja lisa, conviene pasar el paño también por el revés.",
         "correcta": true,
-        "explicacion": "El polvo y los bichos también se juntan abajo. Además, es una buena excusa para revisar la planta de cerca."
+        "explicacion": "El polvo y los bichos **también se juntan abajo**. Además, es una buena excusa para revisar la planta de cerca."
       },
       {
         "tipo": "unir",
@@ -78,7 +78,7 @@
             "b": "Ducha suave y tibia"
           }
         ],
-        "explicacion": "La idea es siempre la misma: sacar el polvo con lo más suave que funcione, y sin productos."
+        "explicacion": "La idea es siempre la misma: sacar el polvo con **lo más suave que funcione**, y **sin productos**."
       }
     ],
     "fuentes": [
@@ -149,38 +149,38 @@
       {
         "tipo": "concepto",
         "imagen": "hojas-caidas",
-        "texto": "Que cada tanto se ponga amarilla y se caiga alguna hoja de abajo en una planta adulta es normal. Si son muchas a la vez, ahí sí conviene revisar el riego, la luz, el frío y las corrientes de aire."
+        "texto": "Que cada tanto se ponga amarilla y se caiga alguna hoja de abajo en una planta adulta es normal. **Si son muchas a la vez**, ahí sí conviene **revisar el riego, la luz**, el frío y las corrientes de aire."
       },
       {
         "tipo": "concepto",
         "imagen": "tijera-poda",
-        "texto": "Las hojas totalmente amarillas, marrones o secas ya no se recuperan, así que podés sacarlas sin culpa. Las que todavía están casi todas verdes dejalas hasta que la planta saque hojas nuevas."
+        "texto": "Las hojas totalmente amarillas, marrones o secas **ya no se recuperan**, así que podés sacarlas sin culpa. Las que todavía están casi todas verdes **dejalas hasta que la planta saque hojas nuevas**."
       },
       {
         "tipo": "concepto",
         "imagen": "tijera-poda",
-        "texto": "Cortá la hoja donde se une al tallo, con una tijera afilada y desinfectada, y volvé a limpiarla antes de pasar a otra planta. Juntá también las hojas que cayeron sobre la tierra, porque ahí favorecen las enfermedades."
+        "texto": "Cortá la hoja donde se une al tallo, con una **tijera afilada y desinfectada**, y volvé a limpiarla antes de pasar a otra planta. **Juntá también las hojas que cayeron** sobre la tierra, porque ahí favorecen las enfermedades."
       },
       {
         "tipo": "dato_ba",
         "imagen": "calefaccion",
-        "texto": "Las puntas marrones suelen venir del aire seco, algo típico del invierno porteño con la calefacción prendida, aunque también del riego desparejo o del exceso de abono. Podés recortar la parte seca dejando un bordecito marrón, pero si no corregís la causa van a volver a aparecer."
+        "texto": "Las puntas marrones suelen venir del **aire seco**, algo típico del invierno porteño con la calefacción prendida, aunque también del riego desparejo o del exceso de abono. Podés recortar la parte seca dejando un bordecito marrón, pero **si no corregís la causa** van a volver a aparecer."
       },
       {
         "tipo": "por_que",
         "imagen": "rotar-maceta",
-        "texto": "Las plantas crecen hacia donde viene la luz, y adentro casi siempre viene de un solo lado: la ventana. Por eso con el tiempo se inclinan y quedan más tupidas de un lado que del otro."
+        "texto": "Las plantas **crecen hacia donde viene la luz**, y adentro casi siempre viene de un solo lado: la ventana. Por eso con el tiempo se inclinan y quedan más tupidas de un lado que del otro."
       },
       {
         "tipo": "concepto",
         "imagen": "rotar-maceta",
-        "texto": "Para que crezca pareja, girá la maceta un cuarto de vuelta cada tanto, siempre para el mismo lado. Las guías no coinciden en cada cuánto, y van de seguido a cada tres meses, así que mirá la planta: si se está inclinando, es hora de girarla."
+        "texto": "Para que crezca pareja, **girá la maceta un cuarto de vuelta** cada tanto, siempre para el mismo lado. Las guías no coinciden en cada cuánto, y van de seguido a cada tres meses, así que mirá la planta: **si se está inclinando**, es hora de girarla."
       }
     ],
     "para_llevarte": [
-      "Hoja totalmente seca o amarilla: se corta.",
-      "Tijera limpia, en la unión con el tallo.",
-      "Un cuarto de vuelta cada tanto, para que crezca pareja."
+      "Hoja totalmente seca o amarilla: **se corta**.",
+      "**Tijera limpia**, en la unión con el tallo.",
+      "**Un cuarto de vuelta** cada tanto, para que crezca pareja."
     ],
     "quiz": [
       {
@@ -192,7 +192,7 @@
           "Le doy abono para que se recupere"
         ],
         "correcta": 1,
-        "explicacion": "Una hoja del todo amarilla ya no vuelve a ponerse verde. Sacarla deja la planta más prolija y no le hace ningún daño."
+        "explicacion": "Una hoja del todo amarilla **ya no vuelve a ponerse verde**. Sacarla deja la planta más prolija y no le hace ningún daño."
       },
       {
         "tipo": "que_le_pasa",
@@ -204,19 +204,19 @@
           "Le falta abono"
         ],
         "correcta": 1,
-        "explicacion": "Las plantas crecen hacia la luz. Girando la maceta un cuarto de vuelta cada tanto, todos los lados reciben su parte."
+        "explicacion": "Las plantas crecen hacia la luz. Girando la maceta **un cuarto de vuelta** cada tanto, todos los lados reciben su parte."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Si recorto las puntas marrones, el problema queda resuelto.",
         "correcta": false,
-        "explicacion": "Recortar mejora cómo se ve, pero no arregla la causa. Si el aire sigue seco o el riego desparejo, las puntas marrones vuelven."
+        "explicacion": "Recortar mejora cómo se ve, pero **no arregla la causa**. Si el aire sigue seco o el riego desparejo, las puntas marrones vuelven."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "A una hoja que todavía está casi toda verde conviene dejarla.",
         "correcta": true,
-        "explicacion": "Mientras esté mayormente verde, mejor que siga en la planta hasta que salgan hojas nuevas. Las que se cortan son las que ya están del todo amarillas o secas."
+        "explicacion": "Mientras esté **mayormente verde**, mejor que siga en la planta hasta que salgan hojas nuevas. Las que se cortan son las que ya están **del todo amarillas o secas**."
       },
       {
         "tipo": "unir",
@@ -239,7 +239,7 @@
             "b": "Revisar riego y luz"
           }
         ],
-        "explicacion": "Una hoja cada tanto es parte de la vida de la planta. Cuando son muchas, te está avisando que algo del lugar o del riego no le cierra."
+        "explicacion": "Una hoja cada tanto es parte de la vida de la planta. **Cuando son muchas**, te está avisando que algo del lugar o del riego no le cierra."
       }
     ],
     "fuentes": [

@@ -1,66 +1,12 @@
 import type { UnidadId } from '../../lib/tipos'
-import type { Leccion, Pregunta } from './esquema'
-import basico from './basico.json'
-import luz from './luz.json'
-import riego from './riego.json'
-import mascotas from './mascotas.json'
-import macetas from './macetas.json'
-import abono from './abono.json'
-import familias from './familias.json'
-import estaciones from './estaciones.json'
-import rutina from './rutina.json'
-import plagas from './plagas.json'
-import multiplicar from './multiplicar.json'
-import comprar from './comprar.json'
+import { UNIDADES, idsDelPlan } from '../unidades'
 
 export type { Leccion, Pregunta, Tarjeta, Fuente } from './esquema'
 
 /**
- * Las 12 unidades con su contenido (tandas 1, 2 y 3).
+ * Ids de las lecciones de cada unidad. Es liviano a propósito: el contenido completo
+ * (los textos de las 46 lecciones) vive en `contenido.ts` y se carga aparte, solo cuando hace falta.
  */
-export const LECCIONES: Partial<Record<UnidadId, Leccion[]>> = {
-  basico: basico as Leccion[],
-  luz: luz as Leccion[],
-  riego: riego as Leccion[],
-  macetas: macetas as Leccion[],
-  abono: abono as Leccion[],
-  familias: familias as Leccion[],
-  estaciones: estaciones as Leccion[],
-  rutina: rutina as Leccion[],
-  plagas: plagas as Leccion[],
-  multiplicar: multiplicar as Leccion[],
-  comprar: comprar as Leccion[],
-  mascotas: mascotas as Leccion[],
-}
-
 export const LECCIONES_POR_UNIDAD: Partial<Record<UnidadId, string[]>> = Object.fromEntries(
-  Object.entries(LECCIONES).map(([u, ls]) => [u, ls.map((l) => l.id)]),
+  (Object.keys(UNIDADES) as UnidadId[]).map((u) => [u, idsDelPlan(u)]),
 )
-
-const POR_ID = new Map<string, Leccion>(
-  Object.values(LECCIONES)
-    .flat()
-    .map((l) => [l.id, l]),
-)
-
-export function leccionPorId(id: string): Leccion | undefined {
-  return POR_ID.get(id)
-}
-
-/** Preguntas para el repaso o el test de salteo: se toman parejo de todas las lecciones de la unidad */
-export function preguntasDeUnidad(unidad: UnidadId, cantidad: number): Pregunta[] {
-  const lecciones = LECCIONES[unidad] ?? []
-  const out: Pregunta[] = []
-  for (let ronda = 0; out.length < cantidad; ronda++) {
-    let agrego = false
-    for (const l of lecciones) {
-      const p = l.quiz[l.quiz.length - 1 - ronda]
-      if (p && out.length < cantidad) {
-        out.push(p)
-        agrego = true
-      }
-    }
-    if (!agrego) break
-  }
-  return out
-}

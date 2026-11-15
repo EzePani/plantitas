@@ -2,11 +2,13 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { Check, Flame, Gift, X, Zap } from 'lucide-react'
 import { useMemo, useState, type ReactNode } from 'react'
 import { Boton } from '../../components/Boton'
+import { Rico } from '../../components/Rico'
 import { Dialogo } from '../../components/Dialogo'
 import { Icono } from '../../components/Icono'
 import { Brote } from '../../components/Ilustracion'
 import { INSIGNIAS } from '../../data/gamificacion'
-import { leccionPorId, preguntasDeUnidad, type Pregunta } from '../../data/lessons'
+import type { Pregunta } from '../../data/lessons'
+import { leccionPorId, preguntasDeUnidad } from '../../data/lessons/contenido'
 import { T } from '../../data/textos'
 import { UNIDADES } from '../../data/unidades'
 import { idRepaso } from '../../lib/camino'
@@ -135,7 +137,7 @@ export function Reproductor({ sesion, onCerrar }: { sesion: Sesion; onCerrar: ()
             className="border-arena-osc flex items-center gap-3 rounded-2xl border-2 bg-white p-4"
           >
             <span className="font-display bg-hoja grid size-9 shrink-0 place-items-center rounded-full text-[18px] font-semibold text-white">{n + 1}</span>
-            <span className="text-tinta text-[17px] leading-snug font-bold">{p}</span>
+            <span className="text-tinta text-[17px] leading-snug font-medium"><Rico texto={p} /></span>
           </motion.div>
         ))}
       </div>
@@ -204,7 +206,7 @@ export function Reproductor({ sesion, onCerrar }: { sesion: Sesion; onCerrar: ()
 
       <div className="scroll-app flex min-h-0 flex-1 flex-col px-5 pb-4">{cuerpo}</div>
 
-      {pie && <footer className="safe-bottom shrink-0 px-5 pt-2 pb-5">{pie}</footer>}
+      {pie && <footer className="shrink-0 px-5 pt-2 pb-[calc(env(safe-area-inset-bottom,0px)+2rem)]">{pie}</footer>}
 
       {/* Feedback inmediato: panel que sube desde abajo */}
       <AnimatePresence>
@@ -225,8 +227,8 @@ export function Reproductor({ sesion, onCerrar }: { sesion: Sesion; onCerrar: ()
                 {respuesta ? elegir(T.leccion.correcto, iPregunta) : elegir(T.leccion.incorrecto, iPregunta)}
               </h2>
             </div>
-            {!respuesta && <p className="text-tinta mt-2 mb-0 text-[16px] leading-snug font-bold">{p.explicacion}</p>}
-            <div className="pt-4 pb-5">
+            {!respuesta && <p className="text-tinta mt-2 mb-0 text-[16px] leading-snug font-medium"><Rico texto={p.explicacion} /></p>}
+            <div className="pt-4 pb-9">
               <Boton variante={respuesta ? 'primario' : 'alerta'} onClick={siguientePregunta}>
                 {T.comun.continuar}
               </Boton>

@@ -8,22 +8,22 @@
       {
         "tipo": "por_que",
         "imagen": "planta-ahogada",
-        "texto": "Las raíces necesitan agua, pero también aire. Si la tierra queda empapada mucho tiempo, se quedan sin oxígeno y se pueden pudrir."
+        "texto": "Las raíces **necesitan agua, pero también aire**. Si la tierra queda empapada mucho tiempo, se quedan sin oxígeno y **se pueden pudrir**."
       },
       {
         "tipo": "concepto",
         "imagen": "riego",
-        "texto": "Regar de más es la causa más común de que se muera una planta en maceta, y casi siempre viene de quererla mucho. No pasa nada: le pasó a medio mundo."
+        "texto": "Regar de más es la **causa más común de que se muera una planta** en maceta, y casi siempre viene de quererla mucho. **No pasa nada**: le pasó a medio mundo."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-triste",
-        "texto": "Ojo con la planta caída: puede ser sed, pero también raíces dañadas por exceso de agua. Si la tierra está mojada y la planta igual se cae, más agua lo empeora."
+        "texto": "Ojo con la **planta caída**: puede ser sed, pero también raíces dañadas por exceso de agua. Si la tierra está mojada y la planta igual se cae, **más agua lo empeora**."
       },
       {
         "tipo": "tactil",
         "imagen": "planta-partes",
-        "texto": "Tocá cada parte para ver qué pistas da cuando hay agua de más.",
+        "texto": "Tocá cada parte para ver qué **pistas** da cuando hay agua de más.",
         "zonas": [
           {
             "id": "hojas",
@@ -46,25 +46,25 @@
         "tipo": "comparativa",
         "imagen_mal": "planta-ahogada",
         "imagen_bien": "planta-seca",
-        "texto": "Una planta con sed muchas veces se repone con un buen riego. Con las raíces podridas es mucho más difícil que se recupere."
+        "texto": "Una planta con sed muchas veces se repone con un **buen riego**. Con las **raíces podridas es mucho más difícil** que se recupere."
       },
       {
         "tipo": "concepto",
         "imagen": "dedo",
-        "texto": "Por eso, antes de regar, tocá la tierra. Es la forma más simple de saber si de verdad hace falta."
+        "texto": "Por eso, antes de regar, **tocá la tierra**. Es la forma más simple de saber si de verdad hace falta."
       }
     ],
     "para_llevarte": [
-      "Regar de más es el error más común.",
-      "Las raíces necesitan agua y aire.",
-      "Planta caída no siempre es sed: tocá la tierra."
+      "Regar de más es el **error más común**.",
+      "Las raíces necesitan **agua y aire**.",
+      "Planta caída no siempre es sed: **tocá la tierra**."
     ],
     "quiz": [
       {
         "tipo": "verdadero_falso",
         "pregunta": "Si una planta está caída, seguro le falta agua.",
         "correcta": false,
-        "explicacion": "No siempre. Las raíces dañadas por exceso de agua tampoco pueden tomarla, y la planta se cae igual. Tocar la tierra te saca la duda."
+        "explicacion": "**No siempre**. Las raíces dañadas por exceso de agua tampoco pueden tomarla, y la planta se cae igual. **Tocar la tierra** te saca la duda."
       },
       {
         "tipo": "opcion_multiple",
@@ -75,7 +75,7 @@
           "Porque las hojas se mojan"
         ],
         "correcta": 1,
-        "explicacion": "Las raíces necesitan oxígeno. Con la tierra saturada de agua no lo consiguen y se pueden pudrir."
+        "explicacion": "Las raíces **necesitan oxígeno**. Con la tierra saturada de agua no lo consiguen y **se pueden pudrir**."
       },
       {
         "tipo": "que_le_pasa",
@@ -87,13 +87,13 @@
           "Le falta una maceta más grande"
         ],
         "correcta": 1,
-        "explicacion": "Si la tierra está mojada y la planta igual se ve mal, lo más probable es exceso de riego. Lo mejor es dejar que la tierra se seque antes de volver a regar."
+        "explicacion": "Si la tierra está mojada y la planta igual se ve mal, lo más probable es **exceso de riego**. Lo mejor es **dejar que la tierra se seque** antes de volver a regar."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Suele ser más fácil que una planta se recupere de la sed que de las raíces podridas.",
         "correcta": true,
-        "explicacion": "La sed muchas veces se arregla con un buen riego. Las raíces podridas son mucho más difíciles de salvar."
+        "explicacion": "La sed muchas veces se arregla con un **buen riego**. Las raíces podridas son **mucho más difíciles de salvar**."
       }
     ],
     "fuentes": [
@@ -140,28 +140,28 @@
       {
         "tipo": "por_que",
         "imagen": "estaciones",
-        "texto": "No hay un cada tantos días que sirva siempre: depende de la luz, la temperatura, la planta y la maceta. Las macetas chicas y las de barro, por ejemplo, se secan más rápido que las grandes y las de plástico."
+        "texto": "**No hay un cada tantos días** que sirva siempre: depende de la luz, la temperatura, la planta y la maceta. Las macetas chicas y las de barro, por ejemplo, **se secan más rápido** que las grandes y las de plástico."
       },
       {
         "tipo": "concepto",
         "imagen": "dedo",
-        "texto": "El test del dedo: metelo en la tierra hasta el primer nudillo, unos 2 o 3 centímetros. Si ahí abajo está seca, toca regar, y si está húmeda, esperá."
+        "texto": "El **test del dedo**: metelo en la tierra hasta el **primer nudillo**, unos 2 o 3 centímetros. Si ahí abajo está seca, **toca regar**, y si está húmeda, **esperá**."
       },
       {
         "tipo": "concepto",
         "imagen": "maceta-drenaje",
-        "texto": "También podés levantar la maceta: con la tierra seca pesa bastante menos que recién regada. Con el tiempo le agarrás la mano."
+        "texto": "También podés **levantar la maceta**: con la tierra seca **pesa bastante menos** que recién regada. Con el tiempo le agarrás la mano."
       },
       {
         "tipo": "concepto",
         "imagen": "sustrato",
-        "texto": "La tierra húmeda se ve oscura y al secarse se pone más clara. Es una pista rápida, pero muestra solo la superficie, así que confirmá con el dedo."
+        "texto": "La tierra húmeda se ve **oscura** y al secarse se pone más clara. Es una pista rápida, pero muestra solo la superficie, así que **confirmá con el dedo**."
       }
     ],
     "para_llevarte": [
-      "La tierra decide, no el calendario.",
-      "Dedo, peso y color: pistas gratis.",
-      "Si dudás, confirmá con el dedo."
+      "**La tierra decide**, no el calendario.",
+      "**Dedo, peso y color**: pistas gratis.",
+      "Si dudás, confirmá **con el dedo**."
     ],
     "quiz": [
       {
@@ -173,13 +173,13 @@
           "La cambio de maceta"
         ],
         "correcta": 1,
-        "explicacion": "Si todavía está húmeda, no necesita más agua. Probá de nuevo en unos días."
+        "explicacion": "Si todavía está húmeda, **no necesita más agua**. Probá de nuevo en unos días."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Lo mejor es regar todas las plantas los mismos días de la semana.",
         "correcta": false,
-        "explicacion": "Cada planta, cada maceta y cada época del año piden distinto. Mejor revisar la tierra que seguir un calendario."
+        "explicacion": "Cada planta, cada maceta y cada época del año piden distinto. Mejor **revisar la tierra** que seguir un **calendario**."
       },
       {
         "tipo": "unir",
@@ -198,7 +198,7 @@
             "b": "Tierra más clara"
           }
         ],
-        "explicacion": "Son cuatro formas simples de saber cómo está la tierra. Si dudás, el dedo es la más confiable."
+        "explicacion": "Son cuatro formas simples de saber cómo está la tierra. Si dudás, **el dedo es la más confiable**."
       },
       {
         "tipo": "opcion_multiple",
@@ -209,7 +209,7 @@
           "Las dos igual"
         ],
         "correcta": 1,
-        "explicacion": "El barro es poroso y deja escapar humedad, y una maceta chica tiene menos tierra para guardar agua."
+        "explicacion": "El **barro es poroso** y deja escapar humedad, y una maceta chica tiene **menos tierra para guardar agua**."
       }
     ],
     "fuentes": [
@@ -275,38 +275,38 @@
         "tipo": "comparativa",
         "imagen_mal": "planta-triste",
         "imagen_bien": "riego",
-        "texto": "Mejor que un chorrito todos los días es regar a fondo, hasta que salga agua por los agujeros de abajo. Así se moja toda la tierra, también la del fondo, donde están casi todas las raíces."
+        "texto": "Mejor que un chorrito todos los días es **regar a fondo**, **hasta que salga agua por los agujeros** de abajo. Así se moja toda la tierra, también la del fondo, donde están casi todas las raíces."
       },
       {
         "tipo": "por_que",
         "imagen": "planta-ahogada",
-        "texto": "Regar a fondo no es regar seguido: después esperá a que la tierra se seque antes de volver a regar. Lo que ahoga a las raíces no es mucha agua de una vez, sino la tierra mojada todo el tiempo."
+        "texto": "**Regar a fondo no es regar seguido**: después **esperá a que la tierra se seque** antes de volver a regar. Lo que ahoga a las raíces no es mucha agua de una vez, sino la **tierra mojada todo el tiempo**."
       },
       {
         "tipo": "concepto",
         "imagen": "maceta-drenaje",
-        "texto": "Dejá que escurra y, después de un rato, vaciá el plato. Si usás una maceta decorativa sin agujero, sacá la de adentro para regar y devolvela cuando terminó de escurrir."
+        "texto": "Dejá que escurra y, después de un rato, **vaciá el plato**. Si usás una maceta decorativa sin agujero, **sacá la de adentro para regar** y devolvela cuando terminó de escurrir."
       },
       {
         "tipo": "concepto",
         "imagen": "riego",
-        "texto": "Apuntá el agua a la tierra y no a las hojas, y usala a temperatura ambiente. El agua muy fría les puede hacer mal, sobre todo en invierno."
+        "texto": "**Apuntá el agua a la tierra** y no a las hojas, y usala a **temperatura ambiente**. El agua muy fría les puede hacer mal, sobre todo en invierno."
       },
       {
         "tipo": "concepto",
         "imagen": "plato-agua",
-        "texto": "Regar por abajo también vale: apoyás la maceta en unos centímetros de agua hasta que la tierra de arriba se humedezca, y después la dejás escurrir. Sirve para plantas que no quieren mojarse las hojas, pero cada tanto regá por arriba para lavar las sales que se van juntando."
+        "texto": "**Regar por abajo también vale**: apoyás la maceta en unos centímetros de agua hasta que la tierra de arriba se humedezca, y después la dejás escurrir. Sirve para plantas que no quieren mojarse las hojas, pero cada tanto **regá por arriba para lavar las sales** que se van juntando."
       },
       {
         "tipo": "concepto",
         "imagen": "planta-seca",
-        "texto": "Si la tierra se secó tanto que se despegó de la maceta y el agua pasa de largo, el remojo la rescata. Dejala en un recipiente con agua hasta que la superficie se humedezca y después escurrila bien."
+        "texto": "Si la tierra se secó tanto que se despegó de la maceta y el agua pasa de largo, **el remojo la rescata**. Dejala en un recipiente con agua hasta que la superficie se humedezca y después **escurrila bien**."
       }
     ],
     "para_llevarte": [
-      "Riego a fondo, hasta que escurra, y después esperar.",
-      "Vaciá el plato: nada de agua estancada.",
-      "Por arriba o por abajo, pero cada tanto por arriba."
+      "**Riego a fondo**, hasta que escurra, y después **esperar**.",
+      "**Vaciá el plato**: nada de agua estancada.",
+      "Por arriba o por abajo, pero **cada tanto por arriba**."
     ],
     "quiz": [
       {
@@ -318,19 +318,19 @@
           "Solo rociando las hojas"
         ],
         "correcta": 1,
-        "explicacion": "El riego a fondo moja toda la tierra, también la de abajo, que es donde están muchas raíces. Después, que escurra bien."
+        "explicacion": "El riego a fondo **moja toda la tierra**, también la de abajo, que es donde están muchas raíces. Después, **que escurra bien**."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Conviene dejar agua en el plato para que la planta tenga reserva.",
         "correcta": false,
-        "explicacion": "Si la maceta queda parada en agua, las raíces se quedan sin aire. Mejor vaciar el plato un rato después de regar."
+        "explicacion": "Si la maceta queda parada en agua, las raíces **se quedan sin aire**. Mejor **vaciar el plato** un rato después de regar."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Regar a fondo quiere decir regar más seguido.",
         "correcta": false,
-        "explicacion": "Es al revés: mucha agua de una vez y después esperar a que la tierra se seque. Lo que hace daño es que esté mojada todo el tiempo."
+        "explicacion": "Es al revés: **mucha agua de una vez y después esperar** a que la tierra se seque. Lo que hace daño es que esté **mojada todo el tiempo**."
       },
       {
         "tipo": "opcion_multiple",
@@ -341,7 +341,7 @@
           "Nada, así está perfecto"
         ],
         "correcta": 0,
-        "explicacion": "Regando solo por abajo se pueden ir juntando sales en la tierra. Un riego por arriba cada tanto las lava."
+        "explicacion": "Regando solo por abajo se pueden ir **juntando sales** en la tierra. Un **riego por arriba cada tanto** las lava."
       },
       {
         "tipo": "que_le_pasa",
@@ -353,7 +353,7 @@
           "La cambio de lugar"
         ],
         "correcta": 1,
-        "explicacion": "Cuando la tierra se seca del todo, el agua pasa por el costado sin mojarla. Un rato en remojo la vuelve a humedecer, y después hay que dejarla escurrir."
+        "explicacion": "Cuando la tierra **se seca del todo**, el agua pasa por el costado sin mojarla. **Un rato en remojo** la vuelve a humedecer, y después hay que **dejarla escurrir**."
       }
     ],
     "fuentes": [
@@ -418,38 +418,38 @@
       {
         "tipo": "concepto",
         "imagen": "riego",
-        "texto": "Regar a mano con una regadera de pico fino es lo más simple y lo más preciso. Ves cuánta agua ponés y la llevás directo a la tierra."
+        "texto": "Regar a mano con una **regadera de pico fino** es **lo más simple y lo más preciso**. Ves cuánta agua ponés y la llevás directo a la tierra."
       },
       {
         "tipo": "concepto",
         "imagen": "plato-agua",
-        "texto": "El plato cuida el piso y los muebles, pero no es una reserva de agua. Vacialo después de regar: el agua estancada puede pudrir las raíces y, en el balcón, criar mosquitos."
+        "texto": "El plato cuida el piso y los muebles, pero **no es una reserva de agua**. **Vacialo después de regar**: el agua estancada puede pudrir las raíces y, en el balcón, **criar mosquitos**."
       },
       {
         "tipo": "concepto",
         "imagen": "ducha",
-        "texto": "Una ducha suave con agua tibia saca el polvo de las hojas y moja bien toda la tierra. Hacela cuando toque regar, dejá escurrir, y evitala en plantas de hojas con pelitos, que se limpian mejor con un pincel suave."
+        "texto": "Una **ducha suave con agua tibia** saca el polvo de las hojas y moja bien toda la tierra. Hacela cuando toque regar, dejá escurrir, y **evitala en plantas de hojas con pelitos**, que se limpian mejor con un pincel suave."
       },
       {
         "tipo": "dato_ba",
         "imagen": "estaciones",
-        "texto": "En Buenos Aires llueve más seguido en verano, y a las plantas del balcón la lluvia les limpia las hojas. Igual tocá la tierra después, y si llueve mucho poné los cactus y las suculentas bajo techo."
+        "texto": "En Buenos Aires llueve más seguido en verano, y a las plantas del balcón la lluvia les limpia las hojas. Igual **tocá la tierra después**, y si llueve mucho poné los **cactus y las suculentas bajo techo**."
       },
       {
         "tipo": "concepto",
         "imagen": "autorriego",
-        "texto": "Las macetas con autorriego o una mecha suben el agua de a poco desde un depósito, y el riego por goteo la reparte solo entre muchas macetas. Ayudan en vacaciones o en el balcón, pero no reemplazan revisar la tierra y van mejor con plantas que quieren humedad pareja."
+        "texto": "Las macetas con autorriego o una mecha suben el agua de a poco desde un depósito, y el riego por goteo la reparte solo entre muchas macetas. Ayudan en vacaciones o en el balcón, pero **no reemplazan revisar la tierra** y van mejor con plantas que quieren **humedad pareja**."
       },
       {
         "tipo": "concepto",
         "imagen": "rociador",
-        "texto": "Pulverizar las hojas casi no cambia la humedad, porque el agua se evapora en minutos. La excepción son las plantas del aire, que sí se riegan así."
+        "texto": "Pulverizar las hojas **casi no cambia la humedad**, porque el agua se evapora en minutos. La excepción son las **plantas del aire**, que sí se riegan así."
       }
     ],
     "para_llevarte": [
-      "A mano y a la tierra: lo más simple y preciso.",
-      "Plato, mecha y goteo ayudan, pero la tierra se revisa igual.",
-      "Rociar las hojas casi no cambia la humedad."
+      "A mano y a la tierra: **lo más simple y preciso**.",
+      "Plato, mecha y goteo ayudan, pero **la tierra se revisa igual**.",
+      "Rociar las hojas **casi no cambia la humedad**."
     ],
     "quiz": [
       {
@@ -473,7 +473,7 @@
             "b": "Muchas macetas juntas"
           }
         ],
-        "explicacion": "Cada forma tiene su momento. Con cualquiera, tocar la tierra sigue siendo la mejor guía."
+        "explicacion": "Cada forma tiene su momento. Con cualquiera, **tocar la tierra** sigue siendo la mejor guía."
       },
       {
         "tipo": "opcion_multiple",
@@ -484,7 +484,7 @@
           "Las riego igual, por las dudas"
         ],
         "correcta": 1,
-        "explicacion": "La lluvia no siempre llega a mojar la tierra por debajo de la superficie. Tocarla te saca la duda, sin regar de más ni de menos."
+        "explicacion": "La lluvia **no siempre llega a mojar la tierra** por debajo de la superficie. **Tocarla** te saca la duda, sin regar de más ni de menos."
       },
       {
         "tipo": "opcion_multiple",
@@ -495,7 +495,7 @@
           "Un helecho"
         ],
         "correcta": 1,
-        "explicacion": "Las hojas con pelitos se limpian mejor en seco, con un pincel o cepillo suave. Las de hoja lisa se bancan bien una ducha tibia."
+        "explicacion": "Las hojas con pelitos se limpian mejor **en seco, con un pincel o cepillo suave**. Las de hoja lisa se bancan bien una ducha tibia."
       }
     ],
     "fuentes": [
@@ -596,45 +596,45 @@
       {
         "tipo": "dato_ba",
         "imagen": "estaciones",
-        "texto": "En Buenos Aires el invierno va de junio a agosto y el verano de diciembre a febrero, al revés que en las guías del hemisferio norte. La regla es simple: en invierno se riega menos y en verano se revisa más seguido."
+        "texto": "En Buenos Aires el invierno va de junio a agosto y el verano de diciembre a febrero, al revés que en las guías del hemisferio norte. La regla es simple: **en invierno se riega menos** y **en verano se revisa más seguido**."
       },
       {
         "tipo": "por_que",
         "imagen": "luz-poca",
-        "texto": "En invierno hay menos luz y hace más fresco, así que la planta crece más despacio y toma menos agua. Si la seguís regando como en verano, la tierra queda mojada demasiado tiempo."
+        "texto": "En invierno hay menos luz y hace más fresco, así que la planta crece más despacio y **toma menos agua**. Si la seguís regando como en verano, **la tierra queda mojada demasiado tiempo**."
       },
       {
         "tipo": "dato_ba",
         "imagen": "calefaccion",
-        "texto": "La calefacción seca el aire, y una maceta cerca de la estufa o el radiador se seca más rápido. Alejala un poco del calor y seguí tocando la tierra, porque en invierno tampoco vale el calendario."
+        "texto": "La calefacción seca el aire, y una maceta cerca de la estufa o el radiador **se seca más rápido**. **Alejala un poco del calor** y **seguí tocando la tierra**, porque en invierno tampoco vale el calendario."
       },
       {
         "tipo": "concepto",
         "imagen": "casa",
-        "texto": "Si el aire está muy seco por la calefacción, ayuda juntar las plantas o usar un humidificador. Regar de más no lo arregla: el problema está en el aire, no en la tierra."
+        "texto": "Si el aire está muy seco por la calefacción, ayuda **juntar las plantas** o usar un **humidificador**. Regar de más no lo arregla: **el problema está en el aire**, no en la tierra."
       },
       {
         "tipo": "dato_ba",
         "imagen": "sol-tarde",
-        "texto": "En verano, con calor y más luz, las plantas están más activas y la tierra se seca más rápido. En el balcón, con sol y viento, puede hacer falta revisar las macetas todos los días, y más en las olas de calor, que en la ciudad son cada vez más frecuentes."
+        "texto": "En verano, con calor y más luz, las plantas están más activas y la tierra **se seca más rápido**. En el balcón, con sol y viento, puede hacer falta **revisar las macetas todos los días**, y más en las olas de calor, que en la ciudad son cada vez más frecuentes."
       },
       {
         "tipo": "concepto",
         "imagen": "ventana-sol",
-        "texto": "Si te vas de vacaciones en verano, regá bien antes de salir y alejá las plantas de la ventana con sol. Para más de una o dos semanas, lo más seguro es pedirle a alguien que pase a regar."
+        "texto": "Si te vas de vacaciones en verano, **regá bien antes de salir** y alejá las plantas de la ventana con sol. Para más de una o dos semanas, lo más seguro es **pedirle a alguien que pase a regar**."
       }
     ],
     "para_llevarte": [
-      "Invierno (junio a agosto): menos riego.",
-      "Verano (diciembre a febrero): revisá más seguido.",
-      "Con calefacción o con calor, la tierra manda."
+      "Invierno (junio a agosto): **menos riego**.",
+      "Verano (diciembre a febrero): **revisá más seguido**.",
+      "Con calefacción o con calor, **la tierra manda**."
     ],
     "quiz": [
       {
         "tipo": "verdadero_falso",
         "pregunta": "En invierno las plantas de interior suelen necesitar menos agua que en verano.",
         "correcta": true,
-        "explicacion": "En invierno crecen más despacio y toman menos agua. Igual, con la calefacción prendida la tierra puede secarse rápido, así que lo mejor es tocarla."
+        "explicacion": "En invierno crecen más despacio y **toman menos agua**. Igual, con la calefacción prendida la tierra puede secarse rápido, así que lo mejor es **tocarla**."
       },
       {
         "tipo": "que_le_pasa",
@@ -646,7 +646,7 @@
           "Necesita más abono"
         ],
         "correcta": 1,
-        "explicacion": "Con menos luz y más fresco la planta toma menos agua. Espaciá los riegos y esperá a que la tierra se seque."
+        "explicacion": "Con menos luz y más fresco la planta toma menos agua. **Espaciá los riegos** y **esperá a que la tierra se seque**."
       },
       {
         "tipo": "opcion_multiple",
@@ -657,7 +657,7 @@
           "Regarlas el doble"
         ],
         "correcta": 1,
-        "explicacion": "El rociado se evapora en minutos y casi no cambia nada. Agruparlas o un humidificador rinde más, y regar de más solo ahoga las raíces."
+        "explicacion": "El rociado **se evapora en minutos** y casi no cambia nada. **Agruparlas o un humidificador** rinde más, y regar de más solo ahoga las raíces."
       },
       {
         "tipo": "unir",
@@ -680,7 +680,7 @@
             "b": "Regar antes y sacar del sol"
           }
         ],
-        "explicacion": "Las estaciones cambian cuánta agua toma la planta. En todas, tocar la tierra antes de regar es lo que nunca falla."
+        "explicacion": "Las estaciones cambian cuánta agua toma la planta. En todas, **tocar la tierra antes de regar** es lo que nunca falla."
       }
     ],
     "fuentes": [
