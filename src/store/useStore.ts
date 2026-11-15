@@ -12,7 +12,7 @@ import {
   type InsigniaId,
 } from '../lib/gamificacion'
 import { asignarPerfil } from '../lib/perfil'
-import type { DatosMascotas, DatosPersistidos, Espacio, Respuestas, UnidadId } from '../lib/tipos'
+import type { DatosMascotas, DatosPersistidos, Espacio, Esfuerzo, PerfilLuz, Respuestas, Tiempo, TipoEspacio, UnidadId } from '../lib/tipos'
 import { LECCIONES_POR_UNIDAD } from '../data/lessons'
 
 export const DATOS_INICIALES: DatosPersistidos = {
@@ -38,8 +38,17 @@ export interface Resumen {
   rachaDias: number
 }
 
+/** Espacio cargado en el onboarding: tipo y luz. El resto arranca con valores razonables y se edita después. */
+export interface EspacioInicial {
+  tipo: TipoEspacio
+  nombre: string
+  luz: PerfilLuz
+}
+
+export const ESFUERZO_POR_TIEMPO: Record<Tiempo, Esfuerzo> = { casi_nada: 'poco', un_rato: 'medio', me_encanta: 'mucho' }
+
 interface Acciones {
-  completarOnboarding: (r: Respuestas, mascotas: DatosMascotas) => void
+  completarOnboarding: (r: Respuestas, mascotas: DatosMascotas, espacios: EspacioInicial[]) => void
   actualizarMascotas: (m: DatosMascotas) => void
   /** Registra una lección o repaso terminado y devuelve el resumen para la celebración */
   completarNodo: (id: string, xpBase: number, aciertos: number, total: number) => Resumen
@@ -87,12 +96,22 @@ export const useStore = create<Estado>()(
     (set, get) => ({
       ...DATOS_INICIALES,
 
-      completarOnboarding: (r, mascotas) =>
+      completarOnboarding: (r, mascotas, espacios) =>
         set({
           onboardingCompleto: true,
           respuestas: r,
           mascotas,
           perfil: asignarPerfil(r.experiencia, r.aciertosTest),
+          espacios: espacios.map((e, i) => ({
+            id: `${e.tipo}-${Date.now().toString(36)}${i}`,
+            nombre: e.nombre,
+            creado: hoyLocal(),
+            tipo: e.tipo,
+            luz: e.luz,
+            tamano: 'mediano',
+            mascotas: mascotas.tipo,
+            esfuerzo: ESFUERZO_POR_TIEMPO[r.tiempo],
+          })),
         }),
 
       actualizarMascotas: (m) => set({ mascotas: m }),
@@ -147,7 +166,8 @@ export const useStore = create<Estado>()(
         if (!s.salteadas.includes(u)) set({ salteadas: [...s.salteadas, u] })
       },
 
-      guardarEspacio: (e) => set((s) => ({ espacios: [e, ...s.espacios.filter((x) => x.id !== e.id)].slice(0, 50) })),
+      // Si el espacio ya existe se actualiza en su lugar; si es nuevo va al final
+      guardarEspacio: (e) => set((s) => ({ espacios: s.espacios.some((x) => x.id === e.id) ? s.espacios.map((x) => (x.id === e.id ? e : x)) : [...s.espacios, e].slice(0, 50) })),
       borrarEspacio: (id) => set((s) => ({ espacios: s.espacios.filter((x) => x.id !== id) })),
 
       reemplazarDatos: (d) => set({ ...d }),

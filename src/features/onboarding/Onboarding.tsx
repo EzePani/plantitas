@@ -1,35 +1,44 @@
 import { AnimatePresence, motion } from 'framer-motion'
-import { ChevronLeft, PawPrint, Sun } from 'lucide-react'
+import { ChevronLeft, PawPrint } from 'lucide-react'
 import { useState, type ReactNode } from 'react'
 import { Boton } from '../../components/Boton'
 import { Brote } from '../../components/Ilustracion'
 import { OpcionGrande } from '../../components/OpcionGrande'
 import { ONBOARDING as O, PERFILES, type Opcion } from '../../data/onboarding'
 import { UNIDADES } from '../../data/unidades'
-import { deducirLuz } from '../../lib/luz'
 import { asignarPerfil, planDeCamino } from '../../lib/perfil'
-import type { DatosMascotas, Respuestas } from '../../lib/tipos'
-import { useStore } from '../../store/useStore'
+import { TC } from '../../data/textosCatalogo'
+import type { DatosMascotas, PerfilLuz, Respuestas, TipoEspacio } from '../../lib/tipos'
+import { useStore, type EspacioInicial } from '../../store/useStore'
+import { PasoHoras, PasoObstaculos, PasoTipoLuz, ResumenLuz, pasosDeLuz } from '../spaces/EditorLuz'
 
-type Paso =
-  | 'bienvenida'
-  | 'experiencia'
-  | 'test'
-  | 'lugar'
-  | 'sol'
-  | 'mascotas'
-  | 'muerde'
-  | 'alcance'
-  | 'tiempo'
-  | 'objetivo'
-  | 'resultado'
+/** Los pasos de luz llevan el índice del espacio: "luz-tipo-0", "luz-horas-1"… */
+type PasoLuz = `luz-${'tipo' | 'horas' | 'obstaculos'}-${number}`
+type Paso = 'bienvenida' | 'experiencia' | 'test' | 'lugar' | PasoLuz | 'otro' | 'mascotas' | 'muerde' | 'alcance' | 'tiempo' | 'objetivo' | 'resultado'
+
+/** En el onboarding se cargan como mucho 2 espacios; el resto se suma desde "Mi espacio" */
+const MAX_ESPACIOS = 2
+
+interface EspacioBorrador {
+  tipo: TipoEspacio
+  luz?: PerfilLuz
+}
 
 type Borrador = Partial<Respuestas> & { mascota?: DatosMascotas['tipo']; muerde?: DatosMascotas['muerde']; alcance?: DatosMascotas['alcance'] }
 
-function pasosPara(b: Borrador): Paso[] {
+const ESPACIOS_POR_LUGAR: Record<NonNullable<Respuestas['lugar']>, TipoEspacio[]> = { interior: ['living'], balcon: ['balcon'], ambos: ['living', 'balcon'] }
+
+function pasosPara(b: Borrador, espacios: EspacioBorrador[], sumoOtro: boolean): Paso[] {
   const pasos: Paso[] = ['bienvenida', 'experiencia']
   if (b.experiencia === 'bastante') pasos.push('test')
-  pasos.push('lugar', 'sol', 'mascotas')
+  pasos.push('lugar')
+  const deLuz = (i: number) => pasosDeLuz(espacios[i]?.luz).map((p): PasoLuz => `luz-${p}-${i}`)
+  // 3a-3c por cada espacio de la pregunta 2; 3d ofrece sumar otro si todavía hay lugar
+  const base = sumoOtro ? espacios.length - 1 : espacios.length
+  for (let i = 0; i < base; i++) pasos.push(...deLuz(i))
+  if (base < MAX_ESPACIOS) pasos.push('otro')
+  if (sumoOtro) pasos.push(...deLuz(espacios.length - 1))
+  pasos.push('mascotas')
   if (b.mascota && b.mascota !== 'ninguna') pasos.push('muerde', 'alcance')
   pasos.push('tiempo', 'objetivo', 'resultado')
   return pasos
@@ -59,12 +68,14 @@ function Encabezado({ titulo, animo = 'feliz' }: { titulo: string; animo?: 'feli
 export function Onboarding() {
   const completar = useStore((s) => s.completarOnboarding)
   const [b, setB] = useState<Borrador>({})
+  const [espacios, setEspacios] = useState<EspacioBorrador[]>([])
+  const [sumoOtro, setSumoOtro] = useState(false)
   const [paso, setPaso] = useState<Paso>('bienvenida')
   const [dir, setDir] = useState(1)
   const [preguntaTest, setPreguntaTest] = useState(0)
   const [aciertos, setAciertos] = useState(0)
 
-  const pasos = pasosPara(b)
+  const pasos = pasosPara(b, espacios, sumoOtro)
   const i = pasos.indexOf(paso)
   const set = (cambios: Borrador) => setB((prev) => ({ ...prev, ...cambios }))
 
@@ -81,19 +92,31 @@ export function Onboarding() {
     setPaso(pasos[i - 1])
   }
 
-  const puedeSeguir: Record<Paso, boolean> = {
-    bienvenida: true,
+  // Paso de luz actual: qué sub-paso es y de qué espacio
+  const luzActual = paso.startsWith('luz-') ? { sub: paso.split('-')[1] as 'tipo' | 'horas' | 'obstaculos', i: Number(paso.split('-')[2]) } : null
+  const setLuz = (i: number, luz: PerfilLuz) => setEspacios((es) => es.map((e, n) => (n === i ? { ...e, luz } : e)))
+
+  const puedeSeguirFijo: Partial<Record<Paso, boolean>> = {
     experiencia: Boolean(b.experiencia),
     test: false,
     lugar: Boolean(b.lugar),
-    sol: Boolean(b.abertura && b.horaSol),
+    otro: false,
     mascotas: Boolean(b.mascota),
     muerde: Boolean(b.muerde),
     alcance: Boolean(b.alcance),
     tiempo: Boolean(b.tiempo),
     objetivo: Boolean(b.objetivo),
-    resultado: true,
   }
+  const puedeSeguir = luzActual ? luzActual.sub !== 'tipo' || Boolean(espacios[luzActual.i]?.luz) : (puedeSeguirFijo[paso] ?? true)
+
+  const elegirLugar = (lugar: NonNullable<Respuestas['lugar']>) => {
+    set({ lugar })
+    // Cambiar la respuesta arma los espacios de nuevo, conservando la luz de los que siguen
+    setEspacios((es) => ESPACIOS_POR_LUGAR[lugar].map((tipo) => es.find((e) => e.tipo === tipo) ?? { tipo }))
+    setSumoOtro(false)
+  }
+
+  const iniciales: EspacioInicial[] = espacios.filter((e): e is Required<EspacioBorrador> => Boolean(e.luz)).map((e) => ({ tipo: e.tipo, nombre: TC.espacio.nombres[e.tipo], luz: e.luz }))
 
   const mascotas: DatosMascotas =
     b.mascota && b.mascota !== 'ninguna' ? { tipo: b.mascota, muerde: b.muerde, alcance: b.alcance } : { tipo: 'ninguna' }
@@ -104,12 +127,11 @@ export function Onboarding() {
         experiencia: b.experiencia!,
         aciertosTest: b.experiencia === 'bastante' ? aciertos : undefined,
         lugar: b.lugar!,
-        abertura: b.abertura!,
-        horaSol: b.horaSol!,
         tiempo: b.tiempo!,
         objetivo: b.objetivo!,
       },
       mascotas,
+      iniciales,
     )
   }
 
@@ -122,6 +144,27 @@ export function Onboarding() {
   }
 
   let contenido: ReactNode
+  if (luzActual) {
+    const e = espacios[luzActual.i]
+    const lugar = TC.espacio.enTu[e.tipo]
+    contenido =
+      luzActual.sub === 'tipo' ? (
+        <>
+          <Encabezado titulo={TC.luz.tipo.titulo(lugar)} />
+          <PasoTipoLuz luz={e.luz} onCambio={(l) => setLuz(luzActual.i, l)} />
+        </>
+      ) : luzActual.sub === 'horas' ? (
+        <>
+          <Encabezado titulo={TC.luz.horas.titulo} />
+          <PasoHoras luz={e.luz!} onCambio={(l) => setLuz(luzActual.i, l)} />
+        </>
+      ) : (
+        <>
+          <Encabezado titulo={TC.luz.obstaculos.titulo} />
+          <PasoObstaculos luz={e.luz!} onCambio={(l) => setLuz(luzActual.i, l)} />
+        </>
+      )
+  }
   switch (paso) {
     case 'bienvenida':
       contenido = (
@@ -172,53 +215,39 @@ export function Onboarding() {
       contenido = (
         <>
           <Encabezado titulo={O.lugar.titulo} />
-          <Lista opciones={O.lugar.opciones} valor={b.lugar} onElegir={(v) => set({ lugar: v })} />
+          <Lista opciones={O.lugar.opciones} valor={b.lugar} onElegir={elegirLugar} />
         </>
       )
       break
-    case 'sol':
+    case 'otro': {
+      const libres = TC.espacio.pasos.tipo.opciones.filter((o) => !espacios.some((e) => e.tipo === o.valor))
+      const sumar = (tipo: TipoEspacio) => {
+        setEspacios((es) => [...es.slice(0, sumoOtro ? -1 : undefined), { tipo }])
+        setSumoOtro(true)
+        setDir(1)
+        setPaso(`luz-tipo-${sumoOtro ? espacios.length - 1 : espacios.length}`)
+      }
+      const noSumar = () => {
+        if (sumoOtro) setEspacios((es) => es.slice(0, -1))
+        setSumoOtro(false)
+        setDir(1)
+        setPaso('mascotas')
+      }
       contenido = (
         <>
-          <Encabezado titulo={O.sol.titulo} />
-          <h2 className="text-tinta mb-2 text-[16px] font-extrabold">{O.sol.preguntaAbertura}</h2>
-          <div className="mb-5 grid grid-cols-3 gap-2">
-            {O.sol.aberturas.map((o) => (
-              <OpcionGrande key={o.valor} compacta texto={o.texto} elegida={b.abertura === o.valor} onClick={() => set({ abertura: o.valor })} />
+          <Encabezado titulo={O.otroEspacio.titulo} />
+          <p className="text-tinta-suave -mt-2 mb-4 text-[15px] leading-snug font-bold">{O.otroEspacio.texto}</p>
+          <div className="mb-3 grid grid-cols-2 gap-2.5">
+            {libres.map((o) => (
+              <OpcionGrande key={o.valor} compacta icono={o.icono} texto={o.texto} elegida={sumoOtro && espacios[espacios.length - 1]?.tipo === o.valor} onClick={() => sumar(o.valor)} />
             ))}
           </div>
-          <h2 className="text-tinta mb-2 text-[16px] font-extrabold">{O.sol.preguntaHora}</h2>
-          <div className="grid grid-cols-2 gap-2">
-            {O.sol.horas.map((o) => (
-              <OpcionGrande key={o.valor} compacta texto={o.texto} icono={o.icono} elegida={b.horaSol === o.valor} onClick={() => set({ horaSol: o.valor })} />
-            ))}
-          </div>
-          <AnimatePresence>
-            {b.horaSol === 'no_se' && (
-              <motion.div
-                initial={{ opacity: 0, height: 0 }}
-                animate={{ opacity: 1, height: 'auto' }}
-                exit={{ opacity: 0, height: 0 }}
-                className="overflow-hidden"
-              >
-                <div className="bg-sol-claro border-sol mt-4 rounded-2xl border-2 p-4">
-                  <h3 className="font-display text-tinta m-0 text-[17px] font-semibold">{O.sol.ayudaNoSe.titulo}</h3>
-                  <p className="text-tinta mt-1 mb-3 text-[14px] leading-snug font-bold">{O.sol.ayudaNoSe.texto}</p>
-                  <div className="flex gap-2">
-                    {O.sol.ayudaNoSe.momentos.map((m) => (
-                      <div key={m} className="flex flex-1 flex-col items-center rounded-xl bg-white py-2">
-                        <Sun size={20} className="text-sol-osc" aria-hidden />
-                        <span className="text-tinta text-[14px] font-extrabold">{m}</span>
-                      </div>
-                    ))}
-                  </div>
-                  <p className="text-tinta-suave mt-3 mb-0 text-[13px] font-bold">{O.sol.ayudaNoSe.cierre}</p>
-                </div>
-              </motion.div>
-            )}
-          </AnimatePresence>
+          <OpcionGrande icono="no" texto={O.otroEspacio.no} onClick={noSumar} />
+          <p className="text-tinta-suave mt-4 text-[14px] leading-snug font-bold">{O.otroEspacio.nota}</p>
         </>
       )
       break
+    }
     case 'mascotas':
       contenido = (
         <>
@@ -262,7 +291,6 @@ export function Onboarding() {
       break
     case 'resultado': {
       const perfil = asignarPerfil(b.experiencia!, aciertos)
-      const luz = deducirLuz(b.horaSol!)
       const plan = planDeCamino(perfil, mascotas, b.objetivo!)
       const primera = UNIDADES[plan.orden.find((u) => UNIDADES[u].tanda === 1)!]
       contenido = (
@@ -274,15 +302,12 @@ export function Onboarding() {
           <h1 className="font-display text-hoja-osc m-0 text-[36px] leading-tight font-semibold">{PERFILES[perfil].nombre}</h1>
           <p className="text-tinta mt-2 text-[17px] leading-snug font-bold">{PERFILES[perfil].bienvenida}</p>
           <div className="mt-5 flex w-full flex-col gap-2 text-left">
-            <div className="bg-sol-claro flex items-center gap-3 rounded-2xl p-3">
-              <Sun className="text-sol-osc shrink-0" aria-hidden />
-              <div>
-                <div className="text-tinta text-[15px] font-extrabold">
-                  {O.resultado.luz.titulo}: {O.resultado.luz[luz.luz]}
-                </div>
-                {luz.asumida && <div className="text-tinta-suave text-[13px] font-bold">{O.resultado.luz.asumida}</div>}
+            {iniciales.map((e) => (
+              <div key={e.tipo}>
+                <div className="text-tinta-suave mb-1 text-[12px] font-extrabold tracking-widest uppercase">{e.nombre}</div>
+                <ResumenLuz luz={e.luz} compacto />
               </div>
-            </div>
+            ))}
             {mascotas.tipo !== 'ninguna' && (
               <div className="bg-terracota-clara flex items-center gap-3 rounded-2xl p-3">
                 <PawPrint className="text-terracota-osc shrink-0" aria-hidden />
@@ -343,10 +368,10 @@ export function Onboarding() {
         </AnimatePresence>
       </div>
 
-      {paso !== 'test' && (
+      {paso !== 'test' && paso !== 'otro' && (
         <footer className="shrink-0 px-5 pt-2 pb-5">
           <Boton
-            disabled={!puedeSeguir[paso]}
+            disabled={!puedeSeguir}
             variante={paso === 'resultado' ? 'sol' : 'primario'}
             onClick={paso === 'resultado' ? terminar : avanzar}
           >

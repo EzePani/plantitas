@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from 'framer-motion'
-import { Check, ChevronRight, Plus, ShieldCheck, Sun, Trash2, TriangleAlert } from 'lucide-react'
+import { ChevronRight, Pencil, Plus, ShieldCheck, Trash2, TriangleAlert } from 'lucide-react'
 import { useMemo, useState } from 'react'
 import { Boton } from '../../components/Boton'
 import { Dialogo } from '../../components/Dialogo'
@@ -12,15 +12,22 @@ import { PLANTAS, type Planta } from '../../data/plantas'
 import { T } from '../../data/textos'
 import { TC } from '../../data/textosCatalogo'
 import { hoyLocal } from '../../lib/fecha'
-import { recomendar, type DatosEspacio, type Motivo, type Recomendada } from '../../lib/recomendador'
-import type { Abertura, Espacio } from '../../lib/tipos'
-import { useStore } from '../../store/useStore'
+import { recomendar, type Motivo, type Recomendada } from '../../lib/recomendador'
+import type { Espacio } from '../../lib/tipos'
+import { ESFUERZO_POR_TIEMPO, useStore } from '../../store/useStore'
 import { FichaPlanta } from '../pets/FichaPlanta'
 import { TarjetaPlanta } from '../pets/Plantas'
+import { PasoHoras, PasoObstaculos, PasoTipoLuz, ResumenLuz, lineaDeLuz, pasosDeLuz } from './EditorLuz'
 
 const E = TC.espacio
-type Borrador = Partial<DatosEspacio> & { abertura?: Abertura }
-const PASOS = ['tipo', 'sol', 'tamano', 'mascotas', 'esfuerzo'] as const
+type Borrador = Partial<Espacio>
+type PasoForm = 'tipo' | 'luz-tipo' | 'luz-horas' | 'luz-obstaculos' | 'tamano' | 'mascotas' | 'esfuerzo'
+/** Los 5 pasos del formulario; la luz (paso 2) se despliega en hasta 3 pantallas */
+const BLOQUES: Record<PasoForm, number> = { tipo: 0, 'luz-tipo': 1, 'luz-horas': 1, 'luz-obstaculos': 1, tamano: 2, mascotas: 3, esfuerzo: 4 }
+
+function pasosDelForm(b: Borrador): PasoForm[] {
+  return ['tipo', ...pasosDeLuz(b.luz).map((p): PasoForm => `luz-${p}`), 'tamano', 'mascotas', 'esfuerzo']
+}
 
 /** Orden en que se nombran los motivos en la frase de "por qué sí" */
 const PRIORIDAD: Motivo[] = ['segura_mascotas', 'luz_ideal', 'luz_tolera', 'luz_filtrada', 'aguanta_sol', 'ama_humedad', 'aguanta_descuido', 'facil', 'tamano_justo', 'desafio']
@@ -33,28 +40,16 @@ export function frasePorQue(r: Recomendada): string {
   return `${frase.charAt(0).toUpperCase()}${frase.slice(1)}.`
 }
 
-function aDatos(e: Espacio): DatosEspacio {
-  return e.datos as unknown as DatosEspacio
-}
-
-function Resultado({ datos, onVerPlanta }: { datos: DatosEspacio; onVerPlanta: (p: Planta) => void }) {
-  const r = useMemo(() => recomendar(PLANTAS, datos), [datos])
+function Resultado({ espacio, onVerPlanta }: { espacio: Espacio; onVerPlanta: (p: Planta) => void }) {
+  const r = useMemo(() => recomendar(PLANTAS, espacio), [espacio])
   const R = E.resultado
   return (
     <div className="flex flex-col gap-3 px-5 pb-6">
-      <div className="bg-sol-claro flex items-center gap-3 rounded-2xl p-3">
-        <Sun className="text-sol-osc shrink-0" aria-hidden />
-        <div>
-          <div className="text-tinta text-[15px] font-extrabold">
-            {R.luz}: {TC.plantas.luz[r.luz]}
-          </div>
-          {r.luzAsumida && <div className="text-tinta-suave text-[13px] leading-snug font-bold">{R.luzAsumida}</div>}
-        </div>
-      </div>
-      {datos.mascotas !== 'ninguna' && (
+      <ResumenLuz luz={espacio.luz} />
+      {espacio.mascotas !== 'ninguna' && (
         <div className="bg-brote flex items-center gap-3 rounded-2xl p-3">
           <ShieldCheck className="text-hoja-osc shrink-0" aria-hidden />
-          <div className="text-tinta text-[14px] font-extrabold">{R.filtroMascotas[datos.mascotas]}</div>
+          <div className="text-tinta text-[14px] font-extrabold">{R.filtroMascotas[espacio.mascotas]}</div>
         </div>
       )}
 
@@ -75,18 +70,13 @@ function Resultado({ datos, onVerPlanta }: { datos: DatosEspacio; onVerPlanta: (
           {r.evitar.map((x) => {
             const m = E.motivosEvitar[x.motivo]
             return (
-              <button
-                key={x.planta.id}
-                type="button"
-                onClick={() => onVerPlanta(x.planta)}
-                className="border-alerta bg-alerta-clara flex w-full items-center gap-3 rounded-3xl border-2 p-3 text-left"
-              >
+              <button key={x.planta.id} type="button" onClick={() => onVerPlanta(x.planta)} className="border-alerta bg-alerta-clara flex w-full items-center gap-3 rounded-3xl border-2 p-3 text-left">
                 <span className="bg-alerta grid size-10 shrink-0 place-items-center rounded-full text-white">
                   <TriangleAlert size={20} aria-hidden />
                 </span>
                 <span className="flex-1">
                   <span className="font-display text-tinta block text-[17px] font-semibold">{x.planta.nombre_comun}</span>
-                  <span className="text-tinta block text-[14px] leading-snug font-bold">{typeof m === 'string' ? m : m[datos.mascotas]}</span>
+                  <span className="text-tinta block text-[14px] leading-snug font-bold">{typeof m === 'string' ? m : m[espacio.mascotas]}</span>
                 </span>
                 <ChevronRight size={20} className="text-alerta shrink-0" aria-hidden />
               </button>
@@ -102,52 +92,72 @@ function Resultado({ datos, onVerPlanta }: { datos: DatosEspacio; onVerPlanta: (
 export function MiEspacio() {
   const espacios = useStore((s) => s.espacios)
   const mascotasPerfil = useStore((s) => s.mascotas.tipo)
-  const horaPerfil = useStore((s) => s.respuestas?.horaSol)
+  const tiempo = useStore((s) => s.respuestas?.tiempo)
   const guardar = useStore((s) => s.guardarEspacio)
   const borrar = useStore((s) => s.borrarEspacio)
 
-  const [armando, setArmando] = useState(false)
-  const [paso, setPaso] = useState(0)
-  const [b, setB] = useState<Borrador>({})
-  const [resultado, setResultado] = useState<{ datos: DatosEspacio; guardado: boolean } | null>(null)
+  const [b, setB] = useState<Borrador | null>(null)
+  const [paso, setPaso] = useState<PasoForm>('tipo')
+  const [abiertoId, setAbiertoId] = useState<string | null>(null)
   const [planta, setPlanta] = useState<Planta | null>(null)
   const [aBorrar, setABorrar] = useState<Espacio | null>(null)
 
-  const empezar = () => {
-    // Mascotas y horario de sol se precargan del onboarding; se pueden cambiar
-    setB({ mascotas: mascotasPerfil, horaSol: horaPerfil })
-    setPaso(0)
-    setArmando(true)
-  }
+  const abierto = espacios.find((e) => e.id === abiertoId) ?? null
+  const editando = Boolean(b?.id)
   const set = (c: Borrador) => setB((p) => ({ ...p, ...c }))
-  const nombrePaso = PASOS[paso]
-  const completo: Record<(typeof PASOS)[number], boolean> = {
-    tipo: Boolean(b.tipo),
-    sol: Boolean(b.horaSol && (b.abertura || b.tipo === 'balcon')),
-    tamano: Boolean(b.tamano),
-    mascotas: Boolean(b.mascotas),
-    esfuerzo: Boolean(b.esfuerzo),
+
+  const nuevo = () => {
+    // Mascotas y dedicación se precargan del perfil; se pueden cambiar para este lugar
+    setB({ mascotas: mascotasPerfil, esfuerzo: tiempo ? ESFUERZO_POR_TIEMPO[tiempo] : undefined })
+    setPaso('tipo')
   }
+  const editar = (e: Espacio) => {
+    setB({ ...e })
+    setPaso('luz-tipo')
+  }
+
+  const pasos = b ? pasosDelForm(b) : []
+  const i = pasos.indexOf(paso)
+  const completo: Record<PasoForm, boolean> = {
+    tipo: Boolean(b?.tipo),
+    'luz-tipo': Boolean(b?.luz),
+    'luz-horas': true,
+    'luz-obstaculos': true,
+    tamano: Boolean(b?.tamano),
+    mascotas: Boolean(b?.mascotas),
+    esfuerzo: Boolean(b?.esfuerzo),
+  }
+  const ultimo = i === pasos.length - 1
 
   const siguiente = () => {
-    if (paso < PASOS.length - 1) return setPaso(paso + 1)
-    const datos: DatosEspacio = { tipo: b.tipo!, horaSol: b.horaSol!, tamano: b.tamano!, mascotas: b.mascotas!, esfuerzo: b.esfuerzo! }
-    setResultado({ datos, guardado: false })
-    setArmando(false)
+    if (!b) return
+    if (!ultimo) return setPaso(pasos[i + 1])
+    const repetidos = espacios.filter((e) => e.tipo === b.tipo && e.id !== b.id).length
+    const espacio: Espacio = {
+      id: b.id ?? `${b.tipo}-${Date.now().toString(36)}`,
+      // Al editar se conserva el nombre, salvo que haya cambiado el tipo de lugar
+      nombre: b.id && b.nombre && espacios.find((e) => e.id === b.id)?.tipo === b.tipo ? b.nombre : repetidos ? `${E.nombres[b.tipo!]} ${repetidos + 1}` : E.nombres[b.tipo!],
+      creado: b.creado ?? hoyLocal(),
+      tipo: b.tipo!,
+      luz: b.luz!,
+      tamano: b.tamano!,
+      mascotas: b.mascotas!,
+      esfuerzo: b.esfuerzo!,
+    }
+    guardar(espacio)
+    setB(null)
+    setAbiertoId(espacio.id)
   }
+  const atras = () => (i <= 0 ? setB(null) : setPaso(pasos[i - 1]))
 
-  const guardarActual = () => {
-    if (!resultado) return
-    const r = recomendar(PLANTAS, resultado.datos)
-    const repetidos = espacios.filter((e) => e.datos.tipo === resultado.datos.tipo).length
-    guardar({
-      id: `${resultado.datos.tipo}-${Date.now().toString(36)}`,
-      nombre: repetidos ? `${E.nombres[resultado.datos.tipo]} ${repetidos + 1}` : E.nombres[resultado.datos.tipo],
-      creado: hoyLocal(),
-      datos: { ...resultado.datos },
-      plantas: r.recomendadas.map((x) => x.planta.id),
-    })
-    setResultado({ ...resultado, guardado: true })
+  const titulo: Record<PasoForm, string> = {
+    tipo: E.pasos.tipo.titulo,
+    'luz-tipo': TC.luz.tipo.titulo(b?.tipo ? E.enTu[b.tipo] : ''),
+    'luz-horas': TC.luz.horas.titulo,
+    'luz-obstaculos': TC.luz.obstaculos.titulo,
+    tamano: E.pasos.tamano.titulo,
+    mascotas: E.pasos.mascotas.titulo,
+    esfuerzo: E.pasos.esfuerzo.titulo,
   }
 
   return (
@@ -165,28 +175,31 @@ export function MiEspacio() {
           </div>
         ) : (
           <>
-            <h2 className="text-tinta-suave mt-1 mb-2 text-[13px] font-extrabold tracking-widest uppercase">{E.guardados}</h2>
+            <p className="text-tinta-suave mt-0 mb-3 text-[14px] leading-snug font-bold">{E.intro}</p>
             <div className="mb-5 flex flex-col gap-2.5">
               {espacios.map((e) => (
                 <div key={e.id} className="border-arena-osc flex items-center rounded-3xl border-2 bg-white shadow-[0_3px_0_var(--color-arena-osc)]">
-                  <button type="button" onClick={() => setResultado({ datos: aDatos(e), guardado: true })} className="flex min-h-16 flex-1 items-center gap-3 border-0 bg-transparent p-3 text-left">
+                  <button type="button" onClick={() => setAbiertoId(e.id)} className="flex min-h-16 min-w-0 flex-1 items-center gap-3 border-0 bg-transparent p-3 text-left">
                     <span className="bg-brote text-hoja-osc grid size-11 shrink-0 place-items-center rounded-2xl">
-                      <Icono nombre={E.pasos.tipo.opciones.find((o) => o.valor === e.datos.tipo)?.icono ?? 'casa'} />
+                      <Icono nombre={E.pasos.tipo.opciones.find((o) => o.valor === e.tipo)?.icono ?? 'casa'} />
                     </span>
-                    <span>
+                    <span className="min-w-0">
                       <span className="font-display text-tinta block text-[18px] font-semibold">{e.nombre}</span>
-                      <span className="text-tinta-suave block text-[13px] font-bold">{TC.plantas.cuenta(e.plantas.length)}</span>
+                      <span className="text-tinta-suave block text-[13px] leading-tight font-bold">{lineaDeLuz(e.luz)}</span>
                     </span>
                   </button>
-                  <button type="button" aria-label={`${E.borrar} ${e.nombre}`} onClick={() => setABorrar(e)} className="text-tinta-suave grid size-12 place-items-center border-0 bg-transparent">
-                    <Trash2 size={20} aria-hidden />
+                  <button type="button" aria-label={`${E.editar}: ${e.nombre}`} onClick={() => editar(e)} className="text-tinta-suave grid size-11 place-items-center border-0 bg-transparent">
+                    <Pencil size={19} aria-hidden />
+                  </button>
+                  <button type="button" aria-label={`${E.borrar} ${e.nombre}`} onClick={() => setABorrar(e)} className="text-tinta-suave mr-1 grid size-11 place-items-center border-0 bg-transparent">
+                    <Trash2 size={19} aria-hidden />
                   </button>
                 </div>
               ))}
             </div>
           </>
         )}
-        <Boton onClick={empezar}>
+        <Boton onClick={nuevo}>
           <span className="flex items-center justify-center gap-2">
             <Plus size={20} strokeWidth={3} aria-hidden />
             {E.nuevo}
@@ -194,105 +207,83 @@ export function MiEspacio() {
         </Boton>
       </div>
 
-      {/* Formulario de 5 pasos */}
+      {/* Recomendaciones de un espacio */}
       <Panel
-        abierto={armando}
-        onCerrar={() => (paso === 0 ? setArmando(false) : setPaso(paso - 1))}
+        abierto={abierto !== null}
+        titulo={abierto?.nombre}
+        onCerrar={() => setAbiertoId(null)}
         pie={
-          <Boton disabled={!completo[nombrePaso]} variante={paso === PASOS.length - 1 ? 'sol' : 'primario'} onClick={siguiente}>
-            {paso === PASOS.length - 1 ? E.verResultado : T.comun.continuar}
+          abierto && (
+            <Boton variante="secundario" onClick={() => editar(abierto)}>
+              <span className="flex items-center justify-center gap-2">
+                <Pencil size={18} aria-hidden />
+                {E.editar}
+              </span>
+            </Boton>
+          )
+        }
+      >
+        {abierto && <Resultado espacio={abierto} onVerPlanta={setPlanta} />}
+      </Panel>
+
+      {/* Formulario: tipo → luz → tamaño → mascotas → dedicación */}
+      <Panel
+        abierto={b !== null}
+        onCerrar={atras}
+        pie={
+          <Boton disabled={!completo[paso]} variante={ultimo ? 'sol' : 'primario'} onClick={siguiente}>
+            {ultimo ? (editando ? E.guardarCambios : E.verResultado) : T.comun.continuar}
           </Boton>
         }
       >
-        <div className="px-5 pb-4">
-          <div className="mb-5 flex gap-1.5" role="progressbar" aria-valuenow={paso + 1} aria-valuemin={1} aria-valuemax={PASOS.length}>
-            {PASOS.map((p, i) => (
-              <span key={p} className={`h-2.5 flex-1 rounded-full ${i <= paso ? 'bg-hoja-clara' : 'bg-arena-osc'}`} />
-            ))}
-          </div>
-          <AnimatePresence mode="wait" initial={false}>
-            <motion.div key={nombrePaso} initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -30 }} transition={{ duration: 0.18 }}>
-              <h2 className="font-display text-tinta mt-0 mb-4 text-[26px] leading-tight font-semibold">{E.pasos[nombrePaso].titulo}</h2>
-              {nombrePaso === 'tipo' && (
-                <div className="grid grid-cols-2 gap-2.5">
-                  {E.pasos.tipo.opciones.map((o) => (
-                    <OpcionGrande key={o.valor} compacta icono={o.icono} texto={o.texto} elegida={b.tipo === o.valor} onClick={() => set({ tipo: o.valor })} />
-                  ))}
-                </div>
-              )}
-              {nombrePaso === 'sol' && (
-                <>
-                  {b.tipo !== 'balcon' && (
-                    <>
-                      <h3 className="text-tinta mt-0 mb-2 text-[16px] font-extrabold">{O.sol.preguntaAbertura}</h3>
-                      <div className="mb-5 grid grid-cols-3 gap-2">
-                        {O.sol.aberturas.map((o) => (
-                          <OpcionGrande key={o.valor} compacta texto={o.texto} elegida={b.abertura === o.valor} onClick={() => set({ abertura: o.valor })} />
-                        ))}
-                      </div>
-                    </>
-                  )}
-                  <h3 className="text-tinta mt-0 mb-2 text-[16px] font-extrabold">{O.sol.preguntaHora}</h3>
-                  <div className="grid grid-cols-2 gap-2">
-                    {O.sol.horas.map((o) => (
-                      <OpcionGrande key={o.valor} compacta icono={o.icono} texto={o.texto} elegida={b.horaSol === o.valor} onClick={() => set({ horaSol: o.valor })} />
-                    ))}
-                  </div>
-                  {b.horaSol === 'no_se' && (
-                    <p className="bg-sol-claro text-tinta mt-4 mb-0 rounded-2xl p-3 text-[14px] leading-snug font-bold">
-                      {O.sol.ayudaNoSe.texto} {O.sol.ayudaNoSe.momentos.join(', ')}.
-                    </p>
-                  )}
-                </>
-              )}
-              {nombrePaso === 'tamano' && (
-                <div className="flex flex-col gap-3">
-                  {E.pasos.tamano.opciones.map((o) => (
-                    <OpcionGrande key={o.valor} icono={o.icono} texto={o.texto} elegida={b.tamano === o.valor} onClick={() => set({ tamano: o.valor })} />
-                  ))}
-                </div>
-              )}
-              {nombrePaso === 'mascotas' && (
-                <>
+        {b && (
+          <div className="px-5 pb-4">
+            <div className="mb-5 flex gap-1.5" role="progressbar" aria-valuenow={BLOQUES[paso] + 1} aria-valuemin={1} aria-valuemax={5}>
+              {[0, 1, 2, 3, 4].map((n) => (
+                <span key={n} className={`h-2.5 flex-1 rounded-full ${n <= BLOQUES[paso] ? 'bg-hoja-clara' : 'bg-arena-osc'}`} />
+              ))}
+            </div>
+            <AnimatePresence mode="wait" initial={false}>
+              <motion.div key={paso} initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -30 }} transition={{ duration: 0.18 }}>
+                <h2 className="font-display text-tinta mt-0 mb-4 text-[26px] leading-tight font-semibold">{titulo[paso]}</h2>
+                {paso === 'tipo' && (
                   <div className="grid grid-cols-2 gap-2.5">
-                    {O.mascotas.opciones.map((o) => (
-                      <OpcionGrande key={o.valor} compacta icono={o.icono} texto={o.texto} elegida={b.mascotas === o.valor} onClick={() => set({ mascotas: o.valor })} />
+                    {E.pasos.tipo.opciones.map((o) => (
+                      <OpcionGrande key={o.valor} compacta icono={o.icono} texto={o.texto} elegida={b.tipo === o.valor} onClick={() => set({ tipo: o.valor })} />
                     ))}
                   </div>
-                  <p className="text-tinta-suave mt-4 mb-0 text-[14px] leading-snug font-bold">{E.pasos.mascotas.nota}</p>
-                </>
-              )}
-              {nombrePaso === 'esfuerzo' && (
-                <div className="flex flex-col gap-3">
-                  {E.pasos.esfuerzo.opciones.map((o) => (
-                    <OpcionGrande key={o.valor} icono={o.icono} texto={o.texto} elegida={b.esfuerzo === o.valor} onClick={() => set({ esfuerzo: o.valor })} />
-                  ))}
-                </div>
-              )}
-            </motion.div>
-          </AnimatePresence>
-        </div>
-      </Panel>
-
-      <Panel
-        abierto={resultado !== null}
-        titulo={resultado ? E.nombres[resultado.datos.tipo] : undefined}
-        onCerrar={() => setResultado(null)}
-        pie={
-          resultado &&
-          (resultado.guardado ? (
-            <Boton variante="secundario" onClick={() => setResultado(null)}>
-              <span className="flex items-center justify-center gap-2">
-                <Check size={20} strokeWidth={3} aria-hidden />
-                {E.resultado.listo}
-              </span>
-            </Boton>
-          ) : (
-            <Boton onClick={guardarActual}>{E.resultado.guardar}</Boton>
-          ))
-        }
-      >
-        {resultado && <Resultado datos={resultado.datos} onVerPlanta={setPlanta} />}
+                )}
+                {paso === 'luz-tipo' && <PasoTipoLuz luz={b.luz} onCambio={(luz) => set({ luz })} />}
+                {paso === 'luz-horas' && b.luz && <PasoHoras luz={b.luz} onCambio={(luz) => set({ luz })} />}
+                {paso === 'luz-obstaculos' && b.luz && <PasoObstaculos luz={b.luz} onCambio={(luz) => set({ luz })} />}
+                {paso === 'tamano' && (
+                  <div className="flex flex-col gap-3">
+                    {E.pasos.tamano.opciones.map((o) => (
+                      <OpcionGrande key={o.valor} icono={o.icono} texto={o.texto} elegida={b.tamano === o.valor} onClick={() => set({ tamano: o.valor })} />
+                    ))}
+                  </div>
+                )}
+                {paso === 'mascotas' && (
+                  <>
+                    <div className="grid grid-cols-2 gap-2.5">
+                      {O.mascotas.opciones.map((o) => (
+                        <OpcionGrande key={o.valor} compacta icono={o.icono} texto={o.texto} elegida={b.mascotas === o.valor} onClick={() => set({ mascotas: o.valor })} />
+                      ))}
+                    </div>
+                    <p className="text-tinta-suave mt-4 mb-0 text-[14px] leading-snug font-bold">{E.pasos.mascotas.nota}</p>
+                  </>
+                )}
+                {paso === 'esfuerzo' && (
+                  <div className="flex flex-col gap-3">
+                    {E.pasos.esfuerzo.opciones.map((o) => (
+                      <OpcionGrande key={o.valor} icono={o.icono} texto={o.texto} elegida={b.esfuerzo === o.valor} onClick={() => set({ esfuerzo: o.valor })} />
+                    ))}
+                  </div>
+                )}
+              </motion.div>
+            </AnimatePresence>
+          </div>
+        )}
       </Panel>
 
       <Panel abierto={planta !== null} onCerrar={() => setPlanta(null)}>

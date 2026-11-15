@@ -1,8 +1,6 @@
 import type {
-  Abertura,
   Alcance,
   Experiencia,
-  HoraSol,
   Lugar,
   Muerde,
   Objetivo,
@@ -64,29 +62,11 @@ export const ONBOARDING = {
       { valor: 'ambos', texto: 'En los dos', icono: 'ambos' },
     ] satisfies Opcion<Lugar>[],
   },
-  sol: {
-    titulo: 'Tu espacio y el sol',
-    preguntaAbertura: '¿Qué tenés?',
-    aberturas: [
-      { valor: 'ventana', texto: 'Ventana', icono: 'ventana' },
-      { valor: 'balcon', texto: 'Balcón', icono: 'balcon' },
-      { valor: 'ambas', texto: 'Las dos', icono: 'ambos' },
-    ] satisfies Opcion<Abertura>[],
-    preguntaHora: '¿A qué hora suele dar el sol ahí?',
-    horas: [
-      { valor: 'manana', texto: 'A la mañana', icono: 'amanecer' },
-      { valor: 'mediodia', texto: 'Al mediodía', icono: 'sol' },
-      { valor: 'tarde', texto: 'A la tarde', icono: 'atardecer' },
-      { valor: 'todo_el_dia', texto: 'Casi todo el día', icono: 'sol-fuerte' },
-      { valor: 'casi_nunca', texto: 'Casi nunca', icono: 'nube' },
-      { valor: 'no_se', texto: 'No sé', icono: 'duda' },
-    ] satisfies Opcion<HoraSol>[],
-    ayudaNoSe: {
-      titulo: 'No pasa nada, lo averiguamos',
-      texto: 'Por ahora voy a suponer luz media. Cuando puedas, mirá ese lugar en tres momentos y fijate si le da el sol:',
-      momentos: ['10 hs', '13 hs', '17 hs'],
-      cierre: 'Después lo cambiás desde tu perfil.',
-    },
+  otroEspacio: {
+    titulo: '¿Querés sumar otro espacio?',
+    texto: 'Cada rincón tiene su propia luz: el balcón puede tener sol directo y el living solo claridad.',
+    no: 'Por ahora no',
+    nota: 'Después podés sumar todos los que quieras desde "Mi espacio".',
   },
   mascotas: {
     titulo: '¿Hay mascotas en casa?',
@@ -134,13 +114,6 @@ export const ONBOARDING = {
   resultado: {
     listo: 'Tu camino está listo',
     boton: 'Empezar a aprender',
-    luz: {
-      titulo: 'Tu luz',
-      poca: 'Poca luz',
-      media: 'Luz media',
-      mucha: 'Mucha luz',
-      asumida: 'Supuse luz media hasta que lo observes.',
-    },
     mascotasActivas: 'Filtro de mascotas activado en todas las recomendaciones.',
     arrancaPor: 'Arrancás por',
   },

@@ -1,4 +1,6 @@
+import type { CategoriaLuz, Momento, Orientacion } from '../lib/luz'
 import type { Esfuerzo, Motivo, MotivoEvitar, TamanoEspacio, TipoEspacio } from '../lib/recomendador'
+import type { Obstaculo, TipoLuz } from '../lib/tipos'
 import type { Opcion } from './onboarding'
 
 /** Textos del catálogo, el recomendador, fuentes y créditos */
@@ -18,7 +20,6 @@ export const TC = {
       noConfundir: 'No confundir',
     },
     gravedad: { leve: 'Gravedad leve', moderada: 'Gravedad moderada', grave: 'Grave', consulta_urgente: 'Consulta urgente' },
-    luz: { poca: 'Poca luz', media: 'Luz media', mucha: 'Mucha luz' },
     riego: { bajo: 'Poco riego', medio: 'Riego moderado', alto: 'Riego frecuente' },
     humedad: { baja: 'Aire seco, sin drama', media: 'Humedad normal', alta: 'Le gusta el aire húmedo' },
     dificultad: { facil: 'Fácil', media: 'Intermedia', dificil: 'Exigente' },
@@ -33,7 +34,15 @@ export const TC = {
     ficha: {
       cuidados: 'Cuidados',
       luz: 'Luz',
-      solDirecto: 'Se banca el sol directo.',
+      tambienTolera: 'También aguanta',
+      solDirecto: 'Sol directo',
+      sinSolDirecto: 'Mejor sin sol directo sobre las hojas.',
+      horasSol: (h: number) => `Aguanta hasta unas ${h} horas de sol directo por día.`,
+      plenoSol: 'Aguanta el sol directo durante todo el día.',
+      solTarde: { si: 'Se banca el sol fuerte de la tarde.', no: 'El sol fuerte de la tarde la puede quemar.' },
+      calor: 'Calor',
+      sensibilidad: { baja: 'Aguanta bien el calor.', media: 'Con mucho calor puede resentirse.', alta: 'Sensible al calor: sufre con sol fuerte y aire caliente.' },
+      solEstimado: 'Estimación propia, todavía sin verificar con fuentes.',
       riegoVerano: 'Riego en verano',
       riegoInvierno: 'Riego en invierno',
       humedad: 'Humedad',
@@ -71,7 +80,7 @@ export const TC = {
     nuevo: 'Armar un espacio',
     vacioTitulo: 'Armá tu primer espacio',
     vacioTexto: 'Contame cómo es un rincón de tu casa y te digo qué plantas le van.',
-    guardados: 'Tus espacios',
+    intro: 'Cada rincón tiene su propia luz. Tocá un espacio para ver qué plantas le van, o editalo si cambió algo.',
     borrar: 'Borrar',
     borrarTitulo: '¿Borramos este espacio?',
     borrarSi: 'Sí, borrar',
@@ -87,7 +96,6 @@ export const TC = {
           { valor: 'escritorio', texto: 'Escritorio', icono: 'escritorio' },
         ] satisfies Opcion<TipoEspacio>[],
       },
-      sol: { titulo: '¿Cómo le da el sol?' },
       tamano: {
         titulo: '¿Cuánto lugar hay?',
         opciones: [
@@ -110,10 +118,11 @@ export const TC = {
       },
     },
     verResultado: 'Ver mis plantas',
+    guardarCambios: 'Guardar cambios',
+    editar: 'Editar espacio',
+    enTu: { living: 'tu living', dormitorio: 'tu dormitorio', cocina: 'tu cocina', bano: 'tu baño', balcon: 'tu balcón', escritorio: 'tu escritorio' } satisfies Record<TipoEspacio, string>,
     nombres: { living: 'Living', dormitorio: 'Dormitorio', cocina: 'Cocina', bano: 'Baño', balcon: 'Balcón', escritorio: 'Escritorio' } satisfies Record<TipoEspacio, string>,
     resultado: {
-      luz: 'Luz de este lugar',
-      luzAsumida: 'Supuse luz media porque todavía no sabés a qué hora le da el sol. Observalo y armalo de nuevo.',
       recomendadas: 'Te recomiendo',
       evitar: 'Mejor evitar acá',
       sinResultados: 'Con estas condiciones no encontré plantas que pueda recomendarte con seguridad. Probá con otro lugar o con más luz.',
@@ -139,9 +148,81 @@ export const TC = {
       no_verificada: { gato: 'No pude verificar que sea segura para gatos.', perro: 'No pude verificar que sea segura para perros.', ambos: 'No pude verificar que sea segura para tus mascotas.', ninguna: '' },
       poca_luz: 'Acá no le alcanza la luz.',
       demasiado_sol: 'El sol directo de este lugar la puede quemar.',
+      calor: 'Es sensible al calor, y acá el sol pega fuerte.',
       muy_grande: 'Crece demasiado para este lugar.',
       pide_dedicacion: 'Pide más dedicación de la que querés darle.',
     } satisfies Record<MotivoEvitar, string | Record<string, string>>,
+  },
+  /** Modelo de luz: mismas palabras en onboarding, "Mi espacio", catálogo y recomendador */
+  luz: {
+    categorias: {
+      directa: 'Luz directa',
+      indirecta_brillante: 'Luz indirecta brillante',
+      indirecta_media: 'Luz indirecta media',
+      baja: 'Luz baja',
+    } satisfies Record<CategoriaLuz, string>,
+    tipo: {
+      titulo: (lugar: string) => `¿Cómo es la luz en ${lugar}?`,
+      opciones: [
+        { valor: 'directa', texto: 'El sol pega directo sobre el lugar', ayuda: 'Tu mano hace una sombra bien marcada.', ilustracion: 'luz-directa' },
+        { valor: 'indirecta', texto: 'Entra mucha claridad, pero el sol no pega', ayuda: 'La sombra se ve borrosa.', ilustracion: 'luz-indirecta' },
+        { valor: 'baja', texto: 'Es un lugar oscuro', ayuda: 'Casi no hay sombra.', ilustracion: 'luz-poca' },
+        { valor: 'no_se', texto: 'No sé', ayuda: 'Te muestro cómo averiguarlo.', ilustracion: 'ventana-sol' },
+      ] satisfies { valor: TipoLuz; texto: string; ayuda: string; ilustracion: string }[],
+    },
+    horas: {
+      titulo: '¿A qué hora le pega el sol?',
+      texto: 'Más o menos, en un día despejado.',
+      desde: 'Empieza a pegar',
+      hasta: 'Deja de pegar',
+      hs: 'hs',
+      antes: 'Una hora antes',
+      despues: 'Una hora después',
+      otroTramo: 'El sol se va y vuelve: sumar otro tramo',
+      segundoTramo: 'Segundo tramo',
+      quitar: 'Quitar',
+      noSe: 'No sé las horas',
+      noSeTexto: 'No pasa nada: supongo unas pocas horas de sol. Cuando lo observes, editá el espacio.',
+    },
+    obstaculos: {
+      titulo: '¿Hay algo que tape o filtre el sol?',
+      texto: 'Podés marcar más de uno.',
+      opciones: [
+        { valor: 'edificio', texto: 'Un edificio', icono: 'edificio' },
+        { valor: 'arbol', texto: 'Un árbol', icono: 'arbol' },
+        { valor: 'techo', texto: 'Un techo o toldo', icono: 'toldo' },
+        { valor: 'vidrio', texto: 'Un vidrio', icono: 'ventana' },
+        { valor: 'cortina', texto: 'Una cortina', icono: 'cortina' },
+      ] satisfies { valor: Obstaculo; texto: string; icono: string }[],
+      nada: 'Nada',
+    },
+    pruebaSombra: {
+      titulo: 'La prueba de la sombra',
+      texto: 'Poné la mano a un palmo del lugar donde iría la planta y mirá la sombra que hace.',
+      pasos: ['Sombra bien marcada: sol directo.', 'Sombra borrosa: luz indirecta brillante.', 'Sombra que apenas se ve: luz indirecta media.', 'Casi sin sombra: luz baja.'],
+      momentos: ['10 hs', '13 hs', '17 hs'],
+      cierre: 'Probá en esos tres momentos. Mientras tanto supongo luz indirecta media, y después editás el espacio.',
+    },
+    resumen: {
+      estimacion: 'Estimación',
+      estimacionTexto: 'Lo calculo con lo que cargaste. Si no coincide con lo que ves, editá el espacio.',
+      horas: (h: number) => (h === 1 ? '1 hora de sol directo' : `${String(h).replace('.', ',')} horas de sol directo`),
+      horasFiltradas: 'El sol llega filtrado: a la planta no le pega directo.',
+      horasTamizadas: 'El árbol tamiza el sol: cuenta más o menos como la mitad.',
+      sinSol: 'Sin sol directo',
+      momento: { manana: 'Sol de mañana, suave', mediodia: 'Sol de mediodía, fuerte', tarde: 'Sol de tarde, intenso y caluroso' } satisfies Record<Momento, string>,
+      orientacion: {
+        norte: 'Mira más o menos al norte',
+        este: 'Mira más o menos al este',
+        oeste: 'Mira más o menos al oeste',
+        sur: 'Probablemente mira al sur',
+        desconocida: 'Orientación sin estimar',
+      } satisfies Record<Orientacion, string>,
+      calor: 'Aviso de calor: el sol de tarde, o el sol a través de un vidrio, puede quemar o sofocar a las plantas sensibles.',
+      estacion: 'Cambia con la estación: en invierno el sol pasa más bajo y entra más adentro. Volvé a mirarlo cuando cambie.',
+      asumidaTipo: 'Supuse luz indirecta media porque todavía no sabés cómo es la luz acá.',
+      asumidaHoras: 'Supuse unas 3 horas de sol porque no sabés el horario.',
+    },
   },
   fuentes: {
     titulo: 'Fuentes',

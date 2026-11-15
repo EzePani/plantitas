@@ -1,7 +1,7 @@
 import {
   AppWindow, ArrowDownToLine, Ban, Bean, BookOpen, CalendarDays, Cat, Check, CircleQuestionMark, Clock,
   Cloud, Columns2, Dog, Droplet, Fence, Flame, Gift, Heart, House, Leaf, LeafyGreen, LibraryBig, PawPrint,
-  Scale, Search, Armchair, BedDouble, CookingPot, ShowerHead, Laptop, Square, RectangleHorizontal, Maximize, ShoppingBag, Sprout, Star, Sun, SunDim, Sunrise, Sunset, TriangleAlert, Trophy,
+  Scale, Search, Building2, TreeDeciduous, Tent, Blinds, Armchair, BedDouble, CookingPot, ShowerHead, Laptop, Square, RectangleHorizontal, Maximize, ShoppingBag, Sprout, Star, Sun, SunDim, Sunrise, Sunset, TriangleAlert, Trophy,
   type LucideIcon,
 } from 'lucide-react'
 
@@ -41,6 +41,10 @@ const MAPA: Record<string, LucideIcon> = {
   cofre: Gift,
   libro: BookOpen,
   hoja: LeafyGreen,
+  edificio: Building2,
+  arbol: TreeDeciduous,
+  toldo: Tent,
+  cortina: Blinds,
   sillon: Armchair,
   cama: BedDouble,
   cocina: CookingPot,
