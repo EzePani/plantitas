@@ -26,10 +26,9 @@ describe('lecciones', () => {
     expect(porTanda(3).reduce((n, x) => n + x.plan.length, 0)).toBe(12)
   })
 
-  it('ids únicos, dentro del plan de su unidad, y solo de unidades ya lanzadas (tandas 1 y 2)', () => {
+  it('ids únicos, dentro del plan de su unidad, y en el orden del plan', () => {
     expect(new Set(todas.map((l) => l.id)).size).toBe(todas.length)
     for (const [unidad, ls] of Object.entries(LECCIONES)) {
-      expect(UNIDADES[unidad as UnidadId].tanda, unidad).toBeLessThanOrEqual(2)
       const plan = idsDelPlan(unidad as UnidadId)
       for (const l of ls) {
         expect(l.unidad).toBe(unidad)
@@ -40,11 +39,9 @@ describe('lecciones', () => {
     }
   })
 
-  it('las tandas 1 y 2 están completas: 34 lecciones con contenido; la tanda 3 sigue pendiente', () => {
-    const lanzadas = Object.values(UNIDADES).filter((x) => x.tanda <= 2)
-    for (const x of lanzadas) expect((LECCIONES[x.id] ?? []).map((l) => l.id), x.id).toEqual(idsDelPlan(x.id))
-    for (const x of Object.values(UNIDADES).filter((y) => y.tanda === 3)) expect(LECCIONES[x.id], x.id).toBeUndefined()
-    expect(todas).toHaveLength(34)
+  it('las 3 tandas están completas: 46 lecciones con contenido', () => {
+    for (const x of Object.values(UNIDADES)) expect((LECCIONES[x.id] ?? []).map((l) => l.id), x.id).toEqual(idsDelPlan(x.id))
+    expect(todas).toHaveLength(TOTAL_LECCIONES)
     for (const l of todas) expect(l.estado, l.id).toBeUndefined()
   })
 
@@ -73,6 +70,6 @@ describe('lecciones', () => {
   it('arma repasos parejos entre las lecciones de la unidad', () => {
     const ps = preguntasDeUnidad('basico', 4)
     expect(ps).toHaveLength(4)
-    expect(preguntasDeUnidad('plagas', 4)).toEqual([])
+    expect(preguntasDeUnidad('plagas', 4)).toHaveLength(4)
   })
 })

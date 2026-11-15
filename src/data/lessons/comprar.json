@@ -1,0 +1,341 @@
+[
+  {
+    "id": "comprar-1",
+    "unidad": "comprar",
+    "titulo": "Elegir una planta sana",
+    "gancho": "¿Cómo sé si la planta que me gusta está sana?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "vivero",
+        "texto": "Antes de enamorarte, levantá la maceta y mirá la planta de todos lados: tiene que verse firme, pareja y tupida, sin partes secas. Pensá también si en casa tenés un lugar con la luz que esa planta pide."
+      },
+      {
+        "tipo": "tactil",
+        "imagen": "planta-partes",
+        "texto": "Tocá cada parte para ver qué revisar antes de comprar.",
+        "zonas": [
+          {
+            "id": "hojas",
+            "etiqueta": "Hojas",
+            "texto": "Buen color, sin manchas ni bordes marrones, y sin hojas de abajo pálidas o amarillas."
+          },
+          {
+            "id": "tallo",
+            "etiqueta": "Tallos y brotes",
+            "texto": "Mirá las puntas nuevas y la unión de cada hoja con el tallo: ahí se esconden los bichos."
+          },
+          {
+            "id": "raices",
+            "etiqueta": "Raíces",
+            "texto": "Sanas son blancas o color tostado. Si salen por los agujeros de abajo o dan vueltas apretadas, la maceta ya le quedó chica."
+          },
+          {
+            "id": "maceta",
+            "etiqueta": "Tierra",
+            "texto": "Limpia, sin yuyos ni verdín en la superficie."
+          }
+        ]
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "lupa-hoja",
+        "texto": "Dales vuelta a las hojas: la mayoría de las plagas llega a casa en plantas nuevas, y el revés es su escondite preferido. Si ves telitas finas, puntitos claros, pelusa como de algodón o escamitas pegadas, elegí otra planta."
+      },
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "planta-ahogada",
+        "imagen_bien": "planta-feliz",
+        "texto": "Evitá las plantas decaídas, y sobre todo las que están caídas con la tierra mojada: puede ser señal de raíces dañadas por exceso de riego. Una planta firme y de buen color arranca con ventaja."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "orquidea",
+        "texto": "Con las plantas de flor, no te dejes llevar por la que tiene todo abierto. Una con muchos pimpollos todavía cerrados te va a durar florecida bastante más tiempo."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-nueva",
+        "texto": "Pedí que la planta venga con su etiqueta o, por lo menos, anotá el nombre. Sabiendo qué planta es, después es fácil averiguar cuánta luz y cuánta agua necesita."
+      }
+    ],
+    "para_llevarte": [
+      "Mirala entera: hojas, tallos, raíces y tierra.",
+      "Siempre revisar el revés de las hojas.",
+      "Mejor muchos pimpollos que muchas flores abiertas."
+    ],
+    "quiz": [
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Dónde conviene mirar para encontrar bichos antes de comprar?",
+        "opciones": [
+          "Solo en las flores",
+          "En el revés de las hojas y en las uniones con el tallo",
+          "En la parte de arriba de las hojas más grandes"
+        ],
+        "correcta": 1,
+        "explicacion": "Los bichos buscan lugares escondidos: el revés de las hojas, las uniones con el tallo y los brotes nuevos. Un vistazo ahí te ahorra muchos dolores de cabeza."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Levantás la maceta y las raíces salen por los agujeros de abajo. ¿Qué te está diciendo?",
+        "imagen": "raices-apretadas",
+        "opciones": [
+          "Que está recién plantada",
+          "Que lleva mucho tiempo ahí y la maceta le quedó chica",
+          "Que le falta abono"
+        ],
+        "correcta": 1,
+        "explicacion": "Las raíces que asoman por abajo o dan vueltas apretadas indican que ya no tiene lugar. Se puede comprar igual, pero va a necesitar un trasplante hecho con cuidado."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "La planta con más flores abiertas es siempre la mejor compra.",
+        "correcta": false,
+        "explicacion": "Las flores abiertas ya están en su mejor momento. Una planta con muchos pimpollos cerrados va a estar florecida más tiempo en tu casa."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "En el vivero ves una planta caída, con la tierra empapada. ¿Qué conviene hacer?",
+        "imagen": "planta-ahogada",
+        "opciones": [
+          "Elegir otra: puede tener las raíces dañadas",
+          "Llevarla y regarla un poco más",
+          "Llevarla y darle abono"
+        ],
+        "correcta": 0,
+        "explicacion": "Si está decaída aunque la tierra esté mojada, el problema puede estar en las raíces. Es de las más difíciles de recuperar, así que mejor otra."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada parte con la señal de que está sana.",
+        "pares": [
+          {
+            "a": "Hojas",
+            "b": "Sin manchas ni bordes marrones"
+          },
+          {
+            "a": "Raíces",
+            "b": "Blancas o color tostado"
+          },
+          {
+            "a": "Tierra",
+            "b": "Sin yuyos ni verdín"
+          },
+          {
+            "a": "Flores",
+            "b": "Muchos pimpollos cerrados"
+          }
+        ],
+        "explicacion": "Dos minutos de revisión en el vivero valen más que semanas de cuidados después."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "How to grow houseplants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Extension Gardener Handbook, 18. Plants Grown in Containers",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplants: Get Started",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/get-started",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplant Care",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/houseplant-care/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How do you get rid of mealybugs on houseplants?",
+        "org": "University of New Hampshire Extension",
+        "url": "https://extension.unh.edu/blog/2020/12/how-do-you-get-rid-mealybugs-houseplants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Bulletin #2611, Tips for Growing Houseplants in Maine: Caring for Houseplants in Maine",
+        "org": "University of Maine Cooperative Extension",
+        "url": "https://extension.umaine.edu/publications/2611e/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Common Problems and Issues of Succulents",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/common-problems-and-issues-succulents",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "alta",
+    "xp": 20
+  },
+  {
+    "id": "comprar-2",
+    "unidad": "comprar",
+    "titulo": "Las primeras semanas en casa",
+    "gancho": "¿Por qué mi planta nueva se puso mustia si no le hice nada?",
+    "tarjetas": [
+      {
+        "tipo": "por_que",
+        "imagen": "vivero",
+        "texto": "En el vivero la planta creció con mucha luz, mucha humedad y abono seguido. Tu casa es un cambio grande para ella, y necesita un tiempo para acostumbrarse."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "hojas-caidas",
+        "texto": "Es común que al llegar se le pongan amarillas o se le caigan algunas hojas: no pasa nada, se está adaptando. Si después de unas semanas sigue perdiendo hojas, revisá que no le dé una corriente de aire y que la luz y el riego sean parejos."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "luz-indirecta",
+        "texto": "Dale desde el principio la luz que pide su especie y evitale los cambios bruscos: si la vas a pasar a un lugar más oscuro o más soleado, que sea de a poco. Con el riego, revisá la tierra seguido y regá recién cuando haga falta."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "cuarentena",
+        "texto": "Las primeras semanas dejala separada de tus otras plantas, por si trajo algún bicho que no viste. Las guías piden entre una semana y un mes: lo más prudente es llegar al mes, revisándole seguido el revés de las hojas."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "trasplante",
+        "texto": "Mientras se adapta no la abones y, si no es urgente, dejá también el trasplante para más adelante. Cambiarla de maceta es otro sacudón, y la mejor época para hacerlo es la primavera."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "planta-nueva",
+        "texto": "En el invierno porteño, de junio a agosto, pedí que te la envuelvan para el viaje: a muchas plantas tropicales les hace mal el frío por debajo de unos 10 grados. En verano, de diciembre a febrero, no la dejes en el auto al sol, y en cualquier época comprala al final de la salida para llevarla derecho a casa."
+      }
+    ],
+    "para_llevarte": [
+      "Perder algunas hojas al llegar es normal.",
+      "Unas semanas separada de las otras plantas.",
+      "Ni abono ni trasplante apurado."
+    ],
+    "quiz": [
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Compraste una planta hace dos semanas y perdió algunas hojas. ¿Qué es lo más probable?",
+        "imagen": "hojas-caidas",
+        "opciones": [
+          "Se está adaptando al cambio de lugar",
+          "Necesita abono urgente",
+          "Hay que trasplantarla ya"
+        ],
+        "correcta": 0,
+        "explicacion": "Casi todas las plantas sueltan alguna hoja cuando cambian de ambiente. Con luz y riego parejos, en unas semanas debería frenar."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Dónde ponés la planta recién comprada?",
+        "opciones": [
+          "Pegada a las demás, así se acompañan",
+          "Separada de las otras durante unas semanas",
+          "En el rincón más oscuro, para que descanse"
+        ],
+        "correcta": 1,
+        "explicacion": "Si trajo algún bicho escondido, separada no se lo pasa a las demás. Igual necesita la luz que pide su especie, así que nada de rincones oscuros."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "A una planta recién comprada conviene abonarla enseguida para ayudarla a adaptarse.",
+        "correcta": false,
+        "explicacion": "Mientras se acostumbra a menos luz y menos humedad, el abono no la ayuda. Mejor esperar a que esté instalada y creciendo."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "En invierno conviene llevar la planta envuelta hasta casa.",
+        "correcta": true,
+        "explicacion": "El frío del viaje puede dañar a las plantas tropicales, que son la mayoría de las de interior. Un papel o una bolsa alrededor la protegen."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada tema con lo que conviene hacer las primeras semanas.",
+        "pares": [
+          {
+            "a": "Otras plantas",
+            "b": "Mantenerla separada"
+          },
+          {
+            "a": "Abono",
+            "b": "Esperar a que se adapte"
+          },
+          {
+            "a": "Trasplante",
+            "b": "Si no es urgente, en primavera"
+          },
+          {
+            "a": "Cambios de luz",
+            "b": "De a poco"
+          }
+        ],
+        "explicacion": "Las primeras semanas la consigna es no sumarle cambios. Con calma, la planta se instala sola."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Extension Gardener Handbook, 18. Plants Grown in Containers",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplants: Get Started",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/get-started",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Weeping Ficus",
+        "org": "Clemson Cooperative Extension (HGIC)",
+        "url": "https://hgic.clemson.edu/factsheet/weeping-ficus/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Indoor Plants – Cleaning, Fertilizing, Containers & Light Requirements",
+        "org": "Clemson Cooperative Extension (HGIC)",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplant Care",
+        "org": "UF/IFAS Gardening Solutions (University of Florida)",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/houseplant-care/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplant Care",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/houseplant-care/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to Care for Houseplants",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/how-care-houseplants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow houseplants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "El clima en la Ciudad",
+        "org": "Gobierno de la Ciudad de Buenos Aires",
+        "url": "https://buenosaires.gob.ar/adaptacion/el-clima-en-la-ciudad",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "media",
+    "xp": 20
+  }
+]

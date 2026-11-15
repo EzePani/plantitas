@@ -1,0 +1,695 @@
+[
+  {
+    "id": "multiplicar-1",
+    "unidad": "multiplicar",
+    "titulo": "Propagar en agua",
+    "gancho": "¿De un gajito de potus en un frasco sale una planta nueva?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "nudo",
+        "texto": "Un esqueje es un pedazo de tallo con hojas que, puesto a enraizar, se vuelve una planta nueva igual a la madre. Cortalo de unos 8 a 15 centímetros, justo debajo de un nudo: el bultito donde la hoja se une al tallo, que es de donde brotan las raíces."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "esqueje-agua",
+        "texto": "Sacale las hojas de abajo y poné el tallo en un frasco con agua a temperatura ambiente, con al menos un nudo sumergido y ninguna hoja bajo el agua. Dejalo en un lugar con luz indirecta brillante, sin sol sobre las hojas."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "esqueje-agua",
+        "texto": "Cambiá el agua una o dos veces por semana, o antes si se pone turbia, y no dejes que baje tanto que las raíces queden al aire. Las raíces pueden tardar desde un par de semanas hasta más de un mes, así que paciencia."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-feliz",
+        "texto": "El potus, el filodendro, la monstera y los hijitos de la cinta enraízan fácil en agua. Las suculentas, en cambio, en general no enraízan bien así y se multiplican de otra forma, que vas a ver más adelante."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "trasplante",
+        "texto": "Cuando las raíces midan unos centímetros, pasá el esqueje a una maceta con tierra y mantenela húmeda las primeras semanas. Las raíces que nacen en agua son distintas y les cuesta adaptarse a la tierra, así que si se decae o pierde alguna hoja, tranqui: con cuidado parejo suele recuperarse."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "estaciones",
+        "texto": "Las guías del hemisferio norte recomiendan sacar esquejes desde el comienzo de la primavera y durante el verano, cuando la planta está creciendo. En Buenos Aires eso va de septiembre a febrero, aunque adentro de casa muchas plantas enraízan en cualquier momento del año."
+      }
+    ],
+    "para_llevarte": [
+      "Cortar justo debajo de un nudo.",
+      "Nudo bajo el agua, hojas afuera, agua limpia.",
+      "Con raíces de unos centímetros, a la tierra."
+    ],
+    "quiz": [
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Dónde conviene cortar para sacar un esqueje de potus?",
+        "opciones": [
+          "En cualquier parte del tallo, lejos de las hojas",
+          "Justo debajo de un nudo",
+          "Solo la hoja, sin nada de tallo"
+        ],
+        "correcta": 1,
+        "explicacion": "Las raíces brotan del nudo, el bultito donde la hoja se une al tallo. Un pedazo sin nudo no tiene de dónde sacarlas."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Conviene que algunas hojas queden sumergidas en el frasco.",
+        "correcta": false,
+        "explicacion": "Bajo el agua van el tallo y el nudo. Las hojas de abajo se sacan antes, para que ninguna quede sumergida."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Pasaste tu esqueje de potus del frasco a la tierra y a los pocos días está decaído y perdió una hoja. ¿Qué es lo más probable?",
+        "imagen": "planta:potus",
+        "opciones": [
+          "Se está adaptando: a las raíces de agua les cuesta la tierra",
+          "Le falta sol directo",
+          "Hay que sacarlo y volver a cortarlo"
+        ],
+        "correcta": 0,
+        "explicacion": "Es un bajón normal del cambio. Mantené la tierra húmeda y la luz indirecta brillante, y dale unas semanas."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada planta con cómo le va con el frasco de agua.",
+        "pares": [
+          {
+            "a": "Potus",
+            "b": "Esqueje de tallo con nudo"
+          },
+          {
+            "a": "Cinta",
+            "b": "Hijitos que alargan raíces"
+          },
+          {
+            "a": "Echeveria",
+            "b": "Mejor sin agua"
+          }
+        ],
+        "explicacion": "Las de follaje tropical enraízan fácil en agua. Las suculentas en general no, y tienen su propio método."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "En Buenos Aires, ¿cuál es la mejor época para sacar esquejes?",
+        "opciones": [
+          "De junio a agosto",
+          "De septiembre a febrero",
+          "Solo en marzo"
+        ],
+        "correcta": 1,
+        "explicacion": "Primavera y verano, cuando la planta está creciendo. Las guías del norte dicen lo mismo, pero con los meses al revés."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "How to Propagate Houseplants by Stem Tip Cuttings",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/how-propagate-houseplants-stem-tip-cuttings",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "More, Please: Propagating Houseplants",
+        "org": "University of Vermont Extension",
+        "url": "https://www.uvm.edu/extension/news/more-please-propagating-houseplants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow philodendrons",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/philodendron/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How do I propagate philodendron?",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/faq/how-do-i-propagate-philodendron",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Pothos, Epipremnum aureum",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to Grow Pothos Indoors (Epipremnum spp.): Care, Cultivars, and Common Problems",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/how-to-grow-pothos-indoors-epipremnum-spp-care-cultivars-and-common-problems/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Pothos (Devil’s Ivy, Golden Pothos): House Plant How-To",
+        "org": "South Dakota State University Extension",
+        "url": "https://extension.sdstate.edu/pothos-devils-ivy-golden-pothos-house-plant-how",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Epipremnum aureum (Pothos)",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow spider plants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/spider-plants/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Winter gardening: propagating houseplants to beat the winter blues",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/blogs/good-growing/2025-02-21-winter-gardening-propagating-houseplants-beat-winter-blues",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Propagation (Houseplants)",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/propagation",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How do I propagate Scindapsus (Epipremnum)?",
+        "org": "New York Botanical Garden, Mertz Library Plant Information Service",
+        "url": "https://libanswers.nybg.org/faq/223231",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to Propagate Succulents",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/how-propagate-succulents",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Propagating Houseplants",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/propagating-houseplants",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "media",
+    "xp": 20
+  },
+  {
+    "id": "multiplicar-2",
+    "unidad": "multiplicar",
+    "titulo": "Vivir en agua o pasar por el agua",
+    "gancho": "¿Puedo dejar la planta en el frasco para siempre?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "esqueje-agua",
+        "texto": "El agua se puede usar de dos maneras: de paso, hasta que el esqueje saca raíces, o como casa para quedarse. Para casi todas las plantas de interior, las guías la usan solo de paso y después las pasan a tierra."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "raices-podridas",
+        "texto": "Las raíces necesitan oxígeno además de agua. En una tierra empapada el agua ocupa los huecos donde había aire, y las raíces se ahogan y se pudren."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "planta-en-agua",
+        "texto": "Por eso la hidroponía, que es cultivar en agua con nutrientes y sin tierra, siempre se ocupa de que a las raíces les llegue oxígeno: con burbujas de aire o dejando parte de las raíces fuera del agua. El problema nunca fue el agua en sí, sino que falte el aire."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "abono-tipos",
+        "texto": "En la tierra la planta encuentra minerales, y en el agua se los tenés que dar vos. Para el bambú de la suerte, que puede vivir en agua, las guías indican cambiarla todas las semanas y sumar abono líquido muy diluido, a un cuarto de la dosis, cada dos meses."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-en-agua",
+        "texto": "Si querés dejar un potus o un filodendro en agua, copiá esos cuidados: agua nueva cada semana, luz indirecta brillante y apenas de abono. Eso sí, las guías serias no dicen cuánto tiempo aguantan así, de modo que tomalo como una prueba y miralo seguido."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "trasplante",
+        "texto": "Las raíces que se forman en agua son más toscas y se adaptan peor a la tierra que las que nacen en un sustrato. Si la idea es que la planta viva en maceta, pasala cuando las raíces midan unos centímetros y tenele paciencia mientras se acostumbra."
+      }
+    ],
+    "para_llevarte": [
+      "Las raíces necesitan agua y también aire.",
+      "Para vivir en agua: agua nueva y abono muy diluido.",
+      "Las raíces de agua se adaptan con esfuerzo a la tierra."
+    ],
+    "quiz": [
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "A las raíces les alcanza con tener agua: el aire no les hace falta.",
+        "correcta": false,
+        "explicacion": "Necesitan oxígeno. Por eso una tierra empapada las ahoga, y por eso la hidroponía se ocupa de que les llegue aire."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Una maceta sin agujeros, la tierra siempre empapada y las raíces oscuras y blandas. ¿Qué les pasó?",
+        "imagen": "raices-podridas",
+        "opciones": [
+          "Les faltó agua",
+          "Les faltó aire: el agua ocupó los huecos de la tierra",
+          "Les sobró luz"
+        ],
+        "correcta": 1,
+        "explicacion": "Con la tierra saturada no queda aire entre los granitos y las raíces se ahogan. No es culpa tuya: con una maceta con agujeros se evita."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Una planta que vive en agua, ¿de dónde saca los minerales?",
+        "opciones": [
+          "Del vidrio del florero",
+          "Del abono muy diluido que le agregás",
+          "No los necesita"
+        ],
+        "correcta": 1,
+        "explicacion": "Sin tierra, los minerales tienen que venir en el agua. Siempre en dosis muy chicas, mucho menos que para una maceta."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada forma de usar el agua con lo que le corresponde.",
+        "pares": [
+          {
+            "a": "De paso",
+            "b": "Hasta que salen raíces"
+          },
+          {
+            "a": "Para quedarse",
+            "b": "Agua nueva y abono diluido"
+          },
+          {
+            "a": "Hidroponía",
+            "b": "Nutrientes y oxígeno a las raíces"
+          }
+        ],
+        "explicacion": "En los tres casos la clave es la misma: que a las raíces no les falte ni agua, ni aire, ni minerales."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Cualquier planta de interior puede vivir en un florero con agua.",
+        "correcta": false,
+        "explicacion": "No todas se llevan bien con el agua. Las suculentas, por ejemplo, en general ni siquiera enraízan bien ahí."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Waterlogging and flooding",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/advice/profile?PID=235&cID=1378",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Hydroponics for the Home Gardener",
+        "org": "UC Master Gardeners of Orange County (Univ. of California ANR)",
+        "url": "https://ucanr.edu/site/uc-master-gardeners-orange-county/hydroponics-home-gardener",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Homegrown: DIY Hydroponics for All Gardeners",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/blogs/know-how-know-more/2020-02-18-homegrown-diy-hydroponics-all-gardeners",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Growing without soil: Getting started with hydroponics at home",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/blogs/good-growing/2026-01-16-growing-without-soil-getting-started-hydroponics-home",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Hydroponics Systems and Principles of Plant Nutrition: Essential Nutrients, Function, Deficiency, and Excess",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/hydroponics-systems-and-principles-of-plant-nutrition-essential-nutrients-function-deficiency-and-excess",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How To Grow and Care for Lucky Bamboo (Dracaena sanderiana)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/?p=38984",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Dracaena sanderiana (Lucky Bamboo)",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to Propagate Houseplants by Stem Tip Cuttings",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/how-propagate-houseplants-stem-tip-cuttings",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Winter gardening: propagating houseplants to beat the winter blues",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/blogs/good-growing/2025-02-21-winter-gardening-propagating-houseplants-beat-winter-blues",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Propagation (Houseplants)",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/propagation",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How do I propagate Scindapsus (Epipremnum)?",
+        "org": "New York Botanical Garden, Mertz Library Plant Information Service",
+        "url": "https://libanswers.nybg.org/faq/223231",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to Propagate Succulents",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/how-propagate-succulents",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "media",
+    "xp": 20
+  },
+  {
+    "id": "multiplicar-3",
+    "unidad": "multiplicar",
+    "titulo": "Hijos: dividir y separar",
+    "gancho": "¿Le puedo sacar un hijito a mi planta sin lastimarla?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "division",
+        "texto": "Algunas plantas crecen en mata, con varios tallos que salen juntos de la tierra, y se pueden separar en dos o más plantas. Eso es dividir, y va bien con el espatifilo, la lengua de suegra, la zamioculca, la calatea y los helechos."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "division",
+        "texto": "Sacá la planta de la maceta y abrí el pan de raíces con las manos, o con un cuchillo limpio si está muy duro. Cada pedazo tiene que quedarse con hojas, tallos y raíces propias, y va a su maceta con tierra nueva."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "hijuelo",
+        "texto": "Otras plantas sacan hijuelos: plantitas chicas que nacen pegadas a la madre, como en el aloe, la lengua de suegra, la haworthia y la pilea. Separalos recién cuando tengan sus propias raíces y varias hojas."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "estolon",
+        "texto": "La cinta larga tallos finos y largos, los estolones, con hijitos en la punta. Podés apoyar el hijito en una macetita con tierra húmeda y cortarlo cuando agarró, o cortarlo y dejarlo en un vaso con agua hasta que alargue las raíces."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "riego",
+        "texto": "Después de dividir, regá para asentar la tierra y dejá las plantas nuevas en un lugar con luz indirecta brillante. Esperá unas semanas antes de abonar, así las raíces se recuperan tranquilas."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "estaciones",
+        "texto": "La mejor época para dividir es el comienzo de la primavera, cuando la planta vuelve a crecer: las guías del norte hablan de marzo a mayo. En Buenos Aires eso es de septiembre a noviembre, aunque si hace falta se puede en otro momento del año."
+      }
+    ],
+    "para_llevarte": [
+      "Dividir: cada pedazo con hojas y raíces.",
+      "Hijuelos: separarlos cuando ya tienen raíces propias.",
+      "Mejor al comienzo de la primavera: septiembre a noviembre."
+    ],
+    "quiz": [
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada planta con su manera de dar hijos.",
+        "pares": [
+          {
+            "a": "Cinta",
+            "b": "Hijitos en la punta de estolones"
+          },
+          {
+            "a": "Aloe",
+            "b": "Hijuelos pegados a la madre"
+          },
+          {
+            "a": "Espatifilo",
+            "b": "Mata que se divide"
+          }
+        ],
+        "explicacion": "Cada planta te muestra su método: mirá si hace mata, si saca hijuelos al pie o si larga tallos con hijitos."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Cuándo conviene separar un hijuelo de aloe?",
+        "opciones": [
+          "Apenas asoma de la tierra",
+          "Cuando tiene raíces propias y varias hojas",
+          "Solo cuando la madre se seca"
+        ],
+        "correcta": 1,
+        "explicacion": "Un hijuelo con raíces y hojas ya se puede arreglar solo. Si todavía es muy chico, no pasa nada: dejalo crecer un poco más al lado de la madre."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Al dividir una mata, cada pedazo tiene que llevarse sus propias raíces.",
+        "correcta": true,
+        "explicacion": "Hojas, tallos y raíces en cada parte. Los pedazos más grandes se recuperan más rápido."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "A tu cinta le salieron tallos largos y finos con plantitas en la punta. ¿Qué es lo más probable?",
+        "imagen": "planta:cinta",
+        "opciones": [
+          "Está enferma y hay que cortarlos",
+          "Son hijitos que pueden ser plantas nuevas",
+          "Le falta agua"
+        ],
+        "correcta": 1,
+        "explicacion": "Es su forma de multiplicarse. Podés dejarlos colgando o usarlos para armar plantas nuevas."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Acabás de dividir tu espatifilo. ¿Qué hacés después?",
+        "opciones": [
+          "Lo abono enseguida con doble dosis",
+          "Riego para asentar la tierra y espero unas semanas para abonar",
+          "Lo dejo sin regar al sol directo"
+        ],
+        "correcta": 1,
+        "explicacion": "Las raíces necesitan un tiempo para recuperarse. Agua para asentar, luz indirecta brillante y nada de abono por unas semanas."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "How to Propagate Houseplants by Division and Offsets",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/how-propagate-houseplants-division-and-offsets",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Propagating Houseplants",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/propagating-houseplants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Propagating Houseplants",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/propagating-houseplants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Specialized Structures (Houseplants)",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/specialized-structures",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Propagation (Houseplants)",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/propagation",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow spider plants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/spider-plants/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow peace lilies",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/peace-lilies/how-to-grow-peace-lilies",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow sansevieria",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/sansevieria/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Passalong Plants",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/passalong-plants/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to Propagate Succulents",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/how-propagate-succulents",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Pilea peperomioides",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/pilea-peperomioides/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Spider Plants: Houseplant How-To",
+        "org": "South Dakota State University Extension",
+        "url": "https://extension.sdstate.edu/spider-plants-houseplant-how",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "alta",
+    "xp": 20
+  },
+  {
+    "id": "multiplicar-4",
+    "unidad": "multiplicar",
+    "titulo": "Hijos de cactus y suculentas",
+    "gancho": "¿De una hoja de suculenta sale una planta entera?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "hijuelo",
+        "texto": "Muchas suculentas y cactus hacen el trabajo solos: sacan hijuelos al pie, como el aloe, la haworthia y los cactus que crecen en grupo. Cuando están bien enraizados se separan con cuidado y van a su maceta, con mezcla para cactus y muy poca agua al principio."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "tijera-poda",
+        "texto": "De las que tienen tallo, como el jade, se corta un pedazo con una tijera limpia y filosa y se le sacan las hojas de abajo. A una echeveria se le puede cortar la roseta entera con unos centímetros de tallo, y el tronquito que queda suele dar rosetas nuevas."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "hoja-suculenta",
+        "texto": "Algunas, como el jade y la echeveria, brotan desde una sola hoja, que tiene que salir entera, con la base donde se unía al tallo. Se apoya sobre tierra apenas húmeda, sin enterrarla, y en varias semanas aparecen raicitas y una roseta nueva."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "callo",
+        "texto": "Antes de plantar un esqueje de tallo, dejalo secar al aire entre un día y una semana, hasta que el corte forme una cascarita seca: el callo. Esa cicatriz baja el riesgo de que el esqueje se pudra antes de sacar raíces."
+      },
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "planta-ahogada",
+        "imagen_bien": "callo",
+        "texto": "Plantar el esqueje recién cortado y regarlo mucho es el camino más corto a que se pudra, y el vaso con agua tampoco les sirve. Dejalo hacer callo, plantalo en mezcla para cactus y mantené la tierra apenas húmeda mientras enraíza."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "estaciones",
+        "texto": "Las guías del norte dicen que los esquejes de suculentas prenden más fácil de primavera a verano. En Buenos Aires eso es de septiembre a febrero, aunque el jade, por ejemplo, se anima en cualquier momento del año."
+      }
+    ],
+    "para_llevarte": [
+      "Hijuelos, tallos y hojas enteras: los tres sirven.",
+      "Primero el callo, después la tierra.",
+      "Poca agua mientras enraíza, y nada de frasco."
+    ],
+    "quiz": [
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Cortaste un gajo de jade. ¿Qué hacés primero?",
+        "opciones": [
+          "Lo pongo en un vaso con agua",
+          "Lo dejo secar unos días hasta que el corte haga callo",
+          "Lo planto enseguida y lo riego bien"
+        ],
+        "correcta": 1,
+        "explicacion": "El corte tiene que cicatrizar antes de tocar la tierra. Con el callo formado, es mucho menos probable que se pudra."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Plantaste un esqueje de suculenta recién cortado, lo regaste seguido y la base se puso blanda y oscura. ¿Qué es lo más probable?",
+        "imagen": "planta-ahogada",
+        "opciones": [
+          "Le faltó agua",
+          "Se pudrió: le faltó el callo y le sobró agua",
+          "Le faltó abono"
+        ],
+        "correcta": 1,
+        "explicacion": "Le pasa a muchísima gente. La próxima, dejalo secar unos días antes de plantarlo y mantené la tierra apenas húmeda."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Los esquejes de suculentas enraízan mejor en un vaso con agua.",
+        "correcta": false,
+        "explicacion": "La mayoría de las suculentas no enraíza bien en agua. Lo suyo es callo, mezcla para cactus y poca humedad."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Media hoja de suculenta sirve igual que una hoja entera para sacar una planta nueva.",
+        "correcta": false,
+        "explicacion": "La hoja tiene que salir completa, con la base donde se unía al tallo, porque de ahí brota la planta nueva. Si se parte, no enraíza."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada caso con el método que le va.",
+        "pares": [
+          {
+            "a": "Aloe con plantitas al pie",
+            "b": "Separar los hijuelos con raíces"
+          },
+          {
+            "a": "Rama de jade",
+            "b": "Esqueje de tallo, con callo"
+          },
+          {
+            "a": "Hoja entera de echeveria",
+            "b": "Apoyarla sobre la tierra"
+          }
+        ],
+        "explicacion": "Tres caminos distintos y una misma regla: poca agua y nada de apuro."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "How to grow houseplant cacti and succulents",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to Propagate Succulents",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/how-propagate-succulents",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Jade Plant, Crassula ovata",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/jade-plant-crassula-ovata/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Aeonium",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/aeonium/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Passalong Plants",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/passalong-plants/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow sansevieria",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/sansevieria/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Specialized Structures (Houseplants)",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/specialized-structures",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "alta",
+    "xp": 20
+  }
+]

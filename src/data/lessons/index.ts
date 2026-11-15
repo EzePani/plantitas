@@ -8,11 +8,15 @@ import macetas from './macetas.json'
 import abono from './abono.json'
 import familias from './familias.json'
 import estaciones from './estaciones.json'
+import rutina from './rutina.json'
+import plagas from './plagas.json'
+import multiplicar from './multiplicar.json'
+import comprar from './comprar.json'
 
 export type { Leccion, Pregunta, Tarjeta, Fuente } from './esquema'
 
 /**
- * Unidades con contenido cargado (tandas 1 y 2). Las de la tanda 3 se agregan acá cuando estén listas.
+ * Las 12 unidades con su contenido (tandas 1, 2 y 3).
  */
 export const LECCIONES: Partial<Record<UnidadId, Leccion[]>> = {
   basico: basico as Leccion[],
@@ -22,6 +26,10 @@ export const LECCIONES: Partial<Record<UnidadId, Leccion[]>> = {
   abono: abono as Leccion[],
   familias: familias as Leccion[],
   estaciones: estaciones as Leccion[],
+  rutina: rutina as Leccion[],
+  plagas: plagas as Leccion[],
+  multiplicar: multiplicar as Leccion[],
+  comprar: comprar as Leccion[],
   mascotas: mascotas as Leccion[],
 }
 

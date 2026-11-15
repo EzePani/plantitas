@@ -1500,6 +1500,39 @@ const ESCENAS: Record<string, () => ReactNode> = {
       <circle cx="84" cy="104" r="26" fill="none" stroke={C.sol} strokeWidth="4" strokeDasharray="5 6" />
     </Escena>
   ),
+  oidio: () => (
+    <Escena fondo="#e9f1e4">
+      <HojaGrande color="#4d9a62" />
+      {[
+        [78, 108, 16],
+        [112, 92, 20],
+        [150, 76, 18],
+        [182, 64, 12],
+        [130, 112, 12],
+        [96, 84, 10],
+      ].map(([cx, cy, r], i) => (
+        <g key={i} fill="#fff">
+          <ellipse cx={cx} cy={cy} rx={r} ry={r * 0.7} opacity=".55" />
+          <ellipse cx={cx + 3} cy={cy - 2} rx={r * 0.6} ry={r * 0.4} opacity=".8" />
+        </g>
+      ))}
+    </Escena>
+  ),
+  pincel: () => (
+    <Escena fondo="#f4e6c6">
+      <HojaGrande color="#5f9a52" />
+      {Array.from({ length: 40 }, (_, i) => {
+        const x = 52 + ((i * 41) % 140)
+        const y = 70 + ((i * 29) % 56) - ((i * 41) % 140) * 0.24
+        return <path key={i} d={`M${x} ${y}l2-6`} stroke="#fff" strokeWidth="1.6" strokeLinecap="round" opacity=".8" />
+      })}
+      <g transform="translate(150 74) rotate(40)">
+        <path d="M-9 0h18l-3 26h-12z" fill="#f3ead2" />
+        <rect x="-10" y="-12" width="20" height="14" rx="2" fill="#9aa7ad" />
+        <rect x="-6" y="-70" width="12" height="60" rx="6" fill={C.terra} />
+      </g>
+    </Escena>
+  ),
 }
 
 export const NOMBRES_ILUSTRACIONES = Object.keys(ESCENAS)

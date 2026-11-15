@@ -1,0 +1,296 @@
+{
+  "fuentes": [
+    {
+      "org": "Clemson Cooperative Extension (HGIC)",
+      "titulo": "Indoor Plants – Cleaning, Fertilizing, Containers & Light Requirements",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Hojas no peludas: paño suave húmedo por arriba y por abajo, o ducha; hojas peludas: brocha suave, no paño mojado; abrillantadores en general no recomendados (el residuo ceroso puede interferir con el intercambio de aire) y nunca en hojas peludas como la violeta africana; limpiar ayuda a controlar insectos; los cambios de intensidad de luz deben ser graduales.",
+      "usado_en": ["rutina-1", "comprar-2"]
+    },
+    {
+      "org": "Iowa State University Extension and Outreach",
+      "titulo": "Dust has accumulated on the foliage of my houseplants. How can I clean the plants?",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/dust-has-accumulated-foliage-my-houseplants-how-can-i-clean-plants",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Limpiar mejora el aspecto, estimula el crecimiento y ayuda a controlar insectos y ácaros; paño o esponja húmeda; ducha o bacha con agua tibia regulando presión y temperatura; los jabones de casa (detergentes) pueden dañar la cutícula: con agua sola casi siempre alcanza; hojas peludas: paño suave húmedo o cepillo suave.",
+      "usado_en": ["rutina-1"]
+    },
+    {
+      "org": "NC State Extension",
+      "titulo": "Extension Gardener Handbook, 18. Plants Grown in Containers",
+      "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Leída en dos partes (offset 0 y 100000). Limpieza: lavar hojas cada 2 o 3 meses, lisas con paño húmedo por ambas caras, peludas con brocha, plantas grandes a la ducha con agua de 15 a 24 °C, evitar abrillantadores (atraen polvo, tapan estomas). Poda: sacar hojas muertas o dañadas apenas aparecen, tijera afilada y desinfectada, cortar la hoja donde se une al tallo, recortar punta seca dejando un pequeño margen de tejido muerto si el daño es menor a un tercio de la hoja, retirar restos caídos sobre el sustrato. Rotación: fototropismo; girar la maceta 90 grados en sentido horario cada tres meses. Compra: mirar la planta de todos lados, llena y sin partes muertas, raíces blancas o tostadas, raíces que estrangulan = demasiado tiempo en la maceta, revisar axilas y revés de hojas. Traslado: no dejar en el auto con calor, muchas tropicales se dañan por debajo de 50 °F (10 °C), envolver, el baúl es demasiado frío. Aclimatación: las plantas de producción vienen de mucha luz, humedad y abono; todas las plantas tienden a perder algunas hojas al cambiar de ambiente; si sigue unas semanas, revisar corrientes de aire; reducir abono durante la aclimatación.",
+      "usado_en": ["rutina-1", "rutina-2", "comprar-1", "comprar-2"]
+    },
+    {
+      "org": "UF/IFAS Gardening Solutions (University of Florida)",
+      "titulo": "Houseplant Care",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/houseplant-care/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Las plantas de hojas peludas como la violeta africana no deben mojarse; el resto se limpia con paño suave húmedo; limpiezas semanales ayudan a controlar plagas; revisar plagas al comprar; aislar la planta nueva al menos un mes.",
+      "usado_en": ["rutina-1", "comprar-2"]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to help a poorly houseplant",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Sacar el polvo deja llegar más luz a la hoja; cortar hojas totalmente marrones o amarillas (no se recuperan) y conservar las mayormente verdes hasta que haya hojas nuevas; puntas y bordes marrones = señal clásica de aire seco, común en invierno con calefacción, o de falta de riego; evitar productos de limpieza y aerosoles sobre las hojas; revisar plagas en plantas recién compradas.",
+      "usado_en": ["rutina-1", "rutina-2"]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow houseplant cacti and succulents",
+      "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "El polvo se junta en cactus y suculentas, sobre todo en los que pinchan: sacarlo con pincel suave o brocha de maquillaje; el paño húmedo funciona bien en suculentas lisas. No habla de la pruina.",
+      "usado_en": ["rutina-1"]
+    },
+    {
+      "org": "Iowa State University Extension and Outreach",
+      "titulo": "Diagnosing Houseplant Problems Related to Poor Culture",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/diagnosing-houseplant-problems-related-poor-culture",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Los abrillantadores, en cantidad y uso frecuente, pueden tapar los estomas y dejar una capa pegajosa que junta polvo; mejor paño húmedo o ducha suave.",
+      "usado_en": ["rutina-1"]
+    },
+    {
+      "org": "University of Illinois Extension",
+      "titulo": "Houseplants: Care",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Lavar el follaje con agua a temperatura ambiente o paño suave húmedo; abrillantadores: con moderación y solo en hojas firmes; ni agua ni abrillantador en hojas peludas. La cuarentena de 2 a 3 semanas de esta página es para plantas que vuelven del exterior (no la usé para plantas nuevas).",
+      "usado_en": ["rutina-1"]
+    },
+    {
+      "org": "University of Maine Cooperative Extension",
+      "titulo": "Bulletin #2611, Tips for Growing Houseplants in Maine: Caring for Houseplants in Maine",
+      "url": "https://extension.umaine.edu/publications/2611e/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Lavar las hojas con regularidad pero no usar ninguna sustancia aceitosa para darles brillo, porque atrae polvo; girar las plantas cada tanto para exponer todos los lados a la luz; al comprar, planta sana y vigorosa, buen color, sin daño de insectos o enfermedades, con buenas raíces.",
+      "usado_en": ["rutina-1", "rutina-2", "comprar-1"]
+    },
+    {
+      "org": "Laidback Gardener (Larry Hodgson, divulgador de jardinería; no institucional)",
+      "titulo": "Home Gardening Remedies: Pros and Cons",
+      "url": "https://laidbackgardener.blog/2021/12/05/home-gardening-remedies-pros-and-cons/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Margarina, mayonesa o aceite dan brillo al principio porque son grasas, pero pueden tapar estomas, son pegajosas y atrapan polvo; no tienen utilidad real en horticultura. Fuente de apoyo (nivel divulgador), no institucional. El título es el del slug de la URL: no confirmé el título literal de la página.",
+      "usado_en": ["rutina-1"]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "Leaf damage on houseplants",
+      "url": "https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Es normal que alguna hoja de abajo de una planta adulta se ponga amarilla y caiga; muchas hojas amarillas a la vez: exceso o falta de riego, maceta demasiado grande, poca luz, frío, corrientes; puntas marrones: riego (más bien falta) o aire seco; evitar abrillantadores e insecticidas en aerosol (manchas pálidas).",
+      "usado_en": ["rutina-2"]
+    },
+    {
+      "org": "Clemson Cooperative Extension (HGIC)",
+      "titulo": "End-of-Winter Houseplant Care: How to Prepare Indoor Plants for Spring",
+      "url": "https://hgic.clemson.edu/end-of-winter-houseplant-care-how-to-prepare-indoor-plants-for-spring/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Sacar lo muerto o amarillo con tijera desinfectada, y desinfectarla entre planta y planta; el polvo acumulado puede reducir la fotosíntesis; revisar plagas en el revés de las hojas y tallos, con lupa si hace falta.",
+      "usado_en": ["rutina-2"]
+    },
+    {
+      "org": "Iowa State University Extension and Outreach",
+      "titulo": "Why does my houseplant have brown leaf tips and edges?",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/why-does-my-houseplant-have-brown-leaf-tips-and-edges",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Causas de puntas marrones: aire seco (la más probable), riego irregular, exceso de abono, calidad del agua; se pueden recortar con tijera, pero vuelven si no se corrige la causa.",
+      "usado_en": ["rutina-2"]
+    },
+    {
+      "org": "University of Illinois Extension",
+      "titulo": "Make sure houseplants get enough light this winter",
+      "url": "https://extension.illinois.edu/blogs/over-garden-fence/2021-12-20-make-sure-houseplants-get-enough-light-winter",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Para evitar el crecimiento de un solo lado, rotar las plantas (sin frecuencia).",
+      "usado_en": ["rutina-2"]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow houseplants",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Compra: plantas fuertes, de forma equilibrada, hojas sin decoloración ni manchas; evitar plantas marchitas y sobre todo las marchitas con sustrato húmedo (posible daño de raíces); sustrato limpio, sin malezas ni algas; más pimpollos cerrados = más tiempo en flor; señales de arañuela (telitas finas, punteado color paja), cochinilla y escamas; cubrir la planta para el viaje, sobre todo en invierno; trasplantar preferentemente en primavera.",
+      "usado_en": ["comprar-1", "comprar-2"]
+    },
+    {
+      "org": "University of Illinois Extension",
+      "titulo": "Houseplants: Get Started",
+      "url": "https://extension.illinois.edu/houseplants/get-started",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Compra: hojas de buen color sin manchas ni bordes marrones, hojas de abajo no pálidas ni amarillas, planta no estirada, revisar tallos y hojas por insectos, raíces por los agujeros de drenaje = le quedó chica y va a pedir cuidado al trasplantar, pedir etiqueta. En casa: separar 2 a 3 semanas; es frecuente que caigan o amarilleen algunas hojas; la adaptación no debería durar más que unas semanas; no abonar mientras se adapta a menos luz y humedad; revisar la tierra para decidir el riego.",
+      "usado_en": ["comprar-1", "comprar-2"]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Houseplant Care",
+      "url": "https://hort.extension.wisc.edu/articles/houseplant-care/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "La mayoría de las plagas y enfermedades llega en plantas nuevas: revisar revés de hojas, puntas de crecimiento y raíces antes de llevarla; separarla una o dos semanas; trasplantar al inicio del crecimiento activo (primavera).",
+      "usado_en": ["comprar-1", "comprar-2"]
+    },
+    {
+      "org": "University of New Hampshire Extension",
+      "titulo": "How do you get rid of mealybugs on houseplants?",
+      "url": "https://extension.unh.edu/blog/2020/12/how-do-you-get-rid-mealybugs-houseplants",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Las cochinillas casi siempre entran con plantas infestadas; se esconden en las axilas de las hojas y la base de los tallos; revisar toda planta nueva. No da duración de cuarentena.",
+      "usado_en": ["comprar-1"]
+    },
+    {
+      "org": "Iowa State University Extension and Outreach",
+      "titulo": "Common Problems and Issues of Succulents",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/common-problems-and-issues-succulents",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "La cochinilla se ve como masas algodonosas (de ahí 'pelusa como de algodón'). No habla de la pruina.",
+      "usado_en": ["comprar-1"]
+    },
+    {
+      "org": "Clemson Cooperative Extension (HGIC)",
+      "titulo": "Weeping Ficus",
+      "url": "https://hgic.clemson.edu/factsheet/weeping-ficus/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "El ficus benjamina suele perder hojas al cambiarlo de lugar o al trasplantarlo; con condiciones adecuadas se adapta y deja de perderlas; trasplantar a fines del invierno o principios de primavera; lejos de corrientes y salidas de calefacción.",
+      "usado_en": ["comprar-2"]
+    },
+    {
+      "org": "Iowa State University Extension and Outreach",
+      "titulo": "How to Care for Houseplants",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/how-care-houseplants",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Comprar la planta al final de la salida y llevarla rápido a un lugar templado; el frío, aun breve, puede causar marchitez, hojas marrones o caída; envolverla (funda o papel).",
+      "usado_en": ["comprar-2"]
+    },
+    {
+      "org": "Gobierno de la Ciudad de Buenos Aires",
+      "titulo": "El clima en la Ciudad",
+      "url": "https://buenosaires.gob.ar/adaptacion/el-clima-en-la-ciudad",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Clima templado húmedo pampeano, veranos cálidos e inviernos frescos, olas de calor más frecuentes y duraderas. Respalda el contexto del dato_ba de traslado (calor en verano). No da temperaturas mínimas de invierno.",
+      "usado_en": ["comprar-2"]
+    },
+    {
+      "org": "NYBG Mertz Library (Plant Information Service)",
+      "titulo": "I have noticed a lot of dust on my houseplants. What is the best way to clean them?",
+      "url": "https://libanswers.nybg.org/faq/222997",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Abierta, coincide (paño suave húmedo en hojas lisas grandes, sobre todo en invierno) pero no aporta nada nuevo: no la cité en las lecciones.",
+      "usado_en": []
+    },
+    {
+      "org": "Penn State Extension",
+      "titulo": "Tips for a Bug-Free Houseplant Haven",
+      "url": "https://extension.psu.edu/tips-for-a-bug-free-houseplant-haven",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Abierta: cuarentena de plantas nuevas hasta estar seguro de que no traen plagas (sin plazo). No citada en las lecciones.",
+      "usado_en": []
+    },
+    {
+      "org": "Succulents and Sunshine (blog de aficionada; no institucional)",
+      "titulo": "White Powder on Succulents",
+      "url": "https://www.succulentsandsunshine.com/white-powder-on-succulents/",
+      "fecha_consulta": "2026-11-15",
+      "que_se_tomo": "Única página que pude abrir sobre la pruina (farina): cera natural que protege del sol y hace escurrir el agua; se va al tocarla y no vuelve en esa hoja. Al ser fuente única y no institucional NO lo incluí en la lección.",
+      "usado_en": []
+    }
+  ],
+  "revisar": [
+    {
+      "id": "rutina-1",
+      "dato": "Pruina (cera blanquecina) de las suculentas: no frotarla",
+      "motivo": "Pedido en la consigna pero NO incluido en la lección: no encontré ninguna fuente institucional que lo trate (RHS, NC State Plant Toolbox e Iowa State solo mencionan que existe o directamente no hablan). Solo abrí un blog de aficionados (Succulents and Sunshine) que dice que la cera protege y no vuelve a crecer en la hoja. Si se quiere sumar, falta una fuente seria.",
+      "fuentes": ["https://www.succulentsandsunshine.com/white-powder-on-succulents/", "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide"]
+    },
+    {
+      "id": "rutina-1",
+      "dato": "Leche y cerveza para dar brillo",
+      "motivo": "No encontré ninguna fuente institucional que las recomiende ni que las desaconseje expresamente. La tarjeta dice solo eso ('no encontramos ninguna guía seria que las respalde'). Es una afirmación sobre el resultado de mi búsqueda, no un dato verificado de daño.",
+      "fuentes": []
+    },
+    {
+      "id": "rutina-1",
+      "dato": "Mayonesa, aceite, margarina como mito",
+      "motivo": "Respaldo institucional solo para 'sustancias aceitosas' (U. Maine: atraen polvo). El detalle de mayonesa y margarina y lo de tapar poros viene de un divulgador (Larry Hodgson), no de una institución. Confianza media para esa tarjeta.",
+      "fuentes": ["https://extension.umaine.edu/publications/2611e/", "https://laidbackgardener.blog/2021/12/05/home-gardening-remedies-pros-and-cons/"]
+    },
+    {
+      "id": "rutina-1",
+      "dato": "Hojas peludas: ¿se pueden mojar?",
+      "motivo": "Fuentes con matices: Clemson, NC State, UF/IFAS e Illinois dicen brocha y no mojar; Iowa State admite paño suave húmedo o cepillo. Elegí el criterio conservador (pincel seco).",
+      "fuentes": ["https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/", "https://yardandgarden.extension.iastate.edu/faq/dust-has-accumulated-foliage-my-houseplants-how-can-i-clean-plants"]
+    },
+    {
+      "id": "rutina-1",
+      "dato": "Cactus con pelos",
+      "motivo": "No encontré fuente específica para cactus peludos. La RHS solo dice pincel suave para cactus y suculentas espinosas; la tarjeta se limita a eso.",
+      "fuentes": ["https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide"]
+    },
+    {
+      "id": "rutina-1",
+      "dato": "Frecuencia de limpieza",
+      "motivo": "Sin consenso: UF/IFAS habla de limpiezas semanales (pensando en plagas), NC State de cada 2 o 3 meses, el resto 'regularmente' o 'cada tanto'. La tarjeta lo dice así y propone guiarse por el polvo.",
+      "fuentes": ["https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/houseplant-care/", "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers"]
+    },
+    {
+      "id": "rutina-1",
+      "dato": "Abrillantadores",
+      "motivo": "Matiz: Clemson, NC State, Iowa State y RHS los desaconsejan; Illinois los admite 'con moderación y solo en hojas firmes'. Elegí el criterio conservador (no hacen falta).",
+      "fuentes": ["https://extension.illinois.edu/houseplants/care"]
+    },
+    {
+      "id": "rutina-2",
+      "dato": "Cada cuánto girar la maceta",
+      "motivo": "Sin consenso. NC State: 90 grados cada tres meses; U. Maine: 'cada tanto'; Illinois: rotar, sin frecuencia. Un PDF de Utah State (180 grados dos veces por mes, según el buscador) no se pudo leer. La tarjeta no fija número. 'Siempre para el mismo lado' sale solo de NC State (sentido horario).",
+      "fuentes": ["https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers", "https://extension.umaine.edu/publications/2611e/"]
+    },
+    {
+      "id": "rutina-2",
+      "dato": "Recortar puntas dejando un bordecito marrón",
+      "motivo": "Fuente única (NC State, que además lo limita a hojas con menos de un tercio dañado). Iowa State solo dice que se pueden recortar con tijera.",
+      "fuentes": ["https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers"]
+    },
+    {
+      "id": "comprar-2",
+      "dato": "Duración de la cuarentena",
+      "motivo": "Las fuentes difieren: Wisconsin 1 a 2 semanas, Illinois 2 a 3 semanas, UF/IFAS al menos un mes, Penn State 'hasta estar seguro'. La tarjeta da el rango y recomienda el criterio conservador (un mes).",
+      "fuentes": ["https://hort.extension.wisc.edu/articles/houseplant-care/", "https://extension.illinois.edu/houseplants/get-started", "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/houseplant-care/"]
+    },
+    {
+      "id": "comprar-2",
+      "dato": "No trasplantar enseguida",
+      "motivo": "Respaldo indirecto: ninguna fuente abierta dice literalmente 'no trasplantes una planta recién comprada'. Se apoya en que el trasplante también provoca caída de hojas (Clemson, ficus; NC State, pérdida de raíces) y en que la época recomendada es la primavera (RHS, Wisconsin, Clemson). Una ficha de UF/IFAS EDIS (EP136) que según el buscador pide no mover, podar, trasplantar ni abonar por unas cuatro semanas no se pudo abrir. Por eso la tarjeta dice 'si no es urgente'.",
+      "fuentes": ["https://hgic.clemson.edu/factsheet/weeping-ficus/"]
+    },
+    {
+      "id": "comprar-2",
+      "dato": "Frío por debajo de unos 10 grados en el traslado",
+      "motivo": "El umbral (50 °F) viene solo de NC State; Iowa State y RHS hablan de frío en general. No verifiqué con el SMN cada cuánto baja de 10 °C en Buenos Aires: la tarjeta solo dice 'en invierno, de junio a agosto'.",
+      "fuentes": ["https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers"]
+    }
+  ],
+  "no_pude_abrir": [
+    "https://extension.umd.edu/resource/grooming-indoor-plants (certificado rechazado)",
+    "https://extension.uga.edu/publications/detail.html?number=B1318 (certificado rechazado)",
+    "https://www.missouribotanicalgarden.org/ (FAQ sobre caída de hojas del ficus: error de certificado)",
+    "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care (403)",
+    "https://extension.umn.edu/yard-and-garden-insects/insects-indoor-plants (403)",
+    "https://extension.missouri.edu/publications/g6510 (403)",
+    "https://extension.okstate.edu/fact-sheets/houseplant-care.html (403)",
+    "https://ucanr.edu/site/mg-sonoma/succulents (403)",
+    "https://edis.ifas.ufl.edu/ep136 (redirige a ask.ifas.ufl.edu y entra en bucle de redirecciones)",
+    "https://www.startribune.com/plant-lore-fact-or-fiction/85053087 (429, dos intentos)",
+    "https://hort.extension.wisc.edu/articles/echeveria/ (404)",
+    "https://faq.mountaincrestgardens.com/en-US/what-is-the-powdery-farina-epicuticular-wax-on-succulent-leaves-43676 (404)",
+    "https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az1025.pdf (PDF escaneado, sin texto legible)",
+    "https://extension.usu.edu/juab/files/GrowingIndoorPlants.pdf (PDF que no se pudo leer como texto)",
+    "https://innovate.ucanr.edu/sites/default/files/2025-08/331073.pdf (PDF que no se pudo leer como texto)",
+    "https://hortscans.ces.ncsu.edu/uploads/a/c/acclimat_53a06aa978d70.pdf (PDF escaneado, sin texto legible)"
+  ]
+}

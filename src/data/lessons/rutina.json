@@ -1,0 +1,315 @@
+[
+  {
+    "id": "rutina-1",
+    "unidad": "rutina",
+    "titulo": "Hojas limpias",
+    "gancho": "¿Hace falta limpiarles las hojas a las plantas?",
+    "tarjetas": [
+      {
+        "tipo": "por_que",
+        "imagen": "pano-hoja",
+        "texto": "Adentro de casa las hojas juntan polvo, y esa capa les tapa parte de la luz que usan para fabricar su comida. Limpiarlas las ayuda a crecer mejor y, de paso, te deja ver a tiempo si apareció algún bicho."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "pano-hoja",
+        "texto": "Para las hojas lisas alcanza con un paño suave apenas humedecido con agua, pasado por arriba y por abajo de cada hoja. Sin jabón: los detergentes de la casa pueden dañar la capa que protege la hoja, y el agua sola limpia igual de bien."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "ducha",
+        "texto": "Otra opción es una ducha suave con agua tibia, en la bacha o en la bañera, probando antes la presión y la temperatura. No hay una regla fija de cada cuánto: las guías van de todas las semanas a cada dos o tres meses, así que guiate por el polvo que veas."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "pincel",
+        "texto": "Las plantas de hojas peludas, como la violeta africana, no se limpian con paño mojado ni con ducha: usá un pincel o una brocha suave y seca. El pincel también es lo mejor para los cactus y las suculentas que pinchan, mientras que a las suculentas lisas sí les va bien el paño húmedo."
+      },
+      {
+        "tipo": "comparativa",
+        "imagen_mal": "rociador",
+        "imagen_bien": "pano-hoja",
+        "texto": "Los abrillantadores para hojas no hacen falta: dejan una película que puede tapar los poros de la hoja y que termina juntando más polvo. Una hoja limpia ya muestra su brillo natural."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-triste",
+        "texto": "La mayonesa, el aceite o la margarina dan brillo un ratito, pero son grasas: quedan pegajosas, atrapan polvo y pueden tapar los poros. Para la leche y la cerveza no encontramos ninguna guía seria que las respalde, así que agua sola y listo."
+      }
+    ],
+    "para_llevarte": [
+      "Paño húmedo con agua sola, por arriba y por abajo.",
+      "Hojas peludas y cactus: pincel suave y seco.",
+      "Ni abrillantadores, ni aceite, ni mayonesa."
+    ],
+    "quiz": [
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Tu gomero tiene las hojas llenas de polvo. ¿Con qué las limpiás?",
+        "opciones": [
+          "Con un paño con un poco de aceite",
+          "Con un paño suave humedecido con agua",
+          "Con abrillantador en aerosol"
+        ],
+        "correcta": 1,
+        "explicacion": "Con agua sola alcanza y no hay riesgo de dañar la hoja. El aceite y los abrillantadores dejan una película que junta más polvo."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Esta violeta africana tiene polvo en las hojas. ¿Cómo conviene limpiarla?",
+        "imagen": "planta:violeta-africana",
+        "opciones": [
+          "Con un pincel suave y seco",
+          "Con un paño bien mojado",
+          "Con abrillantador para hojas"
+        ],
+        "correcta": 0,
+        "explicacion": "Las hojas peludas no se llevan bien con el paño mojado ni con los productos. Un pincel o una brocha suave saca el polvo sin lastimarlas."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Pasarles mayonesa o aceite a las hojas las deja más sanas.",
+        "correcta": false,
+        "explicacion": "Es un mito. Son grasas: brillan un rato, pero quedan pegajosas, atrapan polvo y pueden tapar los poros de la hoja."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Al limpiar una hoja lisa, conviene pasar el paño también por el revés.",
+        "correcta": true,
+        "explicacion": "El polvo y los bichos también se juntan abajo. Además, es una buena excusa para revisar la planta de cerca."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada planta con la mejor forma de limpiarla.",
+        "pares": [
+          {
+            "a": "Gomero, de hoja lisa",
+            "b": "Paño húmedo con agua"
+          },
+          {
+            "a": "Violeta africana",
+            "b": "Pincel suave y seco"
+          },
+          {
+            "a": "Planta grande y tupida",
+            "b": "Ducha suave y tibia"
+          }
+        ],
+        "explicacion": "La idea es siempre la misma: sacar el polvo con lo más suave que funcione, y sin productos."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Indoor Plants – Cleaning, Fertilizing, Containers & Light Requirements",
+        "org": "Clemson Cooperative Extension (HGIC)",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Dust has accumulated on the foliage of my houseplants. How can I clean the plants?",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/faq/dust-has-accumulated-foliage-my-houseplants-how-can-i-clean-plants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Extension Gardener Handbook, 18. Plants Grown in Containers",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplant Care",
+        "org": "UF/IFAS Gardening Solutions (University of Florida)",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/houseplant-care/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to help a poorly houseplant",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to grow houseplant cacti and succulents",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Diagnosing Houseplant Problems Related to Poor Culture",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/diagnosing-houseplant-problems-related-poor-culture",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Houseplants: Care",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/care",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Bulletin #2611, Tips for Growing Houseplants in Maine: Caring for Houseplants in Maine",
+        "org": "University of Maine Cooperative Extension",
+        "url": "https://extension.umaine.edu/publications/2611e/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Home Gardening Remedies: Pros and Cons",
+        "org": "Laidback Gardener (Larry Hodgson, divulgador de jardinería)",
+        "url": "https://laidbackgardener.blog/2021/12/05/home-gardening-remedies-pros-and-cons/",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "alta",
+    "xp": 20
+  },
+  {
+    "id": "rutina-2",
+    "unidad": "rutina",
+    "titulo": "Hojas secas, tijera y un giro",
+    "gancho": "¿La hoja amarilla la corto o la dejo?",
+    "tarjetas": [
+      {
+        "tipo": "concepto",
+        "imagen": "hojas-caidas",
+        "texto": "Que cada tanto se ponga amarilla y se caiga alguna hoja de abajo en una planta adulta es normal. Si son muchas a la vez, ahí sí conviene revisar el riego, la luz, el frío y las corrientes de aire."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "tijera-poda",
+        "texto": "Las hojas totalmente amarillas, marrones o secas ya no se recuperan, así que podés sacarlas sin culpa. Las que todavía están casi todas verdes dejalas hasta que la planta saque hojas nuevas."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "tijera-poda",
+        "texto": "Cortá la hoja donde se une al tallo, con una tijera afilada y desinfectada, y volvé a limpiarla antes de pasar a otra planta. Juntá también las hojas que cayeron sobre la tierra, porque ahí favorecen las enfermedades."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "calefaccion",
+        "texto": "Las puntas marrones suelen venir del aire seco, algo típico del invierno porteño con la calefacción prendida, aunque también del riego desparejo o del exceso de abono. Podés recortar la parte seca dejando un bordecito marrón, pero si no corregís la causa van a volver a aparecer."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "rotar-maceta",
+        "texto": "Las plantas crecen hacia donde viene la luz, y adentro casi siempre viene de un solo lado: la ventana. Por eso con el tiempo se inclinan y quedan más tupidas de un lado que del otro."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "rotar-maceta",
+        "texto": "Para que crezca pareja, girá la maceta un cuarto de vuelta cada tanto, siempre para el mismo lado. Las guías no coinciden en cada cuánto, y van de seguido a cada tres meses, así que mirá la planta: si se está inclinando, es hora de girarla."
+      }
+    ],
+    "para_llevarte": [
+      "Hoja totalmente seca o amarilla: se corta.",
+      "Tijera limpia, en la unión con el tallo.",
+      "Un cuarto de vuelta cada tanto, para que crezca pareja."
+    ],
+    "quiz": [
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Tu potus tiene una hoja completamente amarilla. ¿Qué hacés?",
+        "opciones": [
+          "La dejo, capaz se pone verde otra vez",
+          "La corto con tijera limpia donde se une al tallo",
+          "Le doy abono para que se recupere"
+        ],
+        "correcta": 1,
+        "explicacion": "Una hoja del todo amarilla ya no vuelve a ponerse verde. Sacarla deja la planta más prolija y no le hace ningún daño."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Tu planta creció toda inclinada hacia la ventana. ¿Qué le pasa?",
+        "imagen": "ventana-sol",
+        "opciones": [
+          "Le queda chica la maceta",
+          "Busca la luz, que le llega de un solo lado",
+          "Le falta abono"
+        ],
+        "correcta": 1,
+        "explicacion": "Las plantas crecen hacia la luz. Girando la maceta un cuarto de vuelta cada tanto, todos los lados reciben su parte."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Si recorto las puntas marrones, el problema queda resuelto.",
+        "correcta": false,
+        "explicacion": "Recortar mejora cómo se ve, pero no arregla la causa. Si el aire sigue seco o el riego desparejo, las puntas marrones vuelven."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "A una hoja que todavía está casi toda verde conviene dejarla.",
+        "correcta": true,
+        "explicacion": "Mientras esté mayormente verde, mejor que siga en la planta hasta que salgan hojas nuevas. Las que se cortan son las que ya están del todo amarillas o secas."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada situación con lo que conviene hacer.",
+        "pares": [
+          {
+            "a": "Hoja totalmente seca",
+            "b": "Cortarla en la unión con el tallo"
+          },
+          {
+            "a": "Puntas marrones",
+            "b": "Recortar y buscar la causa"
+          },
+          {
+            "a": "Planta inclinada",
+            "b": "Girar la maceta"
+          },
+          {
+            "a": "Muchas hojas amarillas juntas",
+            "b": "Revisar riego y luz"
+          }
+        ],
+        "explicacion": "Una hoja cada tanto es parte de la vida de la planta. Cuando son muchas, te está avisando que algo del lugar o del riego no le cierra."
+      }
+    ],
+    "fuentes": [
+      {
+        "titulo": "Leaf damage on houseplants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "How to help a poorly houseplant",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Extension Gardener Handbook, 18. Plants Grown in Containers",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "End-of-Winter Houseplant Care: How to Prepare Indoor Plants for Spring",
+        "org": "Clemson Cooperative Extension (HGIC)",
+        "url": "https://hgic.clemson.edu/end-of-winter-houseplant-care-how-to-prepare-indoor-plants-for-spring/",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Why does my houseplant have brown leaf tips and edges?",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/faq/why-does-my-houseplant-have-brown-leaf-tips-and-edges",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Make sure houseplants get enough light this winter",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/blogs/over-garden-fence/2021-12-20-make-sure-houseplants-get-enough-light-winter",
+        "fecha_consulta": "2026-11-15"
+      },
+      {
+        "titulo": "Bulletin #2611, Tips for Growing Houseplants in Maine: Caring for Houseplants in Maine",
+        "org": "University of Maine Cooperative Extension",
+        "url": "https://extension.umaine.edu/publications/2611e/",
+        "fecha_consulta": "2026-11-15"
+      }
+    ],
+    "confianza": "media",
+    "xp": 20
+  }
+]
