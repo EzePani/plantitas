@@ -539,34 +539,23 @@
   {
     "id": "macetas-5",
     "unidad": "macetas",
-    "titulo": "Piedras: para qué sí y para qué no",
+    "titulo": "Piedras sobre la tierra",
     "gancho": "¿Le pongo piedritas a la maceta, arriba o abajo?",
     "tarjetas": [
       {
         "tipo": "concepto",
         "imagen": "piedras-arriba",
-        "texto": "Una capa de grava o piedritas sobre la tierra es una terminación clásica para cactus y suculentas: la Royal Horticultural Society la sugiere después del trasplante. Queda prolija y ayuda a frenar los yuyos."
+        "texto": "Una capa de grava o piedritas sobre la tierra es una terminación clásica para cactus y suculentas: la Royal Horticultural Society la sugiere después del trasplante."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "piedras-arriba",
+        "texto": "Queda prolija y ayuda a frenar los yuyos."
       },
       {
         "tipo": "por_que",
         "imagen": "piedras-arriba",
         "texto": "Ojo con lo que no hace: no seca la tierra más rápido. Cualquier cobertura frena la evaporación, así que debajo de las piedras la tierra sigue húmeda más tiempo y conviene tocarla antes de regar."
-      },
-      {
-        "tipo": "comparativa",
-        "imagen_mal": "piedras-fondo",
-        "imagen_bien": "maceta-drenaje",
-        "texto": "Poner piedras en el fondo para que drene mejor es un consejo muy repetido, pero varias universidades lo desaconsejan y algunas lo llaman directamente un mito. Recomiendan llenar toda la maceta con buen sustrato."
-      },
-      {
-        "tipo": "por_que",
-        "imagen": "piedras-fondo",
-        "texto": "La explicación que dan: el agua no baja a las piedras hasta que la tierra de arriba está saturada. Por eso, dicen, la capa hace poco para evitar que esa tierra quede empapada."
-      },
-      {
-        "tipo": "concepto",
-        "imagen": "piedras-fondo",
-        "texto": "El tema no está cerrado: un estudio de 2025 midió macetas con agujero y vio que una capa de drenaje no aumentó el agua retenida, y con algunos sustratos la bajó. No probó con plantas vivas y usó un solo tamaño de maceta, así que todavía falta evidencia."
       },
       {
         "tipo": "concepto",
@@ -602,17 +591,6 @@
         "pregunta": "Con piedritas encima, la tierra de abajo puede seguir húmeda aunque arriba se vea todo seco.",
         "correcta": true,
         "explicacion": "La cobertura frena la evaporación. Por eso conviene correr un poco las piedras y tocar la tierra antes de regar."
-      },
-      {
-        "tipo": "opcion_multiple",
-        "pregunta": "¿Qué se puede decir hoy de la capa de piedras en el fondo?",
-        "opciones": [
-          "Que reemplaza al agujero",
-          "Que las guías no la recomiendan, aunque falta evidencia",
-          "Que es obligatoria para los cactus"
-        ],
-        "correcta": 1,
-        "explicacion": "Varias universidades la desaconsejan y un estudio reciente midió otra cosa, sin probar con plantas. Lo seguro es que no reemplaza al agujero."
       }
     ],
     "fuentes": [

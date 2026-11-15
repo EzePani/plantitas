@@ -48,7 +48,7 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 | macetas-2 | Forma, tamaño y drenaje | alta | 7 |
 | macetas-3 | Tipos de tierra y sustrato | alta | 7 |
 | macetas-4 | Compost y tierra de vivero | media | 7 |
-| macetas-5 | Piedras: para qué sí y para qué no | media | 9 |
+| macetas-5 | Piedras sobre la tierra | media | 9 |
 | macetas-6 | Trasplante | alta | 5 |
 | mascotas-1 | Por qué algunas plantas hacen mal | alta | 10 |
 | mascotas-2 | Qué hacer si mordió una planta | alta | 7 |
@@ -59,7 +59,7 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 | multiplicar-4 | Hijos de cactus y suculentas | alta | 7 |
 | plagas-1 | Quién es quién entre las plagas | alta | 6 |
 | plagas-2 | Prevenir es más fácil que curar | alta | 6 |
-| plagas-3 | Qué funciona y qué es mito | media | 21 |
+| plagas-3 | Qué funciona contra las plagas | media | 21 |
 | plagas-4 | Hongos, moho y raíces podridas | media | 4 |
 | riego-1 | El exceso mata más que la falta | alta | 5 |
 | riego-2 | Cómo saber si hay que regar | media | 9 |

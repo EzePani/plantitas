@@ -24,23 +24,12 @@
         "tipo": "concepto",
         "imagen": "pincel",
         "texto": "Las plantas de hojas peludas, como la violeta africana, no se limpian con paño mojado ni con ducha: usá un pincel o una brocha suave y seca. El pincel también es lo mejor para los cactus y las suculentas que pinchan, mientras que a las suculentas lisas sí les va bien el paño húmedo."
-      },
-      {
-        "tipo": "comparativa",
-        "imagen_mal": "rociador",
-        "imagen_bien": "pano-hoja",
-        "texto": "Los abrillantadores para hojas no hacen falta: dejan una película que puede tapar los poros de la hoja y que termina juntando más polvo. Una hoja limpia ya muestra su brillo natural."
-      },
-      {
-        "tipo": "concepto",
-        "imagen": "planta-triste",
-        "texto": "La mayonesa, el aceite o la margarina dan brillo un ratito, pero son grasas: quedan pegajosas, atrapan polvo y pueden tapar los poros. Para la leche y la cerveza no encontramos ninguna guía seria que las respalde, así que agua sola y listo."
       }
     ],
     "para_llevarte": [
       "Paño húmedo con agua sola, por arriba y por abajo.",
       "Hojas peludas y cactus: pincel suave y seco.",
-      "Ni abrillantadores, ni aceite, ni mayonesa."
+      "Hoja limpia: más luz para la planta."
     ],
     "quiz": [
       {
@@ -65,12 +54,6 @@
         ],
         "correcta": 0,
         "explicacion": "Las hojas peludas no se llevan bien con el paño mojado ni con los productos. Un pincel o una brocha suave saca el polvo sin lastimarlas."
-      },
-      {
-        "tipo": "verdadero_falso",
-        "pregunta": "Pasarles mayonesa o aceite a las hojas las deja más sanas.",
-        "correcta": false,
-        "explicacion": "Es un mito. Son grasas: brillan un rato, pero quedan pegajosas, atrapan polvo y pueden tapar los poros de la hoja."
       },
       {
         "tipo": "verdadero_falso",

@@ -161,11 +161,6 @@
         "tipo": "concepto",
         "imagen": "sustrato",
         "texto": "La tierra húmeda se ve oscura y al secarse se pone más clara. Es una pista rápida, pero muestra solo la superficie, así que confirmá con el dedo."
-      },
-      {
-        "tipo": "concepto",
-        "imagen": "dedo",
-        "texto": "Los medidores de humedad baratos, los de aguja, no siempre aciertan: el abono y el tipo de tierra les cambian la lectura. Si tenés uno usalo como ayuda, pero el dedo sigue siendo más confiable."
       }
     ],
     "para_llevarte": [
@@ -213,12 +208,6 @@
           }
         ],
         "explicacion": "Son cuatro formas simples de saber cómo está la tierra. Si dudás, el dedo es la más confiable."
-      },
-      {
-        "tipo": "verdadero_falso",
-        "pregunta": "Un medidor de humedad barato siempre es más exacto que tocar la tierra.",
-        "correcta": false,
-        "explicacion": "Varias universidades avisan que estos medidores no siempre son confiables, porque el abono y el tipo de tierra alteran lo que marcan. Tocar la tierra sigue siendo la mejor prueba."
       },
       {
         "tipo": "opcion_multiple",
@@ -478,12 +467,6 @@
       "Rociar las hojas casi no cambia la humedad."
     ],
     "quiz": [
-      {
-        "tipo": "verdadero_falso",
-        "pregunta": "Rociar las hojas todos los días es una buena forma de subir la humedad.",
-        "correcta": false,
-        "explicacion": "El agua se evapora en minutos y la humedad vuelve a bajar. Solo las plantas del aire aprovechan de verdad el rociado."
-      },
       {
         "tipo": "unir",
         "pregunta": "Uní cada forma de regar con lo que mejor hace.",

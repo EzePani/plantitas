@@ -276,8 +276,8 @@
   {
     "id": "plagas-3",
     "unidad": "plagas",
-    "titulo": "Qué funciona y qué es mito",
-    "gancho": "¿Sirve rociar la planta con detergente, vinagre o ajo?",
+    "titulo": "Qué funciona contra las plagas",
+    "gancho": "¿Qué conviene hacer cuando aparecen bichitos y tenés mascotas en casa?",
     "tarjetas": [
       {
         "tipo": "concepto",
@@ -291,38 +291,21 @@
       },
       {
         "tipo": "concepto",
-        "imagen": "gato",
-        "texto": "El aceite de neem y los aceites hortícolas comprados ahogan a los bichos y sirven sobre todo contra cochinillas y arañuelas. Ojo si tenés gato: hubo gatos intoxicados por tener aceite de neem en el pelo, y de los aceites hortícolas no hay datos veterinarios claros, así que mantenelos lejos de tus mascotas."
-      },
-      {
-        "tipo": "concepto",
         "imagen": "trampa-amarilla",
-        "texto": "Las trampas adhesivas amarillas atrapan a las mosquitas adultas y te muestran cuántas hay, pero solas no terminan el problema si la tierra sigue húmeda. Sobre el pegamento no hay datos claros para mascotas, así que ponelas donde tu perro o tu gato no lleguen."
+        "texto": "Las trampas adhesivas amarillas atrapan a las mosquitas adultas y te muestran cuántas hay, pero solas no terminan el problema si la tierra sigue húmeda. Ponelas donde tu perro o tu gato no lleguen."
       },
       {
         "tipo": "por_que",
         "imagen": "veterinario",
         "texto": "Los insecticidas con piretrinas o permetrina pueden ser gravísimos para un gato, incluso en poca cantidad. Los sistémicos, como el imidacloprid, quedan adentro de toda la planta, así que no los uses en plantas que tu mascota pueda morder."
-      },
-      {
-        "tipo": "comparativa",
-        "imagen_mal": "planta-quemada",
-        "imagen_bien": "ducha",
-        "texto": "Los sprays caseros de detergente, vinagre, ajo o tabaco no están probados y pueden quemar las hojas. Además el ajo y el tabaco son tóxicos para perros y gatos, y los aceites esenciales son peligrosos para los gatos."
       }
     ],
     "para_llevarte": [
       "Primero aislar, agua y sacar a mano.",
       "Productos comprados, con etiqueta y lejos de tu mascota.",
-      "Nada de recetas caseras ni aceites esenciales."
+      "Con gatos, nada de piretrinas ni permetrina."
     ],
     "quiz": [
-      {
-        "tipo": "verdadero_falso",
-        "pregunta": "El detergente de la cocina es lo mismo que el jabón potásico.",
-        "correcta": false,
-        "explicacion": "El detergente es un limpiador fuerte que le saca a la hoja su capa protectora y la puede quemar. El jabón potásico está pensado para usarse sobre plantas, siguiendo la etiqueta."
-      },
       {
         "tipo": "opcion_multiple",
         "pregunta": "Tenés un gato. ¿Qué insecticida conviene evitar sí o sí?",
@@ -358,16 +341,10 @@
         "explicacion": "Cualquier producto se guarda cerrado y en alto, y tu mascota vuelve cuando la planta ya está seca."
       },
       {
-        "tipo": "verdadero_falso",
-        "pregunta": "Está comprobado que la canela sobre la tierra elimina las mosquitas.",
-        "correcta": false,
-        "explicacion": "No encontramos estudios serios que respalden la canela, y sobre el agua oxigenada las recomendaciones se contradicen. Lo comprobado es dejar secar la tierra entre riegos."
-      },
-      {
         "tipo": "opcion_multiple",
         "pregunta": "Una planta está invadida de punta a punta y ya probaste de todo. ¿Qué dicen los expertos?",
         "opciones": [
-          "Rociarla con vinagre",
+          "Seguir probando productos distintos",
           "A veces lo más simple es descartarla",
           "Dejarla junto a las demás"
         ],

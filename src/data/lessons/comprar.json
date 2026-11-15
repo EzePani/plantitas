@@ -205,8 +205,8 @@
       },
       {
         "tipo": "concepto",
-        "imagen": "trasplante",
-        "texto": "Mientras se adapta no la abones y, si no es urgente, dejá también el trasplante para más adelante. Cambiarla de maceta es otro sacudón, y la mejor época para hacerlo es la primavera."
+        "imagen": "planta-nueva",
+        "texto": "Mientras se adapta no la abones: esperá a que se acostumbre al lugar nuevo y recién ahí retomá el abono."
       },
       {
         "tipo": "dato_ba",
@@ -217,7 +217,7 @@
     "para_llevarte": [
       "Perder algunas hojas al llegar es normal.",
       "Unas semanas separada de las otras plantas.",
-      "Ni abono ni trasplante apurado."
+      "Sin abono mientras se adapta."
     ],
     "quiz": [
       {
@@ -266,10 +266,6 @@
           {
             "a": "Abono",
             "b": "Esperar a que se adapte"
-          },
-          {
-            "a": "Trasplante",
-            "b": "Si no es urgente, en primavera"
           },
           {
             "a": "Cambios de luz",

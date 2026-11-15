@@ -345,10 +345,9 @@
         "texto": "En el invierno porteño, de junio a agosto, la calefacción reseca el aire de casa y es cuando más lo notan. Tranqui, no es culpa tuya: alejalas de estufas y radiadores."
       },
       {
-        "tipo": "comparativa",
-        "imagen_mal": "rociador",
-        "imagen_bien": "casa",
-        "texto": "Rociar las hojas casi no sirve: el agua se evapora en minutos y la humedad vuelve a bajar. Juntar varias plantas o usar un humidificador sí ayuda."
+        "tipo": "concepto",
+        "imagen": "casa",
+        "texto": "Juntar varias plantas o usar un humidificador ayuda a subir la humedad del aire. Es lo que mejor funciona cuando la calefacción seca el ambiente."
       },
       {
         "tipo": "concepto",

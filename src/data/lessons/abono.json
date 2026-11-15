@@ -489,11 +489,6 @@
         "imagen_mal": "planta-triste",
         "imagen_bien": "necesidades",
         "texto": "El abono no es un remedio: a una planta enferma, dañada o decaída no la cura y hasta le puede hacer peor. Primero revisá la luz, el riego y si tiene plagas, y abonala recién cuando se recupere."
-      },
-      {
-        "tipo": "concepto",
-        "imagen": "sustrato",
-        "texto": "Las cáscaras de huevo y de banana tardan muchísimo en soltar sus nutrientes, y del agua de arroz no hay estudios que la respalden en plantas de interior. Mejor mandá las cáscaras al compost y usá un abono con dosis conocida."
       }
     ],
     "para_llevarte": [
@@ -530,12 +525,6 @@
         "pregunta": "Una planta recién trasplantada necesita abono enseguida.",
         "correcta": false,
         "explicacion": "No hace falta. Muchas tierras nuevas ya traen abono para un buen tiempo, así que podés esperar tranqui."
-      },
-      {
-        "tipo": "verdadero_falso",
-        "pregunta": "La borra de café usada vuelve más ácida la tierra.",
-        "correcta": false,
-        "explicacion": "Es un mito muy repetido: el café sin usar es ácido, pero la borra ya usada no. Donde más rinde es en el compost."
       },
       {
         "tipo": "unir",
