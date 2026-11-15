@@ -2,28 +2,43 @@
   {
     "id": "mascotas-1",
     "unidad": "mascotas",
-    "titulo": "Por qué algunas plantas son tóxicas",
+    "titulo": "Por qué algunas plantas hacen mal",
     "gancho": "¿Mi planta le puede hacer mal a mi mascota?",
     "tarjetas": [
       {
         "tipo": "por_que",
         "imagen": "gato",
-        "texto": "Muchas plantas se defienden de que las coman con sustancias irritantes o tóxicas. No es maldad: es su forma de protegerse."
+        "texto": "Muchas plantas fabrican sustancias que las defienden de los animales que se las comen. Algunas de esas sustancias también le hacen mal a un gato o a un perro."
       },
       {
         "tipo": "concepto",
         "imagen": "perro",
-        "texto": "Que a tu mascota le guste una planta no significa que sea segura. Lo que atrae y lo que hace mal son cosas distintas."
+        "texto": "Que a tu mascota le guste una planta no dice nada sobre si es segura. No todas las plantas tóxicas tienen feo gusto."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-triste",
+        "texto": "Algunas plantas solo irritan la boca, como el potus o el espatifilo, y otras pueden dañar los riñones, el hígado o el corazón. Por eso importa saber exactamente qué planta mordió."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "gato",
+        "texto": "Señales a vigilar: babeo, vómitos, diarrea, falta de apetito, decaimiento o que se toque la boca con la pata. Temblores, tambaleo, dificultad para respirar o un desmayo son una urgencia."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "casa",
+        "texto": "Los cachorros y los gatos jóvenes son los más curiosos, y un gato que no sale no tiene pasto para mordisquear. Por eso es más probable que prueben las plantas de casa."
       },
       {
         "tipo": "concepto",
         "imagen": "veterinario",
-        "texto": "Esta app es informativa y no reemplaza al veterinario. Ante cualquier duda, consultá enseguida."
+        "texto": "Esta app es informativa y no reemplaza al veterinario. Las listas de plantas tóxicas no son completas, así que ante la duda consultá."
       }
     ],
     "para_llevarte": [
-      "Tóxica no es lo mismo que atractiva.",
-      "Cada especie reacciona distinto.",
+      "Que le guste no significa que sea segura.",
+      "Babeo, vómitos o decaimiento: consultá.",
       "Ante la duda, veterinario."
     ],
     "quiz": [
@@ -31,23 +46,128 @@
         "tipo": "verdadero_falso",
         "pregunta": "Si a mi gato le gusta morder una planta, es porque es segura.",
         "correcta": false,
-        "explicacion": "El atractivo no dice nada sobre la toxicidad."
+        "explicacion": "El gusto no avisa. Hay plantas tóxicas que no saben feo, así que el atractivo no dice nada sobre la toxicidad."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Potus: ¿es seguro para tu gato?",
+        "imagen": "planta:potus",
+        "opciones": [
+          "Segura",
+          "Tóxica"
+        ],
+        "correcta": 1,
+        "explicacion": "ASPCA lo lista como tóxico para gatos y perros. Tiene cristales que irritan la boca y causan babeo y vómitos."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Cinta (lazo de amor): ¿es segura para tu gato?",
+        "imagen": "planta:cinta",
+        "opciones": [
+          "Segura",
+          "Tóxica"
+        ],
+        "correcta": 0,
+        "explicacion": "ASPCA la lista como no tóxica para gatos y perros. Igual, comer mucho de cualquier planta puede caerle mal a la panza."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada planta con lo que puede dañar.",
+        "pares": [
+          {
+            "a": "Potus",
+            "b": "Irrita la boca"
+          },
+          {
+            "a": "Lirio (en gatos)",
+            "b": "Riñones"
+          },
+          {
+            "a": "Palma sagú",
+            "b": "Hígado"
+          },
+          {
+            "a": "Adelfa",
+            "b": "Corazón"
+          }
+        ],
+        "explicacion": "No todas las plantas tóxicas hacen lo mismo. Por eso al veterinario le sirve saber cuál fue."
       },
       {
         "tipo": "opcion_multiple",
-        "pregunta": "Ante la sospecha de que mordió una planta tóxica...",
+        "pregunta": "¿Cuál de estas señales es una urgencia?",
         "opciones": [
-          "Espero a ver qué pasa",
-          "Consulto al veterinario enseguida",
-          "Le doy leche"
+          "Olió la planta y siguió de largo",
+          "Tiembla o le cuesta respirar",
+          "Durmió la siesta de siempre"
         ],
         "correcta": 1,
-        "explicacion": "Siempre conviene consultar de inmediato."
+        "explicacion": "Temblores, tambaleo, dificultad para respirar o un desmayo piden atención veterinaria ya."
       }
     ],
-    "fuentes": [],
-    "confianza": "baja",
-    "estado": "no_verificado",
+    "fuentes": [
+      {
+        "titulo": "Toxic and Non-Toxic Plants List",
+        "org": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Plants Poisonous to Animals",
+        "org": "Merck Veterinary Manual",
+        "url": "https://www.merckvetmanual.com/special-pet-topics/poisoning/plants-poisonous-to-animals",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Houseplants and Ornamentals Toxic to Animals",
+        "org": "Merck Veterinary Manual",
+        "url": "https://www.merckvetmanual.com/toxicology/poisonous-plants/houseplants-and-ornamentals-toxic-to-animals",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Poisonous Plants",
+        "org": "International Cat Care",
+        "url": "https://icatcare.org/articles/poisonous-plants",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Lovely Lilies and Curious Cats: A Dangerous Combination",
+        "org": "FDA",
+        "url": "https://www.fda.gov/animal-veterinary/animal-health-literacy/lovely-lilies-and-curious-cats-dangerous-combination",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Golden Pothos",
+        "org": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Spider Plant",
+        "org": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Sago Palm",
+        "org": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/sago-palm",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Oleander",
+        "org": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/oleander",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Plant Secondary Metabolites as Defense Tools against Herbivores for Sustainable Crop Protection",
+        "org": "International Journal of Molecular Sciences (PubMed Central)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8910576/",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "alta",
     "xp": 20
   },
   {
@@ -59,22 +179,37 @@
       {
         "tipo": "concepto",
         "imagen": "veterinario",
-        "texto": "Llamá a tu veterinario o a una guardia de urgencias. No esperes a que aparezcan síntomas."
+        "texto": "Llamá enseguida a tu veterinario o a una guardia veterinaria de urgencias, aunque todavía lo veas bien. Con algunas plantas el daño aparece recién horas o días después."
       },
       {
         "tipo": "concepto",
         "imagen": "gato",
-        "texto": "Llevá una foto o una muestra de la planta. Saber cuál es ayuda muchísimo a quien atienda."
+        "texto": "Alejá la planta para que no siga comiendo. Fijate qué planta fue, cuánto comió más o menos y a qué hora: es lo primero que te van a preguntar."
       },
       {
         "tipo": "concepto",
         "imagen": "veterinario",
-        "texto": "No le provoques el vómito ni le des remedios caseros, salvo que un profesional te lo indique."
+        "texto": "Llevá la planta, una muestra o una foto, y la etiqueta si la tenés. Saber cuál es ayuda muchísimo a quien lo atienda."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "gato",
+        "texto": "No le provoques el vómito por tu cuenta: puede lastimarlo o hacer que el vómito se le vaya a los pulmones. En gatos no hay ninguna forma segura de hacerlo en casa."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "perro",
+        "texto": "No le des leche, sal, aceite ni remedios caseros si no te lo indicó un profesional. No neutralizan nada y pueden empeorar las cosas."
+      },
+      {
+        "tipo": "dato_ba",
+        "imagen": "veterinario",
+        "texto": "Los teléfonos de ayuda que aparecen en internet suelen ser de Estados Unidos y acá no sirven. Tené agendados a tu veterinario y a una guardia veterinaria de 24 horas cerca de tu casa."
       }
     ],
     "para_llevarte": [
-      "Llamá al veterinario o a una guardia.",
-      "Foto o muestra de la planta.",
+      "Llamá al veterinario o a una guardia, sin esperar síntomas.",
+      "Planta, muestra o foto, y a qué hora fue.",
       "No induzcas el vómito por tu cuenta."
     ],
     "quiz": [
@@ -82,58 +217,143 @@
         "tipo": "opcion_multiple",
         "pregunta": "¿Qué conviene llevar al veterinario?",
         "opciones": [
-          "Una foto o muestra de la planta",
-          "La maceta entera",
-          "Nada"
+          "La planta, una muestra o una foto",
+          "Un vaso de leche",
+          "Nada, alcanza con contarlo"
         ],
         "correcta": 0,
-        "explicacion": "Identificar la planta ayuda a decidir el tratamiento."
+        "explicacion": "Identificar la planta ayuda a decidir el tratamiento. Si tiene etiqueta, llevala también."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Lo primero es hacerlo vomitar en casa.",
         "correcta": false,
-        "explicacion": "Solo si un profesional lo indica. Puede empeorar las cosas."
+        "explicacion": "Solo si un profesional lo indica. Puede lastimarlo, y en gatos no hay forma segura de hacerlo en casa."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Si mordió una planta tóxica pero lo veo bien, puedo esperar a mañana para consultar.",
+        "correcta": false,
+        "explicacion": "Algunos daños tardan horas o días en notarse, y tratar temprano cambia mucho el resultado. Mejor llamar enseguida."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Tu gato mordió un espatifilo. ¿Es una planta segura?",
+        "imagen": "planta:espatifilo",
+        "opciones": [
+          "Segura",
+          "Tóxica"
+        ],
+        "correcta": 1,
+        "explicacion": "ASPCA lo lista como tóxico para gatos y perros: irrita la boca y causa babeo y vómitos. No es un lirio verdadero, así que no daña los riñones, pero igual consultá."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "Mientras esperás hablar con el veterinario, ¿qué le das?",
+        "opciones": [
+          "Leche para cortar el veneno",
+          "Agua con sal para que vomite",
+          "Nada que no me haya indicado un profesional"
+        ],
+        "correcta": 2,
+        "explicacion": "La leche no neutraliza nada y la sal es peligrosa. Lo mejor es seguir lo que te indique quien lo atienda."
       }
     ],
-    "fuentes": [],
-    "confianza": "baja",
-    "estado": "no_verificado",
+    "fuentes": [
+      {
+        "titulo": "True or False: If your pet ate something toxic, you should make them vomit",
+        "org": "VCA Animal Hospitals",
+        "url": "https://vcahospitals.com/resources/conditions-dog/emergency/true-or-false-if-your-pet-ate-something-toxic-you-should-make-them-vomit",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Five Pet Poisoning First Aid Misconceptions",
+        "org": "Pet Poison Helpline",
+        "url": "https://www.petpoisonhelpline.com/uncategorized/five-pet-poisoning-first-aid-misconceptions/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Lovely Lilies and Curious Cats: A Dangerous Combination",
+        "org": "FDA",
+        "url": "https://www.fda.gov/animal-veterinary/animal-health-literacy/lovely-lilies-and-curious-cats-dangerous-combination",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "General Treatment of Poisoning",
+        "org": "Merck Veterinary Manual",
+        "url": "https://www.merckvetmanual.com/special-pet-topics/poisoning/general-treatment-of-poisoning",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "First Aid: Poisonous Substances",
+        "org": "Cornell University College of Veterinary Medicine",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/first-aid-poisonous-substances",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Poisonous Plants",
+        "org": "International Cat Care",
+        "url": "https://icatcare.org/articles/poisonous-plants",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Peace Lily",
+        "org": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "alta",
     "xp": 20
   },
   {
     "id": "mascotas-3",
     "unidad": "mascotas",
     "titulo": "Organizar el espacio",
-    "gancho": "¿Cómo hago para que convivan?",
+    "gancho": "¿Cómo hago para que plantas y mascotas convivan tranquilas?",
     "tarjetas": [
       {
         "tipo": "concepto",
         "imagen": "altura",
-        "texto": "La altura ayuda: estantes altos, macetas colgantes o un cuarto que quede cerrado."
+        "texto": "Lo único que protege de verdad a tu mascota y a tus plantas es que no llegue a ellas. Sirven los estantes altos, las macetas colgantes o un cuarto con la puerta cerrada."
+      },
+      {
+        "tipo": "por_que",
+        "imagen": "gato",
+        "texto": "Ojo que los gatos trepan, y las flores sueltan hojas y polen que caen al piso. Por eso las plantas más peligrosas, como los lirios si tenés gato, conviene directamente no tenerlas."
       },
       {
         "tipo": "concepto",
         "imagen": "gato",
-        "texto": "Dale algo seguro para masticar, como pasto para gatos. Así tiene su propia planta."
+        "texto": "Ofrecele su propia planta para masticar: pasto para gatos, que es avena, trigo o cebada sembrados en una maceta. Ayuda, aunque algunos gatos igual siguen probando otras plantas."
       },
       {
         "tipo": "por_que",
         "imagen": "perro",
-        "texto": "Muchas veces muerden por aburrimiento. Más juego y distracción suele ayudar más que retarlos."
+        "texto": "Morder plantas suele ser curiosidad, juego o aburrimiento, no maldad. Más juego, paseos y juguetes para morder ayudan más que retarlo."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-feliz",
+        "texto": "Las plantas que supuestamente ahuyentan por el olor no son una solución comprobada. Además, la lavanda y los cítricos figuran como tóxicos para perros y gatos en la lista de ASPCA."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "casa",
+        "texto": "No uses aceites esenciales ni sprays caseros para ahuyentarlo. Los gatos procesan mal esos aceites, y unas pocas lamidas o un poco en la piel pueden hacerles daño."
       }
     ],
     "para_llevarte": [
-      "Lo riesgoso, fuera de su alcance.",
-      "Ofrecé una alternativa segura.",
-      "Juego y distracción, sin retos."
+      "Lo riesgoso, fuera de su alcance o fuera de casa.",
+      "Ofrecé una alternativa segura para masticar.",
+      "Juego y distracción, sin retos ni aceites."
     ],
     "quiz": [
       {
         "tipo": "verdadero_falso",
-        "pregunta": "Colgar las plantas o ponerlas en altura ayuda a protegerlas.",
+        "pregunta": "Colgar las plantas o ponerlas en altura ayuda a proteger a tu mascota.",
         "correcta": true,
-        "explicacion": "Si no llega, no la muerde. Ojo: los gatos trepan bastante."
+        "explicacion": "Si no llega, no la muerde. Ojo: los gatos trepan bastante, y las hojas y el polen que caen también cuentan."
       },
       {
         "tipo": "opcion_multiple",
@@ -141,15 +361,109 @@
         "opciones": [
           "La reto fuerte",
           "Le doy más juego y una alternativa segura",
-          "Saco todas las plantas"
+          "Rocío las hojas con aceite esencial"
         ],
         "correcta": 1,
-        "explicacion": "Distraer y ofrecer algo seguro funciona mejor que retar."
+        "explicacion": "Distraer y ofrecer algo seguro funciona mejor que retar. Los aceites esenciales pueden hacerle daño, sobre todo a los gatos."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Poner lavanda cerca de mis plantas es una forma segura y comprobada de alejar al gato.",
+        "correcta": false,
+        "explicacion": "No está comprobado que funcione, y ASPCA lista a la lavanda como tóxica para gatos y perros."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Palmera areca: ¿es segura para tu gato?",
+        "imagen": "planta:palmera-areca",
+        "opciones": [
+          "Segura",
+          "Tóxica"
+        ],
+        "correcta": 0,
+        "explicacion": "ASPCA la lista como no tóxica para gatos y perros. Igual, si come mucho de cualquier planta le puede caer mal."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Monstera: ¿es segura para tu gato?",
+        "imagen": "planta:monstera",
+        "opciones": [
+          "Segura",
+          "Tóxica"
+        ],
+        "correcta": 1,
+        "explicacion": "ASPCA la lista como tóxica para gatos y perros: irrita la boca y causa babeo y vómitos. Mejor ubicarla donde no llegue."
       }
     ],
-    "fuentes": [],
-    "confianza": "baja",
-    "estado": "no_verificado",
+    "fuentes": [
+      {
+        "titulo": "Feline Behavior Problems: Destructive Behavior",
+        "org": "Cornell Feline Health Center",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-behavior-problems-destructive-behavior",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Dogs and Destructive Chewing",
+        "org": "VCA Animal Hospitals",
+        "url": "https://vcahospitals.com/know-your-pet/dogs-and-destructive-chewing",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Essential Oil and Liquid Potpourri Poisoning in Cats",
+        "org": "VCA Animal Hospitals",
+        "url": "https://vcahospitals.com/know-your-pet/essential-oil-and-liquid-potpourri-poisoning-in-cats",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Which Lilies Are Toxic to Pets?",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/news/which-lilies-are-toxic-pets",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Poisonous Plants",
+        "org": "International Cat Care",
+        "url": "https://icatcare.org/articles/poisonous-plants",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Cat Grass: Safety and Information",
+        "org": "Hill's Pet Nutrition",
+        "url": "https://www.hillspet.com/cat-care/nutrition-feeding/cat-grass-safety-and-information",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Lavender",
+        "org": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lavender",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Lemon",
+        "org": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lemon",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Orange",
+        "org": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/orange",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Areca Palm",
+        "org": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/areca-palm",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Cutleaf Philodendron (Monstera deliciosa)",
+        "org": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "media",
     "xp": 20
   }
 ]

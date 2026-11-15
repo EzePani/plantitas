@@ -16,6 +16,9 @@ import { nivelPara, rachaVigente, type InsigniaId } from '../../lib/gamificacion
 import type { DatosPersistidos, UnidadId } from '../../lib/tipos'
 import { soloDatos, useStore } from '../../store/useStore'
 import { EditorMascotas } from '../pets/EditorMascotas'
+import { Panel } from '../../components/Panel'
+import { TC } from '../../data/textosCatalogo'
+import { Creditos, Fuentes } from './Fuentes'
 
 const P = T.perfil
 
@@ -45,6 +48,7 @@ export function Perfil() {
   const [aviso, setAviso] = useState<{ tipo: 'ok' | 'error'; texto: string } | null>(null)
   const [pendiente, setPendiente] = useState<DatosPersistidos | null>(null)
   const [reiniciar, setReiniciar] = useState(false)
+  const [panel, setPanel] = useState<'fuentes' | 'creditos' | null>(null)
   const archivo = useRef<HTMLInputElement>(null)
 
   const leccionesHechas = Object.keys(s.completadas).filter((id) => !id.startsWith('repaso-')).length
@@ -76,6 +80,7 @@ export function Perfil() {
   }
 
   return (
+    <div className="relative flex min-h-0 flex-1 flex-col">
     <div className="safe-top scroll-app min-h-0 flex-1">
       <header className="flex items-center gap-3 px-5 pt-4">
         <Brote className="h-24 w-22 shrink-0" />
@@ -173,8 +178,8 @@ export function Perfil() {
           <Fila icono={<PawPrint aria-hidden />} titulo={P.mascotas} detalle={`${P.mascotasResumen[s.mascotas.tipo]} · ${P.mascotasTexto}`} onClick={() => setEditarMascotas(true)} />
           <Fila icono={<Download aria-hidden />} titulo={P.exportar} onClick={exportar} />
           <Fila icono={<Upload aria-hidden />} titulo={P.importar} onClick={() => archivo.current?.click()} />
-          <Fila icono={<BookOpen aria-hidden />} titulo={P.fuentes} detalle={P.enPreparacion} deshabilitada />
-          <Fila icono={<Image aria-hidden />} titulo={P.creditos} detalle={P.enPreparacion} deshabilitada />
+          <Fila icono={<BookOpen aria-hidden />} titulo={P.fuentes} onClick={() => setPanel('fuentes')} />
+          <Fila icono={<Image aria-hidden />} titulo={P.creditos} onClick={() => setPanel('creditos')} />
           <Fila icono={<RotateCcw aria-hidden />} titulo={P.reiniciar} onClick={() => setReiniciar(true)} />
         </div>
         <input ref={archivo} type="file" accept="application/json,.json" className="hidden" onChange={(e) => void alElegirArchivo(e.target.files?.[0])} />
@@ -190,6 +195,14 @@ export function Perfil() {
         )}
         <p className="text-tinta-suave mt-4 mb-8 text-[13px] leading-snug font-bold">{P.disclaimer}</p>
       </section>
+    </div>
+
+      <Panel abierto={panel === 'fuentes'} titulo={TC.fuentes.titulo} onCerrar={() => setPanel(null)}>
+        <Fuentes />
+      </Panel>
+      <Panel abierto={panel === 'creditos'} titulo={TC.creditos.titulo} onCerrar={() => setPanel(null)}>
+        <Creditos />
+      </Panel>
 
       <HojaInferior abierta={editarMascotas} onCerrar={() => setEditarMascotas(false)}>
         <EditorMascotas

@@ -1,0 +1,270 @@
+{
+  "fuentes": [
+    {
+      "org": "Clemson Cooperative Extension (HGIC)",
+      "titulo": "Indoor Plants – Watering",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-watering/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Exceso de riego como causa principal de muerte en maceta; raíces sin oxígeno; marchitez también por raíces dañadas; test del dedo hasta la primera articulación; peso y color de la tierra; regar hasta que escurra y vaciar el plato; inmersión para rehidratar tierra muy seca; barro se seca más rápido; suculentas necesitan menos riego.",
+      "usado_en": ["riego-1", "riego-2", "riego-3"]
+    },
+    {
+      "org": "Utah State University Extension",
+      "titulo": "Care and Feeding of Indoor Plants",
+      "url": "https://extension.usu.edu/archive/care-and-feeding-of-indoor-plants",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Exceso de riego como probable primera causa de muerte; no hay calendario de riego universal; dedo unos centímetros adentro; regar hasta que drene y tirar el agua del plato (aprox. una hora después); cerca de salidas de calefacción se seca más rápido.",
+      "usado_en": ["riego-1", "riego-2", "riego-3"]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Houseplant Care",
+      "url": "https://hort.extension.wisc.edu/articles/houseplant-care/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Exceso de agua asfixia raíces, hojas amarillas y marchitez; dedo a 1 pulgada (2,5 cm); macetas chicas y de barro se secan antes; regar hasta que escurra y vaciar plato a los 10-20 min; riego desde el plato 20-30 min para plantas que no quieren hojas mojadas; menos agua en invierno; mezclas sin suelo; maceta demasiado grande favorece pudrición; señales de trasplante; un tamaño más; trasplantar en primavera.",
+      "usado_en": ["riego-1", "riego-2", "riego-3", "macetas-1", "macetas-2", "macetas-3"]
+    },
+    {
+      "org": "NC State Extension",
+      "titulo": "Extension Gardener Handbook, cap. 18: Plants Grown in Containers",
+      "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Síntomas de exceso y falta se superponen; raíces marrones y blandas con exceso; pudrición rara vez se recupera; menos riego en invierno; rociado de efecto breve; por qué no suelo de campo en maceta; función de perlita, corteza, turba, compost (15-40 %), arena; macetas porosas vs no porosas; piedras en el fondo no mejoran el drenaje; doble maceta; tamaños de trasplante.",
+      "usado_en": ["riego-1", "riego-3", "macetas-1", "macetas-2", "macetas-3"]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow houseplants",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Regar cuando la superficie está seca y no por rutina; maceta seca pesa menos; regar a fondo hasta que salga por el agujero; vaciar platos; la calefacción central seca las macetas más rápido; marchitez con sustrato mojado indica daño de raíces; maceta siempre con agujero; trasplante cada 2-3 años en primavera; maceta 5-10 cm más ancha.",
+      "usado_en": ["riego-1", "riego-2", "riego-3", "macetas-3"]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "Monthly gardening tips: December – greenhouse, conservatory and houseplants",
+      "url": "https://www.rhs.org.uk/advice/in-month/december/greenhouse,-conservatory-and-houseplants",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Reducir riego y fertilización de plantas de interior en invierno (diciembre del hemisferio norte, equivalente a junio en Buenos Aires).",
+      "usado_en": ["riego-3"]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow cacti and succulents",
+      "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Sustrato para cactus muy drenante con arena gruesa o gravilla mezclada (2:1, hasta 30 %); maceta demasiado grande queda húmeda y pudre; trasplante en primavera.",
+      "usado_en": ["macetas-1", "macetas-2"]
+    },
+    {
+      "org": "Penn State Extension",
+      "titulo": "Humidity and Houseplants",
+      "url": "https://extension.psu.edu/humidity-and-houseplants",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "La calefacción baja la humedad interior (menos de 30 %); rociar sube la humedad solo unos minutos; bandeja con piedras de efecto mínimo; agrupar y humidificador ayudan.",
+      "usado_en": ["riego-3"]
+    },
+    {
+      "org": "Iowa State University Extension and Outreach",
+      "titulo": "The air in our home is extremely dry in winter. Should I mist the houseplants?",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/air-our-home-extremely-dry-winter-should-i-mist-houseplants",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Rociar no es una forma eficaz de subir la humedad; alternativas: humidificador, agrupar plantas, bandeja con piedras.",
+      "usado_en": ["riego-3"]
+    },
+    {
+      "org": "University of Illinois Extension",
+      "titulo": "Container Drainage Options",
+      "url": "https://extension.illinois.edu/container-gardens/container-drainage-options",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Toda maceta necesita agujero (sale agua, entra aire); la capa de grava para drenar es un mito; doble maceta (funda) sin dejar agua estancada; vaciar platos; de la pudrición rara vez se recuperan.",
+      "usado_en": ["macetas-1", "riego-1"]
+    },
+    {
+      "org": "University of Illinois Extension",
+      "titulo": "Houseplants: Get Started",
+      "url": "https://extension.illinois.edu/houseplants/get-started",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "No sobredimensionar la maceta (la tierra queda mojada demasiado tiempo); 1-2 pulgadas más de diámetro; tierra de jardín sola no drena bien en maceta y puede traer plagas; mezclas sin suelo con turba, perlita y corteza.",
+      "usado_en": ["macetas-1", "macetas-2", "macetas-3"]
+    },
+    {
+      "org": "Penn State Extension",
+      "titulo": "Repotting Houseplants",
+      "url": "https://extension.psu.edu/repotting-houseplants",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Señales de trasplante; maceta apenas más grande; primavera; no usar tierra de jardín; agujero de drenaje necesario; cachepot (funda) vaciando el agua; barro poroso (ideal suculentas) vs plástico (plantas que quieren humedad); pasos del trasplante.",
+      "usado_en": ["macetas-1", "macetas-3"]
+    },
+    {
+      "org": "Clemson Cooperative Extension (HGIC)",
+      "titulo": "Indoor Plants – Transplanting & Repotting",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Señales (raíces en masa, saliendo por el agujero, se seca rápido); maceta 1-2 pulgadas más ancha; primavera y verano en crecimiento activo; no trasplantar plantas débiles, en reposo o empezando a florecer; frecuencia (anual las rápidas, 2-3 años las lentas); capa de piedras frena el paso del agua; pasos y riego final.",
+      "usado_en": ["macetas-1", "macetas-3"]
+    },
+    {
+      "org": "Clemson Cooperative Extension (HGIC)",
+      "titulo": "Indoor Plants – Soil Mixes",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-soil-mixes/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Tierra de jardín no recomendada en contenedores; requisitos de una buena mezcla (sostén, nutrientes, agua y aire, libre de plagas); fibra de coco como alternativa a la turba; recetas para plantas de follaje a base de turba con perlita, arena o corteza.",
+      "usado_en": ["macetas-2"]
+    },
+    {
+      "org": "Mississippi State University Extension",
+      "titulo": "Gardening Myth Busters",
+      "url": "https://extension.msstate.edu/blogs/extension-for-real-life/gardening-myth-busters",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "La grava en el fondo de la maceta es un mito; mejor agujeros y buen sustrato.",
+      "usado_en": ["macetas-1"]
+    },
+    {
+      "org": "INTA (argentina.gob.ar)",
+      "titulo": "Nota sobre sustratos del Instituto de Floricultura del INTA (título descriptivo: no registré el título exacto de la página)",
+      "url": "https://www.argentina.gob.ar/node/402876",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Definición de sustrato como material distinto del suelo; debe retener agua y nutrientes, airear y anclar; poros chicos retienen agua y grandes drenan y airean; componentes: turba, corteza compostada, compost, perlita, vermiculita, piedra pómez.",
+      "usado_en": ["macetas-2"]
+    },
+    {
+      "org": "Infocampo (prensa, no institucional)",
+      "titulo": "Nota sobre el sustrato comercial desarrollado con tecnología del INTA (2018)",
+      "url": "https://www.infocampo.com.ar/?p=394245",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Solo contexto: sustrato para macetas con turba, compost de corteza de pino y perlita. No se cita en las lecciones por ser prensa.",
+      "usado_en": []
+    },
+    {
+      "org": "PLOS ONE (Rowe, 2025)",
+      "titulo": "Effect of drainage layers on water retention of potting media in containers",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0318716",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Estudio que contradice en parte el 'mito de las piedras': en macetas CON agujero, las capas de drenaje redujeron (o no cambiaron) la retención de agua. No midió crecimiento de plantas; un solo autor, un solo tamaño de maceta. No se cita en la lección, se registra como discrepancia.",
+      "usado_en": []
+    }
+  ],
+  "revisar": [
+    {
+      "id": "macetas-1",
+      "dato": "mito de la capa de piedras en el fondo",
+      "motivo": "Fuentes en conflicto. Illinois, NC State, Clemson y Mississippi State dicen que la capa de piedras no mejora (o frena) el drenaje. Un estudio de 2025 en PLOS ONE (Rowe) midió que, en macetas con agujero, las capas de drenaje tendieron a reducir la retención de agua, sobre todo en mezclas sin suelo; no evaluó plantas. Criterio conservador aplicado: la lección solo afirma que las piedras NO REEMPLAZAN al agujero (cosa que ninguna fuente discute) y que varias universidades lo consideran un mito; no afirma que las piedras empeoren el drenaje. Por esto la lección quedó en confianza media.",
+      "fuentes": [
+        "https://extension.illinois.edu/container-gardens/container-drainage-options",
+        "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+        "https://extension.msstate.edu/blogs/extension-for-real-life/gardening-myth-busters",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0318716"
+      ]
+    },
+    {
+      "id": "riego-2",
+      "dato": "profundidad del test del dedo",
+      "motivo": "Las fuentes no coinciden en la profundidad: Clemson dice hasta la primera articulación; Wisconsin 1 pulgada (2,5 cm); RHS habla de superficie seca; Utah State 'unos centímetros/pulgadas'; NC State 2-3 pulgadas (5-7,5 cm, para contenedores en general, incluidos los de exterior). Se usó 'primer nudillo, 2 o 3 cm' por ser el criterio más repetido para interior. Para macetas grandes podría quedarse corto.",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/indoor-plants-watering/",
+        "https://hort.extension.wisc.edu/articles/houseplant-care/",
+        "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers"
+      ]
+    },
+    {
+      "id": "riego-3",
+      "dato": "rociar las hojas",
+      "motivo": "Penn State, Iowa State y NC State dicen que el efecto es mínimo o muy breve. La guía de RHS sí lo menciona como opción para tropicales, aunque aclara que solo ayuda si se hace con frecuencia. Wisconsin lo menciona solo contra arañuela. Se optó por no recomendarlo y sugerir agrupar o humidificador. La bandeja con piedras NO se recomendó: Iowa State y RHS la sugieren, Penn State dice que el efecto es mínimo.",
+      "fuentes": [
+        "https://extension.psu.edu/humidity-and-houseplants",
+        "https://yardandgarden.extension.iastate.edu/faq/air-our-home-extremely-dry-winter-should-i-mist-houseplants",
+        "https://www.rhs.org.uk/plants/types/houseplants/growing-guide"
+      ]
+    },
+    {
+      "id": "riego-3",
+      "dato": "invierno: menos riego vs calefacción que seca",
+      "motivo": "Matiz entre fuentes: Wisconsin, NC State y RHS (diciembre) dicen regar menos en invierno; la guía general de RHS advierte que con calefacción central las macetas pueden secarse más rápido. La lección dice las dos cosas y manda a tocar la tierra. Adaptación hemisferio sur: invierno del norte (dic-feb) convertido a junio-agosto; verano a diciembre-febrero.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+        "https://hort.extension.wisc.edu/articles/houseplant-care/"
+      ]
+    },
+    {
+      "id": "riego-3",
+      "dato": "tiempo para vaciar el plato",
+      "motivo": "Wisconsin dice 10 a 20 minutos; Utah State, alrededor de una hora. La tarjeta dice 'después de un rato' sin número.",
+      "fuentes": [
+        "https://hort.extension.wisc.edu/articles/houseplant-care/",
+        "https://extension.usu.edu/archive/care-and-feeding-of-indoor-plants"
+      ]
+    },
+    {
+      "id": "riego-3",
+      "dato": "riego por inmersión",
+      "motivo": "Respaldado solo para casos puntuales: Clemson lo indica para rehidratar tierra muy seca; Wisconsin describe riego desde el plato (20-30 min) para plantas que no toleran hojas mojadas; RHS para ciclamen. Ninguna fuente abierta lo recomienda como método de rutina, así que la tarjeta lo presenta solo como rescate de tierra reseca.",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/indoor-plants-watering/",
+        "https://hort.extension.wisc.edu/articles/houseplant-care/"
+      ]
+    },
+    {
+      "id": "riego-1",
+      "dato": "la sed se recupera más fácil que la pudrición",
+      "motivo": "Es una síntesis: Illinois y NC State dicen que de la pudrición de raíces rara vez se recuperan, y NC State indica empapar el pan de raíces de una planta con falta de agua. Pero Clemson y NC State advierten que dejar secar del todo también daña raíces. La tarjeta dice 'muchas veces se repone', no 'siempre'.",
+      "fuentes": [
+        "https://extension.illinois.edu/container-gardens/container-drainage-options",
+        "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers"
+      ]
+    },
+    {
+      "id": "macetas-3",
+      "dato": "cuánto más grande la maceta nueva",
+      "motivo": "Clemson, Illinois y NC State (macetas chicas): 1-2 pulgadas más de diámetro (2,5-5 cm). RHS: 5-10 cm más. Penn State y Wisconsin: 'apenas más grande' o 'un tamaño más'. Se usó el criterio conservador: 2 a 5 cm.",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+        "https://www.rhs.org.uk/plants/types/houseplants/growing-guide"
+      ]
+    },
+    {
+      "id": "macetas-3",
+      "dato": "época de trasplante (adaptación hemisferio sur)",
+      "motivo": "Penn State, Wisconsin, RHS y NC State dicen primavera; Clemson primavera y verano en crecimiento activo. Adaptado a Buenos Aires como septiembre a noviembre. No encontré fuente argentina que lo confirme directamente.",
+      "fuentes": [
+        "https://extension.psu.edu/repotting-houseplants",
+        "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/"
+      ]
+    },
+    {
+      "id": "macetas-3",
+      "dato": "no trasplantar plantas débiles, en reposo o por florecer",
+      "motivo": "Una sola fuente (Clemson). Confianza media para esa tarjeta.",
+      "fuentes": ["https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/"]
+    },
+    {
+      "id": "macetas-2",
+      "dato": "función del compost y de la fibra de coco",
+      "motivo": "El compost en mezclas para maceta lo detalla una sola fuente abierta (NC State: nutrientes, retención, 15-40 % de la mezcla; el porcentaje no se puso en la tarjeta). INTA lo lista como componente sin detallar función. La fibra de coco aparece en Clemson como alternativa a la turba (enjuagada por las sales) y en RHS como ingrediente de mezclas sin turba; que 'guarda agua' se infiere de que reemplaza a la turba.",
+      "fuentes": [
+        "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "https://hgic.clemson.edu/factsheet/indoor-plants-soil-mixes/"
+      ]
+    },
+    {
+      "id": "macetas-2",
+      "dato": "fuente argentina",
+      "motivo": "La página del INTA en argentina.gob.ar define sustrato y lista componentes, pero no dice explícitamente 'no usar tierra de jardín en maceta' ni habla de plantas de interior. El título de la fuente en el JSON es descriptivo (no registré el título literal): conviene abrir la URL y copiar el título exacto. No encontré material de FAUBA.",
+      "fuentes": ["https://www.argentina.gob.ar/node/402876"]
+    }
+  ],
+  "no_pude_abrir": [
+    "https://extension.umd.edu/resource/watering-indoor-plants (certificado rechazado)",
+    "https://extension.umd.edu/resource/overwatered-indoor-plants (certificado rechazado)",
+    "https://extension.umn.edu/planting-and-growing-guides/watering-houseplants (403)",
+    "https://www.rhs.org.uk/plants/types/houseplants/watering (404, URL adivinada)",
+    "https://extension.missouri.edu/publications/g6510 (403)",
+    "https://extension.oregonstate.edu/node/162136 (403)",
+    "https://puyallup.wsu.edu/wp-content/uploads/sites/403/2015/03/container-drainage.pdf (404; PDF de Chalker-Scott sobre el mito del drenaje)",
+    "https://gardenprofessors.com/container-planting-intuition-vs-reality/ (403)",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11856292/ (captcha; el mismo estudio se abrió en journals.plos.org)",
+    "https://yardandgarden.extension.iastate.edu/how-to/how-water-indoor-plants (404, URL adivinada)",
+    "https://plantsoilcenter.cahnr.uconn.edu/watering-houseplants (404 tras redirección)"
+  ]
+}

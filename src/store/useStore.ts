@@ -12,7 +12,7 @@ import {
   type InsigniaId,
 } from '../lib/gamificacion'
 import { asignarPerfil } from '../lib/perfil'
-import type { DatosMascotas, DatosPersistidos, Respuestas, UnidadId } from '../lib/tipos'
+import type { DatosMascotas, DatosPersistidos, Espacio, Respuestas, UnidadId } from '../lib/tipos'
 import { LECCIONES_POR_UNIDAD } from '../data/lessons'
 
 export const DATOS_INICIALES: DatosPersistidos = {
@@ -45,6 +45,8 @@ interface Acciones {
   completarNodo: (id: string, xpBase: number, aciertos: number, total: number) => Resumen
   abrirCofre: (u: UnidadId) => Resumen
   saltarUnidad: (u: UnidadId) => void
+  guardarEspacio: (e: Espacio) => void
+  borrarEspacio: (id: string) => void
   reemplazarDatos: (d: DatosPersistidos) => void
   reiniciar: () => void
 }
@@ -144,6 +146,9 @@ export const useStore = create<Estado>()(
         const s = get()
         if (!s.salteadas.includes(u)) set({ salteadas: [...s.salteadas, u] })
       },
+
+      guardarEspacio: (e) => set((s) => ({ espacios: [e, ...s.espacios.filter((x) => x.id !== e.id)].slice(0, 50) })),
+      borrarEspacio: (id) => set((s) => ({ espacios: s.espacios.filter((x) => x.id !== id) })),
 
       reemplazarDatos: (d) => set({ ...d }),
       reiniciar: () => set({ ...DATOS_INICIALES }),

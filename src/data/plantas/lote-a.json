@@ -1,0 +1,961 @@
+[
+  {
+    "id": "potus",
+    "nombre_comun": "Potus",
+    "otros_nombres": [
+      "Poto",
+      "Pothos"
+    ],
+    "nombre_cientifico": "Epipremnum aureum",
+    "familia": "Araceae",
+    "grupo": "follaje_tropical",
+    "luz": {
+      "necesidad": "media",
+      "tolera": [
+        "poca"
+      ],
+      "sol_directo": false,
+      "detalle": "Le gusta la luz brillante pero filtrada, sin sol directo. Aguanta lugares con poca luz, aunque ahí las hojas salen más chicas y las variedades manchadas pierden el dibujo.",
+      "confianza": "alta"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá a fondo cuando los primeros centímetros de tierra estén secos y dejá que se seque un poco entre riegos.",
+      "invierno": "Regá menos seguido: esperá a que la tierra se seque bien antes de volver a regar.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Prefiere aire húmedo, pero se adapta al de casa. Si el ambiente está muy seco, ayuda un humidificador o un plato con piedritas y agua debajo de la maceta.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato suelto y aireado, que drene bien, en maceta con agujeros.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 4,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "No aguanta el frío ni las heladas: puede salir al balcón en los meses cálidos, a la sombra, y volver adentro antes del invierno."
+    },
+    "tamano": "mediana",
+    "dificultad": "facil",
+    "tip": "Si las hojas se ponen negras en los bordes o la tierra está siempre mojada, tranqui: espaciá los riegos y se recupera.",
+    "imagen": null,
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Ardor e irritación fuerte en boca, lengua y labios, babeo, vómitos y dificultad para tragar. Rara vez, hinchazón de garganta.",
+      "partes": "Toda la planta (hojas y tallos incluidos).",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Colgalo alto o ponelo en un estante donde tu mascota no llegue a las guías que caen.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Golden Pothos (Epipremnum aureum)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
+          "fecha_consulta": "2026-11-14"
+        },
+        {
+          "titulo": "Epipremnum aureum (Pothos)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+          "fecha_consulta": "2026-11-14"
+        },
+        {
+          "titulo": "Is That Houseplant Safe for Your Pets? (2019)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/news/houseplant-safe-your-pets",
+          "fecha_consulta": "2026-11-14"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Epipremnum aureum (Pothos)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Pothos, Epipremnum aureum",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Exciting Houseplant Selections for Beginners",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/exciting-houseplant-selections-for-beginners/",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: la época de crecimiento (primavera-verano) va de septiembre a febrero y el invierno de junio a agosto.",
+      "Las fuentes la dan como rústica solo en zonas USDA 10-12; lo traduje a 'no dejarla afuera en el invierno porteño'."
+    ],
+    "discrepancias": [
+      "Gravedad: ASPCA describe el riesgo de las plantas con oxalatos como bajo y sin riesgo de vida; NC State la clasifica como severidad media (para personas). Se dejó 'moderada' por ser el criterio más conservador.",
+      "Humedad: Wisconsin dice que prefiere humedad alta; NC State solo sugiere humidificador o bandeja con piedras. Se dejó 'media'."
+    ]
+  },
+  {
+    "id": "monstera",
+    "nombre_comun": "Monstera",
+    "otros_nombres": [
+      "Costilla de Adán"
+    ],
+    "nombre_cientifico": "Monstera deliciosa",
+    "familia": "Araceae",
+    "grupo": "follaje_tropical",
+    "luz": {
+      "necesidad": "media",
+      "tolera": [],
+      "sol_directo": false,
+      "detalle": "Luz brillante indirecta, cerca de una ventana pero sin sol directo fuerte, que le quema las hojas. Con muy poca luz las hojas nuevas salen con menos agujeros.",
+      "confianza": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá a fondo y esperá a que se seque el cuarto o tercio superior de la tierra antes de volver a regar; no dejes agua en el plato.",
+      "invierno": "Regá un poco menos seguido, dejando secar más la tierra entre riegos.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Le gusta el aire húmedo. Con calefacción el aire se seca y los bordes de las hojas se pueden poner marrones: agrupá plantas, usá un plato con piedritas y agua o un humidificador.",
+      "confianza": "alta"
+    },
+    "sustrato": {
+      "tipo": "Sustrato suelto, rico en materia orgánica y con buen drenaje; un tutor de musgo le da de dónde agarrarse.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 3,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Por debajo de unos 10 °C deja de crecer y una helada la mata: solo balcón reparado y sin sol directo en los meses cálidos."
+    },
+    "tamano": "grande",
+    "dificultad": "facil",
+    "tip": "Pasale un paño húmedo a las hojas cada tanto: sin polvo aprovechan mejor la luz.",
+    "imagen": null,
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "leve",
+      "sintomas": "Irritación y ardor en boca, lengua y labios, babeo, vómitos y dificultad para tragar.",
+      "partes": "Toda la planta, salvo el fruto bien maduro.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Ubicala donde tu mascota no pueda mordisquear las hojas bajas; si es de masticar plantas, mejor en un ambiente al que no entre.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Cutleaf Philodendron (Monstera deliciosa)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron",
+          "fecha_consulta": "2026-11-14"
+        },
+        {
+          "titulo": "Monstera deliciosa",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/monstera-deliciosa/",
+          "fecha_consulta": "2026-11-14"
+        },
+        {
+          "titulo": "These Houseplants Can Cause Trouble for Your Pets",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/news/these-houseplants-can-cause-trouble-your-pets",
+          "fecha_consulta": "2026-11-14"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Monstera deliciosa",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/monstera-deliciosa/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "How to grow Swiss cheese plants",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Swiss-Cheese Plant, Monstera deliciosa",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/monstera-deliciosa/",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Temperaturas pasadas de °F a °C (redondeadas).",
+      "Estaciones convertidas: la época de crecimiento (primavera-verano) va de septiembre a febrero y el invierno de junio a agosto.",
+      "RHS recomienda ventana este u oeste (hemisferio norte); en Buenos Aires una ventana este, o norte con cortina que filtre el sol."
+    ],
+    "discrepancias": [
+      "Luz: Wisconsin Extension sugiere sol directo en invierno; RHS y NC State indican luz indirecta sin sol directo. Se eligió el criterio conservador (sin sol directo).",
+      "Riego: RHS dice dejar secar casi todo el sustrato; NC State, el cuarto o tercio superior. Se usó la regla de NC State.",
+      "Gravedad: NC State la clasifica como severidad baja y ASPCA describe este grupo de plantas como de gravedad baja, con hinchazón de garganta solo en casos raros."
+    ]
+  },
+  {
+    "id": "lengua-de-suegra",
+    "nombre_comun": "Lengua de suegra",
+    "otros_nombres": [
+      "Sansevieria",
+      "Espada de San Jorge"
+    ],
+    "nombre_cientifico": "Dracaena trifasciata (sin. Sansevieria trifasciata)",
+    "familia": "Asparagaceae",
+    "grupo": "suculenta_cactus",
+    "luz": {
+      "necesidad": "media",
+      "tolera": [
+        "poca"
+      ],
+      "sol_directo": false,
+      "detalle": "Crece mejor con luz brillante indirecta, pero aguanta muy poca luz (solo que crece más lento). Evitá el sol directo fuerte de la tarde, que puede quemar las hojas.",
+      "confianza": "alta"
+    },
+    "riego": {
+      "nivel": "bajo",
+      "verano": "Dejá que la tierra se seque por completo entre riegos; ante la duda, esperá unos días más.",
+      "invierno": "Regá muy de vez en cuando, cada uno o dos meses: el exceso de agua es su principal problema.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "baja",
+      "detalle": "No necesita humedad extra: el aire seco de casa no le molesta.",
+      "confianza": "alta"
+    },
+    "sustrato": {
+      "tipo": "Sustrato arenoso o suelto, con muy buen drenaje.",
+      "confianza": "media"
+    },
+    "tolerancia_descuido": 5,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Tolera fresco hasta unos 10 °C pero no heladas: en balcón solo en los meses cálidos y sin dejarla bajo la lluvia constante."
+    },
+    "tamano": "mediana",
+    "dificultad": "facil",
+    "tip": "Es de las que prefieren que te olvides de regarlas: si dudás, no riegues.",
+    "imagen": null,
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "leve",
+      "sintomas": "Náuseas, vómitos y diarrea; también puede haber babeo.",
+      "partes": "Toda la planta, incluida la savia.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Ponela sobre un mueble o en un rincón donde tu mascota no tenga las hojas a la altura de la boca.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Snake Plant (Sansevieria trifasciata)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/snake-plant",
+          "fecha_consulta": "2026-11-14"
+        },
+        {
+          "titulo": "Dracaena trifasciata (Snake Plant)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+          "fecha_consulta": "2026-11-14"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Dracaena trifasciata (Snake Plant)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Exciting Houseplant Selections for Beginners",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/exciting-houseplant-selections-for-beginners/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Dependable & Durable Houseplants",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/dependable-durable-houseplants/",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Temperaturas pasadas de °F a °C (redondeadas).",
+      "Estaciones convertidas: la época de crecimiento (primavera-verano) va de septiembre a febrero y el invierno de junio a agosto."
+    ],
+    "discrepancias": [
+      "Luz: NC State la lista para media sombra con 2 a 6 horas de sol directo; Clemson recomienda evitar el sol directo fuerte. Se dejó sol_directo en false por ser lo más conservador.",
+      "Frecuencia de riego invernal: NC State dice cada 1-2 meses; Clemson, cada 4-6 semanas.",
+      "ASPCA la ubica en la familia Agavaceae; NC State en Asparagaceae (clasificación actual)."
+    ]
+  },
+  {
+    "id": "zamioculca",
+    "nombre_comun": "Zamioculca",
+    "otros_nombres": [
+      "Planta ZZ",
+      "Zamioculcas"
+    ],
+    "nombre_cientifico": "Zamioculcas zamiifolia",
+    "familia": "Araceae",
+    "grupo": "suculenta_cactus",
+    "luz": {
+      "necesidad": "media",
+      "tolera": [
+        "poca"
+      ],
+      "sol_directo": false,
+      "detalle": "Lo ideal es luz brillante indirecta, pero tolera muy poca luz. El sol directo de la tarde le quema las hojas.",
+      "confianza": "alta"
+    },
+    "riego": {
+      "nivel": "bajo",
+      "verano": "Regá a fondo solo cuando la tierra se haya secado por completo y tirá el agua que quede en el plato.",
+      "invierno": "Regá todavía menos, más o menos una vez por mes, porque casi no crece.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "baja",
+      "detalle": "Las fuentes consultadas no indican necesidades especiales de humedad; la describen como una planta que aguanta el descuido y se cuida parecido a una suculenta.",
+      "confianza": "baja"
+    },
+    "sustrato": {
+      "tipo": "Sustrato suelto y bien drenado (orgánico o arenoso); no tolera el encharcamiento.",
+      "confianza": "media"
+    },
+    "tolerancia_descuido": 5,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Las fuentes aconsejan entrarla cuando baja de unos 15 °C, así que el balcón solo sirve en verano y a la sombra."
+    },
+    "tamano": "mediana",
+    "dificultad": "facil",
+    "tip": "Crece despacio y de a tirones: si pasa semanas sin sacar nada nuevo, no pasa nada.",
+    "imagen": null,
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Irritación y dolor en la boca, babeo, arcadas, vómitos y diarrea; puede sacudir la cabeza o tocarse la boca con la pata.",
+      "partes": "Hojas y tallos.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Dejala en un lugar alto o en un ambiente donde tu mascota no ande sola, y juntá las hojas que se caigan.",
+      "advertencia_grave": null,
+      "confianza": "media",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "These Houseplants Can Cause Trouble for Your Pets",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/news/these-houseplants-can-cause-trouble-your-pets",
+          "fecha_consulta": "2026-11-14"
+        },
+        {
+          "titulo": "Zamioculcas zamiifolia (ZZ Plant)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+          "fecha_consulta": "2026-11-14"
+        },
+        {
+          "titulo": "I recently purchased a ZZ plant. How do I care for it?",
+          "org": "Iowa State University Extension",
+          "url": "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it",
+          "fecha_consulta": "2026-11-14"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Zamioculcas zamiifolia (ZZ Plant)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "I recently purchased a ZZ plant. How do I care for it?",
+        "org": "Iowa State University Extension",
+        "url": "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "baja",
+    "adaptaciones": [
+      "Temperaturas pasadas de °F a °C (redondeadas).",
+      "Estaciones convertidas: la época de crecimiento (primavera-verano) va de septiembre a febrero y el invierno de junio a agosto."
+    ],
+    "discrepancias": [
+      "Toxicidad: no encontré ficha propia de la zamioculca en la lista de plantas de ASPCA (la URL /zz-plant no devolvió datos). ASPCA sí la nombra (Zamioculcas spp.) en un artículo sobre plantas con oxalatos de calcio insolubles, y NC State la marca con toxicidad media para gatos y perros. Por eso figura como tóxica pero con confianza media.",
+      "Gravedad: el artículo de ASPCA habla de gravedad baja para el grupo; NC State dice media. Se dejó 'moderada' (más conservador).",
+      "Frecuencia de riego: Iowa State habla de cada 7 a 14 días; NC State, hasta dos veces por mes en verano y una en invierno. Se usó la regla de dejar secar."
+    ]
+  },
+  {
+    "id": "cinta",
+    "nombre_comun": "Cinta",
+    "otros_nombres": [
+      "Lazo de amor",
+      "Malamadre"
+    ],
+    "nombre_cientifico": "Chlorophytum comosum",
+    "familia": "Asparagaceae",
+    "grupo": "follaje_tropical",
+    "luz": {
+      "necesidad": "media",
+      "tolera": [
+        "poca"
+      ],
+      "sol_directo": false,
+      "detalle": "Va bien con luz media a brillante, siempre indirecta: el sol directo le quema las hojas. Aguanta lugares más sombríos.",
+      "confianza": "alta"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá a fondo cuando los primeros 2 a 5 cm de tierra estén secos.",
+      "invierno": "Regá menos seguido, dejando secar un poco más la tierra.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Con la humedad normal de casa anda bien. Si el aire está muy seco pueden aparecer puntas marrones (también las causan el cloro y el flúor del agua de la canilla).",
+      "confianza": "alta"
+    },
+    "sustrato": {
+      "tipo": "Sustrato común para plantas de interior que drene bien; se le puede sumar perlita.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 4,
+    "apta": {
+      "interior": true,
+      "balcon": true,
+      "nota_balcon": "Puede vivir en un balcón reparado y sin sol directo, pero no tolera heladas: las fuentes piden más de 7 °C, así que entrala en las noches más frías."
+    },
+    "tamano": "mediana",
+    "dificultad": "facil",
+    "tip": "Las puntas marrones son muy comunes y no son grave: probá regar con agua de lluvia o filtrada.",
+    "imagen": null,
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "medio",
+      "atractivo_motivo": "Clemson Extension señala que algunos gatos reaccionan a esta planta de forma leve, parecido a la hierba gatera, y sugiere colgarla para que no la mastiquen.",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Es segura, pero si tu gato o perro come muchas hojas puede tener algún vómito o diarrea leve: colgarla alto evita el mordisqueo.",
+      "advertencia_grave": null,
+      "confianza": "media",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Spider Plant (Chlorophytum comosum)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
+          "fecha_consulta": "2026-11-14"
+        },
+        {
+          "titulo": "Chlorophytum comosum (Spider Plant)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+          "fecha_consulta": "2026-11-14"
+        },
+        {
+          "titulo": "Exciting Houseplant Selections for Beginners",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/exciting-houseplant-selections-for-beginners/",
+          "fecha_consulta": "2026-11-14"
+        },
+        {
+          "titulo": "Is That Houseplant Safe for Your Pets? (2019)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/news/houseplant-safe-your-pets",
+          "fecha_consulta": "2026-11-14"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Chlorophytum comosum (Spider Plant)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Spider Plant, Chlorophytum comosum",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Exciting Houseplant Selections for Beginners",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/exciting-houseplant-selections-for-beginners/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Dependable & Durable Houseplants",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/dependable-durable-houseplants/",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Temperaturas pasadas de °F a °C (redondeadas).",
+      "Estaciones convertidas: la época de crecimiento (primavera-verano) va de septiembre a febrero y el invierno de junio a agosto."
+    ],
+    "discrepancias": [
+      "Toxicidad: la ficha de ASPCA y NC State la dan como no tóxica para gatos y perros, pero un artículo de ASPCA de 2019 la menciona como 'levemente tóxica' (vómitos y diarrea leves tras ingerirla) y Clemson aclara que comer mucha puede causar vómitos o diarrea. Se mantuvo 'segura' por la ficha oficial, con confianza media y aviso en la nota.",
+      "Riego: NC State dice que crece mejor con tierra húmeda; Wisconsin y Clemson recomiendan dejar secar un poco entre riegos. Se usó esta última regla, más segura contra la pudrición."
+    ]
+  },
+  {
+    "id": "helecho-serrucho",
+    "nombre_comun": "Helecho serrucho",
+    "otros_nombres": [
+      "Helecho de Boston",
+      "Helecho espada"
+    ],
+    "nombre_cientifico": "Nephrolepis exaltata",
+    "familia": "Polypodiaceae",
+    "grupo": "amiga_humedad",
+    "luz": {
+      "necesidad": "media",
+      "tolera": [],
+      "sol_directo": false,
+      "detalle": "Luz brillante indirecta o filtrada. El sol directo le daña las frondas, así que no lo pongas pegado a una ventana muy soleada.",
+      "confianza": "alta"
+    },
+    "riego": {
+      "nivel": "alto",
+      "verano": "Mantené la tierra siempre apenas húmeda, sin dejar que se seque del todo ni que quede agua estancada.",
+      "invierno": "Regá un poco menos, pero sin dejarlo secar por completo; con calefacción prestale más atención porque el aire se seca.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Necesita mucha humedad en el aire. Le vienen bien el baño o la cocina, un plato con piedritas y agua, o un humidificador; con aire seco se le secan los bordes.",
+      "confianza": "alta"
+    },
+    "sustrato": {
+      "tipo": "Sustrato poroso y rico en materia orgánica, que retenga algo de humedad pero drene rápido.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 1,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "No tolera heladas: puede pasar los meses cálidos en un balcón sombreado y húmedo, pero en invierno va adentro."
+    },
+    "tamano": "mediana",
+    "dificultad": "dificil",
+    "tip": "Si se le secan algunas frondas, no es culpa tuya: el aire seco de casa le cuesta; cortalas y sumale humedad.",
+    "imagen": null,
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Es segura para gatos y perros; igual conviene colgarlo para que no lo usen de juguete y lo despeinen.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Boston Fern",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/boston-fern",
+          "fecha_consulta": "2026-11-14"
+        },
+        {
+          "titulo": "Nephrolepis exaltata (Boston Fern)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/",
+          "fecha_consulta": "2026-11-14"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Nephrolepis exaltata (Boston Fern)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Indoor Ferns (HGIC 1505)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Temperaturas pasadas de °F a °C (redondeadas).",
+      "Estaciones convertidas: la época de crecimiento (primavera-verano) va de septiembre a febrero y el invierno de junio a agosto.",
+      "Clemson desaconseja ventanas sur u oeste (las más soleadas en el hemisferio norte); en Buenos Aires equivale a evitar ventanas norte u oeste con sol directo."
+    ],
+    "discrepancias": [
+      "Familia: NC State lo ubica en Polypodiaceae y ASPCA en Dryopteridaceae; no pude abrir Kew POWO para confirmar la clasificación actual.",
+      "La ficha de ASPCA nombra la planta como 'Nephrolepis exalta bostoniensis' (la variedad Boston de esta especie).",
+      "Mantenimiento: NC State lo califica de bajo mantenimiento, pero ambas fuentes exigen humedad alta y tierra siempre húmeda, por eso se lo marcó como difícil en interior con calefacción (juicio propio)."
+    ]
+  },
+  {
+    "id": "ficus-lyrata",
+    "nombre_comun": "Ficus lyrata",
+    "otros_nombres": [
+      "Ficus pandurata",
+      "Higuera hoja de violín"
+    ],
+    "nombre_cientifico": "Ficus lyrata",
+    "familia": "Moraceae",
+    "grupo": "follaje_tropical",
+    "luz": {
+      "necesidad": "media",
+      "tolera": [
+        "mucha"
+      ],
+      "sol_directo": false,
+      "detalle": "Necesita mucha claridad: luz brillante indirecta o filtrada, lo más cerca posible de una ventana. Protegelo del sol directo de la tarde, que le quema las hojas.",
+      "confianza": "alta"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá a fondo cuando los primeros centímetros de tierra estén secos, sin dejarlo encharcado ni que se seque del todo.",
+      "invierno": "Regá con la misma regla; la tierra va a tardar más en secarse, así que controlala con el dedo antes de regar.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Prefiere humedad media. Lejos de estufas y salidas de aire: los cambios bruscos de temperatura le manchan las hojas.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato de buena calidad y drenaje rápido, en maceta con varios agujeros.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 2,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Prefiere más de 13 °C y no tolera heladas ni corrientes de aire: en Buenos Aires es planta de interior."
+    },
+    "tamano": "grande",
+    "dificultad": "media",
+    "tip": "Elegile un lugar luminoso y dejalo ahí: si pierde alguna hoja al mudarlo, es normal y se recupera.",
+    "imagen": null,
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "leve",
+      "sintomas": "Irritación en la boca, babeo, vómitos y diarrea; la savia también puede irritar la piel.",
+      "partes": "Hojas, tallos y savia.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Juntá las hojas que caigan y limpiá la savia si lo podás, así tu mascota no la lame.",
+      "advertencia_grave": null,
+      "confianza": "media",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Is That Houseplant Safe for Your Pets? (2019)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/news/houseplant-safe-your-pets",
+          "fecha_consulta": "2026-11-14"
+        },
+        {
+          "titulo": "Ficus lyrata (Fiddle-leaf Fig)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/ficus-lyrata/",
+          "fecha_consulta": "2026-11-14"
+        },
+        {
+          "titulo": "Ficus",
+          "org": "Pet Poison Helpline",
+          "url": "https://www.petpoisonhelpline.com/poison/ficus/",
+          "fecha_consulta": "2026-11-14"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Ficus lyrata (Fiddle-leaf Fig)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/ficus-lyrata/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Fiddle Leaf Fig (Ficus lyrata)",
+        "org": "Penn State Extension (Master Gardeners)",
+        "url": "https://extension.psu.edu/programs/master-gardener/counties/adams/news/fiddle-leaf-fig-ficus-lyrata",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Ornamental figs (Ficus) - Plant Guide",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/ornamental-figs",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Temperaturas pasadas de °F a °C (redondeadas).",
+      "Estaciones convertidas: la época de crecimiento (primavera-verano) va de septiembre a febrero y el invierno de junio a agosto.",
+      "El 'sol de la tarde' del que hay que protegerlo llega en Buenos Aires por ventanas oeste y norte."
+    ],
+    "discrepancias": [
+      "Toxicidad: ASPCA no tiene ficha propia de Ficus lyrata en su lista (la ficha 'Fiddle-Leaf' es un filodendro, Philodendron bipennifolium). La cubren un artículo de ASPCA de 2019 (levemente tóxica para perros y gatos), NC State y la ficha del género Ficus de Pet Poison Helpline. Confianza media.",
+      "Principio tóxico: NC State lo atribuye a oxalatos de calcio insolubles; Pet Poison Helpline y ASPCA hablan de savia irritante.",
+      "Riego: NC State pide tierra húmeda sin encharcar; Penn State y RHS, regar cuando se secan los primeros centímetros. Las fuentes no dan una pauta estacional clara (Penn State dice que no entra en reposo en invierno)."
+    ]
+  },
+  {
+    "id": "gomero",
+    "nombre_comun": "Gomero",
+    "otros_nombres": [
+      "Ficus elastica",
+      "Árbol del caucho"
+    ],
+    "nombre_cientifico": "Ficus elastica",
+    "familia": "Moraceae",
+    "grupo": "follaje_tropical",
+    "luz": {
+      "necesidad": "media",
+      "tolera": [
+        "poca"
+      ],
+      "sol_directo": false,
+      "detalle": "Prefiere luz brillante indirecta, idealmente con algo de sol suave de la mañana, y protegido del sol de la tarde. Se adapta a menos luz, pero con muy poca puede perder hojas.",
+      "confianza": "alta"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá a fondo y dejá que la tierra se seque un poco entre riegos; vaciá el plato.",
+      "invierno": "Reducí bastante el riego desde el otoño hasta fines del invierno.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Le gusta la humedad media a alta, pero tolera el aire seco de las casas.",
+      "confianza": "alta"
+    },
+    "sustrato": {
+      "tipo": "Sustrato para plantas de interior con buen drenaje.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 3,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Sufre con menos de 13 °C y con las corrientes frías (pierde hojas): puede salir en verano a un balcón con luz filtrada y volver adentro en otoño."
+    },
+    "tamano": "grande",
+    "dificultad": "facil",
+    "tip": "Limpiale las hojas con un paño húmedo y evitá cambiarlo de lugar seguido: le gusta quedarse quieto.",
+    "imagen": null,
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "leve",
+      "sintomas": "Babeo, arcadas, vómitos e irritación en la boca; la savia puede irritar la piel.",
+      "partes": "Hojas y tallos (la savia blanca).",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Si lo podás o se rompe una hoja, limpiá la savia blanca para que tu mascota no la lama.",
+      "advertencia_grave": null,
+      "confianza": "media",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Rubber Tree Plant (Ficus elastica)",
+          "org": "Pet Poison Helpline",
+          "url": "https://www.petpoisonhelpline.com/poison/rubber-tree-plant/",
+          "fecha_consulta": "2026-11-14"
+        },
+        {
+          "titulo": "Ficus elastica (Indian Rubber Plant)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/ficus-elastica/",
+          "fecha_consulta": "2026-11-14"
+        },
+        {
+          "titulo": "Ficus",
+          "org": "Pet Poison Helpline",
+          "url": "https://www.petpoisonhelpline.com/poison/ficus/",
+          "fecha_consulta": "2026-11-14"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Ficus elastica (Indian Rubber Plant)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/ficus-elastica/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Rubber Plant (HGIC 1510)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/rubber-plant/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Ornamental figs (Ficus) - Plant Guide",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/ornamental-figs",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Temperaturas pasadas de °F a °C (redondeadas).",
+      "El reposo 'de otoño a fines del invierno' corresponde en Buenos Aires a marzo-agosto aproximadamente.",
+      "Clemson recomienda ventana este (sol de la mañana); vale igual en Buenos Aires porque el este no cambia de hemisferio."
+    ],
+    "discrepancias": [
+      "Toxicidad: no encontré ficha de Ficus elastica en ASPCA (la ficha 'Indian Rubber Plant' corresponde a Ficus benjamina). Pet Poison Helpline tiene ficha de la especie pero habla de 'animales' sin separar gato y perro; NC State la marca como problema para gatos y perros. Confianza media.",
+      "Balcón: NC State la da como rústica desde zona USDA 9a, pero la misma ficha y Clemson dicen que sufre por debajo de 13 °C. Se eligió el criterio conservador (no apta todo el año)."
+    ]
+  },
+  {
+    "id": "palo-de-agua",
+    "nombre_comun": "Palo de agua",
+    "otros_nombres": [
+      "Tronco de Brasil",
+      "Palo de Brasil",
+      "Dracena"
+    ],
+    "nombre_cientifico": "Dracaena fragrans",
+    "familia": "Asparagaceae",
+    "grupo": "follaje_tropical",
+    "luz": {
+      "necesidad": "media",
+      "tolera": [
+        "poca"
+      ],
+      "sol_directo": false,
+      "detalle": "Luz brillante a media, filtrada. El sol directo le quema las hojas; con muy poca luz las hojas nuevas salen más angostas.",
+      "confianza": "alta"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá a fondo cuando la superficie de la tierra esté seca, con agua que no esté fría.",
+      "invierno": "Regá menos seguido, dejando secar más la tierra entre riegos.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Con aire muy seco (calefacción en invierno) se le secan las puntas: un humidificador ayuda. Las puntas marrones también pueden venir del flúor o las sales del agua.",
+      "confianza": "alta"
+    },
+    "sustrato": {
+      "tipo": "Sustrato comercial para plantas de interior que drene rápido, en maceta con agujeros.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 4,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Necesita más de 10 °C y no tolera heladas: es planta de interior, con salidas al balcón a la sombra solo en verano."
+    },
+    "tamano": "grande",
+    "dificultad": "facil",
+    "tip": "Si las puntas se ponen marrones, probá con agua de lluvia o filtrada y regá a fondo de vez en cuando para lavar las sales.",
+    "imagen": null,
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Vómitos (a veces con sangre), decaimiento, falta de apetito y babeo; en gatos, pupilas dilatadas.",
+      "partes": "Toda la planta, incluida la savia.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Dejalo en un ambiente donde tu mascota no esté sola con la planta, sobre todo si es un gato al que le gusta morder hojas largas.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Corn Plant (Dracaena fragrans)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/corn-plant",
+          "fecha_consulta": "2026-11-14"
+        },
+        {
+          "titulo": "Dracaena fragrans (Corn Plant)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/dracaena-fragrans/",
+          "fecha_consulta": "2026-11-14"
+        },
+        {
+          "titulo": "Is That Houseplant Safe for Your Pets? (2019)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/news/houseplant-safe-your-pets",
+          "fecha_consulta": "2026-11-14"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Dracaena fragrans (Corn Plant)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dracaena-fragrans/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Dracaena (HGIC 1504)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Temperaturas pasadas de °F a °C (redondeadas).",
+      "Estaciones convertidas: la época de crecimiento (primavera-verano) va de septiembre a febrero y el invierno de junio a agosto."
+    ],
+    "discrepancias": [
+      "Gravedad: NC State la clasifica como severidad baja; un artículo de ASPCA (2019) describe a las Dracaena como moderadamente tóxicas, con cuadros más serios en ingestas grandes. Se dejó 'moderada'.",
+      "Riego: NC State dice mantener la tierra húmeda en época de crecimiento; Clemson, dejar secar la superficie entre riegos. Se usó la regla de Clemson, más segura contra la pudrición."
+    ]
+  }
+]

@@ -1,0 +1,508 @@
+{
+  "fuentes": [
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Epipremnum aureum (Pothos)",
+      "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz, riego, drenaje, humedad y toxicidad (oxalatos; problema para gatos y perros)",
+      "usado_en": [
+        "potus"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Pothos, Epipremnum aureum",
+      "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz filtrada, riego al secarse la superficie, humedad alta, sustrato aireado, zonas 10-12",
+      "usado_en": [
+        "potus"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Exciting Houseplant Selections for Beginners",
+      "url": "https://hgic.clemson.edu/exciting-houseplant-selections-for-beginners/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz y riego de potus, lengua de suegra y cinta; nota sobre gatos y cinta",
+      "usado_en": [
+        "potus",
+        "lengua-de-suegra",
+        "cinta"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Dependable & Durable Houseplants",
+      "url": "https://hort.extension.wisc.edu/dependable-durable-houseplants/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Lengua de suegra: poca luz y riego espaciado; potus y cinta: luz media",
+      "usado_en": [
+        "lengua-de-suegra",
+        "cinta"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Golden Pothos (Epipremnum aureum)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Tóxica para perros y gatos; oxalatos de calcio insolubles; signos",
+      "usado_en": [
+        "potus"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "These Houseplants Can Cause Trouble for Your Pets",
+      "url": "https://www.aspca.org/news/these-houseplants-can-cause-trouble-your-pets",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Grupo de plantas con oxalatos insolubles (incluye Zamioculcas spp., Epipremnum spp., Monstera spp.): mecanismo, signos, gravedad baja",
+      "usado_en": [
+        "monstera",
+        "zamioculca"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Is That Houseplant Safe for Your Pets? (2019)",
+      "url": "https://www.aspca.org/news/houseplant-safe-your-pets",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Ficus lyrata y cinta: levemente tóxicas; Dracaena spp.: moderadamente tóxica; potus: no pone en riesgo la vida",
+      "usado_en": [
+        "potus",
+        "cinta",
+        "ficus-lyrata",
+        "palo-de-agua"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Monstera deliciosa",
+      "url": "https://plants.ces.ncsu.edu/plants/monstera-deliciosa/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz, riego, humedad, temperatura, tamaño interior y toxicidad",
+      "usado_en": [
+        "monstera"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow Swiss cheese plants",
+      "url": "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz indirecta, riego, humedad, sustrato abierto, 18-25 °C",
+      "usado_en": [
+        "monstera"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Swiss-Cheese Plant, Monstera deliciosa",
+      "url": "https://hort.extension.wisc.edu/articles/monstera-deliciosa/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Riego, humedad, no crece bajo 10 °C, la helada la mata; sol directo en invierno",
+      "usado_en": [
+        "monstera"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Cutleaf Philodendron (Monstera deliciosa)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Tóxica para perros y gatos; oxalatos insolubles; signos",
+      "usado_en": [
+        "monstera"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Dracaena trifasciata (Snake Plant)",
+      "url": "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz, riego, humedad, temperatura y toxicidad (saponinas)",
+      "usado_en": [
+        "lengua-de-suegra"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Snake Plant (Sansevieria trifasciata)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/snake-plant",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Tóxica para perros y gatos; saponinas; náuseas, vómitos, diarrea",
+      "usado_en": [
+        "lengua-de-suegra"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Zamioculcas zamiifolia (ZZ Plant)",
+      "url": "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz, riego, sustrato, temperatura, tamaño y toxicidad media para gatos y perros",
+      "usado_en": [
+        "zamioculca"
+      ]
+    },
+    {
+      "org": "Iowa State University Extension",
+      "titulo": "I recently purchased a ZZ plant. How do I care for it?",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz, riego dejando secar; venenosa para personas y mascotas",
+      "usado_en": [
+        "zamioculca"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Chlorophytum comosum (Spider Plant)",
+      "url": "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz, riego, humedad, temperatura mínima, zonas; etiquetas no tóxica para gatos y perros",
+      "usado_en": [
+        "cinta"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Spider Plant, Chlorophytum comosum",
+      "url": "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz, riego, humedad, sustrato, flúor/cloro y puntas marrones, tamaño",
+      "usado_en": [
+        "cinta"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Spider Plant (Chlorophytum comosum)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "No tóxica para perros ni gatos",
+      "usado_en": [
+        "cinta"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Nephrolepis exaltata (Boston Fern)",
+      "url": "https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz, riego, humedad, temperatura, tamaño; etiquetas no tóxica",
+      "usado_en": [
+        "helecho-serrucho"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Indoor Ferns (HGIC 1505)",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Helecho de Boston: luz, riego, humedad, sustrato, temperaturas",
+      "usado_en": [
+        "helecho-serrucho"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Boston Fern",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/boston-fern",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "No tóxico para perros ni gatos",
+      "usado_en": [
+        "helecho-serrucho"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Ficus lyrata (Fiddle-leaf Fig)",
+      "url": "https://plants.ces.ncsu.edu/plants/ficus-lyrata/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz, riego, humedad, temperatura, tamaño y toxicidad para gatos y perros",
+      "usado_en": [
+        "ficus-lyrata"
+      ]
+    },
+    {
+      "org": "Penn State Extension (Master Gardeners)",
+      "titulo": "Fiddle Leaf Fig (Ficus lyrata)",
+      "url": "https://extension.psu.edu/programs/master-gardener/counties/adams/news/fiddle-leaf-fig-ficus-lyrata",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Mucha luz filtrada, riego al secarse la tierra, sustrato de drenaje rápido",
+      "usado_en": [
+        "ficus-lyrata"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Ornamental figs (Ficus) - Plant Guide",
+      "url": "https://www.rhs.org.uk/plants/ornamental-figs",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Ficus de interior: luz sin sol directo, riego, humedad, sustrato, mínimo 10 °C",
+      "usado_en": [
+        "ficus-lyrata",
+        "gomero"
+      ]
+    },
+    {
+      "org": "Pet Poison Helpline",
+      "titulo": "Ficus",
+      "url": "https://www.petpoisonhelpline.com/poison/ficus/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Género Ficus (incluye fiddle-leaf fig y rubber tree): savia irritante; signos",
+      "usado_en": [
+        "ficus-lyrata",
+        "gomero"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Ficus elastica (Indian Rubber Plant)",
+      "url": "https://plants.ces.ncsu.edu/plants/ficus-elastica/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz, riego, humedad, temperatura, tamaño; marcada como problema para gatos y perros",
+      "usado_en": [
+        "gomero"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Rubber Plant (HGIC 1510)",
+      "url": "https://hgic.clemson.edu/factsheet/rubber-plant/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz, riego, humedad, sustrato, temperaturas, tamaño; la savia irrita",
+      "usado_en": [
+        "gomero"
+      ]
+    },
+    {
+      "org": "Pet Poison Helpline",
+      "titulo": "Rubber Tree Plant (Ficus elastica)",
+      "url": "https://www.petpoisonhelpline.com/poison/rubber-tree-plant/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Savia irritante; malestar gastrointestinal menor; signos",
+      "usado_en": [
+        "gomero"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Dracaena fragrans (Corn Plant)",
+      "url": "https://plants.ces.ncsu.edu/plants/dracaena-fragrans/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz, riego, flúor, humedad, temperatura, tamaño y toxicidad (saponinas)",
+      "usado_en": [
+        "palo-de-agua"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Dracaena (HGIC 1504)",
+      "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz, riego, flúor, humedad, sustrato, tamaño de 'Massangeana'",
+      "usado_en": [
+        "palo-de-agua"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Corn Plant (Dracaena fragrans)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/corn-plant",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Tóxica para perros y gatos; saponinas; signos",
+      "usado_en": [
+        "palo-de-agua"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Fiddle-Leaf (Philodendron bipennifolium)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/fiddle-leaf",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Verificado que esta ficha NO es Ficus lyrata sino un filodendro",
+      "usado_en": [
+        "contexto"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Indian Rubber Plant (Ficus benjamina)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/indian-rubber-plant",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Verificado que esta ficha es Ficus benjamina, no Ficus elastica",
+      "usado_en": [
+        "contexto"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Weeping Ficus",
+      "url": "https://hgic.clemson.edu/factsheet/weeping-ficus/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Leída como contexto de cuidados de ficus (es de F. benjamina); no usada como fuente de datos",
+      "usado_en": [
+        "contexto"
+      ]
+    }
+  ],
+  "revisar": [
+    {
+      "id": "zamioculca",
+      "dato": "toxicidad_gato / toxicidad_perro",
+      "motivo": "ASPCA no tiene ficha propia en su lista (la URL /zz-plant no devolvió datos); se apoya en un artículo de ASPCA que nombra Zamioculcas spp. entre las plantas con oxalatos insolubles + NC State (toxicidad media para gatos y perros) + Iowa State. Confianza media.",
+      "fuentes": [
+        "https://www.aspca.org/news/these-houseplants-can-cause-trouble-your-pets",
+        "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+        "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it"
+      ]
+    },
+    {
+      "id": "zamioculca",
+      "dato": "humedad",
+      "motivo": "Ninguna fuente abierta da requisitos de humedad; nivel 'baja' es inferencia a partir de su tolerancia al descuido. Confianza baja (arrastra la confianza general de la planta a 'baja').",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+        "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it"
+      ]
+    },
+    {
+      "id": "zamioculca",
+      "dato": "sustrato",
+      "motivo": "Solo NC State describe el sustrato; no pude abrir la ficha de UF/IFAS (EP480).",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/"
+      ]
+    },
+    {
+      "id": "ficus-lyrata",
+      "dato": "toxicidad",
+      "motivo": "Sin ficha de especie en la lista de ASPCA (la ficha 'Fiddle-Leaf' es Philodendron bipennifolium). Respaldo: artículo ASPCA 2019 (levemente tóxica), NC State, Pet Poison Helpline (género). Las fuentes difieren en el principio tóxico.",
+      "fuentes": [
+        "https://www.aspca.org/news/houseplant-safe-your-pets",
+        "https://plants.ces.ncsu.edu/plants/ficus-lyrata/",
+        "https://www.petpoisonhelpline.com/poison/ficus/",
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/fiddle-leaf"
+      ]
+    },
+    {
+      "id": "ficus-lyrata",
+      "dato": "riego / humedad",
+      "motivo": "Fuentes institucionales con matices (tierra húmeda vs dejar secar arriba); sin pauta estacional clara. La segunda fuente (Penn State) es un artículo de Master Gardeners, no una ficha técnica.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/ficus-lyrata/",
+        "https://extension.psu.edu/programs/master-gardener/counties/adams/news/fiddle-leaf-fig-ficus-lyrata",
+        "https://www.rhs.org.uk/plants/ornamental-figs"
+      ]
+    },
+    {
+      "id": "gomero",
+      "dato": "toxicidad",
+      "motivo": "No encontré ficha de Ficus elastica en ASPCA (la 'Indian Rubber Plant' es F. benjamina). Pet Poison Helpline cubre la especie sin separar gato/perro; NC State la marca para ambos sin detallar síntomas.",
+      "fuentes": [
+        "https://www.petpoisonhelpline.com/poison/rubber-tree-plant/",
+        "https://plants.ces.ncsu.edu/plants/ficus-elastica/",
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/indian-rubber-plant"
+      ]
+    },
+    {
+      "id": "gomero",
+      "dato": "apta.balcon",
+      "motivo": "NC State da zona USDA 9a (sugiere algo de tolerancia al frío) pero también dice que sufre bajo 13 °C. Se puso false por criterio conservador; no verifiqué con fuente argentina cómo se comporta al aire libre en Buenos Aires.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/ficus-elastica/",
+        "https://hgic.clemson.edu/factsheet/rubber-plant/"
+      ]
+    },
+    {
+      "id": "cinta",
+      "dato": "toxicidad",
+      "motivo": "Ficha ASPCA y NC State: no tóxica. Artículo ASPCA 2019: 'levemente tóxica' (malestar digestivo leve). Se dejó 'segura' con confianza media; decidir si se prefiere marcarla distinto.",
+      "fuentes": [
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
+        "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+        "https://www.aspca.org/news/houseplant-safe-your-pets",
+        "https://hgic.clemson.edu/exciting-houseplant-selections-for-beginners/"
+      ]
+    },
+    {
+      "id": "cinta",
+      "dato": "apta.balcon",
+      "motivo": "true basado en mínimo de 7 °C y zonas 9a-11b de NC State; juicio propio para Buenos Aires, sin fuente local.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/"
+      ]
+    },
+    {
+      "id": "cinta",
+      "dato": "atractivo_para_mascotas",
+      "motivo": "El único respaldo es una página de Clemson Extension (no veterinaria) que menciona reacción leve tipo hierba gatera en algunos gatos.",
+      "fuentes": [
+        "https://hgic.clemson.edu/exciting-houseplant-selections-for-beginners/"
+      ]
+    },
+    {
+      "id": "helecho-serrucho",
+      "dato": "familia",
+      "motivo": "NC State dice Polypodiaceae, ASPCA Dryopteridaceae; POWO (Kew) devolvió 403 y no pude confirmar la familia vigente.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/",
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/boston-fern"
+      ]
+    },
+    {
+      "id": "monstera",
+      "dato": "luz",
+      "motivo": "Wisconsin sugiere sol directo en invierno; RHS y NC State, sin sol directo. Confianza media.",
+      "fuentes": [
+        "https://hort.extension.wisc.edu/articles/monstera-deliciosa/",
+        "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants",
+        "https://plants.ces.ncsu.edu/plants/monstera-deliciosa/"
+      ]
+    },
+    {
+      "id": "potus",
+      "dato": "humedad / gravedad",
+      "motivo": "Humedad: alta según Wisconsin, sin nivel claro en NC State. Gravedad: baja según ASPCA, media según NC State.",
+      "fuentes": [
+        "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+        "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+        "https://www.aspca.org/news/houseplant-safe-your-pets"
+      ]
+    },
+    {
+      "id": "palo-de-agua",
+      "dato": "gravedad",
+      "motivo": "NC State: baja; artículo ASPCA 2019: moderada (género Dracaena). Se dejó 'moderada'.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/dracaena-fragrans/",
+        "https://www.aspca.org/news/houseplant-safe-your-pets"
+      ]
+    },
+    {
+      "id": "lengua-de-suegra",
+      "dato": "sustrato",
+      "motivo": "Solo NC State describe el sustrato; las otras dos fuentes no lo tratan.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/"
+      ]
+    },
+    {
+      "id": "todas",
+      "dato": "otros_nombres",
+      "motivo": "Los nombres alternativos usados en Argentina salen de conocimiento general, no de una fuente abierta (el brief lo permite).",
+      "fuentes": []
+    }
+  ],
+  "no_pude_abrir": [
+    "https://www.missouribotanicalgarden.org/PlantFinder/ (error de certificado TLS; no se usó Missouri Botanical Garden para ninguna planta)",
+    "https://powo.science.kew.org/results?q=Nephrolepis%20exaltata (403 Forbidden)",
+    "https://edis.ifas.ufl.edu/publication/EP480 y https://ask.ifas.ufl.edu/publication/EP480 (UF/IFAS, ZZ plant: bucle de redirecciones)",
+    "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/zz-plant (abre, pero sin datos de la planta)",
+    "https://hort.extension.wisc.edu/articles/swiss-cheese-plant-monstera-deliciosa/ , /articles/zz-plant-zamioculcas-zamiifolia/ , /articles/sansevieria-2/ (404: URLs adivinadas que no existen)"
+  ]
+}

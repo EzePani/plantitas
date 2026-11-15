@@ -1,0 +1,109 @@
+[
+  {
+    "id": "lirios",
+    "nombre": "Lirios verdaderos y hemerocalis",
+    "nombre_cientifico": "Lilium spp., Hemerocallis spp.",
+    "afecta": ["gato"],
+    "gravedad": "grave",
+    "partes": "Toda la planta: hojas, tallo, flores, polen, bulbo o raíz, y también el agua del florero. Alcanza con una cantidad muy chica, incluso el polen que el gato se lame del pelo.",
+    "que_pasa": "En gatos puede causar una falla de los riñones que se instala en uno a tres días y puede ser mortal si no se trata a tiempo.",
+    "advertencia": "Si tenés gato, lo más seguro es no tener lirios ni ramos que los traigan. Si tu gato tocó, mordió o lamió uno, andá al veterinario enseguida aunque lo veas bien: tratarlo en las primeras horas cambia mucho el resultado.",
+    "no_confundir": "El espatifilo (\"lirio de la paz\") y la cala se llaman lirios pero no son lirios verdaderos: irritan la boca y dan babeo y vómitos, sin dañar los riñones.",
+    "fuentes": [
+      { "titulo": "Lily", "org": "ASPCA Animal Poison Control", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lily", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Day Lilies (many varieties)", "org": "ASPCA Animal Poison Control", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/day-lilies-many-varieties", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Lovely Lilies and Curious Cats: A Dangerous Combination", "org": "FDA", "url": "https://www.fda.gov/animal-veterinary/animal-health-literacy/lovely-lilies-and-curious-cats-dangerous-combination", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Which Lilies Are Toxic to Pets?", "org": "ASPCA", "url": "https://www.aspca.org/news/which-lilies-are-toxic-pets", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Lilies", "org": "Pet Poison Helpline", "url": "https://www.petpoisonhelpline.com/poison/lilies/", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Daylily", "org": "Pet Poison Helpline", "url": "https://www.petpoisonhelpline.com/poison/day-lily/", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Houseplants and Ornamentals Toxic to Animals", "org": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/toxicology/poisonous-plants/houseplants-and-ornamentals-toxic-to-animals", "fecha_consulta": "2026-11-14" }
+    ],
+    "confianza": "alta"
+  },
+  {
+    "id": "palma-sagu",
+    "nombre": "Palma sagú o cica",
+    "nombre_cientifico": "Cycas revoluta",
+    "afecta": ["perro", "gato"],
+    "gravedad": "grave",
+    "partes": "Toda la planta. Las semillas son la parte más tóxica.",
+    "que_pasa": "Empieza con vómitos y diarrea, a veces con sangre, y en pocos días puede causar una falla grave del hígado que puede ser mortal.",
+    "advertencia": "Con perros o gatos en casa, mejor no tenerla o dejarla donde no puedan llegar de ninguna manera. Si mordió cualquier parte, sobre todo una semilla, andá al veterinario enseguida sin esperar síntomas.",
+    "fuentes": [
+      { "titulo": "Sago Palm", "org": "ASPCA Animal Poison Control", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/sago-palm", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Sago Palm", "org": "Pet Poison Helpline", "url": "https://www.petpoisonhelpline.com/poison/sago-palm/", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Houseplants and Ornamentals Toxic to Animals", "org": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/toxicology/poisonous-plants/houseplants-and-ornamentals-toxic-to-animals", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Top 10 Toxic Household Plants For Pets", "org": "VCA Animal Hospitals", "url": "https://vcahospitals.com/resources/lifestyle-cat/hazards-safety/top-10-toxic-household-plants-for-pets", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Is That Houseplant Safe for Your Pets?", "org": "ASPCA", "url": "https://www.aspca.org/news/houseplant-safe-your-pets", "fecha_consulta": "2026-11-14" }
+    ],
+    "confianza": "alta"
+  },
+  {
+    "id": "adelfa",
+    "nombre": "Adelfa o laurel de jardín",
+    "nombre_cientifico": "Nerium oleander",
+    "afecta": ["perro", "gato"],
+    "gravedad": "grave",
+    "partes": "Toda la planta, tanto fresca como seca.",
+    "que_pasa": "Tiene sustancias que afectan al corazón: causa babeo, vómitos, diarrea, debilidad y alteraciones del ritmo cardíaco que pueden ser mortales.",
+    "advertencia": "Es una de las plantas de jardín más tóxicas para perros y gatos. Mantenela fuera de su alcance, juntá las hojas y la poda, y si mordió alguna parte andá al veterinario enseguida.",
+    "fuentes": [
+      { "titulo": "Oleander", "org": "ASPCA Animal Poison Control", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/oleander", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Oleander", "org": "Pet Poison Helpline", "url": "https://www.petpoisonhelpline.com/poison/oleander/", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Plants Poisonous to Animals", "org": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/special-pet-topics/poisoning/plants-poisonous-to-animals", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Houseplants and Ornamentals Toxic to Animals", "org": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/toxicology/poisonous-plants/houseplants-and-ornamentals-toxic-to-animals", "fecha_consulta": "2026-11-14" }
+    ],
+    "confianza": "alta"
+  },
+  {
+    "id": "ricino",
+    "nombre": "Ricino",
+    "nombre_cientifico": "Ricinus communis",
+    "afecta": ["perro", "gato"],
+    "gravedad": "grave",
+    "partes": "Toda la planta, y sobre todo las semillas, que concentran la toxina.",
+    "que_pasa": "Masticar y tragar unas pocas semillas puede causar vómitos y diarrea intensos, a veces con sangre, daño en los órganos y la muerte; los signos pueden tardar entre 12 y 48 horas en aparecer.",
+    "advertencia": "No dejes plantas de ricino ni sus semillas al alcance de perros o gatos. Si sospechás que comió semillas, andá al veterinario enseguida aunque parezca estar bien, porque los síntomas pueden tardar en aparecer.",
+    "fuentes": [
+      { "titulo": "Castor Bean Plant", "org": "ASPCA Animal Poison Control", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/castor-bean-plant", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Castor Bean", "org": "Pet Poison Helpline", "url": "https://www.petpoisonhelpline.com/poison/castor-bean/", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Plants Poisonous to Animals", "org": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/special-pet-topics/poisoning/plants-poisonous-to-animals", "fecha_consulta": "2026-11-14" }
+    ],
+    "confianza": "alta"
+  },
+  {
+    "id": "azalea",
+    "nombre": "Azalea y rododendro",
+    "nombre_cientifico": "Rhododendron spp.",
+    "afecta": ["perro", "gato"],
+    "gravedad": "grave",
+    "partes": "Toda la planta: hojas, flores, tallos, polen y néctar.",
+    "que_pasa": "Unas pocas hojas ya pueden causar babeo, vómitos y diarrea, y cantidades mayores pueden dar debilidad y problemas del corazón que pueden ser mortales.",
+    "advertencia": "Ubicala donde tu perro o tu gato no lleguen. Si mordió hojas o flores, consultá enseguida al veterinario: cuando la cantidad es chica y se atiende a tiempo, suele recuperarse bien.",
+    "fuentes": [
+      { "titulo": "Azalea", "org": "ASPCA Animal Poison Control", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/azalea", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Azalea", "org": "Pet Poison Helpline", "url": "https://www.petpoisonhelpline.com/poison/azalea/", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Top 10 Plants Poisonous to Pets", "org": "Pet Poison Helpline", "url": "https://www.petpoisonhelpline.com/pet-owners/basics/top-10-plants-poisonous-to-pets/", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Houseplants and Ornamentals Toxic to Animals", "org": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/toxicology/poisonous-plants/houseplants-and-ornamentals-toxic-to-animals", "fecha_consulta": "2026-11-14" }
+    ],
+    "confianza": "alta"
+  },
+  {
+    "id": "bulbos",
+    "nombre": "Bulbos de narciso y tulipán",
+    "nombre_cientifico": "Narcissus spp., Tulipa spp.",
+    "afecta": ["perro", "gato"],
+    "gravedad": "consulta_urgente",
+    "partes": "Toda la planta es tóxica, pero la mayor concentración está en los bulbos.",
+    "que_pasa": "Hojas y flores suelen dar babeo, vómitos y diarrea; comer bulbos, sobre todo de narciso, puede causar vómitos intensos, deshidratación y, en cantidades grandes, temblores y alteraciones del corazón.",
+    "advertencia": "Guardá los bulbos donde tu mascota no llegue y cuidá que no escarbe las macetas recién plantadas. Si comió un bulbo, consultá enseguida al veterinario.",
+    "fuentes": [
+      { "titulo": "Daffodil", "org": "ASPCA Animal Poison Control", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/daffodil", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Tulip", "org": "ASPCA Animal Poison Control", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/tulip", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Daffodil", "org": "Pet Poison Helpline", "url": "https://www.petpoisonhelpline.com/poison/daffodil/", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Tulips & Hyacinths", "org": "Pet Poison Helpline", "url": "https://www.petpoisonhelpline.com/poison/tulip/", "fecha_consulta": "2026-11-14" },
+      { "titulo": "Houseplants and Ornamentals Toxic to Animals", "org": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/toxicology/poisonous-plants/houseplants-and-ornamentals-toxic-to-animals", "fecha_consulta": "2026-11-14" }
+    ],
+    "confianza": "media"
+  }
+]

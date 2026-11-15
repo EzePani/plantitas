@@ -4,6 +4,8 @@ import { Ilustracion } from '../../components/Ilustracion'
 import type { Pregunta } from '../../data/lessons'
 import { T } from '../../data/textos'
 import { vibrar } from '../../lib/haptics'
+import { FotoPlanta } from '../../components/FotoPlanta'
+import { plantaPorId } from '../../data/plantas'
 
 type Marca = 'neutra' | 'bien' | 'mal' | 'apagada' | 'elegida'
 
@@ -85,7 +87,7 @@ export function PreguntaVista({ pregunta, onResponder }: Props) {
   return (
     <div className="flex flex-col gap-4">
       {titulo}
-      {pregunta.tipo === 'que_le_pasa' && <Ilustracion nombre={pregunta.imagen} className="mx-auto w-4/5 rounded-3xl" />}
+      {pregunta.tipo === 'que_le_pasa' && <ImagenPregunta nombre={pregunta.imagen} />}
       <div className="flex flex-col gap-3">
         {pregunta.opciones.map((o, i) => {
           const marca: Marca = !respondida ? 'neutra' : i === pregunta.correcta ? 'bien' : elegida === i ? 'mal' : 'apagada'
@@ -93,6 +95,18 @@ export function PreguntaVista({ pregunta, onResponder }: Props) {
         })}
       </div>
     </div>
+  )
+}
+
+/** "planta:<id>" muestra la foto y el nombre de una planta del catálogo; el resto son ilustraciones */
+function ImagenPregunta({ nombre }: { nombre: string }) {
+  const planta = nombre.startsWith('planta:') ? plantaPorId(nombre.slice(7)) : undefined
+  if (!planta) return <Ilustracion nombre={nombre} className="mx-auto w-4/5 rounded-3xl" />
+  return (
+    <figure className="m-0 mx-auto w-4/5">
+      <FotoPlanta planta={planta} className="aspect-[4/3] w-full rounded-3xl" />
+      <figcaption className="font-display text-tinta mt-2 text-center text-[20px] font-semibold">{planta.nombre_comun}</figcaption>
+    </figure>
   )
 }
 

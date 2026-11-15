@@ -1,0 +1,372 @@
+{
+  "fuentes": [
+    {
+      "org": "ASPCA",
+      "titulo": "Phalaenopsis Orchid - Toxic and Non-Toxic Plants",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/phalaenopsis-orchid",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Phalaenopsis sp.: no tóxica para perros ni gatos",
+      "usado_en": [
+        "orquidea-phalaenopsis"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Peace Lily - Toxic and Non-Toxic Plants",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Spathiphyllum: tóxica para perros y gatos; oxalatos de calcio insolubles; irritación oral, babeo, vómitos, dificultad para tragar",
+      "usado_en": [
+        "espatifilo"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Flamingo Flower - Toxic and Non-Toxic Plants",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/flamingo-flower",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Anthurium scherzeranum (no andraeanum): tóxica para perros y gatos; oxalatos de calcio insolubles; irritación oral, babeo, vómitos",
+      "usado_en": [
+        "anturio"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Begonia - Toxic and Non-Toxic Plants",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/begonia",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Begonia spp.: tóxica para perros y gatos; oxalatos de calcio solubles; vómitos y salivación; falla renal solo en animales de pastoreo; parte subterránea la más tóxica",
+      "usado_en": [
+        "begonia"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Calathea - Toxic and Non-Toxic Plants",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/calathea",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Calathea spp.: no tóxica para perros ni gatos",
+      "usado_en": [
+        "calatea"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Areca Palm - Toxic and Non-Toxic Plants",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/areca-palm",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Dypsis lutescens: no tóxica para perros ni gatos",
+      "usado_en": [
+        "palmera-areca"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Parlor Palm - Toxic and Non-Toxic Plants",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/parlor-palm",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Chamaedorea elegans: no tóxica para perros ni gatos",
+      "usado_en": [
+        "palmera-de-salon"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "African Violet - Toxic and Non-Toxic Plants",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/african-violet",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Saintpaulia spp.: no tóxica para perros ni gatos",
+      "usado_en": [
+        "violeta-africana"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Phalaenopsis (Moth Orchid)",
+      "url": "https://plants.ces.ncsu.edu/plants/phalaenopsis/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz baja/ventana este, riego semanal aprox. con agua tibia y buen escurrido, sustrato de corteza, humedad alta, zonas USDA 10-12, 45-60 cm, etiquetas no tóxica para gatos y perros",
+      "usado_en": [
+        "orquidea-phalaenopsis"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Spathiphyllum (Peace Lily)",
+      "url": "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Sombra parcial a profunda sin sol directo, tierra húmeda no encharcada, sustrato orgánico con drenaje, daño por frío bajo 4 °C, zonas 11-12; toxicidad severidad media por oxalato de calcio, problema para gatos y perros",
+      "usado_en": [
+        "espatifilo"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Anthurium andraeanum (Flamingo Flower)",
+      "url": "https://plants.ces.ncsu.edu/plants/anthurium-andraeanum/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz brillante indirecta, regar al secarse los primeros 2-3 cm, humedad 60-80 %, 18-27 °C, zonas 11-12, 30-45 cm; toxicidad baja por oxalato de calcio, todas las partes, problema para perros y gatos",
+      "usado_en": [
+        "anturio"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Begonia - Rex Types (Begonia rex)",
+      "url": "https://plants.ces.ncsu.edu/plants/begonia-rex-types/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz brillante indirecta, tierra húmeda sin exceso, no rociar, humedad alta, sustrato orgánico con drenaje, zonas 10-12, 30-45 cm; toxicidad baja por oxalato de calcio, raíces lo más tóxico, problema para gatos y perros",
+      "usado_en": [
+        "begonia"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Goeppertia makoyana (Peacock Plant)",
+      "url": "https://plants.ces.ncsu.edu/plants/goeppertia-makoyana/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz brillante indirecta, tierra húmeda no encharcada, agua de lluvia o destilada por el flúor, humedad ~60 %, 18-24 °C, zonas 11-12, 30-60 cm, etiquetas no tóxica para gatos y perros",
+      "usado_en": [
+        "calatea"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Chrysalidocarpus lutescens (Areca Palm)",
+      "url": "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz brillante indirecta en interior, húmeda sin encharcar en época de crecimiento, humedad alta, zonas 10-11; etiquetas no tóxica para gatos y perros, pero menciona glucósidos cianogénicos de baja severidad",
+      "usado_en": [
+        "palmera-areca"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Chamaedorea elegans (Parlor Palm)",
+      "url": "https://plants.ces.ncsu.edu/plants/chamaedorea-elegans/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz brillante indirecta, tolera poca luz, dejar secar apenas entre riegos, humedad baja a media, sustrato rico en humus con drenaje, zonas 10-12, hasta 1,5 m en interior; no peligrosa para mascotas",
+      "usado_en": [
+        "palmera-de-salon"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Streptocarpus ionanthus (African Violet)",
+      "url": "https://plants.ces.ncsu.edu/plants/saintpaulia-ionantha/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz brillante filtrada, riego por abajo con hojas secas y agua no fría, mezcla liviana de turba/vermiculita/perlita, humedad alta, 15-27 °C, 15-23 cm, etiquetas no tóxica para gatos y perros",
+      "usado_en": [
+        "violeta-africana"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow Phalaenopsis (moth orchids)",
+      "url": "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Ventana este u oeste, sin sol directo en verano, riego semanal aprox. con agua tibia y menos en invierno, compost de corteza, más de 16 °C, humedad con bandeja de grava",
+      "usado_en": [
+        "orquidea-phalaenopsis"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow peace lilies",
+      "url": "https://www.rhs.org.uk/plants/peace-lilies/how-to-grow-peace-lilies",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz brillante indirecta, tolera sombra pero florece poco, regar al secarse los primeros centímetros y menos en invierno, compost con perlita 3:1, humedad moderada, 12-24 °C, planta venenosa",
+      "usado_en": [
+        "espatifilo"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow anthuriums",
+      "url": "https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz brillante indirecta, regar cuando el compost está casi seco a 5 cm, mezcla ácida con perlita y corteza, humedad alta, 18-30 °C, ~30 cm, planta venenosa con savia irritante",
+      "usado_en": [
+        "anturio"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Begonias as houseplants",
+      "url": "https://www.rhs.org.uk/plants/begonias/houseplants",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Rex y rizomatosas: luz brillante filtrada, riego generoso en verano y menos en invierno, no mojar hojas ni corona, humedad alta con bandeja de grava, mínimo 13 °C para B. rex",
+      "usado_en": [
+        "begonia"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow calatheas",
+      "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Lugar luminoso sin sol directo, compost parejo húmedo en primavera-verano y superficie seca en otoño-invierno, agua de lluvia o reposada 24 h, humedad alta, 16-21 °C, 20-100 cm",
+      "usado_en": [
+        "calatea"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow African violets",
+      "url": "https://www.rhs.org.uk/plants/african-violets/growing-guide",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Mucha claridad sin sol directo según estación, regar con agua a temperatura ambiente cuando la superficie está seca sin mojar hojas, compost liviano, no rociar, 18-24 °C de día y 16 °C de noche",
+      "usado_en": [
+        "violeta-africana"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Indoor Palms",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-palms/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Palmeras de interior: luz brillante filtrada, regar a fondo al secarse la superficie y vaciar el plato, mezcla porosa y orgánica, sumar humedad si baja de 50 %, más de 7 °C; areca 1,8-2,1 m y luz brillante indirecta; palmera de salón tolera poca luz y mínimo 15 °C en invierno",
+      "usado_en": [
+        "palmera-areca",
+        "palmera-de-salon"
+      ]
+    },
+    {
+      "org": "FDA",
+      "titulo": "Lovely Lilies and Curious Cats: A Dangerous Combination",
+      "url": "https://www.fda.gov/animal-veterinary/animal-health-literacy/lovely-lilies-and-curious-cats-dangerous-combination",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Solo Lilium y Hemerocallis causan falla renal en gatos; el peace lily tiene cristales de oxalato de calcio que irritan boca y garganta y suele resolverse solo",
+      "usado_en": [
+        "espatifilo"
+      ]
+    },
+    {
+      "org": "Pet Poison Helpline",
+      "titulo": "Anthurium",
+      "url": "https://www.petpoisonhelpline.com/poison/anthurium/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Anthurium: cristales de oxalato que al masticar causan irritación y dolor en boca, labios y garganta",
+      "usado_en": [
+        "anturio"
+      ]
+    }
+  ],
+  "revisar": [
+    {
+      "id": "anturio",
+      "dato": "toxicidad_gato / toxicidad_perro",
+      "motivo": "La ficha de ASPCA abierta ('Flamingo Flower') es de Anthurium scherzeranum, no de A. andraeanum. La especie exacta solo está respaldada por NC State; Pet Poison Helpline cubre el género. Confianza media.",
+      "fuentes": [
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/flamingo-flower",
+        "https://plants.ces.ncsu.edu/plants/anthurium-andraeanum/",
+        "https://www.petpoisonhelpline.com/poison/anthurium/"
+      ]
+    },
+    {
+      "id": "anturio",
+      "dato": "gravedad",
+      "motivo": "NC State dice severidad baja; se puso 'moderada' por criterio conservador (mismos síntomas por oxalatos que el espatifilo). Revisar si se prefiere 'leve'.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/anthurium-andraeanum/"
+      ]
+    },
+    {
+      "id": "espatifilo",
+      "dato": "gravedad",
+      "motivo": "NC State: severidad media; FDA: suele resolverse solo. Se dejó 'moderada'.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+        "https://www.fda.gov/animal-veterinary/animal-health-literacy/lovely-lilies-and-curious-cats-dangerous-combination"
+      ]
+    },
+    {
+      "id": "palmera-areca",
+      "dato": "toxicidad_gato / toxicidad_perro",
+      "motivo": "ASPCA y etiquetas de NC State: no tóxica. Pero la sección de veneno de NC State menciona glucósidos cianogénicos (severidad baja) sin aclarar si aplica a mascotas. Se dejó 'segura' con confianza media.",
+      "fuentes": [
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/areca-palm",
+        "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/"
+      ]
+    },
+    {
+      "id": "palmera-areca",
+      "dato": "riego.invierno y humedad",
+      "motivo": "NC State no da pauta de invierno; Clemson solo da reglas generales para palmeras de interior. Confianza media.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+        "https://hgic.clemson.edu/factsheet/indoor-palms/"
+      ]
+    },
+    {
+      "id": "palmera-areca",
+      "dato": "apta.balcon",
+      "motivo": "Zonas USDA 10-11 (NC State) y daño por frío bajo ~7 °C (regla general de Clemson). No se verificó con fuente argentina la zona de rusticidad de Buenos Aires; se puso false por criterio conservador.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+        "https://hgic.clemson.edu/factsheet/indoor-palms/"
+      ]
+    },
+    {
+      "id": "palmera-de-salon",
+      "dato": "humedad",
+      "motivo": "NC State (baja a media, tolera aire seco) vs Clemson (alta a moderada, adaptable). Se puso 'media'.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/chamaedorea-elegans/",
+        "https://hgic.clemson.edu/factsheet/indoor-palms/"
+      ]
+    },
+    {
+      "id": "orquidea-phalaenopsis",
+      "dato": "luz",
+      "motivo": "NC State dice 'poca luz', RHS dice luz brillante sin sol directo de verano. Se puso 'media' con confianza media.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/phalaenopsis/",
+        "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide"
+      ]
+    },
+    {
+      "id": "begonia",
+      "dato": "especie representativa y sustrato",
+      "motivo": "Se tomó Begonia rex; B. maculata (begonia de caña) no se investigó y su cuidado puede diferir. El sustrato sale casi solo de NC State (confianza media).",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/begonia-rex-types/",
+        "https://www.rhs.org.uk/plants/begonias/houseplants"
+      ]
+    },
+    {
+      "id": "espatifilo",
+      "dato": "humedad",
+      "motivo": "Solo RHS da un nivel ('moderada'); NC State apenas menciona puntas marrones por aire seco. Confianza media.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/peace-lilies/how-to-grow-peace-lilies",
+        "https://plants.ces.ncsu.edu/plants/spathiphyllum/"
+      ]
+    },
+    {
+      "id": "todas",
+      "dato": "otros_nombres",
+      "motivo": "Los nombres alternativos salen de conocimiento general, no de fuentes abiertas (el brief lo permite). 'Cuna de Moisés' para el espatifilo es más usado en otros países que en Argentina: revisar.",
+      "fuentes": []
+    },
+    {
+      "id": "todas",
+      "dato": "atractivo_para_mascotas",
+      "motivo": "Ninguna fuente abierta habla de si atraen a las mascotas; quedó 'desconocido' en todas.",
+      "fuentes": []
+    },
+    {
+      "id": "todas",
+      "dato": "apta.balcon",
+      "motivo": "Se puso false en todas a partir de temperaturas mínimas y zonas USDA de las fuentes; no se consultó SMN ni otra fuente argentina sobre mínimas de Buenos Aires.",
+      "fuentes": []
+    }
+  ],
+  "no_pude_abrir": [
+    "https://www.missouribotanicalgarden.org/PlantFinder/ (error de certificado en los dos intentos, incluida la ficha de Begonia rex-cultorum kempercode=b543)",
+    "https://www.petpoisonhelpline.com/poison/peace-lily/ (404)",
+    "https://www.petpoisonhelpline.com/poison/begonia/ (404)",
+    "URLs adivinadas de RHS que dieron 404 (moth-orchid, peace-lily, anthurium, african-violet, begonia/houseplant growing-guide); se reemplazaron por las URLs correctas halladas por búsqueda",
+    "https://plants.ces.ncsu.edu/plants/begonia-rex-cultorum-group/ y /begonia-rex-cultorum/ (404; se usó /begonia-rex-types/)"
+  ]
+}

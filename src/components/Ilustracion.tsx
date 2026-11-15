@@ -551,6 +551,8 @@ const ESCENAS: Record<string, () => ReactNode> = {
   ),
 }
 
+export const NOMBRES_ILUSTRACIONES = Object.keys(ESCENAS)
+
 /** Posiciones (en % del lienzo) de las zonas tocables de cada ilustración táctil */
 export const ZONAS: Record<string, Record<string, { x: number; y: number }>> = {
   'planta-partes': {

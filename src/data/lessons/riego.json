@@ -3,74 +3,164 @@
     "id": "riego-1",
     "unidad": "riego",
     "titulo": "El exceso mata más que la falta",
-    "gancho": "¿Por qué se me puso amarillo el potus?",
+    "gancho": "¿Por qué se me puso amarillo el potus si lo riego siempre?",
     "tarjetas": [
       {
         "tipo": "por_que",
         "imagen": "planta-ahogada",
-        "texto": "Las raíces necesitan aire. Si la tierra está siempre empapada, se ahogan y se pudren."
+        "texto": "Las raíces necesitan agua, pero también aire. Si la tierra queda empapada mucho tiempo, se quedan sin oxígeno y se pueden pudrir."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "riego",
+        "texto": "Regar de más es la causa más común de que se muera una planta en maceta, y casi siempre viene de quererla mucho. No pasa nada: le pasó a medio mundo."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-triste",
+        "texto": "Ojo con la planta caída: puede ser sed, pero también raíces dañadas por exceso de agua. Si la tierra está mojada y la planta igual se cae, más agua lo empeora."
+      },
+      {
+        "tipo": "tactil",
+        "imagen": "planta-partes",
+        "texto": "Tocá cada parte para ver qué pistas da cuando hay agua de más.",
+        "zonas": [
+          {
+            "id": "hojas",
+            "etiqueta": "Hojas",
+            "texto": "Se ponen amarillas, se caen o la planta se ve decaída."
+          },
+          {
+            "id": "raices",
+            "etiqueta": "Raíces",
+            "texto": "Las sanas son claras. Con exceso de agua se ponen marrones y blandas, y pueden tener mal olor."
+          },
+          {
+            "id": "maceta",
+            "etiqueta": "Tierra",
+            "texto": "Si la planta está caída y la tierra sigue mojada, sospechá del exceso y no de la sed."
+          }
+        ]
       },
       {
         "tipo": "comparativa",
         "imagen_mal": "planta-ahogada",
         "imagen_bien": "planta-seca",
-        "texto": "Una planta con sed suele recuperarse al regarla. Una con raíces podridas, muchas veces no."
+        "texto": "Una planta con sed muchas veces se repone con un buen riego. Con las raíces podridas es mucho más difícil que se recupere."
       },
       {
         "tipo": "concepto",
-        "imagen": "riego",
-        "texto": "Por eso, ante la duda, es mejor esperar un día más. No pasa nada: a todos se nos murió alguna por quererla demasiado."
+        "imagen": "dedo",
+        "texto": "Por eso, antes de regar, tocá la tierra. Es la forma más simple de saber si de verdad hace falta."
       }
     ],
     "para_llevarte": [
       "Regar de más es el error más común.",
-      "Las raíces necesitan aire.",
-      "Ante la duda, esperá."
+      "Las raíces necesitan agua y aire.",
+      "Planta caída no siempre es sed: tocá la tierra."
     ],
     "quiz": [
       {
         "tipo": "verdadero_falso",
-        "pregunta": "Es más fácil que una planta se recupere de la sed que del exceso de agua.",
-        "correcta": true,
-        "explicacion": "La sed se arregla regando; las raíces podridas son mucho más difíciles de salvar."
+        "pregunta": "Si una planta está caída, seguro le falta agua.",
+        "correcta": false,
+        "explicacion": "No siempre. Las raíces dañadas por exceso de agua tampoco pueden tomarla, y la planta se cae igual. Tocar la tierra te saca la duda."
       },
       {
         "tipo": "opcion_multiple",
-        "pregunta": "Si dudás entre regar hoy o mañana...",
+        "pregunta": "¿Por qué hace daño que la tierra esté siempre empapada?",
         "opciones": [
-          "Regá por las dudas",
-          "Esperá un día más",
-          "Regá el doble"
+          "Porque el agua enfría la planta",
+          "Porque las raíces se quedan sin aire",
+          "Porque las hojas se mojan"
         ],
         "correcta": 1,
-        "explicacion": "Esperar casi nunca hace daño. Regar de más, sí."
+        "explicacion": "Las raíces necesitan oxígeno. Con la tierra saturada de agua no lo consiguen y se pueden pudrir."
+      },
+      {
+        "tipo": "que_le_pasa",
+        "pregunta": "Hojas amarillas, planta decaída y la tierra mojada hace días. ¿Qué es lo más probable?",
+        "imagen": "planta-ahogada",
+        "opciones": [
+          "Le falta agua",
+          "Tiene agua de más",
+          "Le falta una maceta más grande"
+        ],
+        "correcta": 1,
+        "explicacion": "Si la tierra está mojada y la planta igual se ve mal, lo más probable es exceso de riego. Lo mejor es dejar que la tierra se seque antes de volver a regar."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "Suele ser más fácil que una planta se recupere de la sed que de las raíces podridas.",
+        "correcta": true,
+        "explicacion": "La sed muchas veces se arregla con un buen riego. Las raíces podridas son mucho más difíciles de salvar."
       }
     ],
-    "fuentes": [],
-    "confianza": "baja",
-    "estado": "no_verificado",
+    "fuentes": [
+      {
+        "titulo": "Indoor Plants – Watering",
+        "org": "Clemson Cooperative Extension (HGIC)",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-plants-watering/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Care and Feeding of Indoor Plants",
+        "org": "Utah State University Extension",
+        "url": "https://extension.usu.edu/archive/care-and-feeding-of-indoor-plants",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Houseplant Care",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/houseplant-care/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Extension Gardener Handbook, cap. 18: Plants Grown in Containers",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "How to grow houseplants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "alta",
     "xp": 20
   },
   {
     "id": "riego-2",
     "unidad": "riego",
     "titulo": "Cuándo regar",
-    "gancho": "¿Cada cuánto la riego?",
+    "gancho": "¿Cada cuántos días la riego?",
     "tarjetas": [
       {
         "tipo": "concepto",
         "imagen": "dedo",
-        "texto": "El test del dedo: metelo un par de centímetros en la tierra. Si sale seco, toca regar; si sale húmedo, esperá."
+        "texto": "El test del dedo: metelo en la tierra hasta el primer nudillo, unos 2 o 3 centímetros. Si ahí abajo está seca, toca regar, y si está húmeda, esperá."
       },
       {
         "tipo": "concepto",
         "imagen": "maceta-drenaje",
-        "texto": "También podés levantar la maceta: recién regada pesa bastante, seca pesa poco."
+        "texto": "También podés levantar la maceta: con la tierra seca pesa bastante menos que recién regada. Con el tiempo le agarrás la mano."
       },
       {
         "tipo": "por_que",
         "imagen": "estaciones",
-        "texto": "No hay un \"cada tantos días\" que sirva siempre. La planta toma más o menos agua según la luz, el calor y la época."
+        "texto": "No hay un cada tantos días que sirva siempre. Cuánta agua toma la planta depende de la luz, la temperatura, el tamaño de la maceta y el tipo de tierra."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "maceta-drenaje",
+        "texto": "Las macetas chicas y las de barro se secan más rápido que las grandes y las de plástico. Por eso dos plantas iguales pueden pedir agua en días distintos."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "planta-feliz",
+        "texto": "No todas esperan lo mismo: los cactus y las suculentas guardan agua y prefieren que la tierra se seque bien. Las de hojas grandes y finas suelen pedir agua más seguido."
       }
     ],
     "para_llevarte": [
@@ -81,25 +171,71 @@
     "quiz": [
       {
         "tipo": "opcion_multiple",
-        "pregunta": "Metés el dedo y la tierra está húmeda. ¿Qué hacés?",
+        "pregunta": "Metés el dedo hasta el nudillo y la tierra está húmeda. ¿Qué hacés?",
         "opciones": [
-          "Riego igual",
-          "Espero",
+          "Riego igual, por las dudas",
+          "Espero y vuelvo a probar otro día",
           "La cambio de maceta"
         ],
         "correcta": 1,
-        "explicacion": "Si todavía está húmeda, no necesita más agua."
+        "explicacion": "Si todavía está húmeda, no necesita más agua. Probá de nuevo en unos días."
       },
       {
         "tipo": "verdadero_falso",
         "pregunta": "Lo mejor es regar todas las plantas los mismos días de la semana.",
         "correcta": false,
-        "explicacion": "Cada planta y cada época del año piden distinto. Mejor mirar la tierra."
+        "explicacion": "Cada planta, cada maceta y cada época del año piden distinto. Mejor revisar la tierra que seguir un calendario."
+      },
+      {
+        "tipo": "unir",
+        "pregunta": "Uní cada pista con lo que te dice.",
+        "pares": [
+          { "a": "Dedo sale seco", "b": "Toca regar" },
+          { "a": "Dedo sale húmedo", "b": "Esperá" },
+          { "a": "Maceta liviana", "b": "Tierra seca" },
+          { "a": "Maceta pesada", "b": "Tierra con agua" }
+        ],
+        "explicacion": "El dedo y el peso de la maceta son dos formas simples de saber cómo está la tierra."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "¿Cuál de estas macetas se seca más rápido?",
+        "opciones": [
+          "Una grande de plástico",
+          "Una chica de barro",
+          "Las dos igual"
+        ],
+        "correcta": 1,
+        "explicacion": "El barro es poroso y deja escapar humedad, y una maceta chica tiene menos tierra para guardar agua."
       }
     ],
-    "fuentes": [],
-    "confianza": "baja",
-    "estado": "no_verificado",
+    "fuentes": [
+      {
+        "titulo": "Indoor Plants – Watering",
+        "org": "Clemson Cooperative Extension (HGIC)",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-plants-watering/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Houseplant Care",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/houseplant-care/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "How to grow houseplants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Care and Feeding of Indoor Plants",
+        "org": "Utah State University Extension",
+        "url": "https://extension.usu.edu/archive/care-and-feeding-of-indoor-plants",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "alta",
     "xp": 20
   },
   {
@@ -110,25 +246,40 @@
     "tarjetas": [
       {
         "tipo": "comparativa",
-        "imagen_mal": "maceta-sin-drenaje",
-        "imagen_bien": "maceta-drenaje",
-        "texto": "Regá a fondo hasta que salga agua por abajo y dejá que escurra. Un chorrito diario moja solo la superficie."
+        "imagen_mal": "planta-triste",
+        "imagen_bien": "riego",
+        "texto": "Regá a fondo, hasta que salga agua por los agujeros de abajo. Así el agua llega a las raíces del fondo y no se queda solo en la superficie."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "maceta-drenaje",
+        "texto": "Dejá que escurra y, después de un rato, vaciá el plato. La maceta no tiene que quedar parada en agua."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "riego",
+        "texto": "Si la tierra se secó tanto que el agua pasa de largo, apoyá la maceta un rato en un recipiente con agua. Cuando la superficie se humedezca, sacala y dejala escurrir bien."
       },
       {
         "tipo": "dato_ba",
         "imagen": "estaciones",
-        "texto": "En verano (diciembre a febrero) vas a regar más seguido. En invierno la planta frena y toma mucha menos agua."
+        "texto": "En invierno (junio a agosto) las plantas crecen más despacio y toman menos agua, así que se riega menos. En verano (diciembre a febrero), con más calor y luz, la tierra se seca más rápido."
       },
       {
         "tipo": "dato_ba",
         "imagen": "calefaccion",
-        "texto": "La calefacción seca el aire y la tierra de arriba. Antes de regar, fijate cómo está la tierra más abajo."
+        "texto": "La calefacción seca el aire y puede secar la maceta más rápido, sobre todo cerca de la estufa. Por eso en invierno tampoco vale el calendario: tocá la tierra antes de regar."
+      },
+      {
+        "tipo": "concepto",
+        "imagen": "calefaccion",
+        "texto": "Rociar las hojas casi no cambia la humedad, porque el agua se evapora en minutos. Si el aire está muy seco, ayuda más juntar las plantas o usar un humidificador."
       }
     ],
     "para_llevarte": [
-      "Riego profundo y que escurra.",
-      "Más agua en verano, menos en invierno.",
-      "Nunca dejes agua estancada en el plato."
+      "Riego a fondo, hasta que escurra.",
+      "Vaciá el plato: nada de agua estancada.",
+      "En invierno se riega menos, pero siempre tocando la tierra."
     ],
     "quiz": [
       {
@@ -136,22 +287,81 @@
         "pregunta": "¿Cómo conviene regar?",
         "opciones": [
           "Un chorrito todos los días",
-          "A fondo, hasta que escurra",
+          "A fondo, hasta que salga agua por abajo",
           "Solo rociando las hojas"
         ],
         "correcta": 1,
-        "explicacion": "El riego profundo moja todas las raíces. Después, que escurra bien."
+        "explicacion": "El riego a fondo moja toda la tierra, también la de abajo, que es donde están muchas raíces. Después, que escurra bien."
       },
       {
         "tipo": "verdadero_falso",
-        "pregunta": "En invierno las plantas necesitan más agua que en verano.",
+        "pregunta": "Conviene dejar agua en el plato para que la planta tenga reserva.",
         "correcta": false,
-        "explicacion": "En invierno crecen menos y toman menos agua."
+        "explicacion": "Si la maceta queda parada en agua, las raíces se quedan sin aire. Mejor vaciar el plato un rato después de regar."
+      },
+      {
+        "tipo": "verdadero_falso",
+        "pregunta": "En invierno las plantas de interior suelen necesitar menos agua que en verano.",
+        "correcta": true,
+        "explicacion": "En invierno crecen más despacio y toman menos agua. Igual, con la calefacción prendida la tierra puede secarse rápido, así que lo mejor es tocarla."
+      },
+      {
+        "tipo": "opcion_multiple",
+        "pregunta": "El aire está muy seco por la calefacción. ¿Qué ayuda más a tus plantas?",
+        "opciones": [
+          "Rociar las hojas una vez por día",
+          "Juntarlas o usar un humidificador",
+          "Regarlas el doble"
+        ],
+        "correcta": 1,
+        "explicacion": "El rociado se evapora en minutos y casi no cambia nada. Agruparlas o un humidificador rinde más, y regar de más solo ahoga las raíces."
       }
     ],
-    "fuentes": [],
-    "confianza": "baja",
-    "estado": "no_verificado",
+    "fuentes": [
+      {
+        "titulo": "Indoor Plants – Watering",
+        "org": "Clemson Cooperative Extension (HGIC)",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-plants-watering/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Houseplant Care",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/houseplant-care/",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "How to grow houseplants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Monthly gardening tips: December – greenhouse, conservatory and houseplants",
+        "org": "Royal Horticultural Society",
+        "url": "https://www.rhs.org.uk/advice/in-month/december/greenhouse,-conservatory-and-houseplants",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Humidity and Houseplants",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/humidity-and-houseplants",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "The air in our home is extremely dry in winter. Should I mist the houseplants?",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/faq/air-our-home-extremely-dry-winter-should-i-mist-houseplants",
+        "fecha_consulta": "2026-11-14"
+      },
+      {
+        "titulo": "Extension Gardener Handbook, cap. 18: Plants Grown in Containers",
+        "org": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers",
+        "fecha_consulta": "2026-11-14"
+      }
+    ],
+    "confianza": "alta",
     "xp": 20
   }
 ]

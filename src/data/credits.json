@@ -1,0 +1,202 @@
+[
+  {
+    "id": "aloe-vera",
+    "planta": "Aloe vera",
+    "archivo": "img/aloe-vera.webp",
+    "autor": "User:Arjun01",
+    "licencia": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Potted_Aloe_vera_plant.jpg"
+  },
+  {
+    "id": "anturio",
+    "planta": "Anturio",
+    "archivo": "img/anturio.webp",
+    "autor": "Agnes Monkelbaan",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Anthurium_(Flamingoplant)_12-08-2019_(actm)_01.jpg"
+  },
+  {
+    "id": "jade",
+    "planta": "Árbol de jade",
+    "archivo": "img/jade.webp",
+    "autor": "Pezoporus wallicus",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Crassula_ovata_indoor_bonsai.jpg"
+  },
+  {
+    "id": "begonia",
+    "planta": "Begonia",
+    "archivo": "img/begonia.webp",
+    "autor": "NasserHalaweh",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Begoniaceae_Begonia_rex_1.jpg"
+  },
+  {
+    "id": "cactus-de-navidad",
+    "planta": "Cactus de Navidad",
+    "archivo": "img/cactus-de-navidad.webp",
+    "autor": "Agnes Monkelbaan",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Schlumbergera_(actm)_01.jpg"
+  },
+  {
+    "id": "calatea",
+    "planta": "Calatea",
+    "archivo": "img/calatea.webp",
+    "autor": "Geographer",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Goeppertia_makoyana_close_up.jpg"
+  },
+  {
+    "id": "cinta",
+    "planta": "Cinta",
+    "archivo": "img/cinta.webp",
+    "autor": "Krzysztof Ziarnek, Kenraiz",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Chlorophytum_comosum_%27Vittatum%27_kz02.jpg"
+  },
+  {
+    "id": "echeveria",
+    "planta": "Echeveria",
+    "archivo": "img/echeveria.webp",
+    "autor": "Diego Delso",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Rosa_de_alabastro_(Echeveria_elegans),_jard%C3%ADn_del_molino,_Sierra_de_San_Felipe,_Set%C3%BAbal,_Portugal,_2012-05-11,_DD_01.JPG"
+  },
+  {
+    "id": "espatifilo",
+    "planta": "Espatifilo",
+    "archivo": "img/espatifilo.webp",
+    "autor": "W.carter",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Peace_lily_-_2.jpg"
+  },
+  {
+    "id": "ficus-lyrata",
+    "planta": "Ficus lyrata",
+    "archivo": "img/ficus-lyrata.webp",
+    "autor": "Forest and Kim Starr",
+    "licencia": "CC BY 3.0 us",
+    "url": "https://commons.wikimedia.org/wiki/File:Starr-110215-1262-Ficus_lyrata-leaves-KiHana_Nursery_Kihei-Maui_(25075972985).jpg"
+  },
+  {
+    "id": "filodendro",
+    "planta": "Filodendro",
+    "archivo": "img/filodendro.webp",
+    "autor": "Krzysztof Ziarnek, Kenraiz",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Philodendron_hederaceum_kz02.jpg"
+  },
+  {
+    "id": "gomero",
+    "planta": "Gomero",
+    "archivo": "img/gomero.webp",
+    "autor": "Alvesgaspar ( talk )",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Ficus_November_2008-1.jpg"
+  },
+  {
+    "id": "haworthia",
+    "planta": "Haworthia cebra",
+    "archivo": "img/haworthia.webp",
+    "autor": "Didier Descouens",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:(MHNT)_Haworthiopis_attenuata_var._radula.jpg"
+  },
+  {
+    "id": "helecho-serrucho",
+    "planta": "Helecho serrucho",
+    "archivo": "img/helecho-serrucho.webp",
+    "autor": "Nathaly 1106",
+    "licencia": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Helecho_de_Boston_(Nephrolepis_exaltata).jpg"
+  },
+  {
+    "id": "lengua-de-suegra",
+    "planta": "Lengua de suegra",
+    "archivo": "img/lengua-de-suegra.webp",
+    "autor": "Mokkie",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Snake_Plant_(Sansevieria_trifasciata_%27Laurentii%27).jpg"
+  },
+  {
+    "id": "monstera",
+    "planta": "Monstera",
+    "archivo": "img/monstera.webp",
+    "autor": "Smatu",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Monstera_deliciosa_DSC02605.jpg"
+  },
+  {
+    "id": "orquidea-phalaenopsis",
+    "planta": "Orquídea phalaenopsis",
+    "archivo": "img/orquidea-phalaenopsis.webp",
+    "autor": "Uoaei1",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Phalaenopsis_Cultivar_White_01.jpg"
+  },
+  {
+    "id": "palmera-areca",
+    "planta": "Palmera areca",
+    "archivo": "img/palmera-areca.webp",
+    "autor": "Digigalos",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Dypsis_lutescens_02.jpg"
+  },
+  {
+    "id": "palmera-de-salon",
+    "planta": "Palmera de salón",
+    "archivo": "img/palmera-de-salon.webp",
+    "autor": "Tequila 13:54, 24 June 2007 (UTC)",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Chamaedorea_elegans.jpg"
+  },
+  {
+    "id": "palo-de-agua",
+    "planta": "Palo de agua",
+    "archivo": "img/palo-de-agua.webp",
+    "autor": "Jerzy Opioła",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Dracaena_fragrans_a1.jpg"
+  },
+  {
+    "id": "peperomia",
+    "planta": "Peperomia",
+    "archivo": "img/peperomia.webp",
+    "autor": "Diego Delso",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Peperomia_obtusifolia,_Conservatorio_bot%C3%A1nico,_Fort_Wayne,_Indiana,_Estados_Unidos,_2012-11-12,_DD_01.jpg"
+  },
+  {
+    "id": "pilea",
+    "planta": "Pilea",
+    "archivo": "img/pilea.webp",
+    "autor": "Didier Descouens",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:(MHNT)_Pilea_peperomioides_Foliage.jpg"
+  },
+  {
+    "id": "potus",
+    "planta": "Potus",
+    "archivo": "img/potus.webp",
+    "autor": "Joydeep",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Epipremnum_aureum_31082012.jpg"
+  },
+  {
+    "id": "violeta-africana",
+    "planta": "Violeta africana",
+    "archivo": "img/violeta-africana.webp",
+    "autor": "Chandralekha CT",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Streptocarpus_ionanthus_by_Chandralekha_CT.jpg"
+  },
+  {
+    "id": "zamioculca",
+    "planta": "Zamioculca",
+    "archivo": "img/zamioculca.webp",
+    "autor": "User:WeFt",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Zamioculcas_zamiifolia_1.jpg"
+  }
+]

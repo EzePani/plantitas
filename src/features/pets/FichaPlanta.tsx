@@ -1,0 +1,114 @@
+import { Droplet, Home, Info, Layers, Sun, TriangleAlert, Wind } from 'lucide-react'
+import type { ReactNode } from 'react'
+import { FotoPlanta } from '../../components/FotoPlanta'
+import { ListaFuentes } from '../../components/ListaFuentes'
+import type { Planta } from '../../data/plantas'
+import { TC } from '../../data/textosCatalogo'
+import { Semaforo } from './Semaforo'
+
+const P = TC.plantas
+const F = P.ficha
+
+function Dato({ icono, titulo, children }: { icono: ReactNode; titulo: string; children: ReactNode }) {
+  return (
+    <div className="border-arena flex gap-3 border-b-2 px-3 py-3 last:border-b-0">
+      <span className="text-hoja-osc mt-0.5 shrink-0">{icono}</span>
+      <div>
+        <div className="text-tinta-suave text-[12px] font-extrabold tracking-wide uppercase">{titulo}</div>
+        <div className="text-tinta text-[15px] leading-snug font-bold">{children}</div>
+      </div>
+    </div>
+  )
+}
+
+export function FichaPlanta({ planta: p }: { planta: Planta }) {
+  const m = p.mascotas
+  const algunaToxica = m.toxicidad_gato === 'toxica' || m.toxicidad_perro === 'toxica'
+  const algunaSinVerificar = m.toxicidad_gato === 'no_verificada' || m.toxicidad_perro === 'no_verificada'
+  return (
+    <article className="pb-8">
+      <FotoPlanta planta={p} className="mx-5 aspect-[4/3] rounded-3xl" />
+      <div className="px-5 pt-4">
+        <h2 className="font-display text-hoja-osc m-0 text-[30px] leading-tight font-semibold">{p.nombre_comun}</h2>
+        <p className="text-tinta-suave m-0 text-[15px] font-bold italic">{p.nombre_cientifico}</p>
+        {p.otros_nombres.length > 0 && <p className="text-tinta-suave m-0 text-[13px] font-bold">{p.otros_nombres.join(' · ')}</p>}
+        <div className="mt-3 flex flex-wrap gap-2">
+          {[P.grupo[p.grupo], P.dificultad[p.dificultad], P.tamano[p.tamano]].map((t) => (
+            <span key={t} className="bg-arena text-tinta rounded-full px-3 py-1 text-[13px] font-extrabold">
+              {t}
+            </span>
+          ))}
+        </div>
+        <p className="bg-brote text-hoja-osc mt-4 mb-0 rounded-2xl p-3 text-[16px] leading-snug font-extrabold">{p.tip}</p>
+
+        <h3 className="font-display text-tinta mt-6 mb-2 text-[20px] font-semibold">{F.mascotas}</h3>
+        {m.advertencia_grave && (
+          <div className="bg-alerta mb-3 flex gap-3 rounded-2xl p-4 text-white" role="alert">
+            <TriangleAlert className="shrink-0" aria-hidden />
+            <p className="m-0 text-[15px] leading-snug font-extrabold">{m.advertencia_grave}</p>
+          </div>
+        )}
+        <div className="flex gap-2">
+          <Semaforo planta={p} especie="gato" />
+          <Semaforo planta={p} especie="perro" />
+        </div>
+        <div className="border-arena-osc mt-3 rounded-2xl border-2 bg-white">
+          {algunaToxica && m.gravedad && <Dato icono={<TriangleAlert size={20} aria-hidden />} titulo={P.gravedad[m.gravedad]}>{m.sintomas}</Dato>}
+          {algunaToxica && m.partes && <Dato icono={<Layers size={20} aria-hidden />} titulo={F.partes}>{m.partes}</Dato>}
+          {algunaSinVerificar && <Dato icono={<Info size={20} aria-hidden />} titulo={P.estado.no_verificada}>{F.noVerificada}</Dato>}
+          <Dato icono={<Info size={20} aria-hidden />} titulo={F.mascotas}>
+            {m.nota_mascotas}
+            {m.atractivo_para_mascotas !== 'desconocido' && (
+              <span className="text-tinta-suave mt-1 block text-[14px]">
+                {F.atractivo[m.atractivo_para_mascotas]} {m.atractivo_motivo}
+              </span>
+            )}
+            {m.repelencia_por_olor !== 'ninguna' && <span className="text-tinta-suave mt-1 block text-[14px]">{F.repelencia[m.repelencia_por_olor]}</span>}
+            {m.confianza === 'baja' && <span className="mt-1 block text-[14px] text-[#7a5200]">{F.confianzaBaja}</span>}
+          </Dato>
+        </div>
+
+        <h3 className="font-display text-tinta mt-6 mb-2 text-[20px] font-semibold">{F.cuidados}</h3>
+        <div className="border-arena-osc rounded-2xl border-2 bg-white">
+          <Dato icono={<Sun size={20} aria-hidden />} titulo={`${F.luz} · ${P.luz[p.luz.necesidad]}`}>
+            {p.luz.detalle} {p.luz.sol_directo && F.solDirecto}
+          </Dato>
+          <Dato icono={<Droplet size={20} aria-hidden />} titulo={F.riegoVerano}>{p.riego.verano}</Dato>
+          <Dato icono={<Droplet size={20} aria-hidden />} titulo={F.riegoInvierno}>{p.riego.invierno}</Dato>
+          <Dato icono={<Wind size={20} aria-hidden />} titulo={`${F.humedad} · ${P.humedad[p.humedad.nivel]}`}>{p.humedad.detalle}{p.humedad.confianza === 'baja' && <span className="mt-1 block text-[14px] text-[#7a5200]">{F.confianzaBaja}</span>}</Dato>
+          <Dato icono={<Layers size={20} aria-hidden />} titulo={F.sustrato}>{p.sustrato.tipo}</Dato>
+          <Dato icono={<Home size={20} aria-hidden />} titulo={F.lugar}>
+            {[p.apta.interior && F.interior, p.apta.balcon && F.balcon].filter(Boolean).join(' y ')}
+            {p.apta.nota_balcon && <span className="text-tinta-suave block text-[14px]">{p.apta.nota_balcon}</span>}
+          </Dato>
+          <Dato icono={<Info size={20} aria-hidden />} titulo={F.aguante}>
+            <span className="flex gap-1" role="img" aria-label={`${p.tolerancia_descuido} de 5`}>
+              {[1, 2, 3, 4, 5].map((n) => (
+                <span key={n} className={`h-2.5 w-7 rounded-full ${n <= p.tolerancia_descuido ? 'bg-hoja' : 'bg-arena-osc'}`} />
+              ))}
+            </span>
+          </Dato>
+        </div>
+        <p className="text-tinta-suave mt-2 mb-0 text-[13px] font-bold">
+          {F.confianza[p.confianza]}
+          {p.confianza === 'baja' && ` · ${F.confianzaBaja}`}
+          {p.adaptaciones.length > 0 && ` · ${F.adaptado}`}
+        </p>
+        {p.discrepancias.length > 0 && (
+          <div className="bg-sol-claro mt-3 rounded-2xl p-3">
+            <div className="text-tinta text-[13px] font-extrabold uppercase">{F.discrepancias}</div>
+            {p.discrepancias.map((d) => (
+              <p key={d} className="text-tinta m-0 mt-1 text-[14px] leading-snug font-bold">
+                {d}
+              </p>
+            ))}
+          </div>
+        )}
+
+        <h3 className="font-display text-tinta mt-6 mb-2 text-[20px] font-semibold">{F.fuentes}</h3>
+        <ListaFuentes fuentes={[...p.fuentes, ...m.fuentes_toxicidad.filter((f) => !p.fuentes.some((x) => x.url === f.url))]} />
+        <p className="text-tinta-suave mt-4 mb-0 text-[13px] leading-snug font-bold">{F.disclaimer}</p>
+      </div>
+    </article>
+  )
+}

@@ -1,0 +1,562 @@
+{
+  "fuentes": [
+    {
+      "org": "ASPCA",
+      "titulo": "Toxic and Non-toxic Plants: Aloe",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/aloe",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Aloe vera: tóxica para perros, gatos y caballos; saponinas y antraquinonas; vómitos, letargo, diarrea",
+      "usado_en": [
+        "aloe-vera"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Toxic and Non-toxic Plants: Jade Plant",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/jade-plant",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Jade (figura como Crassula argentea): tóxica para perros y gatos; principio desconocido; vómitos, depresión, incoordinación",
+      "usado_en": [
+        "jade"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Toxic and Non-toxic Plants: Christmas Cactus",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/christmas-cactus",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Christmas cactus (figura como Schlumbergera bridgesii): no tóxica para perros, gatos y caballos",
+      "usado_en": [
+        "cactus-de-navidad"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Toxic and Non-toxic Plants: Heartleaf Philodendron",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/heartleaf-philodendron",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Philodendron hederaceum: tóxica para perros y gatos; oxalatos de calcio insolubles; irritación oral, babeo, vómitos, dificultad para tragar",
+      "usado_en": [
+        "filodendro"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Toxic and Non-toxic Plants: Zebra Haworthia",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/zebra-haworthia",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Zebra Haworthia (figura como Haworthia fasciata, no attenuata): no tóxica para perros, gatos y caballos",
+      "usado_en": [
+        "haworthia"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Toxic and Non-toxic Plants: Blunt Leaf Peperomia",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/blunt-leaf-peperomia",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Peperomia obtusifolia: no tóxica para perros y gatos",
+      "usado_en": [
+        "peperomia"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Toxic and Non-toxic Plants: Mexican Snowballs",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mexican-snowballs",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Mexican Snowballs (nombre científico solo a nivel género, escrito \"Echevaria\"): no tóxica para perros y gatos",
+      "usado_en": [
+        "echeveria"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Are Succulents Safe to Have Around Pets? (nota del 7/4/2021)",
+      "url": "https://www.aspca.org/news/are-succulents-safe-have-around-pets",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Lista como no tóxicas a Pilea peperomioides y Echeveria sp.; como tóxica a Crassula ovata (vómitos, diarrea, letargo, inapetencia)",
+      "usado_en": [
+        "jade",
+        "echeveria",
+        "pilea"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Aloe vera",
+      "url": "https://plants.ces.ncsu.edu/plants/aloe-vera/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Familia, sol pleno a media sombra, sustrato muy drenante, dejar secar del todo, zonas 10a-12b, toxicidad baja (glucósido de antraquinona, hojas), problema para gatos y perros",
+      "usado_en": [
+        "aloe-vera"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Crassula ovata",
+      "url": "https://plants.ces.ncsu.edu/plants/crassula-ovata/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Sinónimo C. argentea, luz brillante con algo de sombra a la tarde, riego moderado con tierra seca y menos de otoño a fin de invierno, zonas 11a-12b, problema para gatos y perros",
+      "usado_en": [
+        "jade"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Echeveria elegans",
+      "url": "https://plants.ces.ncsu.edu/plants/echeveria-elegans/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Sol pleno a media sombra, riego escaso, buen drenaje, zonas 9a-11b, etiquetada no tóxica para gatos, perros y caballos",
+      "usado_en": [
+        "echeveria"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Schlumbergera x buckleyi",
+      "url": "https://plants.ces.ncsu.edu/plants/schlumbergera-x-buckleyi/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz brillante indirecta, sustrato aireado, riego por temporada, humedad alta, floración diciembre-febrero (norte) con 13 h de oscuridad desde mediados de septiembre, no tóxica",
+      "usado_en": [
+        "cactus-de-navidad"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Haworthiopsis attenuata",
+      "url": "https://plants.ces.ncsu.edu/plants/haworthiopsis-attenuata/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Sinónimos, luz brillante indirecta, tolera poca luz, dejar secar entre riegos, humedad de casa, mantener arriba de 10 °C, no tóxica para mascotas y personas",
+      "usado_en": [
+        "haworthia"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Peperomia obtusifolia",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia-obtusifolia/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz brillante indirecta, tolera poca luz por meses, exceso de riego como problema principal, humedad media a baja, zonas 10a-12b, etiquetada no tóxica para gatos y perros",
+      "usado_en": [
+        "peperomia"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Pilea peperomioides",
+      "url": "https://plants.ces.ncsu.edu/plants/pilea-peperomioides/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz brillante indirecta, sustrato húmedo y drenante, humedad moderada a alta pero tolera la de casa, 20-30 cm, dice que es segura para mascotas y chicos",
+      "usado_en": [
+        "pilea"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Philodendron hederaceum",
+      "url": "https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz media y tolera poca, tierra apenas húmeda y menos riego en invierno, humedad media, zonas 11a-12b, toxicidad baja por cristales de oxalato de calcio, todas las partes",
+      "usado_en": [
+        "filodendro"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Jade Plant, Crassula ovata",
+      "url": "https://hort.extension.wisc.edu/articles/jade-plant-crassula-ovata/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "4 o más horas de sol directo, riego generoso en crecimiento dejando secar y restringido en invierno, mezcla para suculentas, tolera amplio rango de humedad, puede sobrevivir heladas leves",
+      "usado_en": [
+        "jade"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Thanksgiving & Christmas Cacti",
+      "url": "https://hgic.clemson.edu/factsheet/thanksgiving-christmas-cacti/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Sombra liviana, sol pleno solo en otoño-invierno, riego por temporada, mezcla aireada, no dejar afuera con menos de 10 °C, 14 h de oscuridad desde mediados de septiembre por 6 semanas",
+      "usado_en": [
+        "cactus-de-navidad"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Philodendron",
+      "url": "https://hgic.clemson.edu/factsheet/philodendron/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Heartleaf (como P. scandens): tolera muy poca luz, tierra pareja húmeda sin encharcar, humedad alta ideal pero tolera la de casa, todas las partes con oxalato de calcio",
+      "usado_en": [
+        "filodendro"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "Echeveria elegans (Mexican snow ball)",
+      "url": "https://www.rhs.org.uk/plants/6226/i-echeveria-elegans-i/details",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Sol pleno, rusticidad H2 (1 a 5 °C, no soporta congelarse), sustrato con arenilla, riego moderado en crecimiento y nada en reposo, hasta 10 cm de alto",
+      "usado_en": [
+        "echeveria"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "Echeveria / RHS Plant Guide",
+      "url": "https://www.rhs.org.uk/plants/echeveria",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Género: luz brillante indirecta, regar cuando el sustrato está casi seco, en invierno riego liviano cada varias semanas, mantener arriba de 10 °C",
+      "usado_en": [
+        "echeveria"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "Haworthiopsis attenuata (zebra plant)",
+      "url": "https://www.rhs.org.uk/plants/504241/haworthiopsis-attenuata/details",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Sinónimo Haworthia attenuata, mucha luz protegida del sol fuerte, sustrato para cactus, humedad baja, casi seca en invierno, rusticidad H2",
+      "usado_en": [
+        "haworthia"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow pilea",
+      "url": "https://www.rhs.org.uk/plants/pilea/how-to-grow-pilea",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Luz brillante indirecta y orientación de ventanas, regar al secarse los primeros centímetros, menos en invierno, tolera aire seco de casa, arriba de 10 °C",
+      "usado_en": [
+        "pilea"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "Pilea peperomioides (missionary plant)",
+      "url": "https://www.rhs.org.uk/plants/13015/pilea-peperomioides/details",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Familia Urticaceae, media sombra, rusticidad H1C (mínima 5-10 °C), dice que necesita humedad alta",
+      "usado_en": [
+        "pilea"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "Crassula ovata (jade plant)",
+      "url": "https://www.rhs.org.uk/plants/4739/crassula-ovata/details",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Mucha luz, sustrato para cactus, riego liviano en primavera-verano y muy escaso en invierno, rusticidad H2 (1 a 5 °C)",
+      "usado_en": [
+        "jade"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "How to grow peperomia",
+      "url": "https://www.rhs.org.uk/plants/peperomia/how-to-grow-peperomia",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Género: luz brillante indirecta, dejar secar en parte entre riegos, menos en invierno, se adapta al aire de casa pero prefiere humedad, sustrato suelto, 18-30 °C",
+      "usado_en": [
+        "peperomia"
+      ]
+    },
+    {
+      "org": "Royal Horticultural Society",
+      "titulo": "Care tips for light-loving houseplants (RHS Urban Show 2024)",
+      "url": "https://www.rhs.org.uk/shows-events/rhs-urban-show/houseplant-profiles/houseplants-for-sunlight",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Aloe vera y jade: luz brillante indirecta, dejar secar del todo, humedad normal de casa sin rociar, temperaturas; aloe dañina si se come (personas y mascotas)",
+      "usado_en": [
+        "aloe-vera",
+        "jade"
+      ]
+    },
+    {
+      "org": "Penn State Extension",
+      "titulo": "Aloe, a Hardy Houseplant",
+      "url": "https://extension.psu.edu/aloe-a-hardy-houseplant",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Sol pleno a parcial, regar a fondo cuando la superficie está seca y menos en otoño-invierno, mezcla gruesa y drenante, no tolera heladas",
+      "usado_en": [
+        "aloe-vera"
+      ]
+    },
+    {
+      "org": "Penn State Extension",
+      "titulo": "Pilea as a Houseplant",
+      "url": "https://extension.psu.edu/pilea-as-a-houseplant",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Sin sol directo, riego equilibrado, sustrato drenante, ambiente cálido y húmedo, noches arriba de 13 °C, 20-30 cm",
+      "usado_en": [
+        "pilea"
+      ]
+    },
+    {
+      "org": "UF/IFAS Gardening Solutions",
+      "titulo": "Echeveria",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/echeveria/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Mejor a pleno sol, tolerante a sequía, el peor error es tenerla muy mojada en invierno",
+      "usado_en": [
+        "echeveria"
+      ]
+    },
+    {
+      "org": "Pet Poison Helpline",
+      "titulo": "Aloe Vera",
+      "url": "https://www.petpoisonhelpline.com/poison/aloe-vera/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Glucósidos de antraquinona (purgantes): vómitos y diarrea en mascotas",
+      "usado_en": [
+        "aloe-vera"
+      ]
+    },
+    {
+      "org": "Pet Poison Helpline",
+      "titulo": "Philodendron",
+      "url": "https://www.petpoisonhelpline.com/poison/philodendron/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Cristales que irritan boca y garganta: babeo, arcadas, vómitos; rara vez hinchazón de garganta con dificultad para respirar",
+      "usado_en": [
+        "filodendro"
+      ]
+    },
+    {
+      "org": "Pet Poison Helpline",
+      "titulo": "Jade Plant",
+      "url": "https://www.petpoisonhelpline.com/poison/jade-plant/",
+      "fecha_consulta": "2026-11-14",
+      "que_se_tomo": "Crassula sp.: malestar digestivo leve y autolimitado; vómitos, diarrea, inapetencia, letargo, ataxia",
+      "usado_en": [
+        "jade"
+      ]
+    }
+  ],
+  "revisar": [
+    {
+      "id": "aloe-vera",
+      "dato": "humedad",
+      "motivo": "Una sola fuente (RHS Urban Show) habla de humedad; NC State y Penn State no la mencionan. Confianza baja, y por eso la confianza general de la planta queda en baja.",
+      "fuentes": [
+        "https://www.rhs.org.uk/shows-events/rhs-urban-show/houseplant-profiles/houseplants-for-sunlight"
+      ]
+    },
+    {
+      "id": "aloe-vera",
+      "dato": "luz.sol_directo",
+      "motivo": "NC State y Penn State dicen sol pleno a parcial; RHS dice luz brillante indirecta lejos del sol directo fuerte. Se dejó true con advertencia.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/aloe-vera/",
+        "https://extension.psu.edu/aloe-a-hardy-houseplant",
+        "https://www.rhs.org.uk/shows-events/rhs-urban-show/houseplant-profiles/houseplants-for-sunlight"
+      ]
+    },
+    {
+      "id": "aloe-vera",
+      "dato": "apta.balcon",
+      "motivo": "Criterio propio: NC State da zonas 10a-12b y Penn State dice que no tolera heladas; se marcó apta con resguardo en noches frías.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/aloe-vera/",
+        "https://extension.psu.edu/aloe-a-hardy-houseplant"
+      ]
+    },
+    {
+      "id": "jade",
+      "dato": "mascotas.partes",
+      "motivo": "Ninguna fuente especifica partes tóxicas (ASPCA: principio desconocido). Queda null.",
+      "fuentes": [
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/jade-plant",
+        "https://www.petpoisonhelpline.com/poison/jade-plant/"
+      ]
+    },
+    {
+      "id": "jade",
+      "dato": "toxicidad (nombre)",
+      "motivo": "La ficha de ASPCA usa Crassula argentea; la equivalencia con C. ovata sale de NC State (\"previously Crassula argentea\") y la nota de ASPCA sobre suculentas nombra a C. ovata.",
+      "fuentes": [
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/jade-plant",
+        "https://plants.ces.ncsu.edu/plants/crassula-ovata/",
+        "https://www.aspca.org/news/are-succulents-safe-have-around-pets"
+      ]
+    },
+    {
+      "id": "echeveria",
+      "dato": "humedad",
+      "motivo": "No verificado: ninguna fuente abierta (NC State, RHS especie, RHS género, UF/IFAS) habla de humedad ambiente. El nivel \"baja\" es un valor provisorio exigido por el esquema.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/echeveria-elegans/",
+        "https://www.rhs.org.uk/plants/6226/i-echeveria-elegans-i/details",
+        "https://www.rhs.org.uk/plants/echeveria",
+        "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/echeveria/"
+      ]
+    },
+    {
+      "id": "echeveria",
+      "dato": "luz",
+      "motivo": "Fuentes en conflicto: sol pleno (RHS especie, NC State, UF/IFAS) vs luz brillante indirecta (guía RHS del género).",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/6226/i-echeveria-elegans-i/details",
+        "https://www.rhs.org.uk/plants/echeveria",
+        "https://plants.ces.ncsu.edu/plants/echeveria-elegans/",
+        "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/echeveria/"
+      ]
+    },
+    {
+      "id": "echeveria",
+      "dato": "toxicidad_gato / toxicidad_perro",
+      "motivo": "ASPCA lista \"Mexican Snowballs\" con nombre científico solo de género (\"Echevaria\") y la nota de suculentas dice \"echeveria sp.\"; la única confirmación a nivel especie (E. elegans) es la etiqueta de NC State. Confianza media.",
+      "fuentes": [
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mexican-snowballs",
+        "https://www.aspca.org/news/are-succulents-safe-have-around-pets",
+        "https://plants.ces.ncsu.edu/plants/echeveria-elegans/"
+      ]
+    },
+    {
+      "id": "echeveria",
+      "dato": "otros_nombres",
+      "motivo": "\"Rosa de alabastro\" está puesto de memoria como nombre usado en español; no fue verificado en una fuente abierta.",
+      "fuentes": []
+    },
+    {
+      "id": "cactus-de-navidad",
+      "dato": "humedad",
+      "motivo": "Una sola fuente (NC State) indica humedad alta; Clemson no trata la humedad. Confianza baja, y por eso la confianza general queda en baja.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/schlumbergera-x-buckleyi/"
+      ]
+    },
+    {
+      "id": "cactus-de-navidad",
+      "dato": "riego",
+      "motivo": "NC State y Clemson difieren en cuándo regar más o menos alrededor de la formación de pimpollos. Confianza media.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/schlumbergera-x-buckleyi/",
+        "https://hgic.clemson.edu/factsheet/thanksgiving-christmas-cacti/"
+      ]
+    },
+    {
+      "id": "cactus-de-navidad",
+      "dato": "toxicidad (especie)",
+      "motivo": "ASPCA lista \"Christmas Cactus\" como Schlumbergera bridgesii; NC State confirma S. x buckleyi. No se abrió ninguna ficha de toxicidad específica de S. truncata (cactus de Acción de Gracias, que suele venderse con el mismo nombre).",
+      "fuentes": [
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/christmas-cactus",
+        "https://plants.ces.ncsu.edu/plants/schlumbergera-x-buckleyi/"
+      ]
+    },
+    {
+      "id": "cactus-de-navidad",
+      "dato": "floración en Buenos Aires",
+      "motivo": "Los meses (junio-agosto, inducción desde mediados de marzo) son una conversión propia desde fuentes del hemisferio norte; no hay fuente argentina que lo confirme.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/schlumbergera-x-buckleyi/",
+        "https://hgic.clemson.edu/factsheet/thanksgiving-christmas-cacti/"
+      ]
+    },
+    {
+      "id": "cactus-de-navidad",
+      "dato": "otros_nombres",
+      "motivo": "\"Santa Teresita\" y \"Zygocactus\" están puestos de memoria; no verificados en fuente abierta.",
+      "fuentes": []
+    },
+    {
+      "id": "haworthia",
+      "dato": "toxicidad_gato / toxicidad_perro",
+      "motivo": "ASPCA no lista Haworthiopsis/Haworthia attenuata: su ficha \"Zebra Haworthia\" es de Haworthia fasciata. No se extendió esa ficha; el dato \"segura\" para la especie se apoya solo en NC State. Confianza media.",
+      "fuentes": [
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/zebra-haworthia",
+        "https://plants.ces.ncsu.edu/plants/haworthiopsis-attenuata/"
+      ]
+    },
+    {
+      "id": "haworthia",
+      "dato": "luz",
+      "motivo": "RHS la marca \"full sun\" con sombra del sol fuerte; NC State la marca media sombra y dice que el sol directo quema. Confianza media.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/504241/haworthiopsis-attenuata/details",
+        "https://plants.ces.ncsu.edu/plants/haworthiopsis-attenuata/"
+      ]
+    },
+    {
+      "id": "haworthia",
+      "dato": "apta.balcon",
+      "motivo": "RHS da mínima de 1 a 5 °C; NC State pide mantenerla arriba de 10 °C. Se marcó apta con resguardo; revisar si se prefiere false.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/504241/haworthiopsis-attenuata/details",
+        "https://plants.ces.ncsu.edu/plants/haworthiopsis-attenuata/"
+      ]
+    },
+    {
+      "id": "peperomia",
+      "dato": "humedad / sustrato",
+      "motivo": "La segunda fuente (RHS) es una guía del género Peperomia, no específica de P. obtusifolia; además difiere de NC State en humedad. Confianza media.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/peperomia/how-to-grow-peperomia",
+        "https://plants.ces.ncsu.edu/plants/peperomia-obtusifolia/"
+      ]
+    },
+    {
+      "id": "pilea",
+      "dato": "toxicidad_gato / toxicidad_perro",
+      "motivo": "ASPCA no tiene ficha propia de Pilea peperomioides en su base (la URL probada devolvió el índice general y la búsqueda en aspca.org no encontró ficha). Se apoya en una nota de ASPCA de 2021 que la lista como no tóxica y en NC State (\"safe for pets and children\", sin detalle). No hay segunda fuente veterinaria. Confianza media.",
+      "fuentes": [
+        "https://www.aspca.org/news/are-succulents-safe-have-around-pets",
+        "https://plants.ces.ncsu.edu/plants/pilea-peperomioides/"
+      ]
+    },
+    {
+      "id": "pilea",
+      "dato": "humedad",
+      "motivo": "Fuentes con matices, incluso dos páginas de RHS que se contradicen (tolera aire seco vs necesita humedad alta).",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/pilea/how-to-grow-pilea",
+        "https://www.rhs.org.uk/plants/13015/pilea-peperomioides/details",
+        "https://plants.ces.ncsu.edu/plants/pilea-peperomioides/",
+        "https://extension.psu.edu/pilea-as-a-houseplant"
+      ]
+    },
+    {
+      "id": "filodendro",
+      "dato": "mascotas.gravedad / advertencia_grave",
+      "motivo": "NC State: severidad baja. Pet Poison Helpline: en casos raros, hinchazón de garganta con dificultad para respirar. Se puso \"moderada\" y advertencia_grave null; decidir si ese caso raro amerita advertencia.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/",
+        "https://www.petpoisonhelpline.com/poison/philodendron/"
+      ]
+    },
+    {
+      "id": "filodendro",
+      "dato": "sustrato",
+      "motivo": "Solo Clemson detalla el sustrato (tierra de uso general, drenaje rápido); NC State solo dice buen drenaje y húmedo. Confianza media.",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/philodendron/",
+        "https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/"
+      ]
+    },
+    {
+      "id": "todas",
+      "dato": "atractivo_para_mascotas",
+      "motivo": "Ninguna fuente abierta menciona si estas plantas atraen a gatos o perros; quedó \"desconocido\" en las 8.",
+      "fuentes": []
+    },
+    {
+      "id": "todas",
+      "dato": "otros_nombres",
+      "motivo": "Los nombres alternativos en español están puestos de memoria (no hay fuente argentina abierta que los respalde).",
+      "fuentes": []
+    }
+  ],
+  "no_pude_abrir": [
+    "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b628 (error de certificado; no se usó Missouri Botanical Garden en ninguna planta)",
+    "https://extension.umn.edu/houseplants/cacti-and-succulents (HTTP 403)",
+    "https://extension.umn.edu/houseplants/holiday-cacti (HTTP 403)",
+    "https://hort.extension.wisc.edu/articles/aloe-vera/ (404, URL adivinada)",
+    "https://hort.extension.wisc.edu/articles/chinese-money-plant-pilea-peperomioides/ (404, URL adivinada)",
+    "https://hort.extension.wisc.edu/articles/heart-leaf-philodendron-philodendron-hederaceum/ (404, URL adivinada)",
+    "https://hort.extension.wisc.edu/articles/baby-rubber-plant-peperomia-obtusifolia/ (404, URL adivinada)",
+    "https://hort.extension.wisc.edu/articles/holiday-cacti/ (404, URL adivinada)",
+    "https://yardandgarden.extension.iastate.edu/how-to/care-holiday-cacti (404, URL adivinada)",
+    "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/chinese-money-plant (no existe la ficha: devuelve el índice general de plantas)"
+  ]
+}
