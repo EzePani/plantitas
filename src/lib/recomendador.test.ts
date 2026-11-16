@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import type { Planta } from '../data/plantas/esquema'
 import { esApta, seguridadPara } from './mascotas'
-import { recomendar, type DatosEspacio } from './recomendador'
+import { calceEnEspacio, recomendar, type DatosEspacio } from './recomendador'
 import type { PerfilLuz } from './tipos'
 
 type Extra = { gato?: Planta['mascotas']['toxicidad_gato']; perro?: Planta['mascotas']['toxicidad_perro'] } & Partial<Omit<Planta, 'mascotas'>>
@@ -224,3 +224,38 @@ describe('recomendador', () => {
     expect(r.evitar[0].motivo).toBe('poca_luz')
   })
 })
+
+describe('calce de una planta en un espacio', () => {
+  it('le va bien con la luz que pide', () => {
+    expect(calceEnEspacio(planta('a'), base)).toEqual({ nivel: 'bien' })
+  })
+
+  it('con mascotas, la toxicidad pesa más que la luz', () => {
+    expect(calceEnEspacio(planta('a', { gato: 'toxica' }), { ...base, mascotas: 'gato' })).toEqual({ nivel: 'no', motivo: 'toxica' })
+    expect(calceEnEspacio(planta('a', { perro: 'no_verificada' }), { ...base, mascotas: 'perro' })).toEqual({ nivel: 'no', motivo: 'no_verificada' })
+    // La toxicidad para otra especie no cuenta
+    expect(calceEnEspacio(planta('a', { gato: 'toxica' }), { ...base, mascotas: 'perro' })).toEqual({ nivel: 'bien' })
+  })
+
+  it('sin luz suficiente avisa que le falta luz', () => {
+    expect(calceEnEspacio(planta('a'), { ...base, luz: BAJA })).toEqual({ nivel: 'no', motivo: 'poca_luz' })
+  })
+
+  it('un lugar que no es apto para la planta lo descarta', () => {
+    expect(calceEnEspacio(planta('a'), { ...base, tipo: 'balcon' })).toEqual({ nivel: 'no', motivo: 'lugar' })
+  })
+
+  it('con sol directo, adentro, la de luz indirecta brillante necesita un ajuste', () => {
+    expect(calceEnEspacio(planta('a'), { ...base, luz: MANANA })).toEqual({ nivel: 'con_ajuste' })
+  })
+
+  it('coincide con el recomendador: si la recomienda, no dice que no', () => {
+    const p = planta('a')
+    for (const luz of [INDIRECTA, BAJA, NO_SE, MANANA, TARDE]) {
+      const d = { ...base, luz }
+      const recomendada = recomendar([p], d).recomendadas.length > 0
+      expect(calceEnEspacio(p, d).nivel !== 'no').toBe(recomendada)
+    }
+  })
+})
+

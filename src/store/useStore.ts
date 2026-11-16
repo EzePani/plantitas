@@ -27,6 +27,7 @@ export const DATOS_INICIALES: DatosPersistidos = {
   insignias: {},
   semillas: [],
   espacios: [],
+  favoritas: [],
 }
 
 export interface Resumen {
@@ -56,6 +57,7 @@ interface Acciones {
   saltarUnidad: (u: UnidadId) => void
   guardarEspacio: (e: Espacio) => void
   borrarEspacio: (id: string) => void
+  alternarFavorita: (plantaId: string) => void
   reemplazarDatos: (d: DatosPersistidos) => void
   reiniciar: () => void
 }
@@ -77,6 +79,7 @@ export function soloDatos(s: Estado): DatosPersistidos {
     insignias: s.insignias,
     semillas: s.semillas,
     espacios: s.espacios,
+    favoritas: s.favoritas,
   }
 }
 
@@ -169,6 +172,10 @@ export const useStore = create<Estado>()(
       // Si el espacio ya existe se actualiza en su lugar; si es nuevo va al final
       guardarEspacio: (e) => set((s) => ({ espacios: s.espacios.some((x) => x.id === e.id) ? s.espacios.map((x) => (x.id === e.id ? e : x)) : [...s.espacios, e].slice(0, 50) })),
       borrarEspacio: (id) => set((s) => ({ espacios: s.espacios.filter((x) => x.id !== id) })),
+
+      // Sin duplicados; las nuevas van primero
+      alternarFavorita: (id) =>
+        set((s) => ({ favoritas: s.favoritas.includes(id) ? s.favoritas.filter((x) => x !== id) : [id, ...s.favoritas].slice(0, 200) })),
 
       reemplazarDatos: (d) => set({ ...d }),
       reiniciar: () => set({ ...DATOS_INICIALES }),

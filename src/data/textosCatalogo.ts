@@ -11,6 +11,27 @@ export const TC = {
     estado: { segura: 'Segura', toxica: 'Tóxica', no_verificada: 'Sin verificar' },
     para: { gato: 'para gatos', perro: 'para perros' },
     vacio: 'Ninguna planta pasa este filtro todavía.',
+    favoritas: {
+      filtro: 'Favoritas',
+      agregar: (n: string) => `Marcar ${n} como favorita`,
+      quitar: (n: string) => `Sacar ${n} de favoritas`,
+      vacio: 'Todavía no marcaste ninguna. Tocá el corazón de una planta para guardarla acá.',
+      calce: {
+        titulo: 'En tus espacios',
+        sinEspacios: 'Cargá un espacio en Mi espacio y te digo dónde le va.',
+        estimacion: 'Es una estimación según la luz que cargaste en cada espacio.',
+        bien: 'le va bien',
+        con_ajuste: 'le va, con un ajuste: corrida de la ventana o con cortina',
+        no: {
+          toxica: 'es tóxica para tus mascotas',
+          no_verificada: 'no está verificada como segura para tus mascotas',
+          lugar: 'no es para este tipo de lugar',
+          poca_luz: 'acá le falta luz',
+          demasiado_sol: 'acá le sobra sol',
+          calor: 'acá el sol fuerte la puede quemar',
+        },
+      },
+    },
     cuenta: (n: number) => (n === 1 ? '1 planta' : `${n} plantas`),
     peligrosas: {
       titulo: 'Especialmente peligrosas',

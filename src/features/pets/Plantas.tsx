@@ -1,4 +1,4 @@
-import { ChevronRight, TriangleAlert } from 'lucide-react'
+import { ChevronRight, Heart, TriangleAlert } from 'lucide-react'
 import { useState } from 'react'
 import { FotoPlanta } from '../../components/FotoPlanta'
 import { ListaFuentes } from '../../components/ListaFuentes'
@@ -9,40 +9,51 @@ import { vibrar } from '../../lib/haptics'
 import { esApta } from '../../lib/mascotas'
 import type { TipoMascota } from '../../lib/tipos'
 import { useStore } from '../../store/useStore'
+import { BotonFavorita, CalceEspacios } from './Favorita'
 import { FichaPlanta } from './FichaPlanta'
 import { Semaforo } from './Semaforo'
 
 const P = TC.plantas
 const FILTROS: TipoMascota[] = ['ninguna', 'gato', 'perro', 'ambos']
 
-export function TarjetaPlanta({ planta, onClick, detalle }: { planta: Planta; onClick: () => void; detalle?: string }) {
+export function TarjetaPlanta({ planta, onClick, detalle, corazon = true, calce }: { planta: Planta; onClick: () => void; detalle?: string; corazon?: boolean; calce?: boolean }) {
   return (
-    <button
-      type="button"
-      onClick={() => {
-        vibrar('toque')
-        onClick()
-      }}
-      className="border-arena-osc flex w-full items-center gap-3 rounded-3xl border-2 bg-white p-2.5 text-left shadow-[0_3px_0_var(--color-arena-osc)] active:translate-y-0.5 active:shadow-none"
-    >
-      <FotoPlanta planta={planta} className="size-[76px] shrink-0 rounded-2xl" />
-      <span className="min-w-0 flex-1">
-        <span className="font-display text-tinta block text-[18px] leading-tight font-semibold">{planta.nombre_comun}</span>
-        <span className="text-tinta-suave block truncate text-[13px] font-bold italic">{planta.nombre_cientifico}</span>
-        {detalle ? (
-          <span className="text-tinta mt-1 block text-[14px] leading-snug font-bold">{detalle}</span>
-        ) : (
-          <span className="mt-1.5 flex flex-wrap items-center gap-1.5">
-            <Semaforo planta={planta} especie="gato" compacto />
-            <Semaforo planta={planta} especie="perro" compacto />
-            <span className="text-tinta-suave text-[12px] font-extrabold">
-              {TC.luz.categorias[planta.luz_requerida]} · {P.dificultad[planta.dificultad]}
-            </span>
+    <div className="border-arena-osc rounded-3xl border-2 bg-white shadow-[0_3px_0_var(--color-arena-osc)]">
+      <div className="flex items-center">
+        <button
+          type="button"
+          onClick={() => {
+            vibrar('toque')
+            onClick()
+          }}
+          className="flex min-w-0 flex-1 items-center gap-3 rounded-3xl border-0 bg-transparent p-2.5 text-left active:opacity-70"
+        >
+          <FotoPlanta planta={planta} className="size-[76px] shrink-0 rounded-2xl" />
+          <span className="min-w-0 flex-1">
+            <span className="font-display text-tinta block text-[18px] leading-tight font-semibold">{planta.nombre_comun}</span>
+            <span className="text-tinta-suave block truncate text-[13px] font-bold italic">{planta.nombre_cientifico}</span>
+            {detalle ? (
+              <span className="text-tinta mt-1 block text-[14px] leading-snug font-bold">{detalle}</span>
+            ) : (
+              <span className="mt-1.5 flex flex-wrap items-center gap-1.5">
+                <Semaforo planta={planta} especie="gato" compacto />
+                <Semaforo planta={planta} especie="perro" compacto />
+                <span className="text-tinta-suave text-[12px] font-extrabold">
+                  {TC.luz.categorias[planta.luz_requerida]} · {P.dificultad[planta.dificultad]}
+                </span>
+              </span>
+            )}
           </span>
-        )}
-      </span>
-      <ChevronRight size={20} className="text-tinta-suave shrink-0" aria-hidden />
-    </button>
+          {!corazon && <ChevronRight size={20} className="text-tinta-suave shrink-0" aria-hidden />}
+        </button>
+        {corazon && <BotonFavorita planta={planta} className="mr-1.5" />}
+      </div>
+      {calce && (
+        <div className="border-arena border-t-2 px-3.5 py-2.5">
+          <CalceEspacios planta={planta} compacto />
+        </div>
+      )}
+    </div>
   )
 }
 
@@ -52,8 +63,11 @@ export function Plantas() {
   const [filtro, setFiltro] = useState<TipoMascota>(mascotas)
   const [abierta, setAbierta] = useState<Planta | null>(null)
   const [verPeligrosas, setVerPeligrosas] = useState(false)
+  const [soloFavoritas, setSoloFavoritas] = useState(false)
+  const favoritas = useStore((s) => s.favoritas)
 
-  const lista = PLANTAS.filter((p) => esApta(p, filtro)).sort((a, b) => a.nombre_comun.localeCompare(b.nombre_comun, 'es'))
+  // En "Favoritas" se ve todo lo marcado, aun si el filtro de mascotas la dejaría afuera: el semáforo avisa
+  const lista = PLANTAS.filter((p) => (soloFavoritas ? favoritas.includes(p.id) : esApta(p, filtro))).sort((a, b) => a.nombre_comun.localeCompare(b.nombre_comun, 'es'))
 
   return (
     <div className="safe-top relative flex min-h-0 flex-1 flex-col">
@@ -61,16 +75,30 @@ export function Plantas() {
         <h1 className="font-display text-hoja-osc m-0 text-[30px] font-semibold">{P.titulo}</h1>
       </header>
       <div className="scroll-app -mx-0 flex shrink-0 gap-2 overflow-x-auto px-5 py-3" role="group" aria-label={P.titulo}>
+        <button
+          type="button"
+          aria-pressed={soloFavoritas}
+          onClick={() => {
+            vibrar('toque')
+            setSoloFavoritas((v) => !v)
+          }}
+          className={`flex min-h-11 shrink-0 items-center gap-1.5 rounded-full border-2 px-4 text-[14px] font-extrabold whitespace-nowrap ${soloFavoritas ? 'border-alerta bg-alerta text-white' : 'border-arena-osc text-tinta bg-white'}`}
+        >
+          <Heart size={16} strokeWidth={2.6} fill={soloFavoritas ? 'currentColor' : 'none'} aria-hidden />
+          {P.favoritas.filtro}
+          {favoritas.length > 0 && ` · ${favoritas.length}`}
+        </button>
         {FILTROS.map((f) => (
           <button
             key={f}
             type="button"
-            aria-pressed={filtro === f}
+            aria-pressed={!soloFavoritas && filtro === f}
             onClick={() => {
               vibrar('toque')
               setFiltro(f)
+              setSoloFavoritas(false)
             }}
-            className={`min-h-11 shrink-0 rounded-full border-2 px-4 text-[14px] font-extrabold whitespace-nowrap ${filtro === f ? 'border-hoja bg-hoja text-white' : 'border-arena-osc text-tinta bg-white'}`}
+            className={`min-h-11 shrink-0 rounded-full border-2 px-4 text-[14px] font-extrabold whitespace-nowrap ${!soloFavoritas && filtro === f ? 'border-hoja bg-hoja text-white' : 'border-arena-osc text-tinta bg-white'}`}
           >
             {P.filtros[f]}
           </button>
@@ -96,11 +124,11 @@ export function Plantas() {
         )}
         <p className="text-tinta-suave mt-0 mb-2 text-[13px] font-extrabold">{P.cuenta(lista.length)}</p>
         {lista.length === 0 ? (
-          <p className="text-tinta-suave py-10 text-center text-[15px] font-bold">{P.vacio}</p>
+          <p className="text-tinta-suave py-10 text-center text-[15px] font-bold">{soloFavoritas ? P.favoritas.vacio : P.vacio}</p>
         ) : (
           <div className="flex flex-col gap-2.5">
             {lista.map((p) => (
-              <TarjetaPlanta key={p.id} planta={p} onClick={() => setAbierta(p)} />
+              <TarjetaPlanta key={p.id} planta={p} onClick={() => setAbierta(p)} calce={soloFavoritas} />
             ))}
           </div>
         )}

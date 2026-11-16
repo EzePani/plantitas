@@ -97,4 +97,6 @@ export interface DatosPersistidos {
   insignias: Record<string, string>
   semillas: UnidadId[]
   espacios: Espacio[]
+  /** Ids de plantas del catálogo marcadas con el corazón */
+  favoritas: string[]
 }

@@ -38,7 +38,7 @@ const migrado = () => {
 
 describe('migración v1 → v2', () => {
   it('el resultado es un estado válido de la versión actual', () => {
-    expect(VERSION_DATOS).toBe(2)
+    expect(VERSION_DATOS).toBe(3)
     expect(esquemaDatos.safeParse(migrar(structuredClone(v1), 1)).success).toBe(true)
   })
 
@@ -109,7 +109,7 @@ describe('migración v1 → v2', () => {
 
   it('un estado sin onboarding migra sin inventar espacios', () => {
     const vacio = { onboardingCompleto: false, respuestas: null, perfil: null, mascotas: { tipo: 'ninguna' }, completadas: {}, salteadas: [], xp: 0, racha: { dias: 0, ultima: null }, insignias: {}, semillas: [], espacios: [] }
-    expect(esquemaDatos.parse(migrar(vacio, 1))).toEqual(vacio)
+    expect(esquemaDatos.parse(migrar(vacio, 1))).toEqual({ ...vacio, favoritas: [] })
   })
 
   it('renombra la unidad "agua" si estaba salteada o con semilla', () => {
@@ -139,3 +139,29 @@ describe('migración v1 → v2', () => {
     expect(migrar(d, VERSION_DATOS)).toBe(d)
   })
 })
+
+describe('migración v2 → v3', () => {
+  const v2 = () => ({ ...structuredClone(migrado()), favoritas: undefined })
+
+  it('agrega la lista de favoritas vacía y no toca nada más', () => {
+    const { favoritas: _f, ...base } = v2()
+    const d = esquemaDatos.parse(migrar(structuredClone(base), 2))
+    expect(d.favoritas).toEqual([])
+    expect(d.xp).toBe(312)
+    expect(d.espacios).toHaveLength(2)
+    expect(d.completadas['basico-4']).toBeDefined()
+  })
+
+  it('un backup de la versión 2 se importa y arranca sin favoritas', () => {
+    const { favoritas: _f, ...base } = v2()
+    const r = leerBackup(JSON.stringify({ app: 'plantitas', version: 2, exportado: '2026-11-15T12:00:00.000Z', datos: base }))
+    expect(r.ok).toBe(true)
+    if (r.ok) expect(r.datos.favoritas).toEqual([])
+  })
+
+  it('si ya traía favoritas, las conserva', () => {
+    const d = esquemaDatos.parse(migrar({ ...v2(), favoritas: ['monstera'] }, 2))
+    expect(d.favoritas).toEqual(['monstera'])
+  })
+})
+

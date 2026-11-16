@@ -4,6 +4,7 @@ import { FotoPlanta } from '../../components/FotoPlanta'
 import { ListaFuentes } from '../../components/ListaFuentes'
 import type { Planta } from '../../data/plantas'
 import { TC } from '../../data/textosCatalogo'
+import { BotonFavorita, CalceEspacios } from './Favorita'
 import { Semaforo } from './Semaforo'
 
 const P = TC.plantas
@@ -29,8 +30,13 @@ export function FichaPlanta({ planta: p }: { planta: Planta }) {
     <article className="pb-8">
       <FotoPlanta planta={p} className="mx-5 aspect-[4/3] rounded-3xl" />
       <div className="px-5 pt-4">
-        <h2 className="font-display text-hoja-osc m-0 text-[30px] leading-tight font-semibold">{p.nombre_comun}</h2>
-        <p className="text-tinta-suave m-0 text-[15px] font-bold italic">{p.nombre_cientifico}</p>
+        <div className="flex items-start justify-between gap-2">
+          <div className="min-w-0">
+            <h2 className="font-display text-hoja-osc m-0 text-[30px] leading-tight font-semibold">{p.nombre_comun}</h2>
+            <p className="text-tinta-suave m-0 text-[15px] font-bold italic">{p.nombre_cientifico}</p>
+          </div>
+          <BotonFavorita planta={p} className="-mr-2" />
+        </div>
         {p.otros_nombres.length > 0 && <p className="text-tinta-suave m-0 text-[13px] font-bold">{p.otros_nombres.join(' · ')}</p>}
         <div className="mt-3 flex flex-wrap gap-2">
           {[P.grupo[p.grupo], P.dificultad[p.dificultad], P.tamano[p.tamano]].map((t) => (
@@ -40,6 +46,12 @@ export function FichaPlanta({ planta: p }: { planta: Planta }) {
           ))}
         </div>
         <p className="bg-brote text-hoja-osc mt-4 mb-0 rounded-2xl p-3 text-[16px] leading-snug font-extrabold">{p.tip}</p>
+
+        <h3 className="font-display text-tinta mt-6 mb-2 text-[20px] font-semibold">{P.favoritas.calce.titulo}</h3>
+        <div className="border-arena-osc rounded-2xl border-2 bg-white p-3">
+          <CalceEspacios planta={p} />
+          <p className="text-tinta-suave mt-2 mb-0 text-[12px] leading-snug font-bold">{P.favoritas.calce.estimacion}</p>
+        </div>
 
         <h3 className="font-display text-tinta mt-6 mb-2 text-[20px] font-semibold">{F.mascotas}</h3>
         {m.advertencia_grave && (

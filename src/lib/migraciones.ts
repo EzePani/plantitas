@@ -87,4 +87,12 @@ function v1aV2(datos: unknown): unknown {
   return d
 }
 
-export const MIGRACIONES: Record<number, (datos: unknown) => unknown> = { 1: v1aV2 }
+// ---------- v2 → v3: plantas favoritas ----------
+
+/** Solo agrega la lista de favoritas, vacía. Todo lo demás queda como estaba. */
+function v2aV3(datos: unknown): unknown {
+  if (!esObj(datos)) return datos
+  return { ...datos, favoritas: Array.isArray(datos.favoritas) ? datos.favoritas : [] }
+}
+
+export const MIGRACIONES: Record<number, (datos: unknown) => unknown> = { 1: v1aV2, 2: v2aV3 }

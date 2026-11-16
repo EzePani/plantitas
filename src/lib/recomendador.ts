@@ -75,6 +75,26 @@ function luzCompatible(p: Planta, luz: LuzDerivada, interior: boolean): Compatib
   return 'no'
 }
 
+/** Cómo le va una planta puntual a un espacio puntual. Mismos filtros duros que el recomendador. */
+export type Calce =
+  | { nivel: 'bien' | 'con_ajuste' }
+  | { nivel: 'no'; motivo: 'toxica' | 'no_verificada' | 'lugar' | 'poca_luz' | 'demasiado_sol' | 'calor' }
+
+export function calceEnEspacio(p: Planta, d: DatosEspacio): Calce {
+  const interior = d.tipo !== 'balcon'
+  if (!(interior ? p.apta.interior : p.apta.balcon)) return { nivel: 'no', motivo: 'lugar' }
+  // La seguridad de las mascotas pesa más que la luz: se avisa primero
+  const seguridad = seguridadPara(p, d.mascotas)
+  if (seguridad === 'toxica') return { nivel: 'no', motivo: 'toxica' }
+  if (seguridad === 'no_verificada') return { nivel: 'no', motivo: 'no_verificada' }
+  const luz = derivarLuz(d.luz)
+  const comp = luzCompatible(p, luz, interior)
+  if (comp === 'no') return { nivel: 'no', motivo: luz.categoria === 'directa' ? (luz.avisoCalor && !p.tolera_sol_tarde ? 'calor' : 'demasiado_sol') : 'poca_luz' }
+  // Con aviso de calor, las muy sensibles sufren aunque la luz sea compatible
+  if (comp === 'filtrada' || (luz.avisoCalor && p.sensibilidad_calor === 'alta')) return { nivel: 'con_ajuste' }
+  return { nivel: 'bien' }
+}
+
 function puntuar(p: Planta, d: DatosEspacio, luz: LuzDerivada): Recomendada | null {
   const motivos: Motivo[] = []
   const comp = luzCompatible(p, luz, d.tipo !== 'balcon')
