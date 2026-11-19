@@ -22,3 +22,18 @@ export const TN = {
   ok: 'Todo al día.',
   errorGenerico: 'No se pudo sincronizar. Tu progreso sigue guardado en este dispositivo.',
 } as const
+
+/** Recuperar progreso desde la pantalla de bienvenida */
+export const TR = {
+  entrada: 'Ya usé Plantitas: recuperar mi progreso',
+  titulo: 'Recuperar mi progreso',
+  vincularTitulo: 'Con mi cuenta',
+  vincularTexto: 'Si ya vinculaste otro dispositivo, entrá con tu correo y se baja todo.',
+  textoTitulo: 'Con el texto copiado',
+  textoPista: 'Pegá acá lo que copiaste con "Copiar mi progreso"',
+  leer: 'Leer progreso',
+  archivo: 'Elegir un archivo de backup',
+  usar: 'Usar este progreso',
+  descartar: 'Cancelar',
+  resumen: (lecciones: number, xp: number, espacios: number) => `Trae ${lecciones} lecciones, ${xp} XP y ${espacios} espacios.`,
+} as const
