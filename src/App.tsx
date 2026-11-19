@@ -41,6 +41,18 @@ export function App() {
     return () => clearTimeout(id)
   }, [])
 
+  // Si este dispositivo está vinculado, se engancha la sincronización (el cliente de la nube se carga aparte)
+  useEffect(() => {
+    if (!listo) return
+    try {
+      // También al volver del link del mail, para que la sesión se tome aunque el dispositivo todavía no esté vinculado
+      const vuelveDelLink = location.hash.includes('access_token') || location.search.includes('code=')
+      if (vuelveDelLink || localStorage.getItem('plantitas-dispositivo')?.includes('"registrado":true')) void import('./lib/nube').then((m) => m.iniciar())
+    } catch {
+      // sin almacenamiento no hay sincronización
+    }
+  }, [listo])
+
   const cambiar = (p: Pestana) => {
     setDireccion(ORDEN.indexOf(p) >= ORDEN.indexOf(pestana) ? 1 : -1)
     setPestana(p)

@@ -19,8 +19,20 @@ import { EditorMascotas } from '../pets/EditorMascotas'
 import { Panel } from '../../components/Panel'
 import { TC } from '../../data/textosCatalogo'
 import { Creditos, Fuentes } from './Fuentes'
+import { Nube } from './Nube'
 
 const P = T.perfil
+
+/** Lee el archivo como texto. File.text() no existe en Safari viejo: se cae a FileReader. */
+function leerArchivo(f: File): Promise<string> {
+  if (typeof f.text === 'function') return f.text()
+  return new Promise((ok, mal) => {
+    const r = new FileReader()
+    r.onload = () => ok(String(r.result ?? ''))
+    r.onerror = () => mal(r.error)
+    r.readAsText(f)
+  })
+}
 
 function Fila({ icono, titulo, detalle, onClick, deshabilitada }: { icono: ReactNode; titulo: string; detalle?: string; onClick?: () => void; deshabilitada?: boolean }) {
   return (
@@ -69,7 +81,7 @@ export function Perfil() {
     if (!f) return
     let texto = ''
     try {
-      texto = await f.text()
+      texto = await leerArchivo(f)
     } catch {
       // se trata como archivo ilegible
     }
@@ -172,6 +184,8 @@ export function Perfil() {
         </div>
       </section>
 
+      <Nube />
+
       <section className="px-5 pt-6">
         <h2 className="font-display text-tinta m-0 mb-2 text-[20px] font-semibold">{P.ajustes}</h2>
         <div className="border-arena-osc overflow-hidden rounded-3xl border-2 bg-white">
@@ -182,7 +196,7 @@ export function Perfil() {
           <Fila icono={<Image aria-hidden />} titulo={P.creditos} onClick={() => setPanel('creditos')} />
           <Fila icono={<RotateCcw aria-hidden />} titulo={P.reiniciar} onClick={() => setReiniciar(true)} />
         </div>
-        <input ref={archivo} type="file" accept="application/json,.json" className="hidden" onChange={(e) => void alElegirArchivo(e.target.files?.[0])} />
+        <input ref={archivo} type="file" className="sr-only" tabIndex={-1} aria-hidden onChange={(e) => void alElegirArchivo(e.target.files?.[0])} />
 
         <div className="bg-sol-claro mt-3 rounded-2xl p-4">
           <p className="text-tinta m-0 text-[15px] font-extrabold">{P.respaldoTitulo}</p>

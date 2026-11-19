@@ -100,6 +100,7 @@ export type ResultadoImportacion =
 
 /** Valida un backup. Nunca tira excepciones ni toca el estado: solo devuelve el resultado. */
 export function leerBackup(texto: string): ResultadoImportacion {
+  texto = texto.replace(/^\uFEFF/, '') // algunos viajes del archivo le agregan una marca BOM que rompe JSON.parse
   if (!texto.trim()) return { ok: false, error: 'vacio' }
   if (texto.length > MAX_BYTES) return { ok: false, error: 'muy_grande' }
   let crudo: unknown
