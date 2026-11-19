@@ -1,4 +1,4 @@
-import { ChevronRight, Download, Flame, PawPrint, RotateCcw, Upload, Zap, BookOpen, Image, Leaf } from 'lucide-react'
+import { ChevronRight, ClipboardPaste, Copy, Download, Flame, PawPrint, RotateCcw, Upload, Zap, BookOpen, Image, Leaf } from 'lucide-react'
 import { useRef, useState, type ReactNode } from 'react'
 import { Boton } from '../../components/Boton'
 import { Dialogo } from '../../components/Dialogo'
@@ -62,6 +62,8 @@ export function Perfil() {
   const [reiniciar, setReiniciar] = useState(false)
   const [panel, setPanel] = useState<'fuentes' | 'creditos' | null>(null)
   const archivo = useRef<HTMLInputElement>(null)
+  const [pegando, setPegando] = useState(false)
+  const [pegado, setPegado] = useState('')
 
   const leccionesHechas = Object.keys(s.completadas).filter((id) => !id.startsWith('repaso-')).length
   const unidades = Object.keys(LECCIONES_POR_UNIDAD) as UnidadId[]
@@ -75,6 +77,25 @@ export function Perfil() {
     a.click()
     URL.revokeObjectURL(url)
     setAviso({ tipo: 'ok', texto: P.exportado })
+  }
+
+  const resumen = (d: DatosPersistidos) => P.resumen(Object.keys(d.completadas).length, d.xp, d.espacios.length)
+
+  const copiar = async () => {
+    try {
+      await navigator.clipboard.writeText(JSON.stringify(crearBackup(soloDatos(s))))
+      setAviso({ tipo: 'ok', texto: P.copiado })
+    } catch {
+      setAviso({ tipo: 'error', texto: P.copiarError })
+    }
+  }
+
+  const leerPegado = () => {
+    const r = leerBackup(pegado)
+    setPegando(false)
+    setPegado('')
+    if (r.ok) setPendiente(r.datos)
+    else setAviso({ tipo: 'error', texto: P.erroresImportacion[r.error as ErrorImportacion] })
   }
 
   const alElegirArchivo = async (f: File | undefined) => {
@@ -192,6 +213,8 @@ export function Perfil() {
           <Fila icono={<PawPrint aria-hidden />} titulo={P.mascotas} detalle={`${P.mascotasResumen[s.mascotas.tipo]} · ${P.mascotasTexto}`} onClick={() => setEditarMascotas(true)} />
           <Fila icono={<Download aria-hidden />} titulo={P.exportar} onClick={exportar} />
           <Fila icono={<Upload aria-hidden />} titulo={P.importar} onClick={() => archivo.current?.click()} />
+          <Fila icono={<Copy aria-hidden />} titulo={P.copiar} onClick={() => void copiar()} />
+          <Fila icono={<ClipboardPaste aria-hidden />} titulo={P.pegar} onClick={() => setPegando(true)} />
           <Fila icono={<BookOpen aria-hidden />} titulo={P.fuentes} onClick={() => setPanel('fuentes')} />
           <Fila icono={<Image aria-hidden />} titulo={P.creditos} onClick={() => setPanel('creditos')} />
           <Fila icono={<RotateCcw aria-hidden />} titulo={P.reiniciar} onClick={() => setReiniciar(true)} />
@@ -228,12 +251,28 @@ export function Perfil() {
         />
       </HojaInferior>
 
-      <Dialogo abierto={pendiente !== null} titulo={P.importarConfirmarTitulo} texto={P.importarConfirmarTexto}>
+      <Dialogo abierto={pegando} titulo={P.pegarTitulo} texto={P.pegarTexto}>
+        <textarea
+          aria-label={P.pegarTitulo}
+          value={pegado}
+          onChange={(e) => setPegado(e.target.value)}
+          rows={5}
+          className="border-arena-osc text-tinta w-full rounded-2xl border-2 bg-white p-3 text-[14px]"
+        />
+        <Boton disabled={!pegado.trim()} onClick={leerPegado}>
+          {P.pegarLeer}
+        </Boton>
+        <Boton variante="fantasma" onClick={() => setPegando(false)}>
+          {T.comun.cancelar}
+        </Boton>
+      </Dialogo>
+
+      <Dialogo abierto={pendiente !== null} titulo={P.importarConfirmarTitulo} texto={pendiente ? `${resumen(pendiente)} ${P.importarConfirmarTexto}` : P.importarConfirmarTexto}>
         <Boton
           onClick={() => {
             if (pendiente) s.reemplazarDatos(pendiente)
             setPendiente(null)
-            setAviso({ tipo: 'ok', texto: P.importado })
+            setAviso({ tipo: 'ok', texto: `${P.importado} ${pendiente ? resumen(pendiente) : ''}` })
           }}
         >
           {P.importarSi}
