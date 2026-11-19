@@ -1,6 +1,8 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { ChevronLeft, PawPrint } from 'lucide-react'
 import { useState, type ReactNode } from 'react'
+import { Recuperar } from '../profile/Recuperar'
+import { TR } from '../../data/textosNube'
 import { Boton } from '../../components/Boton'
 import { Brote } from '../../components/Ilustracion'
 import { OpcionGrande } from '../../components/OpcionGrande'
@@ -71,6 +73,7 @@ export function Onboarding() {
   const [espacios, setEspacios] = useState<EspacioBorrador[]>([])
   const [sumoOtro, setSumoOtro] = useState(false)
   const [paso, setPaso] = useState<Paso>('bienvenida')
+  const [recuperando, setRecuperando] = useState(false)
   const [dir, setDir] = useState(1)
   const [preguntaTest, setPreguntaTest] = useState(0)
   const [aciertos, setAciertos] = useState(0)
@@ -333,7 +336,7 @@ export function Onboarding() {
   const progreso = Math.min(1, i / totalPreguntas)
 
   return (
-    <div className="safe-top safe-bottom flex min-h-0 flex-1 flex-col">
+    <div className="safe-top safe-bottom relative flex min-h-0 flex-1 flex-col">
       <header className="flex h-14 shrink-0 items-center gap-3 px-4">
         {conBarra && (
           <>
@@ -377,8 +380,14 @@ export function Onboarding() {
           >
             {paso === 'bienvenida' ? O.bienvenida.boton : paso === 'resultado' ? O.resultado.boton : O.continuar}
           </Boton>
+          {paso === 'bienvenida' && (
+            <Boton variante="fantasma" className="mt-2" onClick={() => setRecuperando(true)}>
+              {TR.entrada}
+            </Boton>
+          )}
         </footer>
       )}
+      <Recuperar abierto={recuperando} onCerrar={() => setRecuperando(false)} />
     </div>
   )
 }

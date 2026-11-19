@@ -7,7 +7,7 @@ const campo = 'border-arena-osc text-tinta min-h-12 w-full rounded-2xl border-2 
 
 const cuando = (iso: string | null) => (iso ? new Date(iso).toLocaleString('es-AR', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }) : TN.nunca)
 
-export function Nube() {
+export function Nube({ compacto = false }: { compacto?: boolean }) {
   const e = useSyncExternalStore(suscribir, leerEstado)
   const [correo, setCorreo] = useState('')
   const [enviado, setEnviado] = useState(false)
@@ -22,8 +22,8 @@ export function Nube() {
   }, [e.email, e.registrado, e.ultima])
 
   return (
-    <section className="px-5 pt-6">
-      <h2 className="font-display text-tinta m-0 mb-2 text-[20px] font-semibold">{TN.titulo}</h2>
+    <section className={compacto ? 'pt-3' : 'px-5 pt-6'}>
+      {!compacto && <h2 className="font-display text-tinta m-0 mb-2 text-[20px] font-semibold">{TN.titulo}</h2>}
       <div className="border-arena-osc flex flex-col gap-3 rounded-3xl border-2 bg-white p-4">
         {!e.email ? (
           <>
