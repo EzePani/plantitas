@@ -2967,5 +2967,392 @@
     "horas_sol_directo": 0,
     "tolera_sol_tarde": false,
     "sensibilidad_calor": "media"
+  },
+  {
+    "luz_tolerada": [
+      "indirecta_brillante",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "imagen": null,
+    "atribucion_imagen": null,
+    "adaptaciones": [],
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Es tropical: en Buenos Aires vive adentro; afuera solo en verano y a media sombra, y se entra antes del frío."
+    },
+    "confianza": "media",
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Tolera el aire seco de casa; si las puntas de las hojas se secan, probá con agua sin cloro.",
+      "confianza": "baja"
+    },
+    "id": "bambu-de-la-suerte",
+    "nombre_comun": "Bambú de la suerte",
+    "otros_nombres": [
+      "Lucky bamboo",
+      "Bambú de agua",
+      "Dracaena sanderiana"
+    ],
+    "nombre_cientifico": "Dracaena sanderiana (sin. Dracaena braunii)",
+    "familia": "Asparagaceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_media",
+    "luz": {
+      "detalle": "Le va bien la luz indirecta media y aguanta rincones con poca luz. El sol directo le quema las hojas.",
+      "confianza": "media",
+      "confianza_sol": "baja"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "En tierra, regá cuando los primeros centímetros estén secos; nunca la dejes con agua en el plato.",
+      "invierno": "Regá bastante menos: con frío la tierra tarda mucho en secarse.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Tierra de maceta que drene bien. También vive en agua (renovada cada semana, sin cloro), pero en tierra el exceso de riego pudre los tallos.",
+      "confianza": "media"
+    },
+    "tolerancia_descuido": 4,
+    "tamano": "mediana",
+    "dificultad": "facil",
+    "tip": "Si la base de los tallos se ve amarilla, tocalos: firmes es solo color; blandos es principio de pudrición por exceso de agua. Sacá lo blando y regá menos.",
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "leve",
+      "sintomas": "Vómitos (a veces con sangre), babeo, decaimiento y falta de apetito; en gatos, pupilas dilatadas.",
+      "partes": "Hojas y tallos.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Ponela fuera de alcance; si tu mascota la mordió y vomita o babea, consultá con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "media",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Toxic and Non-toxic Plants: Lucky Bamboo",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lucky-bamboo",
+          "fecha_consulta": "2026-11-20"
+        },
+        {
+          "titulo": "Dracaena",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+          "fecha_consulta": "2026-11-20"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Dracaena",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+        "fecha_consulta": "2026-11-20"
+      },
+      {
+        "titulo": "Toxic and Non-toxic Plants: Lucky Bamboo",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lucky-bamboo",
+        "fecha_consulta": "2026-11-20"
+      }
+    ],
+    "discrepancias": [
+      "Los cuidados se generalizaron desde la ficha de Dracaena y de la especie; hay poca bibliografía específica sobre cultivo en tierra."
+    ]
+  },
+  {
+    "luz_tolerada": [
+      "indirecta_brillante",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "alta",
+    "imagen": null,
+    "atribucion_imagen": null,
+    "adaptaciones": [],
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Es tropical: en Buenos Aires vive adentro; afuera solo en verano y a media sombra, y se entra antes del frío."
+    },
+    "confianza": "media",
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Tolera el aire seco de casa; si las puntas de las hojas se secan, probá con agua sin cloro.",
+      "confianza": "baja"
+    },
+    "id": "aglaonema",
+    "nombre_comun": "Aglaonema",
+    "otros_nombres": [
+      "Aglaonema Silver Bay",
+      "Siempreverde chino",
+      "Chinese evergreen"
+    ],
+    "nombre_cientifico": "Aglaonema 'Silver Bay'",
+    "familia": "Araceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_media",
+    "luz": {
+      "detalle": "Las variedades plateadas como Silver Bay aguantan muy bien la poca luz. Evitá el sol directo: les mancha las hojas.",
+      "confianza": "media",
+      "confianza_sol": "baja"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá cuando los primeros centímetros de tierra estén secos, sin dejar agua en el plato.",
+      "invierno": "Espaciá los riegos: con frío y poca luz gasta muy poca agua.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Tierra de maceta suelta y aireada, con buen drenaje.",
+      "confianza": "baja"
+    },
+    "tolerancia_descuido": 4,
+    "tamano": "mediana",
+    "dificultad": "facil",
+    "tip": "Es sensible al frío: lejos de corrientes de aire y ventanas heladas en invierno. Si las hojas se curvan o se ponen amarillas, revisá primero el riego.",
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Irritación y ardor en la boca, babeo, vómitos y dificultad para tragar.",
+      "partes": "Toda la planta, sobre todo hojas y tallos.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Dejala fuera de alcance; si la muerde y babea o le cuesta tragar, consultá enseguida con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "media",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Toxic and Non-toxic Plants: Chinese Evergreen",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/chinese-evergreen",
+          "fecha_consulta": "2026-11-20"
+        },
+        {
+          "titulo": "Philodendron (aráceas con oxalatos)",
+          "org": "Pet Poison Helpline",
+          "url": "https://www.petpoisonhelpline.com/poison/philodendron/",
+          "fecha_consulta": "2026-11-20"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Toxic and Non-toxic Plants: Chinese Evergreen",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/chinese-evergreen",
+        "fecha_consulta": "2026-11-20"
+      },
+      {
+        "titulo": "Houseplants safe for your pets",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/news/houseplant-safe-your-pets",
+        "fecha_consulta": "2026-11-20"
+      }
+    ],
+    "discrepancias": [
+      "Cuidados generalizados del género Aglaonema; la variedad Silver Bay no tiene ficha propia en las fuentes consultadas."
+    ]
+  },
+  {
+    "luz_tolerada": [
+      "indirecta_brillante",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "imagen": null,
+    "atribucion_imagen": null,
+    "adaptaciones": [],
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Es tropical: en Buenos Aires vive adentro; afuera solo en verano y a media sombra, y se entra antes del frío."
+    },
+    "confianza": "media",
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Tolera el aire seco de casa; si las puntas de las hojas se secan, probá con agua sin cloro.",
+      "confianza": "baja"
+    },
+    "id": "filodendro-lemon-lime",
+    "nombre_comun": "Filodendro 'Lemon Lime'",
+    "otros_nombres": [
+      "Philodendron Lemon Lime",
+      "Filodendro verde lima",
+      "Philodendron Lemon Lime"
+    ],
+    "nombre_cientifico": "Philodendron hederaceum 'Lemon Lime'",
+    "familia": "Araceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_media",
+    "luz": {
+      "detalle": "Con luz media mantiene el verde lima flúor; con muy poca luz se oscurece. Sin sol directo.",
+      "confianza": "media",
+      "confianza_sol": "baja"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Mantené la tierra apenas húmeda, sin empaparla y sin agua en el plato.",
+      "invierno": "Regá menos y dejá que la tierra se oree más entre riegos.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Tierra para macetas de uso general que drene rápido; el encharcamiento le pudre las raíces.",
+      "confianza": "media"
+    },
+    "tolerancia_descuido": 4,
+    "tamano": "grande",
+    "dificultad": "facil",
+    "tip": "El color lima brillante es normal en esta variedad, no es falta de nutrientes. Los brotes rojizos son sus vainas (cataphylls) y también son normales. Un tutor la ayuda a trepar.",
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Irritación y dolor en la boca, hinchazón de labios y lengua, babeo, vómitos y dificultad para tragar. Rara vez, hinchazón de garganta.",
+      "partes": "Toda la planta: hojas, tallos y savia.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Colgala alto o recortá los tallos al alcance; si la muerde y babea o le cuesta tragar, consultá enseguida con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "media",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Toxic and Non-toxic Plants: Heartleaf Philodendron",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/heartleaf-philodendron",
+          "fecha_consulta": "2026-11-20"
+        },
+        {
+          "titulo": "Philodendron",
+          "org": "Pet Poison Helpline",
+          "url": "https://www.petpoisonhelpline.com/poison/philodendron/",
+          "fecha_consulta": "2026-11-20"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Philodendron",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/philodendron/",
+        "fecha_consulta": "2026-11-20"
+      },
+      {
+        "titulo": "Philodendron hederaceum",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/",
+        "fecha_consulta": "2026-11-20"
+      }
+    ],
+    "discrepancias": [
+      "Cuidados tomados de la especie Philodendron hederaceum; 'Lemon Lime' es una variedad (cultivar) sin ficha propia."
+    ]
+  },
+  {
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "imagen": null,
+    "atribucion_imagen": null,
+    "adaptaciones": [],
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Es tropical: en Buenos Aires vive adentro; afuera solo en verano y a media sombra, y se entra antes del frío."
+    },
+    "confianza": "media",
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Tolera el aire seco de casa; si las puntas de las hojas se secan, probá con agua sin cloro.",
+      "confianza": "baja"
+    },
+    "id": "pothos-cebu-blue",
+    "nombre_comun": "Pothos 'Cebu Blue'",
+    "otros_nombres": [
+      "Cebu Blue",
+      "Epipremnum pinnatum Cebu Blue",
+      "Potus azul"
+    ],
+    "nombre_cientifico": "Epipremnum pinnatum 'Cebu Blue'",
+    "familia": "Araceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz": {
+      "detalle": "Prefiere luz indirecta brillante para mantener el tono azul plateado; aguanta luz media pero crece más lento. Sin sol directo.",
+      "confianza": "media",
+      "confianza_sol": "baja"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá cuando la superficie de la tierra esté seca; no la dejes encharcada.",
+      "invierno": "Regá menos seguido, dejando secar más la tierra entre riegos.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Tierra suelta y aireada que drene bien (se puede mezclar con corteza o perlita).",
+      "confianza": "baja"
+    },
+    "tolerancia_descuido": 4,
+    "tamano": "grande",
+    "dificultad": "facil",
+    "tip": "Es de hoja mate, alargada y azul plateada, distinta del pothos común. Trepa mejor con un tutor; sus hojas adultas son más grandes que las de colgante.",
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Ardor e irritación fuerte en boca, lengua y labios, babeo, vómitos y dificultad para tragar. Rara vez, hinchazón de garganta.",
+      "partes": "Toda la planta.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Fuera de alcance; si tu mascota la muerde y babea o le cuesta tragar, consultá con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "media",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Toxic and Non-toxic Plants: Golden Pothos",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
+          "fecha_consulta": "2026-11-20"
+        },
+        {
+          "titulo": "Philodendron y aráceas con oxalatos",
+          "org": "Pet Poison Helpline",
+          "url": "https://www.petpoisonhelpline.com/poison/philodendron/",
+          "fecha_consulta": "2026-11-20"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Epipremnum aureum",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+        "fecha_consulta": "2026-11-20"
+      },
+      {
+        "titulo": "Pothos (Epipremmum aureum)",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+        "fecha_consulta": "2026-11-20"
+      }
+    ],
+    "discrepancias": [
+      "Cuidados tomados del pothos común (Epipremnum aureum); Cebu Blue es otra especie (E. pinnatum) con poca bibliografía propia. La identificación de la planta fue visual y podría ser Philodendron hastatum 'Silver Sword'."
+    ]
   }
 ]
