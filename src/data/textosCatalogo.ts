@@ -11,6 +11,9 @@ export const TC = {
     estado: { segura: 'Segura', toxica: 'Tóxica', no_verificada: 'Sin verificar' },
     para: { gato: 'para gatos', perro: 'para perros' },
     vacio: 'Ninguna planta pasa este filtro todavía.',
+    buscar: 'Buscar en todo el catálogo',
+    borrarBusqueda: 'Borrar búsqueda',
+    sinResultados: 'No encontré ninguna planta con ese nombre.',
     favoritas: {
       filtro: 'Favoritas',
       agregar: (n: string) => `Marcar ${n} como favorita`,

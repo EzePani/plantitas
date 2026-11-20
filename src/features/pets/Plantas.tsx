@@ -1,4 +1,4 @@
-import { ChevronRight, Heart, TriangleAlert } from 'lucide-react'
+import { ChevronRight, Heart, Search, TriangleAlert, X } from 'lucide-react'
 import { useState } from 'react'
 import { FotoPlanta } from '../../components/FotoPlanta'
 import { ListaFuentes } from '../../components/ListaFuentes'
@@ -15,6 +15,7 @@ import { Semaforo } from './Semaforo'
 
 const P = TC.plantas
 const FILTROS: TipoMascota[] = ['ninguna', 'gato', 'perro', 'ambos']
+const normal = (t: string) => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim()
 
 export function TarjetaPlanta({ planta, onClick, detalle, corazon = true, calce }: { planta: Planta; onClick: () => void; detalle?: string; corazon?: boolean; calce?: boolean }) {
   return (
@@ -65,16 +66,41 @@ export function Plantas() {
   const [verPeligrosas, setVerPeligrosas] = useState(false)
   const [soloFavoritas, setSoloFavoritas] = useState(false)
   const favoritas = useStore((s) => s.favoritas)
+  const [busqueda, setBusqueda] = useState('')
+  const q = normal(busqueda)
 
   // En "Favoritas" se ve todo lo marcado, aun si el filtro de mascotas la dejaría afuera: el semáforo avisa
-  const lista = PLANTAS.filter((p) => (soloFavoritas ? favoritas.includes(p.id) : esApta(p, filtro))).sort((a, b) => a.nombre_comun.localeCompare(b.nombre_comun, 'es'))
+  // Si se busca, se mira todo el catálogo (nombre común, otros nombres y científico), sin filtros
+  const lista = PLANTAS.filter((p) =>
+    q ? [p.nombre_comun, p.nombre_cientifico, ...p.otros_nombres].some((n) => normal(n).includes(q)) : soloFavoritas ? favoritas.includes(p.id) : esApta(p, filtro),
+  ).sort((a, b) => a.nombre_comun.localeCompare(b.nombre_comun, 'es'))
 
   return (
     <div className="safe-top relative flex min-h-0 flex-1 flex-col">
       <header className="shrink-0 px-5 pt-4">
         <h1 className="font-display text-hoja-osc m-0 text-[30px] font-semibold">{P.titulo}</h1>
       </header>
-      <div className="scroll-app -mx-0 flex shrink-0 gap-2 overflow-x-auto px-5 py-3" role="group" aria-label={P.titulo}>
+      <div className="shrink-0 px-5 pt-3">
+        <div className="border-arena-osc focus-within:border-hoja flex min-h-12 items-center gap-2 rounded-full border-2 bg-white px-4">
+          <Search size={18} className="text-tinta-suave shrink-0" aria-hidden />
+          <input
+            type="search"
+            value={busqueda}
+            onChange={(e) => setBusqueda(e.target.value)}
+            placeholder={P.buscar}
+            aria-label={P.buscar}
+            autoComplete="off"
+            className="text-tinta min-w-0 flex-1 border-0 bg-transparent py-2 text-[16px] font-bold outline-none placeholder:font-semibold [&::-webkit-search-cancel-button]:hidden"
+            style={{ userSelect: 'text', WebkitUserSelect: 'text' }}
+          />
+          {busqueda && (
+            <button type="button" aria-label={P.borrarBusqueda} onClick={() => setBusqueda('')} className="text-tinta-suave grid size-8 shrink-0 place-items-center border-0 bg-transparent p-0">
+              <X size={18} aria-hidden />
+            </button>
+          )}
+        </div>
+      </div>
+      <div className="flex shrink-0 flex-wrap gap-2 px-5 py-3" role="group" aria-label={P.titulo}>
         <button
           type="button"
           aria-pressed={soloFavoritas}
@@ -82,7 +108,7 @@ export function Plantas() {
             vibrar('toque')
             setSoloFavoritas((v) => !v)
           }}
-          className={`flex min-h-11 shrink-0 items-center gap-1.5 rounded-full border-2 px-4 text-[14px] font-extrabold whitespace-nowrap ${soloFavoritas ? 'border-alerta bg-alerta text-white' : 'border-arena-osc text-tinta bg-white'}`}
+          className={`flex min-h-10 shrink-0 items-center gap-1.5 rounded-full border-2 px-3 text-[13px] font-extrabold whitespace-nowrap ${soloFavoritas ? 'border-alerta bg-alerta text-white' : 'border-arena-osc text-tinta bg-white'}`}
         >
           <Heart size={16} strokeWidth={2.6} fill={soloFavoritas ? 'currentColor' : 'none'} aria-hidden />
           {P.favoritas.filtro}
@@ -98,14 +124,14 @@ export function Plantas() {
               setFiltro(f)
               setSoloFavoritas(false)
             }}
-            className={`min-h-11 shrink-0 rounded-full border-2 px-4 text-[14px] font-extrabold whitespace-nowrap ${!soloFavoritas && filtro === f ? 'border-hoja bg-hoja text-white' : 'border-arena-osc text-tinta bg-white'}`}
+            className={`min-h-10 shrink-0 rounded-full border-2 px-3 text-[13px] font-extrabold whitespace-nowrap ${!soloFavoritas && filtro === f ? 'border-hoja bg-hoja text-white' : 'border-arena-osc text-tinta bg-white'}`}
           >
             {P.filtros[f]}
           </button>
         ))}
       </div>
 
-      <div className="scroll-app min-h-0 flex-1 px-5 pb-6">
+      <div className="scroll-app min-h-0 flex-1 overflow-x-hidden px-5 pb-6">
         {PELIGROSAS.length > 0 && (
           <button
             type="button"
@@ -124,7 +150,7 @@ export function Plantas() {
         )}
         <p className="text-tinta-suave mt-0 mb-2 text-[13px] font-extrabold">{P.cuenta(lista.length)}</p>
         {lista.length === 0 ? (
-          <p className="text-tinta-suave py-10 text-center text-[15px] font-bold">{soloFavoritas ? P.favoritas.vacio : P.vacio}</p>
+          <p className="text-tinta-suave py-10 text-center text-[15px] font-bold">{q ? P.sinResultados : soloFavoritas ? P.favoritas.vacio : P.vacio}</p>
         ) : (
           <div className="flex flex-col gap-2.5">
             {lista.map((p) => (

@@ -21,6 +21,11 @@ import { Enredadera } from './Enredadera'
 const ICONO_NODO: Record<Nodo['tipo'], LucideIcon> = { leccion: Leaf, repaso: Dumbbell, cofre: Gift }
 /** Corrimiento horizontal de cada nodo para armar el zigzag */
 const ZIGZAG = [0, 46, 72, 46, 0, -46, -72, -46]
+/** Corre el contenido con márgenes (no con transform) para que la fila nunca se salga del ancho */
+const corrido = (i: number): React.CSSProperties => {
+  const z = ZIGZAG[i % ZIGZAG.length]
+  return { marginLeft: z > 0 ? z * 2 : 0, marginRight: z < 0 ? -z * 2 : 0 }
+}
 
 function BotonNodo({ nodo, color, colorOsc, posicion, onClick, refActual }: { nodo: Nodo; color: string; colorOsc: string; posicion: number; onClick: () => void; refActual?: React.Ref<HTMLDivElement> }) {
   const I = nodo.estado === 'completado' && nodo.tipo !== 'cofre' ? Check : nodo.estado === 'bloqueado' && nodo.tipo !== 'cofre' ? Lock : ICONO_NODO[nodo.tipo]
@@ -28,7 +33,7 @@ function BotonNodo({ nodo, color, colorOsc, posicion, onClick, refActual }: { no
   const fondo = bloqueado ? 'var(--color-arena-osc)' : nodo.tipo === 'cofre' ? 'var(--color-sol)' : color
   const relieve = bloqueado ? '#c4b592' : nodo.tipo === 'cofre' ? 'var(--color-sol-osc)' : colorOsc
   return (
-    <div ref={refActual} className="relative flex justify-center py-3" style={{ transform: `translateX(${ZIGZAG[posicion % ZIGZAG.length]}px)` }}>
+    <div ref={refActual} className="relative flex justify-center py-3" style={corrido(posicion)}>
       {nodo.estado === 'actual' && (
         <>
           <motion.span
@@ -239,7 +244,7 @@ function TramoVista({ tramo, recomendada, salteable, onNodo, onSaltear, refActua
             const n = tramo.nodos.find((x) => x.id === id)
             if (n) return <BotonNodo key={id} nodo={n} posicion={i} color={u.color} colorOsc={u.colorOsc} onClick={() => onNodo(n)} refActual={n.estado === 'actual' ? refActual : undefined} />
             return (
-              <div key={id} className="flex flex-col items-center py-2" style={{ transform: `translateX(${ZIGZAG[i % ZIGZAG.length]}px)` }}>
+              <div key={id} className="flex flex-col items-center py-2" style={corrido(i)}>
                 <span className="border-arena-osc grid size-14 place-items-center rounded-full border-[3px] border-dashed text-[#b5a784]" role="img" aria-label={`${u.plan[i]}: ${T.comun.proximamente}`}>
                   <Leaf size={22} aria-hidden />
                 </span>
