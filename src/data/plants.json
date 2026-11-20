@@ -3354,5 +3354,102 @@
     "discrepancias": [
       "Cuidados tomados del pothos común (Epipremnum aureum); Cebu Blue es otra especie (E. pinnatum) con poca bibliografía propia. La identificación de la planta fue visual y podría ser Philodendron hastatum 'Silver Sword'."
     ]
+  },
+  {
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "imagen": null,
+    "atribucion_imagen": null,
+    "adaptaciones": [],
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Es tropical: en Buenos Aires vive adentro; afuera solo en verano y a media sombra, y se entra antes del frío."
+    },
+    "confianza": "media",
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Tolera el aire seco de casa; si las puntas de las hojas se secan, probá con agua sin cloro.",
+      "confianza": "baja"
+    },
+    "id": "filodendro-silver-sword",
+    "nombre_comun": "Filodendro 'Silver Sword'",
+    "otros_nombres": [
+      "Philodendron Silver Sword",
+      "Filodendro espada plateada",
+      "Silver Sword"
+    ],
+    "nombre_cientifico": "Philodendron hastatum 'Silver Sword'",
+    "familia": "Araceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz": {
+      "detalle": "Prefiere luz indirecta brillante para mantener el brillo plateado; aguanta luz media pero crece más lento. Sin sol directo.",
+      "confianza": "media",
+      "confianza_sol": "baja"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Mantené la tierra apenas húmeda, sin empaparla y sin agua en el plato.",
+      "invierno": "Regá menos y dejá que la tierra se oree más entre riegos.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Tierra suelta y aireada que drene bien (se puede mezclar con corteza o perlita); el encharcamiento le pudre las raíces.",
+      "confianza": "baja"
+    },
+    "tolerancia_descuido": 4,
+    "tamano": "grande",
+    "dificultad": "facil",
+    "tip": "Su hoja tiene brillo metálico plateado y forma de flecha o lanza, a veces con dos lóbulos chiquitos en la base. Trepa mejor con un tutor; si pierde el plateado, probablemente le falta luz.",
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Irritación y dolor en la boca, hinchazón de labios y lengua, babeo, vómitos y dificultad para tragar. Rara vez, hinchazón de garganta.",
+      "partes": "Toda la planta: hojas, tallos y savia.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Colgala alto o recortá los tallos al alcance; si la muerde y babea o le cuesta tragar, consultá enseguida con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "media",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Toxic and Non-toxic Plants: Philodendron",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/heartleaf-philodendron",
+          "fecha_consulta": "2026-11-20"
+        },
+        {
+          "titulo": "Philodendron",
+          "org": "Pet Poison Helpline",
+          "url": "https://www.petpoisonhelpline.com/poison/philodendron/",
+          "fecha_consulta": "2026-11-20"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Philodendron",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/philodendron/",
+        "fecha_consulta": "2026-11-20"
+      },
+      {
+        "titulo": "Toxic and Non-toxic Plants: Philodendron",
+        "org": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/heartleaf-philodendron",
+        "fecha_consulta": "2026-11-20"
+      }
+    ],
+    "discrepancias": [
+      "Cuidados tomados del género Philodendron y de la especie P. hederaceum; 'Silver Sword' es una variedad (cultivar) sin ficha propia en las fuentes consultadas.",
+      "No confundir con el pothos 'Cebu Blue' (Epipremnum pinnatum): se parecen, pero Silver Sword tiene hoja con brillo metálico y forma de lanza."
+    ]
   }
 ]
