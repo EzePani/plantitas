@@ -198,5 +198,61 @@
     "autor": "User:WeFt",
     "licencia": "CC BY-SA 3.0",
     "url": "https://commons.wikimedia.org/wiki/File:Zamioculcas_zamiifolia_1.jpg"
+  },
+  {
+    "id": "bambu-de-la-suerte",
+    "planta": "Bambú de la suerte",
+    "archivo": "img/bambu-de-la-suerte.webp",
+    "autor": "Slyronit",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Lucky_Bamboo_(Dracaena_Sanderiana).jpg"
+  },
+  {
+    "id": "aglaonema",
+    "planta": "Aglaonema",
+    "archivo": "img/aglaonema.webp",
+    "autor": "Shuvaev",
+    "licencia": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Aglaonema_commutatum_%27Silver_Queen%27,_Kew_Gardens_2026_01.jpg"
+  },
+  {
+    "id": "filodendro-lemon-lime",
+    "planta": "Filodendro 'Lemon Lime'",
+    "archivo": "img/filodendro-lemon-lime.webp",
+    "autor": "AlbeitPK",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Philodendron_hederaceum_var._Lemon_Lime.jpg"
+  },
+  {
+    "id": "filodendro-silver-sword",
+    "planta": "Filodendro 'Silver Sword'",
+    "archivo": "img/filodendro-silver-sword.webp",
+    "autor": "Yercaud-elango",
+    "licencia": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Philodendron_hastatum-1-Vishuddhi_garden-bengaluru-India.jpg"
+  },
+  {
+    "id": "cola-de-mono-dorada",
+    "planta": "Cola de mono dorada",
+    "archivo": "img/cola-de-mono-dorada.webp",
+    "autor": "NasserHalaweh",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Cactaceae_Cleistocactus_winteri_3.jpg"
+  },
+  {
+    "id": "kalanchoe-hoja-del-aire",
+    "planta": "Hoja del aire",
+    "archivo": "img/kalanchoe-hoja-del-aire.webp",
+    "autor": "Ahman10",
+    "licencia": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kalanchoe_pinnata_(55554).jpg"
+  },
+  {
+    "id": "orejas-de-conejo-canela",
+    "planta": "Orejas de conejo canela",
+    "archivo": "img/orejas-de-conejo-canela.webp",
+    "autor": "JMK",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Opuntia_microdasys_subsp_rufida,_habitus,_La_Montagne,_b.jpg"
   }
 ]

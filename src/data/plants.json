@@ -2976,8 +2976,12 @@
     "horas_sol_directo": 0,
     "tolera_sol_tarde": false,
     "sensibilidad_calor": "media",
-    "imagen": null,
-    "atribucion_imagen": null,
+    "imagen": "img/bambu-de-la-suerte.webp",
+    "atribucion_imagen": {
+      "autor": "Slyronit",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Lucky_Bamboo_(Dracaena_Sanderiana).jpg"
+    },
     "adaptaciones": [],
     "apta": {
       "interior": true,
@@ -3073,8 +3077,12 @@
     "horas_sol_directo": 0,
     "tolera_sol_tarde": false,
     "sensibilidad_calor": "alta",
-    "imagen": null,
-    "atribucion_imagen": null,
+    "imagen": "img/aglaonema.webp",
+    "atribucion_imagen": {
+      "autor": "Shuvaev",
+      "licencia": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Aglaonema_commutatum_%27Silver_Queen%27,_Kew_Gardens_2026_01.jpg"
+    },
     "adaptaciones": [],
     "apta": {
       "interior": true,
@@ -3170,8 +3178,12 @@
     "horas_sol_directo": 0,
     "tolera_sol_tarde": false,
     "sensibilidad_calor": "media",
-    "imagen": null,
-    "atribucion_imagen": null,
+    "imagen": "img/filodendro-lemon-lime.webp",
+    "atribucion_imagen": {
+      "autor": "AlbeitPK",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Philodendron_hederaceum_var._Lemon_Lime.jpg"
+    },
     "adaptaciones": [],
     "apta": {
       "interior": true,
@@ -3362,8 +3374,12 @@
     "horas_sol_directo": 0,
     "tolera_sol_tarde": false,
     "sensibilidad_calor": "media",
-    "imagen": null,
-    "atribucion_imagen": null,
+    "imagen": "img/filodendro-silver-sword.webp",
+    "atribucion_imagen": {
+      "autor": "Yercaud-elango",
+      "licencia": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Philodendron_hastatum-1-Vishuddhi_garden-bengaluru-India.jpg"
+    },
     "adaptaciones": [],
     "apta": {
       "interior": true,
@@ -3450,6 +3466,285 @@
     "discrepancias": [
       "Cuidados tomados del género Philodendron y de la especie P. hederaceum; 'Silver Sword' es una variedad (cultivar) sin ficha propia en las fuentes consultadas.",
       "No confundir con el pothos 'Cebu Blue' (Epipremnum pinnatum): se parecen, pero Silver Sword tiene hoja con brillo metálico y forma de lanza."
+    ]
+  },
+  {
+    "familia": "Cactaceae",
+    "grupo": "suculenta_cactus",
+    "luz_tolerada": [
+      "indirecta_brillante"
+    ],
+    "horas_sol_directo": 4,
+    "tolera_sol_tarde": true,
+    "sensibilidad_calor": "baja",
+    "apta": {
+      "interior": true,
+      "balcon": true,
+      "nota_balcon": "Aguanta el sol del balcón; en Buenos Aires protegela de heladas fuertes y de la lluvia constante."
+    },
+    "imagen": "img/cola-de-mono-dorada.webp",
+    "atribucion_imagen": {
+      "autor": "NasserHalaweh",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Cactaceae_Cleistocactus_winteri_3.jpg"
+    },
+    "adaptaciones": [],
+    "confianza": "media",
+    "humedad": {
+      "nivel": "baja",
+      "detalle": "Prefiere aire seco; no necesita humedad extra.",
+      "confianza": "media"
+    },
+    "id": "cola-de-mono-dorada",
+    "nombre_comun": "Cola de mono dorada",
+    "otros_nombres": [
+      "Cleistocactus winteri",
+      "Hildewintera aureispina",
+      "Cola de rata dorada",
+      "Golden rat tail"
+    ],
+    "nombre_cientifico": "Cleistocactus winteri (sin. Hildewintera aureispina)",
+    "luz_requerida": "directa",
+    "luz": {
+      "detalle": "Necesita mucha luz y varias horas de sol directo; sin luz se estira y se debilita.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "bajo",
+      "verano": "Regá a fondo solo cuando el sustrato esté completamente seco, cada 2 o 3 semanas.",
+      "invierno": "Casi no la riegues en invierno: con frío y tierra húmeda se pudre.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato para cactus muy drenante (tierra con bastante arena gruesa o perlita).",
+      "confianza": "media"
+    },
+    "tolerancia_descuido": 5,
+    "tamano": "mediana",
+    "dificultad": "facil",
+    "tip": "Es colgante: sus tallos caen en cascada y en primavera da flores salmón. Sus espinas doradas son finas, tené cuidado al moverla.",
+    "mascotas": {
+      "toxicidad_gato": "no_verificada",
+      "toxicidad_perro": "no_verificada",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "No hay datos de toxicidad confirmados, pero las espinas pueden lastimar la boca y la piel de tu mascota: ponela fuera de su alcance.",
+      "advertencia_grave": null,
+      "confianza": "baja",
+      "fuentes_toxicidad": []
+    },
+    "fuentes": [
+      {
+        "titulo": "Cleistocactus winteri",
+        "org": "Wikipedia (Cactaceae)",
+        "url": "https://en.wikipedia.org/wiki/Cleistocactus_winteri",
+        "fecha_consulta": "2026-11-20"
+      },
+      {
+        "titulo": "Cacti and succulents care",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/cactus-and-succulents/",
+        "fecha_consulta": "2026-11-20"
+      }
+    ],
+    "discrepancias": [
+      "Cuidados generales de cactus; no se consultó bibliografía específica de esta especie. El nombre se usa también como Hildewintera aureispina."
+    ]
+  },
+  {
+    "familia": "Crassulaceae",
+    "grupo": "suculenta_cactus",
+    "luz_tolerada": [
+      "directa",
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 3,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "apta": {
+      "interior": true,
+      "balcon": true,
+      "nota_balcon": "Aguanta el sol del balcón; en Buenos Aires protegela de heladas fuertes y de la lluvia constante."
+    },
+    "imagen": "img/kalanchoe-hoja-del-aire.webp",
+    "atribucion_imagen": {
+      "autor": "Ahman10",
+      "licencia": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Kalanchoe_pinnata_(55554).jpg"
+    },
+    "adaptaciones": [],
+    "confianza": "media",
+    "humedad": {
+      "nivel": "baja",
+      "detalle": "Prefiere aire seco; no necesita humedad extra.",
+      "confianza": "media"
+    },
+    "id": "kalanchoe-hoja-del-aire",
+    "nombre_comun": "Hoja del aire",
+    "otros_nombres": [
+      "Planta de la vida",
+      "Kalanchoe pinnata",
+      "Bryophyllum pinnatum",
+      "Hoja de la fortuna",
+      "Kalanchoe"
+    ],
+    "nombre_cientifico": "Kalanchoe pinnata (sin. Bryophyllum pinnatum)",
+    "luz_requerida": "indirecta_brillante",
+    "luz": {
+      "detalle": "Le gusta mucha luz; aguanta unas horas de sol directo suave (mañana). Con sol fuerte de tarde se quema.",
+      "confianza": "media",
+      "confianza_sol": "baja"
+    },
+    "riego": {
+      "nivel": "bajo",
+      "verano": "Regá cuando la tierra esté seca; las hojas guardan agua.",
+      "invierno": "Regá muy poco en invierno.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato drenante para suculentas; el exceso de agua la pudre.",
+      "confianza": "media"
+    },
+    "tolerancia_descuido": 5,
+    "tamano": "mediana",
+    "dificultad": "facil",
+    "tip": "Brota plantitas en el borde de las hojas: se pueden separar y plantar. Ojo, se reproduce sola y puede volverse invasora si se cae a una maceta vecina.",
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Vómitos, diarrea y babeo. En cantidades grandes puede afectar el corazón (arritmias).",
+      "partes": "Toda la planta.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Tiene compuestos que afectan el corazón: ponela fuera de alcance y consultá enseguida al veterinario si la mordió.",
+      "advertencia_grave": null,
+      "confianza": "media",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Toxic and Non-toxic Plants: Kalanchoe",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/kalanchoe",
+          "fecha_consulta": "2026-11-20"
+        },
+        {
+          "titulo": "Kalanchoe",
+          "org": "Pet Poison Helpline",
+          "url": "https://www.petpoisonhelpline.com/poison/kalanchoe/",
+          "fecha_consulta": "2026-11-20"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Kalanchoe pinnata",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/kalanchoe-pinnata/",
+        "fecha_consulta": "2026-11-20"
+      },
+      {
+        "titulo": "Cacti and succulents care",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/cactus-and-succulents/",
+        "fecha_consulta": "2026-11-20"
+      }
+    ],
+    "discrepancias": [
+      "La planta de casa parece Kalanchoe pinnata o el híbrido K. × houghtonii (también tóxico y muy parecido); la identificación fue visual. Los cuidados valen para ambas."
+    ]
+  },
+  {
+    "familia": "Cactaceae",
+    "grupo": "suculenta_cactus",
+    "luz_tolerada": [
+      "indirecta_brillante"
+    ],
+    "horas_sol_directo": 6,
+    "tolera_sol_tarde": true,
+    "sensibilidad_calor": "baja",
+    "apta": {
+      "interior": true,
+      "balcon": true,
+      "nota_balcon": "Aguanta el sol del balcón; en Buenos Aires protegela de heladas fuertes y de la lluvia constante."
+    },
+    "imagen": "img/orejas-de-conejo-canela.webp",
+    "atribucion_imagen": {
+      "autor": "JMK",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Opuntia_microdasys_subsp_rufida,_habitus,_La_Montagne,_b.jpg"
+    },
+    "adaptaciones": [],
+    "confianza": "media",
+    "humedad": {
+      "nivel": "baja",
+      "detalle": "Prefiere aire seco; no necesita humedad extra.",
+      "confianza": "media"
+    },
+    "id": "orejas-de-conejo-canela",
+    "nombre_comun": "Orejas de conejo canela",
+    "otros_nombres": [
+      "Opuntia microdasys rufida",
+      "Opuntia rufida",
+      "Tuna canela",
+      "Nopal orejas de conejo"
+    ],
+    "nombre_cientifico": "Opuntia microdasys 'Rufida' (Opuntia rufida)",
+    "luz_requerida": "directa",
+    "luz": {
+      "detalle": "Necesita sol directo varias horas al día; sin sol se alarga, se deforma y pierde el color.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "bajo",
+      "verano": "Regá cuando el sustrato esté totalmente seco, cada 2 o 3 semanas.",
+      "invierno": "Casi no la riegues en invierno.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato para cactus muy drenante, con arena gruesa.",
+      "confianza": "media"
+    },
+    "tolerancia_descuido": 5,
+    "tamano": "mediana",
+    "dificultad": "facil",
+    "tip": "Parece suave pero está cubierta de glóquidas, pelitos de espinas que se clavan y son difíciles de sacar. Manipulala con pinzas o guantes gruesos.",
+    "mascotas": {
+      "toxicidad_gato": "no_verificada",
+      "toxicidad_perro": "no_verificada",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Aunque no hay datos de toxicidad, las glóquidas se clavan en la boca y la piel: es una de las plantas más molestas para mascotas. Ponela fuera de su alcance.",
+      "advertencia_grave": null,
+      "confianza": "baja",
+      "fuentes_toxicidad": []
+    },
+    "fuentes": [
+      {
+        "titulo": "Opuntia microdasys",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/opuntia-microdasys/",
+        "fecha_consulta": "2026-11-20"
+      },
+      {
+        "titulo": "Cacti and succulents care",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/cactus-and-succulents/",
+        "fecha_consulta": "2026-11-20"
+      }
+    ],
+    "discrepancias": [
+      "Cuidados generales de Opuntia; la variedad 'Rufida' se trata a veces como especie propia (Opuntia rufida)."
     ]
   }
 ]
