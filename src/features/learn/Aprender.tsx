@@ -133,7 +133,7 @@ export function Aprender({ onJugar, onIrAEspacio }: Props) {
 
       <div className="relative min-h-0 flex-1">
         <Enredadera total={camino.totalNodos} hechos={camino.nodosHechos} flores={flores} />
-        <div ref={refScroll} className="scroll-app absolute inset-0 pl-11">
+        <div ref={refScroll} className="scroll-app absolute inset-0 overflow-x-hidden pl-11">
           <div className={`mx-3 mt-3 flex items-center gap-2 rounded-2xl px-3 py-2 text-[14px] font-extrabold ${metaOk ? 'bg-brote text-hoja-osc' : 'bg-sol-claro text-tinta'}`}>
             {metaOk ? <Check size={18} strokeWidth={3.4} aria-hidden /> : <Flame size={18} aria-hidden />}
             {metaOk ? T.aprender.metaHecha : T.aprender.metaPendiente}
