@@ -21,4 +21,13 @@ describe('fusionar', () => {
   it('el resultado cumple el esquema', () => {
     expect(esquemaDatos.safeParse(r).success).toBe(true)
   })
+
+  it('junta las colecciones por id sumando plantas', () => {
+    const x = { ...a, colecciones: [{ id: 'c1', nombre: 'Sala', plantas: ['monstera'] }, { id: 'c2', nombre: 'Solo acá', plantas: [] }] }
+    const y = { ...b, colecciones: [{ id: 'c1', nombre: 'Otro nombre', plantas: ['cinta'] }, { id: 'c3', nombre: 'Solo allá', plantas: ['jade'] }] }
+    const r = fusionar(x, y).colecciones
+    expect(r.map((c) => c.id)).toEqual(['c1', 'c2', 'c3'])
+    expect(r[0].nombre).toBe('Sala')
+    expect(r[0].plantas.sort()).toEqual(['cinta', 'monstera'])
+  })
 })

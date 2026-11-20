@@ -1,4 +1,4 @@
-import type { DatosPersistidos } from './tipos'
+import type { Coleccion, DatosPersistidos } from './tipos'
 
 /**
  * Une dos versiones del progreso cuando se tocó en los dos dispositivos antes de sincronizar.
@@ -41,5 +41,16 @@ export function fusionar(a: DatosPersistidos, b: DatosPersistidos): DatosPersist
     semillas: [...new Set([...a.semillas, ...b.semillas])],
     espacios,
     favoritas: [...new Set([...a.favoritas, ...b.favoritas])].slice(0, 200),
+    colecciones: fusionarColecciones(a.colecciones, b.colecciones),
   }
+}
+
+/** Las colecciones se juntan por id: las plantas de las dos versiones se suman y el nombre local gana */
+function fusionarColecciones(a: Coleccion[], b: Coleccion[]): Coleccion[] {
+  const salida = a.map((c) => {
+    const otra = b.find((x) => x.id === c.id)
+    return otra ? { ...c, plantas: [...new Set([...c.plantas, ...otra.plantas])].slice(0, 200) } : c
+  })
+  const ids = new Set(a.map((c) => c.id))
+  return [...salida, ...b.filter((c) => !ids.has(c.id))].slice(0, 20)
 }

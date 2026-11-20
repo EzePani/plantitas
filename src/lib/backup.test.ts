@@ -18,6 +18,7 @@ const datos: DatosPersistidos = {
     { id: 'balcon-1', nombre: 'Balcón', creado: '2026-11-14', tipo: 'balcon', luz: { tipo: 'directa', tramos: [{ desde: 8, hasta: 11.5 }, { desde: 17, hasta: 18 }], obstaculos: ['edificio', 'vidrio'] }, tamano: 'chico', mascotas: 'gato', esfuerzo: 'poco' },
   ],
   favoritas: ['monstera', 'cinta'],
+  colecciones: [{ id: 'col-sala', nombre: 'Sala', plantas: ['monstera'] }],
 }
 
 const serializar = (d: unknown, version = VERSION_DATOS) => JSON.stringify({ app: 'plantitas', version, exportado: '2026-11-14T12:00:00.000Z', datos: d })

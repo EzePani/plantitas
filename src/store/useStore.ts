@@ -28,6 +28,7 @@ export const DATOS_INICIALES: DatosPersistidos = {
   semillas: [],
   espacios: [],
   favoritas: [],
+  colecciones: [],
 }
 
 export interface Resumen {
@@ -58,6 +59,12 @@ interface Acciones {
   guardarEspacio: (e: Espacio) => void
   borrarEspacio: (id: string) => void
   alternarFavorita: (plantaId: string) => void
+  /** Crea una colección vacía y devuelve su id (o null si el nombre está vacío o ya hay 20) */
+  crearColeccion: (nombre: string) => string | null
+  renombrarColeccion: (id: string, nombre: string) => void
+  borrarColeccion: (id: string) => void
+  /** Agrega la planta a la colección o la saca si ya estaba */
+  alternarEnColeccion: (id: string, plantaId: string) => void
   reemplazarDatos: (d: DatosPersistidos) => void
   reiniciar: () => void
 }
@@ -80,6 +87,7 @@ export function soloDatos(s: Estado): DatosPersistidos {
     semillas: s.semillas,
     espacios: s.espacios,
     favoritas: s.favoritas,
+    colecciones: s.colecciones,
   }
 }
 
@@ -176,6 +184,25 @@ export const useStore = create<Estado>()(
       // Sin duplicados; las nuevas van primero
       alternarFavorita: (id) =>
         set((s) => ({ favoritas: s.favoritas.includes(id) ? s.favoritas.filter((x) => x !== id) : [id, ...s.favoritas].slice(0, 200) })),
+
+      crearColeccion: (nombre) => {
+        const n = nombre.trim().slice(0, 40)
+        if (!n || get().colecciones.length >= 20) return null
+        const id = `col-${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`
+        set((s) => ({ colecciones: [...s.colecciones, { id, nombre: n, plantas: [] }] }))
+        return id
+      },
+      renombrarColeccion: (id, nombre) => {
+        const n = nombre.trim().slice(0, 40)
+        if (n) set((s) => ({ colecciones: s.colecciones.map((c) => (c.id === id ? { ...c, nombre: n } : c)) }))
+      },
+      borrarColeccion: (id) => set((s) => ({ colecciones: s.colecciones.filter((c) => c.id !== id) })),
+      alternarEnColeccion: (id, plantaId) =>
+        set((s) => ({
+          colecciones: s.colecciones.map((c) =>
+            c.id !== id ? c : { ...c, plantas: c.plantas.includes(plantaId) ? c.plantas.filter((x) => x !== plantaId) : [plantaId, ...c.plantas].slice(0, 200) },
+          ),
+        })),
 
       reemplazarDatos: (d) => set({ ...d }),
       reiniciar: () => set({ ...DATOS_INICIALES }),

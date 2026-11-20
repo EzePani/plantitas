@@ -95,4 +95,12 @@ function v2aV3(datos: unknown): unknown {
   return { ...datos, favoritas: Array.isArray(datos.favoritas) ? datos.favoritas : [] }
 }
 
-export const MIGRACIONES: Record<number, (datos: unknown) => unknown> = { 1: v1aV2, 2: v2aV3 }
+// ---------- v3 → v4: colecciones de plantas ----------
+
+/** Solo agrega la lista de colecciones, vacía. Todo lo demás queda como estaba. */
+function v3aV4(datos: unknown): unknown {
+  if (!esObj(datos)) return datos
+  return { ...datos, colecciones: Array.isArray(datos.colecciones) ? datos.colecciones : [] }
+}
+
+export const MIGRACIONES: Record<number, (datos: unknown) => unknown> = { 1: v1aV2, 2: v2aV3, 3: v3aV4 }

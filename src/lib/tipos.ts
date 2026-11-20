@@ -99,4 +99,13 @@ export interface DatosPersistidos {
   espacios: Espacio[]
   /** Ids de plantas del catálogo marcadas con el corazón */
   favoritas: string[]
+  /** Grupos de plantas con nombre propio (tipo colecciones de Instagram) */
+  colecciones: Coleccion[]
+}
+
+export interface Coleccion {
+  id: string
+  nombre: string
+  /** Ids de plantas del catálogo; la última agregada va primero */
+  plantas: string[]
 }

@@ -1,5 +1,5 @@
-import { ChevronRight, Heart, Search, TriangleAlert, X } from 'lucide-react'
-import { useState } from 'react'
+import { ChevronRight, Search, SlidersHorizontal, TriangleAlert, X } from 'lucide-react'
+import { useState, type ReactNode } from 'react'
 import { FotoPlanta } from '../../components/FotoPlanta'
 import { ListaFuentes } from '../../components/ListaFuentes'
 import { Panel } from '../../components/Panel'
@@ -10,6 +10,7 @@ import { esApta } from '../../lib/mascotas'
 import type { TipoMascota } from '../../lib/tipos'
 import { useStore } from '../../store/useStore'
 import { BotonFavorita, CalceEspacios } from './Favorita'
+import { BotonPie, MiLista } from './Lista'
 import { FichaPlanta } from './FichaPlanta'
 import { Semaforo } from './Semaforo'
 
@@ -17,7 +18,7 @@ const P = TC.plantas
 const FILTROS: TipoMascota[] = ['ninguna', 'gato', 'perro', 'ambos']
 const normal = (t: string) => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim()
 
-export function TarjetaPlanta({ planta, onClick, detalle, corazon = true, calce }: { planta: Planta; onClick: () => void; detalle?: string; corazon?: boolean; calce?: boolean }) {
+export function TarjetaPlanta({ planta, onClick, detalle, corazon = true, calce, extra }: { planta: Planta; onClick: () => void; detalle?: string; corazon?: boolean; calce?: boolean; extra?: ReactNode }) {
   return (
     <div className="border-arena-osc rounded-3xl border-2 bg-white shadow-[0_3px_0_var(--color-arena-osc)]">
       <div className="flex items-center">
@@ -45,8 +46,9 @@ export function TarjetaPlanta({ planta, onClick, detalle, corazon = true, calce 
               </span>
             )}
           </span>
-          {!corazon && <ChevronRight size={20} className="text-tinta-suave shrink-0" aria-hidden />}
+          {!corazon && !extra && <ChevronRight size={20} className="text-tinta-suave shrink-0" aria-hidden />}
         </button>
+        {extra}
         {corazon && <BotonFavorita planta={planta} className="mr-1.5" />}
       </div>
       {calce && (
@@ -64,73 +66,81 @@ export function Plantas() {
   const [filtro, setFiltro] = useState<TipoMascota>(mascotas)
   const [abierta, setAbierta] = useState<Planta | null>(null)
   const [verPeligrosas, setVerPeligrosas] = useState(false)
-  const [soloFavoritas, setSoloFavoritas] = useState(false)
-  const favoritas = useStore((s) => s.favoritas)
+  const [verFiltros, setVerFiltros] = useState(false)
+  const [vista, setVista] = useState<'catalogo' | 'lista'>('catalogo')
   const [busqueda, setBusqueda] = useState('')
   const q = normal(busqueda)
+  const activos = filtro !== 'ninguna' ? 1 : 0
 
-  // En "Favoritas" se ve todo lo marcado, aun si el filtro de mascotas la dejaría afuera: el semáforo avisa
   // Si se busca, se mira todo el catálogo (nombre común, otros nombres y científico), sin filtros
-  const lista = PLANTAS.filter((p) =>
-    q ? [p.nombre_comun, p.nombre_cientifico, ...p.otros_nombres].some((n) => normal(n).includes(q)) : soloFavoritas ? favoritas.includes(p.id) : esApta(p, filtro),
-  ).sort((a, b) => a.nombre_comun.localeCompare(b.nombre_comun, 'es'))
+  const lista = PLANTAS.filter((p) => (q ? [p.nombre_comun, p.nombre_cientifico, ...p.otros_nombres].some((n) => normal(n).includes(q)) : esApta(p, filtro))).sort((a, b) =>
+    a.nombre_comun.localeCompare(b.nombre_comun, 'es'),
+  )
 
   return (
     <div className="safe-top relative flex min-h-0 flex-1 flex-col">
       <header className="shrink-0 px-5 pt-4">
         <h1 className="font-display text-hoja-osc m-0 text-[30px] font-semibold">{P.titulo}</h1>
       </header>
-      <div className="shrink-0 px-5 pt-3">
-        <div className="border-arena-osc focus-within:border-hoja flex min-h-12 items-center gap-2 rounded-full border-2 bg-white px-4">
-          <Search size={18} className="text-tinta-suave shrink-0" aria-hidden />
-          <input
-            type="search"
-            value={busqueda}
-            onChange={(e) => setBusqueda(e.target.value)}
-            placeholder={P.buscar}
-            aria-label={P.buscar}
-            autoComplete="off"
-            className="text-tinta min-w-0 flex-1 border-0 bg-transparent py-2 text-[16px] font-bold outline-none placeholder:font-semibold [&::-webkit-search-cancel-button]:hidden"
-            style={{ userSelect: 'text', WebkitUserSelect: 'text' }}
-          />
-          {busqueda && (
-            <button type="button" aria-label={P.borrarBusqueda} onClick={() => setBusqueda('')} className="text-tinta-suave grid size-8 shrink-0 place-items-center border-0 bg-transparent p-0">
-              <X size={18} aria-hidden />
+      <div className="shrink-0 px-5 pt-3" role="tablist" aria-label={P.titulo}>
+        <div className="bg-arena flex rounded-full p-1">
+          {(['catalogo', 'lista'] as const).map((v) => (
+            <button
+              key={v}
+              type="button"
+              role="tab"
+              aria-selected={vista === v}
+              onClick={() => {
+                vibrar('toque')
+                setVista(v)
+              }}
+              className={`min-h-10 flex-1 rounded-full border-0 text-[14px] font-extrabold ${vista === v ? 'text-hoja-osc bg-white shadow-sm' : 'text-tinta-suave bg-transparent'}`}
+            >
+              {P.vistas[v]}
             </button>
-          )}
+          ))}
         </div>
       </div>
-      <div className="flex shrink-0 flex-wrap gap-2 px-5 py-3" role="group" aria-label={P.titulo}>
-        <button
-          type="button"
-          aria-pressed={soloFavoritas}
-          onClick={() => {
-            vibrar('toque')
-            setSoloFavoritas((v) => !v)
-          }}
-          className={`flex min-h-10 shrink-0 items-center gap-1.5 rounded-full border-2 px-3 text-[13px] font-extrabold whitespace-nowrap ${soloFavoritas ? 'border-alerta bg-alerta text-white' : 'border-arena-osc text-tinta bg-white'}`}
-        >
-          <Heart size={16} strokeWidth={2.6} fill={soloFavoritas ? 'currentColor' : 'none'} aria-hidden />
-          {P.favoritas.filtro}
-          {favoritas.length > 0 && ` · ${favoritas.length}`}
-        </button>
-        {FILTROS.map((f) => (
+      {vista === 'catalogo' && (
+        <div className="flex shrink-0 items-center gap-2 px-5 py-3">
+          <div className="border-arena-osc focus-within:border-hoja flex min-h-12 min-w-0 flex-1 items-center gap-2 rounded-full border-2 bg-white px-4">
+            <Search size={18} className="text-tinta-suave shrink-0" aria-hidden />
+            <input
+              type="search"
+              value={busqueda}
+              onChange={(e) => setBusqueda(e.target.value)}
+              placeholder={P.buscar}
+              aria-label={P.buscar}
+              autoComplete="off"
+              className="text-tinta min-w-0 flex-1 border-0 bg-transparent py-2 text-[16px] font-bold outline-none placeholder:font-semibold [&::-webkit-search-cancel-button]:hidden"
+              style={{ userSelect: 'text', WebkitUserSelect: 'text' }}
+            />
+            {busqueda && (
+              <button type="button" aria-label={P.borrarBusqueda} onClick={() => setBusqueda('')} className="text-tinta-suave grid size-8 shrink-0 place-items-center border-0 bg-transparent p-0">
+                <X size={18} aria-hidden />
+              </button>
+            )}
+          </div>
           <button
-            key={f}
             type="button"
-            aria-pressed={!soloFavoritas && filtro === f}
+            aria-label={P.filtrosPanel.boton}
             onClick={() => {
               vibrar('toque')
-              setFiltro(f)
-              setSoloFavoritas(false)
+              setVerFiltros(true)
             }}
-            className={`min-h-10 shrink-0 rounded-full border-2 px-3 text-[13px] font-extrabold whitespace-nowrap ${!soloFavoritas && filtro === f ? 'border-hoja bg-hoja text-white' : 'border-arena-osc text-tinta bg-white'}`}
+            className={`relative grid size-12 shrink-0 place-items-center rounded-full border-2 ${activos ? 'border-hoja bg-hoja text-white' : 'border-arena-osc text-tinta bg-white'}`}
           >
-            {P.filtros[f]}
+            <SlidersHorizontal size={20} aria-hidden />
+            {activos > 0 && <span className="bg-sol text-tinta absolute -top-1 -right-1 grid size-5 place-items-center rounded-full text-[11px] font-extrabold">{activos}</span>}
           </button>
-        ))}
-      </div>
+        </div>
+      )}
 
+      {vista === 'lista' ? (
+        <div className="scroll-app min-h-0 flex-1 overflow-x-hidden">
+          <MiLista onAbrir={setAbierta} />
+        </div>
+      ) : (
       <div className="scroll-app min-h-0 flex-1 overflow-x-hidden px-5 pb-6">
         {PELIGROSAS.length > 0 && (
           <button
@@ -150,16 +160,44 @@ export function Plantas() {
         )}
         <p className="text-tinta-suave mt-0 mb-2 text-[13px] font-extrabold">{P.cuenta(lista.length)}</p>
         {lista.length === 0 ? (
-          <p className="text-tinta-suave py-10 text-center text-[15px] font-bold">{q ? P.sinResultados : soloFavoritas ? P.favoritas.vacio : P.vacio}</p>
+          <p className="text-tinta-suave py-10 text-center text-[15px] font-bold">{q ? P.sinResultados : P.vacio}</p>
         ) : (
           <div className="flex flex-col gap-2.5">
             {lista.map((p) => (
-              <TarjetaPlanta key={p.id} planta={p} onClick={() => setAbierta(p)} calce={soloFavoritas} />
+              <TarjetaPlanta key={p.id} planta={p} onClick={() => setAbierta(p)} />
             ))}
           </div>
         )}
         <p className="text-tinta-suave mt-5 mb-0 text-[13px] leading-snug font-bold">{P.ficha.disclaimer}</p>
       </div>
+      )}
+
+      <Panel abierto={verFiltros} titulo={P.filtrosPanel.titulo} onCerrar={() => setVerFiltros(false)} pie={<BotonPie onClick={() => setVerFiltros(false)}>{P.filtrosPanel.listo}</BotonPie>}>
+        <div className="px-5 pb-6">
+          <h2 className="font-display text-tinta mt-2 mb-3 text-[18px] font-semibold">{P.filtrosPanel.aptaPara}</h2>
+          <div className="flex flex-wrap gap-2">
+            {FILTROS.map((f) => (
+              <button
+                key={f}
+                type="button"
+                aria-pressed={filtro === f}
+                onClick={() => {
+                  vibrar('toque')
+                  setFiltro(f)
+                }}
+                className={`min-h-11 rounded-full border-2 px-4 text-[15px] font-extrabold ${filtro === f ? 'border-hoja bg-hoja text-white' : 'border-arena-osc text-tinta bg-white'}`}
+              >
+                {P.filtros[f]}
+              </button>
+            ))}
+          </div>
+          {activos > 0 && (
+            <button type="button" onClick={() => setFiltro('ninguna')} className="text-hoja-osc mt-5 border-0 bg-transparent p-0 text-[15px] font-extrabold underline">
+              {P.filtrosPanel.limpiar}
+            </button>
+          )}
+        </div>
+      </Panel>
 
       <Panel abierto={abierta !== null} onCerrar={() => setAbierta(null)}>
         {abierta && <FichaPlanta planta={abierta} />}

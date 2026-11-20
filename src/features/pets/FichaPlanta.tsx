@@ -5,6 +5,7 @@ import { ListaFuentes } from '../../components/ListaFuentes'
 import type { Planta } from '../../data/plantas'
 import { TC } from '../../data/textosCatalogo'
 import { BotonFavorita, CalceEspacios } from './Favorita'
+import { BotonCompartirPlanta, GuardarEnColeccion } from './Lista'
 import { Semaforo } from './Semaforo'
 
 const P = TC.plantas
@@ -35,7 +36,11 @@ export function FichaPlanta({ planta: p }: { planta: Planta }) {
             <h2 className="font-display text-hoja-osc m-0 text-[30px] leading-tight font-semibold">{p.nombre_comun}</h2>
             <p className="text-tinta-suave m-0 text-[15px] font-bold italic">{p.nombre_cientifico}</p>
           </div>
-          <BotonFavorita planta={p} className="-mr-2" />
+          <div className="-mr-2 flex shrink-0">
+            <BotonCompartirPlanta planta={p} />
+            <GuardarEnColeccion planta={p} />
+            <BotonFavorita planta={p} />
+          </div>
         </div>
         {p.otros_nombres.length > 0 && <p className="text-tinta-suave m-0 text-[13px] font-bold">{p.otros_nombres.join(' · ')}</p>}
         <div className="mt-3 flex flex-wrap gap-2">
