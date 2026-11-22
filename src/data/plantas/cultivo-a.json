@@ -1,0 +1,620 @@
+{
+  "potus": {
+    "porte": [
+      "trepadora",
+      "colgante"
+    ],
+    "tutor": {
+      "recomendado": "opcional",
+      "detalle": "Sin tutor cae en guías; si le ponés un tutor de musgo o fibra de coco y lo mantenés húmedo, trepa y da hojas más grandes."
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "Cuando las guías se alargan de más, recortalas justo por encima de una hoja: así ramifica y queda más tupido."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_agua",
+        "esqueje_tierra",
+        "acodo"
+      ],
+      "en_agua": true,
+      "meses": [
+        11,
+        12
+      ],
+      "detalle": "Cortá un tramo de guía por debajo de un nudo y dejalo en un vaso con agua en un lugar luminoso: en 3 o 4 semanas tiene raíces. Prende casi todo el año, pero lo mejor es fin de primavera y principio de verano."
+    },
+    "fuentes": [
+      {
+        "titulo": "Epipremnum aureum",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Pothos, Epipremnum aureum",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "How to grow epipremnum (RHS Growing Guide)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/epipremnum/growing-guide",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "How to take cuttings from houseplants",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-take-cuttings-from-houseplants",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS dice que la mejor época para esquejes es fines de primavera o principios de verano (mayo y junio en el norte): se pasó a noviembre y diciembre."
+    ]
+  },
+  "monstera": {
+    "porte": [
+      "trepadora"
+    ],
+    "tutor": {
+      "recomendado": "si",
+      "detalle": "Ponele un tutor de musgo firme desde que empieza a crecer y andá atando los tallos: pesa mucho arriba y sin sostén se puede quebrar."
+    },
+    "poda": {
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "Si te queda grande, recortala en primavera; las hojas nuevas salen más chicas y con menos agujeros por un tiempo, tranqui."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_agua",
+        "esqueje_tierra",
+        "acodo"
+      ],
+      "en_agua": true,
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "Cortá un tramo de tallo justo por debajo de una raíz aérea y ponelo en un vaso con agua con buena luz. Cuando tenga buenas raíces, pasalo a maceta."
+    },
+    "fuentes": [
+      {
+        "titulo": "Monstera deliciosa",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/monstera-deliciosa/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "How to grow Swiss cheese plants",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Monstera deliciosa",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/monstera-deliciosa/",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Poda en primavera (marzo a mayo en el norte): se pasó a septiembre a noviembre.",
+      "Esquejes de primavera a fines de verano (marzo a agosto en el norte): se pasó a septiembre a febrero."
+    ]
+  },
+  "lengua-de-suegra": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": "No lo necesita; si con poca luz se le vencen las hojas altas, podés sostenerlas con un aro de alambre o unas cañas con hilo."
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo cortá al ras las hojas dañadas y la vara de flores cuando se marchite."
+    },
+    "propagacion": {
+      "metodos": [
+        "division",
+        "hijuelos",
+        "hoja"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "Lo más fácil es separar los hijitos que salen al costado cuando ya tienen raíces, o dividir la mata al trasplantar. También podés cortar una hoja en tramos de unos 5 cm y enterrarlos hasta la mitad en sustrato apenas húmedo."
+    },
+    "fuentes": [
+      {
+        "titulo": "How to grow sansevieria (RHS Growing Guide)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/sansevieria/growing-guide",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Dracaena trifasciata",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "How to take cuttings from houseplants",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-take-cuttings-from-houseplants",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS dice que se propaga en primavera (marzo a mayo en el norte): se pasó a septiembre a noviembre."
+    ]
+  },
+  "zamioculca": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo sacá al ras las hojas y flores marchitas."
+    },
+    "propagacion": {
+      "metodos": [
+        "division",
+        "hoja"
+      ],
+      "en_agua": true,
+      "meses": [],
+      "detalle": "Lo más rápido es dividir la mata al trasplantar, dejando en cada parte un tallo con sus raíces. Con hojitas sueltas también sale, en sustrato o en un poquito de agua, pero es lento: puede tardar varios meses en formar el rizoma, no pasa nada."
+    },
+    "fuentes": [
+      {
+        "titulo": "Zamioculcas zamiifolia",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Houseplant spotlight: the ZZ plant",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/blogs/good-growing/2026-01-09-houseplant-spotlight-zz-plant",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "ZZ Plant",
+        "org": "UConn Home & Garden Education Center",
+        "url": "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Zamioculcas zamiifolia",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/19185/zamioculcas-zamiifolia/details",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "I recently purchased a ZZ plant. How do I care for it?",
+        "org": "Iowa State University Extension",
+        "url": "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": []
+  },
+  "cinta": {
+    "porte": [
+      "roseta",
+      "colgante"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: sacá las hojas secas y, si no los vas a plantar, recortá los hijitos viejos y las varas marchitas."
+    },
+    "propagacion": {
+      "metodos": [
+        "hijuelos",
+        "division"
+      ],
+      "en_agua": true,
+      "meses": [],
+      "detalle": "Apoyá un hijito en una macetita con sustrato al lado de la madre y cortá el tallo cuando haya prendido, o separá los que ya tienen raíces. También enraízan en un vaso de agua. Las matas grandes se pueden dividir."
+    },
+    "fuentes": [
+      {
+        "titulo": "Spider plant, Chlorophytum comosum",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "How to grow spider plants (RHS Growing Guide)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/spider-plants/growing-guide",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Chlorophytum comosum",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Chlorophytum comosum",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/3761/chlorophytum-comosum/details",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": []
+  },
+  "helecho-serrucho": {
+    "porte": [
+      "roseta",
+      "colgante"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: cortá al ras las frondes viejas o secas, que eso ayuda a que salgan nuevas."
+    },
+    "propagacion": {
+      "metodos": [
+        "division"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "Al trasplantar en primavera, sacalo de la maceta y cortá el pan de raíces en mitades o cuartos con un cuchillo filoso. Plantá cada parte en su maceta."
+    },
+    "fuentes": [
+      {
+        "titulo": "Boston fern, Nephrolepis exaltata",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/boston-fern-nephrolepis-exaltata/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Indoor Ferns",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Nephrolepis exaltata",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "División y trasplante en primavera (marzo a mayo en el norte): se pasó a septiembre a noviembre."
+    ]
+  },
+  "ficus-lyrata": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [
+        8,
+        9
+      ],
+      "detalle": "Casi no necesita poda; si un brote se alarga de más, acortalo justo por encima de una hoja a fin del invierno o principio de primavera. Usá guantes: la savia blanca irrita la piel."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_tierra"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "Se multiplica por esquejes de tallo en sustrato, en primavera o verano. Es lento y prende mejor con calor de fondo, así que tranqui si no sale a la primera."
+    },
+    "fuentes": [
+      {
+        "titulo": "Ficus lyrata",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/ficus-lyrata/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "How to grow ornamental figs (RHS Growing Guide)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/popular/ornamental-figs/growing-guide",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Poda a fines de invierno o principios de primavera (febrero y marzo en el norte): se pasó a agosto y septiembre.",
+      "Esquejes en primavera o verano: se pasó a septiembre a febrero."
+    ]
+  },
+  "gomero": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "opcional",
+      "detalle": "Si se pone alto y desgarbado, sostenelo con una estaca o caña hasta que el tronco afirme."
+    },
+    "poda": {
+      "meses": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "detalle": "Podalo entre fin del invierno y la primavera para achicarlo o para que ramifique, cortando justo por encima de una hoja. Usá guantes por la savia."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_tierra",
+        "acodo"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "Podés hacer esquejes de punta o de tallo en sustrato, en primavera o verano. Para una planta grande y pelada abajo, el acodo aéreo anda bien en primavera o fin del verano, aunque es lento."
+    },
+    "fuentes": [
+      {
+        "titulo": "Rubber Plant",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/rubber-plant/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "How to grow ornamental figs (RHS Growing Guide)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/popular/ornamental-figs/growing-guide",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Ficus elastica",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/ficus-elastica/",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Poda en primavera (Clemson) y a fines de invierno o principios de primavera (RHS): se pasó a agosto a noviembre.",
+      "Esquejes en primavera o verano y acodo en primavera o fines de verano: se pasó a septiembre a febrero."
+    ]
+  },
+  "palo-de-agua": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "No necesita poda; si un tallo queda largo y pelado, cortalo en primavera a la altura que quieras: rebrota justo debajo del corte."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_tierra",
+        "acodo"
+      ],
+      "en_agua": false,
+      "meses": [
+        12,
+        1,
+        2
+      ],
+      "detalle": "El tramo que cortaste sirve de esqueje: plantalo en sustrato en verano, en un lugar cálido. Si la planta está muy alta, también podés hacerle un acodo aéreo."
+    },
+    "fuentes": [
+      {
+        "titulo": "Dracaena fragrans",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dracaena-fragrans/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Dracaena fragrans",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/6093/dracaena-fragrans/details",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Dracaena",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "How to grow dracaena (RHS Growing Guide)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/dracaena/how-to-grow-dracaena",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Recorte de tallos en primavera (marzo a mayo en el norte): se pasó a septiembre a noviembre.",
+      "Esquejes en verano (junio a agosto en el norte): se pasó a diciembre a febrero."
+    ]
+  },
+  "bambu-de-la-suerte": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "opcional",
+      "detalle": "En agua, sostené las cañas con piedritas en el fondo; en tierra, ponele una cañita a los tallos altos hasta que agarren."
+    },
+    "poda": {
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "No necesita poda; si un tallo crece débil o muy largo, acortalo en primavera y usá el recorte para hacer otra planta."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_agua",
+        "esqueje_tierra"
+      ],
+      "en_agua": true,
+      "meses": [
+        12,
+        1,
+        2
+      ],
+      "detalle": "Cortá un brote nuevo del tallo principal, sacale las hojas de abajo y ponelo en agua sin cloro: en 2 o 3 semanas suele sacar raíces."
+    },
+    "fuentes": [
+      {
+        "titulo": "How To Grow and Care for Lucky Bamboo (Dracaena sanderiana)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/how-to-grow-and-care-for-lucky-bamboo-dracaena-sanderiana/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Dracaena sanderiana green-leaved",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/171667/dracaena-sanderiana-green-leaved/details",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Dracaena sanderiana",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Dracaena sanderiana (v)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/6097/dracaena-sanderiana-v/details",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Recorte de tallos débiles en primavera (marzo a mayo en el norte): se pasó a septiembre a noviembre.",
+      "RHS indica esquejes en verano (junio a agosto en el norte): se pasó a diciembre a febrero."
+    ]
+  },
+  "aglaonema": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: sacá las hojas secas y las flores. Si con los años el tallo queda pelado abajo, podés cortar la punta y enraizarla."
+    },
+    "propagacion": {
+      "metodos": [
+        "division",
+        "hijuelos",
+        "esqueje_tierra"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "Al trasplantar en primavera, dividí la mata en dos o separá los brotes que salen de la base con 3 o 4 hojas y sus raíces. Los tallos que quedaron largos y pelados también se pueden cortar y enraizar."
+    },
+    "fuentes": [
+      {
+        "titulo": "Aglaonema",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/aglaonema/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Chinese Evergreen (Aglaonema) Care, Cultivation & Growing Guide",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/chinese-evergreen-aglaonema-care-cultivation-growing-guide/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Aglaonema",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/aglaonema/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Aglaonema 'Silver Queen'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/92017/aglaonema-silver-queen/details",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Aglaonema modestum",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/707/aglaonema-modestum/details",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "RHS indica dividir en primavera (marzo a mayo en el norte): se pasó a septiembre a noviembre."
+    ]
+  }
+}

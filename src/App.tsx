@@ -12,10 +12,12 @@ const cargarPlantas = () => import('./features/pets/Plantas').then((m) => ({ def
 const cargarEspacio = () => import('./features/spaces/MiEspacio').then((m) => ({ default: m.MiEspacio }))
 const cargarPerfil = () => import('./features/profile/Perfil').then((m) => ({ default: m.Perfil }))
 const cargarReproductor = () => import('./features/quiz/Reproductor').then((m) => ({ default: m.Reproductor }))
+const cargarGuia = () => import('./features/wiki/Guia').then((m) => ({ default: m.Guia }))
 const Plantas = lazy(cargarPlantas)
 const MiEspacio = lazy(cargarEspacio)
 const Perfil = lazy(cargarPerfil)
 const Reproductor = lazy(cargarReproductor)
+const Guia = lazy(cargarGuia)
 
 const ORDEN: Pestana[] = ['aprender', 'plantas', 'espacio', 'perfil']
 
@@ -24,6 +26,10 @@ export function App() {
   const [pestana, setPestana] = useState<Pestana>('aprender')
   const [direccion, setDireccion] = useState(1)
   const [sesion, setSesion] = useState<Sesion | null>(null)
+  // La guía rápida se abre desde Aprender (lista completa) o desde el buscador de Plantas (directo en una ficha).
+  // `vez` cambia en cada apertura para que arranque limpia.
+  const [guia, setGuia] = useState<{ abierta: boolean; entrada: string | null; vez: number }>({ abierta: false, entrada: null, vez: 0 })
+  const abrirGuia = (entrada: string | null = null) => setGuia((g) => ({ abierta: true, entrada, vez: g.vez + 1 }))
 
   useEffect(() => {
     const precargar = () => {
@@ -32,6 +38,7 @@ export function App() {
       void cargarPlantas()
       void cargarEspacio()
       void cargarPerfil()
+      void cargarGuia()
     }
     if ('requestIdleCallback' in window) {
       const id = window.requestIdleCallback(precargar, { timeout: 3000 })
@@ -54,6 +61,7 @@ export function App() {
   }, [listo])
 
   const cambiar = (p: Pestana) => {
+    setGuia((g) => ({ ...g, abierta: false }))
     setDireccion(ORDEN.indexOf(p) >= ORDEN.indexOf(pestana) ? 1 : -1)
     setPestana(p)
   }
@@ -83,14 +91,19 @@ export function App() {
                   exit="sale"
                   transition={{ duration: 0.2, ease: 'easeOut' }}
                 >
-                  {pestana === 'aprender' && <Aprender onJugar={setSesion} onIrAEspacio={() => cambiar('espacio')} />}
+                  {pestana === 'aprender' && <Aprender onJugar={setSesion} onIrAEspacio={() => cambiar('espacio')} onGuia={() => abrirGuia()} />}
                   <Suspense fallback={null}>
-                    {pestana === 'plantas' && <Plantas />}
+                    {pestana === 'plantas' && <Plantas onGuia={abrirGuia} />}
                     {pestana === 'espacio' && <MiEspacio />}
                     {pestana === 'perfil' && <Perfil />}
                   </Suspense>
                 </motion.div>
               </AnimatePresence>
+              {guia.vez > 0 && (
+                <Suspense fallback={null}>
+                  <Guia key={guia.vez} abierta={guia.abierta} entradaInicial={guia.entrada} onCerrar={() => setGuia((g) => ({ ...g, abierta: false }))} onJugar={setSesion} />
+                </Suspense>
+              )}
             </main>
             <BarraNav activa={pestana} onCambiar={cambiar} />
           </motion.div>

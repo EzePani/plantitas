@@ -10,7 +10,7 @@ export function todasLasFuentes(lecciones: Leccion[]): Map<string, Fuente[]> {
   const porOrg = new Map<string, Fuente[]>()
   const todas: Fuente[] = [
     ...lecciones.flatMap((l) => l.fuentes),
-    ...PLANTAS.flatMap((p) => [...p.fuentes, ...p.mascotas.fuentes_toxicidad]),
+    ...PLANTAS.flatMap((p) => [...p.fuentes, ...p.mascotas.fuentes_toxicidad, ...p.cultivo.fuentes]),
     ...PELIGROSAS.flatMap((p) => p.fuentes),
   ]
   for (const f of todas) {
@@ -56,6 +56,13 @@ export function Creditos() {
                   {p.atribucion_imagen!.autor} · {p.atribucion_imagen!.licencia}
                 </span>
               </a>
+              {p.fotos_extra.map((f, i) => (
+                <a key={f.archivo} href={f.url} target="_blank" rel="noopener noreferrer" className="border-arena block border-t-2 px-3 py-2">
+                  <span className="text-tinta-suave block text-[12px] font-bold">
+                    {C.fotoN(i + 2)}: {f.autor} · {f.licencia}
+                  </span>
+                </a>
+              ))}
             </li>
           ))}
         </ul>

@@ -1,0 +1,513 @@
+{
+  "fuentes": [
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Epipremnum aureum",
+      "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Hábito trepador/rastrero, trepa con raíces aéreas; con soporte da hojas más grandes; recortar tallos para que quede tupido; esqueje de tallo, enraíza fácil en agua.",
+      "usado_en": [
+        "potus"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Pothos, Epipremnum aureum",
+      "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Trepadora que adentro se cultiva con guías colgantes o sobre un soporte; poda selectiva; esquejes y acodo aéreo; enraíza en agua en 3 a 4 semanas.",
+      "usado_en": [
+        "potus"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow epipremnum (RHS Growing Guide)",
+      "url": "https://www.rhs.org.uk/plants/epipremnum/growing-guide",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Colgante o trepadora sobre tutor de musgo o fibra de coco húmedo; recortar puntas por encima de una hoja; esquejes de tallo en un vaso de agua; acodo simple.",
+      "usado_en": [
+        "potus"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to take cuttings from houseplants",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-take-cuttings-from-houseplants",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Mejor época para esquejes de plantas de interior: fines de primavera o principios de verano (aunque funcionan casi todo el año); nombra al potus como esqueje de tallo.",
+      "usado_en": [
+        "potus",
+        "lengua-de-suegra"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Monstera deliciosa",
+      "url": "https://plants.ces.ncsu.edu/plants/monstera-deliciosa/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Trepadora; necesita un soporte firme para que no se quiebren los tallos; podar o trasplantar en primavera; acodo o esqueje de tallo.",
+      "usado_en": [
+        "monstera"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow Swiss cheese plants",
+      "url": "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Trepadora que se guía y ata a un tutor de musgo; se puede podar en primavera si crece de más; esquejes de tallo en agua, de primavera a fines de verano.",
+      "usado_en": [
+        "monstera"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Monstera deliciosa",
+      "url": "https://hort.extension.wisc.edu/articles/monstera-deliciosa/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Enredadera trepadora; recomienda un soporte cubierto de musgo o corteza; esquejes de tallo cortados debajo de una raíz aérea, acodo aéreo y acodo simple en cualquier época.",
+      "usado_en": [
+        "monstera"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Dracaena trifasciata",
+      "url": "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Erguida, forma matas, sin tallo visible; propagación por división (también lista 'stem cutting').",
+      "usado_en": [
+        "lengua-de-suegra"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow sansevieria (RHS Growing Guide)",
+      "url": "https://www.rhs.org.uk/plants/sansevieria/growing-guide",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Hojas erguidas en matas; no necesita poda (solo sacar hojas dañadas y la vara floral); si se vence en poca luz, aro de alambre o cañas; hijuelos, división y esquejes de hoja de 5 cm, en primavera (marzo a mayo en el norte).",
+      "usado_en": [
+        "lengua-de-suegra"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Zamioculcas zamiifolia",
+      "url": "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Hábito erguido y arqueado desde un rizoma; crecimiento lento; división o esqueje de hoja.",
+      "usado_en": [
+        "zamioculca"
+      ]
+    },
+    {
+      "org": "Iowa State University Extension",
+      "titulo": "I recently purchased a ZZ plant. How do I care for it?",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Crece lento y de a tirones; se propaga por esquejes de hoja y división.",
+      "usado_en": [
+        "zamioculca"
+      ]
+    },
+    {
+      "org": "University of Illinois Extension",
+      "titulo": "Houseplant spotlight: the ZZ plant",
+      "url": "https://extension.illinois.edu/blogs/good-growing/2026-01-09-houseplant-spotlight-zz-plant",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "La división es lo más común y rápido; los esquejes de hoja tardan meses; se dejan encallecer unos días y pueden ir en un recipiente bajo con agua.",
+      "usado_en": [
+        "zamioculca"
+      ]
+    },
+    {
+      "org": "UConn Home & Garden Education Center",
+      "titulo": "ZZ Plant",
+      "url": "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Crece erguida con tallos arqueados; esqueje de hoja en sustrato; en casa el rizoma puede tardar hasta 9 meses en formarse.",
+      "usado_en": [
+        "zamioculca"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Zamioculcas zamiifolia",
+      "url": "https://www.rhs.org.uk/plants/19185/zamioculcas-zamiifolia/details",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "No requiere poda: sacar hojas y flores marchitas al ras; propagar por esquejes de hoja (folíolos sueltos).",
+      "usado_en": [
+        "zamioculca"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Chlorophytum comosum",
+      "url": "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Hojas en roseta, hábito arqueado y en cascada, ideal para colgar; se propaga por hijitos o división; los hijitos salen con días cortos.",
+      "usado_en": [
+        "cinta"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Spider plant, Chlorophytum comosum",
+      "url": "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Mata con hojas desde un punto central y tallos colgantes con hijitos; enraizar el hijito en una maceta al lado sin cortarlo, o separar los que ya tienen raíz; división; adentro los hijitos pueden salir en cualquier época.",
+      "usado_en": [
+        "cinta"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow spider plants (RHS Growing Guide)",
+      "url": "https://www.rhs.org.uk/plants/spider-plants/growing-guide",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Hojas en cascada; sacar hojas secas y recortar hijitos viejos; hijitos en sustrato o en un vaso de agua; división de matas grandes.",
+      "usado_en": [
+        "cinta"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Chlorophytum comosum",
+      "url": "https://www.rhs.org.uk/plants/3761/chlorophytum-comosum/details",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Forma matas; recortar las varas florales marchitas si no se quieren hijitos; semilla, división o hijitos.",
+      "usado_en": [
+        "cinta"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Nephrolepis exaltata",
+      "url": "https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Hábito en cascada, frondes erguidas a arqueadas o péndulas; rizomas cortos con estolones; se reproduce por esporas.",
+      "usado_en": [
+        "helecho-serrucho"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Boston fern, Nephrolepis exaltata",
+      "url": "https://hort.extension.wisc.edu/articles/boston-fern-nephrolepis-exaltata/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Frondes arqueadas que cuelgan; cortar frondes viejas al ras ayuda a que salgan nuevas; lo más fácil es dividir el pan de raíces en mitades o cuartos, en primavera.",
+      "usado_en": [
+        "helecho-serrucho"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Indoor Ferns",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Frondes arqueadas que caen hacia todos lados; la división es el mejor método para la mayoría de los helechos; trasplantar a principios de primavera.",
+      "usado_en": [
+        "helecho-serrucho"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Ficus lyrata",
+      "url": "https://plants.ces.ncsu.edu/plants/ficus-lyrata/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Erguido, poco ramificado de joven, tallos firmes; se puede podar según haga falta, con guantes por la savia; esqueje de tallo.",
+      "usado_en": [
+        "ficus-lyrata"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow ornamental figs (RHS Growing Guide)",
+      "url": "https://www.rhs.org.uk/plants/popular/ornamental-figs/growing-guide",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Ficus de interior: casi no necesitan poda; a fines de invierno o principios de primavera acortar brotes largos sobre una hoja; esquejes semileñosos en primavera o verano; acodo aéreo para el gomero y algunos otros en primavera o fines de verano; F. lyrata crece erguido.",
+      "usado_en": [
+        "ficus-lyrata",
+        "gomero"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Ficus elastica",
+      "url": "https://plants.ces.ncsu.edu/plants/ficus-elastica/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Erguido; adentro se mantiene con guiado o soporte según haga falta; podar ramas principales lo hace más tupido; lista acodo, esqueje de raíz y semilla.",
+      "usado_en": [
+        "gomero"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Rubber Plant",
+      "url": "https://hgic.clemson.edu/factsheet/rubber-plant/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Puede ponerse alto y desgarbado: sostener con una estaca o podar en primavera para rejuvenecer; esquejes de tallo o de punta y acodo aéreo.",
+      "usado_en": [
+        "gomero"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Dracaena fragrans",
+      "url": "https://plants.ces.ncsu.edu/plants/dracaena-fragrans/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Arbusto erguido de crecimiento lento, tallo leñoso sin ramificar; esquejes de tallo.",
+      "usado_en": [
+        "palo-de-agua"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Dracaena",
+      "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Si los tallos quedan largos y pelados se cortan a la altura deseada y rebrotan; acodo aéreo, esquejes de punta o de tallo y brotes basales (estos en primavera o fines de verano).",
+      "usado_en": [
+        "palo-de-agua"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow dracaena (RHS Growing Guide)",
+      "url": "https://www.rhs.org.uk/plants/dracaena/how-to-grow-dracaena",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Responden bien a la poda y rebrotan debajo del corte; esquejes semileñosos y leñosos en verano, con calor de fondo.",
+      "usado_en": [
+        "palo-de-agua"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Dracaena fragrans",
+      "url": "https://www.rhs.org.uk/plants/6093/dracaena-fragrans/details",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Columnar erguida; no requiere poda, los tallos débiles se pueden acortar en primavera y usar como esqueje; esquejes y tramos de tallo sin hojas en verano.",
+      "usado_en": [
+        "palo-de-agua"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Dracaena sanderiana",
+      "url": "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Erguida, tallos carnosos tipo bambú que se venden trenzados o en espiral; piedritas para que no se vuelque; puede crecer en agua sin cloro; esqueje de tallo (foto de cañas enraizando en agua).",
+      "usado_en": [
+        "bambu-de-la-suerte"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "How To Grow and Care for Lucky Bamboo (Dracaena sanderiana)",
+      "url": "https://hgic.clemson.edu/how-to-grow-and-care-for-lucky-bamboo-dracaena-sanderiana/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Piedritas o bolitas para sostener las cañas en agua; en tierra, tutorar los tallos altos hasta que agarren; cortar un brote nuevo, sacarle las hojas de abajo y ponerlo en agua: raíces en 2 a 3 semanas.",
+      "usado_en": [
+        "bambu-de-la-suerte"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Dracaena sanderiana green-leaved",
+      "url": "https://www.rhs.org.uk/plants/171667/dracaena-sanderiana-green-leaved/details",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Arbusto erguido columnar; no requiere poda, los tallos débiles se pueden acortar a 15 cm en primavera y usar el recorte como esqueje; esquejes y tramos de tallo en verano.",
+      "usado_en": [
+        "bambu-de-la-suerte"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Dracaena sanderiana (v)",
+      "url": "https://www.rhs.org.uk/plants/6097/dracaena-sanderiana-v/details",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Columnar erguida; no necesita poda salvo que crezca débil, en ese caso recortar fuerte en primavera; esquejes semileñosos o leñosos.",
+      "usado_en": [
+        "bambu-de-la-suerte"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Aglaonema",
+      "url": "https://plants.ces.ncsu.edu/plants/aglaonema/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Erguida y tupida, forma matas de varios tallos; con los años el tallo se alarga y queda pelado; sacar flores y frutos; división y esqueje de tallo.",
+      "usado_en": [
+        "aglaonema"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Chinese Evergreen (Aglaonema) Care, Cultivation & Growing Guide",
+      "url": "https://hgic.clemson.edu/factsheet/chinese-evergreen-aglaonema-care-cultivation-growing-guide/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Si el tallo queda pelado abajo, se corta la punta y se enraíza; división, esquejes de tallo o de punta, acodo aéreo y semilla.",
+      "usado_en": [
+        "aglaonema"
+      ]
+    },
+    {
+      "org": "UF/IFAS Gardening Solutions",
+      "titulo": "Aglaonema",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/aglaonema/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Al trasplantar se puede dividir en dos plantas; cortar los tallos desgarbados y enraizarlos; sacar las flores.",
+      "usado_en": [
+        "aglaonema"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Aglaonema 'Silver Queen'",
+      "url": "https://www.rhs.org.uk/plants/92017/aglaonema-silver-queen/details",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Hábito erguido, en mata; no requiere poda; brotes basales o división.",
+      "usado_en": [
+        "aglaonema"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Aglaonema modestum",
+      "url": "https://www.rhs.org.uk/plants/707/aglaonema-modestum/details",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Forma matas; no requiere poda; separar brotes basales con 3 o 4 hojas y raíces, o dividir en primavera.",
+      "usado_en": [
+        "aglaonema"
+      ]
+    }
+  ],
+  "revisar": [
+    {
+      "id": "potus",
+      "dato": "poda.meses",
+      "motivo": "NC State, Wisconsin y RHS recomiendan recortar las guías pero ninguna dice en qué época. Se dejó meses: [] para no inventar; OJO: en el esquema [] significa 'no se poda' y el potus sí se recorta (ver detalle). Decidir cómo mostrarlo.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+        "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+        "https://www.rhs.org.uk/plants/epipremnum/growing-guide"
+      ]
+    },
+    {
+      "id": "potus",
+      "dato": "propagacion.meses",
+      "motivo": "La época (fin de primavera/principio de verano) sale de una sola página general de RHS sobre esquejes de plantas de interior, que nombra al potus; la misma página dice que funcionan casi todo el año. Las fichas de la especie no dan época.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/types/houseplants/how-to-take-cuttings-from-houseplants"
+      ]
+    },
+    {
+      "id": "monstera",
+      "dato": "propagacion.en_agua / poda",
+      "motivo": "Solo RHS describe el esqueje en agua (Wisconsin lo hace en sustrato). Wisconsin no menciona poda; NC State y RHS coinciden en primavera. Wisconsin dice que esquejes y acodos se pueden hacer en cualquier época; se tomó el rango de RHS.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants",
+        "https://hort.extension.wisc.edu/articles/monstera-deliciosa/"
+      ]
+    },
+    {
+      "id": "lengua-de-suegra",
+      "dato": "propagacion.metodos",
+      "motivo": "NC State lista 'Stem Cutting' además de división, sin detalle; la planta no tiene tallo visible y RHS describe esqueje de hoja, así que se usó 'hoja'. Enraizado en agua: ninguna fuente abierta lo menciona, quedó en false. La época (primavera) sale solo de RHS.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+        "https://www.rhs.org.uk/plants/sansevieria/growing-guide"
+      ]
+    },
+    {
+      "id": "zamioculca",
+      "dato": "propagacion.meses",
+      "motivo": "Ninguna de las 5 fuentes abiertas da época para dividir o hacer esquejes: quedó meses: []. Por eso confianza media aunque los métodos coinciden en todas.",
+      "fuentes": [
+        "https://extension.illinois.edu/blogs/good-growing/2026-01-09-houseplant-spotlight-zz-plant",
+        "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant/"
+      ]
+    },
+    {
+      "id": "zamioculca",
+      "dato": "propagacion.en_agua",
+      "motivo": "Solo Illinois Extension menciona poner los esquejes de hoja en un recipiente bajo con agua; UConn los pone en sustrato.",
+      "fuentes": [
+        "https://extension.illinois.edu/blogs/good-growing/2026-01-09-houseplant-spotlight-zz-plant"
+      ]
+    },
+    {
+      "id": "cinta",
+      "dato": "propagacion.meses",
+      "motivo": "Ninguna fuente da época; Wisconsin dice que adentro los hijitos pueden aparecer en cualquier momento del año. Quedó meses: []. Semilla: Wisconsin y RHS la mencionan pero no se incluyó como método casero (las plantas pueden salir distintas a la madre). El agua para hijitos sale solo de RHS.",
+      "fuentes": [
+        "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/",
+        "https://www.rhs.org.uk/plants/spider-plants/growing-guide"
+      ]
+    },
+    {
+      "id": "helecho-serrucho",
+      "dato": "porte / poda",
+      "motivo": "Porte 'roseta + colgante' es interpretación de 'frondes arqueadas en cascada' (ninguna fuente dice roseta). El corte de frondes viejas no tiene época en las fuentes. Los estolones enraízan solos según Wisconsin, pero no lo presenta como método, así que no se puso 'hijuelos'.",
+      "fuentes": [
+        "https://hort.extension.wisc.edu/articles/boston-fern-nephrolepis-exaltata/",
+        "https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/"
+      ]
+    },
+    {
+      "id": "ficus-lyrata",
+      "dato": "poda y propagacion",
+      "motivo": "Poda y época de esquejes salen de la guía de RHS para ficus de interior en general, no específica de F. lyrata; NC State solo dice 'esqueje de tallo' y 'podar según haga falta'. Penn State no dice nada de poda ni propagación. El acodo aéreo RHS lo nombra para el gomero 'y algunos otros', no para lyrata: no se incluyó. Tutor: ninguna fuente lo menciona, quedó 'no'.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/popular/ornamental-figs/growing-guide",
+        "https://plants.ces.ncsu.edu/plants/ficus-lyrata/"
+      ]
+    },
+    {
+      "id": "gomero",
+      "dato": "propagacion.metodos",
+      "motivo": "NC State lista acodo, esqueje de raíz y semilla (no esqueje de tallo); Clemson y RHS dan esquejes de tallo/punta y acodo aéreo. Se tomaron los dos métodos respaldados por Clemson y RHS.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/ficus-elastica/",
+        "https://hgic.clemson.edu/factsheet/rubber-plant/"
+      ]
+    },
+    {
+      "id": "palo-de-agua",
+      "dato": "poda.meses / propagacion.meses",
+      "motivo": "Las épocas (recorte en primavera, esquejes en verano) salen solo de RHS; Clemson da 'primavera o fines de verano' pero para brotes basales de dracaenas en general. El acodo aéreo sale solo de Clemson (genérico de dracaenas).",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/6093/dracaena-fragrans/details",
+        "https://hgic.clemson.edu/factsheet/dracaena/"
+      ]
+    },
+    {
+      "id": "bambu-de-la-suerte",
+      "dato": "propagacion.meses",
+      "motivo": "La época (verano) sale solo de RHS y se refiere a esquejes con calor de fondo; Clemson, que describe el esqueje en agua, no da época.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/171667/dracaena-sanderiana-green-leaved/details",
+        "https://hgic.clemson.edu/how-to-grow-and-care-for-lucky-bamboo-dracaena-sanderiana/"
+      ]
+    },
+    {
+      "id": "aglaonema",
+      "dato": "todo",
+      "motivo": "Ninguna fuente trata el cultivar 'Silver Bay': los datos son del género (NC State, Clemson, UF/IFAS) y de 'Silver Queen' y A. modestum (RHS). La época (primavera) sale de RHS para dividir A. modestum. Las fuentes no dicen si el esqueje se enraíza en agua o en sustrato: se puso 'esqueje_tierra' y en_agua false. Clemson menciona también acodo aéreo y semilla (no incluidos).",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/707/aglaonema-modestum/details",
+        "https://hgic.clemson.edu/factsheet/chinese-evergreen-aglaonema-care-cultivation-growing-guide/"
+      ]
+    }
+  ],
+  "no_pude_abrir": [
+    "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=282309 (conexión rechazada)",
+    "https://hgic.clemson.edu/factsheet/chinese-evergreen/ (504; la ficha está en otra URL que sí abrió)",
+    "https://hgic.clemson.edu/factsheet/pothos/ (404)",
+    "https://hort.extension.wisc.edu/articles/zz-plant-zamioculcas-zamiifolia/ (404)",
+    "https://hort.extension.wisc.edu/articles/snake-plant-sansevieria-trifasciata/ (404)",
+    "https://www.rhs.org.uk/plants/chlorophytum/growing-guide (404; la guía está en /plants/spider-plants/growing-guide)",
+    "https://www.rhs.org.uk/plants/97113/epipremnum-aureum/details (el id llevó a otra planta, no se usó)"
+  ]
+}

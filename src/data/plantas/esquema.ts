@@ -7,6 +7,30 @@ const confianza = z.enum(['alta', 'media', 'baja'])
 export const categoriaLuz = z.enum(['directa', 'indirecta_brillante', 'indirecta_media', 'baja'])
 export const toxicidad = z.enum(['segura', 'toxica', 'no_verificada'])
 
+export const clase = z.enum(['follaje', 'suculenta', 'cactus', 'con_flor'])
+export const porte = z.enum(['erguida', 'trepadora', 'colgante', 'roseta'])
+export const metodoPropagacion = z.enum(['esqueje_agua', 'esqueje_tierra', 'hoja', 'division', 'hijuelos', 'acodo', 'semilla'])
+const meses = z.array(z.number().int().min(1).max(12))
+const foto = z.object({ archivo: texto, autor: texto, licencia: texto, url: z.string().url() })
+
+/** Cómo crece y cómo se multiplica (src/data/plantas/cultivo-*.json). Meses del hemisferio sur. */
+export const esquemaCultivo = z.object({
+  porte: z.array(porte).min(1).max(2),
+  tutor: z.object({ recomendado: z.enum(['si', 'opcional', 'no']), detalle: z.string() }),
+  /** meses vacíos = no se poda o las fuentes no dan época: el detalle lo aclara */
+  poda: z.object({ meses, detalle: texto }),
+  propagacion: z.object({
+    metodos: z.array(metodoPropagacion),
+    /** los esquejes o hijitos enraízan en agua */
+    en_agua: z.boolean(),
+    meses,
+    detalle: texto,
+  }),
+  fuentes: z.array(esquemaFuente).min(1),
+  confianza,
+  adaptaciones: z.array(z.string()),
+})
+
 export const esquemaPlanta = z.object({
   id: z.string().regex(/^[a-z-]+$/),
   nombre_comun: texto,
@@ -44,7 +68,12 @@ export const esquemaPlanta = z.object({
   tamano: z.enum(['chica', 'mediana', 'grande']),
   dificultad: z.enum(['facil', 'media', 'dificil']),
   tip: texto,
+  /** qué tipo de planta es, para clasificar el catálogo (una planta puede ser cactus y con flor) */
+  clases: z.array(clase).min(1),
+  cultivo: esquemaCultivo,
   imagen: z.string().nullable(),
+  /** fotos que se suman a la principal en el carrusel de la ficha */
+  fotos_extra: z.array(foto),
   atribucion_imagen: z.object({ autor: texto, licencia: texto, url: z.string().url() }).nullable(),
   mascotas: z.object({
     toxicidad_gato: toxicidad,
@@ -69,5 +98,10 @@ export const esquemaPlanta = z.object({
 })
 
 export type Planta = z.infer<typeof esquemaPlanta>
+export type Cultivo = z.infer<typeof esquemaCultivo>
+export type Clase = z.infer<typeof clase>
+export type Porte = z.infer<typeof porte>
+export type MetodoPropagacion = z.infer<typeof metodoPropagacion>
+export type FotoExtra = z.infer<typeof foto>
 export type CategoriaLuz = z.infer<typeof categoriaLuz>
 export type Toxicidad = z.infer<typeof toxicidad>

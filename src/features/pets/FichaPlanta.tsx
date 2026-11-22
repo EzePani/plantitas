@@ -1,9 +1,10 @@
-import { Droplet, Flame, Home, Info, Layers, Sun, TriangleAlert, Wind } from 'lucide-react'
+import { Droplet, Flame, Home, Info, Layers, Scissors, Shapes, Sprout, Sun, TrendingUp, TriangleAlert, Wind } from 'lucide-react'
 import type { ReactNode } from 'react'
-import { FotoPlanta } from '../../components/FotoPlanta'
+import { Carrusel } from '../../components/Carrusel'
 import { ListaFuentes } from '../../components/ListaFuentes'
 import type { Planta } from '../../data/plantas'
 import { TC } from '../../data/textosCatalogo'
+import { rangoMeses } from '../../lib/catalogo'
 import { BotonFavorita, CalceEspacios } from './Favorita'
 import { BotonCompartirPlanta, GuardarEnColeccion } from './Lista'
 import { Semaforo } from './Semaforo'
@@ -27,9 +28,13 @@ export function FichaPlanta({ planta: p }: { planta: Planta }) {
   const m = p.mascotas
   const algunaToxica = m.toxicidad_gato === 'toxica' || m.toxicidad_perro === 'toxica'
   const algunaSinVerificar = m.toxicidad_gato === 'no_verificada' || m.toxicidad_perro === 'no_verificada'
+  const c = p.cultivo
+  const mesesPoda = rangoMeses(c.poda.meses)
+  const mesesHijitos = rangoMeses(c.propagacion.meses)
+  const fuentes = [...p.fuentes, ...m.fuentes_toxicidad, ...c.fuentes].filter((f, i, todas) => todas.findIndex((x) => x.url === f.url) === i)
   return (
     <article className="pb-8">
-      <FotoPlanta planta={p} className="mx-5 aspect-[4/3] rounded-3xl" />
+      <Carrusel planta={p} className="mx-5" />
       <div className="px-5 pt-4">
         <div className="flex items-start justify-between gap-2">
           <div className="min-w-0">
@@ -44,7 +49,7 @@ export function FichaPlanta({ planta: p }: { planta: Planta }) {
         </div>
         {p.otros_nombres.length > 0 && <p className="text-tinta-suave m-0 text-[13px] font-bold">{p.otros_nombres.join(' · ')}</p>}
         <div className="mt-3 flex flex-wrap gap-2">
-          {[P.grupo[p.grupo], P.dificultad[p.dificultad], P.tamano[p.tamano]].map((t) => (
+          {[...p.clases.map((x) => P.clase[x]), ...c.porte.map((x) => P.porte[x]), P.dificultad[p.dificultad], P.tamano[p.tamano]].map((t) => (
             <span key={t} className="bg-arena text-tinta rounded-full px-3 py-1 text-[13px] font-extrabold">
               {t}
             </span>
@@ -135,8 +140,40 @@ export function FichaPlanta({ planta: p }: { planta: Planta }) {
           </div>
         )}
 
+        <h3 className="font-display text-tinta mt-6 mb-2 text-[20px] font-semibold">{F.crecimiento}</h3>
+        <div className="border-arena-osc rounded-2xl border-2 bg-white">
+          <Dato icono={<Shapes size={20} aria-hidden />} titulo={`${F.porte} · ${c.porte.map((x) => P.porte[x]).join(' y ')}`}>
+            {c.porte.map((x) => F.porteDetalle[x]).join(' ')}
+          </Dato>
+          <Dato icono={<TrendingUp size={20} aria-hidden />} titulo={F.tutor}>
+            {F.tutorNivel[c.tutor.recomendado]}
+            {c.tutor.detalle && <span className="text-tinta-suave mt-1 block text-[14px]">{c.tutor.detalle}</span>}
+          </Dato>
+          <Dato icono={<Scissors size={20} aria-hidden />} titulo={F.poda}>
+            {mesesPoda && <span className="block">{F.podaEpoca(mesesPoda)}</span>}
+            <span className={mesesPoda ? 'text-tinta-suave mt-1 block text-[14px]' : 'block'}>{c.poda.detalle}</span>
+          </Dato>
+          <Dato icono={<Sprout size={20} aria-hidden />} titulo={F.hijitos}>
+            {c.propagacion.metodos.length > 0 ? (
+              <span className="mb-1 flex flex-wrap gap-1.5">
+                {c.propagacion.metodos.map((x) => (
+                  <span key={x} className="bg-brote text-hoja-osc rounded-full px-2.5 py-0.5 text-[13px] font-extrabold">
+                    {F.metodo[x]}
+                  </span>
+                ))}
+              </span>
+            ) : (
+              <span className="block">{F.sinMetodo}</span>
+            )}
+            {mesesHijitos && <span className="block">{F.hijitosEpoca(mesesHijitos)}</span>}
+            <span className="text-tinta-suave mt-1 block text-[14px]">{c.propagacion.detalle}</span>
+            {c.confianza === 'baja' && <span className="mt-1 block text-[14px] text-[#7a5200]">{F.confianzaBaja}</span>}
+          </Dato>
+        </div>
+        {c.adaptaciones.length > 0 && <p className="text-tinta-suave mt-2 mb-0 text-[13px] font-bold">{F.adaptado}</p>}
+
         <h3 className="font-display text-tinta mt-6 mb-2 text-[20px] font-semibold">{F.fuentes}</h3>
-        <ListaFuentes fuentes={[...p.fuentes, ...m.fuentes_toxicidad.filter((f) => !p.fuentes.some((x) => x.url === f.url))]} />
+        <ListaFuentes fuentes={fuentes} />
         <p className="text-tinta-suave mt-4 mb-0 text-[13px] leading-snug font-bold">{F.disclaimer}</p>
       </div>
     </article>

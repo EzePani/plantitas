@@ -1,0 +1,426 @@
+{
+  "fuentes": [
+    {
+      "org": "RHS",
+      "titulo": "How to grow moth orchids (Phalaenopsis)",
+      "url": "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Vara floral sujeta a una varilla; cortar la vara sobre el segundo nudo tras la floración; keikis con raíces se separan; trasplante en cualquier época.",
+      "usado_en": [
+        "orquidea-phalaenopsis"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Phalaenopsis",
+      "url": "https://plants.ces.ncsu.edu/plants/phalaenopsis/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Hábito: epífita sin tallo visible, hojas en roseta; cortar la vara sobre el primer nudo debajo de las flores marchitas.",
+      "usado_en": [
+        "orquidea-phalaenopsis"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Orchids",
+      "url": "https://hort.extension.wisc.edu/articles/orchids/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "En Phalaenopsis, cortar la vara sobre un nudo para buscar una segunda floración en vez de sacarla entera.",
+      "usado_en": [
+        "orquidea-phalaenopsis"
+      ]
+    },
+    {
+      "org": "Iowa State University Extension and Outreach",
+      "titulo": "How to Propagate Houseplants by Division and Offsets",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/how-propagate-houseplants-division-and-offsets",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Lista de plantas que se dividen (palmeras areca y de salón, calatea, espatifilo) o se multiplican por hijuelos (Phalaenopsis); principio de primavera es lo ideal, aunque se puede todo el año.",
+      "usado_en": [
+        "orquidea-phalaenopsis",
+        "espatifilo",
+        "calatea",
+        "palmera-areca",
+        "palmera-de-salon"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow peace lilies",
+      "url": "https://www.rhs.org.uk/plants/peace-lilies/how-to-grow-peace-lilies",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Mata de hojas; solo se sacan hojas y flores pasadas desde la base; división de matas grandes en primavera; trasplante en primavera.",
+      "usado_en": [
+        "espatifilo"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Spathiphyllum",
+      "url": "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Hábito erguido/en mata con hojas en roseta basal; propagación por división; trasplante en febrero o marzo (norte).",
+      "usado_en": [
+        "espatifilo"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow anthuriums",
+      "url": "https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Planta compacta de unos 30 cm; no necesita poda ni guiado; se multiplica separando plantas con raíces, por esquejes de tallo/rizoma y esquejes con raíces aéreas en agua.",
+      "usado_en": [
+        "anturio"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Anthurium andraeanum",
+      "url": "https://plants.ces.ncsu.edu/plants/anthurium-andraeanum/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Hábito erguido, crecimiento lento; propagación por división o esquejes de tallo; trasplante en primavera.",
+      "usado_en": [
+        "anturio"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Begonias: houseplants",
+      "url": "https://www.rhs.org.uk/plants/begonias/houseplants",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Begonias rizomatosas (rex): esquejes de hoja en mayo o junio (norte), división en primavera con un punto de crecimiento por trozo; sin indicaciones de poda.",
+      "usado_en": [
+        "begonia"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Begonia Rex Cultorum Group",
+      "url": "https://plants.ces.ncsu.edu/plants/begonia-rex-types/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Mata densa de 30 a 45 cm, rizomatosa; propagación por división, esqueje de hoja y de tallo; solo sacar hojas muertas.",
+      "usado_en": [
+        "begonia"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Begonia",
+      "url": "https://hgic.clemson.edu/factsheet/begonia/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Las rex son rizomatosas y se multiplican por esquejes de hoja o de tallo.",
+      "usado_en": [
+        "begonia"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Calathea growing guide",
+      "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Forma matas; se sostiene sola (solo las variedades altas piden tutor a veces); no necesita poda; división en primavera; trasplante en primavera o verano.",
+      "usado_en": [
+        "calatea"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Goeppertia makoyana",
+      "url": "https://plants.ces.ncsu.edu/plants/goeppertia-makoyana/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Mata erguida de 30 a 60 cm; la división de rizomas a fines de primavera es el método preferido.",
+      "usado_en": [
+        "calatea"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Dypsis lutescens",
+      "url": "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Palmera de varios tallos en mata, erguida y arqueada; propagación por división y semilla.",
+      "usado_en": [
+        "palmera-areca"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Dypsis lutescens",
+      "url": "https://www.rhs.org.uk/plants/128311/dypsis-lutescens/details",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Grupo de tallos erguidos; no requiere poda; semilla a 25 °C o más.",
+      "usado_en": [
+        "palmera-areca"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Indoor Palms",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-palms/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Las palmeras no se pueden podar para bajarles la altura (crecen desde un punto central); areca en mata, palmera de salón con varios tallos sueltos por maceta; trasplante en primavera o principios de verano.",
+      "usado_en": [
+        "palmera-areca",
+        "palmera-de-salon"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Palms: indoors",
+      "url": "https://www.rhs.org.uk/plants/types/trees/indoor-palms",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Sin poda especial; hojas viejas se cortan, no se arrancan; hijuelos de Chamaedorea se separan en primavera con raíz; trasplante a principios de primavera.",
+      "usado_en": [
+        "palmera-areca",
+        "palmera-de-salon"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Chamaedorea elegans growing guide",
+      "url": "https://www.rhs.org.uk/plants/chamaedorea/growing-guide",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Varios tallos simples por maceta; sin poda (solo frondes viejas desde la base); se divide separando el pan de raíces; semilla requiere planta macho y hembra; trasplante en primavera.",
+      "usado_en": [
+        "palmera-de-salon"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Chamaedorea elegans",
+      "url": "https://plants.ces.ncsu.edu/plants/chamaedorea-elegans/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Tallos erguidos y finos, crecimiento lento; no da método de propagación.",
+      "usado_en": [
+        "palmera-de-salon"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "African violets growing guide",
+      "url": "https://www.rhs.org.uk/plants/african-violets/growing-guide",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Roseta baja; solo sacar hojas y flores pasadas; esquejes de hoja en primavera, separar coronas y retoños; trasplante en primavera.",
+      "usado_en": [
+        "violeta-africana"
+      ]
+    },
+    {
+      "org": "University of Vermont Extension",
+      "titulo": "Growing African violets",
+      "url": "https://www.uvm.edu/news/extension/growing-african-violets",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Separar retoños (coronas secundarias); esqueje de hoja en sustrato o con el pecíolo en agua hasta que saque raíces.",
+      "usado_en": [
+        "violeta-africana"
+      ]
+    },
+    {
+      "org": "Iowa State University Extension and Outreach",
+      "titulo": "How can I propagate an African violet?",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/how-can-i-propagate-african-violet",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Esqueje de hoja con pecíolo en sustrato húmedo, tapado con bolsa: raíces en 3 a 4 semanas, hojitas en 6 a 8.",
+      "usado_en": [
+        "violeta-africana"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "African Violets",
+      "url": "https://hort.extension.wisc.edu/articles/african-violets/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Forma rosetas; sacar flores y hojas viejas apenas se marchitan.",
+      "usado_en": [
+        "violeta-africana"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Cleistocactus winteri",
+      "url": "https://www.rhs.org.uk/plants/119918/wd/details",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Cactus colgante con tallos de hasta 1,5 m, ideal para maceta colgante; no requiere poda; esquejes de tallo en verano o semilla en primavera.",
+      "usado_en": [
+        "cola-de-mono-dorada"
+      ]
+    },
+    {
+      "org": "Wikipedia (Cactaceae)",
+      "titulo": "Cleistocactus winteri",
+      "url": "https://en.wikipedia.org/wiki/Cleistocactus_winteri",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Tallos colgantes o rastreros; se reproduce por semillas y esquejes.",
+      "usado_en": [
+        "cola-de-mono-dorada"
+      ]
+    },
+    {
+      "org": "University of Illinois Extension",
+      "titulo": "Propagating Succulents and Cacti",
+      "url": "https://extension.illinois.edu/blogs/hort-home-landscape/2015-06-04-propagating-succulents-and-cacti",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Dejar encallecer los esquejes 4 a 7 días antes de plantarlos en sustrato con buen drenaje; no mantenerlos siempre húmedos.",
+      "usado_en": [
+        "cola-de-mono-dorada",
+        "orejas-de-conejo-canela"
+      ]
+    },
+    {
+      "org": "National Parks Board (NParks) Flora & Fauna Web, Singapur",
+      "titulo": "Kalanchoe pinnata",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/3/3/3323",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Arbustito suculento de hasta 1,8 m; se multiplica por esquejes de tallo o por los plantines que salen en el borde de las hojas caídas.",
+      "usado_en": [
+        "kalanchoe-hoja-del-aire"
+      ]
+    },
+    {
+      "org": "University of Missouri Integrated Pest Management",
+      "titulo": "Kalanchoe",
+      "url": "https://ipm.missouri.edu/meg/2017/1/kalanchoe",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "K. pinnata (\"air plant\"): una hoja cortada saca plantines en el borde; esquejes de punta de tallo de kalanchoe enraízan en 2 a 3 semanas.",
+      "usado_en": [
+        "kalanchoe-hoja-del-aire"
+      ]
+    },
+    {
+      "org": "NC State Extension Gardener Plant Toolbox",
+      "titulo": "Opuntia microdasys",
+      "url": "https://plants.ces.ncsu.edu/plants/opuntia-microdasys/",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Mata baja muy ramificada, de rastrera a casi erguida; se multiplica desprendiendo una paleta en primavera; usar guantes por los gloquidios.",
+      "usado_en": [
+        "orejas-de-conejo-canela"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Opuntia microdasys",
+      "url": "https://www.rhs.org.uk/plants/11881/opuntia-microdasys/details",
+      "fecha_consulta": "2026-11-22",
+      "que_se_tomo": "Cactus arbustivo de 0,5 a 1 m; no requiere poda; segmentos de tallo se enraízan en verano, manipulándolos con papel de diario doblado.",
+      "usado_en": [
+        "orejas-de-conejo-canela"
+      ]
+    }
+  ],
+  "revisar": [
+    {
+      "id": "orquidea-phalaenopsis",
+      "dato": "propagacion.meses",
+      "motivo": "Ninguna fuente abierta da época para separar keikis (RHS dice que el trasplante se puede hacer todo el año; AOS sugiere trasplantar en primavera después de la floración). Se dejó meses: []. La poda de la vara depende de la floración, no del calendario: poda.meses quedó [] aunque sí se corta la vara. RHS dice cortar sobre el segundo nudo y NC State sobre el primero debajo de las flores: se redactó sin número de nudo.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide",
+        "https://plants.ces.ncsu.edu/plants/phalaenopsis/",
+        "https://www.aos.org/orchid-care/care-sheets/phalaenopsis-culture-sheet"
+      ]
+    },
+    {
+      "id": "orquidea-phalaenopsis",
+      "dato": "porte",
+      "motivo": "NC State la etiqueta \"Erect\" pero la describe sin tallo visible y con hojas en roseta; se eligió \"roseta\".",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/phalaenopsis/"
+      ]
+    },
+    {
+      "id": "anturio",
+      "dato": "propagacion.meses",
+      "motivo": "Ni RHS ni NC State dan época para multiplicar (NC State solo dice trasplantar en primavera). Se dejó meses: []. El enraizado en agua lo respalda solo RHS.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums",
+        "https://plants.ces.ncsu.edu/plants/anthurium-andraeanum/"
+      ]
+    },
+    {
+      "id": "anturio",
+      "dato": "porte",
+      "motivo": "NC State lo etiqueta \"Erect\" y RHS \"compacto, unos 30 cm\". Se clasificó como \"roseta\" (mata baja), igual que espatifilo, calatea y begonia, que NC State también etiqueta como erguidas/en mata. Criterio de mapeo a confirmar por el equipo.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/anthurium-andraeanum/"
+      ]
+    },
+    {
+      "id": "begonia",
+      "dato": "propagacion.en_agua",
+      "motivo": "Ninguna fuente menciona enraizar en agua: quedó false. El esqueje de tallo figura en NC State y Clemson sin procedimiento; RHS aclara que en rizomatosas debe incluir un nudo.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/begonias/houseplants"
+      ]
+    },
+    {
+      "id": "palmera-areca",
+      "dato": "propagacion.metodos",
+      "motivo": "La división la respaldan NC State e Iowa State; RHS solo menciona semilla (25 °C o más). La semilla se incluyó aunque es poco práctica en casa. Ninguna fuente da época específica para la areca: los meses salen de la regla general de Iowa State (principio de primavera).",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+        "https://www.rhs.org.uk/plants/128311/dypsis-lutescens/details",
+        "https://yardandgarden.extension.iastate.edu/how-to/how-propagate-houseplants-division-and-offsets"
+      ]
+    },
+    {
+      "id": "palmera-de-salon",
+      "dato": "propagacion.metodos",
+      "motivo": "Clemson dice que tiene tallos simples que no forman matas: \"dividir\" acá es separar las plantitas que vienen juntas en la maceta (así lo describe RHS). NC State no da método. La semilla se dejó afuera: RHS aclara que hace falta planta macho y hembra.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/chamaedorea/growing-guide",
+        "https://hgic.clemson.edu/factsheet/indoor-palms/"
+      ]
+    },
+    {
+      "id": "violeta-africana",
+      "dato": "propagacion.en_agua",
+      "motivo": "El enraizado de la hoja en agua lo respalda una sola fuente (UVM Extension); RHS e Iowa State solo describen sustrato. RHS también menciona semilla (muy lenta): no se incluyó. La época (primavera) viene solo de RHS.",
+      "fuentes": [
+        "https://www.uvm.edu/news/extension/growing-african-violets",
+        "https://www.rhs.org.uk/plants/african-violets/growing-guide"
+      ]
+    },
+    {
+      "id": "cola-de-mono-dorada",
+      "dato": "propagacion",
+      "motivo": "Confianza media: una sola fuente institucional específica (RHS) más Wikipedia. El paso de dejar secar el corte viene de una guía general de cactus y suculentas (Illinois Extension), no de una ficha de la especie. RHS también menciona semilla en primavera: no se incluyó.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/119918/wd/details",
+        "https://extension.illinois.edu/blogs/hort-home-landscape/2015-06-04-propagating-succulents-and-cacti"
+      ]
+    },
+    {
+      "id": "kalanchoe-hoja-del-aire",
+      "dato": "poda, tutor y propagacion.meses",
+      "motivo": "La ficha de NC State citada en plants.json (https://plants.ces.ncsu.edu/plants/kalanchoe-pinnata/) devuelve 404: conviene revisar esa fuente en plants.json. Ninguna fuente abierta habla de poda, tutor ni época de propagación para esta especie: se dejó poda.meses [], tutor \"no\" y propagacion.meses []. Missouri IPM recomienda recortar a la mitad los kalanchoes estirados en primavera, pero habla de kalanchoes de flor en general, no de K. pinnata: no se usó. NParks lista también acodo aéreo: no se incluyó (fuente única).",
+      "fuentes": [
+        "https://www.nparks.gov.sg/florafaunaweb/flora/3/3/3323",
+        "https://ipm.missouri.edu/meg/2017/1/kalanchoe"
+      ]
+    },
+    {
+      "id": "orejas-de-conejo-canela",
+      "dato": "propagacion.meses y porte",
+      "motivo": "NC State dice primavera y RHS verano: se tomó el rango completo (septiembre a febrero) y por ese matiz la confianza quedó en media. Las fuentes describen Opuntia microdasys en general, no la forma Rufida. Porte: NC State dice \"de rastrera a casi erguida\" y RHS \"arbustiva\"; se eligió \"erguida\". El secado del corte viene de una guía general (Illinois Extension) que no nombra las paletas de Opuntia.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/opuntia-microdasys/",
+        "https://www.rhs.org.uk/plants/11881/opuntia-microdasys/details"
+      ]
+    },
+    {
+      "id": "calatea",
+      "dato": "tutor",
+      "motivo": "RHS dice que las calateas se sostienen solas y que solo las variedades altas pueden pedir tutor de vez en cuando; G. makoyana es baja (30 a 60 cm según NC State): quedó \"no\".",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/calathea/growing-guide"
+      ]
+    }
+  ],
+  "no_pude_abrir": [
+    "https://plants.ces.ncsu.edu/plants/kalanchoe-pinnata/ (404; es la fuente citada en plants.json para kalanchoe-hoja-del-aire)",
+    "https://hgic.clemson.edu/factsheet/cactus-and-succulents/ (404 con WebFetch, 403 con curl; fuente citada en plants.json para los tres cactus/suculentas del lote)",
+    "https://extension.umn.edu/houseplants/cacti-and-succulents (403)",
+    "https://www.canr.msu.edu/news/secrets_to_success_when_propagating_succulent_plants (contenido vacío)",
+    "Abiertas pero sin datos de porte/poda/propagación, no citadas: hgic.clemson.edu/factsheet/peace-lily, /african-violet, /orchids; aos.org phalaenopsis-culture-sheet (solo trasplante en primavera); gardeningsolutions.ifas.ufl.edu anthurium; nparks.gov.sg flora 5907 (forma crestada de Cleistocactus winteri, solo dice esqueje de tallo)"
+  ]
+}

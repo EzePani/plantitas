@@ -27,6 +27,9 @@ for (const p of plantas) {
   for (const f of p.fuentes) registrar(f, `planta ${p.id} (cuidados)`)
   for (const f of p.mascotas.fuentes_toxicidad) registrar(f, `planta ${p.id} (toxicidad)`)
 }
+// Porte, tutor, poda y propagación de cada planta (src/data/plantas/cultivo-*.json)
+for (const archivo of readdirSync('src/data/plantas').filter((f) => /^cultivo-.*\.json$/.test(f)))
+  for (const [id, c] of Object.entries(leer(`src/data/plantas/${archivo}`))) for (const f of c.fuentes) registrar(f, `planta ${id} (cultivo)`)
 for (const x of peligrosas) for (const f of x.fuentes) registrar(f, `advertencia ${x.id}`)
 // Las notas aportan el "qué se tomó"; solo se listan las fuentes que quedaron citadas en el contenido
 for (const n of notas) for (const f of n.fuentes ?? []) if (fuentes.has(f.url) && f.que_se_tomo) fuentes.get(f.url).que.add(f.que_se_tomo)
