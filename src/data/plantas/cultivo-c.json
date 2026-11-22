@@ -1,0 +1,562 @@
+{
+  "orquidea-phalaenopsis": {
+    "porte": [
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "si",
+      "detalle": "Sujetá cada vara de flores nueva a una varilla fina con clips o una atadura floja, así no se vence con el peso de las flores."
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No se poda por calendario: cuando se caen todas las flores, cortá la vara justo arriba de un nudo, por debajo de donde estaban las flores, y puede rebrotar; si la vara se seca entera, cortala desde la base."
+    },
+    "propagacion": {
+      "metodos": [
+        "hijuelos"
+      ],
+      "en_agua": false,
+      "meses": [],
+      "detalle": "A veces sale un hijito (keiki) en un nudo de la vara. Esperá a que tenga varias raíces buenas, separalo y plantalo en sustrato para orquídeas."
+    },
+    "fuentes": [
+      {
+        "titulo": "How to grow moth orchids (Phalaenopsis)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Phalaenopsis",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/phalaenopsis/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Orchids",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/orchids/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "How to Propagate Houseplants by Division and Offsets",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/how-propagate-houseplants-division-and-offsets",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": []
+  },
+  "espatifilo": {
+    "porte": [
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo cortá desde la base las hojas y las flores que se van marchitando."
+    },
+    "propagacion": {
+      "metodos": [
+        "division"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "Cuando la mata esté bien grande, sacala de la maceta y separala en partes, cada una con raíces y varios tallos fuertes. Plantá cada parte en su maceta y listo."
+    },
+    "fuentes": [
+      {
+        "titulo": "How to grow peace lilies",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/peace-lilies/how-to-grow-peace-lilies",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Spathiphyllum",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "How to Propagate Houseplants by Division and Offsets",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/how-propagate-houseplants-division-and-offsets",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Las fuentes dicen primavera (marzo a mayo en el norte): se pasó a septiembre a noviembre.",
+      "NC State recomienda trasplantar en febrero o marzo (fin del invierno del norte): equivale a agosto o septiembre acá."
+    ]
+  },
+  "anturio": {
+    "porte": [
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo sacá desde la base las hojas secas y las varas de flores pasadas."
+    },
+    "propagacion": {
+      "metodos": [
+        "division",
+        "esqueje_agua",
+        "esqueje_tierra"
+      ],
+      "en_agua": true,
+      "meses": [],
+      "detalle": "Si la planta tiene varios tallos, podés separarla en plantas más chicas, cada una con sus raíces. Un trozo de tallo con hojas y raíces aéreas también enraíza en un vaso con agua, en un lugar cálido y luminoso."
+    },
+    "fuentes": [
+      {
+        "titulo": "How to grow anthuriums",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Anthurium andraeanum",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/anthurium-andraeanum/",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": []
+  },
+  "begonia": {
+    "porte": [
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo sacá las hojas secas para que no junte hongos."
+    },
+    "propagacion": {
+      "metodos": [
+        "hoja",
+        "division",
+        "esqueje_tierra"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "detalle": "La forma clásica es el esqueje de hoja: hacele cortes a las nervaduras, apoyala sobre sustrato húmedo y arenoso, y de los cortes salen plantitas. También podés dividir el rizoma, dejando un punto de crecimiento en cada trozo."
+    },
+    "fuentes": [
+      {
+        "titulo": "Begonias: houseplants",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/begonias/houseplants",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Begonia Rex Cultorum Group",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/begonia-rex-types/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Begonia",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/begonia/",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS indica división en primavera: se pasó a septiembre a noviembre.",
+      "RHS indica esquejes de hoja en mayo o junio (fin de primavera y comienzo del verano en el norte): se pasó a noviembre y diciembre."
+    ]
+  },
+  "calatea": {
+    "porte": [
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo cortá al ras del sustrato las hojas que se pongan marrones."
+    },
+    "propagacion": {
+      "metodos": [
+        "division"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "Dividí la mata cuando llene la maceta: separá el pan de raíces en partes con varias hojas cada una. Después tenelas en un lugar cálido y húmedo, con el sustrato apenas húmedo, hasta que vuelvan a crecer."
+    },
+    "fuentes": [
+      {
+        "titulo": "Calathea growing guide",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Goeppertia makoyana",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/goeppertia-makoyana/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "How to Propagate Houseplants by Division and Offsets",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/how-propagate-houseplants-division-and-offsets",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Las fuentes dicen primavera (marzo a mayo en el norte): se pasó a septiembre a noviembre. NC State precisa fines de primavera (octubre y noviembre acá)."
+    ]
+  },
+  "palmera-areca": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No se poda: las palmeras crecen desde la punta y no se les puede bajar la altura. Solo cortá (sin arrancar) las hojas viejas ya secas."
+    },
+    "propagacion": {
+      "metodos": [
+        "division",
+        "semilla"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "Lo más fácil es dividir la mata: sacala de la maceta y separá un grupo de tallos con sus raíces. De semilla también se puede, pero necesita mucho calor (25 °C o más) y bastante paciencia."
+    },
+    "fuentes": [
+      {
+        "titulo": "Dypsis lutescens",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Dypsis lutescens",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/128311/dypsis-lutescens/details",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "How to Propagate Houseplants by Division and Offsets",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/how-propagate-houseplants-division-and-offsets",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Indoor Palms",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-palms/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Palms: indoors",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/types/trees/indoor-palms",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Iowa State Extension dice que lo ideal para dividir es el principio de la primavera: se pasó a septiembre a noviembre."
+    ]
+  },
+  "palmera-de-salon": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No se poda: no se le puede bajar la altura. Solo cortá desde la base las hojas viejas que se van secando."
+    },
+    "propagacion": {
+      "metodos": [
+        "division"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "En la maceta suelen venir varias plantitas juntas. Sacala, separá con cuidado el pan de raíces en dos o más grupos, cada uno con tallos y buena cantidad de raíces, y plantalos por separado."
+    },
+    "fuentes": [
+      {
+        "titulo": "Chamaedorea elegans growing guide",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/chamaedorea/growing-guide",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Palms: indoors",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/types/trees/indoor-palms",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "How to Propagate Houseplants by Division and Offsets",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/how-propagate-houseplants-division-and-offsets",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Indoor Palms",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-palms/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Chamaedorea elegans",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/chamaedorea-elegans/",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS (Palms: indoors) indica separar los hijuelos en primavera e Iowa State a principio de primavera: se pasó a septiembre a noviembre."
+    ]
+  },
+  "violeta-africana": {
+    "porte": [
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: sacá las flores y hojas marchitas desde la base, y los retoños que salgan al costado para que no le quiten fuerza."
+    },
+    "propagacion": {
+      "metodos": [
+        "hoja",
+        "hijuelos",
+        "division"
+      ],
+      "en_agua": true,
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "Cortá una hoja sana con su tallito y clavalo en sustrato suelto y húmedo, tapado con una bolsa transparente: en un mes o dos asoman las plantitas. El tallito también saca raíces en agua, y los retoños que ya tienen raíces se pueden separar."
+    },
+    "fuentes": [
+      {
+        "titulo": "African violets growing guide",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/african-violets/growing-guide",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Growing African violets",
+        "org": "University of Vermont Extension",
+        "url": "https://www.uvm.edu/news/extension/growing-african-violets",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "How can I propagate an African violet?",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/faq/how-can-i-propagate-african-violet",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "African Violets",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/african-violets/",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS indica esquejes de hoja y trasplante en primavera: se pasó a septiembre a noviembre."
+    ]
+  },
+  "cola-de-mono-dorada": {
+    "porte": [
+      "colgante"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_tierra"
+      ],
+      "en_agua": false,
+      "meses": [
+        12,
+        1,
+        2
+      ],
+      "detalle": "Cortá un tramo de tallo, dejá que el corte se seque unos días y después plantalo en sustrato para cactus. Regá poco hasta que agarre."
+    },
+    "fuentes": [
+      {
+        "titulo": "Cleistocactus winteri",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/119918/wd/details",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Cleistocactus winteri",
+        "org": "Wikipedia (Cactaceae)",
+        "url": "https://en.wikipedia.org/wiki/Cleistocactus_winteri",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Propagating Succulents and Cacti",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/blogs/hort-home-landscape/2015-06-04-propagating-succulents-and-cacti",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "RHS indica esquejes de tallo en verano (junio a agosto en el norte): se pasó a diciembre a febrero."
+    ]
+  },
+  "kalanchoe-hoja-del-aire": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No encontramos indicaciones de poda para esta especie: solo sacá las hojas secas."
+    },
+    "propagacion": {
+      "metodos": [
+        "hijuelos",
+        "hoja",
+        "esqueje_tierra"
+      ],
+      "en_agua": false,
+      "meses": [],
+      "detalle": "Es de las más fáciles: una hoja suelta apoyada sobre el sustrato saca plantitas en los bordes. Cuando tengan raicitas, separalas y plantalas. También agarra de esqueje de tallo."
+    },
+    "fuentes": [
+      {
+        "titulo": "Kalanchoe pinnata",
+        "org": "National Parks Board (NParks) Flora & Fauna Web, Singapur",
+        "url": "https://www.nparks.gov.sg/florafaunaweb/flora/3/3/3323",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Kalanchoe",
+        "org": "University of Missouri Integrated Pest Management",
+        "url": "https://ipm.missouri.edu/meg/2017/1/kalanchoe",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": []
+  },
+  "orejas-de-conejo-canela": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_tierra"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "Desprendé una paleta, dejá secar el corte unos días y plantala en sustrato para cactus bien drenado. Agarrala con guantes o con papel de diario doblado: los pelitos se clavan fácil."
+    },
+    "fuentes": [
+      {
+        "titulo": "Opuntia microdasys",
+        "org": "NC State Extension Gardener Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/opuntia-microdasys/",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Opuntia microdasys",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/11881/opuntia-microdasys/details",
+        "fecha_consulta": "2026-11-22"
+      },
+      {
+        "titulo": "Propagating Succulents and Cacti",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/blogs/hort-home-landscape/2015-06-04-propagating-succulents-and-cacti",
+        "fecha_consulta": "2026-11-22"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "NC State indica separar las paletas en primavera y RHS enraizarlas en verano: se pasó a septiembre a febrero."
+    ]
+  }
+}

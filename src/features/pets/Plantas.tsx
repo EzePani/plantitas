@@ -1,12 +1,14 @@
-import { ChevronRight, Search, SlidersHorizontal, TriangleAlert, X } from 'lucide-react'
+import { BookOpen, ChevronRight, Search, SlidersHorizontal, TriangleAlert, X } from 'lucide-react'
 import { useState, type ReactNode } from 'react'
 import { FotoPlanta } from '../../components/FotoPlanta'
 import { ListaFuentes } from '../../components/ListaFuentes'
 import { Panel } from '../../components/Panel'
-import { PELIGROSAS, PLANTAS, type Planta } from '../../data/plantas'
+import { PELIGROSAS, PLANTAS, type CategoriaLuz, type Clase, type Planta, type Porte } from '../../data/plantas'
 import { TC } from '../../data/textosCatalogo'
+import { WIKI } from '../../data/wiki'
+import { buscarEntradas, buscarPlantas, normal } from '../../lib/buscar'
+import { SIN_FILTROS, alternar, filtrosActivos, pasaFiltros, type Filtros } from '../../lib/catalogo'
 import { vibrar } from '../../lib/haptics'
-import { esApta } from '../../lib/mascotas'
 import type { TipoMascota } from '../../lib/tipos'
 import { useStore } from '../../store/useStore'
 import { BotonFavorita, CalceEspacios } from './Favorita'
@@ -15,8 +17,36 @@ import { FichaPlanta } from './FichaPlanta'
 import { Semaforo } from './Semaforo'
 
 const P = TC.plantas
-const FILTROS: TipoMascota[] = ['ninguna', 'gato', 'perro', 'ambos']
-const normal = (t: string) => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim()
+const MASCOTAS: TipoMascota[] = ['ninguna', 'gato', 'perro', 'ambos']
+const CLASES: Clase[] = ['follaje', 'suculenta', 'cactus', 'con_flor']
+const LUCES: CategoriaLuz[] = ['directa', 'indirecta_brillante', 'indirecta_media', 'baja']
+const PORTES: Porte[] = ['trepadora', 'colgante', 'erguida', 'roseta']
+
+function Chip({ activo, onClick, children }: { activo: boolean; onClick: () => void; children: ReactNode }) {
+  return (
+    <button
+      type="button"
+      aria-pressed={activo}
+      onClick={() => {
+        vibrar('toque')
+        onClick()
+      }}
+      className={`min-h-11 rounded-full border-2 px-4 text-[15px] font-extrabold ${activo ? 'border-hoja bg-hoja text-white' : 'border-arena-osc text-tinta bg-white'}`}
+    >
+      {children}
+    </button>
+  )
+}
+
+function Grupo({ titulo, ayuda, children }: { titulo: string; ayuda?: string; children: ReactNode }) {
+  return (
+    <section className="mb-6">
+      <h2 className="font-display text-tinta mt-0 mb-1 text-[18px] font-semibold">{titulo}</h2>
+      {ayuda && <p className="text-tinta-suave mt-0 mb-2 text-[13px] font-bold">{ayuda}</p>}
+      <div className="mt-2 flex flex-wrap gap-2">{children}</div>
+    </section>
+  )
+}
 
 export function TarjetaPlanta({ planta, onClick, detalle, corazon = true, calce, extra }: { planta: Planta; onClick: () => void; detalle?: string; corazon?: boolean; calce?: boolean; extra?: ReactNode }) {
   return (
@@ -60,22 +90,22 @@ export function TarjetaPlanta({ planta, onClick, detalle, corazon = true, calce,
   )
 }
 
-export function Plantas() {
+export function Plantas({ onGuia }: { onGuia: (entradaId: string) => void }) {
   const mascotas = useStore((s) => s.mascotas.tipo)
   // Si hay mascotas en el perfil, el catálogo arranca filtrado para ellas
-  const [filtro, setFiltro] = useState<TipoMascota>(mascotas)
+  const [filtros, setFiltros] = useState<Filtros>({ ...SIN_FILTROS, mascotas })
+  const cambiar = (cambio: Partial<Filtros>) => setFiltros((f) => ({ ...f, ...cambio }))
   const [abierta, setAbierta] = useState<Planta | null>(null)
   const [verPeligrosas, setVerPeligrosas] = useState(false)
   const [verFiltros, setVerFiltros] = useState(false)
   const [vista, setVista] = useState<'catalogo' | 'lista'>('catalogo')
   const [busqueda, setBusqueda] = useState('')
   const q = normal(busqueda)
-  const activos = filtro !== 'ninguna' ? 1 : 0
+  const activos = filtrosActivos(filtros)
 
   // Si se busca, se mira todo el catálogo (nombre común, otros nombres y científico), sin filtros
-  const lista = PLANTAS.filter((p) => (q ? [p.nombre_comun, p.nombre_cientifico, ...p.otros_nombres].some((n) => normal(n).includes(q)) : esApta(p, filtro))).sort((a, b) =>
-    a.nombre_comun.localeCompare(b.nombre_comun, 'es'),
-  )
+  const lista = q ? buscarPlantas(PLANTAS, q) : PLANTAS.filter((p) => pasaFiltros(p, filtros)).sort((a, b) => a.nombre_comun.localeCompare(b.nombre_comun, 'es'))
+  const conceptos = q ? buscarEntradas(WIKI, q).slice(0, 4) : []
 
   return (
     <div className="safe-top relative flex min-h-0 flex-1 flex-col">
@@ -160,7 +190,14 @@ export function Plantas() {
         )}
         <p className="text-tinta-suave mt-0 mb-2 text-[13px] font-extrabold">{P.cuenta(lista.length)}</p>
         {lista.length === 0 ? (
-          <p className="text-tinta-suave py-10 text-center text-[15px] font-bold">{q ? P.sinResultados : P.vacio}</p>
+          <div className="py-8 text-center">
+            <p className="text-tinta-suave m-0 text-[15px] font-bold">{q ? (conceptos.length ? P.sinPlantas : P.sinResultados) : P.vacio}</p>
+            {!q && activos > 0 && (
+              <button type="button" onClick={() => setFiltros(SIN_FILTROS)} className="text-hoja-osc mt-3 min-h-11 border-0 bg-transparent p-0 text-[15px] font-extrabold underline">
+                {P.filtrosPanel.limpiar}
+              </button>
+            )}
+          </div>
         ) : (
           <div className="flex flex-col gap-2.5">
             {lista.map((p) => (
@@ -168,31 +205,70 @@ export function Plantas() {
             ))}
           </div>
         )}
+        {conceptos.length > 0 && (
+          <section className="mt-5">
+            <h2 className="text-tinta-suave mt-0 mb-2 text-[13px] font-extrabold">{P.enLaGuia}</h2>
+            <div className="border-arena-osc overflow-hidden rounded-3xl border-2 bg-white">
+              {conceptos.map((e) => (
+                <button key={e.id} type="button" onClick={() => onGuia(e.id)} className="border-arena flex w-full items-center gap-3 border-0 border-b-2 bg-transparent px-3.5 py-3 text-left last:border-b-0 active:opacity-70">
+                  <BookOpen size={20} className="text-hoja-osc shrink-0" aria-hidden />
+                  <span className="min-w-0 flex-1">
+                    <span className="font-display text-tinta block text-[16px] leading-tight font-semibold">{e.termino}</span>
+                    <span className="text-tinta-suave block text-[13px] leading-snug font-bold">{e.resumen}</span>
+                  </span>
+                  <ChevronRight size={18} className="text-tinta-suave shrink-0" aria-hidden />
+                </button>
+              ))}
+            </div>
+          </section>
+        )}
         <p className="text-tinta-suave mt-5 mb-0 text-[13px] leading-snug font-bold">{P.ficha.disclaimer}</p>
       </div>
       )}
 
-      <Panel abierto={verFiltros} titulo={P.filtrosPanel.titulo} onCerrar={() => setVerFiltros(false)} pie={<BotonPie onClick={() => setVerFiltros(false)}>{P.filtrosPanel.listo}</BotonPie>}>
-        <div className="px-5 pb-6">
-          <h2 className="font-display text-tinta mt-2 mb-3 text-[18px] font-semibold">{P.filtrosPanel.aptaPara}</h2>
-          <div className="flex flex-wrap gap-2">
-            {FILTROS.map((f) => (
-              <button
-                key={f}
-                type="button"
-                aria-pressed={filtro === f}
-                onClick={() => {
-                  vibrar('toque')
-                  setFiltro(f)
-                }}
-                className={`min-h-11 rounded-full border-2 px-4 text-[15px] font-extrabold ${filtro === f ? 'border-hoja bg-hoja text-white' : 'border-arena-osc text-tinta bg-white'}`}
-              >
-                {P.filtros[f]}
-              </button>
+      <Panel abierto={verFiltros} titulo={P.filtrosPanel.titulo} onCerrar={() => setVerFiltros(false)} pie={<BotonPie onClick={() => setVerFiltros(false)}>{P.filtrosPanel.listo(PLANTAS.filter((p) => pasaFiltros(p, filtros)).length)}</BotonPie>}>
+        <div className="px-5 pt-2 pb-6">
+          <Grupo titulo={P.filtrosPanel.tipo}>
+            {CLASES.map((c) => (
+              <Chip key={c} activo={filtros.clases.includes(c)} onClick={() => cambiar({ clases: alternar(filtros.clases, c) })}>
+                {P.clase[c]}
+              </Chip>
             ))}
-          </div>
+          </Grupo>
+          <Grupo titulo={P.filtrosPanel.mas}>
+            <Chip activo={filtros.facil} onClick={() => cambiar({ facil: !filtros.facil })}>
+              {P.filtrosPanel.facil}
+            </Chip>
+            <Chip activo={filtros.conTutor} onClick={() => cambiar({ conTutor: !filtros.conTutor })}>
+              {P.filtrosPanel.conTutor}
+            </Chip>
+            <Chip activo={filtros.enAgua} onClick={() => cambiar({ enAgua: !filtros.enAgua })}>
+              {P.filtrosPanel.enAgua}
+            </Chip>
+          </Grupo>
+          <Grupo titulo={P.filtrosPanel.luz} ayuda={P.filtrosPanel.luzAyuda}>
+            {LUCES.map((l) => (
+              <Chip key={l} activo={filtros.luz.includes(l)} onClick={() => cambiar({ luz: alternar(filtros.luz, l) })}>
+                {TC.luz.categorias[l]}
+              </Chip>
+            ))}
+          </Grupo>
+          <Grupo titulo={P.filtrosPanel.forma}>
+            {PORTES.map((x) => (
+              <Chip key={x} activo={filtros.porte.includes(x)} onClick={() => cambiar({ porte: alternar(filtros.porte, x) })}>
+                {P.porte[x]}
+              </Chip>
+            ))}
+          </Grupo>
+          <Grupo titulo={P.filtrosPanel.aptaPara}>
+            {MASCOTAS.map((m) => (
+              <Chip key={m} activo={filtros.mascotas === m} onClick={() => cambiar({ mascotas: m })}>
+                {P.filtros[m]}
+              </Chip>
+            ))}
+          </Grupo>
           {activos > 0 && (
-            <button type="button" onClick={() => setFiltro('ninguna')} className="text-hoja-osc mt-5 border-0 bg-transparent p-0 text-[15px] font-extrabold underline">
+            <button type="button" onClick={() => setFiltros(SIN_FILTROS)} className="text-hoja-osc min-h-11 border-0 bg-transparent p-0 text-[15px] font-extrabold underline">
               {P.filtrosPanel.limpiar}
             </button>
           )}

@@ -1,0 +1,218 @@
+{
+  "aloe-vera": {
+    "porte": ["roseta"],
+    "tutor": { "recomendado": "no", "detalle": "" },
+    "poda": { "meses": [], "detalle": "No necesita poda: solo sacá las hojas secas." },
+    "propagacion": {
+      "metodos": ["hijuelos"],
+      "en_agua": false,
+      "meses": [9, 10, 11, 12],
+      "detalle": "Al pie de la planta salen hijitos. Separalos en primavera o principios del verano y plantalos en sustrato para cactus y suculentas."
+    },
+    "fuentes": [
+      { "titulo": "Aloe vera", "org": "NC State Extension Plant Toolbox", "url": "https://plants.ces.ncsu.edu/plants/aloe-vera/", "fecha_consulta": "2026-11-22" },
+      { "titulo": "Aloe vera", "org": "Royal Horticultural Society", "url": "https://www.rhs.org.uk/plants/981/aloe-vera/details", "fecha_consulta": "2026-11-22" },
+      { "titulo": "Aloe, a Hardy Houseplant", "org": "Penn State Extension", "url": "https://extension.psu.edu/aloe-a-hardy-houseplant", "fecha_consulta": "2026-11-22" }
+    ],
+    "confianza": "alta",
+    "adaptaciones": ["RHS dice separar los hijuelos en primavera o principios del verano (norte): se pasó a septiembre a diciembre."]
+  },
+  "jade": {
+    "porte": ["erguida"],
+    "tutor": { "recomendado": "no", "detalle": "" },
+    "poda": { "meses": [9, 10, 11], "detalle": "No es obligatoria, pero si la querés más compacta o con forma de arbolito, recortá las ramas en primavera justo por encima de una ramita lateral." },
+    "propagacion": {
+      "metodos": ["esqueje_tierra", "hoja"],
+      "en_agua": false,
+      "meses": [9, 10, 11, 12, 1, 2],
+      "detalle": "Cortá un tallito o sacá una hoja sana, dejala secar unos días y apoyala en sustrato apenas húmedo y con buen drenaje. En los meses cálidos enraíza más fácil."
+    },
+    "fuentes": [
+      { "titulo": "Jade Plant, Crassula ovata", "org": "University of Wisconsin-Madison Extension", "url": "https://hort.extension.wisc.edu/articles/jade-plant-crassula-ovata/", "fecha_consulta": "2026-11-22" },
+      { "titulo": "Crassula ovata", "org": "NC State Extension Plant Toolbox", "url": "https://plants.ces.ncsu.edu/plants/crassula-ovata/", "fecha_consulta": "2026-11-22" },
+      { "titulo": "Crassula ovata", "org": "Royal Horticultural Society", "url": "https://www.rhs.org.uk/plants/4739/crassula-ovata/details", "fecha_consulta": "2026-11-22" }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Wisconsin Extension dice que la poda conviene en primavera (norte): se pasó a septiembre a noviembre.",
+      "RHS dice esquejes en primavera y Wisconsin Extension dice que enraízan más fácil en verano: se pasó a septiembre a febrero."
+    ]
+  },
+  "echeveria": {
+    "porte": ["roseta"],
+    "tutor": { "recomendado": "no", "detalle": "" },
+    "poda": { "meses": [], "detalle": "No necesita poda: solo sacá las hojas secas de abajo." },
+    "propagacion": {
+      "metodos": ["hijuelos", "hoja", "esqueje_tierra"],
+      "en_agua": false,
+      "meses": [9, 10, 11],
+      "detalle": "En primavera podés separar los hijitos que salen al costado o apoyar una hoja sana sobre sustrato para suculentas. Dejá secar el corte unos días antes de plantar."
+    },
+    "fuentes": [
+      { "titulo": "Echeveria elegans", "org": "NC State Extension Plant Toolbox", "url": "https://plants.ces.ncsu.edu/plants/echeveria-elegans/", "fecha_consulta": "2026-11-22" },
+      { "titulo": "Echeveria elegans", "org": "Royal Horticultural Society", "url": "https://www.rhs.org.uk/plants/6226/i-echeveria-elegans-i/details", "fecha_consulta": "2026-11-22" },
+      { "titulo": "How to Propagate Succulents", "org": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/how-to/how-propagate-succulents", "fecha_consulta": "2026-11-22" }
+    ],
+    "confianza": "alta",
+    "adaptaciones": ["RHS dice esquejes en primavera (norte): se pasó a septiembre a noviembre."]
+  },
+  "cactus-de-navidad": {
+    "porte": ["colgante"],
+    "tutor": { "recomendado": "no", "detalle": "" },
+    "poda": { "meses": [12], "detalle": "A principios de diciembre podés pellizcar las puntas de los tallos para que ramifique y dé más flores." },
+    "propagacion": {
+      "metodos": ["esqueje_tierra"],
+      "en_agua": false,
+      "meses": [11, 12],
+      "detalle": "Cortá un tramo de 3 a 5 segmentos, dejalo secar a la sombra uno o dos días y plantalo en sustrato con buen drenaje. Tarda entre 3 y 8 semanas en echar raíces."
+    },
+    "fuentes": [
+      { "titulo": "Thanksgiving & Christmas Cacti", "org": "Clemson Cooperative Extension HGIC", "url": "https://hgic.clemson.edu/factsheet/thanksgiving-christmas-cacti/", "fecha_consulta": "2026-11-22" },
+      { "titulo": "Schlumbergera x buckleyi", "org": "NC State Extension Plant Toolbox", "url": "https://plants.ces.ncsu.edu/plants/schlumbergera-x-buckleyi/", "fecha_consulta": "2026-11-22" }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Clemson dice pellizcar los tallos a principios de junio (norte): se pasó a principios de diciembre.",
+      "Clemson dice hacer esquejes en mayo o junio (norte): se pasó a noviembre y diciembre."
+    ]
+  },
+  "haworthia": {
+    "porte": ["roseta"],
+    "tutor": { "recomendado": "no", "detalle": "" },
+    "poda": { "meses": [], "detalle": "No necesita poda: solo sacá las hojas secas." },
+    "propagacion": {
+      "metodos": ["hijuelos", "hoja"],
+      "en_agua": false,
+      "meses": [9, 10, 11, 12, 1, 2],
+      "detalle": "Lo más fácil es separar los hijitos que crecen pegados a la planta madre. Dejá secar la herida unos días y plantalos en una maceta chica con sustrato para suculentas."
+    },
+    "fuentes": [
+      { "titulo": "Haworthiopsis attenuata", "org": "Royal Horticultural Society", "url": "https://www.rhs.org.uk/plants/504241/haworthiopsis-attenuata/details", "fecha_consulta": "2026-11-22" },
+      { "titulo": "Haworthiopsis attenuata", "org": "NC State Extension Plant Toolbox", "url": "https://plants.ces.ncsu.edu/plants/haworthiopsis-attenuata/", "fecha_consulta": "2026-11-22" },
+      { "titulo": "Haworthias: Super Succulents for Small Spaces", "org": "University of Wisconsin-Madison Extension", "url": "https://hort.extension.wisc.edu/articles/haworthias-super-succulents-for-small-spaces/", "fecha_consulta": "2026-11-22" }
+    ],
+    "confianza": "alta",
+    "adaptaciones": ["RHS dice separar hijuelos y hacer esquejes de hoja en primavera o verano (norte): se pasó a septiembre a febrero."]
+  },
+  "peperomia": {
+    "porte": ["erguida"],
+    "tutor": { "recomendado": "no", "detalle": "" },
+    "poda": { "meses": [], "detalle": "No necesita poda de rutina: si un tallo se alarga mucho, cortalo por encima de un nudo para que ramifique y quede más tupida." },
+    "propagacion": {
+      "metodos": ["esqueje_agua", "esqueje_tierra", "hoja"],
+      "en_agua": true,
+      "meses": [9, 10, 11, 12, 1, 2],
+      "detalle": "Cortá un tallito justo debajo de un nudo, sacale las hojas de abajo y ponelo en un vaso con agua o directo en sustrato suelto. Cuando tenga raíces, pasalo a maceta."
+    },
+    "fuentes": [
+      { "titulo": "How to grow peperomia", "org": "Royal Horticultural Society", "url": "https://www.rhs.org.uk/plants/peperomia/how-to-grow-peperomia", "fecha_consulta": "2026-11-22" },
+      { "titulo": "Peperomia (Peperomia spp.) Indoor Plant Care and Growing Guide", "org": "Clemson Cooperative Extension HGIC", "url": "https://hgic.clemson.edu/factsheet/peperomia-peperomia-spp-indoor-plant-care-and-growing-guide/", "fecha_consulta": "2026-11-22" },
+      { "titulo": "Peperomia obtusifolia", "org": "NC State Extension Plant Toolbox", "url": "https://plants.ces.ncsu.edu/plants/peperomia-obtusifolia/", "fecha_consulta": "2026-11-22" }
+    ],
+    "confianza": "alta",
+    "adaptaciones": ["RHS dice esquejes en primavera y verano (norte): se pasó a septiembre a febrero."]
+  },
+  "pilea": {
+    "porte": ["erguida"],
+    "tutor": { "recomendado": "no", "detalle": "" },
+    "poda": { "meses": [9, 10, 11, 12, 1, 2], "detalle": "No necesita poda; si el tallo quedó muy alto y pelado, podés cortarlo en primavera o verano para que rebrote desde abajo." },
+    "propagacion": {
+      "metodos": ["hijuelos", "hoja", "esqueje_tierra"],
+      "en_agua": true,
+      "meses": [9, 10, 11, 12],
+      "detalle": "Saca hijitos al pie: cuando tengan buen tamaño, separalos y plantá cada uno en su maceta. También podés enraizar una hoja con su tallito en agua o en sustrato húmedo."
+    },
+    "fuentes": [
+      { "titulo": "How to grow pilea", "org": "Royal Horticultural Society", "url": "https://www.rhs.org.uk/plants/pilea/how-to-grow-pilea", "fecha_consulta": "2026-11-22" },
+      { "titulo": "Pilea peperomioides", "org": "NC State Extension Plant Toolbox", "url": "https://plants.ces.ncsu.edu/plants/pilea-peperomioides/", "fecha_consulta": "2026-11-22" },
+      { "titulo": "Pilea peperomioides", "org": "Royal Horticultural Society", "url": "https://www.rhs.org.uk/plants/13015/pilea-peperomioides/details", "fecha_consulta": "2026-11-22" },
+      { "titulo": "Pilea as a Houseplant", "org": "Penn State Extension", "url": "https://extension.psu.edu/pilea-as-a-houseplant", "fecha_consulta": "2026-11-22" }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS dice recortar los tallos altos en primavera o verano (norte): se pasó a septiembre a febrero.",
+      "NC State dice propagar en primavera o principios del verano y RHS dice separar rosetas en primavera (norte): se pasó a septiembre a diciembre."
+    ]
+  },
+  "filodendro": {
+    "porte": ["trepadora", "colgante"],
+    "tutor": { "recomendado": "opcional", "detalle": "Si querés que trepe, ponele un tutor de musgo y atá las guías; sin tutor cae lindo desde un estante o una maceta colgante." },
+    "poda": { "meses": [9, 10, 11], "detalle": "En primavera recortá las guías largas o peladas justo después de un nudo para que quede más tupido." },
+    "propagacion": {
+      "metodos": ["esqueje_agua", "esqueje_tierra"],
+      "en_agua": true,
+      "meses": [9, 10, 11, 12, 1, 2],
+      "detalle": "Cortá un tramo de unos 10 cm justo debajo de un nudo, sacale las hojas de abajo y ponelo en agua: en un par de semanas saca raíces. Cambiale el agua seguido."
+    },
+    "fuentes": [
+      { "titulo": "How to grow philodendrons", "org": "Royal Horticultural Society", "url": "https://www.rhs.org.uk/plants/philodendron/growing-guide", "fecha_consulta": "2026-11-22" },
+      { "titulo": "Growing Philodendrons at Home", "org": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-philodendrons-home", "fecha_consulta": "2026-11-22" },
+      { "titulo": "Philodendron hederaceum", "org": "NC State Extension Plant Toolbox", "url": "https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/", "fecha_consulta": "2026-11-22" },
+      { "titulo": "Philodendron", "org": "Clemson Cooperative Extension HGIC", "url": "https://hgic.clemson.edu/factsheet/philodendron/", "fecha_consulta": "2026-11-22" }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS dice podar en primavera, cuando arranca a crecer (norte): se pasó a septiembre a noviembre.",
+      "RHS dice esquejes desde la primavera hasta fines del verano (norte): se pasó a septiembre a febrero."
+    ]
+  },
+  "filodendro-lemon-lime": {
+    "porte": ["trepadora", "colgante"],
+    "tutor": { "recomendado": "opcional", "detalle": "Si querés que trepe, ponele un tutor de musgo y atá las guías; sin tutor cae lindo desde un estante o una maceta colgante." },
+    "poda": { "meses": [9, 10, 11], "detalle": "En primavera recortá las guías largas justo después de un nudo para que ramifique y quede más llena." },
+    "propagacion": {
+      "metodos": ["esqueje_agua", "esqueje_tierra"],
+      "en_agua": true,
+      "meses": [9, 10, 11, 12, 1, 2],
+      "detalle": "Cortá un tramo de guía de unos 10 cm justo debajo de un nudo, sacale las hojas de abajo y ponelo en agua. En un par de semanas saca raíces y lo podés pasar a maceta."
+    },
+    "fuentes": [
+      { "titulo": "Philodendron hederaceum", "org": "NC State Extension Plant Toolbox", "url": "https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/", "fecha_consulta": "2026-11-22" },
+      { "titulo": "How to grow philodendrons", "org": "Royal Horticultural Society", "url": "https://www.rhs.org.uk/plants/philodendron/growing-guide", "fecha_consulta": "2026-11-22" },
+      { "titulo": "Growing Philodendrons at Home", "org": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-philodendrons-home", "fecha_consulta": "2026-11-22" }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "RHS dice podar en primavera (norte): se pasó a septiembre a noviembre.",
+      "RHS dice esquejes desde la primavera hasta fines del verano (norte): se pasó a septiembre a febrero."
+    ]
+  },
+  "filodendro-silver-sword": {
+    "porte": ["trepadora"],
+    "tutor": { "recomendado": "si", "detalle": "Es trepador y necesita apoyo: ponele un tutor de musgo o un enrejado desde que empieza a alargarse." },
+    "poda": { "meses": [9, 10, 11], "detalle": "Si se fue muy alto o quedó desgarbado, recortalo en primavera justo después de un nudo." },
+    "propagacion": {
+      "metodos": ["esqueje_agua", "esqueje_tierra"],
+      "en_agua": true,
+      "meses": [9, 10, 11, 12, 1, 2],
+      "detalle": "Cortá un tramo de tallo con al menos un nudo, mejor si ya tiene una raíz aérea, y ponelo en agua o en sustrato suelto hasta que enraíce."
+    },
+    "fuentes": [
+      { "titulo": "Philodendron hastatum", "org": "NC State Extension Plant Toolbox", "url": "https://plants.ces.ncsu.edu/plants/philodendron-hastatum/", "fecha_consulta": "2026-11-22" },
+      { "titulo": "Growing Philodendrons at Home", "org": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-philodendrons-home", "fecha_consulta": "2026-11-22" },
+      { "titulo": "How to grow philodendrons", "org": "Royal Horticultural Society", "url": "https://www.rhs.org.uk/plants/philodendron/growing-guide", "fecha_consulta": "2026-11-22" }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "RHS dice podar los filodendros trepadores en primavera (norte): se pasó a septiembre a noviembre.",
+      "RHS dice esquejes desde la primavera hasta fines del verano (norte): se pasó a septiembre a febrero."
+    ]
+  },
+  "pothos-cebu-blue": {
+    "porte": ["trepadora", "colgante"],
+    "tutor": { "recomendado": "opcional", "detalle": "Sin tutor cae en guías largas; con un tutor de musgo o una caña trepa y con el tiempo da hojas más grandes y caladas." },
+    "poda": { "meses": [9, 10, 11, 12], "detalle": "Recortá las guías en primavera o principios del verano para mantenerle el tamaño y la forma." },
+    "propagacion": {
+      "metodos": ["esqueje_agua", "esqueje_tierra"],
+      "en_agua": true,
+      "meses": [],
+      "detalle": "Cortá un tramo de guía que tenga al menos un nudo y ponelo en agua o en sustrato húmedo. Podés aprovechar los recortes de la poda."
+    },
+    "fuentes": [
+      { "titulo": "Epipremnum pinnatum", "org": "NC State Extension Plant Toolbox", "url": "https://plants.ces.ncsu.edu/plants/epipremnum-pinnatum/", "fecha_consulta": "2026-11-22" },
+      { "titulo": "How to Grow Pothos Indoors (Epipremnum spp.): Care, Cultivars, and Common Problems", "org": "Clemson Cooperative Extension HGIC", "url": "https://hgic.clemson.edu/factsheet/how-to-grow-pothos-indoors-epipremnum-spp-care-cultivars-and-common-problems/", "fecha_consulta": "2026-11-22" }
+    ],
+    "confianza": "media",
+    "adaptaciones": ["NC State dice podar en primavera o principios del verano (norte): se pasó a septiembre a diciembre."]
+  }
+}

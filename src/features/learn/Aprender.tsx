@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Check, Dumbbell, FastForward, Flame, Gift, Leaf, Lock, Star, Zap, type LucideIcon } from 'lucide-react'
+import { BookOpen, Check, Dumbbell, FastForward, Flame, Gift, Leaf, Lock, Star, Zap, type LucideIcon } from 'lucide-react'
 import { useLayoutEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
 import { Boton } from '../../components/Boton'
 import { HojaInferior } from '../../components/HojaInferior'
@@ -8,6 +8,7 @@ import { NIVELES } from '../../data/gamificacion'
 import { LECCIONES_POR_UNIDAD } from '../../data/lessons'
 import { useContenido } from '../../lib/useContenido'
 import { T } from '../../data/textos'
+import { TC } from '../../data/textosCatalogo'
 import { UNIDADES, idsDelPlan } from '../../data/unidades'
 import { construirCamino, type Nodo, type Tramo } from '../../lib/camino'
 import { hoyLocal } from '../../lib/fecha'
@@ -75,9 +76,10 @@ function BotonNodo({ nodo, color, colorOsc, posicion, onClick, refActual }: { no
 interface Props {
   onJugar: (s: Sesion) => void
   onIrAEspacio: () => void
+  onGuia: () => void
 }
 
-export function Aprender({ onJugar, onIrAEspacio }: Props) {
+export function Aprender({ onJugar, onIrAEspacio, onGuia }: Props) {
   const s = useStore()
   const hoy = hoyLocal()
   const [elegido, setElegido] = useState<Nodo | null>(null)
@@ -122,6 +124,18 @@ export function Aprender({ onJugar, onIrAEspacio }: Props) {
             <Zap size={22} fill="currentColor" aria-hidden />
             {s.xp}
           </div>
+          <button
+            type="button"
+            aria-label={TC.guia.titulo}
+            onClick={() => {
+              vibrar('toque')
+              onGuia()
+            }}
+            className="border-arena-osc text-hoja-osc flex min-h-10 items-center gap-1.5 rounded-full border-2 bg-white px-3 text-[14px] font-extrabold active:opacity-70"
+          >
+            <BookOpen size={18} aria-hidden />
+            {TC.guia.boton}
+          </button>
           <div className="flex items-center gap-2" aria-label={`${T.aprender.nivel}: ${NIVELES[nivel.indice]}`}>
             <div className="text-right">
               <div className="font-display text-hoja-osc text-[15px] leading-none font-semibold">{NIVELES[nivel.indice]}</div>

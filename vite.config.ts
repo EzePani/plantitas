@@ -33,6 +33,15 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,webp,woff2,json}'],
+        // Las fotos extra del carrusel no se bajan al instalar: se guardan recién cuando se ven
+        globIgnores: ['**/img/extra/**'],
+        runtimeCaching: [
+          {
+            urlPattern: ({ url }) => url.pathname.includes('/img/extra/'),
+            handler: 'CacheFirst',
+            options: { cacheName: 'fotos-extra', expiration: { maxEntries: 120 } },
+          },
+        ],
         navigateFallback: 'index.html',
       },
     }),

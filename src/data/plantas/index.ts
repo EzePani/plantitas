@@ -1,11 +1,28 @@
 import plantas from '../plants.json'
 import peligrosas from '../peligrosas.json'
 import type { Fuente } from '../lessons'
-import type { Planta } from './esquema'
+import clases from './clases.json'
+import cultivoA from './cultivo-a.json'
+import cultivoB from './cultivo-b.json'
+import cultivoC from './cultivo-c.json'
+import fotosUno from './fotos-uno.json'
+import fotosDos from './fotos-dos.json'
+import type { Clase, Cultivo, FotoExtra, Planta } from './esquema'
 
-export type { Planta, CategoriaLuz, Toxicidad } from './esquema'
+export type { Planta, CategoriaLuz, Toxicidad, Clase, Cultivo, Porte, MetodoPropagacion, FotoExtra } from './esquema'
 
-export const PLANTAS = plantas as Planta[]
+// plants.json trae los cuidados y la toxicidad. La clasificación, el cultivo (porte, tutor, poda,
+// propagación) y las fotos extra se cargan en archivos aparte, por id de planta, y se unen acá.
+const CLASES = clases as Record<string, Clase[]>
+const CULTIVO = { ...cultivoA, ...cultivoB, ...cultivoC } as Record<string, Cultivo>
+const FOTOS = { ...fotosUno, ...fotosDos } as Record<string, FotoExtra[]>
+
+export const PLANTAS = (plantas as Omit<Planta, 'clases' | 'cultivo' | 'fotos_extra'>[]).map((p) => ({
+  ...p,
+  clases: CLASES[p.id],
+  cultivo: CULTIVO[p.id],
+  fotos_extra: FOTOS[p.id] ?? [],
+})) as Planta[]
 
 const POR_ID = new Map(PLANTAS.map((p) => [p.id, p]))
 export const plantaPorId = (id: string) => POR_ID.get(id)

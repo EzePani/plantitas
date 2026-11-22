@@ -1,0 +1,701 @@
+[
+  {
+    "id": "raices",
+    "termino": "Raíces",
+    "sinonimos": ["raíz", "pan de raíces"],
+    "unidad": "basico",
+    "resumen": "La parte que no ves: toma agua y nutrientes, sujeta la planta y guarda reservas.",
+    "cuerpo": [
+      "De las raíces depende todo lo de arriba. Toman **agua y nutrientes** de la tierra, sostienen la planta y guardan reservas. El agua entra por las puntas más nuevas y finitas.",
+      "Además de agua **necesitan aire**. Si la tierra queda empapada, los huequitos de aire se llenan de agua y las raíces se ahogan.",
+      "Las sanas son **firmes y de color claro**, blancas o tostadas. Si asoman por el agujero de la maceta, puede que le haya quedado chica."
+    ],
+    "lecciones": ["basico-2", "basico-1"],
+    "relacionadas": ["raices-podridas", "trasplante", "drenaje", "exceso-de-riego"]
+  },
+  {
+    "id": "raices-podridas",
+    "termino": "Raíces podridas",
+    "sinonimos": ["pudrición de raíz", "raíz podrida", "podredumbre"],
+    "unidad": "basico",
+    "resumen": "Raíces blandas y oscuras por tierra mojada demasiado tiempo: ya no pueden tomar agua.",
+    "cuerpo": [
+      "Cuando la tierra pasa mucho tiempo mojada, las raíces se quedan sin aire y se pudren. Se ven **blandas y oscuras**, y pueden tener mal olor.",
+      "La pista más clara: la planta **se ve marchita aunque la tierra esté húmeda**. Sacala de la maceta y mirá las raíces.",
+      "Si solo algunas están podridas, cortalas con una **tijera limpia** y pasá la planta a tierra nueva. Si casi todas están blandas, es muy difícil que se recupere."
+    ],
+    "no_confundir": "Planta caída no siempre es sed: si la tierra está mojada, regar más lo empeora.",
+    "lecciones": ["plagas-4", "basico-2"],
+    "relacionadas": ["raices", "exceso-de-riego", "drenaje", "hongos"]
+  },
+  {
+    "id": "hojas-amarillas",
+    "termino": "Hojas amarillas",
+    "sinonimos": ["hoja amarilla", "amarillea", "se pone amarilla"],
+    "unidad": "basico",
+    "resumen": "Una señal con varias causas posibles; la más común es el agua de más.",
+    "cuerpo": [
+      "Lo más común es **agua de más**, sobre todo si la tierra lleva días mojada y amarillean hojas viejas y nuevas a la vez. También puede ser sed, poca luz o falta de nutrientes.",
+      "Que cada tanto se ponga amarilla **una hoja vieja de abajo** es parte de crecer y no es una emergencia.",
+      "Tomalo como una pista y no como una sentencia. Antes de hacer nada, **tocá la tierra** y fijate cómo está."
+    ],
+    "lecciones": ["basico-3", "estaciones-3"],
+    "relacionadas": ["exceso-de-riego", "test-del-dedo", "caida-de-hojas", "poda"]
+  },
+  {
+    "id": "luz-directa",
+    "termino": "Luz directa",
+    "sinonimos": ["sol directo", "pleno sol", "sol"],
+    "unidad": "luz",
+    "resumen": "Cuando el sol toca la planta, aunque haya un vidrio en el medio.",
+    "cuerpo": [
+      "Es la luz **más fuerte** y la disfrutan pocas plantas, como los cactus y las suculentas. A las de hojas finas y blandas, como helechos y calateas, las quema con facilidad.",
+      "**El vidrio no protege**: el sol que entra directo por la ventana puede calentar tanto que daña las hojas. Separar la maceta unos 15 centímetros del vidrio suele alcanzar.",
+      "Si a una planta le sobra sol, alejala un poco de la ventana o poné una **cortina fina**. Con eso la luz directa pasa a ser indirecta."
+    ],
+    "no_confundir": "Luz directa es sol sobre las hojas. Un lugar muy claro donde el sol no pega sobre la planta tiene luz indirecta brillante.",
+    "lecciones": ["luz-1", "luz-3"],
+    "relacionadas": ["luz-indirecta", "sol-de-tarde", "prueba-de-la-sombra", "aclimatacion"]
+  },
+  {
+    "id": "luz-indirecta",
+    "termino": "Luz indirecta",
+    "sinonimos": ["luz indirecta brillante", "luz indirecta media", "luz baja", "luz filtrada"],
+    "unidad": "luz",
+    "resumen": "Mucha claridad sin sol sobre la planta: la luz que prefiere la mayoría.",
+    "cuerpo": [
+      "**Indirecta brillante**: el lugar está muy claro, pero el sol no pega sobre la planta. Se consigue cerca de una ventana luminosa o detrás de una cortina fina.",
+      "**Indirecta media**: un ambiente claro, pero lejos de la ventana. **Luz baja**: un ambiente oscuro, que pocas plantas toleran y que no es lo mismo que nada de luz.",
+      "Muchas plantas de interior vienen de selvas donde el sol les llega filtrado por los árboles. Por eso se llevan bien con esta luz."
+    ],
+    "no_confundir": "Luz baja no es oscuridad total. Y lo que tus ojos ven claro, para la planta puede ser penumbra.",
+    "lecciones": ["luz-1", "familias-2"],
+    "relacionadas": ["luz-directa", "prueba-de-la-sombra", "falta-de-luz"]
+  },
+  {
+    "id": "prueba-de-la-sombra",
+    "termino": "Prueba de la sombra",
+    "sinonimos": ["prueba de la mano", "medir la luz", "sombra de la mano"],
+    "unidad": "luz",
+    "resumen": "Mirar la sombra de tu mano para saber qué luz tiene un lugar.",
+    "cuerpo": [
+      "Tus ojos se acostumbran y no sirven para medir la luz. Probá **con la mano**, a la hora de más claridad, en el lugar donde querés poner la planta.",
+      "Sombra **bien marcada**: luz directa. Sombra que se ve pero **borrosa**: indirecta brillante. Si apenas se nota es indirecta media, y si casi no hay sombra, luz baja.",
+      "Cada espacio de la casa tiene su propia luz, así que conviene **probar en cada lugar**."
+    ],
+    "lecciones": ["luz-1"],
+    "relacionadas": ["luz-directa", "luz-indirecta", "sol-de-tarde"]
+  },
+  {
+    "id": "sol-de-tarde",
+    "termino": "Sol de tarde",
+    "sinonimos": ["sol de la tarde", "sol de mañana", "sol del oeste", "sol fuerte"],
+    "unidad": "luz",
+    "resumen": "El sol más fuerte y caluroso del día: puede quemar a las plantas delicadas.",
+    "cuerpo": [
+      "El sol de la **mañana es más suave** y fresco. El de la **tarde es más fuerte**, porque la media tarde es el momento más caluroso y el sol entra de frente por la ventana.",
+      "Los cactus y las suculentas lo aguantan. Las de hojas finas y blandas, como helechos y calateas, **se queman** con facilidad.",
+      "Un espacio que solo tiene sol de tarde se puede usar igual: alejá las plantas delicadas de la ventana o poné una **cortina fina**. En verano, en el balcón, las macetas se secan mucho más rápido."
+    ],
+    "lecciones": ["luz-3", "luz-2"],
+    "relacionadas": ["luz-directa", "luz-indirecta", "prueba-de-la-sombra"]
+  },
+  {
+    "id": "falta-de-luz",
+    "termino": "Falta de luz",
+    "sinonimos": ["planta estirada", "se estira", "poca luz", "tallos largos", "pálida"],
+    "unidad": "luz",
+    "resumen": "Cuando la planta se estira, sale pálida y crece despacio buscando claridad.",
+    "cuerpo": [
+      "Con poca luz la planta **se estira**: tallos largos y flacos, con mucho espacio entre hoja y hoja. Las hojas nuevas salen más chicas y más pálidas.",
+      "Otras señales: crece muy despacio, **se inclina hacia la ventana** o pierde hojas de abajo. Las de hojas de colores pueden volverse todas verdes.",
+      "La solución es **acercarla a la ventana**, porque la claridad baja muy rápido al alejarse del vidrio. En invierno hay menos luz y conviene tenerlas más cerca."
+    ],
+    "lecciones": ["luz-4", "basico-4"],
+    "relacionadas": ["luz-indirecta", "rotacion", "aclimatacion", "prueba-de-la-sombra"]
+  },
+  {
+    "id": "exceso-de-riego",
+    "termino": "Exceso de riego",
+    "sinonimos": ["regar de más", "agua de más", "planta ahogada", "sobrerriego"],
+    "unidad": "riego",
+    "resumen": "Tierra mojada todo el tiempo: la causa más común de que se muera una planta en maceta.",
+    "cuerpo": [
+      "Las raíces necesitan agua, pero **también aire**. Si la tierra queda empapada mucho tiempo, se quedan sin oxígeno y se pueden pudrir.",
+      "Las pistas: hojas amarillas, planta decaída y **tierra que sigue mojada**. Si la planta está caída y la tierra está húmeda, más agua lo empeora.",
+      "Lo que ahoga no es mucha agua de una vez, sino la tierra **mojada todo el tiempo**. Por eso, antes de regar, tocá la tierra."
+    ],
+    "no_confundir": "Regar a fondo no es regar seguido: se riega bien y después se espera a que la tierra se seque.",
+    "lecciones": ["riego-1", "riego-3"],
+    "relacionadas": ["raices-podridas", "test-del-dedo", "riego-a-fondo", "drenaje"]
+  },
+  {
+    "id": "test-del-dedo",
+    "termino": "Test del dedo",
+    "sinonimos": ["tocar la tierra", "cuándo regar", "cada cuánto regar", "prueba del dedo"],
+    "unidad": "riego",
+    "resumen": "Meter el dedo en la tierra para saber si de verdad hay que regar.",
+    "cuerpo": [
+      "No hay un cada tantos días que sirva siempre: depende de la luz, la temperatura, la planta y la maceta. **La tierra decide**, no el calendario.",
+      "Metelo hasta el **primer nudillo**, unos 2 o 3 centímetros. Si ahí abajo está seca, toca regar. Si está húmeda, esperá.",
+      "Otras pistas: la maceta con tierra seca **pesa bastante menos**, y la tierra húmeda se ve más oscura. El color muestra solo la superficie, así que confirmá con el dedo."
+    ],
+    "lecciones": ["riego-2"],
+    "relacionadas": ["exceso-de-riego", "riego-a-fondo", "maceta-de-barro"]
+  },
+  {
+    "id": "riego-a-fondo",
+    "termino": "Riego a fondo",
+    "sinonimos": ["regar bien", "regar hasta que escurra", "cómo regar"],
+    "unidad": "riego",
+    "resumen": "Regar hasta que salga agua por los agujeros de abajo, y después esperar.",
+    "cuerpo": [
+      "Mejor que un chorrito todos los días es regar **hasta que salga agua por abajo**. Así se moja toda la tierra, también la del fondo, donde están casi todas las raíces.",
+      "Después **esperá a que la tierra se seque** antes de volver a regar. Dejá que escurra y, al rato, vaciá el plato.",
+      "Apuntá el agua **a la tierra** y no a las hojas, y usala a temperatura ambiente. Si la maceta decorativa no tiene agujero, sacá la de adentro para regar."
+    ],
+    "lecciones": ["riego-3", "riego-4"],
+    "relacionadas": ["exceso-de-riego", "test-del-dedo", "riego-por-abajo", "drenaje"]
+  },
+  {
+    "id": "riego-por-abajo",
+    "termino": "Riego por abajo",
+    "sinonimos": ["riego por inmersión", "inmersión", "remojo", "regar desde abajo"],
+    "unidad": "riego",
+    "resumen": "Apoyar la maceta en unos centímetros de agua para que la tierra la absorba desde abajo.",
+    "cuerpo": [
+      "Apoyás la maceta en **unos centímetros de agua** hasta que la tierra de arriba se humedezca, y después la dejás escurrir. Sirve para plantas que no quieren mojarse las hojas.",
+      "Cada tanto **regá por arriba**, para lavar las sales que se van juntando en la tierra.",
+      "El **remojo** también rescata una tierra que se secó tanto que se despegó de la maceta y deja pasar el agua de largo. Dejala en agua hasta que la superficie se humedezca y escurrila bien."
+    ],
+    "lecciones": ["riego-3"],
+    "relacionadas": ["riego-a-fondo", "exceso-de-riego", "exceso-de-abono"]
+  },
+  {
+    "id": "humedad-ambiente",
+    "termino": "Humedad ambiente",
+    "sinonimos": ["humedad del aire", "aire seco", "humidificador", "rociar", "pulverizar", "puntas marrones"],
+    "unidad": "riego",
+    "resumen": "La humedad que hay en el aire, no en la tierra: en casa suele ser poca.",
+    "cuerpo": [
+      "El aire de una casa suele ser **más seco** de lo que les gusta a las plantas tropicales, y la calefacción lo seca todavía más. La señal típica son las **puntas marrones y secas**.",
+      "Lo que ayuda es **juntar varias plantas** o usar un **humidificador**, y alejarlas de estufas y radiadores. Las que más lo sufren son los helechos y las calateas.",
+      "Rociar las hojas casi no cambia nada, porque el agua se evapora en minutos. A las suculentas el aire seco no les molesta."
+    ],
+    "no_confundir": "Aire seco no se arregla regando más: el problema está en el aire, no en la tierra.",
+    "lecciones": ["familias-3", "riego-4"],
+    "relacionadas": ["exceso-de-riego", "aranuela", "reposo-de-invierno"]
+  },
+  {
+    "id": "tierra",
+    "termino": "Tierra",
+    "sinonimos": ["tierra común", "tierra de jardín", "tierra del cantero", "tierra negra"],
+    "unidad": "macetas",
+    "resumen": "La del jardín o el cantero: pesada, y sola no sirve para una maceta.",
+    "cuerpo": [
+      "La tierra común es **pesada**. En maceta se apelmaza, retiene demasiada agua y deja poco aire para las raíces.",
+      "Además puede traer **plagas**, enfermedades y semillas de yuyos.",
+      "Antes de comprar una bolsa de tierra en el vivero, **leé qué trae adentro**. Para macetas buscá ingredientes como turba, fibra de coco, corteza o perlita, y no tierra sola."
+    ],
+    "no_confundir": "Tierra es la del suelo del jardín. Sustrato es la mezcla armada para macetas. Compost es materia orgánica descompuesta que se suma a la mezcla.",
+    "lecciones": ["macetas-3", "macetas-4"],
+    "relacionadas": ["sustrato", "compost", "perlita"]
+  },
+  {
+    "id": "sustrato",
+    "termino": "Sustrato",
+    "sinonimos": ["mezcla", "tierra para macetas", "tierra de vivero", "mezcla para cactus"],
+    "unidad": "macetas",
+    "resumen": "La mezcla donde viven las raíces en una maceta: no es solo tierra.",
+    "cuerpo": [
+      "Tiene que sostener la planta, guardar algo de **agua y nutrientes**, y **dejar pasar el aire**. Los poros chicos guardan el agua y los más grandes dejan salir el sobrante.",
+      "Cada ingrediente tiene su tarea: la turba y la fibra de coco guardan agua, la perlita y la corteza abren huecos para el aire, y la arena gruesa suma peso y drenaje.",
+      "Cactus y suculentas piden una mezcla que **drene muy rápido**. Las tropicales de hoja prefieren una que guarde más humedad."
+    ],
+    "no_confundir": "Tierra es lo que hay en el suelo del jardín; sustrato es la mezcla armada para macetas.",
+    "lecciones": ["macetas-3", "macetas-4"],
+    "relacionadas": ["tierra", "compost", "perlita", "drenaje"]
+  },
+  {
+    "id": "compost",
+    "termino": "Compost",
+    "sinonimos": ["compostaje", "compostera", "enmienda"],
+    "unidad": "macetas",
+    "resumen": "Restos de cocina y jardín ya descompuestos, que se usan para mejorar la tierra.",
+    "cuerpo": [
+      "Es **materia orgánica descompuesta** y estable, transformada por microorganismos. Está listo cuando se ve oscuro y parejo y **huele a tierra mojada**. Si tiene olor agrio, todavía le falta.",
+      "En maceta va como **una parte de la mezcla y no solo**: una guía universitaria sugiere entre el 15 y el 40 por ciento. Suma nutrientes de a poco y ayuda a guardar agua.",
+      "Se puede hacer en casa, incluso en un balcón. En una compostera de recipientes apilados tarda entre 3 y 5 meses."
+    ],
+    "no_confundir": "El compost mejora la mezcla, pero no es un sustrato completo: solo en la maceta no va.",
+    "lecciones": ["macetas-4", "abono-2"],
+    "relacionadas": ["sustrato", "tierra", "humus-de-lombriz", "abono"]
+  },
+  {
+    "id": "perlita",
+    "termino": "Perlita",
+    "sinonimos": [],
+    "unidad": "macetas",
+    "resumen": "Ingrediente del sustrato que abre huecos para que entre aire a las raíces.",
+    "cuerpo": [
+      "En una mezcla, la perlita cumple la misma tarea que la corteza en trozos: **abrir huecos para el aire**. Así el sustrato no queda apelmazado.",
+      "Las tropicales de hoja van bien con mezclas a base de turba o coco con **algo de perlita**. Para suculentas y cactus se puede sumar bastante perlita o grava fina, para que la mezcla **drene rápido**."
+    ],
+    "lecciones": ["macetas-3", "familias-1"],
+    "relacionadas": ["sustrato", "tierra", "drenaje", "suculenta"]
+  },
+  {
+    "id": "drenaje",
+    "termino": "Drenaje",
+    "sinonimos": ["agujero de la maceta", "agujeros", "plato", "maceta sin agujero", "funda", "cubremaceta"],
+    "unidad": "macetas",
+    "resumen": "La salida del agua que sobra: el agujero de abajo de la maceta.",
+    "cuerpo": [
+      "El agujero **deja salir el agua que sobra** y permite que llegue aire a las raíces. Sin agujero, el agua se junta en el fondo y las raíces se pueden pudrir.",
+      "Los agujeros chicos no hace falta taparlos. Si es muy grande, alcanza con una mallita o un pedazo de maceta rota encima.",
+      "Una maceta linda sin agujero se usa **de funda**, con la planta adentro en su maceta con drenaje. El plato no es un depósito: **vacialo después de regar**."
+    ],
+    "lecciones": ["macetas-2", "riego-3"],
+    "relacionadas": ["piedras-en-el-fondo", "exceso-de-riego", "sustrato", "riego-a-fondo"]
+  },
+  {
+    "id": "maceta-de-barro",
+    "termino": "Maceta de barro o de plástico",
+    "sinonimos": ["terracota", "barro", "plástico", "cerámica", "material de la maceta"],
+    "unidad": "macetas",
+    "resumen": "El barro deja pasar humedad y seca rápido; el plástico la guarda más tiempo.",
+    "cuerpo": [
+      "El **barro o terracota sin esmaltar es poroso**: la tierra pierde humedad también por las paredes y se seca más rápido. Les viene bien a cactus, suculentas y a quien suele regar de más.",
+      "El **plástico** y la cerámica esmaltada no son porosos y **guardan más la humedad**. Van bien con plantas que quieren la tierra siempre algo húmeda, o si te solés olvidar de regar.",
+      "Si cambiás de material, cambia cada cuánto vas a regar. No hace falta sacar cuentas: tocá la tierra."
+    ],
+    "lecciones": ["macetas-1"],
+    "relacionadas": ["drenaje", "test-del-dedo", "trasplante", "suculenta"]
+  },
+  {
+    "id": "piedras-en-el-fondo",
+    "termino": "Piedras en el fondo",
+    "sinonimos": ["piedritas", "grava", "capa de drenaje", "piedras arriba"],
+    "unidad": "macetas",
+    "resumen": "Una costumbre muy difundida que no reemplaza al agujero de la maceta.",
+    "cuerpo": [
+      "Las piedras en el fondo **no le dan salida al agua**: se junta igual y las raíces quedan mojadas. Las guías universitarias no las recomiendan. Lo que hace falta es el **agujero**.",
+      "**Arriba de la tierra** es otra historia: una capa de grava es una terminación clásica para cactus y suculentas. Queda prolija y ayuda a frenar los yuyos.",
+      "Ojo, que arriba tampoco secan la tierra más rápido: debajo de las piedras sigue húmeda más tiempo. Correlas un poco y tocá la tierra antes de regar."
+    ],
+    "no_confundir": "Piedras en el fondo no es drenaje. Drenaje es que el agua tenga por dónde salir.",
+    "lecciones": ["macetas-5", "macetas-2"],
+    "relacionadas": ["drenaje", "sustrato", "cactus"]
+  },
+  {
+    "id": "trasplante",
+    "termino": "Trasplante",
+    "sinonimos": ["cambio de maceta", "trasplantar", "maceta chica", "cambiar la maceta"],
+    "unidad": "macetas",
+    "resumen": "Pasar la planta a una maceta apenas más grande cuando la suya le queda chica.",
+    "cuerpo": [
+      "Las señales: **raíces que asoman** por los agujeros o dan vueltas apretadas, y tierra que se seca rapidísimo. Las que crecen rápido pueden pedirlo cada año, y las lentas cada dos o tres.",
+      "La maceta nueva, **apenas más grande**: entre 2 y 5 centímetros más de diámetro. En una enorme, la tierra de más queda mojada demasiado tiempo.",
+      "La mejor época es la **primavera**, de septiembre a noviembre. Mejor no hacerlo si la planta está débil, en reposo o a punto de florecer."
+    ],
+    "lecciones": ["macetas-6", "basico-2"],
+    "relacionadas": ["raices", "sustrato", "maceta-de-barro", "reposo-de-invierno"]
+  },
+  {
+    "id": "abono",
+    "termino": "Abono",
+    "sinonimos": ["fertilizante", "fertilizar", "abonar", "nutrientes", "NPK"],
+    "unidad": "abono",
+    "resumen": "Minerales que se le reponen a la planta; no es su comida ni un remedio.",
+    "cuerpo": [
+      "La comida la fabrica la planta sola, con la luz. El abono no le da energía: **le acerca minerales**, sobre todo nitrógeno, fósforo y potasio, que son los tres números de la etiqueta (**N, P y K**).",
+      "Puede ser líquido para el agua de riego, granulado o de **liberación lenta**. Nunca más fuerte de lo que dice la etiqueta: ante la duda, a la mitad o menos.",
+      "Se abona cuando la planta está creciendo, **de septiembre a marzo**. En invierno, recién trasplantada, recién comprada o enferma, no."
+    ],
+    "no_confundir": "El abono aporta minerales. El compost y el humus de lombriz mejoran la tierra, pero no lo reemplazan del todo.",
+    "lecciones": ["abono-1", "abono-4"],
+    "relacionadas": ["exceso-de-abono", "humus-de-lombriz", "compost", "reposo-de-invierno"]
+  },
+  {
+    "id": "humus-de-lombriz",
+    "termino": "Humus de lombriz",
+    "sinonimos": ["humus", "lombricompuesto", "vermicompost", "abono orgánico"],
+    "unidad": "abono",
+    "resumen": "Mejora la tierra y ayuda a que la planta aproveche mejor los nutrientes.",
+    "cuerpo": [
+      "El humus de lombriz **mejora la tierra** y ayuda a que la planta aproveche mejor los nutrientes que tiene disponibles.",
+      "Suma mucho, pero **no reemplaza del todo a un abono**. Por eso se usa junto con el abono y no en lugar de él."
+    ],
+    "no_confundir": "Humus y compost mejoran la tierra; el abono repone minerales. Se complementan, no se reemplazan.",
+    "lecciones": ["abono-2"],
+    "relacionadas": ["abono", "compost", "sustrato"]
+  },
+  {
+    "id": "exceso-de-abono",
+    "termino": "Exceso de abono",
+    "sinonimos": ["sales", "costra blanca", "quemadura por abono", "me pasé con el abono"],
+    "unidad": "abono",
+    "resumen": "Sales que se juntan en la tierra cuando se abona de más y pueden quemar las raíces.",
+    "cuerpo": [
+      "El abono disuelto son sales, y **las que la planta no usa se juntan** en la tierra. Cuando hay demasiadas, a las raíces les cuesta tomar agua aunque la tierra esté húmeda.",
+      "Las señales: puntas y bordes marrones, hojas de abajo que se caen, planta decaída y una **costra blanca** sobre la tierra. Varias de esas señales también pueden venir de otras causas.",
+      "Si te pasaste, sacá la costra y hacé correr despacio **mucha agua** por la maceta, más o menos el doble de su volumen, dejando que escurra toda."
+    ],
+    "lecciones": ["abono-3", "abono-4"],
+    "relacionadas": ["abono", "riego-a-fondo", "riego-por-abajo"]
+  },
+  {
+    "id": "suculenta",
+    "termino": "Suculenta",
+    "sinonimos": ["suculentas", "aloe", "jade", "echeveria"],
+    "unidad": "familias",
+    "resumen": "Planta que guarda agua en hojas, tallos o raíces gruesas y carnosas.",
+    "cuerpo": [
+      "Vienen, en su mayoría, de **lugares secos**. Como traen su propia reserva, el riego es poco: a fondo, y recién **cuando la tierra se secó del todo**.",
+      "Necesitan una tierra que **drene rápido** y maceta con agujeros. El exceso de agua es de lo que más las daña, porque se pudren con facilidad.",
+      "La mayoría quiere **mucha luz**, con unas horas de luz directa, mejor a la mañana. La haworthia es la excepción: prefiere luz indirecta brillante."
+    ],
+    "no_confundir": "Todos los cactus son suculentas, pero no todas las suculentas son cactus.",
+    "lecciones": ["familias-1", "multiplicar-4"],
+    "relacionadas": ["cactus", "callo", "hijuelos", "maceta-de-barro"]
+  },
+  {
+    "id": "cactus",
+    "termino": "Cactus",
+    "sinonimos": ["cactos", "cactus de Navidad"],
+    "unidad": "familias",
+    "resumen": "Suculenta que, en general, no tiene hojas y guarda el agua en el tallo carnoso.",
+    "cuerpo": [
+      "Los cactus son un grupo dentro de las suculentas. La mayoría **no tiene hojas**: guarda el agua en el **tallo**.",
+      "Son de las pocas plantas que disfrutan el sol fuerte. Piden mezcla que drene rápido, poco riego y, en invierno, casi nada. Si llueve mucho en el balcón, ponelos bajo techo.",
+      "El **cactus de Navidad** es distinto: es un cactus de selva, que quiere luz indirecta brillante y más riego que uno de desierto."
+    ],
+    "no_confundir": "Todos los cactus son suculentas, pero no todas las suculentas son cactus.",
+    "lecciones": ["familias-1", "familias-4"],
+    "relacionadas": ["suculenta", "luz-directa", "piedras-en-el-fondo", "callo"]
+  },
+  {
+    "id": "trepadora",
+    "termino": "Trepadora",
+    "sinonimos": ["enredadera", "raíces aéreas", "zarcillos", "planta que trepa"],
+    "unidad": "familias",
+    "resumen": "Planta de tallos largos que crece apoyándose en algo para subir.",
+    "cuerpo": [
+      "El potus, la monstera y el filodendro se sostienen con **raíces aéreas**, que les salen del tallo y se agarran al soporte. Otras se enroscan en espiral o usan **zarcillos**.",
+      "Cuando **sube por un soporte**, la planta suele largar hojas más grandes, y la monstera además con más agujeros.",
+      "Según ASPCA, potus, monstera, filodendro e hiedra son **tóxicos para perros y gatos**."
+    ],
+    "no_confundir": "La trepadora sube y la colgante deja caer sus tallos. Muchas, como el potus, hacen las dos cosas según dónde las pongas.",
+    "lecciones": ["familias-5", "familias-2"],
+    "relacionadas": ["colgante", "tutor", "toxicidad-para-mascotas"]
+  },
+  {
+    "id": "colgante",
+    "termino": "Colgante",
+    "sinonimos": ["planta colgante", "maceta colgante", "guías que caen"],
+    "unidad": "familias",
+    "resumen": "Planta que deja caer sus tallos desde una maceta alta.",
+    "cuerpo": [
+      "Una colgante **deja caer sus tallos** y una trepadora sube. Muchas hacen las dos cosas: el potus y la hoya pueden **colgar o trepar**, según dónde las pongas.",
+      "Colgarlas alto también sirve si hay **mascotas** en casa, lejos de donde lleguen las guías que caen. Ojo, que los gatos trepan."
+    ],
+    "lecciones": ["familias-5", "mascotas-3"],
+    "relacionadas": ["trepadora", "tutor", "toxicidad-para-mascotas"]
+  },
+  {
+    "id": "tutor",
+    "termino": "Tutor",
+    "sinonimos": ["soporte", "poste de musgo", "palo", "caña", "enrejado", "guía"],
+    "unidad": "familias",
+    "resumen": "Cualquier soporte que sostiene a la planta: un poste, una caña, un enrejado o un aro.",
+    "cuerpo": [
+      "Sirve para plantas altas, **de tallos débiles** o trepadoras. Un poste cubierto de musgo o fibra de coco les da a las raíces aéreas dónde agarrarse. Si es de musgo, **mantenelo húmedo**.",
+      "Atá el tallo con algo blando y **dejalo flojo**, en un ocho que no apriete. Un atado muy justo daña el tallo.",
+      "Ponelo **temprano**, cuando la planta todavía no creció mucho, cerca del tallo pero sin tocar las raíces. En primavera, revisá las ataduras."
+    ],
+    "lecciones": ["familias-6", "familias-2"],
+    "relacionadas": ["trepadora", "colgante"]
+  },
+  {
+    "id": "reposo-de-invierno",
+    "termino": "Reposo de invierno",
+    "sinonimos": ["dormancia", "reposo", "letargo", "invierno", "no crece"],
+    "unidad": "estaciones",
+    "resumen": "Los meses fríos y con menos luz, en los que la planta casi deja de crecer.",
+    "cuerpo": [
+      "En Buenos Aires el invierno va **de junio a agosto**. Con menos luz y más fresco, la planta crece más despacio y **toma menos agua**.",
+      "En esos meses se **riega menos**, siempre tocando la tierra, y el **abono se guarda** hasta la primavera. Tampoco conviene trasplantar una planta en reposo.",
+      "Algunas, como los caladios y las alocasias, pueden quedarse sin hojas y **rebrotar en primavera**."
+    ],
+    "lecciones": ["riego-5", "estaciones-3"],
+    "relacionadas": ["abono", "trasplante", "caida-de-hojas", "humedad-ambiente"]
+  },
+  {
+    "id": "caida-de-hojas",
+    "termino": "Caída de hojas",
+    "sinonimos": ["pierde hojas", "se le caen las hojas", "tira hojas", "hojas caídas"],
+    "unidad": "estaciones",
+    "resumen": "Perder alguna hoja vieja es normal; muchas juntas o las nuevas, una alarma.",
+    "cuerpo": [
+      "**Normal**: de a poco, solo hojas viejas de abajo o de adentro, y con la planta sana y sacando hojas nuevas. También es común después de un cambio de lugar o en otoño.",
+      "**Alarma**: caen muchas hojas juntas, o caen las nuevas además de las viejas.",
+      "Si es alarma, revisá de a una cosa: la tierra, las corrientes de aire, la luz y por último los bichos. Y no la marees con cambios todos los días."
+    ],
+    "lecciones": ["estaciones-3", "rutina-2"],
+    "relacionadas": ["hojas-amarillas", "aclimatacion", "reposo-de-invierno", "poda"]
+  },
+  {
+    "id": "riego-por-mecha",
+    "termino": "Riego por mecha",
+    "sinonimos": ["mecha", "cordón de algodón", "vacaciones", "viaje", "autorriego", "riego por goteo"],
+    "unidad": "estaciones",
+    "resumen": "Un cordón de algodón que lleva agua de un recipiente a la maceta mientras no estás.",
+    "cuerpo": [
+      "Sirve para ausencias de **dos o tres semanas**. El cordón va desde un recipiente grande con agua hasta la tierra de cada maceta, con el recipiente más alto que las macetas.",
+      "Mojá el cordón antes y **enterrá bien la punta**. Falla por dos cosas: el recipiente es chico y se vacía, o la punta se sale de la tierra.",
+      "**No la uses con cactus y suculentas**, que aguantan semanas sin agua. Para más tiempo, lo más seguro es pedirle a alguien que pase a regar."
+    ],
+    "lecciones": ["estaciones-4", "riego-4"],
+    "relacionadas": ["riego-a-fondo", "test-del-dedo", "suculenta"]
+  },
+  {
+    "id": "limpieza-de-hojas",
+    "termino": "Limpieza de hojas",
+    "sinonimos": ["limpiar las hojas", "polvo", "hojas con polvo", "ducha"],
+    "unidad": "rutina",
+    "resumen": "Sacarles el polvo a las hojas para que reciban más luz.",
+    "cuerpo": [
+      "El polvo les tapa parte de la luz que usan para fabricar su comida. Limpiarlas las ayuda a crecer y te deja **ver a tiempo** si apareció algún bicho.",
+      "Para hojas lisas alcanza con un **paño suave apenas humedecido** con agua, por arriba y por abajo. Sin jabón. Otra opción es una ducha suave con agua tibia.",
+      "Las hojas peludas, como las de la violeta africana, y los cactus se limpian con un **pincel suave y seco**."
+    ],
+    "lecciones": ["rutina-1", "plagas-2"],
+    "relacionadas": ["poda", "rotacion", "cochinilla", "aranuela"]
+  },
+  {
+    "id": "poda",
+    "termino": "Poda de limpieza",
+    "sinonimos": ["poda", "podar", "cortar hojas secas", "hoja seca", "tijera"],
+    "unidad": "rutina",
+    "resumen": "Sacar las hojas y flores que ya se secaron, con una tijera limpia.",
+    "cuerpo": [
+      "Las hojas totalmente amarillas, marrones o secas **ya no se recuperan**: podés sacarlas sin culpa. Las que siguen casi todas verdes, dejalas hasta que la planta saque hojas nuevas.",
+      "Cortá donde la hoja se une al tallo, con una **tijera afilada y desinfectada**, y volvé a limpiarla antes de pasar a otra planta. Juntá también las hojas caídas sobre la tierra.",
+      "Las puntas marrones se pueden recortar dejando un bordecito marrón. Si no corregís la causa, vuelven a aparecer."
+    ],
+    "lecciones": ["rutina-2", "familias-7"],
+    "relacionadas": ["limpieza-de-hojas", "rotacion", "hojas-amarillas", "hongos"]
+  },
+  {
+    "id": "rotacion",
+    "termino": "Rotación",
+    "sinonimos": ["girar la maceta", "rotar", "planta inclinada", "se tuerce"],
+    "unidad": "rutina",
+    "resumen": "Girar la maceta cada tanto para que la planta crezca pareja.",
+    "cuerpo": [
+      "Las plantas **crecen hacia donde viene la luz**, y adentro casi siempre viene de un solo lado: la ventana. Con el tiempo se inclinan y quedan más tupidas de un lado.",
+      "Girá la maceta **un cuarto de vuelta** cada tanto, siempre para el mismo lado. No hay una regla fija de cada cuánto: si se está inclinando, es hora."
+    ],
+    "lecciones": ["rutina-2"],
+    "relacionadas": ["falta-de-luz", "limpieza-de-hojas", "poda"]
+  },
+  {
+    "id": "cochinilla",
+    "termino": "Cochinilla",
+    "sinonimos": ["cochinilla algodonosa", "cochinilla de escudo", "pelusa blanca", "hojas pegajosas", "melaza"],
+    "unidad": "plagas",
+    "resumen": "Bichito que chupa la savia: se ve como pelusa blanca o como bultitos duros.",
+    "cuerpo": [
+      "La **algodonosa** parece una pelusita blanca pegada a la planta. La **de escudo** se ve como bultitos duros que no se mueven, sobre los tallos y el revés de las hojas.",
+      "Algunas dejan una **melaza pegajosa**, sobre la que puede crecer un hongo negro como hollín. Se esconden en el revés de las hojas, los brotes y las hojas secas o caídas.",
+      "Lo primero es **aislar la planta** y sacarlas una por una con un hisopo mojado en alcohol. El alcohol es tóxico para perros y gatos: guardalo lejos de ellos."
+    ],
+    "lecciones": ["plagas-1", "plagas-3"],
+    "relacionadas": ["aranuela", "cuarentena", "limpieza-de-hojas", "mosquitas-del-sustrato"]
+  },
+  {
+    "id": "aranuela",
+    "termino": "Arañuela roja",
+    "sinonimos": ["arañuela", "araña roja", "ácaros", "telaraña"],
+    "unidad": "plagas",
+    "resumen": "Ácaro diminuto que deja puntitos claros en las hojas y una telaraña muy fina.",
+    "cuerpo": [
+      "Es pariente de las arañas y casi no se ve a simple vista. Deja **puntitos claros** en las hojas y, cuando hay muchas, una **telaraña muy fina**.",
+      "Le encanta el **aire cálido y seco**, justo el que deja la calefacción en invierno. En esos meses revisá más seguido las plantas que están cerca de una estufa o un radiador.",
+      "Mirar seguido el revés de las hojas ayuda a frenarla cuando recién empieza. Si aparece, aislá la planta y sacá bichos con un buen chorro de agua."
+    ],
+    "lecciones": ["plagas-1", "plagas-2"],
+    "relacionadas": ["cochinilla", "humedad-ambiente", "cuarentena", "limpieza-de-hojas"]
+  },
+  {
+    "id": "mosquitas-del-sustrato",
+    "termino": "Mosquitas del sustrato",
+    "sinonimos": ["mosquitas", "mosquitas de la tierra", "mosquita negra", "trampas amarillas"],
+    "unidad": "plagas",
+    "resumen": "Moscas chiquitas y oscuras que caminan o vuelan sobre la tierra húmeda.",
+    "cuerpo": [
+      "Las adultas molestan pero no comen la planta. Sus **larvas** viven en la tierra húmeda y pueden dañar sobre todo a plantines y gajos.",
+      "Ponen los huevos en la tierra húmeda, así que **regar de más** las invita. Dejar secar la capa de arriba entre riegos y no dejar agua en el plato es lo que más las frena.",
+      "Las **trampas adhesivas amarillas** atrapan a las adultas y muestran cuántas hay, pero solas no terminan el problema si la tierra sigue húmeda."
+    ],
+    "lecciones": ["plagas-1", "plagas-2"],
+    "relacionadas": ["exceso-de-riego", "cochinilla", "hongos"]
+  },
+  {
+    "id": "hongos",
+    "termino": "Hongos",
+    "sinonimos": ["moho", "moho blanco", "oídio", "manchas en las hojas", "polvillo blanco"],
+    "unidad": "plagas",
+    "resumen": "Manchas, polvillo o moho que aparecen con humedad de más y aire quieto.",
+    "cuerpo": [
+      "Las **manchas marrones con borde amarillento** suelen ser hongos o bacterias que aprovechan las hojas mojadas. Sacá las hojas afectadas, regá sin mojar el follaje y dale más aire.",
+      "El **oídio** es un polvillo blanco sobre las hojas, como harina. Mejora si sacás las hojas más tomadas, ventilás y separás un poco las macetas.",
+      "El **moho blanco sobre la tierra** no se alimenta de tu planta. Es un aviso de que la tierra pasa demasiado tiempo mojada: si no cambiás el riego, vuelve."
+    ],
+    "no_confundir": "Manchas marrones y secas después de pasarla a más sol suelen ser quemaduras, no hongos.",
+    "lecciones": ["plagas-4"],
+    "relacionadas": ["raices-podridas", "exceso-de-riego", "poda", "mosquitas-del-sustrato"]
+  },
+  {
+    "id": "esqueje",
+    "termino": "Esqueje",
+    "sinonimos": ["gajo", "gajito", "esquejes", "cortar un gajo"],
+    "unidad": "multiplicar",
+    "resumen": "Pedazo de tallo con hojas que, puesto a enraizar, se vuelve una planta nueva.",
+    "cuerpo": [
+      "La planta que sale es **igual a la madre**. Se corta de unos 8 a 15 centímetros, **justo debajo de un nudo**, y se le sacan las hojas de abajo.",
+      "El de potus, filodendro o monstera enraíza fácil en agua. El de suculenta no: primero se deja **secar hasta que haga callo** y después va a mezcla para cactus.",
+      "La mejor época es de primavera a verano, **de septiembre a febrero**, aunque adentro de casa muchas enraízan en cualquier momento del año."
+    ],
+    "no_confundir": "El esqueje es un pedazo que cortás y todavía no tiene raíces. El hijuelo es una plantita que nace pegada a la madre y se separa cuando ya tiene las suyas.",
+    "lecciones": ["multiplicar-1", "multiplicar-4"],
+    "relacionadas": ["nudo", "propagar-en-agua", "callo", "hijuelos"]
+  },
+  {
+    "id": "nudo",
+    "termino": "Nudo",
+    "sinonimos": ["nudos", "bultito del tallo"],
+    "unidad": "multiplicar",
+    "resumen": "El bultito donde la hoja se une al tallo: de ahí brotan las raíces.",
+    "cuerpo": [
+      "Es el punto del tallo **donde nace cada hoja**. En un esqueje, de ahí salen las raíces nuevas.",
+      "Por eso el esqueje se corta **justo debajo de un nudo**. En el frasco tiene que quedar al menos un nudo sumergido y ninguna hoja bajo el agua."
+    ],
+    "lecciones": ["multiplicar-1"],
+    "relacionadas": ["esqueje", "propagar-en-agua"]
+  },
+  {
+    "id": "propagar-en-agua",
+    "termino": "Propagar en agua",
+    "sinonimos": ["enraizar en agua", "frasco con agua", "multiplicar en agua", "reproducir en agua"],
+    "unidad": "multiplicar",
+    "resumen": "Poner un esqueje en un frasco con agua hasta que saque raíces.",
+    "cuerpo": [
+      "Va con **un nudo bajo el agua** y las hojas afuera, en un lugar con luz indirecta brillante. **Cambiá el agua** una o dos veces por semana, o antes si se pone turbia.",
+      "Las raíces pueden tardar desde un par de semanas hasta más de un mes. Cuando midan unos centímetros, **pasalo a tierra** y mantenela húmeda las primeras semanas.",
+      "Enraízan fácil así el potus, el filodendro, la monstera y los hijitos de la cinta. Las suculentas, en general, no."
+    ],
+    "no_confundir": "Enraizar en agua es de paso. Las raíces que nacen en agua se adaptan con esfuerzo a la tierra, así que no conviene demorar el pase.",
+    "lecciones": ["multiplicar-1", "multiplicar-2"],
+    "relacionadas": ["esqueje", "nudo", "callo", "hijuelos"]
+  },
+  {
+    "id": "hijuelos",
+    "termino": "Hijuelos",
+    "sinonimos": ["hijitos", "hijos", "retoños", "estolones", "hijo"],
+    "unidad": "multiplicar",
+    "resumen": "Plantitas chicas que nacen pegadas a la madre y se pueden separar.",
+    "cuerpo": [
+      "Los sacan el aloe, la lengua de suegra, la haworthia, la pilea y los cactus que crecen en grupo. Separalos recién **cuando tengan sus propias raíces** y varias hojas.",
+      "La cinta los larga en la punta de tallos finos y largos, los **estolones**. Podés apoyar el hijito en una macetita con tierra húmeda y cortarlo cuando agarró.",
+      "Los de suculentas y cactus van a mezcla para cactus, con **muy poca agua al principio**."
+    ],
+    "no_confundir": "El hijuelo nace solo al lado de la madre. El esqueje es un pedazo de tallo que cortás vos.",
+    "lecciones": ["multiplicar-3", "multiplicar-4"],
+    "relacionadas": ["division", "esqueje", "suculenta", "propagar-en-agua"]
+  },
+  {
+    "id": "division",
+    "termino": "División",
+    "sinonimos": ["dividir", "dividir la mata", "separar la planta", "división de mata"],
+    "unidad": "multiplicar",
+    "resumen": "Separar en dos o más una planta que crece en mata.",
+    "cuerpo": [
+      "Va bien con plantas de **varios tallos que salen juntos** de la tierra: espatifilo, lengua de suegra, zamioculca, calatea y helechos.",
+      "Sacala de la maceta y abrí el pan de raíces con las manos, o con un cuchillo limpio si está muy duro. Cada pedazo se queda con **hojas, tallos y raíces propias**.",
+      "Después regá para asentar la tierra y **esperá unas semanas antes de abonar**. La mejor época es el comienzo de la primavera, de septiembre a noviembre."
+    ],
+    "lecciones": ["multiplicar-3"],
+    "relacionadas": ["hijuelos", "trasplante", "raices"]
+  },
+  {
+    "id": "callo",
+    "termino": "Callo",
+    "sinonimos": ["cicatrizar", "dejar secar el corte", "cascarita", "esqueje de suculenta"],
+    "unidad": "multiplicar",
+    "resumen": "La cascarita seca que forma el corte de un esqueje de suculenta antes de plantarlo.",
+    "cuerpo": [
+      "Antes de plantar un esqueje de tallo de suculenta o cactus, **dejalo secar al aire** entre un día y una semana, hasta que el corte forme esa cicatriz.",
+      "El callo **baja el riesgo de que se pudra** antes de sacar raíces. Plantarlo recién cortado y regarlo mucho es el camino más corto a perderlo.",
+      "Después va a mezcla para cactus, con la tierra apenas húmeda mientras enraíza. El vaso con agua no les sirve."
+    ],
+    "lecciones": ["multiplicar-4"],
+    "relacionadas": ["esqueje", "suculenta", "cactus", "propagar-en-agua"]
+  },
+  {
+    "id": "aclimatacion",
+    "termino": "Aclimatación",
+    "sinonimos": ["adaptación", "acostumbrarse", "planta nueva", "cambio de lugar", "aclimatar"],
+    "unidad": "comprar",
+    "resumen": "El tiempo que necesita una planta para acostumbrarse a un lugar nuevo.",
+    "cuerpo": [
+      "En el vivero creció con mucha luz, humedad y abono seguido. Tu casa es un cambio grande, y es común que al llegar **pierda algunas hojas**: se está adaptando.",
+      "Dale la luz que pide su especie y evitale los cambios bruscos. Si la pasás a un lugar con más sol, hacelo **de a poco**, en una o dos semanas, porque un salto brusco puede quemarla.",
+      "Mientras se adapta, **no la abones**. Después de un cambio de lugar, muchas plantas se acomodan en uno o dos meses."
+    ],
+    "lecciones": ["comprar-2", "luz-4"],
+    "relacionadas": ["cuarentena", "caida-de-hojas", "luz-directa", "abono"]
+  },
+  {
+    "id": "cuarentena",
+    "termino": "Cuarentena de planta nueva",
+    "sinonimos": ["aislar", "separar la planta nueva", "aislamiento", "planta recién comprada"],
+    "unidad": "comprar",
+    "resumen": "Dejar la planta nueva separada de las demás por si trajo algún bicho.",
+    "cuerpo": [
+      "La mayoría de las plagas llega a casa escondida en una **planta nueva**, comprada o regalada.",
+      "Dejala **separada al menos un mes**, mejor seis semanas, y revisale seguido el revés de las hojas antes de juntarla con las otras.",
+      "Ayuda elegir bien desde el vivero: si al dar vuelta las hojas ves telitas finas, puntitos claros, pelusa como de algodón o escamitas, **elegí otra planta**."
+    ],
+    "lecciones": ["plagas-2", "comprar-2"],
+    "relacionadas": ["aclimatacion", "cochinilla", "aranuela"]
+  },
+  {
+    "id": "toxicidad-para-mascotas",
+    "termino": "Toxicidad para mascotas",
+    "sinonimos": ["plantas tóxicas", "tóxica", "venenosa", "perros", "gatos", "pet friendly"],
+    "unidad": "mascotas",
+    "resumen": "Algunas plantas tienen sustancias que le hacen mal a un perro o a un gato.",
+    "cuerpo": [
+      "Muchas plantas fabrican sustancias para defenderse de los animales que se las comen. Algunas **solo irritan la boca**, como el potus o el espatifilo, y otras pueden dañar riñones, hígado o corazón.",
+      "Que a tu mascota le guste una planta **no dice nada sobre si es segura**. Lo único que la protege de verdad es que no llegue a ella: estantes altos, macetas colgantes o una puerta cerrada.",
+      "Las más peligrosas, como los **lirios si tenés gato**, conviene directamente no tenerlas. Las listas no son completas: ante la duda, consultá a tu veterinario."
+    ],
+    "lecciones": ["mascotas-1", "mascotas-3"],
+    "relacionadas": ["mordio-una-planta", "trepadora", "colgante"]
+  },
+  {
+    "id": "mordio-una-planta",
+    "termino": "Si mordió una planta",
+    "sinonimos": ["se comió una hoja", "intoxicación", "urgencia", "veterinario", "vómito"],
+    "unidad": "mascotas",
+    "resumen": "Qué hacer si tu mascota comió una planta: llamar al veterinario sin esperar síntomas.",
+    "cuerpo": [
+      "**Llamá enseguida a tu veterinario** o a una guardia de urgencias, aunque todavía lo veas bien. Con algunas plantas el daño aparece recién horas o días después.",
+      "Alejá la planta y fijate **qué planta fue, cuánto comió y a qué hora**. Llevá la planta, una muestra o una foto, y la etiqueta si la tenés.",
+      "**No le provoques el vómito** por tu cuenta ni le des leche, sal, aceite o remedios caseros. Esta guía es informativa y no reemplaza al veterinario."
+    ],
+    "lecciones": ["mascotas-2", "mascotas-1"],
+    "relacionadas": ["toxicidad-para-mascotas"]
+  }
+]
