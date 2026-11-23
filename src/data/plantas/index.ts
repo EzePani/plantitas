@@ -8,11 +8,13 @@ import cultivoC from './cultivo-c.json'
 import cultivoD from './cultivo-d.json'
 import cultivoE from './cultivo-e.json'
 import cultivoF from './cultivo-f.json'
+import cultivoG from './cultivo-g.json'
 import fotosUno from './fotos-uno.json'
 import fotosDos from './fotos-dos.json'
 import fotosD from './fotos-d.json'
 import fotosE from './fotos-e.json'
 import fotosF from './fotos-f.json'
+import fotosG from './fotos-g.json'
 import type { Clase, Cultivo, FotoExtra, Planta } from './esquema'
 
 export type { Planta, CategoriaLuz, Toxicidad, Clase, Cultivo, Porte, MetodoPropagacion, FotoExtra } from './esquema'
@@ -20,8 +22,8 @@ export type { Planta, CategoriaLuz, Toxicidad, Clase, Cultivo, Porte, MetodoProp
 // plants.json trae los cuidados y la toxicidad. La clasificación, el cultivo (porte, tutor, poda,
 // propagación) y las fotos extra se cargan en archivos aparte, por id de planta, y se unen acá.
 const CLASES = clases as Record<string, Clase[]>
-const CULTIVO = { ...cultivoA, ...cultivoB, ...cultivoC, ...cultivoD, ...cultivoE, ...cultivoF } as Record<string, Cultivo>
-const FOTOS = { ...fotosUno, ...fotosDos, ...fotosD, ...fotosE, ...fotosF } as Record<string, FotoExtra[]>
+const CULTIVO = { ...cultivoA, ...cultivoB, ...cultivoC, ...cultivoD, ...cultivoE, ...cultivoF, ...cultivoG } as Record<string, Cultivo>
+const FOTOS = { ...fotosUno, ...fotosDos, ...fotosD, ...fotosE, ...fotosF, ...fotosG } as Record<string, FotoExtra[]>
 
 export const PLANTAS = (plantas as Omit<Planta, 'clases' | 'cultivo' | 'fotos_extra'>[]).map((p) => ({
   ...p,

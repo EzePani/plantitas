@@ -1,0 +1,197 @@
+{
+  "fuentes": [
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Alocasia x amazonica (Elephant's Ear)",
+      "url": "https://plants.ces.ncsu.edu/plants/alocasia-x-amazonica/",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz filtrada, humedad alta, tierra húmeda con drenaje, división de hijuelos, tóxica (oxalato de calcio)",
+      "usado_en": [
+        "alocasia"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Alocasia growing guide",
+      "url": "https://www.rhs.org.uk/plants/alocasia/growing-guide",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz, riego con 5 cm secos, humedad, mezcla con arena, hijuelos y rizoma, sin poda",
+      "usado_en": [
+        "alocasia"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Alocasia",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/alocasia",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Tóxica para perros y gatos (Alocasia spp.), oxalatos, síntomas",
+      "usado_en": [
+        "alocasia"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Gasteria carinata var. verrucosa",
+      "url": "https://www.rhs.org.uk/plants/260743/gasteria-carinata-var-verrucosa/details",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Sol o sombra parcial, mezcla para cactus, casi seca en invierno, hijuelos, hoja, semilla, sin poda",
+      "usado_en": [
+        "gasteria"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Gasteria verrucosa",
+      "url": "https://www.rhs.org.uk/plants/7639/gasteria-verrucosa/details",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Mismos datos de cultivo (nombre sinónimo)",
+      "usado_en": [
+        "gasteria"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Gasteria gracilis (Cow Tongue, Ox Tongue)",
+      "url": "https://plants.ces.ncsu.edu/plants/gasteria-gracilis",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Sombra parcial 2-6 h, proteger sol de tarde, riego entre secados, mezcla de cactus, división, roseta (Gasteria gracilis, otra especie)",
+      "usado_en": [
+        "gasteria"
+      ]
+    },
+    {
+      "org": "University of Arkansas Cooperative Extension",
+      "titulo": "Ox Tongue (Gasteria)",
+      "url": "https://www.uaex.uada.edu/yard-garden/resource-library/plant-week/oxtongue-3-13-09.aspx",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz brillante a sombreada, poco riego en invierno, mezcla arenosa, hijuelos en primavera, aguanta frío leve",
+      "usado_en": [
+        "gasteria"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Kalanchoe blossfeldiana",
+      "url": "https://plants.ces.ncsu.edu/plants/kalanchoe-blossfeldiana/",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz brillante indirecta, riego entre secados, mezcla de cactus, esquejes de tallo u hoja, tóxica (bufadienólidos), tamaño",
+      "usado_en": [
+        "kalanchoe-de-flor"
+      ]
+    },
+    {
+      "org": "Clemson HGIC",
+      "titulo": "Kalanchoe",
+      "url": "https://hgic.clemson.edu/factsheet/kalanchoe/",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Riego, mezcla, noches largas para florecer, poda tras floración, esquejes con turba y perlita",
+      "usado_en": [
+        "kalanchoe-de-flor"
+      ]
+    },
+    {
+      "org": "Iowa State University Extension",
+      "titulo": "How do I care for Kalanchoe?",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/how-do-i-care-kalanchoe",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz brillante, temperaturas, drenaje, floración por días cortos",
+      "usado_en": [
+        "kalanchoe-de-flor"
+      ]
+    },
+    {
+      "org": "New York Botanical Garden",
+      "titulo": "Kalanchoe blossfeldiana care",
+      "url": "https://libguides.nybg.org/kalanchoe",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Sol, riego y plato, no pulverizar, poda tras florecer, esquejes",
+      "usado_en": [
+        "kalanchoe-de-flor"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Kalanchoe",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/kalanchoe",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Tóxica para perros y gatos (Kalanchoe spp.), bufadienólidos, vómitos y diarrea",
+      "usado_en": [
+        "kalanchoe-de-flor"
+      ]
+    }
+  ],
+  "revisar": [
+    {
+      "id": "gasteria",
+      "dato": "toxicidad_gato y toxicidad_perro",
+      "motivo": "ASPCA no tiene ficha (la URL /gasteria devuelve solo el índice) y no hallé segunda fuente veterinaria; queda no_verificada. Fuentes no institucionales la dan por no tóxica pero no se usaron.",
+      "fuentes": [
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/gasteria"
+      ]
+    },
+    {
+      "id": "gasteria",
+      "dato": "humedad",
+      "motivo": "Ninguna fuente abierta habla de humedad; confianza baja, inferida de ser suculenta.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/260743/gasteria-carinata-var-verrucosa/details"
+      ]
+    },
+    {
+      "id": "gasteria",
+      "dato": "especie",
+      "motivo": "NC State describe G. gracilis; RHS sí cubre var. verrucosa. Se usó la especie pedida.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/gasteria-gracilis",
+        "https://www.rhs.org.uk/plants/260743/gasteria-carinata-var-verrucosa/details"
+      ]
+    },
+    {
+      "id": "kalanchoe-de-flor",
+      "dato": "poda.meses",
+      "motivo": "Las fuentes dicen 'después de florecer' sin mes: quedó [] y el detalle lo explica.",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/kalanchoe/",
+        "https://libguides.nybg.org/kalanchoe"
+      ]
+    },
+    {
+      "id": "kalanchoe-de-flor",
+      "dato": "luz.horas_sol_directo",
+      "motivo": "Fuentes discrepan (NYBG 4 h, Clemson sol pleno, NC State sombra de tarde); se tomó el menor valor.",
+      "fuentes": [
+        "https://libguides.nybg.org/kalanchoe",
+        "https://hgic.clemson.edu/factsheet/kalanchoe/",
+        "https://plants.ces.ncsu.edu/plants/kalanchoe-blossfeldiana/"
+      ]
+    },
+    {
+      "id": "kalanchoe-de-flor",
+      "dato": "mascotas.partes",
+      "motivo": "Las fuentes no especifican qué partes; quedó null. Gravedad moderada según NC State (severidad media) con advertencia por posible riesgo fatal.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/kalanchoe-blossfeldiana/",
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/kalanchoe"
+      ]
+    },
+    {
+      "id": "alocasia",
+      "dato": "riego",
+      "motivo": "NC State pide tierra húmeda y RHS dejar secar 5 cm; se tomó lo conservador, confianza media.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/alocasia-x-amazonica/",
+        "https://www.rhs.org.uk/plants/alocasia/growing-guide"
+      ]
+    }
+  ],
+  "no_pude_abrir": [
+    "https://plants.ces.ncsu.edu/plants/gasteria-carinata-var-verrucosa/ (404)",
+    "https://plants.ces.ncsu.edu/plants/gasteria-carinata/ (404)",
+    "https://www.rhs.org.uk/plants/gasteria/growing-guide y /plants/kalanchoe/growing-guide (404)",
+    "https://aggie-hort.tamu.edu/databases/interiorscape/Gasteria_verrucosa.html (redirección circular http/https)",
+    "Missouri Botanical Garden (conexión rechazada)",
+    "ASPCA elephant-ear, elephants-ear, gasteria (solo el índice, sin ficha)"
+  ],
+  "fotos": "Alocasia: se usó Alocasia amazonica / x amazonica y cultivar 'Polly'. Kalanchoe: no hay foto de planta entera nítida en CC; la principal es un racimo de flores (CC0) y las extras muestran flores en maceta. Gasteria: la principal es la planta en maceta; extras detalle de hoja y mata en jardín (con cartel botánico)."
+}

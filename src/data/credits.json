@@ -334,5 +334,29 @@
     "autor": "Krishnav25",
     "licencia": "CC0",
     "url": "https://commons.wikimedia.org/wiki/File:Burro%27s_tail_(sedum_morganianum).jpg"
+  },
+  {
+    "id": "alocasia",
+    "planta": "Alocasia",
+    "archivo": "img/alocasia.webp",
+    "autor": "Lazaregagnidze",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Alocasia_amazonica_Elephant%27s-Ear_Plant_%E1%83%90%E1%83%9A%E1%83%9D%E1%83%99%E1%83%90%E1%83%A1%E1%83%98%E1%83%90.JPG"
+  },
+  {
+    "id": "gasteria",
+    "planta": "Gasteria",
+    "archivo": "img/gasteria.webp",
+    "autor": "Abu Shawka",
+    "licencia": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:1_Gasteria_carinata_var_verrucosa_2.jpg"
+  },
+  {
+    "id": "kalanchoe-de-flor",
+    "planta": "Kalanchoe de flor",
+    "archivo": "img/kalanchoe-de-flor.webp",
+    "autor": "Sabalo22",
+    "licencia": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kalanchoe_blossfeldiana_(Florist_Kalanchoe).jpg"
   }
 ]

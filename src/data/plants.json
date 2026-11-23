@@ -4815,5 +4815,323 @@
       "Humedad: ninguna fuente la trata; se dejó \"baja\" con confianza baja, por ser suculenta.",
       "Luz: Wisconsin dice luz brillante a sol pleno; NC State, al menos sol parcial. Se tomaron 4 horas de sol directo, sin sol de tarde fuerte, por ser el criterio conservador."
     ]
+  },
+  {
+    "id": "alocasia",
+    "nombre_comun": "Alocasia",
+    "otros_nombres": [],
+    "nombre_cientifico": "Alocasia × amazonica",
+    "familia": "Araceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Quiere luz brillante pero filtrada, lejos del sol directo que le quema las hojas. Con poca luz crece más despacio.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá cuando los primeros 5 cm de tierra estén secos, sin dejar agua en el plato.",
+      "invierno": "Regá bastante menos: en invierno descansa y es normal que pierda alguna hoja.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Le encanta el aire húmedo. Ayuda agrupar plantas o ponerle un plato con piedritas y agua debajo; en invierno, con calefacción, se le secan las puntas.",
+      "confianza": "alta"
+    },
+    "sustrato": {
+      "tipo": "Sustrato universal fértil mezclado con arena gruesa o perlita (unas 3 partes de sustrato por 1 de arena), en maceta con agujeros.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 2,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "No le gusta el frío: las fuentes piden que no baje de unos 16 °C en la época de crecimiento ni de 10 °C en invierno. En Buenos Aires mejor adentro; en verano puede salir a un balcón con sombra si las noches son cálidas."
+    },
+    "tamano": "mediana",
+    "dificultad": "media",
+    "tip": "Si en invierno se le caen hojas, no pasa nada: bajá el riego y esperá, que en primavera rebrota.",
+    "imagen": "img/alocasia.webp",
+    "atribucion_imagen": {
+      "autor": "Lazaregagnidze",
+      "licencia": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Alocasia_amazonica_Elephant%27s-Ear_Plant_%E1%83%90%E1%83%9A%E1%83%9D%E1%83%99%E1%83%90%E1%83%A1%E1%83%98%E1%83%90.JPG"
+    },
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Irritación, dolor e hinchazón en la boca, la lengua y los labios, mucha baba, dificultad para tragar y vómitos.",
+      "partes": "Toda la planta",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Es tóxica para gatos y perros por los cristales de oxalato de calcio. Ponela fuera de su alcance y, si la mordieron, llamá al veterinario.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Alocasia (Elephant's Ear)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/alocasia",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Alocasia x amazonica (Elephant's Ear)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/alocasia-x-amazonica/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Alocasia x amazonica (Elephant's Ear)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/alocasia-x-amazonica/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Alocasia growing guide",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/alocasia/growing-guide",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Las fuentes del norte hablan de abril a octubre como temporada de crecimiento: en Buenos Aires equivale a septiembre a marzo.",
+      "La luz brillante se resolvió con la ventana norte de Buenos Aires, filtrada con una cortina si pega fuerte."
+    ],
+    "discrepancias": [
+      "Riego: NC State pide tierra húmeda y RHS que se seque la capa de arriba; se eligió el criterio más conservador (dejar secar 5 cm).",
+      "NC State describe Alocasia × amazonica; RHS es una guía del género Alocasia. Ambas coinciden en luz filtrada y humedad alta.",
+      "ASPCA lista el género Alocasia (Alocasia spp.), no el híbrido por separado."
+    ]
+  },
+  {
+    "id": "gasteria",
+    "nombre_comun": "Gasteria",
+    "otros_nombres": [
+      "Lengua de vaca"
+    ],
+    "nombre_cientifico": "Gasteria carinata var. verrucosa",
+    "familia": "Asphodelaceae",
+    "grupo": "suculenta_cactus",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 2,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Le gusta la luz brillante y filtrada. Aguanta sol suave unas horas y también algo de sombra, pero evitá el sol fuerte de la tarde.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "bajo",
+      "verano": "Regá con moderación solo cuando la tierra esté seca y no dejes que se junte agua entre las hojas.",
+      "invierno": "Casi no la riegues: mantenela prácticamente seca hasta la primavera.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "baja",
+      "detalle": "Se banca el aire seco de una casa. Las fuentes no dan un dato de humedad, pero por ser suculenta no necesita nada especial.",
+      "confianza": "baja"
+    },
+    "sustrato": {
+      "tipo": "Mezcla para cactus y suculentas, arenosa y con piedritas para que drene muy bien, en maceta con agujeros.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 4,
+    "apta": {
+      "interior": true,
+      "balcon": true,
+      "nota_balcon": "Aguanta bien el verano de Buenos Aires en un balcón con luz brillante o media sombra. Para las heladas no es planta de intemperie: entrala o cubrila y mantenela seca en invierno."
+    },
+    "tamano": "chica",
+    "dificultad": "facil",
+    "tip": "Con un poco de luz brillante y riego escaso, te regala hijitos al costado que podés separar en primavera para tener más plantas.",
+    "imagen": "img/gasteria.webp",
+    "atribucion_imagen": {
+      "autor": "Abu Shawka",
+      "licencia": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:1_Gasteria_carinata_var_verrucosa_2.jpg"
+    },
+    "mascotas": {
+      "toxicidad_gato": "no_verificada",
+      "toxicidad_perro": "no_verificada",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "No encontramos una ficha de esta planta en ASPCA ni en una segunda fuente veterinaria, así que no podemos afirmar si es segura. Por las dudas, dejala fuera del alcance de gatos y perros.",
+      "advertencia_grave": null,
+      "confianza": "baja",
+      "fuentes_toxicidad": []
+    },
+    "fuentes": [
+      {
+        "titulo": "Gasteria carinata var. verrucosa",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/260743/gasteria-carinata-var-verrucosa/details",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Gasteria verrucosa",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/7639/gasteria-verrucosa/details",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Ox Tongue (Gasteria)",
+        "org": "University of Arkansas Cooperative Extension Service",
+        "url": "https://www.uaex.uada.edu/yard-garden/resource-library/plant-week/oxtongue-3-13-09.aspx",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Gasteria gracilis (Cow Tongue, Ox Tongue)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/gasteria-gracilis",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Las fuentes del norte hablan de invierno de noviembre a marzo según el sitio y de primavera de marzo a mayo: se convirtió a junio a agosto (invierno) y septiembre a noviembre (primavera).",
+      "Orientación: se reemplazó ventana sur por ventana norte."
+    ],
+    "discrepancias": [
+      "RHS dice pleno sol o sombra parcial y NC State pide proteger del sol fuerte de la tarde; se tomó 2 horas de sol suave y sin sol de tarde.",
+      "NC State describe Gasteria gracilis (otra especie del género) y Arkansas el género en general; los cuidados son los mismos, pero la ficha de var. verrucosa es la de RHS.",
+      "No se pudo abrir TAMU (aggie-hort.tamu.edu): redirige en bucle entre http y https."
+    ]
+  },
+  {
+    "id": "kalanchoe-de-flor",
+    "nombre_comun": "Kalanchoe de flor",
+    "otros_nombres": [],
+    "nombre_cientifico": "Kalanchoe blossfeldiana",
+    "familia": "Crassulaceae",
+    "grupo": "con_flor",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "directa"
+    ],
+    "horas_sol_directo": 2,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Necesita mucha luz brillante para florecer; con poca luz se estira y se pone floja. El sol directo suave le va bien, pero el sol fuerte de la tarde le quema las hojas.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "bajo",
+      "verano": "Regá a fondo cuando la tierra esté seca arriba y vaciá el plato a los 15 minutos.",
+      "invierno": "Regá solo cuando la tierra se haya secado; ante la duda, esperá un día más.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "baja",
+      "detalle": "No necesita humedad extra ni que le pulverices agua.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Mezcla para cactus y suculentas que drene bien, en maceta con agujeros.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 4,
+    "apta": {
+      "interior": true,
+      "balcon": true,
+      "nota_balcon": "En Buenos Aires puede pasar el verano afuera en luz filtrada. Las fuentes la prefieren fresca (noches de unos 7 a 18 °C), así que entrala si anuncian heladas o noches muy frías."
+    },
+    "tamano": "chica",
+    "dificultad": "facil",
+    "tip": "Cuando se marchitan las flores cortá los tallos viejos: se renueva y puede volver a florecer.",
+    "imagen": "img/kalanchoe-de-flor.webp",
+    "atribucion_imagen": {
+      "autor": "Sabalo22",
+      "licencia": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Kalanchoe_blossfeldiana_(Florist_Kalanchoe).jpg"
+    },
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Vómitos y diarrea; más raro, latidos del corazón alterados.",
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Es tóxica para gatos y perros por sus bufadienólidos. Ponela donde no llegue, y si mordieron una hoja llamá a tu veterinario.",
+      "advertencia_grave": "NC State advierte que, si la come una mascota, puede llegar a ser fatal. Mantenela fuera de su alcance.",
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Kalanchoe",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/kalanchoe",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Kalanchoe blossfeldiana",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/kalanchoe-blossfeldiana/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Kalanchoe blossfeldiana",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/kalanchoe-blossfeldiana/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Kalanchoe",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/kalanchoe/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "How do I care for Kalanchoe?",
+        "org": "Iowa State University Extension",
+        "url": "https://yardandgarden.extension.iastate.edu/faq/how-do-i-care-kalanchoe",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Kalanchoe blossfeldiana care",
+        "org": "New York Botanical Garden",
+        "url": "https://libguides.nybg.org/kalanchoe",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Orientación: las fuentes dicen ventana sur o este/oeste; en Buenos Aires la más soleada es la norte.",
+      "Las fuentes dicen que sale afuera en verano del norte (junio a agosto): en Buenos Aires es diciembre a febrero."
+    ],
+    "discrepancias": [
+      "Sol: NYBG pide al menos 4 horas de sol directo y Clemson sol pleno; NC State luz brillante indirecta con sombra de tarde. Se tomó el criterio más conservador (2 horas, sin sol de tarde).",
+      "Humedad: NC State no la menciona; NYBG dice que no hace falta pulverizar.",
+      "Poda: ni NC State ni Iowa State dan un mes; Clemson y NYBG dicen 'después de florecer'. Se dejó sin meses.",
+      "La floración depende de noches largas (unas 14 horas de oscuridad por unas 6 semanas). Esta ficha es Kalanchoe blossfeldiana y no mezcla datos con Kalanchoe pinnata (hoja del aire)."
+    ]
   }
 ]

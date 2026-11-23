@@ -1,0 +1,154 @@
+{
+  "alocasia": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo sacá las hojas viejas o secas cortándolas en la base."
+    },
+    "propagacion": {
+      "metodos": [
+        "division",
+        "hijuelos"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "detalle": "Separá los hijitos que le salen al costado con un poco de raíz y plantalos en su maceta, o dividí el rizoma al final de la primavera. Usá guantes: la savia irrita la piel."
+    },
+    "fuentes": [
+      {
+        "titulo": "Alocasia x amazonica (Elephant's Ear)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/alocasia-x-amazonica/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Alocasia growing guide",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/alocasia/growing-guide",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS pide separar hijuelos en primavera (septiembre a noviembre) y dividir el rizoma a fines de primavera o principio de verano (noviembre y diciembre): se unificó en septiembre a diciembre.",
+      "RHS habla de riego de abril a octubre y de reposo en invierno del norte: se pasó a primavera y verano en Buenos Aires, y reposo de junio a agosto."
+    ]
+  },
+  "gasteria": {
+    "porte": [
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo sacá las hojas secas de abajo."
+    },
+    "propagacion": {
+      "metodos": [
+        "hijuelos",
+        "hoja",
+        "semilla"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "Separá los hijitos en primavera, cuando ya tengan raíz propia, y plantalos en mezcla para cactus. También se pueden hacer con hojas, pero tardan más."
+    },
+    "fuentes": [
+      {
+        "titulo": "Gasteria carinata var. verrucosa",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/260743/gasteria-carinata-var-verrucosa/details",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Ox Tongue (Gasteria)",
+        "org": "University of Arkansas Cooperative Extension Service",
+        "url": "https://www.uaex.uada.edu/yard-garden/resource-library/plant-week/oxtongue-3-13-09.aspx",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Gasteria gracilis (Cow Tongue, Ox Tongue)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/gasteria-gracilis",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Arkansas recomienda separar los hijuelos en primavera (marzo a mayo en el norte): se pasó a septiembre a noviembre.",
+      "RHS pide mantenerla casi seca en invierno: en Buenos Aires es de junio a agosto.",
+      "RHS sugiere una orientación sur u oeste en el norte: en Buenos Aires la más soleada es la norte, por eso se recomienda luz brillante y filtrada."
+    ]
+  },
+  "kalanchoe-de-flor": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "Cuando terminen de florecer, cortá los tallos florales viejos y recortá lo que esté largo para que ramifique; las fuentes no dan un mes fijo."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_tierra",
+        "hoja"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "detalle": "Cortá puntas de tallo de unos 5 a 7 cm de brote verde (sin flor), dejalas secar unos días y plantalas en mezcla liviana de turba y perlita. Enraízan en unas semanas."
+    },
+    "fuentes": [
+      {
+        "titulo": "Kalanchoe blossfeldiana",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/kalanchoe-blossfeldiana/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Kalanchoe",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/kalanchoe/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Kalanchoe blossfeldiana care",
+        "org": "New York Botanical Garden",
+        "url": "https://libguides.nybg.org/kalanchoe",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Clemson y NYBG dan los esquejes en primavera o principio de verano (norte): se pasó a septiembre a diciembre.",
+      "Para que vuelva a florecer necesita noches largas: las fuentes hablan de octubre a marzo en el norte y de empezar en septiembre; en Buenos Aires los días cortos van de marzo a agosto, así que sería a partir de marzo o abril (no se incluyó en los campos).",
+      "Orientación: en el norte recomiendan ventana sur; en Buenos Aires es la norte."
+    ]
+  }
+}
