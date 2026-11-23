@@ -103,4 +103,17 @@ function v3aV4(datos: unknown): unknown {
   return { ...datos, colecciones: Array.isArray(datos.colecciones) ? datos.colecciones : [] }
 }
 
-export const MIGRACIONES: Record<number, (datos: unknown) => unknown> = { 1: v1aV2, 2: v2aV3, 3: v3aV4 }
+// ---------- v4 → v5: hijitos en seguimiento y quiz de refuerzo ----------
+
+/** Agrega los hijitos (vacío) y el refuerzo, que arranca contando desde las lecciones ya hechas. */
+function v4aV5(datos: unknown): unknown {
+  if (!esObj(datos)) return datos
+  const hechas = esObj(datos.completadas) ? Object.keys(datos.completadas).filter((id) => !id.startsWith('repaso-')).length : 0
+  return {
+    ...datos,
+    hijitos: Array.isArray(datos.hijitos) ? datos.hijitos : [],
+    refuerzo: esObj(datos.refuerzo) ? datos.refuerzo : { ultimo: null, leccionesAlUltimo: hechas, fallidas: [] },
+  }
+}
+
+export const MIGRACIONES: Record<number, (datos: unknown) => unknown> = { 1: v1aV2, 2: v2aV3, 3: v3aV4, 4: v4aV5 }

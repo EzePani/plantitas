@@ -14,6 +14,9 @@ import { useStore } from '../../store/useStore'
 import { BotonFavorita, CalceEspacios } from './Favorita'
 import { BotonPie, MiLista } from './Lista'
 import { FichaPlanta } from './FichaPlanta'
+import { Hijitos } from './Hijitos'
+import { hoyLocal } from '../../lib/fecha'
+import { hijitosConAviso } from '../../lib/hijitos'
 import { Semaforo } from './Semaforo'
 
 const P = TC.plantas
@@ -98,7 +101,8 @@ export function Plantas({ onGuia }: { onGuia: (entradaId: string) => void }) {
   const [abierta, setAbierta] = useState<Planta | null>(null)
   const [verPeligrosas, setVerPeligrosas] = useState(false)
   const [verFiltros, setVerFiltros] = useState(false)
-  const [vista, setVista] = useState<'catalogo' | 'lista'>('catalogo')
+  const [vista, setVista] = useState<'catalogo' | 'lista' | 'hijitos'>('catalogo')
+  const avisos = useStore((s) => hijitosConAviso(s.hijitos, hoyLocal()))
   const [busqueda, setBusqueda] = useState('')
   const q = normal(busqueda)
   const activos = filtrosActivos(filtros)
@@ -114,7 +118,7 @@ export function Plantas({ onGuia }: { onGuia: (entradaId: string) => void }) {
       </header>
       <div className="shrink-0 px-5 pt-3" role="tablist" aria-label={P.titulo}>
         <div className="bg-arena flex rounded-full p-1">
-          {(['catalogo', 'lista'] as const).map((v) => (
+          {(['catalogo', 'lista', 'hijitos'] as const).map((v) => (
             <button
               key={v}
               type="button"
@@ -124,9 +128,10 @@ export function Plantas({ onGuia }: { onGuia: (entradaId: string) => void }) {
                 vibrar('toque')
                 setVista(v)
               }}
-              className={`min-h-10 flex-1 rounded-full border-0 text-[14px] font-extrabold ${vista === v ? 'text-hoja-osc bg-white shadow-sm' : 'text-tinta-suave bg-transparent'}`}
+              className={`relative min-h-10 flex-1 rounded-full border-0 text-[14px] font-extrabold ${vista === v ? 'text-hoja-osc bg-white shadow-sm' : 'text-tinta-suave bg-transparent'}`}
             >
               {P.vistas[v]}
+              {v === 'hijitos' && avisos > 0 && <span className="bg-agua absolute top-1 right-2 grid size-5 place-items-center rounded-full text-[11px] font-extrabold text-white">{avisos}</span>}
             </button>
           ))}
         </div>
@@ -166,7 +171,11 @@ export function Plantas({ onGuia }: { onGuia: (entradaId: string) => void }) {
         </div>
       )}
 
-      {vista === 'lista' ? (
+      {vista === 'hijitos' ? (
+        <div className="scroll-app min-h-0 flex-1 overflow-x-hidden">
+          <Hijitos onGuia={onGuia} />
+        </div>
+      ) : vista === 'lista' ? (
         <div className="scroll-app min-h-0 flex-1 overflow-x-hidden">
           <MiLista onAbrir={setAbierta} />
         </div>

@@ -19,6 +19,8 @@ const datos: DatosPersistidos = {
   ],
   favoritas: ['monstera', 'cinta'],
   colecciones: [{ id: 'col-sala', nombre: 'Sala', plantas: ['monstera'] }],
+  hijitos: [{ id: 'hij-1', plantaId: 'potus', nombre: 'Potus', medio: 'agua', inicio: '2026-11-10', agua: '2026-11-13', raices: null, maceta: null }],
+  refuerzo: { ultimo: '2026-11-13', leccionesAlUltimo: 1, fallidas: ['riego-1:2'] },
 }
 
 const serializar = (d: unknown, version = VERSION_DATOS) => JSON.stringify({ app: 'plantitas', version, exportado: '2026-11-14T12:00:00.000Z', datos: d })

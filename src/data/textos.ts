@@ -33,6 +33,12 @@ export const T = {
       minutos: '3 a 5 minutos',
       borrador: 'Contenido en borrador, todavía sin verificar con fuentes.',
     },
+    refuerzo: {
+      titulo: 'Quiz de refuerzo',
+      texto: (n: number) => `${n} preguntas de lo que ya viste.`,
+      empezar: 'Dale',
+      despues: 'Ahora no',
+    },
     final: {
       titulo: 'Armá tu espacio',
       texto: 'Al final del camino te ayudo a elegir plantas para tu casa.',
@@ -74,6 +80,7 @@ export const T = {
     fin: {
       titulo: '¡Lección completa!',
       tituloRepaso: '¡Repaso completo!',
+      tituloRefuerzo: '¡Refuerzo completo!',
       aciertos: 'Aciertos',
       xpGanada: 'XP ganada',
       racha: 'Racha',
@@ -85,6 +92,7 @@ export const T = {
     cofre: {
       titulo: '¡Cofre abierto!',
       texto: 'Te ganaste una semilla para tu colección.',
+      jardin: 'Ya creció en Mi jardín, en tu perfil.',
     },
   },
   plantas: {
@@ -105,8 +113,15 @@ export const T = {
     racha: 'Racha',
     lecciones: 'Lecciones',
     insignias: 'Insignias',
-    semillas: 'Semillas',
-    sinSemillas: 'Abrí cofres para juntar semillas.',
+    jardin: {
+      titulo: 'Mi jardín',
+      cuenta: (n: number, total: number) => `${n} de ${total} semillas`,
+      ver: 'Ver mi jardín',
+      intro: 'Cada cofre trae una semilla, y cada semilla es una planta del catálogo. Tocá las que ya ganaste para ver su ficha.',
+      vacio: 'Todavía no hay nada plantado. Abrí tu primer cofre y aparece acá.',
+      falta: (n: number, titulo: string) => `Unidad ${n} · ${titulo}`,
+      bloqueada: 'Semilla por ganar',
+    },
     progreso: 'Progreso por unidad',
     ajustes: 'Ajustes',
     mascotas: 'Mis mascotas',

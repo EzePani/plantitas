@@ -19,7 +19,10 @@ import { EditorMascotas } from '../pets/EditorMascotas'
 import { Panel } from '../../components/Panel'
 import { TC } from '../../data/textosCatalogo'
 import { Creditos, Fuentes } from './Fuentes'
+import { Jardin } from './Jardin'
 import { Nube } from './Nube'
+import { FotoPlanta } from '../../components/FotoPlanta'
+import { plantaPorId } from '../../data/plantas'
 
 const P = T.perfil
 
@@ -60,7 +63,7 @@ export function Perfil() {
   const [aviso, setAviso] = useState<{ tipo: 'ok' | 'error'; texto: string } | null>(null)
   const [pendiente, setPendiente] = useState<DatosPersistidos | null>(null)
   const [reiniciar, setReiniciar] = useState(false)
-  const [panel, setPanel] = useState<'fuentes' | 'creditos' | null>(null)
+  const [panel, setPanel] = useState<'fuentes' | 'creditos' | 'jardin' | null>(null)
   const archivo = useRef<HTMLInputElement>(null)
   const [pegando, setPegando] = useState(false)
   const [pegado, setPegado] = useState('')
@@ -167,19 +170,26 @@ export function Perfil() {
       </section>
 
       <section className="px-5 pt-6">
-        <h2 className="font-display text-tinta m-0 mb-2 text-[20px] font-semibold">{P.semillas}</h2>
-        {s.semillas.length === 0 ? (
-          <p className="text-tinta-suave m-0 text-[15px] font-bold">{P.sinSemillas}</p>
-        ) : (
-          <div className="flex flex-wrap gap-2">
-            {s.semillas.map((u) => (
-              <span key={u} className="flex items-center gap-1.5 rounded-full px-3 py-1.5 text-[14px] font-extrabold text-white" style={{ background: UNIDADES[u].color }}>
-                <Icono nombre="semilla" size={16} />
-                {UNIDADES[u].semilla}
+        <h2 className="font-display text-tinta m-0 mb-2 text-[20px] font-semibold">{P.jardin.titulo}</h2>
+        <button type="button" onClick={() => setPanel('jardin')} className="border-arena-osc flex w-full items-center gap-3 rounded-3xl border-2 bg-white p-3 text-left shadow-[0_3px_0_var(--color-arena-osc)] active:opacity-80">
+          <span className="flex shrink-0 -space-x-3">
+            {s.semillas.length === 0 ? (
+              <span className="bg-brote text-hoja-osc grid size-12 place-items-center rounded-full">
+                <Icono nombre="semilla" size={22} />
               </span>
-            ))}
-          </div>
-        )}
+            ) : (
+              s.semillas.slice(-3).map((u) => {
+                const planta = plantaPorId(UNIDADES[u].planta)
+                return planta ? <FotoPlanta key={u} planta={planta} className="size-12 rounded-full border-2 border-white" /> : null
+              })
+            )}
+          </span>
+          <span className="min-w-0 flex-1">
+            <span className="text-tinta block text-[16px] font-extrabold">{P.jardin.ver}</span>
+            <span className="text-tinta-suave block text-[13px] font-bold">{P.jardin.cuenta(s.semillas.length, Object.keys(UNIDADES).length)}</span>
+          </span>
+          <ChevronRight size={20} className="text-tinta-suave shrink-0" aria-hidden />
+        </button>
       </section>
 
       <section className="px-5 pt-6">
@@ -236,6 +246,9 @@ export function Perfil() {
 
       <Panel abierto={panel === 'fuentes'} titulo={TC.fuentes.titulo} onCerrar={() => setPanel(null)}>
         <Fuentes />
+      </Panel>
+      <Panel abierto={panel === 'jardin'} titulo={P.jardin.titulo} onCerrar={() => setPanel(null)}>
+        <Jardin />
       </Panel>
       <Panel abierto={panel === 'creditos'} titulo={TC.creditos.titulo} onCerrar={() => setPanel(null)}>
         <Creditos />
