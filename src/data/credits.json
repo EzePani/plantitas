@@ -254,5 +254,85 @@
     "autor": "JMK",
     "licencia": "CC BY-SA 4.0",
     "url": "https://commons.wikimedia.org/wiki/File:Opuntia_microdasys_subsp_rufida,_habitus,_La_Montagne,_b.jpg"
+  },
+  {
+    "id": "maranta",
+    "planta": "Maranta",
+    "archivo": "img/maranta.webp",
+    "autor": "Photo by David J. Stang",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Maranta_leuconeura_11zz.jpg"
+  },
+  {
+    "id": "calatea-orbifolia",
+    "planta": "Calatea orbifolia",
+    "archivo": "img/calatea-orbifolia.webp",
+    "autor": "Supsoph",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Houseplant_Calathea_orbifolia.jpg"
+  },
+  {
+    "id": "peperomia-argyreia",
+    "planta": "Peperomia sandía",
+    "archivo": "img/peperomia-argyreia.webp",
+    "autor": "James Steakley",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Peperomia_argyreia.jpg"
+  },
+  {
+    "id": "singonio",
+    "planta": "Singonio",
+    "archivo": "img/singonio.webp",
+    "autor": "Jeremyida002",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Syngonium_podophyllum_(_Arrowhead_plant)_001.jpg"
+  },
+  {
+    "id": "dracena-marginata",
+    "planta": "Dracena marginata",
+    "archivo": "img/dracena-marginata.webp",
+    "autor": "Autor desconocido",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Dracaena_marginata_IndoorPlant_0605k.jpg"
+  },
+  {
+    "id": "ficus-benjamina",
+    "planta": "Ficus benjamina",
+    "archivo": "img/ficus-benjamina.webp",
+    "autor": "Pedros.lol",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Spathiphyllum_and_Ficus_benjamina_in_workplace.JPG"
+  },
+  {
+    "id": "pata-de-elefante",
+    "planta": "Pata de elefante",
+    "archivo": "img/pata-de-elefante.webp",
+    "autor": "Wcedmisten",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Ponytail_Palm_Houseplant.jpg"
+  },
+  {
+    "id": "hoya",
+    "planta": "Hoya",
+    "archivo": "img/hoya.webp",
+    "autor": "The Cosmonaut",
+    "licencia": "CC BY-SA 2.5 ca",
+    "url": "https://commons.wikimedia.org/wiki/File:Hoya_carnosa.jpeg"
+  },
+  {
+    "id": "tradescantia",
+    "planta": "Tradescantia",
+    "archivo": "img/tradescantia.webp",
+    "autor": "Syrio",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tradescantia_zebrina_01.jpg"
+  },
+  {
+    "id": "cola-de-burro",
+    "planta": "Cola de burro",
+    "archivo": "img/cola-de-burro.webp",
+    "autor": "Krishnav25",
+    "licencia": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Burro%27s_tail_(sedum_morganianum).jpg"
   }
 ]

@@ -13,8 +13,8 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 | Contenido | Total | Alta | Media | Baja |
 | --- | --- | --- | --- | --- |
 | Lecciones | 49 | 26 | 23 | 0 |
-| Plantas (cuidados) | 33 | 12 | 21 | 0 |
-| Plantas (toxicidad) | 33 | 16 | 15 | 2 |
+| Plantas (cuidados) | 43 | 14 | 28 | 1 |
+| Plantas (toxicidad) | 43 | 22 | 18 | 3 |
 | Advertencias graves | 6 | 5 | 1 | 0 |
 
 ## Confianza por ítem
@@ -108,8 +108,18 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 | Cola de mono dorada (*Cleistocactus winteri (sin. Hildewintera aureispina)*) | media | no_verificada / no_verificada | baja | 2 |
 | Hoja del aire (*Kalanchoe pinnata (sin. Bryophyllum pinnatum)*) | media | toxica / toxica | media | 4 |
 | Orejas de conejo canela (*Opuntia microdasys 'Rufida' (Opuntia rufida)*) | media | no_verificada / no_verificada | baja | 2 |
+| Maranta (*Maranta leuconeura*) | media | no_verificada / no_verificada | baja | 3 |
+| Calatea orbifolia (*Goeppertia orbifolia*) | alta | segura / segura | alta | 4 |
+| Peperomia sandía (*Peperomia argyreia*) | media | segura / segura | alta | 3 |
+| Singonio (*Syngonium podophyllum*) | media | toxica / toxica | alta | 4 |
+| Dracena marginata (*Dracaena marginata*) | media | toxica / toxica | alta | 5 |
+| Ficus benjamina (*Ficus benjamina*) | media | toxica / toxica | media | 3 |
+| Pata de elefante (*Beaucarnea recurvata (sin. Nolina recurvata)*) | alta | segura / segura | alta | 4 |
+| Hoya (*Hoya carnosa*) | media | segura / segura | media | 5 |
+| Tradescantia (*Tradescantia zebrina*) | media | toxica / toxica | media | 3 |
+| Cola de burro (*Sedum morganianum*) | baja | segura / segura | alta | 3 |
 
-## Fuentes por organización (346 en total)
+## Fuentes por organización (379 en total)
 
 ### Royal Horticultural Society
 
@@ -189,8 +199,8 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: Las raíces necesitan aire y se ahogan si la maceta queda en agua; maceta siempre con agujero; calefacción central baja la humedad; lejos de radiadores; exceso de riego = hojas amarillas que caen o colapso; falta = bordes marrones; época de crecimiento primavera-otoño. / Regar cuando la superficie está seca y no por rutina; maceta seca pesa menos; regar a fondo hasta que salga por el agujero; vaciar platos; la calefacción central seca las macetas más rápido; marchitez con sustrato mojado indica daño de raíces; maceta siempre con agujero; trasplante cada 2-3 años en primavera; maceta 5-10 cm más ancha. / Planta sana al comprar: robusta, forma pareja, hojas sin decoloración ni manchas; se seca muy rápido y crece poco = posible maceta chica; maceta nueva 5 a 10 cm más ancha. Reabierta hoy. / Reabierta. Define la sombra luminosa como luz brillante que no hace una sombra bien definida; en verano el sol fuerte puede quemar plantas sensibles a través del vidrio. / Reabierta el 2026-11-15. Regar cuando la superficie se seca, no por rutina; maceta seca pesa menos; regar a fondo y vaciar platos; agua a temperatura ambiente, sobre todo en invierno; ambiente fresco = menos riego; en verano las plantas están más activas y se secan más rápido; la calefacción central baja la humedad y las macetas se secan antes; cerca de radiadores se deshidratan las hojas. / Abonar en la época de crecimiento; líquido una o dos veces por mes o diluido en cada riego; granulado sobre la tierra una o dos veces por temporada; liberación lenta ahorra trabajo; no abonar sobre tierra seca (quema raíces); orgánicos pueden dar olor adentro; más N para follaje, más P y K para flor; en invierno limitar a una vez por mes. / Compra: plantas fuertes, de forma equilibrada, hojas sin decoloración ni manchas; evitar plantas marchitas y sobre todo las marchitas con sustrato húmedo (posible daño de raíces); sustrato limpio, sin malezas ni algas; más pimpollos cerrados = más tiempo en flor; señales de arañuela (telitas finas, punteado color paja), cochinilla y escamas; cubrir la planta para el viaje, sobre todo en invierno; trasplantar preferentemente en primavera.
   - Usada en: lección abono-1, lección abono-2, lección abono-3, lección abono-4, lección basico-1, lección basico-2, lección basico-3, lección comprar-1, lección comprar-2, lección luz-1, lección luz-3, lección macetas-6, lección riego-1, lección riego-2, lección riego-3, lección riego-4, lección riego-5
 - [How to grow hoyas](https://www.rhs.org.uk/plants/hoya/growing-guide) · consultada el 2026-11-15
-  - Qué se tomó: Hoya es trepadora o colgante; colgar en maceta alta o trepar con aro/cañas
-  - Usada en: lección familias-5
+  - Qué se tomó: Hoya es trepadora o colgante; colgar en maceta alta o trepar con aro/cañas / Luz sin sol fuerte, riego y humedad, mezcla drenante, tutor, poda y propagación en agua
+  - Usada en: lección familias-5, planta hoya (cuidados), planta hoya (cultivo)
 - [How to grow ivy](https://www.rhs.org.uk/plants/ivy/growing-guide) · consultada el 2026-11-15
   - Qué se tomó: Hiedra se ancla con raíces adventicias del tallo; cultivares aptos para maceta
   - Usada en: lección familias-5
@@ -254,21 +264,33 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Are Succulents Safe to Have Around Pets? (nota del 7/4/2021)](https://www.aspca.org/news/are-succulents-safe-have-around-pets) · consultada el 2026-11-14
   - Qué se tomó: Lista como no tóxicas a Pilea peperomioides y Echeveria sp.; como tóxica a Crassula ovata (vómitos, diarrea, letargo, inapetencia)
   - Usada en: planta jade (toxicidad), planta echeveria (toxicidad), planta pilea (toxicidad)
+- [Arrow-Head Vine (Syngonium podophyllum)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/arrow-head-vine) · consultada el 2026-11-23
+  - Qué se tomó: Tóxica para perros y gatos, oxalatos, síntomas
+  - Usada en: planta singonio (toxicidad)
 - [Begonia - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/begonia) · consultada el 2026-11-15
   - Qué se tomó: Begonia spp.: tóxica para perros y gatos; oxalatos de calcio solubles; vómitos y salivación; falla renal solo en animales de pastoreo; parte subterránea la más tóxica / Begonia tóxica para perros y gatos, más tóxica bajo tierra
   - Usada en: lección familias-7, planta begonia (toxicidad)
 - [Boston Fern](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/boston-fern) · consultada el 2026-11-14
   - Qué se tomó: No tóxico para perros ni gatos / Nephrolepis exaltata bostoniensis no tóxica para perros ni gatos. No usada en el quiz (ver revisar).
   - Usada en: planta helecho-serrucho (toxicidad)
+- [Burro's Tail (Sedum morganianum)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/burros-tail) · consultada el 2026-11-23
+  - Qué se tomó: No tóxica para perros y gatos
+  - Usada en: planta cola-de-burro (toxicidad)
 - [Calathea - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/calathea) · consultada el 2026-11-14
   - Qué se tomó: Calathea spp.: no tóxica para perros ni gatos / Calathea spp. no tóxica para perros, gatos ni caballos. Verificada pero no usada en el quiz.
   - Usada en: planta calatea (toxicidad)
+- [Calathea (Calathea spp.)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/Calathea) · consultada el 2026-11-23
+  - Qué se tomó: Género Calathea no tóxico para perros, gatos y caballos
+  - Usada en: planta calatea-orbifolia (toxicidad)
 - [Corn Plant (Dracaena fragrans)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/corn-plant) · consultada el 2026-11-14
   - Qué se tomó: Tóxica para perros y gatos; saponinas; signos
   - Usada en: planta palo-de-agua (toxicidad)
 - [Cutleaf Philodendron (Monstera deliciosa)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron) · consultada el 2026-11-15
   - Qué se tomó: Tóxica para perros y gatos; oxalatos insolubles; signos / Monstera deliciosa tóxica para perros y gatos; oxalatos de calcio insolubles. / Tóxica para gato y perro
   - Usada en: lección familias-6, lección mascotas-3, planta monstera (toxicidad)
+- [Dracaena (Dracaena spp.)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dracaena) · consultada el 2026-11-23
+  - Qué se tomó: confirma toxicidad del género
+  - Usada en: planta dracena-marginata (toxicidad)
 - [Easter Lily - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/easter-lily) · consultada el 2026-11-15
   - Qué se tomó: Lilium longiflorum tóxico para gatos, riesgo de falla renal
   - Usada en: lección familias-7
@@ -284,12 +306,18 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [How to Safely Treat Your House with Insecticides](https://www.aspca.org/news/how-safely-treat-your-house-insecticides) · consultada el 2026-11-15
   - Qué se tomó: Los insecticidas son más peligrosos mojados: mantener a las mascotas lejos hasta que seque; leer la etiqueta; guardar bajo llave y en alto. (Se abrió por https://www.aspca.org/node/67862, que redirige a esta URL.)
   - Usada en: lección plagas-3
+- [Inch Plant (Tradescantia)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/wandering-jew) · consultada el 2026-11-23
+  - Qué se tomó: Tóxica (dermatitis) para perros y gatos; ficha como T. flumeninsis
+  - Usada en: planta tradescantia (toxicidad)
 - [Is That Houseplant Safe for Your Pets? (2019)](https://www.aspca.org/news/houseplant-safe-your-pets) · consultada el 2026-11-14
   - Qué se tomó: Ficus lyrata y cinta: levemente tóxicas; Dracaena spp.: moderadamente tóxica; potus: no pone en riesgo la vida / Palma sagú: semillas lo más concentrado, falla hepática en hasta tres días; plantas con oxalatos (potus, espatifilo, cala) no se consideran mortales.
   - Usada en: planta cinta (toxicidad), planta ficus-lyrata (toxicidad), planta palo-de-agua (toxicidad), planta potus (toxicidad), planta aglaonema (cuidados), advertencia palma-sagu
 - [Kalanchoe - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/kalanchoe) · consultada el 2026-11-15
   - Qué se tomó: Tóxica para perros y gatos; bufadienólidos; vómitos, diarrea, ritmo cardíaco anormal (raro). Evaluada para peligrosas y descartada (ver revisar). / Kalanchoe tóxico para perros y gatos
   - Usada en: lección familias-7, planta kalanchoe-hoja-del-aire (toxicidad)
+- [Madagascar Dragon Tree (Dracaena marginata)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/madagascar-dragon-tree) · consultada el 2026-11-23
+  - Qué se tomó: tóxica gato y perro, síntomas
+  - Usada en: planta dracena-marginata (toxicidad)
 - [Parlor Palm - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/parlor-palm) · consultada el 2026-11-14
   - Qué se tomó: Chamaedorea elegans: no tóxica para perros ni gatos
   - Usada en: planta palmera-de-salon (toxicidad)
@@ -299,6 +327,9 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Phalaenopsis Orchid - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/phalaenopsis-orchid) · consultada el 2026-11-14
   - Qué se tomó: Phalaenopsis sp.: no tóxica para perros ni gatos / Phalaenopsis sp. no tóxica para perros, gatos ni caballos. Verificada pero no usada en el quiz.
   - Usada en: planta orquidea-phalaenopsis (toxicidad)
+- [Pony Tail (Beaucarnea recurvata)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/pony-tail) · consultada el 2026-11-23
+  - Qué se tomó: no tóxica gato y perro
+  - Usada en: planta pata-de-elefante (toxicidad)
 - [Pothos (Epipremnum aureum)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/pothos) · consultada el 2026-11-15
   - Qué se tomó: Potus tóxico para perros y gatos (oxalatos de calcio) / Tóxico para gato y perro
   - Usada en: lección familias-5, lección familias-6
@@ -336,9 +367,89 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Toxic and Non-toxic Plants: Zebra Haworthia](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/zebra-haworthia) · consultada el 2026-11-14
   - Qué se tomó: Zebra Haworthia (figura como Haworthia fasciata, no attenuata): no tóxica para perros, gatos y caballos
   - Usada en: planta haworthia (toxicidad)
+- [Watermelon Peperomia (Peperomia argyreia)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/watermelon-peperomia) · consultada el 2026-11-23
+  - Qué se tomó: No tóxica para perros ni gatos
+  - Usada en: planta peperomia-argyreia (toxicidad)
+- [Wax Plant (Hoya carnosa)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/wax-plant) · consultada el 2026-11-23
+  - Qué se tomó: No tóxica para perros y gatos (cultivar krinkle kurl)
+  - Usada en: planta hoya (toxicidad)
+- [Weeping Fig (Ficus sp.)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/weeping-fig) · consultada el 2026-11-23
+  - Qué se tomó: tóxica gato y perro (ficina y psoraleno), sin síntomas listados
+  - Usada en: planta ficus-benjamina (toxicidad)
 - [Which Lilies Are Toxic to Pets?](https://www.aspca.org/news/which-lilies-are-toxic-pets) · consultada el 2026-11-14
   - Qué se tomó: Lilium y Hemerocallis: todas las partes, polen lamido del pelo y agua del florero; suele ser mortal si el tratamiento se demora más de 18 horas; las flores sueltan hojas y polen; el espatifilo rara vez causa algo grave.
   - Usada en: lección mascotas-3, advertencia lirios
+
+### NC State Extension Plant Toolbox
+
+- [Aglaonema](https://plants.ces.ncsu.edu/plants/aglaonema/) · consultada el 2026-11-22
+  - Qué se tomó: Erguida y tupida, forma matas de varios tallos; con los años el tallo se alarga y queda pelado; sacar flores y frutos; división y esqueje de tallo.
+  - Usada en: planta aglaonema (cultivo)
+- [Aloe vera](https://plants.ces.ncsu.edu/plants/aloe-vera/) · consultada el 2026-11-14
+  - Qué se tomó: Familia, sol pleno a media sombra, sustrato muy drenante, dejar secar del todo, zonas 10a-12b, toxicidad baja (glucósido de antraquinona, hojas), problema para gatos y perros / Sol pleno a media sombra; resistente a la sequía; no menciona quemaduras ni sol de tarde / Hábito erecto en roseta, se extiende por hijuelos; propagación por división. No menciona poda ni tutor.
+  - Usada en: planta aloe-vera (cuidados), planta aloe-vera (toxicidad), planta aloe-vera (cultivo)
+- [Beaucarnea recurvata (Ponytail palm)](https://plants.ces.ncsu.edu/plants/beaucarnea-recurvata/) · consultada el 2026-11-23
+  - Qué se tomó: sol pleno, riego, suelo drenado, no tóxica, hasta 10 C
+  - Usada en: planta pata-de-elefante (cuidados), planta pata-de-elefante (toxicidad)
+- [Chlorophytum comosum (Spider Plant)](https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/) · consultada el 2026-11-14
+  - Qué se tomó: Luz, riego, humedad, temperatura mínima, zonas; etiquetas no tóxica para gatos y perros / Prefiere luz media, tolera sombra profunda y no tolera el sol directo / Hojas en roseta, hábito arqueado y en cascada, ideal para colgar; se propaga por hijitos o división; los hijitos salen con días cortos.
+  - Usada en: planta cinta (cuidados), planta cinta (toxicidad), planta cinta (cultivo)
+- [Crassula ovata](https://plants.ces.ncsu.edu/plants/crassula-ovata/) · consultada el 2026-11-14
+  - Qué se tomó: Sinónimo C. argentea, luz brillante con algo de sombra a la tarde, riego moderado con tierra seca y menos de otoño a fin de invierno, zonas 11a-12b, problema para gatos y perros / Lugar soleado con algo de sombra a la tarde; afuera, media sombra; temperaturas de interior promedio a frescas / Hábito erecto, multitallo, forma de arbolito; esqueje de hoja y de tallo.
+  - Usada en: planta jade (cuidados), planta jade (toxicidad), planta jade (cultivo)
+- [Dracaena fragrans (Corn Plant)](https://plants.ces.ncsu.edu/plants/dracaena-fragrans/) · consultada el 2026-11-14
+  - Qué se tomó: Luz, riego, flúor, humedad, temperatura, tamaño y toxicidad (saponinas) / Luz brillante a moderada filtrada; el sol directo quema el follaje; figura como resistente al calor; rinde entre 21 y 27 °C. / Arbusto erguido de crecimiento lento, tallo leñoso sin ramificar; esquejes de tallo.
+  - Usada en: planta palo-de-agua (cuidados), planta palo-de-agua (toxicidad), planta palo-de-agua (cultivo)
+- [Dracaena marginata (Madagascar dragon tree)](https://plants.ces.ncsu.edu/plants/dracaena-marginata/) · consultada el 2026-11-23
+  - Qué se tomó: luz indirecta brillante, riego, suelo, poda, esquejes, toxicidad (saponinas, baja severidad), sensibilidad al flúor
+  - Usada en: planta dracena-marginata (cuidados), planta dracena-marginata (toxicidad), planta dracena-marginata (cultivo)
+- [Echeveria elegans](https://plants.ces.ncsu.edu/plants/echeveria-elegans/) · consultada el 2026-11-14
+  - Qué se tomó: Sol pleno a media sombra, riego escaso, buen drenaje, zonas 9a-11b, etiquetada no tóxica para gatos, perros y caballos / Sol pleno a media sombra; resistente al calor y la sequía / Matas de rosetas; se propaga por esquejes, hojas o división de hijuelos.
+  - Usada en: planta echeveria (cuidados), planta echeveria (toxicidad), planta echeveria (cultivo)
+- [Epipremnum pinnatum](https://plants.ces.ncsu.edu/plants/epipremnum-pinnatum/) · consultada el 2026-11-22
+  - Qué se tomó: Trepadora; apoyo con estaca, caña o tutor de musgo; podar en primavera o principios del verano; esquejes de tallo; 'Cebu Blue' cuelga 1,5 a 1,8 m y con tutor da hojas maduras caladas.
+  - Usada en: planta pothos-cebu-blue (cultivo)
+- [Ficus benjamina (Weeping Fig)](https://plants.ces.ncsu.edu/plants/ficus-benjamina/) · consultada el 2026-11-23
+  - Qué se tomó: luz, riego, suelo, poda en otoño-invierno, esquejes, sensible a frío
+  - Usada en: planta ficus-benjamina (cuidados), planta ficus-benjamina (toxicidad), planta ficus-benjamina (cultivo)
+- [Ficus elastica (Indian Rubber Plant)](https://plants.ces.ncsu.edu/plants/ficus-elastica/) · consultada el 2026-11-14
+  - Qué se tomó: Luz, riego, humedad, temperatura, tamaño; marcada como problema para gatos y perros / Luz brillante indirecta o media sombra (2 a 6 h) con protección del sol de la tarde; se adapta a poca luz. / Erguido; adentro se mantiene con guiado o soporte según haga falta; podar ramas principales lo hace más tupido; lista acodo, esqueje de raíz y semilla.
+  - Usada en: planta gomero (cuidados), planta gomero (toxicidad), planta gomero (cultivo)
+- [Ficus lyrata (Fiddle-leaf Fig)](https://plants.ces.ncsu.edu/plants/ficus-lyrata/) · consultada el 2026-11-14
+  - Qué se tomó: Luz, riego, humedad, temperatura, tamaño y toxicidad para gatos y perros / Luz brillante indirecta o media sombra (2 a 6 h), protección del sol de la tarde; demasiado sol directo quema; manchas por rejillas de calefacción o aire. / Erguido, poco ramificado de joven, tallos firmes; se puede podar según haga falta, con guantes por la savia; esqueje de tallo.
+  - Usada en: planta ficus-lyrata (cuidados), planta ficus-lyrata (toxicidad), planta ficus-lyrata (cultivo)
+- [Goeppertia orbifolia](https://plants.ces.ncsu.edu/plants/goeppertia-orbifolia/) · consultada el 2026-11-23
+  - Qué se tomó: Cuidados completos, división en primavera, no tóxica
+  - Usada en: planta calatea-orbifolia (cuidados), planta calatea-orbifolia (toxicidad), planta calatea-orbifolia (cultivo)
+- [Hoya carnosa (Wax Plant)](https://plants.ces.ncsu.edu/plants/hoya-carnosa/) · consultada el 2026-11-23
+  - Qué se tomó: Luz brillante, riego entre secados, humedad alta, poda de primavera, esquejes; no tóxica
+  - Usada en: planta hoya (cuidados), planta hoya (toxicidad), planta hoya (cultivo)
+- [Kalanchoe pinnata](https://plants.ces.ncsu.edu/plants/kalanchoe-pinnata/) · consultada el 2026-11-20
+  - Usada en: planta kalanchoe-hoja-del-aire (cuidados)
+- [Maranta leuconeura (Prayer Plant)](https://plants.ces.ncsu.edu/plants/maranta-leuconeura/) · consultada el 2026-11-23
+  - Qué se tomó: Luz, riego, humedad, hábito, propagación por división, tamaño
+  - Usada en: planta maranta (cuidados), planta maranta (cultivo)
+- [Opuntia microdasys](https://plants.ces.ncsu.edu/plants/opuntia-microdasys/) · consultada el 2026-11-20
+  - Qué se tomó: Mata baja muy ramificada, de rastrera a casi erguida; se multiplica desprendiendo una paleta en primavera; usar guantes por los gloquidios.
+  - Usada en: planta orejas-de-conejo-canela (cuidados), planta orejas-de-conejo-canela (cultivo)
+- [Peperomia argyreia](https://plants.ces.ncsu.edu/plants/peperomia-argyreia/) · consultada el 2026-11-23
+  - Qué se tomó: Luz, riego, sustrato, hábito, propagación, no tóxica
+  - Usada en: planta peperomia-argyreia (cuidados), planta peperomia-argyreia (toxicidad), planta peperomia-argyreia (cultivo)
+- [Peperomia obtusifolia](https://plants.ces.ncsu.edu/plants/peperomia-obtusifolia/) · consultada el 2026-11-14
+  - Qué se tomó: Luz brillante indirecta, tolera poca luz por meses, exceso de riego como problema principal, humedad media a baja, zonas 10a-12b, etiquetada no tóxica para gatos y perros / Luz brillante indirecta; tolera poca luz varios meses; el sol fuerte o directo quema las hojas / Hábito erecto y tupido; esqueje de hoja y de tallo.
+  - Usada en: planta peperomia (cuidados), planta peperomia (toxicidad), planta peperomia (cultivo)
+- [Philodendron hastatum](https://plants.ces.ncsu.edu/plants/philodendron-hastatum/) · consultada el 2026-11-22
+  - Qué se tomó: Trepador; necesita tutor de musgo o enrejado; esqueje de tallo; nombra 'Silver Sword'.
+  - Usada en: planta filodendro-silver-sword (cultivo)
+- [Sedum morganianum (Burro's Tail)](https://plants.ces.ncsu.edu/plants/sedum-morganianum/) · consultada el 2026-11-23
+  - Qué se tomó: Luz, riego, sustrato, hábito colgante, esquejes de tallo y hoja; no tóxica
+  - Usada en: planta cola-de-burro (cuidados), planta cola-de-burro (toxicidad), planta cola-de-burro (cultivo)
+- [Syngonium podophyllum](https://plants.ces.ncsu.edu/plants/syngonium-podophyllum/) · consultada el 2026-11-23
+  - Qué se tomó: Luz, humedad, hábito, poda, propagación, toxicidad media
+  - Usada en: planta singonio (cuidados), planta singonio (toxicidad), planta singonio (cultivo)
+- [Tradescantia zebrina](https://plants.ces.ncsu.edu/plants/tradescantia-zebrina/) · consultada el 2026-11-23
+  - Qué se tomó: Luz filtrada, riego, poda fuerte en primavera, esquejes; dermatitis y irritación en mascotas
+  - Usada en: planta tradescantia (cuidados), planta tradescantia (toxicidad), planta tradescantia (cultivo)
 
 ### Pet Poison Helpline
 
@@ -348,6 +459,9 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Anthurium](https://www.petpoisonhelpline.com/poison/anthurium/) · consultada el 2026-11-14
   - Qué se tomó: Anthurium: cristales de oxalato que al masticar causan irritación y dolor en boca, labios y garganta
   - Usada en: planta anturio (toxicidad)
+- [Arrowhead Vine](https://www.petpoisonhelpline.com/poison/arrowhead-vine) · consultada el 2026-11-23
+  - Qué se tomó: Tóxica por cristales de oxalato; irritación de boca y garganta
+  - Usada en: planta singonio (toxicidad)
 - [Azalea](https://www.petpoisonhelpline.com/poison/azalea/) · consultada el 2026-11-14
   - Qué se tomó: Todas las partes son tóxicas; signos digestivos y cardiovasculares.
   - Usada en: advertencia azalea
@@ -402,6 +516,68 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Tulips & Hyacinths](https://www.petpoisonhelpline.com/poison/tulip/) · consultada el 2026-11-14
   - Qué se tomó: Mayor concentración en bulbos; hojas y flores dan náuseas y vómitos leves; bulbos dan signos digestivos persistentes y decaimiento.
   - Usada en: advertencia bulbos
+
+### Clemson Cooperative Extension HGIC
+
+- [African Violet](https://hgic.clemson.edu/factsheet/african-violet/) · consultada el 2026-11-15
+  - Qué se tomó: Lugar luminoso que no reciba sol directo a la tarde; hasta 27 a 29 °C de día. / La falta de flores es de los problemas más comunes y en general se debe a poca luz; lejos del sol de la tarde; usar agua tibia porque la fría mancha las hojas.
+  - Usada en: lección familias-4, planta violeta-africana (cuidados)
+- [Arrowhead Vine (Syngonium spp.) indoor care and growing tips](https://hgic.clemson.edu/factsheet/arrowhead-vine-syngonium-spp-indoor-care-growing-tips-plant-guide/) · consultada el 2026-11-23
+  - Qué se tomó: Luz, riego, humedad, sustrato, tutor
+  - Usada en: planta singonio (cuidados), planta singonio (cultivo)
+- [Begonia](https://hgic.clemson.edu/factsheet/begonia/) · consultada el 2026-11-15
+  - Qué se tomó: Las Rex crecen mejor adentro o en maceta a media sombra; algunas begonias se queman con luz muy intensa. / Las rex son rizomatosas y se multiplican por esquejes de hoja o de tallo.
+  - Usada en: planta begonia (cuidados), planta begonia (cultivo)
+- [Cacti and succulents care](https://hgic.clemson.edu/factsheet/cactus-and-succulents/) · consultada el 2026-11-20
+  - Usada en: planta cola-de-mono-dorada (cuidados), planta kalanchoe-hoja-del-aire (cuidados), planta orejas-de-conejo-canela (cuidados)
+- [Chinese Evergreen (Aglaonema) Care, Cultivation & Growing Guide](https://hgic.clemson.edu/factsheet/chinese-evergreen-aglaonema-care-cultivation-growing-guide/) · consultada el 2026-11-22
+  - Qué se tomó: Si el tallo queda pelado abajo, se corta la punta y se enraíza; división, esquejes de tallo o de punta, acodo aéreo y semilla.
+  - Usada en: planta aglaonema (cultivo)
+- [Dracaena (HGIC 1504)](https://hgic.clemson.edu/factsheet/dracaena/) · consultada el 2026-11-14
+  - Qué se tomó: Luz, riego, flúor, humedad, sustrato, tamaño de 'Massangeana' / Luz brillante indirecta, muchas toleran poca luz; demasiado sol deja manchas secas; 15 a 21 °C de día (guía general del género). / Si los tallos quedan largos y pelados se cortan a la altura deseada y rebrotan; acodo aéreo, esquejes de punta o de tallo y brotes basales (estos en primavera o fines de verano).
+  - Usada en: planta palo-de-agua (cuidados), planta bambu-de-la-suerte (cuidados), planta bambu-de-la-suerte (toxicidad), planta palo-de-agua (cultivo)
+- [Exciting Houseplant Selections for Beginners](https://hgic.clemson.edu/exciting-houseplant-selections-for-beginners/) · consultada el 2026-11-14
+  - Qué se tomó: Luz y riego de potus, lengua de suegra y cinta; nota sobre gatos y cinta / Cinta: luz indirecta media a brillante. Potus: luz brillante indirecta, tolera menos. Lengua de suegra: luz brillante indirecta, tolera poca luz, evitar sol directo y caliente que quema
+  - Usada en: planta cinta (cuidados), planta cinta (toxicidad), planta lengua-de-suegra (cuidados), planta potus (cuidados)
+- [How To Grow and Care for Lucky Bamboo (Dracaena sanderiana)](https://hgic.clemson.edu/?p=38984) · consultada el 2026-11-15
+  - Qué se tomó: El bambú de la suerte crece en agua o en tierra; agua que cubra las raíces y al menos una pulgada de tallo; cambiar el agua todas las semanas; abono líquido a un cuarto de la dosis cada dos meses; luz indirecta brillante.
+  - Usada en: lección multiplicar-2
+- [How To Grow and Care for Lucky Bamboo (Dracaena sanderiana)](https://hgic.clemson.edu/how-to-grow-and-care-for-lucky-bamboo-dracaena-sanderiana/) · consultada el 2026-11-22
+  - Qué se tomó: Piedritas o bolitas para sostener las cañas en agua; en tierra, tutorar los tallos altos hasta que agarren; cortar un brote nuevo, sacarle las hojas de abajo y ponerlo en agua: raíces en 2 a 3 semanas.
+  - Usada en: planta bambu-de-la-suerte (cultivo)
+- [How to Grow Pothos Indoors (Epipremnum spp.): Care, Cultivars, and Common Problems](https://hgic.clemson.edu/factsheet/how-to-grow-pothos-indoors-epipremnum-spp-care-cultivars-and-common-problems/) · consultada el 2026-11-15
+  - Qué se tomó: Los esquejes de potus enraízan en tierra o en agua y necesitan al menos un nudo. Nada sobre cultivo permanente en agua. / Describe 'Cebu Blue'; E. pinnatum puede necesitar tutor de musgo para hojas grandes; esquejes de tallo con al menos un nudo, en sustrato o en agua.
+  - Usada en: lección multiplicar-1, planta pothos-cebu-blue (cultivo)
+- [Indoor Cacti](https://hgic.clemson.edu/factsheet/indoor-cacti/) · consultada el 2026-11-15
+  - Qué se tomó: La mayoría de los cactus no tiene hojas y el tallo es carnoso; cactus de desierto: varias horas de sol directo; cactus de selva (los de Navidad): luz brillante filtrada, se queman con sol directo, más agua; en invierno, riego apenas para que no se arruguen; sustrato muy drenante.
+  - Usada en: lección familias-1, lección familias-4
+- [Indoor Ferns (HGIC 1505)](https://hgic.clemson.edu/factsheet/indoor-ferns/) · consultada el 2026-11-15
+  - Qué se tomó: Helecho de Boston: luz, riego, humedad, sustrato, temperaturas / El sol directo daña el follaje; nunca en ventana sur u oeste (hemisferio norte); luz moderada indirecta; ideal 15 a 21 °C de día y noches más frescas. / El aire de casa suele ser muy seco para los helechos, sobre todo en invierno; los de hoja fina son los más afectados (hojas marrones); luz indirecta, el sol directo daña el follaje; ninguno debe secarse del todo. Sugiere rociar de vez en cuando (discrepancia registrada). / Frondes arqueadas que caen hacia todos lados; la división es el mejor método para la mayoría de los helechos; trasplantar a principios de primavera.
+  - Usada en: lección familias-3, planta helecho-serrucho (cuidados), planta helecho-serrucho (cultivo)
+- [Indoor Palms](https://hgic.clemson.edu/factsheet/indoor-palms/) · consultada el 2026-11-14
+  - Qué se tomó: Palmeras de interior: luz brillante filtrada, regar a fondo al secarse la superficie y vaciar el plato, mezcla porosa y orgánica, sumar humedad si baja de 50 %, más de 7 °C; areca 1,8-2,1 m y luz brillante indirecta; palmera de salón tolera poca luz y mínimo 15 °C en invierno / Areca: luz brillante indirecta cerca de ventana este, oeste o sur, 24 a 29 °C de día. Palmeras de salón toleran poca luz. Palmeras de interior no van al sol directo sin aclimatar. / Las palmeras no se pueden podar para bajarles la altura (crecen desde un punto central); areca en mata, palmera de salón con varios tallos sueltos por maceta; trasplante en primavera o principios de verano.
+  - Usada en: planta palmera-areca (cuidados), planta palmera-de-salon (cuidados), planta palmera-areca (cultivo), planta palmera-de-salon (cultivo)
+- [Indoor Plants: Waxflowers (Hoya)](https://hgic.clemson.edu/factsheet/indoor-plants-waxflowers-hoya) · consultada el 2026-11-23
+  - Qué se tomó: Riego con secado total, mezcla con corteza y perlita, tutor
+  - Usada en: planta hoya (cuidados)
+- [Orchids](https://hgic.clemson.edu/factsheet/orchids/) · consultada el 2026-11-15
+  - Qué se tomó: Phalaenopsis: ventana luminosa con poco o nada de sol directo, por ejemplo al este; se adapta a la luz de interior. / La mayoría son epífitas, con raíces gruesas que se agarran a la corteza; plantarlas en tierra las mata; la poca luz es una de las razones principales de que no florezcan; phalaenopsis: ventana luminosa con poco o nada de sol directo; riego semanal dejando escurrir; no dejar agua en las hojas.
+  - Usada en: lección familias-4, planta orquidea-phalaenopsis (cuidados)
+- [Peace Lily](https://hgic.clemson.edu/factsheet/peace-lily/) · consultada el 2026-11-15
+  - Qué se tomó: Tolera poca luz; no va al sol directo porque el calor quema el follaje; no ponerla donde le sople la calefacción o el aire. / Tolera poca luz pero crece mejor con luz indirecta brillante; sin sol directo; no florece cuando es muy joven o le falta luz.
+  - Usada en: lección familias-4, planta espatifilo (cuidados)
+- [Peperomia (Peperomia spp.) indoor plant care and growing guide](https://hgic.clemson.edu/factsheet/peperomia-peperomia-spp-indoor-plant-care-and-growing-guide/) · consultada el 2026-11-23
+  - Qué se tomó: P. obtusifolia se propaga fácil en agua con esquejes cortados bajo un nudo; cortar sobre un nudo para que ramifique. Sin época. / Luz, riego, sustrato, poda, propagación por hoja y tallo
+  - Usada en: planta peperomia-argyreia (cuidados), planta peperomia (cultivo), planta peperomia-argyreia (cultivo)
+- [Philodendron](https://hgic.clemson.edu/factsheet/philodendron/) · consultada el 2026-11-15
+  - Qué se tomó: Heartleaf (como P. scandens): tolera muy poca luz, tierra pareja húmeda sin encharcar, humedad alta ideal pero tolera la de casa, todas las partes con oxalato de calcio / Luz indirecta o filtrada por cortina; el hoja de corazón tolera muy poca luz; ventana norte, este u oeste (hemisferio norte); 21 a 29 °C de día / Luz indirecta o filtrada, toleran poca luz; tierra pareja de húmeda sin encharcar; toleran la humedad baja de las casas. / Filodendros trepadores: hojas no llegan a tamaño completo si no se guían en vertical varios años / El filodendro corazón es trepador y se puede guiar sobre tablas o tótems con musgo; esquejes de tallo o acodo aéreo en cualquier época.
+  - Usada en: lección familias-2, lección familias-5, planta filodendro (cuidados), planta filodendro (toxicidad), planta filodendro-lemon-lime (cuidados), planta filodendro-silver-sword (cuidados), planta filodendro (cultivo)
+- [Rubber Plant (HGIC 1510)](https://hgic.clemson.edu/factsheet/rubber-plant/) · consultada el 2026-11-14
+  - Qué se tomó: Luz, riego, humedad, sustrato, temperaturas, tamaño; la savia irrita / Prefiere luz brillante y se adapta a poca luz; crece mejor con la luz de la mañana de una ventana este; ideal 24 a 27 °C de día. / Puede ponerse alto y desgarbado: sostener con una estaca o podar en primavera para rejuvenecer; esquejes de tallo o de punta y acodo aéreo.
+  - Usada en: planta gomero (cuidados), planta gomero (cultivo)
+- [Thanksgiving & Christmas Cacti](https://hgic.clemson.edu/factsheet/thanksgiving-christmas-cacti/) · consultada el 2026-11-15
+  - Qué se tomó: Sombra liviana, sol pleno solo en otoño-invierno, riego por temporada, mezcla aireada, no dejar afuera con menos de 10 °C, 14 h de oscuridad desde mediados de septiembre por 6 semanas / Sombra liviana; sol pleno beneficioso en otoño e invierno; sol fuerte de verano las pone pálidas; no pasar de 32 °C con pimpollos; el calor continuo los hace caer / Epífitas de selvas sombrías de Brasil; sombra liviana, el sol fuerte de verano las decolora; para armar pimpollos necesitan noches largas (14 horas de oscuridad seguida desde mediados de septiembre del norte, unas 6 semanas) y fresco; no dejar secar del todo. / Tallos péndulos, apto para canasta colgante; pellizcar a principios de junio para ramificar y nivelar a fines de septiembre; esquejes de 3 a 5 segmentos en mayo o junio, secar 1 a 2 días, enraízan en 3 a 8 semanas.
+  - Usada en: lección familias-4, planta cactus-de-navidad (cuidados), planta cactus-de-navidad (cultivo)
 
 ### Iowa State University Extension and Outreach
 
@@ -523,62 +699,6 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: Luz, riego, sustrato, temperatura, tamaño y toxicidad media para gatos y perros / Luz brillante indirecta; el sol directo escalda y pone marrones las hojas / Rizomas carnosos que almacenan agua y la hacen muy tolerante a la sequía. / Familia Araceae; nativa de África tropical; rizomas gruesos bajo tierra; las hojas guardan agua; se cuida parecido a cactus y suculentas; tolera muy poca luz, mejor luz indirecta brillante; el sol directo quema las hojas; regar solo con la tierra seca por completo. / Zamioculca rara vez florece / Hábito erguido y arqueado desde un rizoma; crecimiento lento; división o esqueje de hoja.
   - Usada en: lección basico-2, lección familias-2, lección familias-7, planta zamioculca (cuidados), planta zamioculca (toxicidad), planta zamioculca (cultivo)
 
-### Clemson Cooperative Extension HGIC
-
-- [African Violet](https://hgic.clemson.edu/factsheet/african-violet/) · consultada el 2026-11-15
-  - Qué se tomó: Lugar luminoso que no reciba sol directo a la tarde; hasta 27 a 29 °C de día. / La falta de flores es de los problemas más comunes y en general se debe a poca luz; lejos del sol de la tarde; usar agua tibia porque la fría mancha las hojas.
-  - Usada en: lección familias-4, planta violeta-africana (cuidados)
-- [Begonia](https://hgic.clemson.edu/factsheet/begonia/) · consultada el 2026-11-15
-  - Qué se tomó: Las Rex crecen mejor adentro o en maceta a media sombra; algunas begonias se queman con luz muy intensa. / Las rex son rizomatosas y se multiplican por esquejes de hoja o de tallo.
-  - Usada en: planta begonia (cuidados), planta begonia (cultivo)
-- [Cacti and succulents care](https://hgic.clemson.edu/factsheet/cactus-and-succulents/) · consultada el 2026-11-20
-  - Usada en: planta cola-de-mono-dorada (cuidados), planta kalanchoe-hoja-del-aire (cuidados), planta orejas-de-conejo-canela (cuidados)
-- [Chinese Evergreen (Aglaonema) Care, Cultivation & Growing Guide](https://hgic.clemson.edu/factsheet/chinese-evergreen-aglaonema-care-cultivation-growing-guide/) · consultada el 2026-11-22
-  - Qué se tomó: Si el tallo queda pelado abajo, se corta la punta y se enraíza; división, esquejes de tallo o de punta, acodo aéreo y semilla.
-  - Usada en: planta aglaonema (cultivo)
-- [Dracaena (HGIC 1504)](https://hgic.clemson.edu/factsheet/dracaena/) · consultada el 2026-11-14
-  - Qué se tomó: Luz, riego, flúor, humedad, sustrato, tamaño de 'Massangeana' / Luz brillante indirecta, muchas toleran poca luz; demasiado sol deja manchas secas; 15 a 21 °C de día (guía general del género). / Si los tallos quedan largos y pelados se cortan a la altura deseada y rebrotan; acodo aéreo, esquejes de punta o de tallo y brotes basales (estos en primavera o fines de verano).
-  - Usada en: planta palo-de-agua (cuidados), planta bambu-de-la-suerte (cuidados), planta bambu-de-la-suerte (toxicidad), planta palo-de-agua (cultivo)
-- [Exciting Houseplant Selections for Beginners](https://hgic.clemson.edu/exciting-houseplant-selections-for-beginners/) · consultada el 2026-11-14
-  - Qué se tomó: Luz y riego de potus, lengua de suegra y cinta; nota sobre gatos y cinta / Cinta: luz indirecta media a brillante. Potus: luz brillante indirecta, tolera menos. Lengua de suegra: luz brillante indirecta, tolera poca luz, evitar sol directo y caliente que quema
-  - Usada en: planta cinta (cuidados), planta cinta (toxicidad), planta lengua-de-suegra (cuidados), planta potus (cuidados)
-- [How To Grow and Care for Lucky Bamboo (Dracaena sanderiana)](https://hgic.clemson.edu/?p=38984) · consultada el 2026-11-15
-  - Qué se tomó: El bambú de la suerte crece en agua o en tierra; agua que cubra las raíces y al menos una pulgada de tallo; cambiar el agua todas las semanas; abono líquido a un cuarto de la dosis cada dos meses; luz indirecta brillante.
-  - Usada en: lección multiplicar-2
-- [How To Grow and Care for Lucky Bamboo (Dracaena sanderiana)](https://hgic.clemson.edu/how-to-grow-and-care-for-lucky-bamboo-dracaena-sanderiana/) · consultada el 2026-11-22
-  - Qué se tomó: Piedritas o bolitas para sostener las cañas en agua; en tierra, tutorar los tallos altos hasta que agarren; cortar un brote nuevo, sacarle las hojas de abajo y ponerlo en agua: raíces en 2 a 3 semanas.
-  - Usada en: planta bambu-de-la-suerte (cultivo)
-- [How to Grow Pothos Indoors (Epipremnum spp.): Care, Cultivars, and Common Problems](https://hgic.clemson.edu/factsheet/how-to-grow-pothos-indoors-epipremnum-spp-care-cultivars-and-common-problems/) · consultada el 2026-11-15
-  - Qué se tomó: Los esquejes de potus enraízan en tierra o en agua y necesitan al menos un nudo. Nada sobre cultivo permanente en agua. / Describe 'Cebu Blue'; E. pinnatum puede necesitar tutor de musgo para hojas grandes; esquejes de tallo con al menos un nudo, en sustrato o en agua.
-  - Usada en: lección multiplicar-1, planta pothos-cebu-blue (cultivo)
-- [Indoor Cacti](https://hgic.clemson.edu/factsheet/indoor-cacti/) · consultada el 2026-11-15
-  - Qué se tomó: La mayoría de los cactus no tiene hojas y el tallo es carnoso; cactus de desierto: varias horas de sol directo; cactus de selva (los de Navidad): luz brillante filtrada, se queman con sol directo, más agua; en invierno, riego apenas para que no se arruguen; sustrato muy drenante.
-  - Usada en: lección familias-1, lección familias-4
-- [Indoor Ferns (HGIC 1505)](https://hgic.clemson.edu/factsheet/indoor-ferns/) · consultada el 2026-11-15
-  - Qué se tomó: Helecho de Boston: luz, riego, humedad, sustrato, temperaturas / El sol directo daña el follaje; nunca en ventana sur u oeste (hemisferio norte); luz moderada indirecta; ideal 15 a 21 °C de día y noches más frescas. / El aire de casa suele ser muy seco para los helechos, sobre todo en invierno; los de hoja fina son los más afectados (hojas marrones); luz indirecta, el sol directo daña el follaje; ninguno debe secarse del todo. Sugiere rociar de vez en cuando (discrepancia registrada). / Frondes arqueadas que caen hacia todos lados; la división es el mejor método para la mayoría de los helechos; trasplantar a principios de primavera.
-  - Usada en: lección familias-3, planta helecho-serrucho (cuidados), planta helecho-serrucho (cultivo)
-- [Indoor Palms](https://hgic.clemson.edu/factsheet/indoor-palms/) · consultada el 2026-11-14
-  - Qué se tomó: Palmeras de interior: luz brillante filtrada, regar a fondo al secarse la superficie y vaciar el plato, mezcla porosa y orgánica, sumar humedad si baja de 50 %, más de 7 °C; areca 1,8-2,1 m y luz brillante indirecta; palmera de salón tolera poca luz y mínimo 15 °C en invierno / Areca: luz brillante indirecta cerca de ventana este, oeste o sur, 24 a 29 °C de día. Palmeras de salón toleran poca luz. Palmeras de interior no van al sol directo sin aclimatar. / Las palmeras no se pueden podar para bajarles la altura (crecen desde un punto central); areca en mata, palmera de salón con varios tallos sueltos por maceta; trasplante en primavera o principios de verano.
-  - Usada en: planta palmera-areca (cuidados), planta palmera-de-salon (cuidados), planta palmera-areca (cultivo), planta palmera-de-salon (cultivo)
-- [Orchids](https://hgic.clemson.edu/factsheet/orchids/) · consultada el 2026-11-15
-  - Qué se tomó: Phalaenopsis: ventana luminosa con poco o nada de sol directo, por ejemplo al este; se adapta a la luz de interior. / La mayoría son epífitas, con raíces gruesas que se agarran a la corteza; plantarlas en tierra las mata; la poca luz es una de las razones principales de que no florezcan; phalaenopsis: ventana luminosa con poco o nada de sol directo; riego semanal dejando escurrir; no dejar agua en las hojas.
-  - Usada en: lección familias-4, planta orquidea-phalaenopsis (cuidados)
-- [Peace Lily](https://hgic.clemson.edu/factsheet/peace-lily/) · consultada el 2026-11-15
-  - Qué se tomó: Tolera poca luz; no va al sol directo porque el calor quema el follaje; no ponerla donde le sople la calefacción o el aire. / Tolera poca luz pero crece mejor con luz indirecta brillante; sin sol directo; no florece cuando es muy joven o le falta luz.
-  - Usada en: lección familias-4, planta espatifilo (cuidados)
-- [Peperomia (Peperomia spp.) Indoor Plant Care and Growing Guide](https://hgic.clemson.edu/factsheet/peperomia-peperomia-spp-indoor-plant-care-and-growing-guide/) · consultada el 2026-11-22
-  - Qué se tomó: P. obtusifolia se propaga fácil en agua con esquejes cortados bajo un nudo; cortar sobre un nudo para que ramifique. Sin época.
-  - Usada en: planta peperomia (cultivo)
-- [Philodendron](https://hgic.clemson.edu/factsheet/philodendron/) · consultada el 2026-11-15
-  - Qué se tomó: Heartleaf (como P. scandens): tolera muy poca luz, tierra pareja húmeda sin encharcar, humedad alta ideal pero tolera la de casa, todas las partes con oxalato de calcio / Luz indirecta o filtrada por cortina; el hoja de corazón tolera muy poca luz; ventana norte, este u oeste (hemisferio norte); 21 a 29 °C de día / Luz indirecta o filtrada, toleran poca luz; tierra pareja de húmeda sin encharcar; toleran la humedad baja de las casas. / Filodendros trepadores: hojas no llegan a tamaño completo si no se guían en vertical varios años / El filodendro corazón es trepador y se puede guiar sobre tablas o tótems con musgo; esquejes de tallo o acodo aéreo en cualquier época.
-  - Usada en: lección familias-2, lección familias-5, planta filodendro (cuidados), planta filodendro (toxicidad), planta filodendro-lemon-lime (cuidados), planta filodendro-silver-sword (cuidados), planta filodendro (cultivo)
-- [Rubber Plant (HGIC 1510)](https://hgic.clemson.edu/factsheet/rubber-plant/) · consultada el 2026-11-14
-  - Qué se tomó: Luz, riego, humedad, sustrato, temperaturas, tamaño; la savia irrita / Prefiere luz brillante y se adapta a poca luz; crece mejor con la luz de la mañana de una ventana este; ideal 24 a 27 °C de día. / Puede ponerse alto y desgarbado: sostener con una estaca o podar en primavera para rejuvenecer; esquejes de tallo o de punta y acodo aéreo.
-  - Usada en: planta gomero (cuidados), planta gomero (cultivo)
-- [Thanksgiving & Christmas Cacti](https://hgic.clemson.edu/factsheet/thanksgiving-christmas-cacti/) · consultada el 2026-11-15
-  - Qué se tomó: Sombra liviana, sol pleno solo en otoño-invierno, riego por temporada, mezcla aireada, no dejar afuera con menos de 10 °C, 14 h de oscuridad desde mediados de septiembre por 6 semanas / Sombra liviana; sol pleno beneficioso en otoño e invierno; sol fuerte de verano las pone pálidas; no pasar de 32 °C con pimpollos; el calor continuo los hace caer / Epífitas de selvas sombrías de Brasil; sombra liviana, el sol fuerte de verano las decolora; para armar pimpollos necesitan noches largas (14 horas de oscuridad seguida desde mediados de septiembre del norte, unas 6 semanas) y fresco; no dejar secar del todo. / Tallos péndulos, apto para canasta colgante; pellizcar a principios de junio para ramificar y nivelar a fines de septiembre; esquejes de 3 a 5 segmentos en mayo o junio, secar 1 a 2 días, enraízan en 3 a 8 semanas.
-  - Usada en: lección familias-4, planta cactus-de-navidad (cuidados), planta cactus-de-navidad (cultivo)
-
 ### RHS
 
 - [Aglaonema 'Silver Queen'](https://www.rhs.org.uk/plants/92017/aglaonema-silver-queen/details) · consultada el 2026-11-22
@@ -611,6 +731,9 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Dypsis lutescens](https://www.rhs.org.uk/plants/128311/dypsis-lutescens/details) · consultada el 2026-11-22
   - Qué se tomó: Grupo de tallos erguidos; no requiere poda; semilla a 25 °C o más.
   - Usada en: planta palmera-areca (cultivo)
+- [Goeppertia kegeljanii (Network) 'Pp0005' (guía de cultivo del género)](https://www.rhs.org.uk/plants/386632/goeppertia-kegeljanii-network-pp0005/details) · consultada el 2026-11-23
+  - Qué se tomó: Luz, riego, humedad, división a fines de primavera, sin poda
+  - Usada en: planta calatea-orbifolia (cuidados), planta calatea-orbifolia (cultivo)
 - [How to grow dracaena (RHS Growing Guide)](https://www.rhs.org.uk/plants/dracaena/how-to-grow-dracaena) · consultada el 2026-11-22
   - Qué se tomó: Responden bien a la poda y rebrotan debajo del corte; esquejes semileñosos y leñosos en verano, con calor de fondo.
   - Usada en: planta palo-de-agua (cultivo)
@@ -618,8 +741,8 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: Ficus de interior: casi no necesitan poda; a fines de invierno o principios de primavera acortar brotes largos sobre una hoja; esquejes semileñosos en primavera o verano; acodo aéreo para el gomero y algunos otros en primavera o fines de verano; F. lyrata crece erguido.
   - Usada en: planta ficus-lyrata (cultivo), planta gomero (cultivo)
 - [How to take cuttings from houseplants](https://www.rhs.org.uk/plants/types/houseplants/how-to-take-cuttings-from-houseplants) · consultada el 2026-11-22
-  - Qué se tomó: Mejor época para esquejes de plantas de interior: fines de primavera o principios de verano (aunque funcionan casi todo el año); nombra al potus como esqueje de tallo.
-  - Usada en: planta potus (cultivo), planta lengua-de-suegra (cultivo)
+  - Qué se tomó: Mejor época para esquejes de plantas de interior: fines de primavera o principios de verano (aunque funcionan casi todo el año); nombra al potus como esqueje de tallo. / Época de esquejes y esquejes en agua o compost
+  - Usada en: planta potus (cultivo), planta lengua-de-suegra (cultivo), planta tradescantia (cultivo)
 - [Opuntia microdasys](https://www.rhs.org.uk/plants/11881/opuntia-microdasys/details) · consultada el 2026-11-22
   - Qué se tomó: Cactus arbustivo de 0,5 a 1 m; no requiere poda; segmentos de tallo se enraízan en verano, manipulándolos con papel de diario doblado.
   - Usada en: planta orejas-de-conejo-canela (cultivo)
@@ -632,6 +755,63 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Zamioculcas zamiifolia](https://www.rhs.org.uk/plants/19185/zamioculcas-zamiifolia/details) · consultada el 2026-11-22
   - Qué se tomó: No requiere poda: sacar hojas y flores marchitas al ras; propagar por esquejes de hoja (folíolos sueltos).
   - Usada en: planta zamioculca (cultivo)
+
+### University of Illinois Extension
+
+- [6 tips for watering container gardens](https://extension.illinois.edu/news-releases/6-tips-watering-container-gardens) · consultada el 2026-11-15
+  - Qué se tomó: La mezcla en macetas de barro, tela y cerámica sin esmaltar se seca más rápido que en plástico o esmaltadas; la cobertura sobre la maceta reduce la evaporación.
+  - Usada en: lección macetas-1, lección macetas-5
+- [Container Drainage Options](https://extension.illinois.edu/container-gardens/container-drainage-options) · consultada el 2026-11-14
+  - Qué se tomó: Toda maceta necesita agujero (sale agua, entra aire); la capa de grava para drenar es un mito; doble maceta (funda) sin dejar agua estancada; vaciar platos; de la pudrición rara vez se recuperan. / Reabierta. Agujero crítico; grava en el fondo = mito (el agua queda 'colgada' en la tierra sobre la grava hasta que se llenan los poros); doble maceta sin agua estancada; plato desmontable y vaciarlo; no hace falta tapar agujeros chicos.
+  - Usada en: lección macetas-2, lección macetas-5
+- [Container Gardens: Watering](https://extension.illinois.edu/container-gardens/watering) · consultada el 2026-11-15
+  - Qué se tomó: Regar hasta que gotee por abajo (lava sales); goteo para muchas macetas juntas; mezclas resecas se despegan del borde y el agua pasa de largo: se rehidratan por inmersión; no mojar el follaje. / Abierta buscando materiales: no los trata. No se cita.
+  - Usada en: lección riego-3, lección riego-4
+- [Dragon tree](https://extension.illinois.edu/houseplants/dragon-tree) · consultada el 2026-11-23
+  - Qué se tomó: luz indirecta, humedad baja, esquejes y acodo
+  - Usada en: planta dracena-marginata (cuidados), planta dracena-marginata (cultivo)
+- [Growing without soil: Getting started with hydroponics at home](https://extension.illinois.edu/blogs/good-growing/2026-01-16-growing-without-soil-getting-started-hydroponics-home) · consultada el 2026-11-15
+  - Qué se tomó: En hidroponía los nutrientes vienen de la solución; bomba y piedra difusora para oxigenar las raíces en cultivo en agua profunda; mantener la solución fresca.
+  - Usada en: lección multiplicar-2
+- [Homegrown: DIY Hydroponics for All Gardeners](https://extension.illinois.edu/blogs/know-how-know-more/2020-02-18-homegrown-diy-hydroponics-all-gardeners) · consultada el 2026-11-15
+  - Qué se tomó: Hidroponía: nutrientes en solución en vez de tierra; sin bomba de aire las raíces sumergidas no recibirían suficiente oxígeno; cambiar la solución cada dos semanas (hortalizas).
+  - Usada en: lección multiplicar-2
+- [Houseplant spotlight: the ZZ plant](https://extension.illinois.edu/blogs/good-growing/2026-01-09-houseplant-spotlight-zz-plant) · consultada el 2026-11-22
+  - Qué se tomó: La división es lo más común y rápido; los esquejes de hoja tardan meses; se dejan encallecer unos días y pueden ir en un recipiente bajo con agua.
+  - Usada en: planta zamioculca (cultivo)
+- [Houseplants: Care](https://extension.illinois.edu/houseplants/care) · consultada el 2026-11-15
+  - Qué se tomó: Evitar chorros de aire frío o caliente de ventanas, radiadores, rejillas de calefacción y de aire acondicionado; el vidrio frío daña el follaje; entrar las plantas antes de que baje la temperatura; vacaciones: bolsa plástica + bandeja con piedras rinde 7 a 8 días y para más tiempo pedir a alguien (método NO usado en la lección) / Lavar el follaje con agua a temperatura ambiente o paño suave húmedo; abrillantadores: con moderación y solo en hojas firmes; ni agua ni abrillantador en hojas peludas. La cuarentena de 2 a 3 semanas de esta página es para plantas que vuelven del exterior (no la usé para plantas nuevas).
+  - Usada en: lección estaciones-2, lección estaciones-4, lección rutina-1
+- [Houseplants: Get Started](https://extension.illinois.edu/houseplants/get-started) · consultada el 2026-11-15
+  - Qué se tomó: No sobredimensionar la maceta (la tierra queda mojada demasiado tiempo); 1-2 pulgadas más de diámetro; tierra de jardín sola no drena bien en maceta y puede traer plagas; mezclas sin suelo con turba, perlita y corteza. / Compra: hojas de buen color sin manchas ni bordes marrones, hojas de abajo no pálidas ni amarillas, planta no estirada, revisar tallos y hojas por insectos, raíces por los agujeros de drenaje = le quedó chica y va a pedir cuidado al trasplantar, pedir etiqueta. En casa: separar 2 a 3 semanas; es frecuente que caigan o amarilleen algunas hojas; la adaptación no debería durar más que unas semanas; no abonar mientras se adapta a menos luz y humedad; revisar la tierra para decidir el riego.
+  - Usada en: lección comprar-1, lección comprar-2, lección macetas-2, lección macetas-3, lección macetas-6
+- [Houseplants: Lighting](https://extension.illinois.edu/houseplants/lighting) · consultada el 2026-11-15
+  - Qué se tomó: Tabla de luz mínima por especie (helecho serrucho, palmera de salón y espatifilo en 'low'; ficus, drácena, anturio y begonia en 'medium'). / Categorías de luz por distancia y orientación de ventana, en foot-candles. Leída como apoyo; no se usó (no habla de sombras ni de mañana/tarde).
+  - Usada en: planta espatifilo (cuidados), planta ficus-lyrata (cuidados), planta helecho-serrucho (cuidados), planta palmera-de-salon (cuidados)
+- [Houseplants: Watering](https://extension.illinois.edu/houseplants/watering) · consultada el 2026-11-15
+  - Qué se tomó: Dedo a 2 pulgadas; el medidor 'puede ser útil pero no siempre es confiable'; no regar por calendario; riego por arriba (empapar, vaciar plato) y por abajo (maceta en unos centímetros de agua hasta que la humedad llega arriba); agua a temperatura ambiente; barro se seca antes.
+  - Usada en: lección riego-2, lección riego-3
+- [How plants climb](https://extension.illinois.edu/blogs/ilriverhort/2016-09-16-how-plants-climb) · consultada el 2026-11-15
+  - Qué se tomó: Trepadoras que se agarran vs no; enroscadas, zarcillos (uva, pasionaria), jazmín que se apoya
+  - Usada en: lección familias-5
+- [Make sure houseplants get enough light this winter](https://extension.illinois.edu/blogs/over-garden-fence/2021-12-20-make-sure-houseplants-get-enough-light-winter) · consultada el 2026-11-15
+  - Qué se tomó: Para evitar el crecimiento de un solo lado, rotar las plantas (sin frecuencia).
+  - Usada en: lección rutina-2
+- [Prayer Plant](https://extension.illinois.edu/houseplants/prayer-plant) · consultada el 2026-11-23
+  - Qué se tomó: Luz, riego, humedad, sustrato
+  - Usada en: planta maranta (cuidados)
+- [Propagating Succulents and Cacti](https://extension.illinois.edu/blogs/hort-home-landscape/2015-06-04-propagating-succulents-and-cacti) · consultada el 2026-11-22
+  - Qué se tomó: Dejar encallecer los esquejes 4 a 7 días antes de plantarlos en sustrato con buen drenaje; no mantenerlos siempre húmedos.
+  - Usada en: planta cola-de-mono-dorada (cultivo), planta orejas-de-conejo-canela (cultivo)
+- [Propagation (Houseplants)](https://extension.illinois.edu/houseplants/propagation) · consultada el 2026-11-15
+  - Qué se tomó: La propagación vegetativa da un clon; hiedra y filodendro enraízan fácil en agua pero no lo recomiendan porque esas raíces son débiles y se adaptan peor; listas de plantas por método (división: aloe, lengua de suegra, cinta, espatifilo; estructuras especiales: cinta); desinfectar herramientas; trasplantar sin demorar.
+  - Usada en: lección multiplicar-1, lección multiplicar-2, lección multiplicar-3
+- [Specialized Structures (Houseplants)](https://extension.illinois.edu/houseplants/specialized-structures) · consultada el 2026-11-15
+  - Qué se tomó: Hijuelos (aloe): cortar con cuchillo filoso asegurando que tengan raíces y replantar enseguida; hijitos de la cinta en la punta de estolones: no sacarlos hasta que tengan raíces, sujetarlos a la tierra 2 a 3 semanas, aunque mucha gente los saca antes y suele funcionar.
+  - Usada en: lección multiplicar-3, lección multiplicar-4
+- [Winter gardening: propagating houseplants to beat the winter blues](https://extension.illinois.edu/blogs/good-growing/2025-02-21-winter-gardening-propagating-houseplants-beat-winter-blues) · consultada el 2026-11-15
+  - Qué se tomó: No todas las plantas responden bien al agua; las raíces de agua suelen ser débiles y sufren al pasar a tierra; al autor le funcionó con potus y filodendros; cambiar el agua si se enturbia; cortar cerca de un nudo; trasplantar con 1 a 4 raíces sanas.
+  - Usada en: lección multiplicar-1, lección multiplicar-2
 
 ### ASPCA Animal Poison Control
 
@@ -684,98 +864,6 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: Tulipa tóxica para perros, gatos y caballos; mayor concentración en el bulbo; vómitos, decaimiento, diarrea, babeo.
   - Usada en: advertencia bulbos
 
-### University of Illinois Extension
-
-- [6 tips for watering container gardens](https://extension.illinois.edu/news-releases/6-tips-watering-container-gardens) · consultada el 2026-11-15
-  - Qué se tomó: La mezcla en macetas de barro, tela y cerámica sin esmaltar se seca más rápido que en plástico o esmaltadas; la cobertura sobre la maceta reduce la evaporación.
-  - Usada en: lección macetas-1, lección macetas-5
-- [Container Drainage Options](https://extension.illinois.edu/container-gardens/container-drainage-options) · consultada el 2026-11-14
-  - Qué se tomó: Toda maceta necesita agujero (sale agua, entra aire); la capa de grava para drenar es un mito; doble maceta (funda) sin dejar agua estancada; vaciar platos; de la pudrición rara vez se recuperan. / Reabierta. Agujero crítico; grava en el fondo = mito (el agua queda 'colgada' en la tierra sobre la grava hasta que se llenan los poros); doble maceta sin agua estancada; plato desmontable y vaciarlo; no hace falta tapar agujeros chicos.
-  - Usada en: lección macetas-2, lección macetas-5
-- [Container Gardens: Watering](https://extension.illinois.edu/container-gardens/watering) · consultada el 2026-11-15
-  - Qué se tomó: Regar hasta que gotee por abajo (lava sales); goteo para muchas macetas juntas; mezclas resecas se despegan del borde y el agua pasa de largo: se rehidratan por inmersión; no mojar el follaje. / Abierta buscando materiales: no los trata. No se cita.
-  - Usada en: lección riego-3, lección riego-4
-- [Growing without soil: Getting started with hydroponics at home](https://extension.illinois.edu/blogs/good-growing/2026-01-16-growing-without-soil-getting-started-hydroponics-home) · consultada el 2026-11-15
-  - Qué se tomó: En hidroponía los nutrientes vienen de la solución; bomba y piedra difusora para oxigenar las raíces en cultivo en agua profunda; mantener la solución fresca.
-  - Usada en: lección multiplicar-2
-- [Homegrown: DIY Hydroponics for All Gardeners](https://extension.illinois.edu/blogs/know-how-know-more/2020-02-18-homegrown-diy-hydroponics-all-gardeners) · consultada el 2026-11-15
-  - Qué se tomó: Hidroponía: nutrientes en solución en vez de tierra; sin bomba de aire las raíces sumergidas no recibirían suficiente oxígeno; cambiar la solución cada dos semanas (hortalizas).
-  - Usada en: lección multiplicar-2
-- [Houseplant spotlight: the ZZ plant](https://extension.illinois.edu/blogs/good-growing/2026-01-09-houseplant-spotlight-zz-plant) · consultada el 2026-11-22
-  - Qué se tomó: La división es lo más común y rápido; los esquejes de hoja tardan meses; se dejan encallecer unos días y pueden ir en un recipiente bajo con agua.
-  - Usada en: planta zamioculca (cultivo)
-- [Houseplants: Care](https://extension.illinois.edu/houseplants/care) · consultada el 2026-11-15
-  - Qué se tomó: Evitar chorros de aire frío o caliente de ventanas, radiadores, rejillas de calefacción y de aire acondicionado; el vidrio frío daña el follaje; entrar las plantas antes de que baje la temperatura; vacaciones: bolsa plástica + bandeja con piedras rinde 7 a 8 días y para más tiempo pedir a alguien (método NO usado en la lección) / Lavar el follaje con agua a temperatura ambiente o paño suave húmedo; abrillantadores: con moderación y solo en hojas firmes; ni agua ni abrillantador en hojas peludas. La cuarentena de 2 a 3 semanas de esta página es para plantas que vuelven del exterior (no la usé para plantas nuevas).
-  - Usada en: lección estaciones-2, lección estaciones-4, lección rutina-1
-- [Houseplants: Get Started](https://extension.illinois.edu/houseplants/get-started) · consultada el 2026-11-15
-  - Qué se tomó: No sobredimensionar la maceta (la tierra queda mojada demasiado tiempo); 1-2 pulgadas más de diámetro; tierra de jardín sola no drena bien en maceta y puede traer plagas; mezclas sin suelo con turba, perlita y corteza. / Compra: hojas de buen color sin manchas ni bordes marrones, hojas de abajo no pálidas ni amarillas, planta no estirada, revisar tallos y hojas por insectos, raíces por los agujeros de drenaje = le quedó chica y va a pedir cuidado al trasplantar, pedir etiqueta. En casa: separar 2 a 3 semanas; es frecuente que caigan o amarilleen algunas hojas; la adaptación no debería durar más que unas semanas; no abonar mientras se adapta a menos luz y humedad; revisar la tierra para decidir el riego.
-  - Usada en: lección comprar-1, lección comprar-2, lección macetas-2, lección macetas-3, lección macetas-6
-- [Houseplants: Lighting](https://extension.illinois.edu/houseplants/lighting) · consultada el 2026-11-15
-  - Qué se tomó: Tabla de luz mínima por especie (helecho serrucho, palmera de salón y espatifilo en 'low'; ficus, drácena, anturio y begonia en 'medium'). / Categorías de luz por distancia y orientación de ventana, en foot-candles. Leída como apoyo; no se usó (no habla de sombras ni de mañana/tarde).
-  - Usada en: planta espatifilo (cuidados), planta ficus-lyrata (cuidados), planta helecho-serrucho (cuidados), planta palmera-de-salon (cuidados)
-- [Houseplants: Watering](https://extension.illinois.edu/houseplants/watering) · consultada el 2026-11-15
-  - Qué se tomó: Dedo a 2 pulgadas; el medidor 'puede ser útil pero no siempre es confiable'; no regar por calendario; riego por arriba (empapar, vaciar plato) y por abajo (maceta en unos centímetros de agua hasta que la humedad llega arriba); agua a temperatura ambiente; barro se seca antes.
-  - Usada en: lección riego-2, lección riego-3
-- [How plants climb](https://extension.illinois.edu/blogs/ilriverhort/2016-09-16-how-plants-climb) · consultada el 2026-11-15
-  - Qué se tomó: Trepadoras que se agarran vs no; enroscadas, zarcillos (uva, pasionaria), jazmín que se apoya
-  - Usada en: lección familias-5
-- [Make sure houseplants get enough light this winter](https://extension.illinois.edu/blogs/over-garden-fence/2021-12-20-make-sure-houseplants-get-enough-light-winter) · consultada el 2026-11-15
-  - Qué se tomó: Para evitar el crecimiento de un solo lado, rotar las plantas (sin frecuencia).
-  - Usada en: lección rutina-2
-- [Propagating Succulents and Cacti](https://extension.illinois.edu/blogs/hort-home-landscape/2015-06-04-propagating-succulents-and-cacti) · consultada el 2026-11-22
-  - Qué se tomó: Dejar encallecer los esquejes 4 a 7 días antes de plantarlos en sustrato con buen drenaje; no mantenerlos siempre húmedos.
-  - Usada en: planta cola-de-mono-dorada (cultivo), planta orejas-de-conejo-canela (cultivo)
-- [Propagation (Houseplants)](https://extension.illinois.edu/houseplants/propagation) · consultada el 2026-11-15
-  - Qué se tomó: La propagación vegetativa da un clon; hiedra y filodendro enraízan fácil en agua pero no lo recomiendan porque esas raíces son débiles y se adaptan peor; listas de plantas por método (división: aloe, lengua de suegra, cinta, espatifilo; estructuras especiales: cinta); desinfectar herramientas; trasplantar sin demorar.
-  - Usada en: lección multiplicar-1, lección multiplicar-2, lección multiplicar-3
-- [Specialized Structures (Houseplants)](https://extension.illinois.edu/houseplants/specialized-structures) · consultada el 2026-11-15
-  - Qué se tomó: Hijuelos (aloe): cortar con cuchillo filoso asegurando que tengan raíces y replantar enseguida; hijitos de la cinta en la punta de estolones: no sacarlos hasta que tengan raíces, sujetarlos a la tierra 2 a 3 semanas, aunque mucha gente los saca antes y suele funcionar.
-  - Usada en: lección multiplicar-3, lección multiplicar-4
-- [Winter gardening: propagating houseplants to beat the winter blues](https://extension.illinois.edu/blogs/good-growing/2025-02-21-winter-gardening-propagating-houseplants-beat-winter-blues) · consultada el 2026-11-15
-  - Qué se tomó: No todas las plantas responden bien al agua; las raíces de agua suelen ser débiles y sufren al pasar a tierra; al autor le funcionó con potus y filodendros; cambiar el agua si se enturbia; cortar cerca de un nudo; trasplantar con 1 a 4 raíces sanas.
-  - Usada en: lección multiplicar-1, lección multiplicar-2
-
-### NC State Extension Plant Toolbox
-
-- [Aglaonema](https://plants.ces.ncsu.edu/plants/aglaonema/) · consultada el 2026-11-22
-  - Qué se tomó: Erguida y tupida, forma matas de varios tallos; con los años el tallo se alarga y queda pelado; sacar flores y frutos; división y esqueje de tallo.
-  - Usada en: planta aglaonema (cultivo)
-- [Aloe vera](https://plants.ces.ncsu.edu/plants/aloe-vera/) · consultada el 2026-11-14
-  - Qué se tomó: Familia, sol pleno a media sombra, sustrato muy drenante, dejar secar del todo, zonas 10a-12b, toxicidad baja (glucósido de antraquinona, hojas), problema para gatos y perros / Sol pleno a media sombra; resistente a la sequía; no menciona quemaduras ni sol de tarde / Hábito erecto en roseta, se extiende por hijuelos; propagación por división. No menciona poda ni tutor.
-  - Usada en: planta aloe-vera (cuidados), planta aloe-vera (toxicidad), planta aloe-vera (cultivo)
-- [Chlorophytum comosum (Spider Plant)](https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/) · consultada el 2026-11-14
-  - Qué se tomó: Luz, riego, humedad, temperatura mínima, zonas; etiquetas no tóxica para gatos y perros / Prefiere luz media, tolera sombra profunda y no tolera el sol directo / Hojas en roseta, hábito arqueado y en cascada, ideal para colgar; se propaga por hijitos o división; los hijitos salen con días cortos.
-  - Usada en: planta cinta (cuidados), planta cinta (toxicidad), planta cinta (cultivo)
-- [Crassula ovata](https://plants.ces.ncsu.edu/plants/crassula-ovata/) · consultada el 2026-11-14
-  - Qué se tomó: Sinónimo C. argentea, luz brillante con algo de sombra a la tarde, riego moderado con tierra seca y menos de otoño a fin de invierno, zonas 11a-12b, problema para gatos y perros / Lugar soleado con algo de sombra a la tarde; afuera, media sombra; temperaturas de interior promedio a frescas / Hábito erecto, multitallo, forma de arbolito; esqueje de hoja y de tallo.
-  - Usada en: planta jade (cuidados), planta jade (toxicidad), planta jade (cultivo)
-- [Dracaena fragrans (Corn Plant)](https://plants.ces.ncsu.edu/plants/dracaena-fragrans/) · consultada el 2026-11-14
-  - Qué se tomó: Luz, riego, flúor, humedad, temperatura, tamaño y toxicidad (saponinas) / Luz brillante a moderada filtrada; el sol directo quema el follaje; figura como resistente al calor; rinde entre 21 y 27 °C. / Arbusto erguido de crecimiento lento, tallo leñoso sin ramificar; esquejes de tallo.
-  - Usada en: planta palo-de-agua (cuidados), planta palo-de-agua (toxicidad), planta palo-de-agua (cultivo)
-- [Echeveria elegans](https://plants.ces.ncsu.edu/plants/echeveria-elegans/) · consultada el 2026-11-14
-  - Qué se tomó: Sol pleno a media sombra, riego escaso, buen drenaje, zonas 9a-11b, etiquetada no tóxica para gatos, perros y caballos / Sol pleno a media sombra; resistente al calor y la sequía / Matas de rosetas; se propaga por esquejes, hojas o división de hijuelos.
-  - Usada en: planta echeveria (cuidados), planta echeveria (toxicidad), planta echeveria (cultivo)
-- [Epipremnum pinnatum](https://plants.ces.ncsu.edu/plants/epipremnum-pinnatum/) · consultada el 2026-11-22
-  - Qué se tomó: Trepadora; apoyo con estaca, caña o tutor de musgo; podar en primavera o principios del verano; esquejes de tallo; 'Cebu Blue' cuelga 1,5 a 1,8 m y con tutor da hojas maduras caladas.
-  - Usada en: planta pothos-cebu-blue (cultivo)
-- [Ficus elastica (Indian Rubber Plant)](https://plants.ces.ncsu.edu/plants/ficus-elastica/) · consultada el 2026-11-14
-  - Qué se tomó: Luz, riego, humedad, temperatura, tamaño; marcada como problema para gatos y perros / Luz brillante indirecta o media sombra (2 a 6 h) con protección del sol de la tarde; se adapta a poca luz. / Erguido; adentro se mantiene con guiado o soporte según haga falta; podar ramas principales lo hace más tupido; lista acodo, esqueje de raíz y semilla.
-  - Usada en: planta gomero (cuidados), planta gomero (toxicidad), planta gomero (cultivo)
-- [Ficus lyrata (Fiddle-leaf Fig)](https://plants.ces.ncsu.edu/plants/ficus-lyrata/) · consultada el 2026-11-14
-  - Qué se tomó: Luz, riego, humedad, temperatura, tamaño y toxicidad para gatos y perros / Luz brillante indirecta o media sombra (2 a 6 h), protección del sol de la tarde; demasiado sol directo quema; manchas por rejillas de calefacción o aire. / Erguido, poco ramificado de joven, tallos firmes; se puede podar según haga falta, con guantes por la savia; esqueje de tallo.
-  - Usada en: planta ficus-lyrata (cuidados), planta ficus-lyrata (toxicidad), planta ficus-lyrata (cultivo)
-- [Kalanchoe pinnata](https://plants.ces.ncsu.edu/plants/kalanchoe-pinnata/) · consultada el 2026-11-20
-  - Usada en: planta kalanchoe-hoja-del-aire (cuidados)
-- [Opuntia microdasys](https://plants.ces.ncsu.edu/plants/opuntia-microdasys/) · consultada el 2026-11-20
-  - Qué se tomó: Mata baja muy ramificada, de rastrera a casi erguida; se multiplica desprendiendo una paleta en primavera; usar guantes por los gloquidios.
-  - Usada en: planta orejas-de-conejo-canela (cuidados), planta orejas-de-conejo-canela (cultivo)
-- [Peperomia obtusifolia](https://plants.ces.ncsu.edu/plants/peperomia-obtusifolia/) · consultada el 2026-11-14
-  - Qué se tomó: Luz brillante indirecta, tolera poca luz por meses, exceso de riego como problema principal, humedad media a baja, zonas 10a-12b, etiquetada no tóxica para gatos y perros / Luz brillante indirecta; tolera poca luz varios meses; el sol fuerte o directo quema las hojas / Hábito erecto y tupido; esqueje de hoja y de tallo.
-  - Usada en: planta peperomia (cuidados), planta peperomia (toxicidad), planta peperomia (cultivo)
-- [Philodendron hastatum](https://plants.ces.ncsu.edu/plants/philodendron-hastatum/) · consultada el 2026-11-22
-  - Qué se tomó: Trepador; necesita tutor de musgo o enrejado; esqueje de tallo; nombra 'Silver Sword'.
-  - Usada en: planta filodendro-silver-sword (cultivo)
-
 ### University of Wisconsin-Madison Extension
 
 - [Aeonium](https://hort.extension.wisc.edu/articles/aeonium/) · consultada el 2026-11-15
@@ -787,6 +875,9 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Boston Fern, Nephrolepis exaltata](https://hort.extension.wisc.edu/articles/boston-fern-nephrolepis-exaltata/) · consultada el 2026-11-15
   - Qué se tomó: Luz media-brillante, ventana este o con cortina fina en sur/oeste, fuera del sol directo; día sin pasar de 35 °C. / Viene de bosques húmedos de América tropical; con aire seco, sobre todo en invierno, se le ponen marrones las puntas y los bordes; luz media a brillante sin sol directo; sustrato parejo de húmedo sin saturar. / Frondes arqueadas que cuelgan; cortar frondes viejas al ras ayuda a que salgan nuevas; lo más fácil es dividir el pan de raíces en mitades o cuartos, en primavera.
   - Usada en: lección familias-3, planta helecho-serrucho (cuidados), planta helecho-serrucho (cultivo)
+- [Burro's tail, Sedum morganianum](https://hort.extension.wisc.edu/articles/burros-tail-sedum-morganianum/) · consultada el 2026-11-23
+  - Qué se tomó: Luz brillante a sol, riego, sustrato, hábito, propagación, frío
+  - Usada en: planta cola-de-burro (cuidados), planta cola-de-burro (cultivo)
 - [Dependable & Durable Houseplants](https://hort.extension.wisc.edu/dependable-durable-houseplants/) · consultada el 2026-11-15
   - Qué se tomó: Lengua de suegra: poca luz y riego espaciado; potus y cinta: luz media / Jade: necesita más luz que otras y le gustan ambientes cálidos y secos. Cinta: luz media a brillante. Potus: luz media filtrada. Lengua de suegra: apta para poca luz / Las plantas de flor son más exigentes que las de hojas
   - Usada en: lección familias-7, planta jade (cuidados), planta cinta (cuidados), planta lengua-de-suegra (cuidados), planta potus (cuidados)
@@ -805,6 +896,9 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Orchids](https://hort.extension.wisc.edu/articles/orchids/) · consultada el 2026-11-15
   - Qué se tomó: Orquídeas fuera del sol directo, sobre todo en verano; Phalaenopsis tolera lugares más sombríos y prefiere 18 a 27 °C. / La mayoría de las orquídeas son epífitas; luz indirecta brillante, sin sol directo; sustrato de corteza; no dejarlas paradas en agua. / En Phalaenopsis, cortar la vara sobre un nudo para buscar una segunda floración en vez de sacarla entera.
   - Usada en: lección familias-4, planta orquidea-phalaenopsis (cuidados), planta orquidea-phalaenopsis (cultivo)
+- [Ponytail palm, Beaucarnea recurvata](https://hort.extension.wisc.edu/articles/ponytail-palm-beaucarnea-recurvata/) · consultada el 2026-11-23
+  - Qué se tomó: sol, riego, mezcla cactus, semilla en primavera, hijuelos no enraízan, poda
+  - Usada en: planta pata-de-elefante (cuidados), planta pata-de-elefante (cultivo)
 - [Pothos, Epipremnum aureum](https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/) · consultada el 2026-11-15
   - Qué se tomó: Luz filtrada, riego al secarse la superficie, humedad alta, sustrato aireado, zonas 10-12 / Luz filtrada; no tolera mucho sol directo; 21 a 32 °C / Araceae; en zonas tropicales cubre el suelo o trepa por los árboles con raíces aéreas; las hojas salen más grandes cuanto más alto trepa; luz filtrada, no tolera mucho sol directo; con poca luz pierde el variegado; regar cuando la superficie está seca. / El potus se propaga fácil por esquejes; enraíza en agua o vermiculita en unas 3 a 4 semanas. No habla de dejarlo en agua de forma permanente. / Potus no florece en cultivo (fase juvenil) / Potus: raíces aéreas adhesivas; se usa colgante o guiado vertical / Trepadora que adentro se cultiva con guías colgantes o sobre un soporte; poda selectiva; esquejes y acodo aéreo; enraíza en agua en 3 a 4 semanas. / Es otra especie (E. aureum): se leyó como contexto, no se citó para el Cebu Blue.
   - Usada en: lección familias-2, lección familias-5, lección familias-7, lección multiplicar-1, planta potus (cuidados), planta pothos-cebu-blue (cuidados), planta potus (cultivo)
@@ -826,6 +920,9 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Are Home Remedies a Good Solution? Penn State Extension Says No](https://extension.psu.edu/are-home-remedies-a-good-solution-penn-state-extension-says-no) · consultada el 2026-11-15
   - Qué se tomó: No recomienda remedios caseros (detergente, vinagre, ajo, ají, aceite, sal): sin instrucciones precisas, eficacia incierta, pueden dañar personas, mascotas y plantas.
   - Usada en: lección plagas-3
+- [Hoyas as houseplants](https://extension.psu.edu/hoyas-as-houseplants) · consultada el 2026-11-23
+  - Qué se tomó: Luz media a brillante, riego, no mover al formar botones
+  - Usada en: planta hoya (cuidados)
 - [Humidity and Houseplants](https://extension.psu.edu/humidity-and-houseplants) · consultada el 2026-11-15
   - Qué se tomó: La calefacción baja la humedad interior (menos de 30 %); rociar sube la humedad solo unos minutos; bandeja con piedras de efecto mínimo; agrupar y humidificador ayudan. / Reabierta el 2026-11-15. Con calefacción la humedad puede bajar de 30 %; el rociado dura hasta que el agua se evapora; excepción: plantas del aire; agrupar y humidificador ayudan; bandeja con piedras, efecto débil. / La calefacción baja la humedad; rociar casi no sirve; agrupar o humidificador; bandeja con piedras poco efectiva / Con calefacción la humedad interior baja fácil de 30 %; el efecto de rociar dura minutos, hasta que el agua se evapora; agrupar plantas y humidificador ayudan; bandeja con piedras: efecto casi nulo; baño: difícil de confirmar; cactus y suculentas son la excepción (no piden más humedad).
   - Usada en: lección estaciones-2, lección familias-1, lección familias-3, lección riego-4, lección riego-5
@@ -878,8 +975,8 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: Exceso de riego como causa principal de muerte en maceta; raíces sin oxígeno; marchitez también por raíces dañadas; test del dedo hasta la primera articulación; peso y color de la tierra; regar hasta que escurra y vaciar el plato; inmersión para rehidratar tierra muy seca; barro se seca más rápido; suculentas necesitan menos riego. / Reabierta el 2026-11-15. Dedo hasta la primera articulación; peso; la tierra pasa de oscura a clara al secarse; los medidores 'varían mucho en exactitud' (el abono y el tipo de tierra alteran la lectura); regar hasta que escurra lava sales y moja los dos tercios de abajo, donde está la mayoría de las raíces; no usar agua fría ni caliente; remojo para tierra muy seca. No menciona palito, mecha, rociado ni hielo.
   - Usada en: lección riego-1, lección riego-2, lección riego-3
 - [Weeping Ficus](https://hgic.clemson.edu/factsheet/weeping-ficus/) · consultada el 2026-11-15
-  - Qué se tomó: Leída como contexto de cuidados de ficus (es de F. benjamina); no usada como fuente de datos / El ficus llorón tira hojas al moverlo o trasplantarlo; si las condiciones son buenas se adapta, deja de tirar y rebrota; lejos de corrientes y rejillas de calefacción / El ficus benjamina suele perder hojas al cambiarlo de lugar o al trasplantarlo; con condiciones adecuadas se adapta y deja de perderlas; trasplantar a fines del invierno o principios de primavera; lejos de corrientes y salidas de calefacción.
-  - Usada en: lección comprar-2, lección estaciones-3
+  - Qué se tomó: Leída como contexto de cuidados de ficus (es de F. benjamina); no usada como fuente de datos / El ficus llorón tira hojas al moverlo o trasplantarlo; si las condiciones son buenas se adapta, deja de tirar y rebrota; lejos de corrientes y rejillas de calefacción / El ficus benjamina suele perder hojas al cambiarlo de lugar o al trasplantarlo; con condiciones adecuadas se adapta y deja de perderlas; trasplantar a fines del invierno o principios de primavera; lejos de corrientes y salidas de calefacción. / luz, riego, humedad alta, caída de hojas, esquejes en verano, acodo, salir en verano
+  - Usada en: lección comprar-2, lección estaciones-3, planta ficus-benjamina (cuidados), planta ficus-benjamina (cultivo)
 
 ### UF/IFAS Gardening Solutions
 
@@ -889,6 +986,9 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Anthurium](https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/anthurium/) · consultada el 2026-11-15
   - Qué se tomó: Como planta de interior necesita luz brillante indirecta (no dice nada de calor ni sol directo). / Brácteas de color duraderas (unas seis semanas cada una); en interior, luz indirecta brillante; ambiente húmedo.
   - Usada en: lección familias-4, planta anturio (cuidados)
+- [Dracaena Marginata](https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/dracaena-marginata/) · consultada el 2026-11-23
+  - Qué se tomó: apta poca luz, riego secar entre riegos, tamaño y frío
+  - Usada en: planta dracena-marginata (cuidados)
 - [Echeveria](https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/echeveria/) · consultada el 2026-11-14
   - Qué se tomó: Mejor a pleno sol, tolerante a sequía, el peor error es tenerla muy mojada en invierno / Andan mejor a pleno sol y prosperan con el calor del verano / Roseta que forma mata con hijuelos; fácil de propagar por esquejes. Sin época; no se citó en el entregable.
   - Usada en: planta echeveria (cuidados)
@@ -941,6 +1041,21 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: Nunca inducir el vómito salvo indicación veterinaria; riesgo de neumonía por aspiración; informar qué, cuánto y hace cuánto.
   - Usada en: lección mascotas-2
 
+### Iowa State University Extension
+
+- [Diagnosing Houseplant Problems from Improper Environmental Conditions](https://yardandgarden.extension.iastate.edu/how-to/diagnosing-houseplant-problems-improper-environmental-conditions) · consultada el 2026-11-15
+  - Qué se tomó: La humedad baja es la causa más común de puntas marrones (también riego desparejo, sales, calidad del agua); marchitez por falta o exceso de agua; maceta demasiado grande como causa de tierra siempre mojada; suelen intervenir varios factores a la vez. / Que caigan algunas hojas viejas de adentro es normal; orden de revisión ante caída de hojas (frío, cambios de temperatura, riego, abono, humedad, luz); no dejar la planta entre la ventana y la cortina; proteger tropicales incluso de un rato bajo cero; puntas marrones: causa más común, baja humedad; ficus y otras tiran hojas ante cambios de luz
+  - Usada en: lección basico-2, lección basico-3, lección estaciones-2, lección estaciones-3
+- [How do I care for a ponytail palm?](https://yardandgarden.extension.iastate.edu/faq/how-do-i-care-ponytail-palm) · consultada el 2026-11-23
+  - Qué se tomó: luz brillante este u oeste, riego poco
+  - Usada en: planta pata-de-elefante (cuidados)
+- [How to Care for Houseplants](https://yardandgarden.extension.iastate.edu/how-to/how-care-houseplants) · consultada el 2026-11-14
+  - Qué se tomó: Aun el interior mejor iluminado tiene mucha menos luz que cualquier lugar exterior; la luz cae rápido al alejarse de la ventana; muchas plantas de interior son tropicales de sotobosque; aire muy seco en invierno con calefacción; síntomas de poca y mucha luz. / Reabierta. Luz indirecta brillante = suficiente para hacer una sombra clara, sin rayos de sol sobre el follaje; la luz cae rápido al alejarse de la ventana; las cortinas reducen mucho la luz; la ventana oeste puede ser demasiado intensa para algunas especies; síntomas de poca y de mucha luz; corregir cambiando de ventana o de distancia. / Comprar la planta al final de la salida y llevarla rápido a un lugar templado; el frío, aun breve, puede causar marchitez, hojas marrones o caída; envolverla (funda o papel).
+  - Usada en: lección basico-3, lección basico-4, lección comprar-2, lección luz-1, lección luz-4
+- [Root Rots of Houseplants](https://yardandgarden.extension.iastate.edu/article/2014/02-14/rootrot.html) · consultada el 2026-11-15
+  - Qué se tomó: Raíz sana: firme, blanca, con muchas raicillas; podrida: blanda, marrón o rojiza; la marchitez por pudrición se confunde con falta de agua; causa: sustrato mojado y exceso de riego.
+  - Usada en: lección basico-2, lección basico-3
+
 ### ABC (Gardening Australia)
 
 - [How to find the best light for indoor plants](https://www.abc.net.au/news/2020-10-23/how-to-find-the-best-light-for-indoor-plants/12769762) · consultada el 2026-11-14
@@ -952,18 +1067,6 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [The Great Indoors: Location and Light](https://www.abc.net.au/gardening/how-to/the-great-indoors-location-and-light/12804344) · consultada el 2026-11-14
   - Qué se tomó: Luz directa es la que entra por una ventana al norte (hemisferio sur); luz indirecta para la mayoría; cuanto más nítida la sombra, más luz; con poca luz los tallos se alargan.
   - Usada en: lección luz-1
-
-### Iowa State University Extension
-
-- [Diagnosing Houseplant Problems from Improper Environmental Conditions](https://yardandgarden.extension.iastate.edu/how-to/diagnosing-houseplant-problems-improper-environmental-conditions) · consultada el 2026-11-15
-  - Qué se tomó: La humedad baja es la causa más común de puntas marrones (también riego desparejo, sales, calidad del agua); marchitez por falta o exceso de agua; maceta demasiado grande como causa de tierra siempre mojada; suelen intervenir varios factores a la vez. / Que caigan algunas hojas viejas de adentro es normal; orden de revisión ante caída de hojas (frío, cambios de temperatura, riego, abono, humedad, luz); no dejar la planta entre la ventana y la cortina; proteger tropicales incluso de un rato bajo cero; puntas marrones: causa más común, baja humedad; ficus y otras tiran hojas ante cambios de luz
-  - Usada en: lección basico-2, lección basico-3, lección estaciones-2, lección estaciones-3
-- [How to Care for Houseplants](https://yardandgarden.extension.iastate.edu/how-to/how-care-houseplants) · consultada el 2026-11-14
-  - Qué se tomó: Aun el interior mejor iluminado tiene mucha menos luz que cualquier lugar exterior; la luz cae rápido al alejarse de la ventana; muchas plantas de interior son tropicales de sotobosque; aire muy seco en invierno con calefacción; síntomas de poca y mucha luz. / Reabierta. Luz indirecta brillante = suficiente para hacer una sombra clara, sin rayos de sol sobre el follaje; la luz cae rápido al alejarse de la ventana; las cortinas reducen mucho la luz; la ventana oeste puede ser demasiado intensa para algunas especies; síntomas de poca y de mucha luz; corregir cambiando de ventana o de distancia. / Comprar la planta al final de la salida y llevarla rápido a un lugar templado; el frío, aun breve, puede causar marchitez, hojas marrones o caída; envolverla (funda o papel).
-  - Usada en: lección basico-3, lección basico-4, lección comprar-2, lección luz-1, lección luz-4
-- [Root Rots of Houseplants](https://yardandgarden.extension.iastate.edu/article/2014/02-14/rootrot.html) · consultada el 2026-11-15
-  - Qué se tomó: Raíz sana: firme, blanca, con muchas raicillas; podrida: blanda, marrón o rojiza; la marchitez por pudrición se confunde con falta de agua; causa: sustrato mojado y exceso de riego.
-  - Usada en: lección basico-2, lección basico-3
 
 ### National Pesticide Information Center (Oregon State University / EPA)
 
@@ -1013,6 +1116,15 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: Nudo = bultito donde la hoja se une al tallo; esqueje de 3 a 6 pulgadas; potus, hiedra y tradescantia enraízan fácil en agua; sacar hojas de 1 o 2 nudos de abajo; agua a temperatura ambiente, luz indirecta, ninguna hoja bajo el agua; cambiar el agua si se pone turbia; raíces en días, semanas o meses; pasar a tierra con raíces de más de 2 a 3 pulgadas.
   - Usada en: lección multiplicar-1
 
+### Brooklyn Botanic Garden
+
+- [The Wonderful World of Calatheas](https://www.bbg.org/article/the_wonderful_world_of_calatheas) · consultada el 2026-11-23
+  - Qué se tomó: Luz, humedad, sustrato, división en primavera, calateas no tóxicas
+  - Usada en: planta maranta (cuidados), planta calatea-orbifolia (cuidados), planta calatea-orbifolia (toxicidad), planta maranta (cultivo), planta calatea-orbifolia (cultivo)
+- [When, Why, and How to Repot Your Houseplants](https://www.bbg.org/article/when_why_and_how_to_repot_your_houseplants) · consultada el 2026-11-15
+  - Qué se tomó: Maceta un paso más grande, no enorme: el exceso de tierra retiene agua y favorece la pudrición de raíces.
+  - Usada en: lección basico-2
+
 ### Gobierno de la Ciudad de Buenos Aires
 
 - [Compost: cómo y dónde prepararlo](https://buenosaires.gob.ar/gcaba_historico/noticias/compost-como-y-donde-prepararlo) · consultada el 2026-11-15
@@ -1039,6 +1151,15 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Extension Gardener Handbook, capítulo 3: Botany](https://content.ces.ncsu.edu/extension-gardener-handbook/3-botany) · consultada el 2026-11-14
   - Qué se tomó: Fotosíntesis (luz + dióxido de carbono + agua -> azúcares y oxígeno, sobre todo en las hojas); funciones de hoja, tallo y raíz; la falta de oxígeno en el suelo limita a las raíces. Se leyeron los primeros 100.000 caracteres. / Funciones de la raíz (absorber agua y nutrientes, anclar, sostener, almacenar); raíz pivotante vs fibrosa; la absorción ocurre en la zona nueva con pelos radicales, las partes viejas no absorben; bulbos, cormos, rizomas y tubérculos son tallos subterráneos modificados que almacenan reservas (batata y dalia sí son raíces tuberosas). Reabierta hoy; leídos los primeros 100.000 caracteres.
   - Usada en: lección basico-1, lección basico-2
+
+### New York Botanical Garden
+
+- [Houseplant Basics (research guide)](https://libguides.nybg.org/houseplantbasics) · consultada el 2026-11-15
+  - Qué se tomó: Ventanas este = sol de mañana, oeste = sol de tarde; una ventana muy soleada puede ser demasiado calurosa en verano y una cortina fina sirve para frenar el sol intenso; síntomas de poca luz (hojas chicas y pálidas, crecimiento estirado, variegadas que se vuelven verdes) y de exceso (manchas quemadas, hojas desteñidas).
+  - Usada en: lección luz-4
+- [How do I care for my Tradescantia zebrina houseplant?](https://libanswers.nybg.org/faq/222932) · consultada el 2026-11-23
+  - Qué se tomó: Riego, sustrato, pellizcar puntas, esquejes de punta
+  - Usada en: planta tradescantia (cuidados), planta tradescantia (cultivo)
 
 ### Oregon State University Extension
 
@@ -1105,12 +1226,6 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Phalaenopsis culture sheet](https://www.aos.org/orchid-care/care-sheets/phalaenopsis-culture-sheet) · consultada el 2026-11-15
   - Qué se tomó: Ventana luminosa con poco o nada de sol; este ideal, sur u oeste sombreados; máxima recomendada 32 a 35 °C. / Luz brillante con poco o nada de sol; regar a fondo y esperar a que el sustrato esté casi seco, sin que se seque del todo; evitar agua en el centro (pudrición); corteza de grano medio; noches frescas en otoño disparan la vara floral. No menciona temperatura del agua ni hielo.
   - Usada en: lección familias-4, planta orquidea-phalaenopsis (cuidados)
-
-### Brooklyn Botanic Garden
-
-- [When, Why, and How to Repot Your Houseplants](https://www.bbg.org/article/when_why_and_how_to_repot_your_houseplants) · consultada el 2026-11-15
-  - Qué se tomó: Maceta un paso más grande, no enorme: el exceso de tierra retiene agua y favorece la pudrición de raíces.
-  - Usada en: lección basico-2
 
 ### Colorado State University Extension
 
@@ -1219,12 +1334,6 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [How to Save Your Houseplants While Vacationing](https://pender.ces.ncsu.edu/2022/02/how-to-save-your-houseplants-while-vacationing) · consultada el 2026-11-15
   - Qué se tomó: Mecha de hilo mojado previamente, con el recipiente elevado; cactus y suculentas aguantan al menos un mes; la mayoría aguanta unos días; pedir a un amigo o vecino
   - Usada en: lección estaciones-4
-
-### New York Botanical Garden
-
-- [Houseplant Basics (research guide)](https://libguides.nybg.org/houseplantbasics) · consultada el 2026-11-15
-  - Qué se tomó: Ventanas este = sol de mañana, oeste = sol de tarde; una ventana muy soleada puede ser demasiado calurosa en verano y una cortina fina sirve para frenar el sol intenso; síntomas de poca luz (hojas chicas y pálidas, crecimiento estirado, variegadas que se vuelven verdes) y de exceso (manchas quemadas, hojas desteñidas).
-  - Usada en: lección luz-4
 
 ### New York Botanical Garden, Mertz Library Plant Information Service
 

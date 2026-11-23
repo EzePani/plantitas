@@ -1,0 +1,453 @@
+[
+  {
+    "id": "dracena-marginata",
+    "nombre_comun": "Dracena marginata",
+    "otros_nombres": [],
+    "nombre_cientifico": "Dracaena marginata",
+    "familia": "Asparagaceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Le gusta la luz brillante pero filtrada, lejos del sol directo. Aguanta lugares con menos luz, aunque ahí crece más lento.",
+      "confianza": "media",
+      "confianza_sol": "baja"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá a fondo y dejá que la tierra se seque un poco antes de volver a regar; nunca dejes la maceta con agua estancada.",
+      "invierno": "Regá menos seguido y esperá a que la tierra se seque bien antes del próximo riego.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Se arregla con la humedad normal de casa. Si las puntas de las hojas se ponen marrones, probá regarla con agua de lluvia o filtrada: puede ser sensible al flúor del agua.",
+      "confianza": "baja"
+    },
+    "sustrato": {
+      "tipo": "Sustrato para plantas de interior que drene bien, en maceta con agujeros.",
+      "confianza": "media"
+    },
+    "tolerancia_descuido": 4,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "No aguanta heladas: en los meses cálidos puede salir al balcón en un lugar luminoso sin sol directo, y en invierno tiene que volver adentro."
+    },
+    "tamano": "grande",
+    "dificultad": "facil",
+    "tip": "Si le caen las hojas de abajo con el tiempo, tranqui: es normal y va dejando un tronquito con penacho arriba.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "Si la querés más baja o más ramificada, cortá el tallo: de cada corte suelen salir 2 o más brotes. Sacá las hojas secas cuando quieras."
+      },
+      "propagacion": {
+        "metodos": [
+          "esqueje_tierra",
+          "acodo"
+        ],
+        "en_agua": false,
+        "meses": [],
+        "detalle": "Cuando el tronco se pela mucho abajo, podés cortar un tramo de tallo y plantarlo, o hacer un acodo aéreo. Las fuentes no dan una época precisa."
+      },
+      "fuentes": [
+        {
+          "titulo": "Dracaena marginata (Madagascar dragon tree)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/dracaena-marginata/",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Dragon tree",
+          "org": "University of Illinois Extension",
+          "url": "https://extension.illinois.edu/houseplants/dragon-tree",
+          "fecha_consulta": "2026-11-23"
+        }
+      ],
+      "confianza": "media",
+      "adaptaciones": [
+        "Las fuentes no dan época de poda ni de propagación: se dejaron los meses vacíos."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Vómitos (a veces con sangre), decaimiento, falta de apetito y mucho babeo. En gatos, también pupilas dilatadas.",
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Ponela donde tu gato o perro no llegue a mordisquear las hojas. Si se comió un poco, consultá con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Madagascar Dragon Tree (Dracaena marginata)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/madagascar-dragon-tree",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Dracaena (Dracaena spp.)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dracaena",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Dracaena marginata (Madagascar dragon tree)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/dracaena-marginata/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Dracaena marginata (Madagascar dragon tree)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dracaena-marginata/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Dracaena Marginata",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/dracaena-marginata/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Dragon tree",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/dragon-tree",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: verano de diciembre a febrero e invierno de junio a agosto."
+    ],
+    "discrepancias": [
+      "Riego: Illinois dice mantener la tierra húmeda, NC State y UF/IFAS dicen dejar secar entre riegos. Se eligió dejar secar un poco (más conservador).",
+      "Luz: UF/IFAS la da apta para poca luz y NC State e Illinois piden luz brillante indirecta. Se tomó brillante indirecta como ideal y la poca luz como tolerada.",
+      "Humedad: Illinois dice humedad baja; NC State no da dato. Se dejó 'media' con confianza baja.",
+      "Gravedad: NC State califica la severidad como baja; ASPCA no da gravedad. Se dejó 'moderada' por ser el criterio más conservador."
+    ]
+  },
+  {
+    "id": "ficus-benjamina",
+    "nombre_comun": "Ficus benjamina",
+    "otros_nombres": [],
+    "nombre_cientifico": "Ficus benjamina",
+    "familia": "Moraceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Quiere luz brillante y filtrada, como la de una ventana con cortina. Odia los cambios: si la movés de lugar, puede tirar hojas hasta acostumbrarse.",
+      "confianza": "alta",
+      "confianza_sol": "baja"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá cuando la tierra empiece a secarse, sin dejar que se seque del todo ni que quede encharcada.",
+      "invierno": "Regá un poco menos y dejá que la tierra se seque apenas entre riegos.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Prefiere aire húmedo. En invierno, lejos de estufas y calefactores, que la secan y le tiran hojas.",
+      "confianza": "baja"
+    },
+    "sustrato": {
+      "tipo": "Sustrato universal de buena calidad, que drene bien, en maceta con agujeros.",
+      "confianza": "media"
+    },
+    "tolerancia_descuido": 2,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Es muy sensible al frío y las corrientes de aire. Puede salir en los meses cálidos a un lugar con sol de mañana y sombra a la tarde, pero tiene que volver adentro antes de las heladas."
+    },
+    "tamano": "grande",
+    "dificultad": "media",
+    "tip": "Si de pronto tira hojas, tranqui: suele ser por un cambio de lugar, una corriente o el riego. Dejala quieta en un lugar luminoso y se recupera.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "detalle": "Podá suave para darle forma o bajarla de tamaño a fines de otoño o en invierno; aguanta cortes fuertes, pero conviene no abusar."
+      },
+      "propagacion": {
+        "metodos": [
+          "esqueje_tierra",
+          "acodo"
+        ],
+        "en_agua": false,
+        "meses": [
+          12,
+          1,
+          2
+        ],
+        "detalle": "Los esquejes de tallo se hacen mejor en pleno verano. El acodo aéreo funciona en cualquier época."
+      },
+      "fuentes": [
+        {
+          "titulo": "Ficus benjamina (Weeping Fig)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/ficus-benjamina/",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Weeping ficus",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/factsheet/weeping-ficus/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ],
+      "confianza": "media",
+      "adaptaciones": [
+        "NC State recomienda podar a fines de otoño o invierno (noviembre a febrero en el norte): se pasó a mayo a agosto.",
+        "Clemson dice que los esquejes salen mejor en verano (junio a agosto en el norte): se pasó a diciembre a febrero."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Las fuentes no detallan los síntomas. ASPCA señala que contiene ficina (una enzima) y psoraleno, sustancias que pueden irritar.",
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Ponela fuera del alcance de tu gato o perro. Las fuentes no detallan los síntomas; si mordisquea una hoja, consultá con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "media",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Weeping Fig (Ficus sp.)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/weeping-fig",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Ficus benjamina (Weeping Fig)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/ficus-benjamina/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Ficus benjamina (Weeping Fig)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/ficus-benjamina/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Weeping ficus",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/weeping-ficus/",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: verano de diciembre a febrero e invierno de junio a agosto.",
+      "Las fuentes la dan como rústica solo en zonas USDA 10-12: se tradujo a no dejarla afuera en las heladas porteñas."
+    ],
+    "discrepancias": [
+      "Sol directo: Clemson dice que tolera algo de sol directo si hay humedad alta; NC State pide luz indirecta. Se tomó 0 horas (lo más conservador).",
+      "Humedad: Clemson dice humedad alta, NC State no da dato. Se dejó 'media' con confianza baja.",
+      "Riego: NC State dice no dejar secar del todo; Clemson, mantener húmeda y secar apenas en invierno. Se unificó en esa regla.",
+      "Toxicidad: la ficha de ASPCA es del género Ficus (sp.), no de la especie, y no lista síntomas; NC State no da gravedad. Por eso la gravedad 'moderada' es una elección conservadora, los síntomas no están detallados y la confianza es media."
+    ]
+  },
+  {
+    "id": "pata-de-elefante",
+    "nombre_comun": "Pata de elefante",
+    "otros_nombres": [],
+    "nombre_cientifico": "Beaucarnea recurvata (sin. Nolina recurvata)",
+    "familia": "Asparagaceae",
+    "grupo": "suculenta_cactus",
+    "luz_requerida": "directa",
+    "luz_tolerada": [
+      "indirecta_brillante"
+    ],
+    "horas_sol_directo": 4,
+    "tolera_sol_tarde": true,
+    "sensibilidad_calor": "baja",
+    "luz": {
+      "detalle": "Quiere el lugar más luminoso de la casa: la ventana norte es ideal, con sol directo. Si venía de un lugar con poca luz, acostumbrala de a poco para que no se queme.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "bajo",
+      "verano": "Regá a fondo pero poco seguido, y esperá a que la tierra se seque del todo entre riegos.",
+      "invierno": "Regá muy poco: casi nada hasta que vuelva el calor.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "baja",
+      "detalle": "Aguanta bien el aire seco de casa con calefacción; no necesita humedad extra.",
+      "confianza": "baja"
+    },
+    "sustrato": {
+      "tipo": "Mezcla de cactus y suculentas, o sustrato común con arena gruesa o piedritas, para que drene rápido.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 5,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Le encanta el sol, pero las fuentes la dan hasta unos 10 °C: en los meses cálidos puede salir al balcón (acostumbrala de a poco al sol) y en invierno tiene que volver adentro por las heladas."
+    },
+    "tamano": "grande",
+    "dificultad": "facil",
+    "tip": "Su base gorda guarda agua: lo que más le hace mal es el exceso de riego, no el olvido. Ante la duda, no la riegues.",
+    "clases": [
+      "suculenta"
+    ],
+    "cultivo": {
+      "porte": [
+        "erguida",
+        "roseta"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: solo sacá las hojas viejas amarillas y recortá las puntas secas."
+      },
+      "propagacion": {
+        "metodos": [
+          "semilla"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11
+        ],
+        "detalle": "En casa se multiplica por semilla, sembrada en primavera con calor, pero casi no se consigue. Los retoños chiquitos que a veces salen en el tronco no enraízan."
+      },
+      "fuentes": [
+        {
+          "titulo": "Ponytail palm, Beaucarnea recurvata",
+          "org": "University of Wisconsin-Madison Extension",
+          "url": "https://hort.extension.wisc.edu/articles/ponytail-palm-beaucarnea-recurvata/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ],
+      "confianza": "media",
+      "adaptaciones": [
+        "Wisconsin dice que la semilla se siembra en primavera: se pasó a septiembre a noviembre."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "No es tóxica para gatos ni perros. Igual, sus hojas largas y finas pueden tentar a los gatos: si las mordisquea de más, puede caerle mal a la panza.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Pony Tail (Beaucarnea recurvata)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/pony-tail",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Beaucarnea recurvata (Ponytail palm)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/beaucarnea-recurvata/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Beaucarnea recurvata (Ponytail palm)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/beaucarnea-recurvata/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Ponytail palm, Beaucarnea recurvata",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/ponytail-palm-beaucarnea-recurvata/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "How do I care for a ponytail palm?",
+        "org": "Iowa State University Extension",
+        "url": "https://yardandgarden.extension.iastate.edu/faq/how-do-i-care-ponytail-palm",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Estaciones convertidas: verano de diciembre a febrero e invierno de junio a agosto.",
+      "NC State dice que aguanta hasta 50 °F (10 °C) y la da para zonas USDA 10-11: se tradujo a no dejarla afuera en invierno.",
+      "Ventana más soleada: en las fuentes del norte es la sur; en Buenos Aires es la norte."
+    ],
+    "discrepancias": [
+      "Sol: NC State pide 6 horas o más de sol directo, Wisconsin dice sol pleno en la ventana más luminosa e Iowa State sugiere ventana este u oeste. Se tomó 4 horas (lo menor) con confianza media.",
+      "Toxicidad: ASPCA y NC State coinciden en que no es tóxica. Aun así, la advertencia sobre las hojas que tientan a los gatos es una precaución general y no sale de las fuentes."
+    ]
+  }
+]

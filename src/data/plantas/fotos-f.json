@@ -1,0 +1,44 @@
+{
+  "hoya": [
+    {
+      "archivo": "img/extra/hoya-2.webp",
+      "autor": "Muldoonsamuel",
+      "licencia": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Hoya_carnosa_(wax_vines).jpg"
+    },
+    {
+      "archivo": "img/extra/hoya-3.webp",
+      "autor": "Acroterion",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Hoya_carnosa_1.jpg"
+    }
+  ],
+  "tradescantia": [
+    {
+      "archivo": "img/extra/tradescantia-2.webp",
+      "autor": "Nathaly 1106",
+      "licencia": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Zebrina_(Tradescantia_zebrina).jpg"
+    },
+    {
+      "archivo": "img/extra/tradescantia-3.webp",
+      "autor": "Anak kampuang",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Tradescantia_Zebrina_flower.jpg"
+    }
+  ],
+  "cola-de-burro": [
+    {
+      "archivo": "img/extra/cola-de-burro-2.webp",
+      "autor": "Photo by David J. Stang",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Sedum_morganianum_1zz.jpg"
+    },
+    {
+      "archivo": "img/extra/cola-de-burro-3.webp",
+      "autor": "Jerzy Opioła",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Sedum_morganianum_OB10.jpg"
+    }
+  ]
+}

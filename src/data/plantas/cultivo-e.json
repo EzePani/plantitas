@@ -1,0 +1,130 @@
+{
+  "dracena-marginata": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "Si la querés más baja o más ramificada, cortá el tallo: de cada corte suelen salir 2 o más brotes. Sacá las hojas secas cuando quieras."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_tierra",
+        "acodo"
+      ],
+      "en_agua": false,
+      "meses": [],
+      "detalle": "Cuando el tronco se pela mucho abajo, podés cortar un tramo de tallo y plantarlo, o hacer un acodo aéreo. Las fuentes no dan una época precisa."
+    },
+    "fuentes": [
+      {
+        "titulo": "Dracaena marginata (Madagascar dragon tree)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dracaena-marginata/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Dragon tree",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/dragon-tree",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Las fuentes no dan época de poda ni de propagación: se dejaron los meses vacíos."
+    ]
+  },
+  "ficus-benjamina": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "detalle": "Podá suave para darle forma o bajarla de tamaño a fines de otoño o en invierno; aguanta cortes fuertes, pero conviene no abusar."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_tierra",
+        "acodo"
+      ],
+      "en_agua": false,
+      "meses": [
+        12,
+        1,
+        2
+      ],
+      "detalle": "Los esquejes de tallo se hacen mejor en pleno verano. El acodo aéreo funciona en cualquier época."
+    },
+    "fuentes": [
+      {
+        "titulo": "Ficus benjamina (Weeping Fig)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/ficus-benjamina/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Weeping ficus",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/weeping-ficus/",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "NC State recomienda podar a fines de otoño o invierno (noviembre a febrero en el norte): se pasó a mayo a agosto.",
+      "Clemson dice que los esquejes salen mejor en verano (junio a agosto en el norte): se pasó a diciembre a febrero."
+    ]
+  },
+  "pata-de-elefante": {
+    "porte": [
+      "erguida",
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo sacá las hojas viejas amarillas y recortá las puntas secas."
+    },
+    "propagacion": {
+      "metodos": [
+        "semilla"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "En casa se multiplica por semilla, sembrada en primavera con calor, pero casi no se consigue. Los retoños chiquitos que a veces salen en el tronco no enraízan."
+    },
+    "fuentes": [
+      {
+        "titulo": "Ponytail palm, Beaucarnea recurvata",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/ponytail-palm-beaucarnea-recurvata/",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Wisconsin dice que la semilla se siembra en primavera: se pasó a septiembre a noviembre."
+    ]
+  }
+}

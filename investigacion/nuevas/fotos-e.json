@@ -1,0 +1,62 @@
+{
+  "dracena-marginata": [
+    {
+      "archivo": "img/extra/dracena-marginata-1.webp",
+      "autor": "Autor desconocido",
+      "licencia": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dracaena_marginata_IndoorPlant_0605k.jpg"
+    },
+    {
+      "archivo": "img/extra/dracena-marginata-2.webp",
+      "autor": "Forest and Kim Starr",
+      "licencia": "CC BY 3.0 us",
+      "url": "https://commons.wikimedia.org/wiki/File:Starr-110307-1888-Dracaena_marginata-leaves-Kula_Botanical_Garden-Maui_(24983867221).jpg"
+    },
+    {
+      "archivo": "img/extra/dracena-marginata-3.webp",
+      "autor": "Forest & Kim Starr",
+      "licencia": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Starr_061231-3032_Dracaena_marginata.jpg"
+    }
+  ],
+  "ficus-benjamina": [
+    {
+      "archivo": "img/extra/ficus-benjamina-1.webp",
+      "autor": "Pedros.lol",
+      "licencia": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Spathiphyllum_and_Ficus_benjamina_in_workplace.JPG"
+    },
+    {
+      "archivo": "img/extra/ficus-benjamina-2.webp",
+      "autor": "Vijayanrajapuram",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ficus_benjamina-weeping_fig-benjamin_fig_01.jpg"
+    },
+    {
+      "archivo": "img/extra/ficus-benjamina-3.webp",
+      "autor": "Thamizhpparithi Maari",
+      "licencia": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ficus_benjamina_leaves_(2).jpg"
+    }
+  ],
+  "pata-de-elefante": [
+    {
+      "archivo": "img/extra/pata-de-elefante-1.webp",
+      "autor": "Wcedmisten",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ponytail_Palm_Houseplant.jpg"
+    },
+    {
+      "archivo": "img/extra/pata-de-elefante-2.webp",
+      "autor": "Dinesh Valke from Thane, India",
+      "licencia": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Beaucarnea_recurvata_(369013178).jpg"
+    },
+    {
+      "archivo": "img/extra/pata-de-elefante-3.webp",
+      "autor": "Krzysztof Ziarnek, Kenraiz",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Beaucarnea_recurvata_kz01.jpg"
+    }
+  ]
+}

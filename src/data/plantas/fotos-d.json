@@ -1,0 +1,58 @@
+{
+  "maranta": [
+    {
+      "archivo": "img/extra/maranta-2.webp",
+      "autor": "Photo by David J. Stang",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Maranta_leuconeura_1zz.jpg"
+    },
+    {
+      "archivo": "img/extra/maranta-3.webp",
+      "autor": "KATHERINE WAGNER-REISS",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Maranta_leuconeura_%27Marisela%27.jpg"
+    }
+  ],
+  "calatea-orbifolia": [
+    {
+      "archivo": "img/extra/calatea-orbifolia-2.webp",
+      "autor": "Whoisjohngalt",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Calathea_orbifolia.jpg"
+    },
+    {
+      "archivo": "img/extra/calatea-orbifolia-3.webp",
+      "autor": "Krzysztof Ziarnek, Kenraiz",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Calathea_orbifolia_kz1.jpg"
+    }
+  ],
+  "peperomia-argyreia": [
+    {
+      "archivo": "img/extra/peperomia-argyreia-2.webp",
+      "autor": "Mokkie",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Watermelon_Peperomia_(Peperomia_argyreia).jpg"
+    },
+    {
+      "archivo": "img/extra/peperomia-argyreia-3.webp",
+      "autor": "Photo by David J. Stang",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Peperomia_argyreia_2zz.jpg"
+    }
+  ],
+  "singonio": [
+    {
+      "archivo": "img/extra/singonio-2.webp",
+      "autor": "Autor desconocido",
+      "licencia": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Arrowhead_plant_002.jpg"
+    },
+    {
+      "archivo": "img/extra/singonio-3.webp",
+      "autor": "Photo by David J. Stang",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Syngonium_podophyllum_Golden_0zz.jpg"
+    }
+  ]
+}

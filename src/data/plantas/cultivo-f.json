@@ -1,0 +1,146 @@
+{
+  "hoya": {
+    "porte": [
+      "trepadora",
+      "colgante"
+    ],
+    "tutor": {
+      "recomendado": "si",
+      "detalle": "Si querés que trepe, dale un aro de alambre, un enrejado o cañas; si no, la podés dejar caer en una maceta colgante."
+    },
+    "poda": {
+      "meses": [
+        8,
+        9
+      ],
+      "detalle": "Recortá apenas a fines de invierno o principio de primavera para sacar ramas débiles, y no cortes los pedúnculos donde ya hubo flores. No le gusta la poda fuerte."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_agua",
+        "acodo"
+      ],
+      "en_agua": true,
+      "meses": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "detalle": "Cortá un esqueje de una rama del año anterior y ponelo en agua: en dos o tres semanas tiene raíces y lo pasás a maceta. También podés enterrar una rama sin cortarla hasta que enraíce."
+    },
+    "fuentes": [
+      {
+        "titulo": "Hoya carnosa (Wax Plant)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/hoya-carnosa/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Hoya growing guide",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/hoya/growing-guide",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS recomienda podar a fines de invierno o principio de primavera y propagar en primavera o inicio de verano: se pasó a agosto y septiembre (poda) y septiembre a diciembre (propagación)."
+    ]
+  },
+  "tradescantia": {
+    "porte": [
+      "colgante"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "Recortala fuerte en primavera para que se ponga más tupida, y pellizcá las puntas durante el año para que ramifique."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_agua",
+        "esqueje_tierra"
+      ],
+      "en_agua": true,
+      "meses": [
+        11,
+        12
+      ],
+      "detalle": "Cortá puntas de unos 8 a 10 cm, sacales las hojas de abajo y ponelas en agua o directo en tierra húmeda: enraízan en pocas semanas. Conviene plantar varias juntas en la misma maceta."
+    },
+    "fuentes": [
+      {
+        "titulo": "Tradescantia zebrina",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/tradescantia-zebrina/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "How do I care for my Tradescantia zebrina houseplant?",
+        "org": "New York Botanical Garden",
+        "url": "https://libanswers.nybg.org/faq/222932",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "How to take cuttings from houseplants",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-take-cuttings-from-houseplants",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "NC State recomienda podar fuerte en primavera: se pasó a septiembre a noviembre.",
+      "RHS dice que la mejor época para esquejes es fines de primavera y principios de verano: se pasó a noviembre y diciembre."
+    ]
+  },
+  "cola-de-burro": {
+    "porte": [
+      "colgante"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo sacá las hojas secas. Los tallos que quedan pelados pueden volver a brotar."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_tierra",
+        "hoja",
+        "division"
+      ],
+      "en_agua": false,
+      "meses": [],
+      "detalle": "Cortá un tallo, sacale las hojas de abajo, dejalo secar un día o dos y plantalo en sustrato que drene. Las hojas caídas también enraízan, aunque más despacio. Las fuentes no marcan una época."
+    },
+    "fuentes": [
+      {
+        "titulo": "Sedum morganianum (Burro's Tail)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/sedum-morganianum/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Burro's tail, Sedum morganianum",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/burros-tail-sedum-morganianum/",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "No se convirtió ninguna época: las fuentes no la dan. Se dejó la propagación sin meses."
+    ]
+  }
+}

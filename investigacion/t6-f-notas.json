@@ -1,0 +1,205 @@
+{
+  "fuentes": [
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Hoya carnosa (Wax Plant)",
+      "url": "https://plants.ces.ncsu.edu/plants/hoya-carnosa/",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz brillante, riego entre secados, humedad alta, poda de primavera, esquejes; no tóxica",
+      "usado_en": [
+        "hoya"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Hoya growing guide",
+      "url": "https://www.rhs.org.uk/plants/hoya/growing-guide",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz sin sol fuerte, riego y humedad, mezcla drenante, tutor, poda y propagación en agua",
+      "usado_en": [
+        "hoya"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Indoor Plants: Waxflowers (Hoya)",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-waxflowers-hoya",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Riego con secado total, mezcla con corteza y perlita, tutor",
+      "usado_en": [
+        "hoya"
+      ]
+    },
+    {
+      "org": "Penn State Extension",
+      "titulo": "Hoyas as houseplants",
+      "url": "https://extension.psu.edu/hoyas-as-houseplants",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz media a brillante, riego, no mover al formar botones",
+      "usado_en": [
+        "hoya"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Wax Plant (Hoya carnosa)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/wax-plant",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "No tóxica para perros y gatos (cultivar krinkle kurl)",
+      "usado_en": [
+        "hoya"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Tradescantia zebrina",
+      "url": "https://plants.ces.ncsu.edu/plants/tradescantia-zebrina/",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz filtrada, riego, poda fuerte en primavera, esquejes; dermatitis y irritación en mascotas",
+      "usado_en": [
+        "tradescantia"
+      ]
+    },
+    {
+      "org": "New York Botanical Garden",
+      "titulo": "How do I care for my Tradescantia zebrina houseplant?",
+      "url": "https://libanswers.nybg.org/faq/222932",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Riego, sustrato, pellizcar puntas, esquejes de punta",
+      "usado_en": [
+        "tradescantia"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Inch Plant (Tradescantia)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/wandering-jew",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Tóxica (dermatitis) para perros y gatos; ficha como T. flumeninsis",
+      "usado_en": [
+        "tradescantia"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to take cuttings from houseplants",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-take-cuttings-from-houseplants",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Época de esquejes y esquejes en agua o compost",
+      "usado_en": [
+        "tradescantia"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Sedum morganianum (Burro's Tail)",
+      "url": "https://plants.ces.ncsu.edu/plants/sedum-morganianum/",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz, riego, sustrato, hábito colgante, esquejes de tallo y hoja; no tóxica",
+      "usado_en": [
+        "cola-de-burro"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Burro's tail, Sedum morganianum",
+      "url": "https://hort.extension.wisc.edu/articles/burros-tail-sedum-morganianum/",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz brillante a sol, riego, sustrato, hábito, propagación, frío",
+      "usado_en": [
+        "cola-de-burro"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Burro's Tail (Sedum morganianum)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/burros-tail",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "No tóxica para perros y gatos",
+      "usado_en": [
+        "cola-de-burro"
+      ]
+    }
+  ],
+  "revisar": [
+    {
+      "id": "hoya",
+      "dato": "toxicidad_gato/perro",
+      "motivo": "ASPCA lista el cultivar krinkle kurl y NC State la especie; coinciden en no tóxica. Confianza media por el cultivar.",
+      "fuentes": [
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/wax-plant",
+        "https://plants.ces.ncsu.edu/plants/hoya-carnosa/"
+      ]
+    },
+    {
+      "id": "hoya",
+      "dato": "riego",
+      "motivo": "RHS (húmeda sin encharcar) y Clemson (secar del todo) difieren; se tomó el criterio conservador.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/hoya/growing-guide",
+        "https://hgic.clemson.edu/factsheet/indoor-plants-waxflowers-hoya"
+      ]
+    },
+    {
+      "id": "hoya",
+      "dato": "horas_sol_directo",
+      "motivo": "Sin cifra clara para interior; 2 h es estimación apoyada en NC State y Clemson.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/hoya-carnosa/",
+        "https://hgic.clemson.edu/factsheet/indoor-plants-waxflowers-hoya"
+      ]
+    },
+    {
+      "id": "tradescantia",
+      "dato": "toxicidad",
+      "motivo": "ASPCA nombra T. flumeninsis (no zebrina); NC State cubre zebrina. Tóxica leve, confianza media.",
+      "fuentes": [
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/wandering-jew",
+        "https://plants.ces.ncsu.edu/plants/tradescantia-zebrina/"
+      ]
+    },
+    {
+      "id": "tradescantia",
+      "dato": "horas_sol_directo/luz",
+      "motivo": "Ninguna fuente da horas; estimación. Solo NC State trata la luz de forma directa.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/tradescantia-zebrina/",
+        "https://libanswers.nybg.org/faq/222932"
+      ]
+    },
+    {
+      "id": "cola-de-burro",
+      "dato": "humedad",
+      "motivo": "Ni NC State ni Wisconsin hablan de humedad; baja por ser suculenta, sin verificar.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/sedum-morganianum/",
+        "https://hort.extension.wisc.edu/articles/burros-tail-sedum-morganianum/"
+      ]
+    },
+    {
+      "id": "cola-de-burro",
+      "dato": "poda y meses de propagación",
+      "motivo": "Las fuentes no dan guía de poda ni época de propagación; se dejaron vacíos.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/sedum-morganianum/",
+        "https://hort.extension.wisc.edu/articles/burros-tail-sedum-morganianum/"
+      ]
+    },
+    {
+      "id": "cola-de-burro",
+      "dato": "horas_sol_directo",
+      "motivo": "Wisconsin dice brillante a sol pleno; 4 h es estimación conservadora.",
+      "fuentes": [
+        "https://hort.extension.wisc.edu/articles/burros-tail-sedum-morganianum/"
+      ]
+    }
+  ],
+  "no_pude_abrir": [
+    "https://www.rhs.org.uk/plants/tradescantia/growing-guide (404)",
+    "https://www.rhs.org.uk/plants/sedum/growing-guide (404)",
+    "https://hort.extension.wisc.edu/articles/wandering-jew-tradescantia-zebrina/ (404)",
+    "https://hort.extension.wisc.edu/articles/wax-plant-hoya-carnosa/ (404)",
+    "https://extension.okstate.edu/programs/plant-id/plant-profiles/wandering-jew (403)",
+    "UConn Tradescantias are Terrific PDF (404)"
+  ]
+}
