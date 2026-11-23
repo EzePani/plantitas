@@ -1,4 +1,4 @@
-import type { Coleccion, DatosPersistidos } from './tipos'
+import type { Coleccion, DatosPersistidos, Hijito, Refuerzo } from './tipos'
 
 /**
  * Une dos versiones del progreso cuando se tocó en los dos dispositivos antes de sincronizar.
@@ -42,7 +42,25 @@ export function fusionar(a: DatosPersistidos, b: DatosPersistidos): DatosPersist
     espacios,
     favoritas: [...new Set([...a.favoritas, ...b.favoritas])].slice(0, 200),
     colecciones: fusionarColecciones(a.colecciones, b.colecciones),
+    hijitos: fusionarHijitos(a.hijitos, b.hijitos),
+    refuerzo: fusionarRefuerzo(a.refuerzo, b.refuerzo),
   }
+}
+
+/** Los hijitos se juntan por id; si está en los dos lados, cada dato se queda con lo más avanzado */
+function fusionarHijitos(a: Hijito[], b: Hijito[]): Hijito[] {
+  const salida = a.map((h) => {
+    const otro = b.find((x) => x.id === h.id)
+    return otro ? { ...h, agua: h.agua > otro.agua ? h.agua : otro.agua, raices: h.raices ?? otro.raices, maceta: h.maceta ?? otro.maceta } : h
+  })
+  const ids = new Set(a.map((h) => h.id))
+  return [...salida, ...b.filter((h) => !ids.has(h.id))].slice(0, 60)
+}
+
+/** Vale el refuerzo más reciente; las preguntas a repetir se suman */
+function fusionarRefuerzo(a: Refuerzo, b: Refuerzo): Refuerzo {
+  const base = (b.ultimo ?? '') > (a.ultimo ?? '') ? b : a
+  return { ...base, leccionesAlUltimo: Math.max(a.leccionesAlUltimo, b.leccionesAlUltimo), fallidas: [...new Set([...a.fallidas, ...b.fallidas])].slice(0, 60) }
 }
 
 /** Las colecciones se juntan por id: las plantas de las dos versiones se suman y el nombre local gana */

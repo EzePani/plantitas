@@ -15,6 +15,7 @@ import { hoyLocal } from '../../lib/fecha'
 import { metaDeHoyCumplida, nivelPara, rachaVigente } from '../../lib/gamificacion'
 import { vibrar } from '../../lib/haptics'
 import { planDeCamino } from '../../lib/perfil'
+import { PREGUNTAS_REFUERZO, refuerzoDisponible } from '../../lib/refuerzo'
 import { useStore } from '../../store/useStore'
 import type { Sesion } from '../quiz/Reproductor'
 import { Enredadera } from './Enredadera'
@@ -100,6 +101,7 @@ export function Aprender({ onJugar, onIrAEspacio, onGuia }: Props) {
   const nivel = nivelPara(s.xp)
   const racha = rachaVigente(s.racha, hoy)
   const metaOk = metaDeHoyCumplida(s.racha, hoy)
+  const hayRefuerzo = refuerzoDisponible(s, hoy)
   const flores = camino.tramos.filter((t) => t.completa).map((t) => t.nodos[t.nodos.length - 1].indice)
 
   const jugar = (n: Nodo) => {
@@ -180,6 +182,36 @@ export function Aprender({ onJugar, onIrAEspacio, onGuia }: Props) {
           </section>
         </div>
       </div>
+
+      {/* Quiz de refuerzo: aparece cada tanto, flotando sobre el mapa, y se puede dejar para después */}
+      {hayRefuerzo && (
+        <motion.div initial={{ y: 80, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="border-sol absolute inset-x-3 bottom-3 z-10 rounded-3xl border-2 bg-white p-3 shadow-[0_4px_0_var(--color-sol-osc)]" role="region" aria-label={T.aprender.refuerzo.titulo}>
+          <div className="flex items-center gap-3">
+            <span className="bg-sol text-tinta grid size-11 shrink-0 place-items-center rounded-full">
+              <Dumbbell size={22} aria-hidden />
+            </span>
+            <div className="min-w-0 flex-1">
+              <p className="font-display text-tinta m-0 text-[17px] leading-tight font-semibold">{T.aprender.refuerzo.titulo}</p>
+              <p className="text-tinta-suave m-0 text-[13px] font-bold">{T.aprender.refuerzo.texto(PREGUNTAS_REFUERZO)}</p>
+            </div>
+          </div>
+          <div className="mt-2.5 flex gap-2">
+            <button type="button" onClick={s.posponerRefuerzo} className="border-arena-osc text-tinta-suave min-h-11 flex-1 rounded-full border-2 bg-white text-[14px] font-extrabold">
+              {T.aprender.refuerzo.despues}
+            </button>
+            <button
+              type="button"
+              onClick={() => {
+                vibrar('toque')
+                onJugar({ tipo: 'refuerzo' })
+              }}
+              className="bg-sol text-tinta min-h-11 flex-1 rounded-full border-0 text-[15px] font-extrabold"
+            >
+              {T.aprender.refuerzo.empezar}
+            </button>
+          </div>
+        </motion.div>
+      )}
 
       <HojaInferior abierta={elegido !== null} onCerrar={() => setElegido(null)}>
         {elegido && (

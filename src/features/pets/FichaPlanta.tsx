@@ -1,10 +1,11 @@
 import { Droplet, Flame, Home, Info, Layers, Scissors, Shapes, Sprout, Sun, TrendingUp, TriangleAlert, Wind } from 'lucide-react'
-import type { ReactNode } from 'react'
+import { useState, type ReactNode } from 'react'
 import { Carrusel } from '../../components/Carrusel'
 import { ListaFuentes } from '../../components/ListaFuentes'
 import type { Planta } from '../../data/plantas'
 import { TC } from '../../data/textosCatalogo'
 import { rangoMeses } from '../../lib/catalogo'
+import { useStore } from '../../store/useStore'
 import { BotonFavorita, CalceEspacios } from './Favorita'
 import { BotonCompartirPlanta, GuardarEnColeccion } from './Lista'
 import { Semaforo } from './Semaforo'
@@ -29,6 +30,8 @@ export function FichaPlanta({ planta: p }: { planta: Planta }) {
   const algunaToxica = m.toxicidad_gato === 'toxica' || m.toxicidad_perro === 'toxica'
   const algunaSinVerificar = m.toxicidad_gato === 'no_verificada' || m.toxicidad_perro === 'no_verificada'
   const c = p.cultivo
+  const agregarHijito = useStore((s) => s.agregarHijito)
+  const [anotado, setAnotado] = useState(false)
   const mesesPoda = rangoMeses(c.poda.meses)
   const mesesHijitos = rangoMeses(c.propagacion.meses)
   const fuentes = [...p.fuentes, ...m.fuentes_toxicidad, ...c.fuentes].filter((f, i, todas) => todas.findIndex((x) => x.url === f.url) === i)
@@ -171,6 +174,17 @@ export function FichaPlanta({ planta: p }: { planta: Planta }) {
           </Dato>
         </div>
         {c.adaptaciones.length > 0 && <p className="text-tinta-suave mt-2 mb-0 text-[13px] font-bold">{F.adaptado}</p>}
+        {c.propagacion.metodos.length > 0 && (
+          <button
+            type="button"
+            disabled={anotado}
+            onClick={() => setAnotado(agregarHijito({ plantaId: p.id, nombre: p.nombre_comun, medio: c.propagacion.en_agua ? 'agua' : 'tierra' }))}
+            className={`mt-3 flex min-h-12 w-full items-center justify-center gap-2 rounded-full border-2 px-4 text-[15px] font-extrabold ${anotado ? 'border-brote bg-brote text-hoja-osc' : 'border-hoja text-hoja-osc bg-white'}`}
+          >
+            <Sprout size={18} aria-hidden />
+            {anotado ? P.hijitos.anotado : P.hijitos.desdeFicha}
+          </button>
+        )}
 
         <h3 className="font-display text-tinta mt-6 mb-2 text-[20px] font-semibold">{F.fuentes}</h3>
         <ListaFuentes fuentes={fuentes} />

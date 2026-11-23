@@ -1,18 +1,21 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { Check, Flame, Gift, X, Zap } from 'lucide-react'
-import { useMemo, useState, type ReactNode } from 'react'
+import { useMemo, useRef, useState, type ReactNode } from 'react'
 import { Boton } from '../../components/Boton'
 import { Rico } from '../../components/Rico'
 import { Dialogo } from '../../components/Dialogo'
+import { FotoPlanta } from '../../components/FotoPlanta'
 import { Icono } from '../../components/Icono'
 import { Brote } from '../../components/Ilustracion'
 import { INSIGNIAS } from '../../data/gamificacion'
 import type { Pregunta } from '../../data/lessons'
 import { leccionPorId, preguntasDeUnidad } from '../../data/lessons/contenido'
+import { plantaPorId } from '../../data/plantas'
 import { T } from '../../data/textos'
 import { UNIDADES } from '../../data/unidades'
 import { idRepaso } from '../../lib/camino'
 import { vibrar } from '../../lib/haptics'
+import { armarRefuerzo, clavePregunta, leccionesHechas } from '../../lib/refuerzo'
 import type { UnidadId } from '../../lib/tipos'
 import { useStore, type Resumen } from '../../store/useStore'
 import { PreguntaVista } from './PreguntaVista'
@@ -23,6 +26,7 @@ export type Sesion =
   | { tipo: 'repaso'; unidad: UnidadId }
   | { tipo: 'salteo'; unidad: UnidadId }
   | { tipo: 'cofre'; unidad: UnidadId }
+  | { tipo: 'refuerzo' }
 
 const PREGUNTAS_REPASO = 4
 const PREGUNTAS_SALTEO = 5
@@ -37,14 +41,25 @@ export function Reproductor({ sesion, onCerrar }: { sesion: Sesion; onCerrar: ()
   const completarNodo = useStore((s) => s.completarNodo)
   const abrirCofre = useStore((s) => s.abrirCofre)
   const saltarUnidad = useStore((s) => s.saltarUnidad)
+  const anotarRespuestas = useStore((s) => s.anotarRespuestas)
+  const completarRefuerzo = useStore((s) => s.completarRefuerzo)
+  // El refuerzo se arma una sola vez al abrir: si no, cada respuesta cambiaría las preguntas
+  const [refuerzo] = useState(() => {
+    if (sesion.tipo !== 'refuerzo') return []
+    const s = useStore.getState()
+    return armarRefuerzo(leccionesHechas(s.completadas), s.refuerzo.fallidas, leccionPorId)
+  })
+  /** Cómo se respondió cada pregunta, en orden */
+  const resultados = useRef<boolean[]>([])
 
   const leccion = sesion.tipo === 'leccion' ? leccionPorId(sesion.leccionId) : undefined
   const preguntas: Pregunta[] = useMemo(() => {
     if (sesion.tipo === 'leccion') return leccion?.quiz ?? []
     if (sesion.tipo === 'repaso') return preguntasDeUnidad(sesion.unidad, PREGUNTAS_REPASO)
     if (sesion.tipo === 'salteo') return preguntasDeUnidad(sesion.unidad, PREGUNTAS_SALTEO)
+    if (sesion.tipo === 'refuerzo') return refuerzo.map((r) => r.pregunta)
     return []
-  }, [sesion, leccion])
+  }, [sesion, leccion, refuerzo])
   const tarjetas = leccion?.tarjetas ?? []
 
   const [etapa, setEtapa] = useState<Etapa>(sesion.tipo === 'leccion' ? 'gancho' : sesion.tipo === 'cofre' ? 'fin' : 'quiz')
@@ -61,7 +76,14 @@ export function Reproductor({ sesion, onCerrar }: { sesion: Sesion; onCerrar: ()
     etapa === 'gancho' ? 0 : etapa === 'tarjetas' ? iTarjeta : etapa === 'llevar' ? tarjetas.length : etapa === 'quiz' ? tarjetas.length + (leccion ? 1 : 0) + iPregunta + (respuesta !== null ? 1 : 0) : pasosTotales
 
   const terminar = (aciertosFinales: number) => {
-    if (sesion.tipo === 'leccion' && leccion) {
+    // Claves de las preguntas de esta sesión, para anotar cuáles conviene repetir
+    const claves = sesion.tipo === 'leccion' && leccion ? preguntas.map((_, i) => clavePregunta(leccion.id, i)) : refuerzo.map((r) => r.clave)
+    const falladas = claves.filter((_, i) => resultados.current[i] === false)
+    const acertadas = claves.filter((_, i) => resultados.current[i] === true)
+    if (sesion.tipo === 'refuerzo') {
+      setResumen(completarRefuerzo(aciertosFinales, preguntas.length, falladas, acertadas))
+    } else if (sesion.tipo === 'leccion' && leccion) {
+      anotarRespuestas(falladas, acertadas)
       setResumen(completarNodo(leccion.id, leccion.xp, aciertosFinales, preguntas.length))
     } else if (sesion.tipo === 'repaso') {
       setResumen(completarNodo(idRepaso(sesion.unidad), 0, aciertosFinales, preguntas.length))
@@ -155,6 +177,7 @@ export function Reproductor({ sesion, onCerrar }: { sesion: Sesion; onCerrar: ()
           <PreguntaVista
             pregunta={p}
             onResponder={(ok) => {
+              resultados.current[iPregunta] = ok
               if (ok) setAciertos((a) => a + 1)
               setRespuesta(ok)
             }}
@@ -311,10 +334,16 @@ function Fin({ sesion, resumen, aciertos, total, cofreAbierto }: { sesion: Sesio
         >
           {cofreAbierto ? <Icono nombre="semilla" size={72} /> : <Gift size={72} strokeWidth={2.2} aria-hidden />}
         </motion.div>
+        {cofreAbierto && plantaPorId(u.planta) && (
+          <motion.div initial={{ scale: 0, rotate: -8 }} animate={{ scale: 1, rotate: 4 }} transition={{ delay: 0.35, type: 'spring', damping: 11 }} className="-mt-10 ml-28 rounded-3xl border-4 border-white shadow-lg">
+            <FotoPlanta planta={plantaPorId(u.planta)!} className="size-24 rounded-[20px]" />
+          </motion.div>
+        )}
         {cofreAbierto && resumen && (
           <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} className="mt-8">
             <h1 className="font-display text-hoja-osc m-0 text-[30px] font-semibold">{T.leccion.cofre.titulo}</h1>
             <p className="text-tinta mt-1 text-[17px] font-bold">{T.leccion.cofre.texto}</p>
+            <p className="text-tinta-suave -mt-2 text-[14px] font-bold">{T.leccion.cofre.jardin}</p>
             <p className="font-display bg-brote text-hoja-osc mx-auto w-fit rounded-full px-4 py-2 text-[18px] font-semibold">{u.semilla}</p>
             <p className="text-sol-osc text-[18px] font-extrabold">
               +{resumen.xpGanada} {T.comun.xp}
@@ -333,7 +362,7 @@ function Fin({ sesion, resumen, aciertos, total, cofreAbierto }: { sesion: Sesio
       <motion.div initial={{ scale: 0.5 }} animate={{ scale: 1 }} transition={{ type: 'spring', damping: 9 }}>
         <Brote animo="festejo" className="h-44 w-40" />
       </motion.div>
-      <h1 className="font-display text-hoja-osc mt-2 mb-4 text-[32px] leading-tight font-semibold">{sesion.tipo === 'repaso' ? F.tituloRepaso : F.titulo}</h1>
+      <h1 className="font-display text-hoja-osc mt-2 mb-4 text-[32px] leading-tight font-semibold">{sesion.tipo === 'refuerzo' ? F.tituloRefuerzo : sesion.tipo === 'repaso' ? F.tituloRepaso : F.titulo}</h1>
       <div className="flex w-full gap-2">
         <Dato color="bg-brote" icono={<Check className="text-hoja" strokeWidth={3.2} aria-hidden />} valor={`${resumen.aciertos}/${resumen.total}`} etiqueta={F.aciertos} />
         <Dato color="bg-sol-claro" icono={<Zap className="text-sol-osc" fill="currentColor" aria-hidden />} valor={`+${resumen.xpGanada}`} etiqueta={F.xpGanada} />

@@ -4,6 +4,7 @@ import type { DatosPersistidos, Racha, UnidadId } from './tipos'
 export const XP_POR_ACIERTO = 2
 export const XP_REPASO = 10
 export const XP_COFRE = 30
+export const XP_REFUERZO = 5
 
 /** XP mínima de cada nivel (Semilla → Brote → Plantín → Planta → Jardín) */
 export const UMBRALES_NIVEL = [0, 100, 250, 500, 900]

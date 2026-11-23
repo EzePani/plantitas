@@ -2,8 +2,11 @@ import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import { VERSION_DATOS, esquemaDatos, migrar } from '../lib/backup'
 import { hoyLocal } from '../lib/fecha'
+import { MAX_HIJITOS } from '../lib/hijitos'
+import { actualizarFallidas, leccionesHechas } from '../lib/refuerzo'
 import {
   XP_COFRE,
+  XP_REFUERZO,
   XP_REPASO,
   insigniasMerecidas,
   nivelPara,
@@ -12,7 +15,7 @@ import {
   type InsigniaId,
 } from '../lib/gamificacion'
 import { asignarPerfil } from '../lib/perfil'
-import type { DatosMascotas, DatosPersistidos, Espacio, Esfuerzo, PerfilLuz, Respuestas, Tiempo, TipoEspacio, UnidadId } from '../lib/tipos'
+import type { DatosMascotas, DatosPersistidos, Espacio, Esfuerzo, Hijito, PerfilLuz, Respuestas, Tiempo, TipoEspacio, UnidadId } from '../lib/tipos'
 import { LECCIONES_POR_UNIDAD } from '../data/lessons'
 
 export const DATOS_INICIALES: DatosPersistidos = {
@@ -29,6 +32,8 @@ export const DATOS_INICIALES: DatosPersistidos = {
   espacios: [],
   favoritas: [],
   colecciones: [],
+  hijitos: [],
+  refuerzo: { ultimo: null, leccionesAlUltimo: 0, fallidas: [] },
 }
 
 export interface Resumen {
@@ -65,6 +70,16 @@ interface Acciones {
   borrarColeccion: (id: string) => void
   /** Agrega la planta a la colección o la saca si ya estaba */
   alternarEnColeccion: (id: string, plantaId: string) => void
+  /** Empieza a seguir un hijito desde hoy (o desde `inicio`). Devuelve false si el nombre está vacío o ya hay demasiados. */
+  agregarHijito: (h: { plantaId: string | null; nombre: string; medio: Hijito['medio']; inicio?: string }) => boolean
+  /** Anota que hoy se le cambió el agua, se le vieron raíces o pasó a maceta */
+  marcarHijito: (id: string, que: 'agua' | 'raices' | 'maceta') => void
+  borrarHijito: (id: string) => void
+  /** Guarda qué preguntas de una lección se fallaron, para repetirlas en el refuerzo */
+  anotarRespuestas: (falladas: string[], acertadas: string[]) => void
+  completarRefuerzo: (aciertos: number, total: number, falladas: string[], acertadas: string[]) => Resumen
+  /** "Ahora no": el refuerzo vuelve a aparecer más adelante */
+  posponerRefuerzo: () => void
   reemplazarDatos: (d: DatosPersistidos) => void
   reiniciar: () => void
 }
@@ -88,6 +103,8 @@ export function soloDatos(s: Estado): DatosPersistidos {
     espacios: s.espacios,
     favoritas: s.favoritas,
     colecciones: s.colecciones,
+    hijitos: s.hijitos,
+    refuerzo: s.refuerzo,
   }
 }
 
@@ -203,6 +220,36 @@ export const useStore = create<Estado>()(
             c.id !== id ? c : { ...c, plantas: c.plantas.includes(plantaId) ? c.plantas.filter((x) => x !== plantaId) : [plantaId, ...c.plantas].slice(0, 200) },
           ),
         })),
+
+      agregarHijito: ({ plantaId, nombre, medio, inicio }) => {
+        const n = nombre.trim().slice(0, 40)
+        if (!n || get().hijitos.length >= MAX_HIJITOS) return false
+        const dia = inicio ?? hoyLocal()
+        const id = `hij-${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`
+        set((s) => ({ hijitos: [{ id, plantaId, nombre: n, medio, inicio: dia, agua: dia, raices: null, maceta: null }, ...s.hijitos] }))
+        return true
+      },
+      marcarHijito: (id, que) => set((s) => ({ hijitos: s.hijitos.map((h) => (h.id === id ? { ...h, [que]: hoyLocal() } : h)) })),
+      borrarHijito: (id) => set((s) => ({ hijitos: s.hijitos.filter((h) => h.id !== id) })),
+
+      anotarRespuestas: (falladas, acertadas) => set((s) => ({ refuerzo: { ...s.refuerzo, fallidas: actualizarFallidas(s.refuerzo.fallidas, falladas, acertadas) } })),
+
+      completarRefuerzo: (aciertos, total, falladas, acertadas) => {
+        const s = get()
+        const hoy = hoyLocal()
+        const xpGanada = xpDeLeccion(XP_REFUERZO, aciertos)
+        const racha = sumarARacha(s.racha, hoy)
+        const { insignias, nuevas } = conInsignias(s.insignias, { ...s, racha }, hoy)
+        const xp = s.xp + xpGanada
+        set({
+          xp,
+          racha,
+          insignias,
+          refuerzo: { ultimo: hoy, leccionesAlUltimo: leccionesHechas(s.completadas).length, fallidas: actualizarFallidas(s.refuerzo.fallidas, falladas, acertadas) },
+        })
+        return { xpGanada, aciertos, total, insigniasNuevas: nuevas, subioDeNivel: nivelPara(xp).indice > nivelPara(s.xp).indice, rachaDias: racha.dias }
+      },
+      posponerRefuerzo: () => set((s) => ({ refuerzo: { ...s.refuerzo, ultimo: hoyLocal(), leccionesAlUltimo: leccionesHechas(s.completadas).length } })),
 
       reemplazarDatos: (d) => set({ ...d }),
       reiniciar: () => set({ ...DATOS_INICIALES }),

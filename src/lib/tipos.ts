@@ -101,6 +101,35 @@ export interface DatosPersistidos {
   favoritas: string[]
   /** Grupos de plantas con nombre propio (tipo colecciones de Instagram) */
   colecciones: Coleccion[]
+  /** Esquejes e hijitos que se están enraizando en casa */
+  hijitos: Hijito[]
+  refuerzo: Refuerzo
+}
+
+/** Un esqueje o hijito en seguimiento. Las fechas son AAAA-MM-DD, hora local. */
+export interface Hijito {
+  id: string
+  /** Planta del catálogo de la que salió, si se eligió una */
+  plantaId: string | null
+  nombre: string
+  medio: 'agua' | 'tierra'
+  inicio: string
+  /** Último cambio de agua (arranca igual que `inicio`) */
+  agua: string
+  /** Día en que se le vieron raíces */
+  raices: string | null
+  /** Día en que pasó a su maceta: ahí termina el seguimiento */
+  maceta: string | null
+}
+
+/** Quiz de refuerzo: cuándo fue el último y qué preguntas conviene repetir */
+export interface Refuerzo {
+  /** Día del último refuerzo hecho o pospuesto */
+  ultimo: string | null
+  /** Cuántas lecciones había completadas en ese momento */
+  leccionesAlUltimo: number
+  /** Preguntas falladas, como `<leccion>:<posición>`; salen de la lista al acertarlas */
+  fallidas: string[]
 }
 
 export interface Coleccion {

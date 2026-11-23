@@ -38,7 +38,7 @@ const migrado = () => {
 
 describe('migración v1 → v2', () => {
   it('el resultado es un estado válido de la versión actual', () => {
-    expect(VERSION_DATOS).toBe(4)
+    expect(VERSION_DATOS).toBe(5)
     expect(esquemaDatos.safeParse(migrar(structuredClone(v1), 1)).success).toBe(true)
   })
 
@@ -109,7 +109,7 @@ describe('migración v1 → v2', () => {
 
   it('un estado sin onboarding migra sin inventar espacios', () => {
     const vacio = { onboardingCompleto: false, respuestas: null, perfil: null, mascotas: { tipo: 'ninguna' }, completadas: {}, salteadas: [], xp: 0, racha: { dias: 0, ultima: null }, insignias: {}, semillas: [], espacios: [] }
-    expect(esquemaDatos.parse(migrar(vacio, 1))).toEqual({ ...vacio, favoritas: [], colecciones: [] })
+    expect(esquemaDatos.parse(migrar(vacio, 1))).toEqual({ ...vacio, favoritas: [], colecciones: [], hijitos: [], refuerzo: { ultimo: null, leccionesAlUltimo: 0, fallidas: [] } })
   })
 
   it('renombra la unidad "agua" si estaba salteada o con semilla', () => {
@@ -188,5 +188,35 @@ describe('migración v3 → v4', () => {
   it('si ya traía colecciones, las conserva', () => {
     const cols = [{ id: 'col-a', nombre: 'Sala', plantas: ['monstera'] }]
     expect(esquemaDatos.parse(migrar({ ...v3(), colecciones: cols }, 3)).colecciones).toEqual(cols)
+  })
+})
+
+describe('migración v4 → v5', () => {
+  const v4 = () => {
+    const { hijitos: _h, refuerzo: _r, ...base } = structuredClone(migrado())
+    return base
+  }
+
+  it('agrega hijitos vacíos y un refuerzo que cuenta desde las lecciones ya hechas', () => {
+    const d = esquemaDatos.parse(migrar(v4(), 4))
+    expect(d.hijitos).toEqual([])
+    // 8 lecciones y 1 repaso en el estado de partida: el repaso no cuenta
+    expect(d.refuerzo).toEqual({ ultimo: null, leccionesAlUltimo: 8, fallidas: [] })
+    expect(d.xp).toBe(312)
+    expect(d.semillas).toEqual(['basico'])
+  })
+
+  it('un backup de la versión 4 se importa', () => {
+    const r = leerBackup(JSON.stringify({ app: 'plantitas', version: 4, exportado: '2026-11-22T12:00:00.000Z', datos: v4() }))
+    expect(r.ok).toBe(true)
+    if (r.ok) expect(r.datos.hijitos).toEqual([])
+  })
+
+  it('si ya traía hijitos y refuerzo, los conserva', () => {
+    const hijitos = [{ id: 'hij-a', plantaId: null, nombre: 'Del balcón', medio: 'tierra', inicio: '2026-11-01', agua: '2026-11-01', raices: '2026-11-20', maceta: null }]
+    const refuerzo = { ultimo: '2026-11-20', leccionesAlUltimo: 5, fallidas: ['luz-1:0'] }
+    const d = esquemaDatos.parse(migrar({ ...v4(), hijitos, refuerzo }, 4))
+    expect(d.hijitos).toEqual(hijitos)
+    expect(d.refuerzo).toEqual(refuerzo)
   })
 })
