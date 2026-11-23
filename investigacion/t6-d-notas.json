@@ -1,0 +1,221 @@
+{
+  "fuentes": [
+    {
+      "org": "NC State Extension",
+      "titulo": "Maranta leuconeura",
+      "url": "https://plants.ces.ncsu.edu/plants/maranta-leuconeura/",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz, riego, humedad, hábito, propagación por división, tamaño",
+      "usado_en": "maranta"
+    },
+    {
+      "org": "University of Illinois Extension",
+      "titulo": "Prayer Plant",
+      "url": "https://extension.illinois.edu/houseplants/prayer-plant",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz, riego, humedad, sustrato",
+      "usado_en": "maranta"
+    },
+    {
+      "org": "Brooklyn Botanic Garden",
+      "titulo": "The Wonderful World of Calatheas",
+      "url": "https://www.bbg.org/article/the_wonderful_world_of_calatheas",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz, humedad, sustrato, división en primavera, calateas no tóxicas",
+      "usado_en": "calatea-orbifolia, maranta"
+    },
+    {
+      "org": "NC State Extension",
+      "titulo": "Goeppertia orbifolia",
+      "url": "https://plants.ces.ncsu.edu/plants/goeppertia-orbifolia/",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Cuidados completos, división en primavera, no tóxica",
+      "usado_en": "calatea-orbifolia"
+    },
+    {
+      "org": "RHS",
+      "titulo": "Goeppertia kegeljanii (guía del género)",
+      "url": "https://www.rhs.org.uk/plants/386632/goeppertia-kegeljanii-network-pp0005/details",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz, riego, humedad, división a fines de primavera, sin poda",
+      "usado_en": "calatea-orbifolia"
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Calathea (Calathea spp.)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/Calathea",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Género Calathea no tóxico para perros, gatos y caballos",
+      "usado_en": "calatea-orbifolia"
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Prayer Plant (Calathea insignis)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/prayer-plant",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Se abrió: corresponde a Calathea insignis (lista 'Maranta' como nombre común); NO se usó como ficha de Maranta leuconeura",
+      "usado_en": "maranta (descartada)"
+    },
+    {
+      "org": "NC State Extension",
+      "titulo": "Peperomia argyreia",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia-argyreia/",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz, riego, sustrato, hábito, propagación, no tóxica",
+      "usado_en": "peperomia-argyreia"
+    },
+    {
+      "org": "Clemson HGIC",
+      "titulo": "Peperomia (Peperomia spp.) indoor plant care",
+      "url": "https://hgic.clemson.edu/factsheet/peperomia-peperomia-spp-indoor-plant-care-and-growing-guide/",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz, riego, sustrato, poda, propagación por hoja y tallo",
+      "usado_en": "peperomia-argyreia"
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Watermelon Peperomia (Peperomia argyreia)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/watermelon-peperomia",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "No tóxica para perros ni gatos",
+      "usado_en": "peperomia-argyreia"
+    },
+    {
+      "org": "NC State Extension",
+      "titulo": "Syngonium podophyllum",
+      "url": "https://plants.ces.ncsu.edu/plants/syngonium-podophyllum/",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz, humedad, hábito, poda, propagación, toxicidad media",
+      "usado_en": "singonio"
+    },
+    {
+      "org": "Clemson HGIC",
+      "titulo": "Arrowhead Vine (Syngonium spp.) indoor care",
+      "url": "https://hgic.clemson.edu/factsheet/arrowhead-vine-syngonium-spp-indoor-care-growing-tips-plant-guide/",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz, riego, humedad, sustrato, tutor",
+      "usado_en": "singonio"
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Arrow-Head Vine (Syngonium podophyllum)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/arrow-head-vine",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Tóxica para perros y gatos, oxalatos, síntomas",
+      "usado_en": "singonio"
+    },
+    {
+      "org": "Pet Poison Helpline",
+      "titulo": "Arrowhead Vine",
+      "url": "https://www.petpoisonhelpline.com/poison/arrowhead-vine",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Tóxica por cristales de oxalato; irritación de boca y garganta",
+      "usado_en": "singonio"
+    }
+  ],
+  "revisar": [
+    {
+      "id": "maranta",
+      "dato": "toxicidad_gato / toxicidad_perro",
+      "motivo": "ASPCA no tiene ficha de Maranta leuconeura (su 'Prayer Plant' es Calathea insignis). Marcada no_verificada, sin deducir de parientes.",
+      "fuentes": [
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/prayer-plant"
+      ]
+    },
+    {
+      "id": "maranta",
+      "dato": "cultivo (poda y época de propagación)",
+      "motivo": "NC State y Illinois no tratan poda ni época; confianza baja, meses vacíos.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/maranta-leuconeura/"
+      ]
+    },
+    {
+      "id": "maranta",
+      "dato": "sustrato",
+      "motivo": "Fuentes solo dicen sustrato común que drene bien; confianza media.",
+      "fuentes": [
+        "https://extension.illinois.edu/houseplants/prayer-plant"
+      ]
+    },
+    {
+      "id": "calatea-orbifolia",
+      "dato": "toxicidad",
+      "motivo": "ASPCA solo lista el género Calathea (spp.), no la especie; NC State sí la marca no tóxica. Confianza alta pero a nivel de género en ASPCA.",
+      "fuentes": [
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/Calathea",
+        "https://plants.ces.ncsu.edu/plants/goeppertia-orbifolia/"
+      ]
+    },
+    {
+      "id": "calatea-orbifolia",
+      "dato": "horas_sol_directo",
+      "motivo": "NC State menciona 2 a 6 h (sombra parcial) y también quemaduras con sol directo; se tomó 0.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/goeppertia-orbifolia/"
+      ]
+    },
+    {
+      "id": "peperomia-argyreia",
+      "dato": "luz.confianza_sol / horas_sol_directo",
+      "motivo": "NC State 2 a 6 h vs Clemson (género) sol quema; se tomó 0, confianza baja.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/peperomia-argyreia/",
+        "https://hgic.clemson.edu/factsheet/peperomia-peperomia-spp-indoor-plant-care-and-growing-guide/"
+      ]
+    },
+    {
+      "id": "peperomia-argyreia",
+      "dato": "humedad",
+      "motivo": "NC State no la trata; Clemson solo sugiere humidificador en invierno. Confianza baja.",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/peperomia-peperomia-spp-indoor-plant-care-and-growing-guide/"
+      ]
+    },
+    {
+      "id": "peperomia-argyreia",
+      "dato": "cultivo propagación",
+      "motivo": "Clemson (género) y NC State coinciden en hoja y esqueje; agua solo documentada para otras especies (en_agua false); sin época.",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/peperomia-peperomia-spp-indoor-plant-care-and-growing-guide/"
+      ]
+    },
+    {
+      "id": "singonio",
+      "dato": "riego",
+      "motivo": "Solo Clemson da una regla (secar apenas entre riegos); NC State solo dice suelo húmedo. Confianza media.",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/arrowhead-vine-syngonium-spp-indoor-care-growing-tips-plant-guide/"
+      ]
+    },
+    {
+      "id": "singonio",
+      "dato": "cultivo propagación",
+      "motivo": "Solo NC State (división, acodo, esquejes); Clemson no trata propagación. En agua y meses no verificados.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/syngonium-podophyllum/"
+      ]
+    },
+    {
+      "id": "singonio",
+      "dato": "gravedad",
+      "motivo": "ASPCA no gradúa; NC State dice media. Se dejó moderada.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/syngonium-podophyllum/"
+      ]
+    },
+    {
+      "id": "todas",
+      "dato": "otros_nombres",
+      "motivo": "Nombres populares locales (Planta de la oración, Nefitis, Begonia sandía, etc.) no confirmados por fuentes abiertas; Begonia sandía lo menciona ASPCA como 'Watermelon Begonia'.",
+      "fuentes": []
+    }
+  ],
+  "no_pude_abrir": [
+    "rhs.org.uk growing-guide de maranta, peperomia y syngonium (404)",
+    "mrec.ifas.ufl.edu/Foliage/folnotes/maranta.htm (404)",
+    "lancaster.unl.edu ToxicityHouseplants (404)",
+    "fairfaxgardening.org/prayerplants (contenido vacío)",
+    "ASPCA URLs inventadas (maranta-prayer-plant, arrowhead-vine) devolvieron página genérica sin ficha"
+  ]
+}

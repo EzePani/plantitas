@@ -1,0 +1,172 @@
+{
+  "maranta": {
+    "porte": [
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": "No necesita tutor: crece bajita y se va abriendo a lo ancho."
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo sacá las hojas secas o dañadas con una tijera limpia."
+    },
+    "propagacion": {
+      "metodos": [
+        "division"
+      ],
+      "en_agua": false,
+      "meses": [],
+      "detalle": "Se multiplica dividiendo la mata por los rizomas. Hacelo con cuidado cuando la trasplantes, y dejá que cada parte tenga raíces propias."
+    },
+    "fuentes": [
+      {
+        "titulo": "Maranta leuconeura (Prayer Plant)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/maranta-leuconeura/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "The Wonderful World of Calatheas",
+        "org": "Brooklyn Botanic Garden",
+        "url": "https://www.bbg.org/article/the_wonderful_world_of_calatheas",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "baja",
+    "adaptaciones": [
+      "Las fuentes no dan época para dividir la maranta; el BBG dice primavera para las calateas (familia Marantaceae), por eso no se cargaron meses."
+    ]
+  },
+  "calatea-orbifolia": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": "No necesita tutor: crece en mata con hojas grandes que se sostienen solas."
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo sacá las hojas secas o dañadas, y pasales un trapo húmedo para quitar el polvo."
+    },
+    "propagacion": {
+      "metodos": [
+        "division"
+      ],
+      "en_agua": false,
+      "meses": [
+        10,
+        11
+      ],
+      "detalle": "Se multiplica dividiendo la mata. Regá dos días antes, separala con cuidado por sus divisiones naturales y plantá cada parte en su maceta."
+    },
+    "fuentes": [
+      {
+        "titulo": "Goeppertia orbifolia",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/goeppertia-orbifolia/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Goeppertia kegeljanii (Network) 'Pp0005' (guía de cultivo del género)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/386632/goeppertia-kegeljanii-network-pp0005/details",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "The Wonderful World of Calatheas",
+        "org": "Brooklyn Botanic Garden",
+        "url": "https://www.bbg.org/article/the_wonderful_world_of_calatheas",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "NC State y BBG dicen división en primavera y RHS a fines de primavera (hemisferio norte): se pasó a octubre y noviembre."
+    ]
+  },
+  "peperomia-argyreia": {
+    "porte": [
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": "No necesita tutor: es una mata baja y compacta."
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "Sacá las hojas viejas cuando haga falta, y si querés que ramifique, cortá un tallo justo encima de un nudo. Podés sacar las espigas de flores para que gaste energía en las hojas."
+    },
+    "propagacion": {
+      "metodos": [
+        "hoja",
+        "esqueje_tierra",
+        "division"
+      ],
+      "en_agua": false,
+      "meses": [],
+      "detalle": "Se multiplica con una hoja entera con un buen trozo de pecíolo (el 'palito'), con un esqueje de tallo o dividiendo la mata. Dejala en un lugar luminoso, sin sol directo."
+    },
+    "fuentes": [
+      {
+        "titulo": "Peperomia argyreia",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/peperomia-argyreia/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Peperomia (Peperomia spp.) indoor plant care and growing guide",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/peperomia-peperomia-spp-indoor-plant-care-and-growing-guide/",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Ninguna fuente da una época para propagar, así que no se cargaron meses."
+    ]
+  },
+  "singonio": {
+    "porte": [
+      "trepadora",
+      "colgante"
+    ],
+    "tutor": {
+      "recomendado": "opcional",
+      "detalle": "De joven queda compacta o colgante; cuando alarga los tallos, un tutor de musgo, un enrejado o una caña la ayuda a trepar."
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "Si querés que siga compacta y con forma de mata, cortá los tallos largos a medida que aparecen."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_tierra",
+        "division",
+        "acodo"
+      ],
+      "en_agua": false,
+      "meses": [],
+      "detalle": "Se multiplica con esquejes de tallo, dividiendo la mata o por acodo. Ninguna fuente da una época precisa."
+    },
+    "fuentes": [
+      {
+        "titulo": "Syngonium podophyllum",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/syngonium-podophyllum/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Arrowhead Vine (Syngonium spp.) indoor care and growing tips",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/arrowhead-vine-syngonium-spp-indoor-care-growing-tips-plant-guide/",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Ninguna fuente da época para propagar, así que no se cargaron meses."
+    ]
+  }
+}

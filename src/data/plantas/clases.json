@@ -98,5 +98,36 @@
   ],
   "orejas-de-conejo-canela": [
     "cactus"
+  ],
+  "maranta": [
+    "follaje"
+  ],
+  "calatea-orbifolia": [
+    "follaje"
+  ],
+  "peperomia-argyreia": [
+    "follaje"
+  ],
+  "singonio": [
+    "follaje"
+  ],
+  "dracena-marginata": [
+    "follaje"
+  ],
+  "ficus-benjamina": [
+    "follaje"
+  ],
+  "pata-de-elefante": [
+    "suculenta"
+  ],
+  "hoya": [
+    "follaje",
+    "con_flor"
+  ],
+  "tradescantia": [
+    "follaje"
+  ],
+  "cola-de-burro": [
+    "suculenta"
   ]
 }

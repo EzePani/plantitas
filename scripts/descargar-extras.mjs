@@ -1,7 +1,9 @@
 // Descarga fotos extra (la 2ª y 3ª de cada planta) desde Wikimedia Commons, solo licencias abiertas.
 // Las guarda en public/img/extra/<id>-<n>.webp y anota la atribución en el archivo de salida.
 //
-// Uso: node scripts/descargar-extras.mjs <elegidas.json> <salida.json>
+// Uso: node scripts/descargar-extras.mjs <elegidas.json> <salida.json> [desde]
+//   desde: número de la primera foto (por defecto 2, porque la 1 es la principal de plants.json).
+//          Con 1, la primera foto de cada planta es la principal: queda en public/img/extra/<id>-1.webp.
 //   elegidas.json: { "potus": ["File:Uno.jpg", "File:Dos.jpg"] }
 //   salida.json:   { "potus": [{ archivo, autor, licencia, url }] }  (se pisa solo lo de las plantas pedidas)
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
@@ -14,7 +16,8 @@ const SALIDA = 'public/img/extra'
 // CC0, dominio público, CC BY y CC BY-SA (cualquier versión). Nada de NC ni ND.
 const LICENCIA_OK = /^(cc0|public domain|pd\b|cc[ -]by(-sa)?[ -]\d)/i
 
-const [archivoElegidas, archivoSalida] = process.argv.slice(2)
+const [archivoElegidas, archivoSalida, desdeArg] = process.argv.slice(2)
+const DESDE = Number(desdeArg ?? 2)
 if (!archivoElegidas || !archivoSalida) throw new Error('Uso: node scripts/descargar-extras.mjs <elegidas.json> <salida.json>')
 
 const limpiar = (html = '') =>
@@ -57,7 +60,7 @@ for (const [id, titulos] of Object.entries(elegidas)) {
       const c = await porTitulo(titulo)
       if (!c) throw new Error('no existe en Commons')
       if (!c.ok) throw new Error(`licencia no permitida: ${c.licencia || 'sin dato'}`)
-      const n = fotos.length + 2
+      const n = fotos.length + DESDE
       const original = Buffer.from(await (await pedir(c.miniatura)).arrayBuffer())
       await sharp(original).rotate().resize({ width: ANCHO, withoutEnlargement: true }).webp({ quality: 72 }).toFile(`${SALIDA}/${id}-${n}.webp`)
       fotos.push({ archivo: `img/extra/${id}-${n}.webp`, autor: c.autor.slice(0, 120), licencia: c.licencia, url: c.pagina })

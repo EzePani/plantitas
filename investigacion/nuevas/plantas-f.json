@@ -1,0 +1,469 @@
+[
+  {
+    "id": "hoya",
+    "nombre_comun": "Hoya",
+    "otros_nombres": [
+      "Flor de cera",
+      "Planta de cera"
+    ],
+    "nombre_cientifico": "Hoya carnosa",
+    "familia": "Apocynaceae",
+    "grupo": "con_flor",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 2,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Le gusta la luz brillante sin sol fuerte: cerca de una ventana luminosa, con un poco de sol suave de mañana. Con poca luz crece, pero florece menos.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá a fondo cuando la tierra esté seca en buena parte, y nunca dejes agua en el plato.",
+      "invierno": "Regá poco: dejá que la tierra se seque casi del todo entre riegos.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Agradece aire húmedo. Si tu casa está seca, sobre todo con la calefacción, ayuda un plato con piedritas y agua debajo de la maceta (sin que el agua toque la base).",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Mezcla suelta y que drene muy bien, por ejemplo sustrato universal con corteza de pino y perlita, en maceta con agujeros.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 4,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Las fuentes piden cuidarla de temperaturas bajo unos 10 °C. En Buenos Aires puede pasar el verano afuera, a media sombra, pero entrala antes de que refresquen las noches."
+    },
+    "tamano": "mediana",
+    "dificultad": "facil",
+    "tip": "Cuando le salgan los racimos de flores, no los cortes ni muevas la planta de lugar: vuelve a florecer en los mismos puntos año tras año.",
+    "clases": [
+      "follaje",
+      "con_flor"
+    ],
+    "cultivo": {
+      "porte": [
+        "trepadora",
+        "colgante"
+      ],
+      "tutor": {
+        "recomendado": "si",
+        "detalle": "Si querés que trepe, dale un aro de alambre, un enrejado o cañas; si no, la podés dejar caer en una maceta colgante."
+      },
+      "poda": {
+        "meses": [
+          8,
+          9
+        ],
+        "detalle": "Recortá apenas a fines de invierno o principio de primavera para sacar ramas débiles, y no cortes los pedúnculos donde ya hubo flores. No le gusta la poda fuerte."
+      },
+      "propagacion": {
+        "metodos": [
+          "esqueje_agua",
+          "acodo"
+        ],
+        "en_agua": true,
+        "meses": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "detalle": "Cortá un esqueje de una rama del año anterior y ponelo en agua: en dos o tres semanas tiene raíces y lo pasás a maceta. También podés enterrar una rama sin cortarla hasta que enraíce."
+      },
+      "fuentes": [
+        {
+          "titulo": "Hoya carnosa (Wax Plant)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/hoya-carnosa/",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Hoya growing guide",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/hoya/growing-guide",
+          "fecha_consulta": "2026-11-23"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "RHS recomienda podar a fines de invierno o principio de primavera y propagar en primavera o inicio de verano: se pasó a agosto y septiembre (poda) y septiembre a diciembre (propagación)."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Figura como no tóxica para gatos y perros. De todos modos, evitá que la mastiquen: la savia puede irritar la piel.",
+      "advertencia_grave": null,
+      "confianza": "media",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Wax Plant (Hoya carnosa)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/wax-plant",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Hoya carnosa (Wax Plant)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/hoya-carnosa/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Hoya carnosa (Wax Plant)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/hoya-carnosa/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Hoya growing guide",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/hoya/growing-guide",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Indoor Plants: Waxflowers (Hoya)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-plants-waxflowers-hoya",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Hoyas as houseplants",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/hoyas-as-houseplants",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: la poda y la propagación de primavera del norte pasan a septiembre a diciembre; \"de octubre a febrero\" (invierno del norte) equivale a junio a agosto.",
+      "Las fuentes piden una ventana sur, este u oeste en el norte: en Buenos Aires la más soleada es la norte, por eso se recomienda luz brillante sin sol fuerte."
+    ],
+    "discrepancias": [
+      "Riego: RHS dice tierra húmeda sin encharcar en la temporada de crecimiento; Clemson, dejarla secar del todo. Se eligió el criterio más conservador (secar en buena parte).",
+      "Sol directo: NC State habla de 2 a 6 horas afuera en media sombra y Clemson de aclimatar de a poco; se tomó 2 horas, sin sol de tarde.",
+      "ASPCA lista el cultivar Hoya carnosa \"krinkle kurl\"; NC State lista la especie. Ambos coinciden en no tóxica."
+    ]
+  },
+  {
+    "id": "tradescantia",
+    "nombre_comun": "Tradescantia",
+    "otros_nombres": [
+      "Amor de hombre",
+      "Judío errante"
+    ],
+    "nombre_cientifico": "Tradescantia zebrina",
+    "familia": "Commelinaceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 2,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Prefiere luz brillante filtrada. Con poca luz pierde las hojas de abajo y los colores se apagan; con sol fuerte se decoloran.",
+      "confianza": "media",
+      "confianza_sol": "baja"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá con frecuencia y dejá que la tierra se seque un poco entre riegos; no la dejes seca por mucho tiempo.",
+      "invierno": "Regá menos: esperá a que la tierra se seque bastante antes de volver a regar.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Se banca la humedad normal de una casa, y también el aire más húmedo.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato universal suelto que drene bien, en maceta con agujeros.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 3,
+    "apta": {
+      "interior": true,
+      "balcon": true,
+      "nota_balcon": "Aguanta bien el clima templado de Buenos Aires en balcón con luz filtrada o media sombra. Si anuncian heladas, entrala porque es sensible al frío."
+    },
+    "tamano": "chica",
+    "dificultad": "facil",
+    "tip": "Si se pone larguirucha y pierde hojas abajo, podala y usá los trozos como esquejes: en poco tiempo tenés una maceta tupida.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "colgante"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [
+          9,
+          10,
+          11
+        ],
+        "detalle": "Recortala fuerte en primavera para que se ponga más tupida, y pellizcá las puntas durante el año para que ramifique."
+      },
+      "propagacion": {
+        "metodos": [
+          "esqueje_agua",
+          "esqueje_tierra"
+        ],
+        "en_agua": true,
+        "meses": [
+          11,
+          12
+        ],
+        "detalle": "Cortá puntas de unos 8 a 10 cm, sacales las hojas de abajo y ponelas en agua o directo en tierra húmeda: enraízan en pocas semanas. Conviene plantar varias juntas en la misma maceta."
+      },
+      "fuentes": [
+        {
+          "titulo": "Tradescantia zebrina",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/tradescantia-zebrina/",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "How do I care for my Tradescantia zebrina houseplant?",
+          "org": "New York Botanical Garden",
+          "url": "https://libanswers.nybg.org/faq/222932",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "How to take cuttings from houseplants",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-take-cuttings-from-houseplants",
+          "fecha_consulta": "2026-11-23"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "NC State recomienda podar fuerte en primavera: se pasó a septiembre a noviembre.",
+        "RHS dice que la mejor época para esquejes es fines de primavera y principios de verano: se pasó a noviembre y diciembre."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "leve",
+      "sintomas": "Irritación en la piel (dermatitis) por contacto con la savia; si la comen, molestias en la boca y el estómago.",
+      "partes": "La savia de tallos y hojas.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Ponela en alto o en una maceta colgante donde no lleguen. Si tu mascota la mordió o tiene la piel irritada, consultá con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "media",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Inch Plant (Tradescantia)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/wandering-jew",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Tradescantia zebrina",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/tradescantia-zebrina/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Tradescantia zebrina",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/tradescantia-zebrina/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "How do I care for my Tradescantia zebrina houseplant?",
+        "org": "New York Botanical Garden",
+        "url": "https://libanswers.nybg.org/faq/222932",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: poda de primavera a septiembre a noviembre; esquejes de fines de primavera a noviembre y diciembre; \"menos riego en invierno\" se entiende como junio a agosto.",
+      "NC State la da como rústica en zonas USDA 9a a 11b; se tradujo a cuidarla de las heladas en Buenos Aires."
+    ],
+    "discrepancias": [
+      "ASPCA nombra la especie como \"Tradescantia flumeninsis\" (T. fluminensis), no zebrina; NC State sí cubre T. zebrina y coincide (dermatitis, irritación). Se marcó tóxica con gravedad leve y confianza media.",
+      "Riego: NC State dice dejar secar entre riegos; NYBG dice mantener bien húmeda mientras crece. Se eligió el término medio, más conservador.",
+      "Horas de sol: ninguna fuente da cifras; el 2 es una estimación conservadora."
+    ]
+  },
+  {
+    "id": "cola-de-burro",
+    "nombre_comun": "Cola de burro",
+    "otros_nombres": [
+      "Sedum cola de burro"
+    ],
+    "nombre_cientifico": "Sedum morganianum",
+    "familia": "Crassulaceae",
+    "grupo": "suculenta_cactus",
+    "luz_requerida": "directa",
+    "luz_tolerada": [
+      "indirecta_brillante"
+    ],
+    "horas_sol_directo": 4,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Quiere mucha luz: ventana luminosa con algo de sol directo. Con poca luz los tallos se estiran y las hojas se achican; con sol muy fuerte se ponen amarillentas.",
+      "confianza": "media",
+      "confianza_sol": "baja"
+    },
+    "riego": {
+      "nivel": "bajo",
+      "verano": "Regá cuando la tierra esté casi seca del todo; en interior puede alcanzar con un riego cada tanto.",
+      "invierno": "Regá apenas lo justo para que la tierra no se seque por completo.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "baja",
+      "detalle": "Las fuentes no hablan de humedad; como suculenta, no necesita aire húmedo. Lo que sí quiere es ventilación.",
+      "confianza": "baja"
+    },
+    "sustrato": {
+      "tipo": "Mezcla para cactus, o sustrato universal con perlita o piedra pómez, que drene muy bien. Sin arena fina.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 4,
+    "apta": {
+      "interior": true,
+      "balcon": true,
+      "nota_balcon": "Puede pasar los meses cálidos en el balcón, con sol que vaya subiendo de a poco para que no se queme. Entrala cuando las noches bajen de unos 4 °C porque no aguanta heladas."
+    },
+    "tamano": "mediana",
+    "dificultad": "media",
+    "tip": "Las hojitas se caen con solo rozarlas: ponela en un lugar donde nadie pase, y si se caen, plantalas, que enraízan.",
+    "clases": [
+      "suculenta"
+    ],
+    "cultivo": {
+      "porte": [
+        "colgante"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: solo sacá las hojas secas. Los tallos que quedan pelados pueden volver a brotar."
+      },
+      "propagacion": {
+        "metodos": [
+          "esqueje_tierra",
+          "hoja",
+          "division"
+        ],
+        "en_agua": false,
+        "meses": [],
+        "detalle": "Cortá un tallo, sacale las hojas de abajo, dejalo secar un día o dos y plantalo en sustrato que drene. Las hojas caídas también enraízan, aunque más despacio. Las fuentes no marcan una época."
+      },
+      "fuentes": [
+        {
+          "titulo": "Sedum morganianum (Burro's Tail)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/sedum-morganianum/",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Burro's tail, Sedum morganianum",
+          "org": "University of Wisconsin-Madison Extension",
+          "url": "https://hort.extension.wisc.edu/articles/burros-tail-sedum-morganianum/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ],
+      "confianza": "media",
+      "adaptaciones": [
+        "No se convirtió ninguna época: las fuentes no la dan. Se dejó la propagación sin meses."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "No es tóxica para gatos ni perros. Igual, si comen mucha cantidad puede caerles mal al estómago, y las hojitas se caen fácil: ponela donde no la tiren.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Burro's Tail (Sedum morganianum)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/burros-tail",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Sedum morganianum (Burro's Tail)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/sedum-morganianum/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Sedum morganianum (Burro's Tail)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/sedum-morganianum/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Burro's tail, Sedum morganianum",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/burros-tail-sedum-morganianum/",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "baja",
+    "adaptaciones": [
+      "Las fuentes hablan de \"temporada de crecimiento\", \"otoño\" e \"invierno\" sin fechas: se tradujo invierno a junio a agosto.",
+      "Wisconsin permite sacarla afuera con noches de más de 40 °F: se tradujo a unos 4 °C."
+    ],
+    "discrepancias": [
+      "Humedad: ninguna fuente la trata; se dejó \"baja\" con confianza baja, por ser suculenta.",
+      "Luz: Wisconsin dice luz brillante a sol pleno; NC State, al menos sol parcial. Se tomaron 4 horas de sol directo, sin sol de tarde fuerte, por ser el criterio conservador."
+    ]
+  }
+]

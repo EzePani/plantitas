@@ -1,0 +1,596 @@
+[
+  {
+    "id": "maranta",
+    "nombre_comun": "Maranta",
+    "otros_nombres": [
+      "Planta de la oración",
+      "Planta que reza"
+    ],
+    "nombre_cientifico": "Maranta leuconeura",
+    "familia": "Marantaceae",
+    "grupo": "amiga_humedad",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Le va mejor con luz brillante pero filtrada, lejos del sol directo, que le decolora y quema las hojas. Aguanta luz media o baja, aunque ahí crece más lento.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Mantené la tierra apenas húmeda todo el tiempo, sin que quede encharcada.",
+      "invierno": "Dejá que la tierra se seque un poco más entre riegos y regá menos seguido.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Necesita aire húmedo: con la calefacción del invierno se le secan las puntas. Ayuda un humidificador o ponerla cerca de otras plantas.",
+      "confianza": "alta"
+    },
+    "sustrato": {
+      "tipo": "Sustrato común para macetas, suelto, que drene bien y en maceta con agujeros.",
+      "confianza": "media"
+    },
+    "tolerancia_descuido": 2,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "No aguanta el frío ni las corrientes de aire, y el sol directo le quema las hojas: mejor adentro todo el año, o en un balcón cubierto solo en los días cálidos."
+    },
+    "tamano": "chica",
+    "dificultad": "media",
+    "tip": "Si la ves con las hojas dobladas hacia arriba de noche, tranqui: es lo normal, así se mueve esta planta.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "roseta"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": "No necesita tutor: crece bajita y se va abriendo a lo ancho."
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: solo sacá las hojas secas o dañadas con una tijera limpia."
+      },
+      "propagacion": {
+        "metodos": [
+          "division"
+        ],
+        "en_agua": false,
+        "meses": [],
+        "detalle": "Se multiplica dividiendo la mata por los rizomas. Hacelo con cuidado cuando la trasplantes, y dejá que cada parte tenga raíces propias."
+      },
+      "fuentes": [
+        {
+          "titulo": "Maranta leuconeura (Prayer Plant)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/maranta-leuconeura/",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "The Wonderful World of Calatheas",
+          "org": "Brooklyn Botanic Garden",
+          "url": "https://www.bbg.org/article/the_wonderful_world_of_calatheas",
+          "fecha_consulta": "2026-11-23"
+        }
+      ],
+      "confianza": "baja",
+      "adaptaciones": [
+        "Las fuentes no dan época para dividir la maranta; el BBG dice primavera para las calateas (familia Marantaceae), por eso no se cargaron meses."
+      ]
+    },
+    "mascotas": {
+      "toxicidad_gato": "no_verificada",
+      "toxicidad_perro": "no_verificada",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "No encontramos una ficha confiable para esta especie, así que no podemos asegurar que sea segura: por las dudas, mantenela fuera del alcance de tu mascota.",
+      "advertencia_grave": null,
+      "confianza": "baja",
+      "fuentes_toxicidad": []
+    },
+    "fuentes": [
+      {
+        "titulo": "Maranta leuconeura (Prayer Plant)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/maranta-leuconeura/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Prayer Plant",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/prayer-plant",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "The Wonderful World of Calatheas",
+        "org": "Brooklyn Botanic Garden",
+        "url": "https://www.bbg.org/article/the_wonderful_world_of_calatheas",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: crecimiento de septiembre a marzo e invierno de junio a agosto (riego más espaciado)."
+    ],
+    "discrepancias": [
+      "Luz: NC State dice que tolera luz baja a media; Illinois habla de luz brillante filtrada. Se tomó luz brillante indirecta como ideal y sin horas de sol directo.",
+      "Toxicidad: la ficha de ASPCA llamada 'Prayer Plant' corresponde a Calathea insignis, no a Maranta leuconeura, así que no se usó para esta especie."
+    ],
+    "imagen": null,
+    "atribucion_imagen": null,
+    "fotos_extra": []
+  },
+  {
+    "id": "calatea-orbifolia",
+    "nombre_comun": "Calatea orbifolia",
+    "otros_nombres": [
+      "Calathea orbifolia"
+    ],
+    "nombre_cientifico": "Goeppertia orbifolia",
+    "familia": "Marantaceae",
+    "grupo": "amiga_humedad",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Quiere luz brillante pero filtrada, sin sol directo: el sol le quema las hojas y con poca luz se le apaga el dibujo.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Mantené la tierra húmeda pero nunca empapada, y regá cuando se seque apenas la capa de arriba.",
+      "invierno": "Regá un poco menos, solo lo justo para que la tierra siga apenas húmeda.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Le gusta el aire bien húmedo (60 % o más). Con aire seco se le enrulan las hojas y se le marronean los bordes; ayuda un humidificador y evitar mojarle las hojas.",
+      "confianza": "alta"
+    },
+    "sustrato": {
+      "tipo": "Sustrato suelto, húmedo pero que drene bien, ligeramente ácido; sirve una mezcla con fibra de coco y perlita.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 1,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Es muy sensible al frío, a las corrientes y al aire seco, y el sol directo le quema las hojas: mejor dentro de casa todo el año."
+    },
+    "tamano": "mediana",
+    "dificultad": "dificil",
+    "tip": "Si se le marronean las puntas, tranqui: casi siempre es aire seco o agua de la canilla; probá con agua de lluvia o dejá reposar la del riego.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": "No necesita tutor: crece en mata con hojas grandes que se sostienen solas."
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: solo sacá las hojas secas o dañadas, y pasales un trapo húmedo para quitar el polvo."
+      },
+      "propagacion": {
+        "metodos": [
+          "division"
+        ],
+        "en_agua": false,
+        "meses": [
+          10,
+          11
+        ],
+        "detalle": "Se multiplica dividiendo la mata. Regá dos días antes, separala con cuidado por sus divisiones naturales y plantá cada parte en su maceta."
+      },
+      "fuentes": [
+        {
+          "titulo": "Goeppertia orbifolia",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/goeppertia-orbifolia/",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Goeppertia kegeljanii (Network) 'Pp0005' (guía de cultivo del género)",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/386632/goeppertia-kegeljanii-network-pp0005/details",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "The Wonderful World of Calatheas",
+          "org": "Brooklyn Botanic Garden",
+          "url": "https://www.bbg.org/article/the_wonderful_world_of_calatheas",
+          "fecha_consulta": "2026-11-23"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "NC State y BBG dicen división en primavera y RHS a fines de primavera (hemisferio norte): se pasó a octubre y noviembre."
+      ]
+    },
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Según las fuentes no es tóxica para gatos ni perros, pero si la mastican en cantidad puede caerles pesada: mejor que no la usen de snack.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Calathea (Calathea spp.)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/Calathea",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Goeppertia orbifolia",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/goeppertia-orbifolia/",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "The Wonderful World of Calatheas",
+          "org": "Brooklyn Botanic Garden",
+          "url": "https://www.bbg.org/article/the_wonderful_world_of_calatheas",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Goeppertia orbifolia",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/goeppertia-orbifolia/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Goeppertia kegeljanii (Network) 'Pp0005' (guía de cultivo del género)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/386632/goeppertia-kegeljanii-network-pp0005/details",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "The Wonderful World of Calatheas",
+        "org": "Brooklyn Botanic Garden",
+        "url": "https://www.bbg.org/article/the_wonderful_world_of_calatheas",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Estaciones convertidas: crecimiento de septiembre a marzo e invierno de junio a agosto.",
+      "El rango de 65 a 75 °F de NC State equivale a unos 18 a 24 °C."
+    ],
+    "discrepancias": [
+      "Luz: NC State menciona hasta 2 a 6 h de sol directo (sombra parcial), pero también que el sol quema las hojas; se tomó el criterio más conservador: 0 horas.",
+      "Toxicidad: ASPCA no tiene ficha de Goeppertia orbifolia, solo del género Calathea (nombre anterior de esta especie); NC State la marca no tóxica a nivel de especie."
+    ],
+    "imagen": null,
+    "atribucion_imagen": null,
+    "fotos_extra": []
+  },
+  {
+    "id": "peperomia-argyreia",
+    "nombre_comun": "Peperomia sandía",
+    "otros_nombres": [
+      "Peperomia",
+      "Begonia sandía"
+    ],
+    "nombre_cientifico": "Peperomia argyreia",
+    "familia": "Piperaceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Prefiere luz brillante filtrada, cerca de una ventana luminosa pero sin que le dé el sol de lleno, que le quema las hojas.",
+      "confianza": "media",
+      "confianza_sol": "baja"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá a fondo cuando se haya secado la parte de arriba de la tierra, y no dejes agua en el platito.",
+      "invierno": "Regá menos seguido: esperá a que la tierra se seque bien antes de volver a regar.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Se adapta al aire de casa; en invierno, con la calefacción, un humidificador le viene bien.",
+      "confianza": "baja"
+    },
+    "sustrato": {
+      "tipo": "Sustrato bien drenado, tipo mezcla para plantas de interior con algo de arena o perlita.",
+      "confianza": "media"
+    },
+    "tolerancia_descuido": 3,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "No aguanta el frío ni las corrientes de aire, y el sol directo le quema las hojas: mejor adentro, con luz brillante."
+    },
+    "tamano": "chica",
+    "dificultad": "facil",
+    "tip": "Es chiquita y aguanta estar apretada en la maceta: no hace falta cambiarla seguido, y lo que más la mata es el exceso de agua.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "roseta"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": "No necesita tutor: es una mata baja y compacta."
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "Sacá las hojas viejas cuando haga falta, y si querés que ramifique, cortá un tallo justo encima de un nudo. Podés sacar las espigas de flores para que gaste energía en las hojas."
+      },
+      "propagacion": {
+        "metodos": [
+          "hoja",
+          "esqueje_tierra",
+          "division"
+        ],
+        "en_agua": false,
+        "meses": [],
+        "detalle": "Se multiplica con una hoja entera con un buen trozo de pecíolo (el 'palito'), con un esqueje de tallo o dividiendo la mata. Dejala en un lugar luminoso, sin sol directo."
+      },
+      "fuentes": [
+        {
+          "titulo": "Peperomia argyreia",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/peperomia-argyreia/",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Peperomia (Peperomia spp.) indoor plant care and growing guide",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/factsheet/peperomia-peperomia-spp-indoor-plant-care-and-growing-guide/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ],
+      "confianza": "media",
+      "adaptaciones": [
+        "Ninguna fuente da una época para propagar, así que no se cargaron meses."
+      ]
+    },
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Según las fuentes no es tóxica para gatos ni perros, aunque si la mastican mucho puede caerles mal al estómago.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Watermelon Peperomia (Peperomia argyreia)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/watermelon-peperomia",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Peperomia argyreia",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/peperomia-argyreia/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Peperomia argyreia",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/peperomia-argyreia/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Peperomia (Peperomia spp.) indoor plant care and growing guide",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/peperomia-peperomia-spp-indoor-plant-care-and-growing-guide/",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: invierno de junio a agosto (riego más espaciado)."
+    ],
+    "discrepancias": [
+      "Sol directo: NC State indica hasta 2 a 6 h de sol directo (sombra parcial) pero prefiere luz indirecta brillante; Clemson (guía del género) dice que el sol directo quema las hojas. Se tomó el criterio más conservador: 0 horas.",
+      "Humedad y sustrato: NC State no trata la humedad y Clemson solo da datos generales del género, por eso la confianza es baja y media."
+    ],
+    "imagen": null,
+    "atribucion_imagen": null,
+    "fotos_extra": []
+  },
+  {
+    "id": "singonio",
+    "nombre_comun": "Singonio",
+    "otros_nombres": [
+      "Syngonium",
+      "Planta flecha",
+      "Nefitis"
+    ],
+    "nombre_cientifico": "Syngonium podophyllum",
+    "familia": "Araceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Le gusta la luz brillante o media, filtrada y sin sol directo, que le quema las hojas. Aguanta poca luz, pero las variedades claras pierden color y se vuelven verdes.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá cuando la tierra se seque apenas, sin dejarla seca del todo ni encharcada.",
+      "invierno": "Regá menos seguido y esperá a que se seque un poco más antes de volver a regar.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Prefiere humedad de 50 % o más, aunque tolera aire más seco. En invierno, con la calefacción, ayuda un humidificador.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato suelto y aireado, con fibra de coco o turba, perlita y vermiculita, que drene bien.",
+      "confianza": "media"
+    },
+    "tolerancia_descuido": 3,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "No aguanta el frío ni las heladas, y el sol directo le quema las hojas: puede salir al balcón en los meses cálidos, a la sombra, y volver adentro antes del invierno."
+    },
+    "tamano": "mediana",
+    "dificultad": "facil",
+    "tip": "De joven es una matita compacta y con los años se vuelve trepadora: si le ponés un tutor, trepa y da hojas más grandes.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "trepadora",
+        "colgante"
+      ],
+      "tutor": {
+        "recomendado": "opcional",
+        "detalle": "De joven queda compacta o colgante; cuando alarga los tallos, un tutor de musgo, un enrejado o una caña la ayuda a trepar."
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "Si querés que siga compacta y con forma de mata, cortá los tallos largos a medida que aparecen."
+      },
+      "propagacion": {
+        "metodos": [
+          "esqueje_tierra",
+          "division",
+          "acodo"
+        ],
+        "en_agua": false,
+        "meses": [],
+        "detalle": "Se multiplica con esquejes de tallo, dividiendo la mata o por acodo. Ninguna fuente da una época precisa."
+      },
+      "fuentes": [
+        {
+          "titulo": "Syngonium podophyllum",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/syngonium-podophyllum/",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Arrowhead Vine (Syngonium spp.) indoor care and growing tips",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/factsheet/arrowhead-vine-syngonium-spp-indoor-care-growing-tips-plant-guide/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ],
+      "confianza": "media",
+      "adaptaciones": [
+        "Ninguna fuente da época para propagar, así que no se cargaron meses."
+      ]
+    },
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Irritación y dolor en boca, lengua y labios, babeo abundante, vómitos y dificultad para tragar.",
+      "partes": "Toda la planta (hojas, tallos y savia).",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Mantenela donde tu gato o perro no llegue a mordisquear las hojas o los tallos que cuelgan.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Arrow-Head Vine (Syngonium podophyllum)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/arrow-head-vine",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Syngonium podophyllum",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/syngonium-podophyllum/",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Arrowhead Vine",
+          "org": "Pet Poison Helpline",
+          "url": "https://www.petpoisonhelpline.com/poison/arrowhead-vine",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Syngonium podophyllum",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/syngonium-podophyllum/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Arrowhead Vine (Syngonium spp.) indoor care and growing tips",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/arrowhead-vine-syngonium-spp-indoor-care-growing-tips-plant-guide/",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: invierno de junio a agosto (riego más espaciado).",
+      "El rango ideal de 65 a 75 °F de Clemson equivale a unos 18 a 24 °C."
+    ],
+    "discrepancias": [
+      "Luz: NC State habla de luz moteada o sombra parcial y Clemson de luz media a brillante indirecta; se tomó luz brillante indirecta, sin sol directo.",
+      "Gravedad: ASPCA no gradúa el riesgo; NC State la clasifica como media y Pet Poison Helpline no la gradúa. Se dejó 'moderada'.",
+      "Propagación: NC State menciona división, acodo y esquejes de tallo; Clemson no trata la propagación."
+    ],
+    "imagen": null,
+    "atribucion_imagen": null,
+    "fotos_extra": []
+  }
+]
