@@ -1,0 +1,62 @@
+{
+  "alocasia": [
+    {
+      "archivo": "img/extra/alocasia-1.webp",
+      "autor": "Lazaregagnidze",
+      "licencia": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Alocasia_amazonica_Elephant%27s-Ear_Plant_%E1%83%90%E1%83%9A%E1%83%9D%E1%83%99%E1%83%90%E1%83%A1%E1%83%98%E1%83%90.JPG"
+    },
+    {
+      "archivo": "img/extra/alocasia-2.webp",
+      "autor": "Tim Kortekamp",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Alocasia_x_amazonica_%27Polly%27.jpg"
+    },
+    {
+      "archivo": "img/extra/alocasia-3.webp",
+      "autor": "Photo by David J. Stang",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Alocasia_x_amazonica_1zz.jpg"
+    }
+  ],
+  "gasteria": [
+    {
+      "archivo": "img/extra/gasteria-1.webp",
+      "autor": "Abu Shawka",
+      "licencia": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:1_Gasteria_carinata_var_verrucosa_2.jpg"
+    },
+    {
+      "archivo": "img/extra/gasteria-2.webp",
+      "autor": "Hippocampus at Polish Wikipedia",
+      "licencia": "CC BY-SA 2.5",
+      "url": "https://commons.wikimedia.org/wiki/File:Gasteria_carinata_var._verrucosa_plant.jpg"
+    },
+    {
+      "archivo": "img/extra/gasteria-3.webp",
+      "autor": "Dun Holm",
+      "licencia": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Gasteria_carinata_var._verrucosa_DUBG_2009-06-03.JPG"
+    }
+  ],
+  "kalanchoe-de-flor": [
+    {
+      "archivo": "img/extra/kalanchoe-de-flor-1.webp",
+      "autor": "Sabalo22",
+      "licencia": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Kalanchoe_blossfeldiana_(Florist_Kalanchoe).jpg"
+    },
+    {
+      "archivo": "img/extra/kalanchoe-de-flor-2.webp",
+      "autor": "Sabina Bajracharya",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Kalanchoe_blossfeldiana_Plant_11.jpg"
+    },
+    {
+      "archivo": "img/extra/kalanchoe-de-flor-3.webp",
+      "autor": "Luis Miguel Bugallo Sánchez",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:2025_Kalanchoe_blossfeldiana_Poelin._Santiago_de_Compostela._Galiza.jpg"
+    }
+  ]
+}
