@@ -1,5 +1,6 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { lazy, Suspense, useEffect, useState } from 'react'
+import { InvitacionInstalar } from './components/InvitacionInstalar'
 import { BarraNav, type Pestana } from './components/BarraNav'
 import { Onboarding } from './features/onboarding/Onboarding'
 import { Aprender } from './features/learn/Aprender'
@@ -109,6 +110,8 @@ export function App() {
           </motion.div>
         )}
       </AnimatePresence>
+
+      <InvitacionInstalar />
 
       {/* La lección se abre por encima de todo, deslizando desde abajo */}
       <AnimatePresence>
