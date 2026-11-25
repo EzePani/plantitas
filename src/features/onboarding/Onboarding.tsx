@@ -1,8 +1,9 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { ChevronLeft, PawPrint } from 'lucide-react'
-import { useState, type ReactNode } from 'react'
+import { lazy, Suspense, useState, type ReactNode } from 'react'
 import { Recuperar } from '../profile/Recuperar'
-import { TR } from '../../data/textosNube'
+import { TCU, TR } from '../../data/textosNube'
+import { posponerInvitacionCuenta } from '../../components/InvitacionCuenta'
 import { Boton } from '../../components/Boton'
 import { Brote } from '../../components/Ilustracion'
 import { OpcionGrande } from '../../components/OpcionGrande'
@@ -14,9 +15,12 @@ import type { DatosMascotas, PerfilLuz, Respuestas, TipoEspacio } from '../../li
 import { useStore, type EspacioInicial } from '../../store/useStore'
 import { PasoHoras, PasoObstaculos, PasoTipoLuz, ResumenLuz, pasosDeLuz } from '../spaces/EditorLuz'
 
+// El cliente de la nube pesa bastante: solo se baja al llegar al paso de cuenta
+const Nube = lazy(() => import('../profile/Nube').then((m) => ({ default: m.Nube })))
+
 /** Los pasos de luz llevan el índice del espacio: "luz-tipo-0", "luz-horas-1"… */
 type PasoLuz = `luz-${'tipo' | 'horas' | 'obstaculos'}-${number}`
-type Paso = 'bienvenida' | 'experiencia' | 'test' | 'lugar' | PasoLuz | 'otro' | 'mascotas' | 'muerde' | 'alcance' | 'tiempo' | 'objetivo' | 'resultado'
+type Paso = 'bienvenida' | 'cuenta' | 'experiencia' | 'test' | 'lugar' | PasoLuz | 'otro' | 'mascotas' | 'muerde' | 'alcance' | 'tiempo' | 'objetivo' | 'resultado'
 
 /** En el onboarding se cargan como mucho 2 espacios; el resto se suma desde "Mi espacio" */
 const MAX_ESPACIOS = 2
@@ -31,7 +35,7 @@ type Borrador = Partial<Respuestas> & { mascota?: DatosMascotas['tipo']; muerde?
 const ESPACIOS_POR_LUGAR: Record<NonNullable<Respuestas['lugar']>, TipoEspacio[]> = { interior: ['living'], balcon: ['balcon'], ambos: ['living', 'balcon'] }
 
 function pasosPara(b: Borrador, espacios: EspacioBorrador[], sumoOtro: boolean): Paso[] {
-  const pasos: Paso[] = ['bienvenida', 'experiencia']
+  const pasos: Paso[] = ['bienvenida', 'cuenta', 'experiencia']
   if (b.experiencia === 'bastante') pasos.push('test')
   pasos.push('lugar')
   const deLuz = (i: number) => pasosDeLuz(espacios[i]?.luz).map((p): PasoLuz => `luz-${p}-${i}`)
@@ -88,11 +92,13 @@ export function Onboarding() {
   }
   const volver = () => {
     setDir(-1)
+    // El paso de cuenta no se revisita: desde ahí atrás se vuelve a la bienvenida
+    const anterior = pasos[i - 1] === 'cuenta' ? pasos[i - 2] : pasos[i - 1]
     if (paso === 'test' || pasos[i - 1] === 'test') {
       setPreguntaTest(0)
       setAciertos(0)
     }
-    setPaso(pasos[i - 1])
+    setPaso(anterior)
   }
 
   // Paso de luz actual: qué sub-paso es y de qué espacio
@@ -179,6 +185,27 @@ export function Onboarding() {
           <p className="text-tinta mt-3 max-w-[18rem] text-[18px] leading-snug font-bold">{O.bienvenida.texto}</p>
           <p className="text-tinta-suave mt-3 text-[14px] font-bold">{O.bienvenida.nota}</p>
         </div>
+      )
+      break
+    case 'cuenta':
+      contenido = (
+        <>
+          <Encabezado titulo={TCU.titulo} />
+          <p className="text-tinta-suave m-0 text-[15px] leading-snug font-bold">{TCU.texto}</p>
+          <Suspense fallback={null}>
+            <Nube compacto onListo={avanzar} />
+          </Suspense>
+          <Boton
+            variante="fantasma"
+            className="mt-2"
+            onClick={() => {
+              posponerInvitacionCuenta(1)
+              avanzar()
+            }}
+          >
+            {TCU.saltar}
+          </Boton>
+        </>
       )
       break
     case 'experiencia':
@@ -330,10 +357,10 @@ export function Onboarding() {
     }
   }
 
-  const conBarra = paso !== 'bienvenida' && paso !== 'resultado'
+  const conBarra = paso !== 'bienvenida' && paso !== 'cuenta' && paso !== 'resultado'
   // El progreso cuenta solo las pantallas de preguntas
-  const totalPreguntas = pasos.length - 2
-  const progreso = Math.min(1, i / totalPreguntas)
+  const totalPreguntas = pasos.length - 3
+  const progreso = Math.min(1, Math.max(0, (i - 1) / totalPreguntas))
 
   return (
     <div className="safe-top safe-bottom relative flex min-h-0 flex-1 flex-col">
@@ -371,7 +398,7 @@ export function Onboarding() {
         </AnimatePresence>
       </div>
 
-      {paso !== 'test' && paso !== 'otro' && (
+      {paso !== 'test' && paso !== 'otro' && paso !== 'cuenta' && (
         <footer className="shrink-0 px-5 pt-2 pb-5">
           <Boton
             disabled={!puedeSeguir}
