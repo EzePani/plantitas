@@ -1,3 +1,4 @@
+import { InvitacionCuenta } from '../../components/InvitacionCuenta'
 import { motion } from 'framer-motion'
 import { BookOpen, Check, Dumbbell, FastForward, Flame, Gift, Leaf, Lock, Star, Zap, type LucideIcon } from 'lucide-react'
 import { useLayoutEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
@@ -151,6 +152,8 @@ export function Aprender({ onJugar, onIrAEspacio, onGuia }: Props) {
           </div>
         </div>
       </header>
+
+      <InvitacionCuenta />
 
       <div className="relative min-h-0 flex-1">
         <Enredadera total={camino.totalNodos} hechos={camino.nodosHechos} flores={flores} />

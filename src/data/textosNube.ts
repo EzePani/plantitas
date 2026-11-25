@@ -1,15 +1,22 @@
 /** Textos de la sincronización entre dispositivos (pantalla Perfil) */
 export const TN = {
   titulo: 'Mis dispositivos',
-  intro: 'Vinculá tu PC y tu celu para que el progreso sea el mismo en los dos.',
+  intro: 'Usá tu correo para tener el mismo progreso en el celu y en la compu.',
   correo: 'Tu correo',
-  enviar: 'Enviar link a mi correo',
-  enviado: 'Te mandé un correo. Tocá el link, o escribí acá el código de 6 números si viene en el mensaje.',
-  codigo: 'Código del correo',
-  entrar: 'Entrar con el código',
-  nombreTitulo: 'Poné un nombre a este dispositivo',
-  nombrePista: 'Por ejemplo: Celu o PC',
-  vincular: 'Vincular este dispositivo',
+  enviar: 'Mandame el código',
+  enviando: 'Enviando…',
+  enviado: 'Te mandé un correo a',
+  enviadoAyuda: 'Escribí el código de 6 números, o tocá el link del correo.',
+  codigo: 'Código de 6 números',
+  entrar: 'Entrar',
+  verificando: 'Entrando…',
+  reenviar: 'Reenviar código',
+  reenviarEn: (s: number) => `Reenviar en ${s} s`,
+  cambiarCorreo: 'Cambiar correo',
+  vinculando: 'Conectando este dispositivo…',
+  reintentar: 'Reintentar',
+  sesionVencida: 'Tu sesión venció. Entrá de nuevo con tu correo.',
+  privacidad: 'Solo lo usamos para sincronizar tu progreso.',
   conectadoComo: 'Conectado como',
   este: 'Este dispositivo',
   ultima: 'Última sincronización',
@@ -21,6 +28,17 @@ export const TN = {
   salir: 'Cerrar sesión',
   ok: 'Todo al día.',
   errorGenerico: 'No se pudo sincronizar. Tu progreso sigue guardado en este dispositivo.',
+} as const
+
+/** Paso de cuenta en el onboarding y aviso en la pantalla principal */
+export const TCU = {
+  titulo: '¿Guardamos tu progreso?',
+  texto: 'Usá tu correo para tener el mismo progreso en el celu y en la compu.',
+  saltar: 'Ahora no, seguir',
+  avisoTitulo: 'Guardá tu progreso',
+  avisoTexto: 'Usalo igual en el celu y en la compu.',
+  avisoBoton: 'Conectar mi correo',
+  avisoCerrar: 'Cerrar aviso',
 } as const
 
 /** Recuperar progreso desde la pantalla de bienvenida */

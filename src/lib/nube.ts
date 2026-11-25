@@ -69,13 +69,35 @@ export function suscribir(f: () => void) {
 
 const urlDeVuelta = () => location.origin + location.pathname
 
+/** Errores de Supabase en castellano */
+export function traducirError(msg: string): string {
+  const m = msg.toLowerCase()
+  if (m.includes('rate limit') || m.includes('seconds')) return 'Pediste muchos códigos seguidos. Esperá unos minutos y probá de nuevo.'
+  if (m.includes('expired') || m.includes('invalid')) return 'Ese código no es válido o venció. Pedí uno nuevo.'
+  if (m.includes('fetch') || m.includes('network')) return 'No hay conexión. Probá de nuevo cuando tengas internet.'
+  return 'No se pudo. Probá de nuevo en un rato.'
+}
+
+export const correoValido = (c: string) => /^\S+@\S+\.\S+$/.test(c.trim())
+
+/** Nombre automático para el dispositivo (se ve en la lista de dispositivos) */
+export function nombreDispositivo(): string {
+  const ua = navigator.userAgent
+  if (/iPad/.test(ua)) return 'iPad'
+  if (/iPhone|iPod/.test(ua)) return 'iPhone'
+  if (/Android/.test(ua)) return /Mobile/.test(ua) ? 'Celu Android' : 'Tablet Android'
+  if (/Macintosh/.test(ua)) return navigator.maxTouchPoints > 1 ? 'iPad' : 'Mac'
+  if (/Windows/.test(ua)) return 'PC con Windows'
+  return 'Este dispositivo'
+}
+
 export async function enviarLink(email: string): Promise<string | null> {
-  const { error } = await cliente.auth.signInWithOtp({ email, options: { emailRedirectTo: urlDeVuelta() } })
-  return error ? error.message : null
+  const { error } = await cliente.auth.signInWithOtp({ email: email.trim().toLowerCase(), options: { emailRedirectTo: urlDeVuelta() } })
+  return error ? traducirError(error.message) : null
 }
 export async function entrarConCodigo(email: string, token: string): Promise<string | null> {
-  const { error } = await cliente.auth.verifyOtp({ email, token, type: 'email' })
-  return error ? error.message : null
+  const { error } = await cliente.auth.verifyOtp({ email: email.trim().toLowerCase(), token, type: 'email' })
+  return error ? traducirError(error.message) : null
 }
 export async function cerrarSesion() {
   const m = leerMeta()

@@ -1,4 +1,4 @@
-import { ChevronRight, ClipboardPaste, Copy, Download, Flame, PawPrint, RotateCcw, Upload, Zap, BookOpen, Image, Leaf } from 'lucide-react'
+import { ChevronRight, ClipboardPaste, Copy, Download, Flame, PawPrint, Upload, Zap, Leaf } from 'lucide-react'
 import { useRef, useState, type ReactNode } from 'react'
 import { Boton } from '../../components/Boton'
 import { Dialogo } from '../../components/Dialogo'
@@ -17,8 +17,6 @@ import type { DatosPersistidos, UnidadId } from '../../lib/tipos'
 import { soloDatos, useStore } from '../../store/useStore'
 import { EditorMascotas } from '../pets/EditorMascotas'
 import { Panel } from '../../components/Panel'
-import { TC } from '../../data/textosCatalogo'
-import { Creditos, Fuentes } from './Fuentes'
 import { Jardin } from './Jardin'
 import { Nube } from './Nube'
 import { FotoPlanta } from '../../components/FotoPlanta'
@@ -62,8 +60,7 @@ export function Perfil() {
   const [editarMascotas, setEditarMascotas] = useState(false)
   const [aviso, setAviso] = useState<{ tipo: 'ok' | 'error'; texto: string } | null>(null)
   const [pendiente, setPendiente] = useState<DatosPersistidos | null>(null)
-  const [reiniciar, setReiniciar] = useState(false)
-  const [panel, setPanel] = useState<'fuentes' | 'creditos' | 'jardin' | null>(null)
+  const [panel, setPanel] = useState<'jardin' | null>(null)
   const archivo = useRef<HTMLInputElement>(null)
   const [pegando, setPegando] = useState(false)
   const [pegado, setPegado] = useState('')
@@ -225,9 +222,6 @@ export function Perfil() {
           <Fila icono={<Upload aria-hidden />} titulo={P.importar} onClick={() => archivo.current?.click()} />
           <Fila icono={<Copy aria-hidden />} titulo={P.copiar} onClick={() => void copiar()} />
           <Fila icono={<ClipboardPaste aria-hidden />} titulo={P.pegar} onClick={() => setPegando(true)} />
-          <Fila icono={<BookOpen aria-hidden />} titulo={P.fuentes} onClick={() => setPanel('fuentes')} />
-          <Fila icono={<Image aria-hidden />} titulo={P.creditos} onClick={() => setPanel('creditos')} />
-          <Fila icono={<RotateCcw aria-hidden />} titulo={P.reiniciar} onClick={() => setReiniciar(true)} />
         </div>
         <input ref={archivo} type="file" className="sr-only" tabIndex={-1} aria-hidden onChange={(e) => void alElegirArchivo(e.target.files?.[0])} />
 
@@ -244,14 +238,8 @@ export function Perfil() {
       </section>
     </div>
 
-      <Panel abierto={panel === 'fuentes'} titulo={TC.fuentes.titulo} onCerrar={() => setPanel(null)}>
-        <Fuentes />
-      </Panel>
       <Panel abierto={panel === 'jardin'} titulo={P.jardin.titulo} onCerrar={() => setPanel(null)}>
         <Jardin />
-      </Panel>
-      <Panel abierto={panel === 'creditos'} titulo={TC.creditos.titulo} onCerrar={() => setPanel(null)}>
-        <Creditos />
       </Panel>
 
       <HojaInferior abierta={editarMascotas} onCerrar={() => setEditarMascotas(false)}>
@@ -291,15 +279,6 @@ export function Perfil() {
           {P.importarSi}
         </Boton>
         <Boton variante="fantasma" onClick={() => setPendiente(null)}>
-          {T.comun.cancelar}
-        </Boton>
-      </Dialogo>
-
-      <Dialogo abierto={reiniciar} titulo={P.reiniciarTitulo} texto={P.reiniciarTexto}>
-        <Boton variante="alerta" onClick={() => s.reiniciar()}>
-          {P.reiniciarSi}
-        </Boton>
-        <Boton variante="fantasma" onClick={() => setReiniciar(false)}>
           {T.comun.cancelar}
         </Boton>
       </Dialogo>
