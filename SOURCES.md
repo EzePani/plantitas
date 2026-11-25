@@ -13,8 +13,8 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 | Contenido | Total | Alta | Media | Baja |
 | --- | --- | --- | --- | --- |
 | Lecciones | 49 | 26 | 23 | 0 |
-| Plantas (cuidados) | 46 | 14 | 31 | 1 |
-| Plantas (toxicidad) | 46 | 24 | 18 | 4 |
+| Plantas (cuidados) | 54 | 15 | 37 | 2 |
+| Plantas (toxicidad) | 54 | 29 | 19 | 6 |
 | Advertencias graves | 6 | 5 | 1 | 0 |
 
 ## Confianza por ítem
@@ -121,8 +121,152 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 | Alocasia (*Alocasia × amazonica*) | media | toxica / toxica | alta | 3 |
 | Gasteria (*Gasteria carinata var. verrucosa*) | media | no_verificada / no_verificada | baja | 4 |
 | Kalanchoe de flor (*Kalanchoe blossfeldiana*) | media | toxica / toxica | alta | 5 |
+| Dieffenbachia (*Dieffenbachia seguine*) | media | toxica / toxica | alta | 6 |
+| Dieffenbachia 'Camille' (*Dieffenbachia seguine 'Camille'*) | media | toxica / toxica | media | 6 |
+| Dieffenbachia 'Tropic Snow' (*Dieffenbachia seguine 'Tropic Snow'*) | media | toxica / toxica | alta | 6 |
+| Calatea zebrina (*Goeppertia zebrina (sin. Calathea zebrina)*) | alta | segura / segura | alta | 5 |
+| Aechmea fasciata (*Aechmea fasciata*) | media | no_verificada / no_verificada | baja | 5 |
+| Aechmea fasciata 'Primera' (*Aechmea fasciata 'Primera'*) | media | no_verificada / no_verificada | baja | 5 |
+| Palmera datilera enana (*Phoenix roebelenii*) | media | segura / segura | alta | 4 |
+| Palmera canaria (*Phoenix canariensis*) | baja | segura / segura | alta | 4 |
 
-## Fuentes por organización (390 en total)
+## Fuentes por organización (413 en total)
+
+### ASPCA
+
+- [African Violet - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/african-violet) · consultada el 2026-11-15
+  - Qué se tomó: Saintpaulia spp.: no tóxica para perros ni gatos / Violeta africana no tóxica
+  - Usada en: lección familias-7, planta violeta-africana (toxicidad)
+- [Alocasia (Elephant's Ear)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/alocasia) · consultada el 2026-11-23
+  - Qué se tomó: Tóxica para perros y gatos (Alocasia spp.), oxalatos, síntomas
+  - Usada en: planta alocasia (toxicidad)
+- [Are Succulents Safe to Have Around Pets? (nota del 7/4/2021)](https://www.aspca.org/news/are-succulents-safe-have-around-pets) · consultada el 2026-11-14
+  - Qué se tomó: Lista como no tóxicas a Pilea peperomioides y Echeveria sp.; como tóxica a Crassula ovata (vómitos, diarrea, letargo, inapetencia)
+  - Usada en: planta jade (toxicidad), planta echeveria (toxicidad), planta pilea (toxicidad)
+- [Arrow-Head Vine (Syngonium podophyllum)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/arrow-head-vine) · consultada el 2026-11-23
+  - Qué se tomó: Tóxica para perros y gatos, oxalatos, síntomas
+  - Usada en: planta singonio (toxicidad)
+- [Begonia - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/begonia) · consultada el 2026-11-15
+  - Qué se tomó: Begonia spp.: tóxica para perros y gatos; oxalatos de calcio solubles; vómitos y salivación; falla renal solo en animales de pastoreo; parte subterránea la más tóxica / Begonia tóxica para perros y gatos, más tóxica bajo tierra
+  - Usada en: lección familias-7, planta begonia (toxicidad)
+- [Boston Fern](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/boston-fern) · consultada el 2026-11-14
+  - Qué se tomó: No tóxico para perros ni gatos / Nephrolepis exaltata bostoniensis no tóxica para perros ni gatos. No usada en el quiz (ver revisar).
+  - Usada en: planta helecho-serrucho (toxicidad)
+- [Burro's Tail (Sedum morganianum)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/burros-tail) · consultada el 2026-11-23
+  - Qué se tomó: No tóxica para perros y gatos
+  - Usada en: planta cola-de-burro (toxicidad)
+- [Calathea - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/calathea) · consultada el 2026-11-14
+  - Qué se tomó: Calathea spp.: no tóxica para perros ni gatos / Calathea spp. no tóxica para perros, gatos ni caballos. Verificada pero no usada en el quiz. / No tóxica para gatos ni perros (ficha de género)
+  - Usada en: planta calatea (toxicidad), planta calatea-zebrina (toxicidad)
+- [Calathea (Calathea spp.)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/Calathea) · consultada el 2026-11-23
+  - Qué se tomó: Género Calathea no tóxico para perros, gatos y caballos
+  - Usada en: planta calatea-orbifolia (toxicidad)
+- [Canary Date Palm - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/canary-date-palm) · consultada el 2026-11-23
+  - Qué se tomó: No tóxica para perros, gatos y caballos
+  - Usada en: planta phoenix-canariensis (toxicidad)
+- [Corn Plant (Dracaena fragrans)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/corn-plant) · consultada el 2026-11-14
+  - Qué se tomó: Tóxica para perros y gatos; saponinas; signos
+  - Usada en: planta palo-de-agua (toxicidad)
+- [Cutleaf Philodendron (Monstera deliciosa)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron) · consultada el 2026-11-15
+  - Qué se tomó: Tóxica para perros y gatos; oxalatos insolubles; signos / Monstera deliciosa tóxica para perros y gatos; oxalatos de calcio insolubles. / Tóxica para gato y perro
+  - Usada en: lección familias-6, lección mascotas-3, planta monstera (toxicidad)
+- [Dracaena (Dracaena spp.)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dracaena) · consultada el 2026-11-23
+  - Qué se tomó: confirma toxicidad del género
+  - Usada en: planta dracena-marginata (toxicidad)
+- [Easter Lily - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/easter-lily) · consultada el 2026-11-15
+  - Qué se tomó: Lilium longiflorum tóxico para gatos, riesgo de falla renal
+  - Usada en: lección familias-7
+- [English Ivy (Hedera helix)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/english-ivy) · consultada el 2026-11-15
+  - Qué se tomó: Hiedra tóxica para perros, gatos y caballos (saponinas); vómitos, salivación
+  - Usada en: lección familias-5
+- [Flamingo Flower - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/flamingo-flower) · consultada el 2026-11-15
+  - Qué se tomó: Anthurium scherzeranum (no andraeanum): tóxica para perros y gatos; oxalatos de calcio insolubles; irritación oral, babeo, vómitos / Anturio tóxico para perros y gatos
+  - Usada en: lección familias-7, planta anturio (toxicidad)
+- [Heartleaf Philodendron (Philodendron hederaceum)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/heartleaf-philodendron) · consultada el 2026-11-15
+  - Qué se tomó: Philodendron hederaceum: tóxica para perros y gatos; oxalatos de calcio insolubles; irritación oral, babeo, vómitos, dificultad para tragar / Filodendro hoja de corazón tóxico para perros y gatos
+  - Usada en: lección familias-5, planta filodendro (toxicidad), planta filodendro-lemon-lime (toxicidad), planta filodendro-silver-sword (cuidados), planta filodendro-silver-sword (toxicidad)
+- [How to Safely Treat Your House with Insecticides](https://www.aspca.org/news/how-safely-treat-your-house-insecticides) · consultada el 2026-11-15
+  - Qué se tomó: Los insecticidas son más peligrosos mojados: mantener a las mascotas lejos hasta que seque; leer la etiqueta; guardar bajo llave y en alto. (Se abrió por https://www.aspca.org/node/67862, que redirige a esta URL.)
+  - Usada en: lección plagas-3
+- [Inch Plant (Tradescantia)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/wandering-jew) · consultada el 2026-11-23
+  - Qué se tomó: Tóxica (dermatitis) para perros y gatos; ficha como T. flumeninsis
+  - Usada en: planta tradescantia (toxicidad)
+- [Is That Houseplant Safe for Your Pets? (2019)](https://www.aspca.org/news/houseplant-safe-your-pets) · consultada el 2026-11-14
+  - Qué se tomó: Ficus lyrata y cinta: levemente tóxicas; Dracaena spp.: moderadamente tóxica; potus: no pone en riesgo la vida / Palma sagú: semillas lo más concentrado, falla hepática en hasta tres días; plantas con oxalatos (potus, espatifilo, cala) no se consideran mortales.
+  - Usada en: planta cinta (toxicidad), planta ficus-lyrata (toxicidad), planta palo-de-agua (toxicidad), planta potus (toxicidad), planta aglaonema (cuidados), advertencia palma-sagu
+- [Kalanchoe - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/kalanchoe) · consultada el 2026-11-15
+  - Qué se tomó: Tóxica para perros y gatos; bufadienólidos; vómitos, diarrea, ritmo cardíaco anormal (raro). Evaluada para peligrosas y descartada (ver revisar). / Kalanchoe tóxico para perros y gatos / Tóxica para perros y gatos (Kalanchoe spp.), bufadienólidos, vómitos y diarrea
+  - Usada en: lección familias-7, planta kalanchoe-hoja-del-aire (toxicidad), planta kalanchoe-de-flor (toxicidad)
+- [Madagascar Dragon Tree (Dracaena marginata)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/madagascar-dragon-tree) · consultada el 2026-11-23
+  - Qué se tomó: tóxica gato y perro, síntomas
+  - Usada en: planta dracena-marginata (toxicidad)
+- [Miniature Date Palm - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/miniature-date-palm) · consultada el 2026-11-23
+  - Qué se tomó: No tóxica para perros, gatos y caballos
+  - Usada en: planta phoenix-roebelenii (toxicidad)
+- [Parlor Palm - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/parlor-palm) · consultada el 2026-11-14
+  - Qué se tomó: Chamaedorea elegans: no tóxica para perros ni gatos
+  - Usada en: planta palmera-de-salon (toxicidad)
+- [Peace Lily - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily) · consultada el 2026-11-15
+  - Qué se tomó: Spathiphyllum: tóxica para perros y gatos; oxalatos de calcio insolubles; irritación oral, babeo, vómitos, dificultad para tragar / Spathiphyllum tóxico para perros y gatos; oxalatos de calcio insolubles; irritación oral, babeo, vómitos. / Espatifilo tóxico para perros y gatos (oxalatos)
+  - Usada en: lección familias-7, lección mascotas-2, planta espatifilo (toxicidad)
+- [Phalaenopsis Orchid - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/phalaenopsis-orchid) · consultada el 2026-11-14
+  - Qué se tomó: Phalaenopsis sp.: no tóxica para perros ni gatos / Phalaenopsis sp. no tóxica para perros, gatos ni caballos. Verificada pero no usada en el quiz.
+  - Usada en: planta orquidea-phalaenopsis (toxicidad)
+- [Pony Tail (Beaucarnea recurvata)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/pony-tail) · consultada el 2026-11-23
+  - Qué se tomó: no tóxica gato y perro
+  - Usada en: planta pata-de-elefante (toxicidad)
+- [Pothos (Epipremnum aureum)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/pothos) · consultada el 2026-11-15
+  - Qué se tomó: Potus tóxico para perros y gatos (oxalatos de calcio) / Tóxico para gato y perro
+  - Usada en: lección familias-5, lección familias-6
+- [Snake Plant (Sansevieria trifasciata)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/snake-plant) · consultada el 2026-11-14
+  - Qué se tomó: Tóxica para perros y gatos; saponinas; náuseas, vómitos, diarrea / Sansevieria trifasciata tóxica para perros y gatos; saponinas; náuseas, vómitos, diarrea. Verificada pero no usada en el quiz.
+  - Usada en: planta lengua-de-suegra (toxicidad)
+- [Split Leaf Philodendron](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/split-leaf-philodendron) · consultada el 2026-11-15
+  - Qué se tomó: Tóxico para gato y perro (genérico filodendro)
+  - Usada en: lección familias-6
+- [Swiss Cheese Plant (Monstera deliciosa)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/swiss-cheese-plant) · consultada el 2026-11-15
+  - Qué se tomó: Monstera tóxica para perros y gatos
+  - Usada en: lección familias-5
+- [These Houseplants Can Cause Trouble for Your Pets](https://www.aspca.org/news/these-houseplants-can-cause-trouble-your-pets) · consultada el 2026-11-14
+  - Qué se tomó: Grupo de plantas con oxalatos insolubles (incluye Zamioculcas spp., Epipremnum spp., Monstera spp.): mecanismo, signos, gravedad baja / Plantas con oxalatos insolubles (dieffenbachia, cala, potus, espatifilo, monstera): gravedad baja, muchas exposiciones se manejan en casa.
+  - Usada en: planta monstera (toxicidad), planta zamioculca (toxicidad)
+- [Toxic and Non-toxic Plants: Aloe](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/aloe) · consultada el 2026-11-14
+  - Qué se tomó: Aloe vera: tóxica para perros, gatos y caballos; saponinas y antraquinonas; vómitos, letargo, diarrea / Aloe vera tóxica para perros, gatos y caballos; saponinas y antraquinonas; vómitos, decaimiento, diarrea. Verificada pero no usada en el quiz.
+  - Usada en: planta aloe-vera (toxicidad)
+- [Toxic and Non-toxic Plants: Blunt Leaf Peperomia](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/blunt-leaf-peperomia) · consultada el 2026-11-14
+  - Qué se tomó: Peperomia obtusifolia: no tóxica para perros y gatos
+  - Usada en: planta peperomia (toxicidad)
+- [Toxic and Non-toxic Plants: Chinese Evergreen](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/chinese-evergreen) · consultada el 2026-11-20
+  - Usada en: planta aglaonema (cuidados), planta aglaonema (toxicidad)
+- [Toxic and Non-toxic Plants: Christmas Cactus](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/christmas-cactus) · consultada el 2026-11-14
+  - Qué se tomó: Christmas cactus (figura como Schlumbergera bridgesii): no tóxica para perros, gatos y caballos
+  - Usada en: planta cactus-de-navidad (toxicidad)
+- [Toxic and Non-toxic Plants: Dieffenbachia](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dieffenbachia) · consultada el 2026-11-23
+  - Qué se tomó: Tóxica para perros y gatos; oxalatos y enzima proteolítica; irritación oral. Evaluada para peligrosas y descartada (ver revisar). / Tóxica gato y perro; oxalatos y enzima proteolítica; 'Tropic Snow' como nombre común
+  - Usada en: planta dieffenbachia (toxicidad), planta dieffenbachia-camille (toxicidad), planta dieffenbachia-tropic-snow (toxicidad)
+- [Toxic and Non-toxic Plants: Jade Plant](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/jade-plant) · consultada el 2026-11-14
+  - Qué se tomó: Jade (figura como Crassula argentea): tóxica para perros y gatos; principio desconocido; vómitos, depresión, incoordinación
+  - Usada en: planta jade (toxicidad)
+- [Toxic and Non-toxic Plants: Lucky Bamboo](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lucky-bamboo) · consultada el 2026-11-20
+  - Usada en: planta bambu-de-la-suerte (cuidados), planta bambu-de-la-suerte (toxicidad)
+- [Toxic and Non-toxic Plants: Mexican Snowballs](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mexican-snowballs) · consultada el 2026-11-14
+  - Qué se tomó: Mexican Snowballs (nombre científico solo a nivel género, escrito "Echevaria"): no tóxica para perros y gatos
+  - Usada en: planta echeveria (toxicidad)
+- [Toxic and Non-toxic Plants: Zebra Haworthia](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/zebra-haworthia) · consultada el 2026-11-14
+  - Qué se tomó: Zebra Haworthia (figura como Haworthia fasciata, no attenuata): no tóxica para perros, gatos y caballos
+  - Usada en: planta haworthia (toxicidad)
+- [Watermelon Peperomia (Peperomia argyreia)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/watermelon-peperomia) · consultada el 2026-11-23
+  - Qué se tomó: No tóxica para perros ni gatos
+  - Usada en: planta peperomia-argyreia (toxicidad)
+- [Wax Plant (Hoya carnosa)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/wax-plant) · consultada el 2026-11-23
+  - Qué se tomó: No tóxica para perros y gatos (cultivar krinkle kurl)
+  - Usada en: planta hoya (toxicidad)
+- [Weeping Fig (Ficus sp.)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/weeping-fig) · consultada el 2026-11-23
+  - Qué se tomó: tóxica gato y perro (ficina y psoraleno), sin síntomas listados
+  - Usada en: planta ficus-benjamina (toxicidad)
+- [Which Lilies Are Toxic to Pets?](https://www.aspca.org/news/which-lilies-are-toxic-pets) · consultada el 2026-11-14
+  - Qué se tomó: Lilium y Hemerocallis: todas las partes, polen lamido del pelo y agua del florero; suele ser mortal si el tratamiento se demora más de 18 horas; las flores sueltan hojas y polen; el espatifilo rara vez causa algo grave.
+  - Usada en: lección mascotas-3, advertencia lirios
 
 ### Royal Horticultural Society
 
@@ -193,8 +337,8 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: Begonias: Rex por hojas, cane-stemmed por flores; potasio alto para fibrosas y de caña, nitrógeno para Rex
   - Usada en: lección familias-7
 - [How to grow calatheas](https://www.rhs.org.uk/plants/calathea/growing-guide) · consultada el 2026-11-15
-  - Qué se tomó: Lugar luminoso sin sol directo, compost parejo húmedo en primavera-verano y superficie seca en otoño-invierno, agua de lluvia o reposada 24 h, humedad alta, 16-21 °C, 20-100 cm / Lugar luminoso fuera del sol directo; 16 a 21 °C; lejos de corrientes y de fuentes de calor como estufas y radiadores. / Lugar luminoso protegido del sol directo; humedad alta; agrupar con otras plantas; puntas y bordes marrones con aire seco; tierra pareja de húmeda, que no se seque del todo; lejos de radiadores y corrientes. También sugiere rociar (discrepancia registrada). / Forma matas; se sostiene sola (solo las variedades altas piden tutor a veces); no necesita poda; división en primavera; trasplante en primavera o verano.
-  - Usada en: lección familias-3, planta calatea (cuidados), planta calatea (cultivo)
+  - Qué se tomó: Lugar luminoso sin sol directo, compost parejo húmedo en primavera-verano y superficie seca en otoño-invierno, agua de lluvia o reposada 24 h, humedad alta, 16-21 °C, 20-100 cm / Lugar luminoso fuera del sol directo; 16 a 21 °C; lejos de corrientes y de fuentes de calor como estufas y radiadores. / Lugar luminoso protegido del sol directo; humedad alta; agrupar con otras plantas; puntas y bordes marrones con aire seco; tierra pareja de húmeda, que no se seque del todo; lejos de radiadores y corrientes. También sugiere rociar (discrepancia registrada). / Forma matas; se sostiene sola (solo las variedades altas piden tutor a veces); no necesita poda; división en primavera; trasplante en primavera o verano. / Luz, riego, humedad, compost, división en primavera, sin poda regular
+  - Usada en: lección familias-3, planta calatea (cuidados), planta calatea-zebrina (cuidados), planta calatea (cultivo), planta calatea-zebrina (cultivo)
 - [How to grow houseplant cacti and succulents](https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide) · consultada el 2026-11-15
   - Qué se tomó: Sustrato para cactus muy drenante con arena gruesa o gravilla mezclada (2:1, hasta 30 %); maceta demasiado grande queda húmeda y pudre; trasplante en primavera. / La mayoría viene de zonas áridas; hojas o tallos carnosos que guardan agua; vulnerables al exceso de riego; alféizar soleado; descanso invernal con riego mínimo (lo justo para que no se arruguen); sustrato muy drenante; toleran el aire seco de la calefacción. Los cactus de selva (Schlumbergera) quieren media sombra, más riego y más humedad. / Reabierta. Después del trasplante, terminar con una cobertura de gravilla hortícola o grava fina (no explica para qué sirve); mezcla muy drenante con hasta 30 % de gravilla; no menciona piedras en la base; maceta demasiado grande queda húmeda. / Especies en mata o roseta dan hijuelos que se separan cuando están bien enraizados; plantas ramificadas y cactus columnares por esquejes de tallo; echeveria y crassula por esquejes de hoja; dejar secar el corte hasta formar callo, de un día a una semana; mantener el compost apenas húmedo mientras enraíza para evitar la pudrición. / El polvo se junta en cactus y suculentas, sobre todo en los que pinchan: sacarlo con pincel suave o brocha de maquillaje; el paño húmedo funciona bien en suculentas lisas. No habla de la pruina.
   - Usada en: lección familias-1, lección familias-4, lección macetas-3, lección macetas-5, lección multiplicar-4, lección rutina-1
@@ -259,135 +403,11 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: En suelo saturado el agua ocupa los espacios de aire; las raíces necesitan oxígeno, sin él se ahogan, mueren y se pudren (raíces negras, olor). Habla de jardín, no de macetas ni floreros.
   - Usada en: lección multiplicar-2
 
-### ASPCA
-
-- [African Violet - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/african-violet) · consultada el 2026-11-15
-  - Qué se tomó: Saintpaulia spp.: no tóxica para perros ni gatos / Violeta africana no tóxica
-  - Usada en: lección familias-7, planta violeta-africana (toxicidad)
-- [Alocasia (Elephant's Ear)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/alocasia) · consultada el 2026-11-23
-  - Qué se tomó: Tóxica para perros y gatos (Alocasia spp.), oxalatos, síntomas
-  - Usada en: planta alocasia (toxicidad)
-- [Are Succulents Safe to Have Around Pets? (nota del 7/4/2021)](https://www.aspca.org/news/are-succulents-safe-have-around-pets) · consultada el 2026-11-14
-  - Qué se tomó: Lista como no tóxicas a Pilea peperomioides y Echeveria sp.; como tóxica a Crassula ovata (vómitos, diarrea, letargo, inapetencia)
-  - Usada en: planta jade (toxicidad), planta echeveria (toxicidad), planta pilea (toxicidad)
-- [Arrow-Head Vine (Syngonium podophyllum)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/arrow-head-vine) · consultada el 2026-11-23
-  - Qué se tomó: Tóxica para perros y gatos, oxalatos, síntomas
-  - Usada en: planta singonio (toxicidad)
-- [Begonia - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/begonia) · consultada el 2026-11-15
-  - Qué se tomó: Begonia spp.: tóxica para perros y gatos; oxalatos de calcio solubles; vómitos y salivación; falla renal solo en animales de pastoreo; parte subterránea la más tóxica / Begonia tóxica para perros y gatos, más tóxica bajo tierra
-  - Usada en: lección familias-7, planta begonia (toxicidad)
-- [Boston Fern](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/boston-fern) · consultada el 2026-11-14
-  - Qué se tomó: No tóxico para perros ni gatos / Nephrolepis exaltata bostoniensis no tóxica para perros ni gatos. No usada en el quiz (ver revisar).
-  - Usada en: planta helecho-serrucho (toxicidad)
-- [Burro's Tail (Sedum morganianum)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/burros-tail) · consultada el 2026-11-23
-  - Qué se tomó: No tóxica para perros y gatos
-  - Usada en: planta cola-de-burro (toxicidad)
-- [Calathea - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/calathea) · consultada el 2026-11-14
-  - Qué se tomó: Calathea spp.: no tóxica para perros ni gatos / Calathea spp. no tóxica para perros, gatos ni caballos. Verificada pero no usada en el quiz.
-  - Usada en: planta calatea (toxicidad)
-- [Calathea (Calathea spp.)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/Calathea) · consultada el 2026-11-23
-  - Qué se tomó: Género Calathea no tóxico para perros, gatos y caballos
-  - Usada en: planta calatea-orbifolia (toxicidad)
-- [Corn Plant (Dracaena fragrans)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/corn-plant) · consultada el 2026-11-14
-  - Qué se tomó: Tóxica para perros y gatos; saponinas; signos
-  - Usada en: planta palo-de-agua (toxicidad)
-- [Cutleaf Philodendron (Monstera deliciosa)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron) · consultada el 2026-11-15
-  - Qué se tomó: Tóxica para perros y gatos; oxalatos insolubles; signos / Monstera deliciosa tóxica para perros y gatos; oxalatos de calcio insolubles. / Tóxica para gato y perro
-  - Usada en: lección familias-6, lección mascotas-3, planta monstera (toxicidad)
-- [Dracaena (Dracaena spp.)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dracaena) · consultada el 2026-11-23
-  - Qué se tomó: confirma toxicidad del género
-  - Usada en: planta dracena-marginata (toxicidad)
-- [Easter Lily - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/easter-lily) · consultada el 2026-11-15
-  - Qué se tomó: Lilium longiflorum tóxico para gatos, riesgo de falla renal
-  - Usada en: lección familias-7
-- [English Ivy (Hedera helix)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/english-ivy) · consultada el 2026-11-15
-  - Qué se tomó: Hiedra tóxica para perros, gatos y caballos (saponinas); vómitos, salivación
-  - Usada en: lección familias-5
-- [Flamingo Flower - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/flamingo-flower) · consultada el 2026-11-15
-  - Qué se tomó: Anthurium scherzeranum (no andraeanum): tóxica para perros y gatos; oxalatos de calcio insolubles; irritación oral, babeo, vómitos / Anturio tóxico para perros y gatos
-  - Usada en: lección familias-7, planta anturio (toxicidad)
-- [Heartleaf Philodendron (Philodendron hederaceum)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/heartleaf-philodendron) · consultada el 2026-11-15
-  - Qué se tomó: Philodendron hederaceum: tóxica para perros y gatos; oxalatos de calcio insolubles; irritación oral, babeo, vómitos, dificultad para tragar / Filodendro hoja de corazón tóxico para perros y gatos
-  - Usada en: lección familias-5, planta filodendro (toxicidad), planta filodendro-lemon-lime (toxicidad), planta filodendro-silver-sword (cuidados), planta filodendro-silver-sword (toxicidad)
-- [How to Safely Treat Your House with Insecticides](https://www.aspca.org/news/how-safely-treat-your-house-insecticides) · consultada el 2026-11-15
-  - Qué se tomó: Los insecticidas son más peligrosos mojados: mantener a las mascotas lejos hasta que seque; leer la etiqueta; guardar bajo llave y en alto. (Se abrió por https://www.aspca.org/node/67862, que redirige a esta URL.)
-  - Usada en: lección plagas-3
-- [Inch Plant (Tradescantia)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/wandering-jew) · consultada el 2026-11-23
-  - Qué se tomó: Tóxica (dermatitis) para perros y gatos; ficha como T. flumeninsis
-  - Usada en: planta tradescantia (toxicidad)
-- [Is That Houseplant Safe for Your Pets? (2019)](https://www.aspca.org/news/houseplant-safe-your-pets) · consultada el 2026-11-14
-  - Qué se tomó: Ficus lyrata y cinta: levemente tóxicas; Dracaena spp.: moderadamente tóxica; potus: no pone en riesgo la vida / Palma sagú: semillas lo más concentrado, falla hepática en hasta tres días; plantas con oxalatos (potus, espatifilo, cala) no se consideran mortales.
-  - Usada en: planta cinta (toxicidad), planta ficus-lyrata (toxicidad), planta palo-de-agua (toxicidad), planta potus (toxicidad), planta aglaonema (cuidados), advertencia palma-sagu
-- [Kalanchoe - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/kalanchoe) · consultada el 2026-11-15
-  - Qué se tomó: Tóxica para perros y gatos; bufadienólidos; vómitos, diarrea, ritmo cardíaco anormal (raro). Evaluada para peligrosas y descartada (ver revisar). / Kalanchoe tóxico para perros y gatos / Tóxica para perros y gatos (Kalanchoe spp.), bufadienólidos, vómitos y diarrea
-  - Usada en: lección familias-7, planta kalanchoe-hoja-del-aire (toxicidad), planta kalanchoe-de-flor (toxicidad)
-- [Madagascar Dragon Tree (Dracaena marginata)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/madagascar-dragon-tree) · consultada el 2026-11-23
-  - Qué se tomó: tóxica gato y perro, síntomas
-  - Usada en: planta dracena-marginata (toxicidad)
-- [Parlor Palm - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/parlor-palm) · consultada el 2026-11-14
-  - Qué se tomó: Chamaedorea elegans: no tóxica para perros ni gatos
-  - Usada en: planta palmera-de-salon (toxicidad)
-- [Peace Lily - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily) · consultada el 2026-11-15
-  - Qué se tomó: Spathiphyllum: tóxica para perros y gatos; oxalatos de calcio insolubles; irritación oral, babeo, vómitos, dificultad para tragar / Spathiphyllum tóxico para perros y gatos; oxalatos de calcio insolubles; irritación oral, babeo, vómitos. / Espatifilo tóxico para perros y gatos (oxalatos)
-  - Usada en: lección familias-7, lección mascotas-2, planta espatifilo (toxicidad)
-- [Phalaenopsis Orchid - Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/phalaenopsis-orchid) · consultada el 2026-11-14
-  - Qué se tomó: Phalaenopsis sp.: no tóxica para perros ni gatos / Phalaenopsis sp. no tóxica para perros, gatos ni caballos. Verificada pero no usada en el quiz.
-  - Usada en: planta orquidea-phalaenopsis (toxicidad)
-- [Pony Tail (Beaucarnea recurvata)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/pony-tail) · consultada el 2026-11-23
-  - Qué se tomó: no tóxica gato y perro
-  - Usada en: planta pata-de-elefante (toxicidad)
-- [Pothos (Epipremnum aureum)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/pothos) · consultada el 2026-11-15
-  - Qué se tomó: Potus tóxico para perros y gatos (oxalatos de calcio) / Tóxico para gato y perro
-  - Usada en: lección familias-5, lección familias-6
-- [Snake Plant (Sansevieria trifasciata)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/snake-plant) · consultada el 2026-11-14
-  - Qué se tomó: Tóxica para perros y gatos; saponinas; náuseas, vómitos, diarrea / Sansevieria trifasciata tóxica para perros y gatos; saponinas; náuseas, vómitos, diarrea. Verificada pero no usada en el quiz.
-  - Usada en: planta lengua-de-suegra (toxicidad)
-- [Split Leaf Philodendron](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/split-leaf-philodendron) · consultada el 2026-11-15
-  - Qué se tomó: Tóxico para gato y perro (genérico filodendro)
-  - Usada en: lección familias-6
-- [Swiss Cheese Plant (Monstera deliciosa)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/swiss-cheese-plant) · consultada el 2026-11-15
-  - Qué se tomó: Monstera tóxica para perros y gatos
-  - Usada en: lección familias-5
-- [These Houseplants Can Cause Trouble for Your Pets](https://www.aspca.org/news/these-houseplants-can-cause-trouble-your-pets) · consultada el 2026-11-14
-  - Qué se tomó: Grupo de plantas con oxalatos insolubles (incluye Zamioculcas spp., Epipremnum spp., Monstera spp.): mecanismo, signos, gravedad baja / Plantas con oxalatos insolubles (dieffenbachia, cala, potus, espatifilo, monstera): gravedad baja, muchas exposiciones se manejan en casa.
-  - Usada en: planta monstera (toxicidad), planta zamioculca (toxicidad)
-- [Toxic and Non-toxic Plants: Aloe](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/aloe) · consultada el 2026-11-14
-  - Qué se tomó: Aloe vera: tóxica para perros, gatos y caballos; saponinas y antraquinonas; vómitos, letargo, diarrea / Aloe vera tóxica para perros, gatos y caballos; saponinas y antraquinonas; vómitos, decaimiento, diarrea. Verificada pero no usada en el quiz.
-  - Usada en: planta aloe-vera (toxicidad)
-- [Toxic and Non-toxic Plants: Blunt Leaf Peperomia](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/blunt-leaf-peperomia) · consultada el 2026-11-14
-  - Qué se tomó: Peperomia obtusifolia: no tóxica para perros y gatos
-  - Usada en: planta peperomia (toxicidad)
-- [Toxic and Non-toxic Plants: Chinese Evergreen](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/chinese-evergreen) · consultada el 2026-11-20
-  - Usada en: planta aglaonema (cuidados), planta aglaonema (toxicidad)
-- [Toxic and Non-toxic Plants: Christmas Cactus](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/christmas-cactus) · consultada el 2026-11-14
-  - Qué se tomó: Christmas cactus (figura como Schlumbergera bridgesii): no tóxica para perros, gatos y caballos
-  - Usada en: planta cactus-de-navidad (toxicidad)
-- [Toxic and Non-toxic Plants: Jade Plant](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/jade-plant) · consultada el 2026-11-14
-  - Qué se tomó: Jade (figura como Crassula argentea): tóxica para perros y gatos; principio desconocido; vómitos, depresión, incoordinación
-  - Usada en: planta jade (toxicidad)
-- [Toxic and Non-toxic Plants: Lucky Bamboo](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lucky-bamboo) · consultada el 2026-11-20
-  - Usada en: planta bambu-de-la-suerte (cuidados), planta bambu-de-la-suerte (toxicidad)
-- [Toxic and Non-toxic Plants: Mexican Snowballs](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mexican-snowballs) · consultada el 2026-11-14
-  - Qué se tomó: Mexican Snowballs (nombre científico solo a nivel género, escrito "Echevaria"): no tóxica para perros y gatos
-  - Usada en: planta echeveria (toxicidad)
-- [Toxic and Non-toxic Plants: Zebra Haworthia](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/zebra-haworthia) · consultada el 2026-11-14
-  - Qué se tomó: Zebra Haworthia (figura como Haworthia fasciata, no attenuata): no tóxica para perros, gatos y caballos
-  - Usada en: planta haworthia (toxicidad)
-- [Watermelon Peperomia (Peperomia argyreia)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/watermelon-peperomia) · consultada el 2026-11-23
-  - Qué se tomó: No tóxica para perros ni gatos
-  - Usada en: planta peperomia-argyreia (toxicidad)
-- [Wax Plant (Hoya carnosa)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/wax-plant) · consultada el 2026-11-23
-  - Qué se tomó: No tóxica para perros y gatos (cultivar krinkle kurl)
-  - Usada en: planta hoya (toxicidad)
-- [Weeping Fig (Ficus sp.)](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/weeping-fig) · consultada el 2026-11-23
-  - Qué se tomó: tóxica gato y perro (ficina y psoraleno), sin síntomas listados
-  - Usada en: planta ficus-benjamina (toxicidad)
-- [Which Lilies Are Toxic to Pets?](https://www.aspca.org/news/which-lilies-are-toxic-pets) · consultada el 2026-11-14
-  - Qué se tomó: Lilium y Hemerocallis: todas las partes, polen lamido del pelo y agua del florero; suele ser mortal si el tratamiento se demora más de 18 horas; las flores sueltan hojas y polen; el espatifilo rara vez causa algo grave.
-  - Usada en: lección mascotas-3, advertencia lirios
-
 ### NC State Extension Plant Toolbox
 
+- [Aechmea fasciata (Silver Vase Bromeliad)](https://plants.ces.ncsu.edu/plants/aechmea-fasciata/) · consultada el 2026-11-23
+  - Qué se tomó: Copa con agua, orquídeas, 65-75 F, hijuelos, florece una vez, cultivares Primera/Purpurea/Variegated, no tóxica
+  - Usada en: planta aechmea-fasciata (cuidados), planta aechmea-fasciata (toxicidad), planta aechmea-fasciata-primera (cuidados), planta aechmea-fasciata-primera (toxicidad), planta aechmea-fasciata (cultivo), planta aechmea-fasciata-primera (cultivo)
 - [Aglaonema](https://plants.ces.ncsu.edu/plants/aglaonema/) · consultada el 2026-11-22
   - Qué se tomó: Erguida y tupida, forma matas de varios tallos; con los años el tallo se alarga y queda pelado; sacar flores y frutos; división y esqueje de tallo.
   - Usada en: planta aglaonema (cultivo)
@@ -406,6 +426,9 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Crassula ovata](https://plants.ces.ncsu.edu/plants/crassula-ovata/) · consultada el 2026-11-14
   - Qué se tomó: Sinónimo C. argentea, luz brillante con algo de sombra a la tarde, riego moderado con tierra seca y menos de otoño a fin de invierno, zonas 11a-12b, problema para gatos y perros / Lugar soleado con algo de sombra a la tarde; afuera, media sombra; temperaturas de interior promedio a frescas / Hábito erecto, multitallo, forma de arbolito; esqueje de hoja y de tallo.
   - Usada en: planta jade (cuidados), planta jade (toxicidad), planta jade (cultivo)
+- [Dieffenbachia seguine](https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/) · consultada el 2026-11-23
+  - Qué se tomó: Luz indirecta, riego (secar 2,5 cm), humedad alta, sustrato, propagación, toxicidad alta, alturas y descripción de 'Camille' y 'Tropic Snow'
+  - Usada en: planta dieffenbachia (cuidados), planta dieffenbachia (toxicidad), planta dieffenbachia-camille (cuidados), planta dieffenbachia-camille (toxicidad), planta dieffenbachia-tropic-snow (cuidados), planta dieffenbachia-tropic-snow (toxicidad), planta dieffenbachia (cultivo), planta dieffenbachia-camille (cultivo), planta dieffenbachia-tropic-snow (cultivo)
 - [Dracaena fragrans (Corn Plant)](https://plants.ces.ncsu.edu/plants/dracaena-fragrans/) · consultada el 2026-11-14
   - Qué se tomó: Luz, riego, flúor, humedad, temperatura, tamaño y toxicidad (saponinas) / Luz brillante a moderada filtrada; el sol directo quema el follaje; figura como resistente al calor; rinde entre 21 y 27 °C. / Arbusto erguido de crecimiento lento, tallo leñoso sin ramificar; esquejes de tallo.
   - Usada en: planta palo-de-agua (cuidados), planta palo-de-agua (toxicidad), planta palo-de-agua (cultivo)
@@ -433,6 +456,9 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Goeppertia orbifolia](https://plants.ces.ncsu.edu/plants/goeppertia-orbifolia/) · consultada el 2026-11-23
   - Qué se tomó: Cuidados completos, división en primavera, no tóxica
   - Usada en: planta calatea-orbifolia (cuidados), planta calatea-orbifolia (toxicidad), planta calatea-orbifolia (cultivo)
+- [Goeppertia zebrina (Zebra Plant)](https://plants.ces.ncsu.edu/plants/goeppertia-zebrina/) · consultada el 2026-11-23
+  - Qué se tomó: Luz, riego, humedad, sustrato, 65-75 F, tamaño, división, no tóxica; cultivar Snow White
+  - Usada en: planta calatea-zebrina (cuidados), planta calatea-zebrina (toxicidad), planta calatea-zebrina (cultivo)
 - [Hoya carnosa (Wax Plant)](https://plants.ces.ncsu.edu/plants/hoya-carnosa/) · consultada el 2026-11-23
   - Qué se tomó: Luz brillante, riego entre secados, humedad alta, poda de primavera, esquejes; no tóxica
   - Usada en: planta hoya (cuidados), planta hoya (toxicidad), planta hoya (cultivo)
@@ -456,6 +482,12 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Philodendron hastatum](https://plants.ces.ncsu.edu/plants/philodendron-hastatum/) · consultada el 2026-11-22
   - Qué se tomó: Trepador; necesita tutor de musgo o enrejado; esqueje de tallo; nombra 'Silver Sword'.
   - Usada en: planta filodendro-silver-sword (cultivo)
+- [Phoenix canariensis (Canary Island Date Palm)](https://plants.ces.ncsu.edu/plants/phoenix-canariensis/) · consultada el 2026-11-23
+  - Qué se tomó: Pleno sol con sombra de tarde, riego, sustrato, zonas 9-11, tamaño, espinas, semilla, maceta, no tóxica
+  - Usada en: planta phoenix-canariensis (cuidados), planta phoenix-canariensis (toxicidad), planta phoenix-canariensis (cultivo)
+- [Phoenix roebelenii (Dwarf Date Palm)](https://plants.ces.ncsu.edu/plants/phoenix-roebelenii/) · consultada el 2026-11-23
+  - Qué se tomó: Luz media-alta sin sol fuerte de tarde, riego, humedad, sustrato, tamaño, espinas, hijuelos casi ausentes, no tóxica
+  - Usada en: planta phoenix-roebelenii (cuidados), planta phoenix-roebelenii (toxicidad), planta phoenix-roebelenii (cultivo)
 - [Sedum morganianum (Burro's Tail)](https://plants.ces.ncsu.edu/plants/sedum-morganianum/) · consultada el 2026-11-23
   - Qué se tomó: Luz, riego, sustrato, hábito colgante, esquejes de tallo y hoja; no tóxica
   - Usada en: planta cola-de-burro (cuidados), planta cola-de-burro (toxicidad), planta cola-de-burro (cultivo)
@@ -465,6 +497,90 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Tradescantia zebrina](https://plants.ces.ncsu.edu/plants/tradescantia-zebrina/) · consultada el 2026-11-23
   - Qué se tomó: Luz filtrada, riego, poda fuerte en primavera, esquejes; dermatitis y irritación en mascotas
   - Usada en: planta tradescantia (cuidados), planta tradescantia (toxicidad), planta tradescantia (cultivo)
+
+### RHS
+
+- [Aechmea fasciata](https://www.rhs.org.uk/plants/59419/aechmea-fasciata/details) · consultada el 2026-11-23
+  - Qué se tomó: Luz filtrada bajo vidrio, compost epífita, hijuelos, H1B, sin poda
+  - Usada en: planta aechmea-fasciata (cuidados)
+- [Aechmea fasciata 'Primera'](https://www.rhs.org.uk/plants/146340/aechmea-fasciata-primera/details) · consultada el 2026-11-23
+  - Qué se tomó: Cultivar Primera, AGM, hijuelos, sol o sombra parcial
+  - Usada en: planta aechmea-fasciata-primera (cuidados), planta aechmea-fasciata-primera (cultivo)
+- [Aglaonema 'Silver Queen'](https://www.rhs.org.uk/plants/92017/aglaonema-silver-queen/details) · consultada el 2026-11-22
+  - Qué se tomó: Hábito erguido, en mata; no requiere poda; brotes basales o división.
+  - Usada en: planta aglaonema (cultivo)
+- [Aglaonema modestum](https://www.rhs.org.uk/plants/707/aglaonema-modestum/details) · consultada el 2026-11-22
+  - Qué se tomó: Forma matas; no requiere poda; separar brotes basales con 3 o 4 hojas y raíces, o dividir en primavera.
+  - Usada en: planta aglaonema (cultivo)
+- [Alocasia growing guide](https://www.rhs.org.uk/plants/alocasia/growing-guide) · consultada el 2026-11-23
+  - Qué se tomó: Luz, riego con 5 cm secos, humedad, mezcla con arena, hijuelos y rizoma, sin poda
+  - Usada en: planta alocasia (cuidados), planta alocasia (cultivo)
+- [Begonias as houseplants](https://www.rhs.org.uk/plants/begonias/houseplants) · consultada el 2026-11-14
+  - Qué se tomó: Rex y rizomatosas: luz brillante filtrada, riego generoso en verano y menos en invierno, no mojar hojas ni corona, humedad alta con bandeja de grava, mínimo 13 °C para B. rex / Luz brillante filtrada, proteger del sol directo; las Rex van a la sombra en verano; bordes marrones por temperatura demasiado alta. / Begonias rizomatosas (rex): esquejes de hoja en mayo o junio (norte), división en primavera con un punto de crecimiento por trozo; sin indicaciones de poda.
+  - Usada en: planta begonia (cuidados), planta begonia (cultivo)
+- [Chamaedorea elegans growing guide](https://www.rhs.org.uk/plants/chamaedorea/growing-guide) · consultada el 2026-11-22
+  - Qué se tomó: Varios tallos simples por maceta; sin poda (solo frondes viejas desde la base); se divide separando el pan de raíces; semilla requiere planta macho y hembra; trasplante en primavera.
+  - Usada en: planta palmera-de-salon (cultivo)
+- [Chlorophytum comosum](https://www.rhs.org.uk/plants/3761/chlorophytum-comosum/details) · consultada el 2026-11-22
+  - Qué se tomó: Forma matas; recortar las varas florales marchitas si no se quieren hijitos; semilla, división o hijitos.
+  - Usada en: planta cinta (cultivo)
+- [Cleistocactus winteri](https://www.rhs.org.uk/plants/119918/wd/details) · consultada el 2026-11-22
+  - Qué se tomó: Cactus colgante con tallos de hasta 1,5 m, ideal para maceta colgante; no requiere poda; esquejes de tallo en verano o semilla en primavera.
+  - Usada en: planta cola-de-mono-dorada (cultivo)
+- [Dracaena fragrans](https://www.rhs.org.uk/plants/6093/dracaena-fragrans/details) · consultada el 2026-11-22
+  - Qué se tomó: Columnar erguida; no requiere poda, los tallos débiles se pueden acortar en primavera y usar como esqueje; esquejes y tramos de tallo sin hojas en verano.
+  - Usada en: planta palo-de-agua (cultivo)
+- [Dracaena sanderiana (v)](https://www.rhs.org.uk/plants/6097/dracaena-sanderiana-v/details) · consultada el 2026-11-22
+  - Qué se tomó: Columnar erguida; no necesita poda salvo que crezca débil, en ese caso recortar fuerte en primavera; esquejes semileñosos o leñosos.
+  - Usada en: planta bambu-de-la-suerte (cultivo)
+- [Dracaena sanderiana green-leaved](https://www.rhs.org.uk/plants/171667/dracaena-sanderiana-green-leaved/details) · consultada el 2026-11-22
+  - Qué se tomó: Arbusto erguido columnar; no requiere poda, los tallos débiles se pueden acortar a 15 cm en primavera y usar el recorte como esqueje; esquejes y tramos de tallo en verano.
+  - Usada en: planta bambu-de-la-suerte (cultivo)
+- [Dypsis lutescens](https://www.rhs.org.uk/plants/128311/dypsis-lutescens/details) · consultada el 2026-11-22
+  - Qué se tomó: Grupo de tallos erguidos; no requiere poda; semilla a 25 °C o más.
+  - Usada en: planta palmera-areca (cultivo)
+- [Gasteria carinata var. verrucosa](https://www.rhs.org.uk/plants/260743/gasteria-carinata-var-verrucosa/details) · consultada el 2026-11-23
+  - Qué se tomó: Sol o sombra parcial, mezcla para cactus, casi seca en invierno, hijuelos, hoja, semilla, sin poda
+  - Usada en: planta gasteria (cuidados), planta gasteria (cultivo)
+- [Gasteria verrucosa](https://www.rhs.org.uk/plants/7639/gasteria-verrucosa/details) · consultada el 2026-11-23
+  - Qué se tomó: Mismos datos de cultivo (nombre sinónimo)
+  - Usada en: planta gasteria (cuidados)
+- [Goeppertia kegeljanii (Network) 'Pp0005' (guía de cultivo del género)](https://www.rhs.org.uk/plants/386632/goeppertia-kegeljanii-network-pp0005/details) · consultada el 2026-11-23
+  - Qué se tomó: Luz, riego, humedad, división a fines de primavera, sin poda
+  - Usada en: planta calatea-orbifolia (cuidados), planta calatea-orbifolia (cultivo)
+- [Goeppertia zebrina (zebra plant)](https://www.rhs.org.uk/plants/357248/goeppertia-zebrina/details) · consultada el 2026-11-23
+  - Qué se tomó: Luz filtrada, riego, 16 C mínimo, dividir a fines de primavera, sin poda, AGM, sin cultivares
+  - Usada en: planta calatea-zebrina (cuidados), planta calatea-zebrina (cultivo)
+- [How to grow dracaena (RHS Growing Guide)](https://www.rhs.org.uk/plants/dracaena/how-to-grow-dracaena) · consultada el 2026-11-22
+  - Qué se tomó: Responden bien a la poda y rebrotan debajo del corte; esquejes semileñosos y leñosos en verano, con calor de fondo.
+  - Usada en: planta palo-de-agua (cultivo)
+- [How to grow ornamental figs (RHS Growing Guide)](https://www.rhs.org.uk/plants/popular/ornamental-figs/growing-guide) · consultada el 2026-11-22
+  - Qué se tomó: Ficus de interior: casi no necesitan poda; a fines de invierno o principios de primavera acortar brotes largos sobre una hoja; esquejes semileñosos en primavera o verano; acodo aéreo para el gomero y algunos otros en primavera o fines de verano; F. lyrata crece erguido.
+  - Usada en: planta ficus-lyrata (cultivo), planta gomero (cultivo)
+- [How to take cuttings from houseplants](https://www.rhs.org.uk/plants/types/houseplants/how-to-take-cuttings-from-houseplants) · consultada el 2026-11-22
+  - Qué se tomó: Mejor época para esquejes de plantas de interior: fines de primavera o principios de verano (aunque funcionan casi todo el año); nombra al potus como esqueje de tallo. / Época de esquejes y esquejes en agua o compost
+  - Usada en: planta potus (cultivo), planta lengua-de-suegra (cultivo), planta tradescantia (cultivo)
+- [Opuntia microdasys](https://www.rhs.org.uk/plants/11881/opuntia-microdasys/details) · consultada el 2026-11-22
+  - Qué se tomó: Cactus arbustivo de 0,5 a 1 m; no requiere poda; segmentos de tallo se enraízan en verano, manipulándolos con papel de diario doblado.
+  - Usada en: planta orejas-de-conejo-canela (cultivo)
+- [Ornamental figs (Ficus) - Plant Guide](https://www.rhs.org.uk/plants/ornamental-figs) · consultada el 2026-11-14
+  - Qué se tomó: Ficus de interior: luz sin sol directo, riego, humedad, sustrato, mínimo 10 °C / Lugar cálido y luminoso fuera del sol directo; no les gustan los cambios de temperatura ni las corrientes (guía general del grupo).
+  - Usada en: planta ficus-lyrata (cuidados), planta gomero (cuidados)
+- [Palms: hardy](https://www.rhs.org.uk/plants/types/trees/hardy-palms) · consultada el 2026-11-23
+  - Qué se tomó: Hasta -8 °C, palmeras no se podan, sacar hojas secas sin cortar al ras
+  - Usada en: planta phoenix-canariensis (cuidados), planta phoenix-canariensis (cultivo)
+- [Palms: indoors](https://www.rhs.org.uk/plants/types/trees/indoor-palms) · consultada el 2026-11-22
+  - Qué se tomó: Sin poda especial; hojas viejas se cortan, no se arrancan; hijuelos de Chamaedorea se separan en primavera con raíz; trasplante a principios de primavera.
+  - Usada en: planta palmera-areca (cultivo), planta palmera-de-salon (cultivo)
+- [Phoenix canariensis (Canary Island date palm)](https://www.rhs.org.uk/plants/12767/wd/details) · consultada el 2026-11-23
+  - Qué se tomó: Semisombra, luz indirecta adentro, riego, compost, H2, sin poda, semilla a 25 °C
+  - Usada en: planta phoenix-canariensis (cuidados), planta phoenix-canariensis (cultivo)
+- [Phoenix roebelenii (miniature date palm)](https://www.rhs.org.uk/plants/12771/phoenix-roebelenii-miniature-date-palm-pygmy-date-palm/details) · consultada el 2026-11-23
+  - Qué se tomó: Luz indirecta brillante, riego moderado/poco en invierno, compost, H1B, sin poda, semilla en primavera
+  - Usada en: planta phoenix-roebelenii (cuidados), planta phoenix-roebelenii (cultivo)
+- [Zamioculcas zamiifolia](https://www.rhs.org.uk/plants/19185/zamioculcas-zamiifolia/details) · consultada el 2026-11-22
+  - Qué se tomó: No requiere poda: sacar hojas y flores marchitas al ras; propagar por esquejes de hoja (folíolos sueltos).
+  - Usada en: planta zamioculca (cultivo)
 
 ### Clemson Cooperative Extension HGIC
 
@@ -477,11 +593,17 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Begonia](https://hgic.clemson.edu/factsheet/begonia/) · consultada el 2026-11-15
   - Qué se tomó: Las Rex crecen mejor adentro o en maceta a media sombra; algunas begonias se queman con luz muy intensa. / Las rex son rizomatosas y se multiplican por esquejes de hoja o de tallo.
   - Usada en: planta begonia (cuidados), planta begonia (cultivo)
+- [Bromeliads](https://hgic.clemson.edu/factsheet/bromeliads/) · consultada el 2026-11-23
+  - Qué se tomó: Copa llena, tierra seca entre riegos, luz indirecta, Aechmea fasciata prefiere calor
+  - Usada en: planta aechmea-fasciata (cuidados), planta aechmea-fasciata-primera (cuidados), planta aechmea-fasciata (cultivo), planta aechmea-fasciata-primera (cultivo)
 - [Cacti and succulents care](https://hgic.clemson.edu/factsheet/cactus-and-succulents/) · consultada el 2026-11-20
   - Usada en: planta cola-de-mono-dorada (cuidados), planta kalanchoe-hoja-del-aire (cuidados), planta orejas-de-conejo-canela (cuidados)
 - [Chinese Evergreen (Aglaonema) Care, Cultivation & Growing Guide](https://hgic.clemson.edu/factsheet/chinese-evergreen-aglaonema-care-cultivation-growing-guide/) · consultada el 2026-11-22
   - Qué se tomó: Si el tallo queda pelado abajo, se corta la punta y se enraíza; división, esquejes de tallo o de punta, acodo aéreo y semilla.
   - Usada en: planta aglaonema (cultivo)
+- [Dieffenbachia (HGIC 1503)](https://hgic.clemson.edu/factsheet/dieffenbachia/) · consultada el 2026-11-23
+  - Qué se tomó: Luz filtrada, riego, temperatura, poda a 15 cm, propagación primavera-verano, toxicidad, descripción de ambos cultivares
+  - Usada en: planta dieffenbachia (cuidados), planta dieffenbachia-camille (cuidados), planta dieffenbachia-tropic-snow (cuidados), planta dieffenbachia (cultivo), planta dieffenbachia-camille (cultivo), planta dieffenbachia-tropic-snow (cultivo)
 - [Dracaena (HGIC 1504)](https://hgic.clemson.edu/factsheet/dracaena/) · consultada el 2026-11-14
   - Qué se tomó: Luz, riego, flúor, humedad, sustrato, tamaño de 'Massangeana' / Luz brillante indirecta, muchas toleran poca luz; demasiado sol deja manchas secas; 15 a 21 °C de día (guía general del género). / Si los tallos quedan largos y pelados se cortan a la altura deseada y rebrotan; acodo aéreo, esquejes de punta o de tallo y brotes basales (estos en primavera o fines de verano).
   - Usada en: planta palo-de-agua (cuidados), planta bambu-de-la-suerte (cuidados), planta bambu-de-la-suerte (toxicidad), planta palo-de-agua (cultivo)
@@ -504,8 +626,8 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: Helecho de Boston: luz, riego, humedad, sustrato, temperaturas / El sol directo daña el follaje; nunca en ventana sur u oeste (hemisferio norte); luz moderada indirecta; ideal 15 a 21 °C de día y noches más frescas. / El aire de casa suele ser muy seco para los helechos, sobre todo en invierno; los de hoja fina son los más afectados (hojas marrones); luz indirecta, el sol directo daña el follaje; ninguno debe secarse del todo. Sugiere rociar de vez en cuando (discrepancia registrada). / Frondes arqueadas que caen hacia todos lados; la división es el mejor método para la mayoría de los helechos; trasplantar a principios de primavera.
   - Usada en: lección familias-3, planta helecho-serrucho (cuidados), planta helecho-serrucho (cultivo)
 - [Indoor Palms](https://hgic.clemson.edu/factsheet/indoor-palms/) · consultada el 2026-11-14
-  - Qué se tomó: Palmeras de interior: luz brillante filtrada, regar a fondo al secarse la superficie y vaciar el plato, mezcla porosa y orgánica, sumar humedad si baja de 50 %, más de 7 °C; areca 1,8-2,1 m y luz brillante indirecta; palmera de salón tolera poca luz y mínimo 15 °C en invierno / Areca: luz brillante indirecta cerca de ventana este, oeste o sur, 24 a 29 °C de día. Palmeras de salón toleran poca luz. Palmeras de interior no van al sol directo sin aclimatar. / Las palmeras no se pueden podar para bajarles la altura (crecen desde un punto central); areca en mata, palmera de salón con varios tallos sueltos por maceta; trasplante en primavera o principios de verano.
-  - Usada en: planta palmera-areca (cuidados), planta palmera-de-salon (cuidados), planta palmera-areca (cultivo), planta palmera-de-salon (cultivo)
+  - Qué se tomó: Palmeras de interior: luz brillante filtrada, regar a fondo al secarse la superficie y vaciar el plato, mezcla porosa y orgánica, sumar humedad si baja de 50 %, más de 7 °C; areca 1,8-2,1 m y luz brillante indirecta; palmera de salón tolera poca luz y mínimo 15 °C en invierno / Areca: luz brillante indirecta cerca de ventana este, oeste o sur, 24 a 29 °C de día. Palmeras de salón toleran poca luz. Palmeras de interior no van al sol directo sin aclimatar. / Las palmeras no se pueden podar para bajarles la altura (crecen desde un punto central); areca en mata, palmera de salón con varios tallos sueltos por maceta; trasplante en primavera o principios de verano. / Luz indirecta, ventana este con sol de mañana, tierra húmeda, tamaño, palmeras no se podan, sustrato poroso
+  - Usada en: planta palmera-areca (cuidados), planta palmera-de-salon (cuidados), planta phoenix-roebelenii (cuidados), planta palmera-areca (cultivo), planta palmera-de-salon (cultivo), planta phoenix-roebelenii (cultivo)
 - [Indoor Plants: Waxflowers (Hoya)](https://hgic.clemson.edu/factsheet/indoor-plants-waxflowers-hoya) · consultada el 2026-11-23
   - Qué se tomó: Riego con secado total, mezcla con corteza y perlita, tutor
   - Usada en: planta hoya (cuidados)
@@ -557,6 +679,9 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Daylily](https://www.petpoisonhelpline.com/poison/day-lily/) · consultada el 2026-11-14
   - Qué se tomó: Hemerocallis: mismas partes y mismo daño renal en gatos.
   - Usada en: advertencia lirios
+- [Dieffenbachia](https://www.petpoisonhelpline.com/poison/dieffenbachia/) · consultada el 2026-11-23
+  - Qué se tomó: Babeo, arcadas y vómitos; rara vez hinchazón de garganta con dificultad para respirar. / Irritación bucal, salivación; hinchazón de garganta solo rara vez
+  - Usada en: planta dieffenbachia (toxicidad), planta dieffenbachia-camille (toxicidad), planta dieffenbachia-tropic-snow (toxicidad)
 - [Ficus](https://www.petpoisonhelpline.com/poison/ficus/) · consultada el 2026-11-14
   - Qué se tomó: Género Ficus (incluye fiddle-leaf fig y rubber tree): savia irritante; signos
   - Usada en: planta ficus-lyrata (toxicidad), planta gomero (toxicidad)
@@ -596,72 +721,6 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Tulips & Hyacinths](https://www.petpoisonhelpline.com/poison/tulip/) · consultada el 2026-11-14
   - Qué se tomó: Mayor concentración en bulbos; hojas y flores dan náuseas y vómitos leves; bulbos dan signos digestivos persistentes y decaimiento.
   - Usada en: advertencia bulbos
-
-### RHS
-
-- [Aglaonema 'Silver Queen'](https://www.rhs.org.uk/plants/92017/aglaonema-silver-queen/details) · consultada el 2026-11-22
-  - Qué se tomó: Hábito erguido, en mata; no requiere poda; brotes basales o división.
-  - Usada en: planta aglaonema (cultivo)
-- [Aglaonema modestum](https://www.rhs.org.uk/plants/707/aglaonema-modestum/details) · consultada el 2026-11-22
-  - Qué se tomó: Forma matas; no requiere poda; separar brotes basales con 3 o 4 hojas y raíces, o dividir en primavera.
-  - Usada en: planta aglaonema (cultivo)
-- [Alocasia growing guide](https://www.rhs.org.uk/plants/alocasia/growing-guide) · consultada el 2026-11-23
-  - Qué se tomó: Luz, riego con 5 cm secos, humedad, mezcla con arena, hijuelos y rizoma, sin poda
-  - Usada en: planta alocasia (cuidados), planta alocasia (cultivo)
-- [Begonias as houseplants](https://www.rhs.org.uk/plants/begonias/houseplants) · consultada el 2026-11-14
-  - Qué se tomó: Rex y rizomatosas: luz brillante filtrada, riego generoso en verano y menos en invierno, no mojar hojas ni corona, humedad alta con bandeja de grava, mínimo 13 °C para B. rex / Luz brillante filtrada, proteger del sol directo; las Rex van a la sombra en verano; bordes marrones por temperatura demasiado alta. / Begonias rizomatosas (rex): esquejes de hoja en mayo o junio (norte), división en primavera con un punto de crecimiento por trozo; sin indicaciones de poda.
-  - Usada en: planta begonia (cuidados), planta begonia (cultivo)
-- [Chamaedorea elegans growing guide](https://www.rhs.org.uk/plants/chamaedorea/growing-guide) · consultada el 2026-11-22
-  - Qué se tomó: Varios tallos simples por maceta; sin poda (solo frondes viejas desde la base); se divide separando el pan de raíces; semilla requiere planta macho y hembra; trasplante en primavera.
-  - Usada en: planta palmera-de-salon (cultivo)
-- [Chlorophytum comosum](https://www.rhs.org.uk/plants/3761/chlorophytum-comosum/details) · consultada el 2026-11-22
-  - Qué se tomó: Forma matas; recortar las varas florales marchitas si no se quieren hijitos; semilla, división o hijitos.
-  - Usada en: planta cinta (cultivo)
-- [Cleistocactus winteri](https://www.rhs.org.uk/plants/119918/wd/details) · consultada el 2026-11-22
-  - Qué se tomó: Cactus colgante con tallos de hasta 1,5 m, ideal para maceta colgante; no requiere poda; esquejes de tallo en verano o semilla en primavera.
-  - Usada en: planta cola-de-mono-dorada (cultivo)
-- [Dracaena fragrans](https://www.rhs.org.uk/plants/6093/dracaena-fragrans/details) · consultada el 2026-11-22
-  - Qué se tomó: Columnar erguida; no requiere poda, los tallos débiles se pueden acortar en primavera y usar como esqueje; esquejes y tramos de tallo sin hojas en verano.
-  - Usada en: planta palo-de-agua (cultivo)
-- [Dracaena sanderiana (v)](https://www.rhs.org.uk/plants/6097/dracaena-sanderiana-v/details) · consultada el 2026-11-22
-  - Qué se tomó: Columnar erguida; no necesita poda salvo que crezca débil, en ese caso recortar fuerte en primavera; esquejes semileñosos o leñosos.
-  - Usada en: planta bambu-de-la-suerte (cultivo)
-- [Dracaena sanderiana green-leaved](https://www.rhs.org.uk/plants/171667/dracaena-sanderiana-green-leaved/details) · consultada el 2026-11-22
-  - Qué se tomó: Arbusto erguido columnar; no requiere poda, los tallos débiles se pueden acortar a 15 cm en primavera y usar el recorte como esqueje; esquejes y tramos de tallo en verano.
-  - Usada en: planta bambu-de-la-suerte (cultivo)
-- [Dypsis lutescens](https://www.rhs.org.uk/plants/128311/dypsis-lutescens/details) · consultada el 2026-11-22
-  - Qué se tomó: Grupo de tallos erguidos; no requiere poda; semilla a 25 °C o más.
-  - Usada en: planta palmera-areca (cultivo)
-- [Gasteria carinata var. verrucosa](https://www.rhs.org.uk/plants/260743/gasteria-carinata-var-verrucosa/details) · consultada el 2026-11-23
-  - Qué se tomó: Sol o sombra parcial, mezcla para cactus, casi seca en invierno, hijuelos, hoja, semilla, sin poda
-  - Usada en: planta gasteria (cuidados), planta gasteria (cultivo)
-- [Gasteria verrucosa](https://www.rhs.org.uk/plants/7639/gasteria-verrucosa/details) · consultada el 2026-11-23
-  - Qué se tomó: Mismos datos de cultivo (nombre sinónimo)
-  - Usada en: planta gasteria (cuidados)
-- [Goeppertia kegeljanii (Network) 'Pp0005' (guía de cultivo del género)](https://www.rhs.org.uk/plants/386632/goeppertia-kegeljanii-network-pp0005/details) · consultada el 2026-11-23
-  - Qué se tomó: Luz, riego, humedad, división a fines de primavera, sin poda
-  - Usada en: planta calatea-orbifolia (cuidados), planta calatea-orbifolia (cultivo)
-- [How to grow dracaena (RHS Growing Guide)](https://www.rhs.org.uk/plants/dracaena/how-to-grow-dracaena) · consultada el 2026-11-22
-  - Qué se tomó: Responden bien a la poda y rebrotan debajo del corte; esquejes semileñosos y leñosos en verano, con calor de fondo.
-  - Usada en: planta palo-de-agua (cultivo)
-- [How to grow ornamental figs (RHS Growing Guide)](https://www.rhs.org.uk/plants/popular/ornamental-figs/growing-guide) · consultada el 2026-11-22
-  - Qué se tomó: Ficus de interior: casi no necesitan poda; a fines de invierno o principios de primavera acortar brotes largos sobre una hoja; esquejes semileñosos en primavera o verano; acodo aéreo para el gomero y algunos otros en primavera o fines de verano; F. lyrata crece erguido.
-  - Usada en: planta ficus-lyrata (cultivo), planta gomero (cultivo)
-- [How to take cuttings from houseplants](https://www.rhs.org.uk/plants/types/houseplants/how-to-take-cuttings-from-houseplants) · consultada el 2026-11-22
-  - Qué se tomó: Mejor época para esquejes de plantas de interior: fines de primavera o principios de verano (aunque funcionan casi todo el año); nombra al potus como esqueje de tallo. / Época de esquejes y esquejes en agua o compost
-  - Usada en: planta potus (cultivo), planta lengua-de-suegra (cultivo), planta tradescantia (cultivo)
-- [Opuntia microdasys](https://www.rhs.org.uk/plants/11881/opuntia-microdasys/details) · consultada el 2026-11-22
-  - Qué se tomó: Cactus arbustivo de 0,5 a 1 m; no requiere poda; segmentos de tallo se enraízan en verano, manipulándolos con papel de diario doblado.
-  - Usada en: planta orejas-de-conejo-canela (cultivo)
-- [Ornamental figs (Ficus) - Plant Guide](https://www.rhs.org.uk/plants/ornamental-figs) · consultada el 2026-11-14
-  - Qué se tomó: Ficus de interior: luz sin sol directo, riego, humedad, sustrato, mínimo 10 °C / Lugar cálido y luminoso fuera del sol directo; no les gustan los cambios de temperatura ni las corrientes (guía general del grupo).
-  - Usada en: planta ficus-lyrata (cuidados), planta gomero (cuidados)
-- [Palms: indoors](https://www.rhs.org.uk/plants/types/trees/indoor-palms) · consultada el 2026-11-22
-  - Qué se tomó: Sin poda especial; hojas viejas se cortan, no se arrancan; hijuelos de Chamaedorea se separan en primavera con raíz; trasplante a principios de primavera.
-  - Usada en: planta palmera-areca (cultivo), planta palmera-de-salon (cultivo)
-- [Zamioculcas zamiifolia](https://www.rhs.org.uk/plants/19185/zamioculcas-zamiifolia/details) · consultada el 2026-11-22
-  - Qué se tomó: No requiere poda: sacar hojas y flores marchitas al ras; propagar por esquejes de hoja (folíolos sueltos).
-  - Usada en: planta zamioculca (cultivo)
 
 ### Iowa State University Extension and Outreach
 
@@ -794,6 +853,9 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Container Gardens: Watering](https://extension.illinois.edu/container-gardens/watering) · consultada el 2026-11-15
   - Qué se tomó: Regar hasta que gotee por abajo (lava sales); goteo para muchas macetas juntas; mezclas resecas se despegan del borde y el agua pasa de largo: se rehidratan por inmersión; no mojar el follaje. / Abierta buscando materiales: no los trata. No se cita.
   - Usada en: lección riego-3, lección riego-4
+- [Dieffenbachia](https://extension.illinois.edu/houseplants/dieffenbachia) · consultada el 2026-11-23
+  - Qué se tomó: Luz brillante, riego, humedad baja, poda y propagación en agua
+  - Usada en: planta dieffenbachia (cuidados), planta dieffenbachia-camille (cuidados), planta dieffenbachia-tropic-snow (cuidados), planta dieffenbachia (cultivo)
 - [Dragon tree](https://extension.illinois.edu/houseplants/dragon-tree) · consultada el 2026-11-23
   - Qué se tomó: luz indirecta, humedad baja, esquejes y acodo
   - Usada en: planta dracena-marginata (cuidados), planta dracena-marginata (cultivo)
@@ -902,6 +964,9 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Boston Fern, Nephrolepis exaltata](https://hort.extension.wisc.edu/articles/boston-fern-nephrolepis-exaltata/) · consultada el 2026-11-15
   - Qué se tomó: Luz media-brillante, ventana este o con cortina fina en sur/oeste, fuera del sol directo; día sin pasar de 35 °C. / Viene de bosques húmedos de América tropical; con aire seco, sobre todo en invierno, se le ponen marrones las puntas y los bordes; luz media a brillante sin sol directo; sustrato parejo de húmedo sin saturar. / Frondes arqueadas que cuelgan; cortar frondes viejas al ras ayuda a que salgan nuevas; lo más fácil es dividir el pan de raíces en mitades o cuartos, en primavera.
   - Usada en: lección familias-3, planta helecho-serrucho (cuidados), planta helecho-serrucho (cultivo)
+- [Bromeliads](https://hort.extension.wisc.edu/articles/bromeliads/) · consultada el 2026-11-23
+  - Qué se tomó: Humedad 50-75 %, mezcla de corteza, hijuelos a un tercio, muere tras florecer, no sobreviven heladas
+  - Usada en: planta aechmea-fasciata (cuidados), planta aechmea-fasciata-primera (cuidados), planta aechmea-fasciata (cultivo), planta aechmea-fasciata-primera (cultivo)
 - [Burro's tail, Sedum morganianum](https://hort.extension.wisc.edu/articles/burros-tail-sedum-morganianum/) · consultada el 2026-11-23
   - Qué se tomó: Luz brillante a sol, riego, sustrato, hábito, propagación, frío
   - Usada en: planta cola-de-burro (cuidados), planta cola-de-burro (cultivo)
@@ -978,6 +1043,36 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: Medidor de humedad en la lista de 'no necesario' (interpretarlo confunde más de lo que ayuda; mejor el dedo); rociador 'no necesario' salvo plantas del aire; regadera de pico largo y fino para llevar el agua a la base; platos protegen muebles y se vacían; globos de riego solo para plantas de tierra siempre húmeda.
   - Usada en: lección riego-2, lección riego-4
 
+### UF/IFAS Gardening Solutions
+
+- [Aglaonema](https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/aglaonema/) · consultada el 2026-11-22
+  - Qué se tomó: Al trasplantar se puede dividir en dos plantas; cortar los tallos desgarbados y enraizarlos; sacar las flores.
+  - Usada en: planta aglaonema (cultivo)
+- [Anthurium](https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/anthurium/) · consultada el 2026-11-15
+  - Qué se tomó: Como planta de interior necesita luz brillante indirecta (no dice nada de calor ni sol directo). / Brácteas de color duraderas (unas seis semanas cada una); en interior, luz indirecta brillante; ambiente húmedo.
+  - Usada en: lección familias-4, planta anturio (cuidados)
+- [Bromeliads](https://gardeningsolutions.ifas.ufl.edu/home/plants/ornamentals/bromeliads) · consultada el 2026-11-23
+  - Qué se tomó: Luz difusa sin sol directo, mezcla suelta, frío
+  - Usada en: planta aechmea-fasciata (cuidados)
+- [Dracaena Marginata](https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/dracaena-marginata/) · consultada el 2026-11-23
+  - Qué se tomó: apta poca luz, riego secar entre riegos, tamaño y frío
+  - Usada en: planta dracena-marginata (cuidados)
+- [Echeveria](https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/echeveria/) · consultada el 2026-11-14
+  - Qué se tomó: Mejor a pleno sol, tolerante a sequía, el peor error es tenerla muy mojada en invierno / Andan mejor a pleno sol y prosperan con el calor del verano / Roseta que forma mata con hijuelos; fácil de propagar por esquejes. Sin época; no se citó en el entregable.
+  - Usada en: planta echeveria (cuidados)
+- [Light for Houseplants](https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/light-for-houseplants/) · consultada el 2026-11-14
+  - Qué se tomó: La luz convierte CO2 y agua en azúcares; categorías baja/media/alta/sol directo (son generalizaciones, no términos científicos); el ojo se adapta y no sirve para juzgar la luz; sol de invierno afuera >4000 ftc vs ventana sin sol <400 ftc vs oficina ~40 ftc.
+  - Usada en: lección basico-1, lección basico-4, lección luz-1
+- [Passalong Plants](https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/passalong-plants/) · consultada el 2026-11-15
+  - Qué se tomó: Aloe: elegir un hijuelo completo, con muchas hojas y raíces bien formadas; esperar una semana antes de regar para que las raíces cicatricen y no se pudran.
+  - Usada en: lección multiplicar-3, lección multiplicar-4
+- [Soaps, Detergents and Pest Management](https://gardeningsolutions.ifas.ufl.edu/care/pests-and-diseases/pests/soaps-detergents-and-pest-management/) · consultada el 2026-11-15
+  - Qué se tomó: Los detergentes sacan la capa cerosa protectora de la hoja; vinagre y alcohol son fitotóxicos y pueden quemar hojas; las recetas de internet no se basan en investigación; usar solo jabones insecticidas registrados.
+  - Usada en: lección plagas-3
+- [Vacation Plant Care](https://gardeningsolutions.ifas.ufl.edu/design/outdoor-living/vacation-plant-care/) · consultada el 2026-11-15
+  - Qué se tomó: Autorriego con depósito para 1-2 semanas; alejar las plantas de ventanas calurosas y del sol directo; mechas de algodón desde un recipiente (3-4 semanas); más de 4 semanas, alguien que las cuide. / Alejar del sol y de ventanas cálidas (con menos luz usan menos agua); mecha con cordones de algodón desde un recipiente elevado para 3 a 4 semanas; más de 4 semanas: cuidador que pase al menos una vez por semana; macetas de exterior agrupadas y a la sombra; goteo con temporizador probado una semana antes
+  - Usada en: lección estaciones-4, lección riego-4, lección riego-5
+
 ### Clemson Cooperative Extension (HGIC)
 
 - [Common Houseplant Insects & Related Pests](https://hgic.clemson.edu/factsheet/common-houseplant-insects-related-pests/) · consultada el 2026-11-15
@@ -1004,33 +1099,6 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Weeping Ficus](https://hgic.clemson.edu/factsheet/weeping-ficus/) · consultada el 2026-11-15
   - Qué se tomó: Leída como contexto de cuidados de ficus (es de F. benjamina); no usada como fuente de datos / El ficus llorón tira hojas al moverlo o trasplantarlo; si las condiciones son buenas se adapta, deja de tirar y rebrota; lejos de corrientes y rejillas de calefacción / El ficus benjamina suele perder hojas al cambiarlo de lugar o al trasplantarlo; con condiciones adecuadas se adapta y deja de perderlas; trasplantar a fines del invierno o principios de primavera; lejos de corrientes y salidas de calefacción. / luz, riego, humedad alta, caída de hojas, esquejes en verano, acodo, salir en verano
   - Usada en: lección comprar-2, lección estaciones-3, planta ficus-benjamina (cuidados), planta ficus-benjamina (cultivo)
-
-### UF/IFAS Gardening Solutions
-
-- [Aglaonema](https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/aglaonema/) · consultada el 2026-11-22
-  - Qué se tomó: Al trasplantar se puede dividir en dos plantas; cortar los tallos desgarbados y enraizarlos; sacar las flores.
-  - Usada en: planta aglaonema (cultivo)
-- [Anthurium](https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/anthurium/) · consultada el 2026-11-15
-  - Qué se tomó: Como planta de interior necesita luz brillante indirecta (no dice nada de calor ni sol directo). / Brácteas de color duraderas (unas seis semanas cada una); en interior, luz indirecta brillante; ambiente húmedo.
-  - Usada en: lección familias-4, planta anturio (cuidados)
-- [Dracaena Marginata](https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/dracaena-marginata/) · consultada el 2026-11-23
-  - Qué se tomó: apta poca luz, riego secar entre riegos, tamaño y frío
-  - Usada en: planta dracena-marginata (cuidados)
-- [Echeveria](https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/echeveria/) · consultada el 2026-11-14
-  - Qué se tomó: Mejor a pleno sol, tolerante a sequía, el peor error es tenerla muy mojada en invierno / Andan mejor a pleno sol y prosperan con el calor del verano / Roseta que forma mata con hijuelos; fácil de propagar por esquejes. Sin época; no se citó en el entregable.
-  - Usada en: planta echeveria (cuidados)
-- [Light for Houseplants](https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/light-for-houseplants/) · consultada el 2026-11-14
-  - Qué se tomó: La luz convierte CO2 y agua en azúcares; categorías baja/media/alta/sol directo (son generalizaciones, no términos científicos); el ojo se adapta y no sirve para juzgar la luz; sol de invierno afuera >4000 ftc vs ventana sin sol <400 ftc vs oficina ~40 ftc.
-  - Usada en: lección basico-1, lección basico-4, lección luz-1
-- [Passalong Plants](https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/passalong-plants/) · consultada el 2026-11-15
-  - Qué se tomó: Aloe: elegir un hijuelo completo, con muchas hojas y raíces bien formadas; esperar una semana antes de regar para que las raíces cicatricen y no se pudran.
-  - Usada en: lección multiplicar-3, lección multiplicar-4
-- [Soaps, Detergents and Pest Management](https://gardeningsolutions.ifas.ufl.edu/care/pests-and-diseases/pests/soaps-detergents-and-pest-management/) · consultada el 2026-11-15
-  - Qué se tomó: Los detergentes sacan la capa cerosa protectora de la hoja; vinagre y alcohol son fitotóxicos y pueden quemar hojas; las recetas de internet no se basan en investigación; usar solo jabones insecticidas registrados.
-  - Usada en: lección plagas-3
-- [Vacation Plant Care](https://gardeningsolutions.ifas.ufl.edu/design/outdoor-living/vacation-plant-care/) · consultada el 2026-11-15
-  - Qué se tomó: Autorriego con depósito para 1-2 semanas; alejar las plantas de ventanas calurosas y del sol directo; mechas de algodón desde un recipiente (3-4 semanas); más de 4 semanas, alguien que las cuide. / Alejar del sol y de ventanas cálidas (con menos luz usan menos agua); mecha con cordones de algodón desde un recipiente elevado para 3 a 4 semanas; más de 4 semanas: cuidador que pase al menos una vez por semana; macetas de exterior agrupadas y a la sombra; goteo con temporizador probado una semana antes
-  - Usada en: lección estaciones-4, lección riego-4, lección riego-5
 
 ### Iowa State University Extension
 
@@ -1221,6 +1289,15 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: Suculentas en general: sol de mañana y sombra a la tarde; sombra de tarde en verano reduce el estrés
   - Usada en: planta aloe-vera (cuidados), planta echeveria (cuidados)
 
+### UConn Home & Garden Education Center
+
+- [Dieffenbachia](https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia) · consultada el 2026-11-23
+  - Qué se tomó: Luz, riego, humedad, sustrato, esquejes en agua, toxicidad, 'Tropic Snow' como D. amoena
+  - Usada en: planta dieffenbachia (cuidados), planta dieffenbachia-camille (cuidados), planta dieffenbachia-tropic-snow (cuidados), planta dieffenbachia (cultivo), planta dieffenbachia-tropic-snow (cultivo)
+- [ZZ Plant](https://homegarden.cahnr.uconn.edu/factsheets/zz-plant/) · consultada el 2026-11-22
+  - Qué se tomó: Crece erguida con tallos arqueados; esqueje de hoja en sustrato; en casa el rizoma puede tardar hasta 9 meses en formarse.
+  - Usada en: planta zamioculca (cultivo)
+
 ### University of Arkansas Cooperative Extension
 
 - [Care of Houseplants (FSA2094)](https://www.uaex.uada.edu/publications/pdf/FSA-2094.pdf) · consultada el 2026-11-15
@@ -1259,6 +1336,12 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Phalaenopsis culture sheet](https://www.aos.org/orchid-care/care-sheets/phalaenopsis-culture-sheet) · consultada el 2026-11-15
   - Qué se tomó: Ventana luminosa con poco o nada de sol; este ideal, sur u oeste sombreados; máxima recomendada 32 a 35 °C. / Luz brillante con poco o nada de sol; regar a fondo y esperar a que el sustrato esté casi seco, sin que se seque del todo; evitar agua en el centro (pudrición); corteza de grano medio; noches frescas en otoño disparan la vara floral. No menciona temperatura del agua ni hielo.
   - Usada en: lección familias-4, planta orquidea-phalaenopsis (cuidados)
+
+### BBC Gardeners' World
+
+- [Aechmea fasciata 'Primera'](https://www.gardenersworld.com/plants/aechmea-fasciata-primera) · consultada el 2026-11-23
+  - Qué se tomó: Luz sin sol directo, copa con agua, hijuelo a un tercio (apoyo, no institucional)
+  - Usada en: planta aechmea-fasciata-primera (cuidados)
 
 ### Colorado State University Extension
 
@@ -1428,12 +1511,6 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
   - Qué se tomó: Aloe vera: afuera protegida del sol intenso. Echeveria elegans: pide media sombra y el sol la marca. Haworthia: luz media a baja y protección del calor fuerte / Guardan agua en hojas, tallos o raíces engrosados; orígenes (desiertos de América, África, Sudáfrica); muchas toleran pleno sol pero no el calor intenso: mejor sol de mañana; el sol intenso prolongado quema las hojas; Echeveria elegans mejor con media sombra; Haworthia prefiere luz media a baja; regar con la tierra seca; drenaje crítico.
   - Usada en: lección familias-1, planta aloe-vera (cuidados), planta echeveria (cuidados), planta haworthia (cuidados)
 
-### UConn Home & Garden Education Center
-
-- [ZZ Plant](https://homegarden.cahnr.uconn.edu/factsheets/zz-plant/) · consultada el 2026-11-22
-  - Qué se tomó: Crece erguida con tallos arqueados; esqueje de hoja en sustrato; en casa el rizoma puede tardar hasta 9 meses en formarse.
-  - Usada en: planta zamioculca (cultivo)
-
 ### UF/IFAS Extension Pasco County
 
 - [Sunlight v. Fertilizer](https://blogs.ifas.ufl.edu/pascoco/2024/11/12/sunlight-v-fertilizer/) · consultada el 2026-11-15
@@ -1511,6 +1588,12 @@ Todo el contenido educativo sale de las fuentes listadas acá. Cada una fue abie
 - [Borax + sugar and other dangerous homemade pesticides](https://gardening.usask.ca/articles-and-lists/articles-how-to/borax-+-sugar-and-other-dangerous-homemade-pesticides.php) · consultada el 2026-11-15
   - Qué se tomó: No recomienda pesticidas caseros; los de tabaco son especialmente tóxicos y se absorben por la piel.
   - Usada en: lección plagas-3
+
+### University of Washington Botanic Gardens (Miller Library)
+
+- [Caring for Calathea](https://depts.washington.edu/hortlib/pal/caring-for-calathea) · consultada el 2026-11-23
+  - Qué se tomó: Sombra con buena luz, tierra siempre húmeda, mezcla con turba y perlita
+  - Usada en: planta calatea-zebrina (cuidados)
 
 ### University of Wisconsin-Madison Extension (Chippewa County)
 

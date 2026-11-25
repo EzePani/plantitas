@@ -1,0 +1,318 @@
+[
+  {
+    "id": "phoenix-roebelenii",
+    "nombre_comun": "Palmera datilera enana",
+    "otros_nombres": [],
+    "nombre_cientifico": "Phoenix roebelenii",
+    "familia": "Arecaceae",
+    "grupo": "palmera",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "directa",
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 2,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Quiere mucha claridad con luz indirecta; si le llega un rato de sol suave de la mañana, mejor. Hay que protegerla del sol fuerte de la tarde, que le quema las hojas.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Mantené la tierra apenas húmeda mientras crece, sin encharcar: regá moderado y dejá que drene bien.",
+      "invierno": "Regá poco: dejá que se seque un poco entre riegos y no la dejes con agua en el plato.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Prefiere humedad media a alta. Si el aire de la calefacción está muy seco, ayuda un plato con piedritas húmedas o un humidificador.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato para macetas húmedo, poroso, con buen drenaje y algo de materia orgánica.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 3,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "No soporta el frío ni las heladas: puede pasar el verano en un balcón reparado, a media sombra, pero tiene que volver adentro antes de que baje la temperatura."
+    },
+    "tamano": "grande",
+    "dificultad": "media",
+    "tip": "Ojo con las hojas: en la base tienen espinas muy filosas, así que ponela donde no roce a chicos ni a mascotas curiosas y manipulala con cuidado.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: solo sacá las hojas secas de abajo, con cuidado por las espinas."
+      },
+      "propagacion": {
+        "metodos": [
+          "semilla"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11
+        ],
+        "detalle": "En casa se multiplica por semilla, que necesita calor y paciencia para germinar. Las plantas de maceta casi no largan hijuelos; por eso suelen venderse varias juntas en una misma maceta."
+      },
+      "fuentes": [
+        {
+          "titulo": "Phoenix roebelenii (Dwarf Date Palm)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/phoenix-roebelenii/",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Phoenix roebelenii (miniature date palm)",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/12771/phoenix-roebelenii-miniature-date-palm-pygmy-date-palm/details",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Indoor Palms",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/factsheet/indoor-palms/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ],
+      "confianza": "media",
+      "adaptaciones": [
+        "RHS indica sembrar en primavera (marzo a mayo en el norte): se pasó a septiembre a noviembre."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "ASPCA y NC State la dan como no tóxica para gatos y perros. Lo que sí hay que cuidar son las espinas filosas en la base de las hojas, que pueden lastimar a una mascota curiosa.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Miniature Date Palm - Toxic and Non-Toxic Plants",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/miniature-date-palm",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Phoenix roebelenii (Dwarf Date Palm)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/phoenix-roebelenii/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Phoenix roebelenii (Dwarf Date Palm)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/phoenix-roebelenii/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Phoenix roebelenii (miniature date palm)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/12771/phoenix-roebelenii-miniature-date-palm-pygmy-date-palm/details",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Indoor Palms",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-palms/",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Clemson recomienda una ventana al este con sol de mañana: en Buenos Aires también es la este.",
+      "RHS la califica H1B (mínimo de 10 a 15 °C, sin heladas): se tradujo como 'no dejarla afuera en el invierno porteño'."
+    ],
+    "discrepancias": [
+      "Luz: NC State admite pleno sol y media sombra y RHS la da en pleno sol o media sombra, pero para interior RHS y Clemson piden luz brillante indirecta y protección del sol fuerte. Se tomó el criterio conservador: solo 2 horas de sol suave, sin sol de tarde.",
+      "Riego: Clemson pide tierra húmeda todo el tiempo; NC State y RHS piden moderado sin excesos y RHS poco en invierno. Se tomó lo moderado.",
+      "Humedad: NC State dice media a alta; Clemson y RHS no dan un requisito específico para esta especie.",
+      "Nombre: ASPCA la lista como Phoenix robellinii (Miniature Date Palm, Pygmy Date Palm); NC State y RHS usan Phoenix roebelenii.",
+      "Espinas: NC State aclara que los folíolos de la base son espinas muy afiladas y pide cuidado al manipular las hojas; RHS no las menciona.",
+      "Propagación: la fuente específica de la especie es RHS (semilla); NC State dice que en cultivo casi no hace hijuelos y Clemson da una regla general de palmeras (semilla o división). No se incluyó división."
+    ]
+  },
+  {
+    "id": "phoenix-canariensis",
+    "nombre_comun": "Palmera canaria",
+    "otros_nombres": [],
+    "nombre_cientifico": "Phoenix canariensis",
+    "familia": "Arecaceae",
+    "grupo": "palmera",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "directa"
+    ],
+    "horas_sol_directo": 4,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Adentro necesita luz brillante e indirecta; afuera le gusta un lugar luminoso y reparado con algo de sombra al mediodía. Cuando es grande aguanta mucho sol, pero joven y en maceta conviene cuidarla del sol fuerte.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá moderado mientras crece, para que la tierra se mantenga apenas húmeda y drene bien; ya establecida aguanta períodos de sequía.",
+      "invierno": "Regá poco: dejá que se seque más entre riegos.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Las fuentes no piden humedad especial para esta palmera, así que no hace falta nada extra.",
+      "confianza": "baja"
+    },
+    "sustrato": {
+      "tipo": "Sustrato rico, tipo tierra franca con compost, que drene bien.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 4,
+    "apta": {
+      "interior": true,
+      "balcon": true,
+      "nota_balcon": "Aguanta el frío suave: las fuentes la dan sin daño hasta unos -6 °C una vez establecida. En maceta y joven puede quedarse en un balcón luminoso y reparado, pero crece mucho y con los años va a necesitar jardín."
+    },
+    "tamano": "grande",
+    "dificultad": "media",
+    "tip": "De chiquita se porta bien en maceta, pero es una palmera de jardín que llega a muchos metros: pensá dónde va a vivir cuando crezca, y con cuidado con las espinas largas del tallo de las hojas.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No se poda: solo sacá las hojas secas de abajo, sin cortarlas al ras del tronco y con guantes y protección por las espinas largas."
+      },
+      "propagacion": {
+        "metodos": [
+          "semilla"
+        ],
+        "en_agua": false,
+        "meses": [],
+        "detalle": "Se multiplica por semilla, que necesita bastante calor (25 °C o más) para germinar y tarda en crecer. Las fuentes no dan una época precisa para hacerlo."
+      },
+      "fuentes": [
+        {
+          "titulo": "Phoenix canariensis (Canary Island Date Palm)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/phoenix-canariensis/",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Phoenix canariensis (Canary Island date palm)",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/12767/wd/details",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Palms: hardy",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/types/trees/hardy-palms",
+          "fecha_consulta": "2026-11-23"
+        }
+      ],
+      "confianza": "media",
+      "adaptaciones": [
+        "RHS aclara cuándo plantar palmeras al aire libre en mediados de primavera (abril a mayo en el norte): no se usó, porque no aplica a macetas de interior."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "ASPCA y NC State la dan como no tóxica para gatos y perros. Eso sí: las espinas de 5 a 20 cm en la base de las hojas son muy filosas y pueden lastimar, así que mantenela lejos del paso de tu mascota.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Canary Date Palm - Toxic and Non-Toxic Plants",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/canary-date-palm",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Phoenix canariensis (Canary Island Date Palm)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/phoenix-canariensis/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Phoenix canariensis (Canary Island Date Palm)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/phoenix-canariensis/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Phoenix canariensis (Canary Island date palm)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/12767/wd/details",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Palms: hardy",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/types/trees/hardy-palms",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "baja",
+    "adaptaciones": [
+      "RHS sugiere orientación sur u oeste en el hemisferio norte: en Buenos Aires la equivalente a sur es la norte, aunque con la palmera joven conviene filtrar el sol del mediodía.",
+      "NC State la da para zonas USDA 9 a 11 y dice que no tolera menos de unos -7 °C (20 °F): se tradujo como 'aguanta heladas suaves, no fuertes'.",
+      "RHS la califica H2 (mínimo de 1 a 5 °C, no soporta congelamiento) y en su guía de palmeras rústicas la da hasta -8 °C; se tomó el criterio más conservador."
+    ],
+    "discrepancias": [
+      "Luz: NC State pide pleno sol con sombra de tarde (6 horas o más de sol directo); RHS pide semisombra, y luz brillante indirecta adentro. Se tomó lo menor: 4 horas de sol directo, sin sol fuerte de tarde.",
+      "Frío: RHS da H2 en su ficha (sin congelamiento) y -8 °C en la guía de palmeras rústicas; NC State dice que daña por debajo de unos -7 °C. Se tomó lo más conservador y se aclaró en la nota del balcón.",
+      "Humedad: ninguna de las dos fuentes da pauta; se dejó 'media' con confianza baja.",
+      "Nombre: ASPCA la lista como Phoenix canariensis (Canary Date Palm); NC State y RHS como Canary Island date palm.",
+      "Espinas: NC State las describe de 2 a 8 pulgadas (5 a 20 cm) en el pecíolo y dice que lastiman seguido a quienes la manipulan; recomienda protección personal, incluso para los ojos.",
+      "Propagación: ambas fuentes dicen semilla; RHS pide 25 °C o más pero ninguna da época."
+    ]
+  }
+]

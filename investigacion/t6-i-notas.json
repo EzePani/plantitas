@@ -1,0 +1,232 @@
+{
+  "fuentes": [
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Goeppertia zebrina",
+      "url": "https://plants.ces.ncsu.edu/plants/goeppertia-zebrina/",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz, riego, humedad, sustrato, 65-75 F, tamaño, división, no tóxica; cultivar Snow White",
+      "usado_en": [
+        "calatea-zebrina",
+        "riego",
+        "luz",
+        "humedad",
+        "sustrato",
+        "toxicidad",
+        "cultivo"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Goeppertia zebrina",
+      "url": "https://www.rhs.org.uk/plants/357248/goeppertia-zebrina/details",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz filtrada, riego, 16 C mínimo, dividir a fines de primavera, sin poda, AGM, sin cultivares",
+      "usado_en": [
+        "calatea-zebrina",
+        "luz",
+        "riego",
+        "cultivo"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow calatheas",
+      "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz, riego, humedad, compost, división en primavera, sin poda regular",
+      "usado_en": [
+        "calatea-zebrina",
+        "luz",
+        "riego",
+        "humedad",
+        "sustrato",
+        "cultivo"
+      ]
+    },
+    {
+      "org": "University of Washington Botanic Gardens",
+      "titulo": "Caring for Calathea",
+      "url": "https://depts.washington.edu/hortlib/pal/caring-for-calathea",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Sombra con buena luz, tierra siempre húmeda, mezcla con turba y perlita",
+      "usado_en": [
+        "calatea-zebrina",
+        "luz",
+        "riego",
+        "sustrato"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Calathea (Calathea spp.)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/calathea",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "No tóxica para gatos ni perros (ficha de género)",
+      "usado_en": [
+        "calatea-zebrina",
+        "toxicidad"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Aechmea fasciata",
+      "url": "https://plants.ces.ncsu.edu/plants/aechmea-fasciata/",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Copa con agua, orquídeas, 65-75 F, hijuelos, florece una vez, cultivares Primera/Purpurea/Variegated, no tóxica",
+      "usado_en": [
+        "aechmea-fasciata",
+        "aechmea-fasciata-primera",
+        "riego",
+        "luz",
+        "sustrato",
+        "cultivo",
+        "toxicidad"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Aechmea fasciata",
+      "url": "https://www.rhs.org.uk/plants/59419/aechmea-fasciata/details",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz filtrada bajo vidrio, compost epífita, hijuelos, H1B, sin poda",
+      "usado_en": [
+        "aechmea-fasciata",
+        "luz",
+        "sustrato",
+        "cultivo"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Aechmea fasciata 'Primera'",
+      "url": "https://www.rhs.org.uk/plants/146340/aechmea-fasciata-primera/details",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Cultivar Primera, AGM, hijuelos, sol o sombra parcial",
+      "usado_en": [
+        "aechmea-fasciata-primera"
+      ]
+    },
+    {
+      "org": "BBC Gardeners' World",
+      "titulo": "Aechmea fasciata 'Primera'",
+      "url": "https://www.gardenersworld.com/plants/aechmea-fasciata-primera",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz sin sol directo, copa con agua, hijuelo a un tercio (apoyo, no institucional)",
+      "usado_en": [
+        "aechmea-fasciata-primera"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Bromeliads",
+      "url": "https://hort.extension.wisc.edu/articles/bromeliads/",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Humedad 50-75 %, mezcla de corteza, hijuelos a un tercio, muere tras florecer, no sobreviven heladas",
+      "usado_en": [
+        "aechmea-fasciata",
+        "aechmea-fasciata-primera",
+        "humedad",
+        "sustrato",
+        "cultivo"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Bromeliads",
+      "url": "https://hgic.clemson.edu/factsheet/bromeliads/",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Copa llena, tierra seca entre riegos, luz indirecta, Aechmea fasciata prefiere calor",
+      "usado_en": [
+        "aechmea-fasciata",
+        "aechmea-fasciata-primera",
+        "riego",
+        "luz"
+      ]
+    },
+    {
+      "org": "UF/IFAS Gardening Solutions",
+      "titulo": "Bromeliads",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/home/plants/ornamentals/bromeliads",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz difusa sin sol directo, mezcla suelta, frío",
+      "usado_en": [
+        "aechmea-fasciata",
+        "luz",
+        "sustrato"
+      ]
+    }
+  ],
+  "revisar": [
+    {
+      "id": "aechmea-fasciata",
+      "dato": "toxicidad_gato / toxicidad_perro",
+      "motivo": "ASPCA no tiene ficha de Aechmea fasciata ni del género (solo Neoregelia, Cryptanthus, Guzmania). NC State la marca no tóxica pero es una sola fuente: no_verificada.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/aechmea-fasciata/"
+      ]
+    },
+    {
+      "id": "aechmea-fasciata-primera",
+      "dato": "toxicidad_gato / toxicidad_perro",
+      "motivo": "Igual que la especie: sin ficha ASPCA.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/aechmea-fasciata/"
+      ]
+    },
+    {
+      "id": "calatea-zebrina",
+      "dato": "toxicidad",
+      "motivo": "ASPCA solo tiene Calathea spp. (género); NC State sí lista la especie. Se marcó segura con confianza alta.",
+      "fuentes": [
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/calathea",
+        "https://plants.ces.ncsu.edu/plants/goeppertia-zebrina/"
+      ]
+    },
+    {
+      "id": "aechmea-fasciata",
+      "dato": "cultivo.propagacion.meses",
+      "motivo": "Ninguna fuente da época para separar hijuelos: meses [] y confianza media.",
+      "fuentes": [
+        "https://hort.extension.wisc.edu/articles/bromeliads/"
+      ]
+    },
+    {
+      "id": "aechmea-fasciata",
+      "dato": "otros_nombres",
+      "motivo": "No se encontró ninguna fuente que confirme un nombre rioplatense (p. ej. Bromelia); solo se dejó Achmea (grafía de la usuaria) y Urn plant. Caraguatá es de A. distichantha, no se aplicó.",
+      "fuentes": []
+    },
+    {
+      "id": "aechmea-fasciata",
+      "dato": "luz.horas_sol_directo / riego / humedad",
+      "motivo": "Fuentes dispares en sol (NC State 2-6 h, RHS sol pleno al aire libre vs UF y Clemson sin sol directo): se tomó 0 h. Humedad con confianza media.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/aechmea-fasciata/",
+        "https://gardeningsolutions.ifas.ufl.edu/home/plants/ornamentals/bromeliads"
+      ]
+    },
+    {
+      "id": "aechmea-fasciata-primera",
+      "dato": "cultivar",
+      "motivo": "Incluida por tener NC State y RHS. Morgana (solo RHS sin descripción) y Silver King (sin fuentes) se descartaron. Fotos Commons: solo 2 y poco diagnósticas.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/146340/aechmea-fasciata-primera/details"
+      ]
+    },
+    {
+      "id": "calatea-zebrina",
+      "dato": "variedades",
+      "motivo": "NC State menciona Snow White; RHS no lista cultivares. No se agregó.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/goeppertia-zebrina/"
+      ]
+    }
+  ],
+  "no_pude_abrir": [
+    "https://edis.ifas.ufl.edu/publication/EP186 y ask.ifas.ufl.edu (redirecciones infinitas / 410)",
+    "https://www.rhs.org.uk/plants/calathea/growing-guide solo abrió; https://www.rhs.org.uk/plants/aechmea/growing-guide devolvió 404",
+    "ASPCA: las fichas por slug de Aechmea/urn plant/silver vase/bromeliad no cargan contenido (índice vacío)",
+    "https://www.petpoisonhelpline.com/poison/bromeliad/ (404)"
+  ]
+}

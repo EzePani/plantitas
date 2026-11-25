@@ -1,0 +1,96 @@
+{
+  "phoenix-roebelenii": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo sacá las hojas secas de abajo, con cuidado por las espinas."
+    },
+    "propagacion": {
+      "metodos": [
+        "semilla"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "En casa se multiplica por semilla, que necesita calor y paciencia para germinar. Las plantas de maceta casi no largan hijuelos; por eso suelen venderse varias juntas en una misma maceta."
+    },
+    "fuentes": [
+      {
+        "titulo": "Phoenix roebelenii (Dwarf Date Palm)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/phoenix-roebelenii/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Phoenix roebelenii (miniature date palm)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/12771/phoenix-roebelenii-miniature-date-palm-pygmy-date-palm/details",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Indoor Palms",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-palms/",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "RHS indica sembrar en primavera (marzo a mayo en el norte): se pasó a septiembre a noviembre."
+    ]
+  },
+  "phoenix-canariensis": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No se poda: solo sacá las hojas secas de abajo, sin cortarlas al ras del tronco y con guantes y protección por las espinas largas."
+    },
+    "propagacion": {
+      "metodos": [
+        "semilla"
+      ],
+      "en_agua": false,
+      "meses": [],
+      "detalle": "Se multiplica por semilla, que necesita bastante calor (25 °C o más) para germinar y tarda en crecer. Las fuentes no dan una época precisa para hacerlo."
+    },
+    "fuentes": [
+      {
+        "titulo": "Phoenix canariensis (Canary Island Date Palm)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/phoenix-canariensis/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Phoenix canariensis (Canary Island date palm)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/12767/wd/details",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Palms: hardy",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/types/trees/hardy-palms",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "RHS aclara cuándo plantar palmeras al aire libre en mediados de primavera (abril a mayo en el norte): no se usó, porque no aplica a macetas de interior."
+    ]
+  }
+}

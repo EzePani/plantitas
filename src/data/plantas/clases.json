@@ -139,5 +139,31 @@
   "kalanchoe-de-flor": [
     "suculenta",
     "con_flor"
+  ],
+  "dieffenbachia": [
+    "follaje"
+  ],
+  "dieffenbachia-camille": [
+    "follaje"
+  ],
+  "dieffenbachia-tropic-snow": [
+    "follaje"
+  ],
+  "calatea-zebrina": [
+    "follaje"
+  ],
+  "aechmea-fasciata": [
+    "follaje",
+    "con_flor"
+  ],
+  "aechmea-fasciata-primera": [
+    "follaje",
+    "con_flor"
+  ],
+  "phoenix-roebelenii": [
+    "follaje"
+  ],
+  "phoenix-canariensis": [
+    "follaje"
   ]
 }

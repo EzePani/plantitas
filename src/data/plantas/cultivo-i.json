@@ -1,0 +1,146 @@
+{
+  "calatea-zebrina": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo cortá al ras las hojas secas o marrones para que quede prolija."
+    },
+    "propagacion": {
+      "metodos": [
+        "division"
+      ],
+      "en_agua": false,
+      "meses": [
+        10,
+        11
+      ],
+      "detalle": "Se multiplica dividiendo la mata: sacala de la maceta, separá la raíz en trozos con varias hojas cada uno y plantalos por separado. Mantenelos tibios, húmedos y con humedad en el aire hasta que salgan hojas nuevas."
+    },
+    "fuentes": [
+      {
+        "titulo": "Goeppertia zebrina (Zebra Plant)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/goeppertia-zebrina/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Goeppertia zebrina (zebra plant)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/357248/goeppertia-zebrina/details",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "How to grow calatheas",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS recomienda dividir a fines de primavera y en primavera (hemisferio norte): se pasó a octubre y noviembre, que en Buenos Aires es la primavera (septiembre a noviembre)."
+    ]
+  },
+  "aechmea-fasciata": {
+    "porte": [
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo sacá las hojas secas. La planta madre se va apagando de a poco después de florecer, y sus hijuelos siguen."
+    },
+    "propagacion": {
+      "metodos": [
+        "hijuelos"
+      ],
+      "en_agua": false,
+      "meses": [],
+      "detalle": "Después de florecer salen hijuelos en la base. Cuando midan alrededor de un tercio de la planta madre, cortalos con cuidado y plantalos en su propia maceta con mezcla suelta, en un lugar más sombreado y húmedo hasta que enraícen. Las fuentes no dan una época precisa."
+    },
+    "fuentes": [
+      {
+        "titulo": "Aechmea fasciata (Silver Vase Bromeliad)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/aechmea-fasciata/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Bromeliads",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/bromeliads/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Bromeliads",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/bromeliads/",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Ninguna fuente da una época para separar hijuelos, así que no se indicó ningún mes."
+    ]
+  },
+  "aechmea-fasciata-primera": {
+    "porte": [
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo sacá las hojas secas. La planta madre se va apagando de a poco después de florecer, y sus hijuelos siguen."
+    },
+    "propagacion": {
+      "metodos": [
+        "hijuelos"
+      ],
+      "en_agua": false,
+      "meses": [],
+      "detalle": "Después de florecer salen hijuelos en la base. Cuando midan alrededor de un tercio de la planta madre, cortalos con cuidado y plantalos en su propia maceta con mezcla suelta, en un lugar más sombreado y húmedo hasta que enraícen. Las fuentes no dan una época precisa."
+    },
+    "fuentes": [
+      {
+        "titulo": "Aechmea fasciata 'Primera'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/146340/aechmea-fasciata-primera/details",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Aechmea fasciata (Silver Vase Bromeliad)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/aechmea-fasciata/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Bromeliads",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/bromeliads/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Bromeliads",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/bromeliads/",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Ninguna fuente da una época para separar hijuelos, así que no se indicó ningún mes."
+    ]
+  }
+}

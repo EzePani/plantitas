@@ -1,0 +1,56 @@
+{
+  "calatea-zebrina": [
+    {
+      "archivo": "img/extra/calatea-zebrina-1.webp",
+      "autor": "Krzysztof Ziarnek, Kenraiz",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Goeppertia_zebrina_kz01.jpg"
+    },
+    {
+      "archivo": "img/extra/calatea-zebrina-2.webp",
+      "autor": "Photo by David J. Stang",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Calathea_zebrina_4zz.jpg"
+    },
+    {
+      "archivo": "img/extra/calatea-zebrina-3.webp",
+      "autor": "Photo by David J. Stang",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Calathea_zebrina_15zz.jpg"
+    }
+  ],
+  "aechmea-fasciata": [
+    {
+      "archivo": "img/extra/aechmea-fasciata-1.webp",
+      "autor": "This illustration was made by Citron You must credit this : Citron / CC-BY-SA-3.0",
+      "licencia": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Aechmea_fasciata_Parc_floral_de_Paris.jpg"
+    },
+    {
+      "archivo": "img/extra/aechmea-fasciata-2.webp",
+      "autor": "Paul & Aline Burland",
+      "licencia": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Aechmea_fasciata2.jpg"
+    },
+    {
+      "archivo": "img/extra/aechmea-fasciata-3.webp",
+      "autor": "Victor Farjalla Pontes",
+      "licencia": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Aechmea_fasciata_118491398.jpg"
+    }
+  ],
+  "aechmea-fasciata-primera": [
+    {
+      "archivo": "img/extra/aechmea-fasciata-primera-1.webp",
+      "autor": "Aconcagua",
+      "licencia": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Aechmea_primera.jpg"
+    },
+    {
+      "archivo": "img/extra/aechmea-fasciata-primera-2.webp",
+      "autor": "阿橋 HQ",
+      "licencia": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:%E5%85%89%E8%90%BC%E8%8D%B7%E5%B1%AC_Aechmea_Primera_Benefita_-%E8%8D%B7%E8%98%AD%E5%9C%92%E8%97%9D%E5%B1%95_Venlo_Floriade,_Holland-_(9152018098).jpg"
+    }
+  ]
+}

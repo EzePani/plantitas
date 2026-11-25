@@ -1,0 +1,538 @@
+[
+ {
+  "id": "dieffenbachia",
+  "nombre_comun": "Dieffenbachia",
+  "otros_nombres": [
+   "Dumbcane",
+   "Dumb cane"
+  ],
+  "nombre_cientifico": "Dieffenbachia seguine",
+  "familia": "Araceae",
+  "grupo": "follaje_tropical",
+  "luz_requerida": "indirecta_brillante",
+  "luz_tolerada": [
+   "indirecta_media",
+   "baja"
+  ],
+  "horas_sol_directo": 0,
+  "tolera_sol_tarde": false,
+  "sensibilidad_calor": "media",
+  "luz": {
+   "detalle": "Crece mejor con luz brillante pero filtrada, lejos del sol directo que le marca las hojas. Tolera poca luz, pero crece más despacio.",
+   "confianza": "media",
+   "confianza_sol": "baja"
+  },
+  "riego": {
+   "nivel": "medio",
+   "verano": "Regá a fondo cuando los primeros 2 a 3 cm de tierra estén secos y vaciá el plato.",
+   "invierno": "Regá menos seguido y esperá a que la tierra se seque más antes de volver a regar: con frío el exceso le pudre las raíces.",
+   "confianza": "alta"
+  },
+  "humedad": {
+   "nivel": "media",
+   "detalle": "Le gusta el aire algo húmedo; si el ambiente está muy seco (calefacción), agrupala con otras plantas o usá una bandeja con piedritas y agua.",
+   "confianza": "media"
+  },
+  "sustrato": {
+   "tipo": "Sustrato suelto y rico en materia orgánica que drene bien, por ejemplo tierra de maceta con perlita o turba.",
+   "confianza": "alta"
+  },
+  "tolerancia_descuido": 3,
+  "apta": {
+   "interior": true,
+   "balcon": false,
+   "nota_balcon": "Es tropical y no aguanta el frío ni las corrientes de aire: en Buenos Aires vive adentro; al balcón solo en verano, a la sombra, y se entra antes de los primeros fríos."
+  },
+  "tamano": "grande",
+  "dificultad": "facil",
+  "tip": "Si se le caen las hojas de abajo, tranqui: es normal con el tiempo. Revisá antes que nada que no tenga corrientes de aire y que no se encharque.",
+  "clases": [
+   "follaje"
+  ],
+  "cultivo": {
+   "porte": [
+    "erguida"
+   ],
+   "tutor": {
+    "recomendado": "no",
+    "detalle": ""
+   },
+   "poda": {
+    "meses": [],
+    "detalle": "Si se queda larga y pelada abajo, cortá los tallos a unos 15 cm del suelo y rebrota por debajo del corte; sacá las hojas de abajo cuando se amarillean. Usá guantes: la savia irrita."
+   },
+   "propagacion": {
+    "metodos": [
+     "esqueje_tierra",
+     "esqueje_agua",
+     "acodo"
+    ],
+    "en_agua": true,
+    "meses": [
+     9,
+     10,
+     11,
+     12
+    ],
+    "detalle": "Cortá la punta o un tramo de tallo con nudos, dejalo secar un día y ponelo en agua o en sustrato húmedo con luz brillante sin sol directo. Usá guantes porque la savia irrita la piel."
+   },
+   "fuentes": [
+    {
+     "titulo": "Dieffenbachia seguine",
+     "org": "NC State Extension Plant Toolbox",
+     "url": "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+     "fecha_consulta": "2026-11-23"
+    },
+    {
+     "titulo": "Dieffenbachia (HGIC 1503)",
+     "org": "Clemson Cooperative Extension HGIC",
+     "url": "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+     "fecha_consulta": "2026-11-23"
+    },
+    {
+     "titulo": "Dieffenbachia",
+     "org": "UConn Home & Garden Education Center",
+     "url": "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia",
+     "fecha_consulta": "2026-11-23"
+    },
+    {
+     "titulo": "Dieffenbachia",
+     "org": "University of Illinois Extension",
+     "url": "https://extension.illinois.edu/houseplants/dieffenbachia",
+     "fecha_consulta": "2026-11-23"
+    }
+   ],
+   "confianza": "media",
+   "adaptaciones": [
+    "Clemson da la propagación en primavera y principios de verano: se pasó a septiembre a diciembre.",
+    "Ninguna fuente da época de poda ni habla de tutor: se dejó poda sin meses y tutor en 'no' (confianza media)."
+   ]
+  },
+  "imagen": null,
+  "fotos_extra": [],
+  "atribucion_imagen": null,
+  "mascotas": {
+   "toxicidad_gato": "toxica",
+   "toxicidad_perro": "toxica",
+   "gravedad": "moderada",
+   "sintomas": "Ardor e irritación fuerte en boca, lengua y labios, babeo, náuseas, vómitos y dificultad para tragar. Muy rara vez, hinchazón de garganta con dificultad para respirar.",
+   "partes": "Toda la planta; la savia irrita también la piel y los ojos.",
+   "atractivo_para_mascotas": "desconocido",
+   "atractivo_motivo": "",
+   "repelencia_por_olor": "ninguna",
+   "nota_mascotas": "Dejala fuera de alcance de gatos y perros y usá guantes al podarla. Si la muerde y babea mucho, vomita o le cuesta tragar, consultá enseguida con tu veterinario.",
+   "advertencia_grave": null,
+   "confianza": "alta",
+   "fuentes_toxicidad": [
+    {
+     "titulo": "Toxic and Non-toxic Plants: Dieffenbachia",
+     "org": "ASPCA",
+     "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dieffenbachia",
+     "fecha_consulta": "2026-11-23"
+    },
+    {
+     "titulo": "Dieffenbachia",
+     "org": "Pet Poison Helpline",
+     "url": "https://www.petpoisonhelpline.com/poison/dieffenbachia/",
+     "fecha_consulta": "2026-11-23"
+    },
+    {
+     "titulo": "Dieffenbachia seguine",
+     "org": "NC State Extension Plant Toolbox",
+     "url": "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+     "fecha_consulta": "2026-11-23"
+    }
+   ]
+  },
+  "fuentes": [
+   {
+    "titulo": "Dieffenbachia seguine",
+    "org": "NC State Extension Plant Toolbox",
+    "url": "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+    "fecha_consulta": "2026-11-23"
+   },
+   {
+    "titulo": "Dieffenbachia (HGIC 1503)",
+    "org": "Clemson Cooperative Extension HGIC",
+    "url": "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+    "fecha_consulta": "2026-11-23"
+   },
+   {
+    "titulo": "Dieffenbachia",
+    "org": "UConn Home & Garden Education Center",
+    "url": "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia",
+    "fecha_consulta": "2026-11-23"
+   },
+   {
+    "titulo": "Dieffenbachia",
+    "org": "University of Illinois Extension",
+    "url": "https://extension.illinois.edu/houseplants/dieffenbachia",
+    "fecha_consulta": "2026-11-23"
+   }
+  ],
+  "confianza": "media",
+  "adaptaciones": [
+   "Estaciones convertidas: época de crecimiento (primavera-verano) de septiembre a febrero; invierno de junio a agosto.",
+   "Las fuentes la dan como exterior solo en zonas USDA 10-11: en Buenos Aires vive adentro y no se deja afuera en invierno.",
+   "Clemson sugiere más luz, incluso sol directo, en invierno del norte; no se tradujo a sol directo por ser el criterio conservador."
+  ],
+  "discrepancias": [
+   "Luz: NC State admite 2 a 6 horas de sol directo, pero UConn dice que el sol directo decolora las hojas (sobre todo en variegadas) y Clemson habla de luz filtrada la mayor parte del año; se tomó 0 horas de sol directo.",
+   "Humedad: UConn pide aire húmedo, Illinois dice que aguanta humedad baja y Clemson no la menciona; se dejó 'media'.",
+   "Gravedad: ASPCA no da una escala; Pet Poison Helpline habla de irritación y solo rara vez de hinchazón de garganta; NC State la rotula de severidad alta (y dice que puede ser fatal) y Clemson menciona riesgo de ahogo en personas. Se dejó 'moderada' sin advertencia grave porque el riesgo serio en mascotas se describe como raro.",
+   "Nombres: NC State y Clemson confirman 'Dumbcane'; no encontré fuente que confirme nombres usados en Argentina, por eso no se incluyen."
+  ]
+ },
+ {
+  "id": "dieffenbachia-camille",
+  "nombre_comun": "Dieffenbachia 'Camille'",
+  "otros_nombres": [
+   "Camille"
+  ],
+  "nombre_cientifico": "Dieffenbachia seguine 'Camille'",
+  "familia": "Araceae",
+  "grupo": "follaje_tropical",
+  "luz_requerida": "indirecta_brillante",
+  "luz_tolerada": [
+   "indirecta_media",
+   "baja"
+  ],
+  "horas_sol_directo": 0,
+  "tolera_sol_tarde": false,
+  "sensibilidad_calor": "media",
+  "luz": {
+   "detalle": "Prefiere luz brillante filtrada. Evitá el sol directo, que puede decolorar las hojas, sobre todo las claras.",
+   "confianza": "media",
+   "confianza_sol": "baja"
+  },
+  "riego": {
+   "nivel": "medio",
+   "verano": "Regá a fondo cuando los primeros 2 a 3 cm de tierra estén secos y vaciá el plato.",
+   "invierno": "Regá menos seguido y esperá a que la tierra se seque más antes de volver a regar: con frío el exceso le pudre las raíces.",
+   "confianza": "alta"
+  },
+  "humedad": {
+   "nivel": "media",
+   "detalle": "Le gusta el aire algo húmedo; si el ambiente está muy seco (calefacción), agrupala con otras plantas o usá una bandeja con piedritas y agua.",
+   "confianza": "media"
+  },
+  "sustrato": {
+   "tipo": "Sustrato suelto y rico en materia orgánica que drene bien, por ejemplo tierra de maceta con perlita o turba.",
+   "confianza": "alta"
+  },
+  "tolerancia_descuido": 3,
+  "apta": {
+   "interior": true,
+   "balcon": false,
+   "nota_balcon": "Es tropical y no aguanta el frío ni las corrientes de aire: en Buenos Aires vive adentro; al balcón solo en verano, a la sombra, y se entra antes de los primeros fríos."
+  },
+  "tamano": "mediana",
+  "dificultad": "facil",
+  "tip": "Sus hojas amarillo cremoso con borde verde son delicadas: ponela con luz brillante filtrada y lejos del sol directo.",
+  "clases": [
+   "follaje"
+  ],
+  "cultivo": {
+   "porte": [
+    "erguida"
+   ],
+   "tutor": {
+    "recomendado": "no",
+    "detalle": ""
+   },
+   "poda": {
+    "meses": [],
+    "detalle": "Si se queda larga y pelada abajo, cortá los tallos a unos 15 cm del suelo y rebrota por debajo del corte; sacá las hojas de abajo cuando se amarillean. Usá guantes: la savia irrita."
+   },
+   "propagacion": {
+    "metodos": [
+     "esqueje_tierra",
+     "esqueje_agua",
+     "acodo"
+    ],
+    "en_agua": true,
+    "meses": [
+     9,
+     10,
+     11,
+     12
+    ],
+    "detalle": "Cortá la punta o un tramo de tallo con nudos, dejalo secar un día y ponelo en agua o en sustrato húmedo con luz brillante sin sol directo. Usá guantes porque la savia irrita la piel."
+   },
+   "fuentes": [
+    {
+     "titulo": "Dieffenbachia seguine",
+     "org": "NC State Extension Plant Toolbox",
+     "url": "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+     "fecha_consulta": "2026-11-23"
+    },
+    {
+     "titulo": "Dieffenbachia (HGIC 1503)",
+     "org": "Clemson Cooperative Extension HGIC",
+     "url": "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+     "fecha_consulta": "2026-11-23"
+    }
+   ],
+   "confianza": "media",
+   "adaptaciones": [
+    "Clemson da la propagación en primavera y principios de verano: se pasó a septiembre a diciembre.",
+    "Ninguna fuente da época de poda ni habla de tutor: se dejó poda sin meses y tutor en 'no' (confianza media)."
+   ]
+  },
+  "imagen": null,
+  "fotos_extra": [],
+  "atribucion_imagen": null,
+  "mascotas": {
+   "toxicidad_gato": "toxica",
+   "toxicidad_perro": "toxica",
+   "gravedad": "moderada",
+   "sintomas": "Ardor e irritación fuerte en boca, lengua y labios, babeo, náuseas, vómitos y dificultad para tragar. Muy rara vez, hinchazón de garganta con dificultad para respirar.",
+   "partes": "Toda la planta; la savia irrita también la piel y los ojos.",
+   "atractivo_para_mascotas": "desconocido",
+   "atractivo_motivo": "",
+   "repelencia_por_olor": "ninguna",
+   "nota_mascotas": "Dejala fuera de alcance de gatos y perros y usá guantes al podarla. Si la muerde y babea mucho, vomita o le cuesta tragar, consultá enseguida con tu veterinario.",
+   "advertencia_grave": null,
+   "confianza": "media",
+   "fuentes_toxicidad": [
+    {
+     "titulo": "Toxic and Non-toxic Plants: Dieffenbachia",
+     "org": "ASPCA",
+     "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dieffenbachia",
+     "fecha_consulta": "2026-11-23"
+    },
+    {
+     "titulo": "Dieffenbachia",
+     "org": "Pet Poison Helpline",
+     "url": "https://www.petpoisonhelpline.com/poison/dieffenbachia/",
+     "fecha_consulta": "2026-11-23"
+    },
+    {
+     "titulo": "Dieffenbachia seguine",
+     "org": "NC State Extension Plant Toolbox",
+     "url": "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+     "fecha_consulta": "2026-11-23"
+    }
+   ]
+  },
+  "fuentes": [
+   {
+    "titulo": "Dieffenbachia seguine",
+    "org": "NC State Extension Plant Toolbox",
+    "url": "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+    "fecha_consulta": "2026-11-23"
+   },
+   {
+    "titulo": "Dieffenbachia (HGIC 1503)",
+    "org": "Clemson Cooperative Extension HGIC",
+    "url": "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+    "fecha_consulta": "2026-11-23"
+   },
+   {
+    "titulo": "Dieffenbachia",
+    "org": "UConn Home & Garden Education Center",
+    "url": "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia",
+    "fecha_consulta": "2026-11-23"
+   },
+   {
+    "titulo": "Dieffenbachia",
+    "org": "University of Illinois Extension",
+    "url": "https://extension.illinois.edu/houseplants/dieffenbachia",
+    "fecha_consulta": "2026-11-23"
+   }
+  ],
+  "confianza": "media",
+  "adaptaciones": [
+   "Estaciones convertidas: época de crecimiento (primavera-verano) de septiembre a febrero; invierno de junio a agosto.",
+   "Las fuentes la dan como exterior solo en zonas USDA 10-11: en Buenos Aires vive adentro y no se deja afuera en invierno.",
+   "Clemson sugiere más luz, incluso sol directo, en invierno del norte; no se tradujo a sol directo por ser el criterio conservador.",
+   "Altura: NC State la da hasta unos 90 cm (3 pies), por eso 'mediana'."
+  ],
+  "discrepancias": [
+   "Luz: NC State admite 2 a 6 horas de sol directo, pero UConn dice que el sol directo decolora las hojas (sobre todo en variegadas) y Clemson habla de luz filtrada la mayor parte del año; se tomó 0 horas de sol directo.",
+   "Humedad: UConn pide aire húmedo, Illinois dice que aguanta humedad baja y Clemson no la menciona; se dejó 'media'.",
+   "Gravedad: ASPCA no da una escala; Pet Poison Helpline habla de irritación y solo rara vez de hinchazón de garganta; NC State la rotula de severidad alta (y dice que puede ser fatal) y Clemson menciona riesgo de ahogo en personas. Se dejó 'moderada' sin advertencia grave porque el riesgo serio en mascotas se describe como raro.",
+   "Cuidados tomados del género Dieffenbachia: UConn e Illinois no mencionan a 'Camille'; NC State y Clemson sí la describen, pero sin cuidados propios. ASPCA no tiene ficha del cultivar, solo del género.",
+   "Nombres: sin fuente para nombres usados en Argentina."
+  ]
+ },
+ {
+  "id": "dieffenbachia-tropic-snow",
+  "nombre_comun": "Dieffenbachia 'Tropic Snow'",
+  "otros_nombres": [
+   "Tropic Snow"
+  ],
+  "nombre_cientifico": "Dieffenbachia seguine 'Tropic Snow'",
+  "familia": "Araceae",
+  "grupo": "follaje_tropical",
+  "luz_requerida": "indirecta_brillante",
+  "luz_tolerada": [
+   "indirecta_media",
+   "baja"
+  ],
+  "horas_sol_directo": 0,
+  "tolera_sol_tarde": false,
+  "sensibilidad_calor": "media",
+  "luz": {
+   "detalle": "Luz brillante filtrada; Clemson la cita como una de las que mejor aguantan poca luz del género. Evitá el sol directo.",
+   "confianza": "media",
+   "confianza_sol": "baja"
+  },
+  "riego": {
+   "nivel": "medio",
+   "verano": "Regá a fondo cuando los primeros 2 a 3 cm de tierra estén secos y vaciá el plato.",
+   "invierno": "Regá menos seguido y esperá a que la tierra se seque más antes de volver a regar: con frío el exceso le pudre las raíces.",
+   "confianza": "alta"
+  },
+  "humedad": {
+   "nivel": "media",
+   "detalle": "Le gusta el aire algo húmedo; si el ambiente está muy seco (calefacción), agrupala con otras plantas o usá una bandeja con piedritas y agua.",
+   "confianza": "media"
+  },
+  "sustrato": {
+   "tipo": "Sustrato suelto y rico en materia orgánica que drene bien, por ejemplo tierra de maceta con perlita o turba.",
+   "confianza": "alta"
+  },
+  "tolerancia_descuido": 3,
+  "apta": {
+   "interior": true,
+   "balcon": false,
+   "nota_balcon": "Es tropical y no aguanta el frío ni las corrientes de aire: en Buenos Aires vive adentro; al balcón solo en verano, a la sombra, y se entra antes de los primeros fríos."
+  },
+  "tamano": "grande",
+  "dificultad": "facil",
+  "tip": "Es de las dieffenbachias que mejor lleva los rincones con menos luz; igual, evitá el sol directo.",
+  "clases": [
+   "follaje"
+  ],
+  "cultivo": {
+   "porte": [
+    "erguida"
+   ],
+   "tutor": {
+    "recomendado": "no",
+    "detalle": ""
+   },
+   "poda": {
+    "meses": [],
+    "detalle": "Si se queda larga y pelada abajo, cortá los tallos a unos 15 cm del suelo y rebrota por debajo del corte; sacá las hojas de abajo cuando se amarillean. Usá guantes: la savia irrita."
+   },
+   "propagacion": {
+    "metodos": [
+     "esqueje_tierra",
+     "esqueje_agua",
+     "acodo"
+    ],
+    "en_agua": true,
+    "meses": [
+     9,
+     10,
+     11,
+     12
+    ],
+    "detalle": "Cortá la punta o un tramo de tallo con nudos, dejalo secar un día y ponelo en agua o en sustrato húmedo con luz brillante sin sol directo. Usá guantes porque la savia irrita la piel."
+   },
+   "fuentes": [
+    {
+     "titulo": "Dieffenbachia seguine",
+     "org": "NC State Extension Plant Toolbox",
+     "url": "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+     "fecha_consulta": "2026-11-23"
+    },
+    {
+     "titulo": "Dieffenbachia (HGIC 1503)",
+     "org": "Clemson Cooperative Extension HGIC",
+     "url": "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+     "fecha_consulta": "2026-11-23"
+    },
+    {
+     "titulo": "Dieffenbachia",
+     "org": "UConn Home & Garden Education Center",
+     "url": "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia",
+     "fecha_consulta": "2026-11-23"
+    }
+   ],
+   "confianza": "media",
+   "adaptaciones": [
+    "Clemson da la propagación en primavera y principios de verano: se pasó a septiembre a diciembre.",
+    "Ninguna fuente da época de poda ni habla de tutor: se dejó poda sin meses y tutor en 'no' (confianza media)."
+   ]
+  },
+  "imagen": null,
+  "fotos_extra": [],
+  "atribucion_imagen": null,
+  "mascotas": {
+   "toxicidad_gato": "toxica",
+   "toxicidad_perro": "toxica",
+   "gravedad": "moderada",
+   "sintomas": "Ardor e irritación fuerte en boca, lengua y labios, babeo, náuseas, vómitos y dificultad para tragar. Muy rara vez, hinchazón de garganta con dificultad para respirar.",
+   "partes": "Toda la planta; la savia irrita también la piel y los ojos.",
+   "atractivo_para_mascotas": "desconocido",
+   "atractivo_motivo": "",
+   "repelencia_por_olor": "ninguna",
+   "nota_mascotas": "Dejala fuera de alcance de gatos y perros y usá guantes al podarla. Si la muerde y babea mucho, vomita o le cuesta tragar, consultá enseguida con tu veterinario.",
+   "advertencia_grave": null,
+   "confianza": "alta",
+   "fuentes_toxicidad": [
+    {
+     "titulo": "Toxic and Non-toxic Plants: Dieffenbachia",
+     "org": "ASPCA",
+     "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dieffenbachia",
+     "fecha_consulta": "2026-11-23"
+    },
+    {
+     "titulo": "Dieffenbachia",
+     "org": "Pet Poison Helpline",
+     "url": "https://www.petpoisonhelpline.com/poison/dieffenbachia/",
+     "fecha_consulta": "2026-11-23"
+    },
+    {
+     "titulo": "Dieffenbachia seguine",
+     "org": "NC State Extension Plant Toolbox",
+     "url": "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+     "fecha_consulta": "2026-11-23"
+    }
+   ]
+  },
+  "fuentes": [
+   {
+    "titulo": "Dieffenbachia seguine",
+    "org": "NC State Extension Plant Toolbox",
+    "url": "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+    "fecha_consulta": "2026-11-23"
+   },
+   {
+    "titulo": "Dieffenbachia (HGIC 1503)",
+    "org": "Clemson Cooperative Extension HGIC",
+    "url": "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+    "fecha_consulta": "2026-11-23"
+   },
+   {
+    "titulo": "Dieffenbachia",
+    "org": "UConn Home & Garden Education Center",
+    "url": "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia",
+    "fecha_consulta": "2026-11-23"
+   },
+   {
+    "titulo": "Dieffenbachia",
+    "org": "University of Illinois Extension",
+    "url": "https://extension.illinois.edu/houseplants/dieffenbachia",
+    "fecha_consulta": "2026-11-23"
+   }
+  ],
+  "confianza": "media",
+  "adaptaciones": [
+   "Estaciones convertidas: época de crecimiento (primavera-verano) de septiembre a febrero; invierno de junio a agosto.",
+   "Las fuentes la dan como exterior solo en zonas USDA 10-11: en Buenos Aires vive adentro y no se deja afuera en invierno.",
+   "Clemson sugiere más luz, incluso sol directo, en invierno del norte; no se tradujo a sol directo por ser el criterio conservador.",
+   "Altura: NC State la da de unos 180 cm (6 pies); Clemson da 90 a 180 cm para el género: se dejó 'grande'."
+  ],
+  "discrepancias": [
+   "Luz: NC State admite 2 a 6 horas de sol directo, pero UConn dice que el sol directo decolora las hojas (sobre todo en variegadas) y Clemson habla de luz filtrada la mayor parte del año; se tomó 0 horas de sol directo.",
+   "Humedad: UConn pide aire húmedo, Illinois dice que aguanta humedad baja y Clemson no la menciona; se dejó 'media'.",
+   "Gravedad: ASPCA no da una escala; Pet Poison Helpline habla de irritación y solo rara vez de hinchazón de garganta; NC State la rotula de severidad alta (y dice que puede ser fatal) y Clemson menciona riesgo de ahogo en personas. Se dejó 'moderada' sin advertencia grave porque el riesgo serio en mascotas se describe como raro.",
+   "Taxonomía: NC State la lista como cultivar de D. seguine, UConn como cultivar de D. amoena (ASPCA la lista 'Tropic Snow' como nombre común del género). Se usó D. seguine.",
+   "Nombres: sin fuente para nombres usados en Argentina."
+  ]
+ }
+]
