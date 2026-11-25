@@ -4,6 +4,7 @@ import { MotionConfig } from 'framer-motion'
 import '@fontsource-variable/fredoka'
 import '@fontsource-variable/nunito'
 import './index.css'
+import { registerSW } from 'virtual:pwa-register'
 import { App } from './App'
 import { Ilustracion, NOMBRES_ILUSTRACIONES } from './components/Ilustracion'
 
@@ -30,3 +31,15 @@ createRoot(document.getElementById('root')!).render(
     </MotionConfig>
   </StrictMode>,
 )
+
+// Actualización automática: cada vez que el usuario vuelve a la app (la abre o sale del
+// segundo plano) se busca una versión nueva; si hay, se descarga y la app se recarga sola.
+registerSW({
+  immediate: true,
+  onRegisteredSW(_url, reg) {
+    if (!reg) return
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible') void reg.update().catch(() => {})
+    })
+  },
+})
