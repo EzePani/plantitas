@@ -1,0 +1,30 @@
+{
+  "phoenix-roebelenii": [
+    {
+      "archivo": "img/extra/phoenix-roebelenii-2.webp",
+      "autor": "H. Zell",
+      "licencia": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Phoenix_roebelenii_001.jpg"
+    },
+    {
+      "archivo": "img/extra/phoenix-roebelenii-3.webp",
+      "autor": "NasserHalaweh",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Arecaceae_Phoenix_roebelenii_1.jpg"
+    }
+  ],
+  "phoenix-canariensis": [
+    {
+      "archivo": "img/extra/phoenix-canariensis-2.webp",
+      "autor": "H. Zell",
+      "licencia": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Phoenix_canariensis_003.jpg"
+    },
+    {
+      "archivo": "img/extra/phoenix-canariensis-3.webp",
+      "autor": "Krzysztof Ziarnek, Kenraiz",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Phoenix_canariensis_kz09.jpg"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "dieffenbachia": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "Si se queda larga y pelada abajo, cortá los tallos a unos 15 cm del suelo y rebrota por debajo del corte; sacá las hojas de abajo cuando se amarillean. Usá guantes: la savia irrita."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_tierra",
+        "esqueje_agua",
+        "acodo"
+      ],
+      "en_agua": true,
+      "meses": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "detalle": "Cortá la punta o un tramo de tallo con nudos, dejalo secar un día y ponelo en agua o en sustrato húmedo con luz brillante sin sol directo. Usá guantes porque la savia irrita la piel."
+    },
+    "fuentes": [
+      {
+        "titulo": "Dieffenbachia seguine",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Dieffenbachia (HGIC 1503)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Dieffenbachia",
+        "org": "UConn Home & Garden Education Center",
+        "url": "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Dieffenbachia",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/dieffenbachia",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Clemson da la propagación en primavera y principios de verano: se pasó a septiembre a diciembre.",
+      "Ninguna fuente da época de poda ni habla de tutor: se dejó poda sin meses y tutor en 'no' (confianza media)."
+    ]
+  },
+  "dieffenbachia-camille": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "Si se queda larga y pelada abajo, cortá los tallos a unos 15 cm del suelo y rebrota por debajo del corte; sacá las hojas de abajo cuando se amarillean. Usá guantes: la savia irrita."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_tierra",
+        "esqueje_agua",
+        "acodo"
+      ],
+      "en_agua": true,
+      "meses": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "detalle": "Cortá la punta o un tramo de tallo con nudos, dejalo secar un día y ponelo en agua o en sustrato húmedo con luz brillante sin sol directo. Usá guantes porque la savia irrita la piel."
+    },
+    "fuentes": [
+      {
+        "titulo": "Dieffenbachia seguine",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Dieffenbachia (HGIC 1503)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Clemson da la propagación en primavera y principios de verano: se pasó a septiembre a diciembre.",
+      "Ninguna fuente da época de poda ni habla de tutor: se dejó poda sin meses y tutor en 'no' (confianza media)."
+    ]
+  },
+  "dieffenbachia-tropic-snow": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "Si se queda larga y pelada abajo, cortá los tallos a unos 15 cm del suelo y rebrota por debajo del corte; sacá las hojas de abajo cuando se amarillean. Usá guantes: la savia irrita."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_tierra",
+        "esqueje_agua",
+        "acodo"
+      ],
+      "en_agua": true,
+      "meses": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "detalle": "Cortá la punta o un tramo de tallo con nudos, dejalo secar un día y ponelo en agua o en sustrato húmedo con luz brillante sin sol directo. Usá guantes porque la savia irrita la piel."
+    },
+    "fuentes": [
+      {
+        "titulo": "Dieffenbachia seguine",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Dieffenbachia (HGIC 1503)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Dieffenbachia",
+        "org": "UConn Home & Garden Education Center",
+        "url": "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Clemson da la propagación en primavera y principios de verano: se pasó a septiembre a diciembre.",
+      "Ninguna fuente da época de poda ni habla de tutor: se dejó poda sin meses y tutor en 'no' (confianza media)."
+    ]
+  }
+}

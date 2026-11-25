@@ -5133,5 +5133,954 @@
       "Poda: ni NC State ni Iowa State dan un mes; Clemson y NYBG dicen 'después de florecer'. Se dejó sin meses.",
       "La floración depende de noches largas (unas 14 horas de oscuridad por unas 6 semanas). Esta ficha es Kalanchoe blossfeldiana y no mezcla datos con Kalanchoe pinnata (hoja del aire)."
     ]
+  },
+  {
+    "id": "dieffenbachia",
+    "nombre_comun": "Dieffenbachia",
+    "otros_nombres": [
+      "Dumbcane",
+      "Dumb cane"
+    ],
+    "nombre_cientifico": "Dieffenbachia seguine",
+    "familia": "Araceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Crece mejor con luz brillante pero filtrada, lejos del sol directo que le marca las hojas. Tolera poca luz, pero crece más despacio.",
+      "confianza": "media",
+      "confianza_sol": "baja"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá a fondo cuando los primeros 2 a 3 cm de tierra estén secos y vaciá el plato.",
+      "invierno": "Regá menos seguido y esperá a que la tierra se seque más antes de volver a regar: con frío el exceso le pudre las raíces.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Le gusta el aire algo húmedo; si el ambiente está muy seco (calefacción), agrupala con otras plantas o usá una bandeja con piedritas y agua.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato suelto y rico en materia orgánica que drene bien, por ejemplo tierra de maceta con perlita o turba.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 3,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Es tropical y no aguanta el frío ni las corrientes de aire: en Buenos Aires vive adentro; al balcón solo en verano, a la sombra, y se entra antes de los primeros fríos."
+    },
+    "tamano": "grande",
+    "dificultad": "facil",
+    "tip": "Si se le caen las hojas de abajo, tranqui: es normal con el tiempo. Revisá antes que nada que no tenga corrientes de aire y que no se encharque.",
+    "imagen": "img/dieffenbachia.webp",
+    "atribucion_imagen": {
+      "autor": "Alex Rio Brazil",
+      "licencia": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dieffenbachia_seguine_-_Comigo_Ninguem_Pode.jpg"
+    },
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Ardor e irritación fuerte en boca, lengua y labios, babeo, náuseas, vómitos y dificultad para tragar. Muy rara vez, hinchazón de garganta con dificultad para respirar.",
+      "partes": "Toda la planta; la savia irrita también la piel y los ojos.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Dejala fuera de alcance de gatos y perros y usá guantes al podarla. Si la muerde y babea mucho, vomita o le cuesta tragar, consultá enseguida con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Toxic and Non-toxic Plants: Dieffenbachia",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dieffenbachia",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Dieffenbachia",
+          "org": "Pet Poison Helpline",
+          "url": "https://www.petpoisonhelpline.com/poison/dieffenbachia/",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Dieffenbachia seguine",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Dieffenbachia seguine",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Dieffenbachia (HGIC 1503)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Dieffenbachia",
+        "org": "UConn Home & Garden Education Center",
+        "url": "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Dieffenbachia",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/dieffenbachia",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: época de crecimiento (primavera-verano) de septiembre a febrero; invierno de junio a agosto.",
+      "Las fuentes la dan como exterior solo en zonas USDA 10-11: en Buenos Aires vive adentro y no se deja afuera en invierno.",
+      "Clemson sugiere más luz, incluso sol directo, en invierno del norte; no se tradujo a sol directo por ser el criterio conservador."
+    ],
+    "discrepancias": [
+      "Luz: NC State admite 2 a 6 horas de sol directo, pero UConn dice que el sol directo decolora las hojas (sobre todo en variegadas) y Clemson habla de luz filtrada la mayor parte del año; se tomó 0 horas de sol directo.",
+      "Humedad: UConn pide aire húmedo, Illinois dice que aguanta humedad baja y Clemson no la menciona; se dejó 'media'.",
+      "Gravedad: ASPCA no da una escala; Pet Poison Helpline habla de irritación y solo rara vez de hinchazón de garganta; NC State la rotula de severidad alta (y dice que puede ser fatal) y Clemson menciona riesgo de ahogo en personas. Se dejó 'moderada' sin advertencia grave porque el riesgo serio en mascotas se describe como raro.",
+      "Nombres: NC State y Clemson confirman 'Dumbcane'; no encontré fuente que confirme nombres usados en Argentina, por eso no se incluyen."
+    ]
+  },
+  {
+    "id": "dieffenbachia-camille",
+    "nombre_comun": "Dieffenbachia 'Camille'",
+    "otros_nombres": [
+      "Camille"
+    ],
+    "nombre_cientifico": "Dieffenbachia seguine 'Camille'",
+    "familia": "Araceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Prefiere luz brillante filtrada. Evitá el sol directo, que puede decolorar las hojas, sobre todo las claras.",
+      "confianza": "media",
+      "confianza_sol": "baja"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá a fondo cuando los primeros 2 a 3 cm de tierra estén secos y vaciá el plato.",
+      "invierno": "Regá menos seguido y esperá a que la tierra se seque más antes de volver a regar: con frío el exceso le pudre las raíces.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Le gusta el aire algo húmedo; si el ambiente está muy seco (calefacción), agrupala con otras plantas o usá una bandeja con piedritas y agua.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato suelto y rico en materia orgánica que drene bien, por ejemplo tierra de maceta con perlita o turba.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 3,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Es tropical y no aguanta el frío ni las corrientes de aire: en Buenos Aires vive adentro; al balcón solo en verano, a la sombra, y se entra antes de los primeros fríos."
+    },
+    "tamano": "mediana",
+    "dificultad": "facil",
+    "tip": "Sus hojas amarillo cremoso con borde verde son delicadas: ponela con luz brillante filtrada y lejos del sol directo.",
+    "imagen": "img/dieffenbachia-camille.webp",
+    "atribucion_imagen": {
+      "autor": "Forest and Kim Starr",
+      "licencia": "CC BY 3.0 us",
+      "url": "https://commons.wikimedia.org/wiki/File:Starr-080117-1527-Dieffenbachia_maculata-Camille_leaves-Walmart_Kahului-Maui_(24532487999).jpg"
+    },
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Ardor e irritación fuerte en boca, lengua y labios, babeo, náuseas, vómitos y dificultad para tragar. Muy rara vez, hinchazón de garganta con dificultad para respirar.",
+      "partes": "Toda la planta; la savia irrita también la piel y los ojos.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Dejala fuera de alcance de gatos y perros y usá guantes al podarla. Si la muerde y babea mucho, vomita o le cuesta tragar, consultá enseguida con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "media",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Toxic and Non-toxic Plants: Dieffenbachia",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dieffenbachia",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Dieffenbachia",
+          "org": "Pet Poison Helpline",
+          "url": "https://www.petpoisonhelpline.com/poison/dieffenbachia/",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Dieffenbachia seguine",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Dieffenbachia seguine",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Dieffenbachia (HGIC 1503)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Dieffenbachia",
+        "org": "UConn Home & Garden Education Center",
+        "url": "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Dieffenbachia",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/dieffenbachia",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: época de crecimiento (primavera-verano) de septiembre a febrero; invierno de junio a agosto.",
+      "Las fuentes la dan como exterior solo en zonas USDA 10-11: en Buenos Aires vive adentro y no se deja afuera en invierno.",
+      "Clemson sugiere más luz, incluso sol directo, en invierno del norte; no se tradujo a sol directo por ser el criterio conservador.",
+      "Altura: NC State la da hasta unos 90 cm (3 pies), por eso 'mediana'."
+    ],
+    "discrepancias": [
+      "Luz: NC State admite 2 a 6 horas de sol directo, pero UConn dice que el sol directo decolora las hojas (sobre todo en variegadas) y Clemson habla de luz filtrada la mayor parte del año; se tomó 0 horas de sol directo.",
+      "Humedad: UConn pide aire húmedo, Illinois dice que aguanta humedad baja y Clemson no la menciona; se dejó 'media'.",
+      "Gravedad: ASPCA no da una escala; Pet Poison Helpline habla de irritación y solo rara vez de hinchazón de garganta; NC State la rotula de severidad alta (y dice que puede ser fatal) y Clemson menciona riesgo de ahogo en personas. Se dejó 'moderada' sin advertencia grave porque el riesgo serio en mascotas se describe como raro.",
+      "Cuidados tomados del género Dieffenbachia: UConn e Illinois no mencionan a 'Camille'; NC State y Clemson sí la describen, pero sin cuidados propios. ASPCA no tiene ficha del cultivar, solo del género.",
+      "Nombres: sin fuente para nombres usados en Argentina."
+    ]
+  },
+  {
+    "id": "dieffenbachia-tropic-snow",
+    "nombre_comun": "Dieffenbachia 'Tropic Snow'",
+    "otros_nombres": [
+      "Tropic Snow"
+    ],
+    "nombre_cientifico": "Dieffenbachia seguine 'Tropic Snow'",
+    "familia": "Araceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Luz brillante filtrada; Clemson la cita como una de las que mejor aguantan poca luz del género. Evitá el sol directo.",
+      "confianza": "media",
+      "confianza_sol": "baja"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá a fondo cuando los primeros 2 a 3 cm de tierra estén secos y vaciá el plato.",
+      "invierno": "Regá menos seguido y esperá a que la tierra se seque más antes de volver a regar: con frío el exceso le pudre las raíces.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Le gusta el aire algo húmedo; si el ambiente está muy seco (calefacción), agrupala con otras plantas o usá una bandeja con piedritas y agua.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato suelto y rico en materia orgánica que drene bien, por ejemplo tierra de maceta con perlita o turba.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 3,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Es tropical y no aguanta el frío ni las corrientes de aire: en Buenos Aires vive adentro; al balcón solo en verano, a la sombra, y se entra antes de los primeros fríos."
+    },
+    "tamano": "grande",
+    "dificultad": "facil",
+    "tip": "Es de las dieffenbachias que mejor lleva los rincones con menos luz; igual, evitá el sol directo.",
+    "imagen": "img/dieffenbachia-tropic-snow.webp",
+    "atribucion_imagen": {
+      "autor": "Yercaud-elango",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dieffenbachia_amoena_tropic_snow-1-anna_park-yercaud-salem-India.JPG"
+    },
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Ardor e irritación fuerte en boca, lengua y labios, babeo, náuseas, vómitos y dificultad para tragar. Muy rara vez, hinchazón de garganta con dificultad para respirar.",
+      "partes": "Toda la planta; la savia irrita también la piel y los ojos.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Dejala fuera de alcance de gatos y perros y usá guantes al podarla. Si la muerde y babea mucho, vomita o le cuesta tragar, consultá enseguida con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Toxic and Non-toxic Plants: Dieffenbachia",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dieffenbachia",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Dieffenbachia",
+          "org": "Pet Poison Helpline",
+          "url": "https://www.petpoisonhelpline.com/poison/dieffenbachia/",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Dieffenbachia seguine",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Dieffenbachia seguine",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Dieffenbachia (HGIC 1503)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Dieffenbachia",
+        "org": "UConn Home & Garden Education Center",
+        "url": "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Dieffenbachia",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/dieffenbachia",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: época de crecimiento (primavera-verano) de septiembre a febrero; invierno de junio a agosto.",
+      "Las fuentes la dan como exterior solo en zonas USDA 10-11: en Buenos Aires vive adentro y no se deja afuera en invierno.",
+      "Clemson sugiere más luz, incluso sol directo, en invierno del norte; no se tradujo a sol directo por ser el criterio conservador.",
+      "Altura: NC State la da de unos 180 cm (6 pies); Clemson da 90 a 180 cm para el género: se dejó 'grande'."
+    ],
+    "discrepancias": [
+      "Luz: NC State admite 2 a 6 horas de sol directo, pero UConn dice que el sol directo decolora las hojas (sobre todo en variegadas) y Clemson habla de luz filtrada la mayor parte del año; se tomó 0 horas de sol directo.",
+      "Humedad: UConn pide aire húmedo, Illinois dice que aguanta humedad baja y Clemson no la menciona; se dejó 'media'.",
+      "Gravedad: ASPCA no da una escala; Pet Poison Helpline habla de irritación y solo rara vez de hinchazón de garganta; NC State la rotula de severidad alta (y dice que puede ser fatal) y Clemson menciona riesgo de ahogo en personas. Se dejó 'moderada' sin advertencia grave porque el riesgo serio en mascotas se describe como raro.",
+      "Taxonomía: NC State la lista como cultivar de D. seguine, UConn como cultivar de D. amoena (ASPCA la lista 'Tropic Snow' como nombre común del género). Se usó D. seguine.",
+      "Nombres: sin fuente para nombres usados en Argentina."
+    ]
+  },
+  {
+    "id": "calatea-zebrina",
+    "nombre_comun": "Calatea zebrina",
+    "otros_nombres": [
+      "Calathea zebrina",
+      "Calatea cebrina"
+    ],
+    "nombre_cientifico": "Goeppertia zebrina (sin. Calathea zebrina)",
+    "familia": "Marantaceae",
+    "grupo": "amiga_humedad",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Quiere luz brillante pero filtrada, sin sol directo. Con poca luz pierde el color intenso de las hojas; en Buenos Aires, un lugar cerca de una ventana luminosa, sin que le pegue el sol de lleno.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Mantené la tierra húmeda pero nunca empapada, y regá apenas se seque un poquito la superficie; mejor con agua de lluvia o agua de la canilla reposada.",
+      "invierno": "Regá un poco menos: dejá que la superficie se seque antes de volver a regar, pero sin que la tierra se seque del todo.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Necesita aire húmedo (más del 60 %). Con aire seco se le enrulan y marronean las hojas; ayuda juntarla con otras plantas, ponerla sobre una bandeja con piedritas húmedas o usar un humidificador.",
+      "confianza": "alta"
+    },
+    "sustrato": {
+      "tipo": "Sustrato para plantas de interior suelto, con turba o fibra de coco, que retenga humedad pero drene bien (con perlita o arena gruesa).",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 1,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Pide temperatura pareja de unos 16 a 24 °C y sin corrientes de aire; el frío porteño o un viento fuerte la dañan. Mejor adentro todo el año."
+    },
+    "tamano": "mediana",
+    "dificultad": "dificil",
+    "tip": "Si se le marronean las puntas, tranqui: casi siempre es aire seco o agua de la canilla; probá con agua de lluvia o dejá reposar la del riego un día.",
+    "imagen": "img/calatea-zebrina.webp",
+    "atribucion_imagen": {
+      "autor": "Krzysztof Ziarnek, Kenraiz",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Goeppertia_zebrina_kz01.jpg"
+    },
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Según las fuentes no es tóxica para gatos ni perros, así que podés tenerla a su altura. Igual, si la mastican en cantidad puede caerles mal al estómago.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Calathea (Calathea spp.)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/calathea",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Goeppertia zebrina (Zebra Plant)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/goeppertia-zebrina/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Goeppertia zebrina (Zebra Plant)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/goeppertia-zebrina/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Goeppertia zebrina (zebra plant)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/357248/goeppertia-zebrina/details",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "How to grow calatheas",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Caring for Calathea",
+        "org": "University of Washington Botanic Gardens (Miller Library)",
+        "url": "https://depts.washington.edu/hortlib/pal/caring-for-calathea",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS recomienda ventana norte o este en verano y sur en invierno (hemisferio norte): en Buenos Aires se invierte, así que en verano (diciembre a febrero) conviene luz suave del este o del sur y en invierno (junio a agosto) puede acercarse a la ventana norte.",
+      "Los 65 a 75 °F de NC State equivalen a unos 18 a 24 °C; el mínimo de 16 °C de RHS se mantuvo.",
+      "El invierno porteño con calefacción seca el aire: es cuando más conviene sumarle humedad."
+    ],
+    "discrepancias": [
+      "Luz: NC State la clasifica como sombra parcial (2 a 6 h de sol directo), pero RHS y la Miller Library piden luz filtrada, sin sol directo. Se tomó el criterio más conservador: 0 horas.",
+      "Toxicidad: ASPCA no tiene ficha de Goeppertia zebrina; solo del género Calathea (nombre anterior de esta especie). NC State la marca no tóxica a nivel de especie.",
+      "Variedades: NC State menciona el cultivar Snow White, pero RHS no lista ninguno y no hay una segunda fuente institucional, así que no se agregó como entrada."
+    ]
+  },
+  {
+    "id": "aechmea-fasciata",
+    "nombre_comun": "Aechmea fasciata",
+    "otros_nombres": [
+      "Achmea",
+      "Urn plant"
+    ],
+    "nombre_cientifico": "Aechmea fasciata",
+    "familia": "Bromeliaceae",
+    "grupo": "con_flor",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Quiere mucha luz pero filtrada, sin sol directo; en Buenos Aires, cerca de una ventana luminosa sin que le pegue el sol de lleno. La flor rosada dura meses y aparece una sola vez en la vida de cada roseta.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Mantené un par de centímetros de agua en la copa central (la roseta de hojas) y regá poco la tierra: dejá que se seque entre riegos. Vaciá y renová el agua de la copa de vez en cuando para que no se estanque.",
+      "invierno": "Regá menos la tierra y renová el agua de la copa; con frío la planta consume menos agua.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Le gusta el aire con humedad media a alta (entre 50 y 75 %). En invierno, con la calefacción, ayuda una bandeja con piedritas húmedas o un humidificador.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato muy suelto y aireado, tipo mezcla para orquídeas (corteza, perlita y algo de humus), en maceta chica: las raíces sirven sobre todo para sostenerla.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 3,
+    "apta": {
+      "interior": true,
+      "balcon": true,
+      "nota_balcon": "En los meses cálidos puede salir al balcón, a media sombra y sin sol directo. Las bromelias no soportan heladas: pasala adentro apenas empiece a bajar la temperatura en otoño."
+    },
+    "tamano": "mediana",
+    "dificultad": "media",
+    "imagen": "img/aechmea-fasciata.webp",
+    "atribucion_imagen": {
+      "autor": "This illustration was made by Citron You must credit this : Citron / CC-BY-SA-3.0",
+      "licencia": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Aechmea_fasciata_Parc_floral_de_Paris.jpg"
+    },
+    "mascotas": {
+      "toxicidad_gato": "no_verificada",
+      "toxicidad_perro": "no_verificada",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "ASPCA no tiene ficha de esta especie ni del género Aechmea. NC State la marca como no tóxica para gatos y perros, pero no pudimos confirmarlo con una segunda fuente veterinaria; por las dudas, que no la mastiquen.",
+      "advertencia_grave": null,
+      "confianza": "baja",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Aechmea fasciata (Silver Vase Bromeliad)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/aechmea-fasciata/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Aechmea fasciata (Silver Vase Bromeliad)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/aechmea-fasciata/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Aechmea fasciata",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/59419/aechmea-fasciata/details",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Bromeliads",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/bromeliads/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Bromeliads",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/bromeliads/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Bromeliads",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/home/plants/ornamentals/bromeliads",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Las fuentes hablan de la zona de cultivo exterior (USDA 10 a 11) y de sol parcial al aire libre; se tradujo a mantenerla adentro y sacarla al balcón solo en los meses cálidos (de noviembre a marzo), sin heladas.",
+      "Las temperaturas de las fuentes (65 a 75 °F, o 18 a 24 °C) son para todo el año; la calefacción de invierno seca el aire, por eso se sugiere sumar humedad."
+    ],
+    "discrepancias": [
+      "Luz: NC State la clasifica como sombra parcial (2 a 6 h de sol directo) y RHS habla de sol pleno o sombra parcial al aire libre, pero Clemson y UF/IFAS piden luz brillante difusa, sin sol directo. Se tomó el criterio más conservador: 0 horas.",
+      "Humedad: NC State no da un valor; Wisconsin indica 50 a 75 % y Clemson dice que las casas suelen ser demasiado secas. Se dejó humedad media.",
+      "Toxicidad: ASPCA no lista Aechmea (solo otros géneros de bromelias como Neoregelia, Cryptanthus y Guzmania); no se dedujo por parecidas. NC State la marca no tóxica pero es una sola fuente, por eso queda como no verificada."
+    ],
+    "tip": "Mantené agua en la copa central y renovala seguido; después de florecer, tranqui: la planta madre se apaga de a poco, pero deja hijuelos para seguir."
+  },
+  {
+    "id": "aechmea-fasciata-primera",
+    "nombre_comun": "Aechmea fasciata 'Primera'",
+    "otros_nombres": [
+      "Aechmea Primera",
+      "Achmea Primera"
+    ],
+    "nombre_cientifico": "Aechmea fasciata 'Primera'",
+    "familia": "Bromeliaceae",
+    "grupo": "con_flor",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Quiere mucha luz pero filtrada, sin sol directo: cerca de una ventana luminosa de Buenos Aires, sin que le pegue el sol de lleno. Con poca luz las bandas de las hojas pierden color y le cuesta florecer.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Mantené un par de centímetros de agua en la copa central (la roseta de hojas) y regá poco la tierra: dejá que se seque entre riegos. Vaciá y renová el agua de la copa de vez en cuando para que no se estanque.",
+      "invierno": "Regá menos la tierra y renová el agua de la copa; con frío la planta consume menos agua.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Le gusta el aire con humedad media a alta (entre 50 y 75 %). En invierno, con la calefacción, ayuda una bandeja con piedritas húmedas o un humidificador.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato muy suelto y aireado, tipo mezcla para orquídeas (corteza, perlita y algo de humus), en maceta chica: las raíces sirven sobre todo para sostenerla.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 3,
+    "apta": {
+      "interior": true,
+      "balcon": true,
+      "nota_balcon": "En los meses cálidos puede salir al balcón, a media sombra y sin sol directo. Las bromelias no soportan heladas: pasala adentro apenas empiece a bajar la temperatura en otoño."
+    },
+    "tamano": "mediana",
+    "dificultad": "media",
+    "imagen": "img/aechmea-fasciata-primera.webp",
+    "atribucion_imagen": {
+      "autor": "Aconcagua",
+      "licencia": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Aechmea_primera.jpg"
+    },
+    "mascotas": {
+      "toxicidad_gato": "no_verificada",
+      "toxicidad_perro": "no_verificada",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "ASPCA no tiene ficha de esta especie ni del género Aechmea. NC State la marca como no tóxica para gatos y perros, pero no pudimos confirmarlo con una segunda fuente veterinaria; por las dudas, que no la mastiquen.",
+      "advertencia_grave": null,
+      "confianza": "baja",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Aechmea fasciata (Silver Vase Bromeliad)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/aechmea-fasciata/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Aechmea fasciata (Silver Vase Bromeliad)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/aechmea-fasciata/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Aechmea fasciata 'Primera'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/146340/aechmea-fasciata-primera/details",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Aechmea fasciata 'Primera'",
+        "org": "BBC Gardeners' World",
+        "url": "https://www.gardenersworld.com/plants/aechmea-fasciata-primera",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Bromeliads",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/bromeliads/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Bromeliads",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/bromeliads/",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Las fuentes hablan de la zona de cultivo exterior (USDA 10 a 11) y de sol parcial al aire libre; se tradujo a mantenerla adentro y sacarla al balcón solo en los meses cálidos (de noviembre a marzo), sin heladas.",
+      "Las temperaturas de las fuentes (65 a 75 °F, o 18 a 24 °C) son para todo el año; la calefacción de invierno seca el aire, por eso se sugiere sumar humedad."
+    ],
+    "discrepancias": [
+      "Luz: NC State la clasifica como sombra parcial (2 a 6 h de sol directo) y RHS habla de sol pleno o sombra parcial al aire libre, pero Clemson y UF/IFAS piden luz brillante difusa, sin sol directo. Se tomó el criterio más conservador: 0 horas.",
+      "Humedad: NC State no da un valor; Wisconsin indica 50 a 75 % y Clemson dice que las casas suelen ser demasiado secas. Se dejó humedad media.",
+      "Toxicidad: ASPCA no lista Aechmea (solo otros géneros de bromelias como Neoregelia, Cryptanthus y Guzmania); no se dedujo por parecidas. NC State la marca no tóxica pero es una sola fuente, por eso queda como no verificada.",
+      "Variedad: 'Primera' tiene hojas anchas con bandas plateadas y brácteas rosadas (NC State y RHS). RHS le da el Premio al Mérito de Jardín y la dice de sol pleno o sombra parcial, y Gardeners' World pide lugar luminoso lejos del sol directo; se tomó lo conservador. Los cuidados de agua, sustrato y propagación se basan en fuentes de Aechmea y de bromelias en general."
+    ],
+    "tip": "Mantené agua en la copa central y renovala seguido; después de florecer, tranqui: la planta madre se apaga de a poco, pero deja hijuelos para seguir."
+  },
+  {
+    "id": "phoenix-roebelenii",
+    "nombre_comun": "Palmera datilera enana",
+    "otros_nombres": [],
+    "nombre_cientifico": "Phoenix roebelenii",
+    "familia": "Arecaceae",
+    "grupo": "palmera",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "directa",
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 2,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Quiere mucha claridad con luz indirecta; si le llega un rato de sol suave de la mañana, mejor. Hay que protegerla del sol fuerte de la tarde, que le quema las hojas.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Mantené la tierra apenas húmeda mientras crece, sin encharcar: regá moderado y dejá que drene bien.",
+      "invierno": "Regá poco: dejá que se seque un poco entre riegos y no la dejes con agua en el plato.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Prefiere humedad media a alta. Si el aire de la calefacción está muy seco, ayuda un plato con piedritas húmedas o un humidificador.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato para macetas húmedo, poroso, con buen drenaje y algo de materia orgánica.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 3,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "No soporta el frío ni las heladas: puede pasar el verano en un balcón reparado, a media sombra, pero tiene que volver adentro antes de que baje la temperatura."
+    },
+    "tamano": "grande",
+    "dificultad": "media",
+    "tip": "Ojo con las hojas: en la base tienen espinas muy filosas, así que ponela donde no roce a chicos ni a mascotas curiosas y manipulala con cuidado.",
+    "imagen": "img/phoenix-roebelenii.webp",
+    "atribucion_imagen": {
+      "autor": "Krzysztof Ziarnek, Kenraiz",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Phoenix_roebelenii_kz02.jpg"
+    },
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "ASPCA y NC State la dan como no tóxica para gatos y perros. Lo que sí hay que cuidar son las espinas filosas en la base de las hojas, que pueden lastimar a una mascota curiosa.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Miniature Date Palm - Toxic and Non-Toxic Plants",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/miniature-date-palm",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Phoenix roebelenii (Dwarf Date Palm)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/phoenix-roebelenii/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Phoenix roebelenii (Dwarf Date Palm)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/phoenix-roebelenii/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Phoenix roebelenii (miniature date palm)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/12771/phoenix-roebelenii-miniature-date-palm-pygmy-date-palm/details",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Indoor Palms",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-palms/",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Clemson recomienda una ventana al este con sol de mañana: en Buenos Aires también es la este.",
+      "RHS la califica H1B (mínimo de 10 a 15 °C, sin heladas): se tradujo como 'no dejarla afuera en el invierno porteño'."
+    ],
+    "discrepancias": [
+      "Luz: NC State admite pleno sol y media sombra y RHS la da en pleno sol o media sombra, pero para interior RHS y Clemson piden luz brillante indirecta y protección del sol fuerte. Se tomó el criterio conservador: solo 2 horas de sol suave, sin sol de tarde.",
+      "Riego: Clemson pide tierra húmeda todo el tiempo; NC State y RHS piden moderado sin excesos y RHS poco en invierno. Se tomó lo moderado.",
+      "Humedad: NC State dice media a alta; Clemson y RHS no dan un requisito específico para esta especie.",
+      "Nombre: ASPCA la lista como Phoenix robellinii (Miniature Date Palm, Pygmy Date Palm); NC State y RHS usan Phoenix roebelenii.",
+      "Espinas: NC State aclara que los folíolos de la base son espinas muy afiladas y pide cuidado al manipular las hojas; RHS no las menciona.",
+      "Propagación: la fuente específica de la especie es RHS (semilla); NC State dice que en cultivo casi no hace hijuelos y Clemson da una regla general de palmeras (semilla o división). No se incluyó división."
+    ]
+  },
+  {
+    "id": "phoenix-canariensis",
+    "nombre_comun": "Palmera canaria",
+    "otros_nombres": [],
+    "nombre_cientifico": "Phoenix canariensis",
+    "familia": "Arecaceae",
+    "grupo": "palmera",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "directa"
+    ],
+    "horas_sol_directo": 4,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Adentro necesita luz brillante e indirecta; afuera le gusta un lugar luminoso y reparado con algo de sombra al mediodía. Cuando es grande aguanta mucho sol, pero joven y en maceta conviene cuidarla del sol fuerte.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá moderado mientras crece, para que la tierra se mantenga apenas húmeda y drene bien; ya establecida aguanta períodos de sequía.",
+      "invierno": "Regá poco: dejá que se seque más entre riegos.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Las fuentes no piden humedad especial para esta palmera, así que no hace falta nada extra.",
+      "confianza": "baja"
+    },
+    "sustrato": {
+      "tipo": "Sustrato rico, tipo tierra franca con compost, que drene bien.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 4,
+    "apta": {
+      "interior": true,
+      "balcon": true,
+      "nota_balcon": "Aguanta el frío suave: las fuentes la dan sin daño hasta unos -6 °C una vez establecida. En maceta y joven puede quedarse en un balcón luminoso y reparado, pero crece mucho y con los años va a necesitar jardín."
+    },
+    "tamano": "grande",
+    "dificultad": "media",
+    "tip": "De chiquita se porta bien en maceta, pero es una palmera de jardín que llega a muchos metros: pensá dónde va a vivir cuando crezca, y con cuidado con las espinas largas del tallo de las hojas.",
+    "imagen": "img/phoenix-canariensis.webp",
+    "atribucion_imagen": {
+      "autor": "Quartl",
+      "licencia": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Phoenix_canariensis_qtl1.jpg"
+    },
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "ASPCA y NC State la dan como no tóxica para gatos y perros. Eso sí: las espinas de 5 a 20 cm en la base de las hojas son muy filosas y pueden lastimar, así que mantenela lejos del paso de tu mascota.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Canary Date Palm - Toxic and Non-Toxic Plants",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/canary-date-palm",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Phoenix canariensis (Canary Island Date Palm)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/phoenix-canariensis/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Phoenix canariensis (Canary Island Date Palm)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/phoenix-canariensis/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Phoenix canariensis (Canary Island date palm)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/12767/wd/details",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Palms: hardy",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/types/trees/hardy-palms",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "baja",
+    "adaptaciones": [
+      "RHS sugiere orientación sur u oeste en el hemisferio norte: en Buenos Aires la equivalente a sur es la norte, aunque con la palmera joven conviene filtrar el sol del mediodía.",
+      "NC State la da para zonas USDA 9 a 11 y dice que no tolera menos de unos -7 °C (20 °F): se tradujo como 'aguanta heladas suaves, no fuertes'.",
+      "RHS la califica H2 (mínimo de 1 a 5 °C, no soporta congelamiento) y en su guía de palmeras rústicas la da hasta -8 °C; se tomó el criterio más conservador."
+    ],
+    "discrepancias": [
+      "Luz: NC State pide pleno sol con sombra de tarde (6 horas o más de sol directo); RHS pide semisombra, y luz brillante indirecta adentro. Se tomó lo menor: 4 horas de sol directo, sin sol fuerte de tarde.",
+      "Frío: RHS da H2 en su ficha (sin congelamiento) y -8 °C en la guía de palmeras rústicas; NC State dice que daña por debajo de unos -7 °C. Se tomó lo más conservador y se aclaró en la nota del balcón.",
+      "Humedad: ninguna de las dos fuentes da pauta; se dejó 'media' con confianza baja.",
+      "Nombre: ASPCA la lista como Phoenix canariensis (Canary Date Palm); NC State y RHS como Canary Island date palm.",
+      "Espinas: NC State las describe de 2 a 8 pulgadas (5 a 20 cm) en el pecíolo y dice que lastiman seguido a quienes la manipulan; recomienda protección personal, incluso para los ojos.",
+      "Propagación: ambas fuentes dicen semilla; RHS pide 25 °C o más pero ninguna da época."
+    ]
   }
 ]

@@ -1,0 +1,135 @@
+{
+  "fuentes": [
+    {
+      "org": "NC State Extension",
+      "titulo": "Phoenix roebelenii",
+      "url": "https://plants.ces.ncsu.edu/plants/phoenix-roebelenii/",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz media-alta sin sol fuerte de tarde, riego, humedad, sustrato, tamaño, espinas, hijuelos casi ausentes, no tóxica",
+      "usado_en": [
+        "phoenix-roebelenii"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Phoenix roebelenii",
+      "url": "https://www.rhs.org.uk/plants/12771/phoenix-roebelenii-miniature-date-palm-pygmy-date-palm/details",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz indirecta brillante, riego moderado/poco en invierno, compost, H1B, sin poda, semilla en primavera",
+      "usado_en": [
+        "phoenix-roebelenii"
+      ]
+    },
+    {
+      "org": "Clemson HGIC",
+      "titulo": "Indoor Palms",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-palms/",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Luz indirecta, ventana este con sol de mañana, tierra húmeda, tamaño, palmeras no se podan, sustrato poroso",
+      "usado_en": [
+        "phoenix-roebelenii"
+      ]
+    },
+    {
+      "org": "NC State Extension",
+      "titulo": "Phoenix canariensis",
+      "url": "https://plants.ces.ncsu.edu/plants/phoenix-canariensis/",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Pleno sol con sombra de tarde, riego, sustrato, zonas 9-11, tamaño, espinas, semilla, maceta, no tóxica",
+      "usado_en": [
+        "phoenix-canariensis"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Phoenix canariensis",
+      "url": "https://www.rhs.org.uk/plants/12767/wd/details",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Semisombra, luz indirecta adentro, riego, compost, H2, sin poda, semilla a 25 °C",
+      "usado_en": [
+        "phoenix-canariensis"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Palms: hardy",
+      "url": "https://www.rhs.org.uk/plants/types/trees/hardy-palms",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "Hasta -8 °C, palmeras no se podan, sacar hojas secas sin cortar al ras",
+      "usado_en": [
+        "phoenix-canariensis"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Miniature Date Palm (Phoenix robellinii)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/miniature-date-palm",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "No tóxica para perros, gatos y caballos",
+      "usado_en": [
+        "phoenix-roebelenii"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Canary Date Palm (Phoenix canariensis)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/canary-date-palm",
+      "fecha_consulta": "2026-11-23",
+      "que_se_tomo": "No tóxica para perros, gatos y caballos",
+      "usado_en": [
+        "phoenix-canariensis"
+      ]
+    }
+  ],
+  "revisar": [
+    {
+      "id": "phoenix-canariensis",
+      "dato": "humedad",
+      "motivo": "Ninguna fuente abierta da pauta; nivel media estimado, confianza baja (baja la confianza general).",
+      "fuentes": []
+    },
+    {
+      "id": "phoenix-canariensis",
+      "dato": "luz/horas_sol_directo",
+      "motivo": "NC State 6+ h de sol, RHS semisombra; se tomó 4 h, estimación entre fuentes.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/phoenix-canariensis/",
+        "https://www.rhs.org.uk/plants/12767/wd/details"
+      ]
+    },
+    {
+      "id": "phoenix-canariensis",
+      "dato": "cultivo.propagacion.meses",
+      "motivo": "Ninguna fuente da época; meses vacío.",
+      "fuentes": []
+    },
+    {
+      "id": "phoenix-roebelenii",
+      "dato": "otros_nombres",
+      "motivo": "Las fuentes solo dan nombres en inglés; se dejó vacío (no se confirmó 'palmera pigmea').",
+      "fuentes": []
+    },
+    {
+      "id": "phoenix-canariensis",
+      "dato": "otros_nombres",
+      "motivo": "Ninguna fuente confirma nombres en español.",
+      "fuentes": []
+    },
+    {
+      "id": "phoenix-dactylifera",
+      "dato": "planta omitida",
+      "motivo": "Solo se abrió RHS (H1A, invernáculo, 12 m+) y ASPCA no tiene ficha confirmada; no llega a 2 fuentes y no es planta de interior.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/12768/phoenix-dactylifera-f/details"
+      ]
+    }
+  ],
+  "no_pude_abrir": [
+    "https://www.rhs.org.uk/plants/phoenix-roebelenii/details (404)",
+    "https://plants.ces.ncsu.edu/plants/phoenix-dactylifera/ (404)",
+    "ask.ifas.ufl.edu / edis.ifas.ufl.edu ST439 y ST441 (redirecciones infinitas o PDF ilegible)",
+    "journals.flvc.org (403)",
+    "gardenia.net (403)",
+    "webarchive UNT PHOROEA/PHOCANA PDFs (sin texto)"
+  ]
+}

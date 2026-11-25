@@ -1,0 +1,498 @@
+[
+  {
+    "id": "calatea-zebrina",
+    "nombre_comun": "Calatea zebrina",
+    "otros_nombres": [
+      "Calathea zebrina",
+      "Calatea cebrina"
+    ],
+    "nombre_cientifico": "Goeppertia zebrina (sin. Calathea zebrina)",
+    "familia": "Marantaceae",
+    "grupo": "amiga_humedad",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Quiere luz brillante pero filtrada, sin sol directo. Con poca luz pierde el color intenso de las hojas; en Buenos Aires, un lugar cerca de una ventana luminosa, sin que le pegue el sol de lleno.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Mantené la tierra húmeda pero nunca empapada, y regá apenas se seque un poquito la superficie; mejor con agua de lluvia o agua de la canilla reposada.",
+      "invierno": "Regá un poco menos: dejá que la superficie se seque antes de volver a regar, pero sin que la tierra se seque del todo.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Necesita aire húmedo (más del 60 %). Con aire seco se le enrulan y marronean las hojas; ayuda juntarla con otras plantas, ponerla sobre una bandeja con piedritas húmedas o usar un humidificador.",
+      "confianza": "alta"
+    },
+    "sustrato": {
+      "tipo": "Sustrato para plantas de interior suelto, con turba o fibra de coco, que retenga humedad pero drene bien (con perlita o arena gruesa).",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 1,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Pide temperatura pareja de unos 16 a 24 °C y sin corrientes de aire; el frío porteño o un viento fuerte la dañan. Mejor adentro todo el año."
+    },
+    "tamano": "mediana",
+    "dificultad": "dificil",
+    "tip": "Si se le marronean las puntas, tranqui: casi siempre es aire seco o agua de la canilla; probá con agua de lluvia o dejá reposar la del riego un día.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: solo cortá al ras las hojas secas o marrones para que quede prolija."
+      },
+      "propagacion": {
+        "metodos": [
+          "division"
+        ],
+        "en_agua": false,
+        "meses": [
+          10,
+          11
+        ],
+        "detalle": "Se multiplica dividiendo la mata: sacala de la maceta, separá la raíz en trozos con varias hojas cada uno y plantalos por separado. Mantenelos tibios, húmedos y con humedad en el aire hasta que salgan hojas nuevas."
+      },
+      "fuentes": [
+        {
+          "titulo": "Goeppertia zebrina (Zebra Plant)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/goeppertia-zebrina/",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Goeppertia zebrina (zebra plant)",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/357248/goeppertia-zebrina/details",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "How to grow calatheas",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+          "fecha_consulta": "2026-11-23"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "RHS recomienda dividir a fines de primavera y en primavera (hemisferio norte): se pasó a octubre y noviembre, que en Buenos Aires es la primavera (septiembre a noviembre)."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Según las fuentes no es tóxica para gatos ni perros, así que podés tenerla a su altura. Igual, si la mastican en cantidad puede caerles mal al estómago.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Calathea (Calathea spp.)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/calathea",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Goeppertia zebrina (Zebra Plant)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/goeppertia-zebrina/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Goeppertia zebrina (Zebra Plant)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/goeppertia-zebrina/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Goeppertia zebrina (zebra plant)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/357248/goeppertia-zebrina/details",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "How to grow calatheas",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Caring for Calathea",
+        "org": "University of Washington Botanic Gardens (Miller Library)",
+        "url": "https://depts.washington.edu/hortlib/pal/caring-for-calathea",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS recomienda ventana norte o este en verano y sur en invierno (hemisferio norte): en Buenos Aires se invierte, así que en verano (diciembre a febrero) conviene luz suave del este o del sur y en invierno (junio a agosto) puede acercarse a la ventana norte.",
+      "Los 65 a 75 °F de NC State equivalen a unos 18 a 24 °C; el mínimo de 16 °C de RHS se mantuvo.",
+      "El invierno porteño con calefacción seca el aire: es cuando más conviene sumarle humedad."
+    ],
+    "discrepancias": [
+      "Luz: NC State la clasifica como sombra parcial (2 a 6 h de sol directo), pero RHS y la Miller Library piden luz filtrada, sin sol directo. Se tomó el criterio más conservador: 0 horas.",
+      "Toxicidad: ASPCA no tiene ficha de Goeppertia zebrina; solo del género Calathea (nombre anterior de esta especie). NC State la marca no tóxica a nivel de especie.",
+      "Variedades: NC State menciona el cultivar Snow White, pero RHS no lista ninguno y no hay una segunda fuente institucional, así que no se agregó como entrada."
+    ]
+  },
+  {
+    "id": "aechmea-fasciata",
+    "nombre_comun": "Aechmea fasciata",
+    "otros_nombres": [
+      "Achmea",
+      "Urn plant"
+    ],
+    "nombre_cientifico": "Aechmea fasciata",
+    "familia": "Bromeliaceae",
+    "grupo": "con_flor",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Quiere mucha luz pero filtrada, sin sol directo; en Buenos Aires, cerca de una ventana luminosa sin que le pegue el sol de lleno. La flor rosada dura meses y aparece una sola vez en la vida de cada roseta.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Mantené un par de centímetros de agua en la copa central (la roseta de hojas) y regá poco la tierra: dejá que se seque entre riegos. Vaciá y renová el agua de la copa de vez en cuando para que no se estanque.",
+      "invierno": "Regá menos la tierra y renová el agua de la copa; con frío la planta consume menos agua.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Le gusta el aire con humedad media a alta (entre 50 y 75 %). En invierno, con la calefacción, ayuda una bandeja con piedritas húmedas o un humidificador.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato muy suelto y aireado, tipo mezcla para orquídeas (corteza, perlita y algo de humus), en maceta chica: las raíces sirven sobre todo para sostenerla.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 3,
+    "apta": {
+      "interior": true,
+      "balcon": true,
+      "nota_balcon": "En los meses cálidos puede salir al balcón, a media sombra y sin sol directo. Las bromelias no soportan heladas: pasala adentro apenas empiece a bajar la temperatura en otoño."
+    },
+    "tamano": "mediana",
+    "dificultad": "media",
+    "clases": [
+      "follaje",
+      "con_flor"
+    ],
+    "cultivo": {
+      "porte": [
+        "roseta"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: solo sacá las hojas secas. La planta madre se va apagando de a poco después de florecer, y sus hijuelos siguen."
+      },
+      "propagacion": {
+        "metodos": [
+          "hijuelos"
+        ],
+        "en_agua": false,
+        "meses": [],
+        "detalle": "Después de florecer salen hijuelos en la base. Cuando midan alrededor de un tercio de la planta madre, cortalos con cuidado y plantalos en su propia maceta con mezcla suelta, en un lugar más sombreado y húmedo hasta que enraícen. Las fuentes no dan una época precisa."
+      },
+      "fuentes": [
+        {
+          "titulo": "Aechmea fasciata (Silver Vase Bromeliad)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/aechmea-fasciata/",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Bromeliads",
+          "org": "University of Wisconsin-Madison Extension",
+          "url": "https://hort.extension.wisc.edu/articles/bromeliads/",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Bromeliads",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/factsheet/bromeliads/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ],
+      "confianza": "media",
+      "adaptaciones": [
+        "Ninguna fuente da una época para separar hijuelos, así que no se indicó ningún mes."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "no_verificada",
+      "toxicidad_perro": "no_verificada",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "ASPCA no tiene ficha de esta especie ni del género Aechmea. NC State la marca como no tóxica para gatos y perros, pero no pudimos confirmarlo con una segunda fuente veterinaria; por las dudas, que no la mastiquen.",
+      "advertencia_grave": null,
+      "confianza": "baja",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Aechmea fasciata (Silver Vase Bromeliad)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/aechmea-fasciata/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Aechmea fasciata (Silver Vase Bromeliad)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/aechmea-fasciata/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Aechmea fasciata",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/59419/aechmea-fasciata/details",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Bromeliads",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/bromeliads/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Bromeliads",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/bromeliads/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Bromeliads",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/home/plants/ornamentals/bromeliads",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Las fuentes hablan de la zona de cultivo exterior (USDA 10 a 11) y de sol parcial al aire libre; se tradujo a mantenerla adentro y sacarla al balcón solo en los meses cálidos (de noviembre a marzo), sin heladas.",
+      "Las temperaturas de las fuentes (65 a 75 °F, o 18 a 24 °C) son para todo el año; la calefacción de invierno seca el aire, por eso se sugiere sumar humedad."
+    ],
+    "discrepancias": [
+      "Luz: NC State la clasifica como sombra parcial (2 a 6 h de sol directo) y RHS habla de sol pleno o sombra parcial al aire libre, pero Clemson y UF/IFAS piden luz brillante difusa, sin sol directo. Se tomó el criterio más conservador: 0 horas.",
+      "Humedad: NC State no da un valor; Wisconsin indica 50 a 75 % y Clemson dice que las casas suelen ser demasiado secas. Se dejó humedad media.",
+      "Toxicidad: ASPCA no lista Aechmea (solo otros géneros de bromelias como Neoregelia, Cryptanthus y Guzmania); no se dedujo por parecidas. NC State la marca no tóxica pero es una sola fuente, por eso queda como no verificada."
+    ],
+    "tip": "Mantené agua en la copa central y renovala seguido; después de florecer, tranqui: la planta madre se apaga de a poco, pero deja hijuelos para seguir."
+  },
+  {
+    "id": "aechmea-fasciata-primera",
+    "nombre_comun": "Aechmea fasciata 'Primera'",
+    "otros_nombres": [
+      "Aechmea Primera",
+      "Achmea Primera"
+    ],
+    "nombre_cientifico": "Aechmea fasciata 'Primera'",
+    "familia": "Bromeliaceae",
+    "grupo": "con_flor",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Quiere mucha luz pero filtrada, sin sol directo: cerca de una ventana luminosa de Buenos Aires, sin que le pegue el sol de lleno. Con poca luz las bandas de las hojas pierden color y le cuesta florecer.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Mantené un par de centímetros de agua en la copa central (la roseta de hojas) y regá poco la tierra: dejá que se seque entre riegos. Vaciá y renová el agua de la copa de vez en cuando para que no se estanque.",
+      "invierno": "Regá menos la tierra y renová el agua de la copa; con frío la planta consume menos agua.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Le gusta el aire con humedad media a alta (entre 50 y 75 %). En invierno, con la calefacción, ayuda una bandeja con piedritas húmedas o un humidificador.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato muy suelto y aireado, tipo mezcla para orquídeas (corteza, perlita y algo de humus), en maceta chica: las raíces sirven sobre todo para sostenerla.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 3,
+    "apta": {
+      "interior": true,
+      "balcon": true,
+      "nota_balcon": "En los meses cálidos puede salir al balcón, a media sombra y sin sol directo. Las bromelias no soportan heladas: pasala adentro apenas empiece a bajar la temperatura en otoño."
+    },
+    "tamano": "mediana",
+    "dificultad": "media",
+    "clases": [
+      "follaje",
+      "con_flor"
+    ],
+    "cultivo": {
+      "porte": [
+        "roseta"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: solo sacá las hojas secas. La planta madre se va apagando de a poco después de florecer, y sus hijuelos siguen."
+      },
+      "propagacion": {
+        "metodos": [
+          "hijuelos"
+        ],
+        "en_agua": false,
+        "meses": [],
+        "detalle": "Después de florecer salen hijuelos en la base. Cuando midan alrededor de un tercio de la planta madre, cortalos con cuidado y plantalos en su propia maceta con mezcla suelta, en un lugar más sombreado y húmedo hasta que enraícen. Las fuentes no dan una época precisa."
+      },
+      "fuentes": [
+        {
+          "titulo": "Aechmea fasciata 'Primera'",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/146340/aechmea-fasciata-primera/details",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Aechmea fasciata (Silver Vase Bromeliad)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/aechmea-fasciata/",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Bromeliads",
+          "org": "University of Wisconsin-Madison Extension",
+          "url": "https://hort.extension.wisc.edu/articles/bromeliads/",
+          "fecha_consulta": "2026-11-23"
+        },
+        {
+          "titulo": "Bromeliads",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/factsheet/bromeliads/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ],
+      "confianza": "media",
+      "adaptaciones": [
+        "Ninguna fuente da una época para separar hijuelos, así que no se indicó ningún mes."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "no_verificada",
+      "toxicidad_perro": "no_verificada",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "ASPCA no tiene ficha de esta especie ni del género Aechmea. NC State la marca como no tóxica para gatos y perros, pero no pudimos confirmarlo con una segunda fuente veterinaria; por las dudas, que no la mastiquen.",
+      "advertencia_grave": null,
+      "confianza": "baja",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Aechmea fasciata (Silver Vase Bromeliad)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/aechmea-fasciata/",
+          "fecha_consulta": "2026-11-23"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Aechmea fasciata (Silver Vase Bromeliad)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/aechmea-fasciata/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Aechmea fasciata 'Primera'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/146340/aechmea-fasciata-primera/details",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Aechmea fasciata 'Primera'",
+        "org": "BBC Gardeners' World",
+        "url": "https://www.gardenersworld.com/plants/aechmea-fasciata-primera",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Bromeliads",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/bromeliads/",
+        "fecha_consulta": "2026-11-23"
+      },
+      {
+        "titulo": "Bromeliads",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/bromeliads/",
+        "fecha_consulta": "2026-11-23"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Las fuentes hablan de la zona de cultivo exterior (USDA 10 a 11) y de sol parcial al aire libre; se tradujo a mantenerla adentro y sacarla al balcón solo en los meses cálidos (de noviembre a marzo), sin heladas.",
+      "Las temperaturas de las fuentes (65 a 75 °F, o 18 a 24 °C) son para todo el año; la calefacción de invierno seca el aire, por eso se sugiere sumar humedad."
+    ],
+    "discrepancias": [
+      "Luz: NC State la clasifica como sombra parcial (2 a 6 h de sol directo) y RHS habla de sol pleno o sombra parcial al aire libre, pero Clemson y UF/IFAS piden luz brillante difusa, sin sol directo. Se tomó el criterio más conservador: 0 horas.",
+      "Humedad: NC State no da un valor; Wisconsin indica 50 a 75 % y Clemson dice que las casas suelen ser demasiado secas. Se dejó humedad media.",
+      "Toxicidad: ASPCA no lista Aechmea (solo otros géneros de bromelias como Neoregelia, Cryptanthus y Guzmania); no se dedujo por parecidas. NC State la marca no tóxica pero es una sola fuente, por eso queda como no verificada.",
+      "Variedad: 'Primera' tiene hojas anchas con bandas plateadas y brácteas rosadas (NC State y RHS). RHS le da el Premio al Mérito de Jardín y la dice de sol pleno o sombra parcial, y Gardeners' World pide lugar luminoso lejos del sol directo; se tomó lo conservador. Los cuidados de agua, sustrato y propagación se basan en fuentes de Aechmea y de bromelias en general."
+    ],
+    "tip": "Mantené agua en la copa central y renovala seguido; después de florecer, tranqui: la planta madre se apaga de a poco, pero deja hijuelos para seguir."
+  }
+]

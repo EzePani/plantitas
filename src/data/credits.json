@@ -358,5 +358,69 @@
     "autor": "Sabalo22",
     "licencia": "CC0",
     "url": "https://commons.wikimedia.org/wiki/File:Kalanchoe_blossfeldiana_(Florist_Kalanchoe).jpg"
+  },
+  {
+    "id": "dieffenbachia",
+    "planta": "Dieffenbachia",
+    "archivo": "img/dieffenbachia.webp",
+    "autor": "Alex Rio Brazil",
+    "licencia": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Dieffenbachia_seguine_-_Comigo_Ninguem_Pode.jpg"
+  },
+  {
+    "id": "dieffenbachia-camille",
+    "planta": "Dieffenbachia 'Camille'",
+    "archivo": "img/dieffenbachia-camille.webp",
+    "autor": "Forest and Kim Starr",
+    "licencia": "CC BY 3.0 us",
+    "url": "https://commons.wikimedia.org/wiki/File:Starr-080117-1527-Dieffenbachia_maculata-Camille_leaves-Walmart_Kahului-Maui_(24532487999).jpg"
+  },
+  {
+    "id": "dieffenbachia-tropic-snow",
+    "planta": "Dieffenbachia 'Tropic Snow'",
+    "archivo": "img/dieffenbachia-tropic-snow.webp",
+    "autor": "Yercaud-elango",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Dieffenbachia_amoena_tropic_snow-1-anna_park-yercaud-salem-India.JPG"
+  },
+  {
+    "id": "calatea-zebrina",
+    "planta": "Calatea zebrina",
+    "archivo": "img/calatea-zebrina.webp",
+    "autor": "Krzysztof Ziarnek, Kenraiz",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Goeppertia_zebrina_kz01.jpg"
+  },
+  {
+    "id": "aechmea-fasciata",
+    "planta": "Aechmea fasciata",
+    "archivo": "img/aechmea-fasciata.webp",
+    "autor": "This illustration was made by Citron You must credit this : Citron / CC-BY-SA-3.0",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Aechmea_fasciata_Parc_floral_de_Paris.jpg"
+  },
+  {
+    "id": "aechmea-fasciata-primera",
+    "planta": "Aechmea fasciata 'Primera'",
+    "archivo": "img/aechmea-fasciata-primera.webp",
+    "autor": "Aconcagua",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Aechmea_primera.jpg"
+  },
+  {
+    "id": "phoenix-roebelenii",
+    "planta": "Palmera datilera enana",
+    "archivo": "img/phoenix-roebelenii.webp",
+    "autor": "Krzysztof Ziarnek, Kenraiz",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Phoenix_roebelenii_kz02.jpg"
+  },
+  {
+    "id": "phoenix-canariensis",
+    "planta": "Palmera canaria",
+    "archivo": "img/phoenix-canariensis.webp",
+    "autor": "Quartl",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Phoenix_canariensis_qtl1.jpg"
   }
 ]

@@ -1,0 +1,50 @@
+{
+  "dieffenbachia": [
+    {
+      "archivo": "img/extra/dieffenbachia-1.webp",
+      "autor": "Alex Rio Brazil",
+      "licencia": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dieffenbachia_seguine_-_Comigo_Ninguem_Pode.jpg"
+    },
+    {
+      "archivo": "img/extra/dieffenbachia-2.webp",
+      "autor": "Krzysztof Ziarnek, Kenraiz",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dieffenbachia_seguine_kz08.jpg"
+    },
+    {
+      "archivo": "img/extra/dieffenbachia-3.webp",
+      "autor": "Krzysztof Ziarnek, Kenraiz",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dieffenbachia_seguine_kz14.jpg"
+    }
+  ],
+  "dieffenbachia-camille": [
+    {
+      "archivo": "img/extra/dieffenbachia-camille-1.webp",
+      "autor": "Forest and Kim Starr",
+      "licencia": "CC BY 3.0 us",
+      "url": "https://commons.wikimedia.org/wiki/File:Starr-080117-1527-Dieffenbachia_maculata-Camille_leaves-Walmart_Kahului-Maui_(24532487999).jpg"
+    },
+    {
+      "archivo": "img/extra/dieffenbachia-camille-2.webp",
+      "autor": "Forest and Kim Starr",
+      "licencia": "CC BY 3.0 us",
+      "url": "https://commons.wikimedia.org/wiki/File:Starr-080117-1528-Dieffenbachia_maculata-Camille_leaves-Walmart_Kahului-Maui_(24604618910).jpg"
+    }
+  ],
+  "dieffenbachia-tropic-snow": [
+    {
+      "archivo": "img/extra/dieffenbachia-tropic-snow-1.webp",
+      "autor": "Yercaud-elango",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dieffenbachia_amoena_tropic_snow-1-anna_park-yercaud-salem-India.JPG"
+    },
+    {
+      "archivo": "img/extra/dieffenbachia-tropic-snow-2.webp",
+      "autor": "Yercaud-elango",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dieffenbachia_amoena_tropic_snow-2-anna_park-yercaud-salem-India.JPG"
+    }
+  ]
+}

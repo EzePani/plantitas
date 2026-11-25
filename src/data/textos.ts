@@ -9,6 +9,7 @@ export const T = {
     listo: 'Listo',
     xp: 'XP',
     proximamente: 'Próximamente',
+    salirAtras: 'Tocá atrás otra vez para salir',
   },
   aprender: {
     unidad: 'Unidad',

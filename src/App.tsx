@@ -2,6 +2,9 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { lazy, Suspense, useEffect, useState } from 'react'
 import { InvitacionInstalar } from './components/InvitacionInstalar'
 import { BarraNav, type Pestana } from './components/BarraNav'
+import { T } from './data/textos'
+import { iniciarAtras } from './lib/atras'
+import { useAtras } from './lib/useAtras'
 import { Onboarding } from './features/onboarding/Onboarding'
 import { Aprender } from './features/learn/Aprender'
 import type { Sesion } from './features/quiz/Reproductor'
@@ -26,6 +29,10 @@ export function App() {
   const listo = useStore((s) => s.onboardingCompleto)
   const [pestana, setPestana] = useState<Pestana>('aprender')
   const [direccion, setDireccion] = useState(1)
+  // Pestañas por las que se pasó, para que el botón atrás las recorra hasta volver a Aprender
+  const [anteriores, setAnteriores] = useState<Pestana[]>([])
+  const [avisoSalir, setAvisoSalir] = useState(false)
+  useEffect(() => iniciarAtras(setAvisoSalir), [])
   const [sesion, setSesion] = useState<Sesion | null>(null)
   // La guía rápida se abre desde Aprender (lista completa) o desde el buscador de Plantas (directo en una ficha).
   // `vez` cambia en cada apertura para que arranque limpia.
@@ -61,11 +68,19 @@ export function App() {
     }
   }, [listo])
 
-  const cambiar = (p: Pestana) => {
+  const mostrar = (p: Pestana) => {
     setGuia((g) => ({ ...g, abierta: false }))
     setDireccion(ORDEN.indexOf(p) >= ORDEN.indexOf(pestana) ? 1 : -1)
     setPestana(p)
   }
+  const cambiar = (p: Pestana) => {
+    if (p !== pestana) setAnteriores((h) => (p === 'aprender' ? [] : [...h.filter((x) => x !== p && x !== pestana), pestana]))
+    mostrar(p)
+  }
+  useAtras(listo && pestana !== 'aprender', () => {
+    mostrar(anteriores[anteriores.length - 1] ?? 'aprender')
+    setAnteriores(anteriores.slice(0, -1))
+  })
 
   return (
     <div className="marco">
@@ -112,6 +127,12 @@ export function App() {
       </AnimatePresence>
 
       <InvitacionInstalar />
+
+      {avisoSalir && (
+        <p role="status" className="bg-selva pointer-events-none absolute bottom-24 left-1/2 z-50 m-0 -translate-x-1/2 rounded-full px-4 py-2 text-[14px] font-bold whitespace-nowrap text-white shadow-lg">
+          {T.comun.salirAtras}
+        </p>
+      )}
 
       {/* La lección se abre por encima de todo, deslizando desde abajo */}
       <AnimatePresence>

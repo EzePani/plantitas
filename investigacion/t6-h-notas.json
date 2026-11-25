@@ -1,0 +1,217 @@
+{
+ "fuentes": [
+  {
+   "org": "NC State Extension Plant Toolbox",
+   "titulo": "Dieffenbachia seguine",
+   "url": "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+   "fecha_consulta": "2026-11-23",
+   "que_se_tomo": "Luz indirecta, riego (secar 2,5 cm), humedad alta, sustrato, propagación, toxicidad alta, alturas y descripción de 'Camille' y 'Tropic Snow'",
+   "usado_en": [
+    "dieffenbachia",
+    "dieffenbachia-camille",
+    "dieffenbachia-tropic-snow"
+   ]
+  },
+  {
+   "org": "Clemson Cooperative Extension HGIC",
+   "titulo": "Dieffenbachia (HGIC 1503)",
+   "url": "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+   "fecha_consulta": "2026-11-23",
+   "que_se_tomo": "Luz filtrada, riego, temperatura, poda a 15 cm, propagación primavera-verano, toxicidad, descripción de ambos cultivares",
+   "usado_en": [
+    "dieffenbachia",
+    "dieffenbachia-camille",
+    "dieffenbachia-tropic-snow"
+   ]
+  },
+  {
+   "org": "UConn Home & Garden Education Center",
+   "titulo": "Dieffenbachia",
+   "url": "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia",
+   "fecha_consulta": "2026-11-23",
+   "que_se_tomo": "Luz, riego, humedad, sustrato, esquejes en agua, toxicidad, 'Tropic Snow' como D. amoena",
+   "usado_en": [
+    "dieffenbachia",
+    "dieffenbachia-camille",
+    "dieffenbachia-tropic-snow"
+   ]
+  },
+  {
+   "org": "University of Illinois Extension",
+   "titulo": "Dieffenbachia",
+   "url": "https://extension.illinois.edu/houseplants/dieffenbachia",
+   "fecha_consulta": "2026-11-23",
+   "que_se_tomo": "Luz brillante, riego, humedad baja, poda y propagación en agua",
+   "usado_en": [
+    "dieffenbachia",
+    "dieffenbachia-camille",
+    "dieffenbachia-tropic-snow"
+   ]
+  },
+  {
+   "org": "ASPCA",
+   "titulo": "Toxic and Non-toxic Plants: Dieffenbachia",
+   "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dieffenbachia",
+   "fecha_consulta": "2026-11-23",
+   "que_se_tomo": "Tóxica gato y perro; oxalatos y enzima proteolítica; 'Tropic Snow' como nombre común",
+   "usado_en": [
+    "dieffenbachia",
+    "dieffenbachia-camille",
+    "dieffenbachia-tropic-snow"
+   ]
+  },
+  {
+   "org": "Pet Poison Helpline",
+   "titulo": "Dieffenbachia",
+   "url": "https://www.petpoisonhelpline.com/poison/dieffenbachia/",
+   "fecha_consulta": "2026-11-23",
+   "que_se_tomo": "Irritación bucal, salivación; hinchazón de garganta solo rara vez",
+   "usado_en": [
+    "dieffenbachia",
+    "dieffenbachia-camille",
+    "dieffenbachia-tropic-snow"
+   ]
+  }
+ ],
+ "revisar": [
+  {
+   "id": "dieffenbachia",
+   "dato": "luz.confianza_sol",
+   "motivo": "Fuentes discrepan sobre sol directo; estimación conservadora (0 h)",
+   "fuentes": [
+    "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+    "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+    "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia"
+   ]
+  },
+  {
+   "id": "dieffenbachia",
+   "dato": "humedad",
+   "motivo": "UConn alta, Illinois baja",
+   "fuentes": [
+    "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+    "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+    "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia"
+   ]
+  },
+  {
+   "id": "dieffenbachia",
+   "dato": "cultivo.poda.meses",
+   "motivo": "Ninguna fuente da época de poda: meses []",
+   "fuentes": [
+    "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+    "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+    "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia"
+   ]
+  },
+  {
+   "id": "dieffenbachia",
+   "dato": "cultivo.tutor",
+   "motivo": "Ninguna fuente habla de tutor: 'no'",
+   "fuentes": [
+    "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+    "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+    "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia"
+   ]
+  },
+  {
+   "id": "dieffenbachia-camille",
+   "dato": "luz.confianza_sol",
+   "motivo": "Fuentes discrepan sobre sol directo; estimación conservadora (0 h)",
+   "fuentes": [
+    "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+    "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+    "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia"
+   ]
+  },
+  {
+   "id": "dieffenbachia-camille",
+   "dato": "humedad",
+   "motivo": "UConn alta, Illinois baja",
+   "fuentes": [
+    "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+    "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+    "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia"
+   ]
+  },
+  {
+   "id": "dieffenbachia-camille",
+   "dato": "cultivo.poda.meses",
+   "motivo": "Ninguna fuente da época de poda: meses []",
+   "fuentes": [
+    "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+    "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+    "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia"
+   ]
+  },
+  {
+   "id": "dieffenbachia-camille",
+   "dato": "cultivo.tutor",
+   "motivo": "Ninguna fuente habla de tutor: 'no'",
+   "fuentes": [
+    "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+    "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+    "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia"
+   ]
+  },
+  {
+   "id": "dieffenbachia-tropic-snow",
+   "dato": "luz.confianza_sol",
+   "motivo": "Fuentes discrepan sobre sol directo; estimación conservadora (0 h)",
+   "fuentes": [
+    "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+    "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+    "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia"
+   ]
+  },
+  {
+   "id": "dieffenbachia-tropic-snow",
+   "dato": "humedad",
+   "motivo": "UConn alta, Illinois baja",
+   "fuentes": [
+    "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+    "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+    "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia"
+   ]
+  },
+  {
+   "id": "dieffenbachia-tropic-snow",
+   "dato": "cultivo.poda.meses",
+   "motivo": "Ninguna fuente da época de poda: meses []",
+   "fuentes": [
+    "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+    "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+    "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia"
+   ]
+  },
+  {
+   "id": "dieffenbachia-tropic-snow",
+   "dato": "cultivo.tutor",
+   "motivo": "Ninguna fuente habla de tutor: 'no'",
+   "fuentes": [
+    "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+    "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+    "https://homegarden.cahnr.uconn.edu/factsheets/dieffenbachia"
+   ]
+  },
+  {
+   "id": "dieffenbachia",
+   "dato": "otros_nombres",
+   "motivo": "No se verificó 'Caña muda'/'Difembaquia' en fuentes: no se incluyeron",
+   "fuentes": []
+  },
+  {
+   "id": "dieffenbachia-camille",
+   "dato": "toxicidad",
+   "motivo": "ASPCA no tiene ficha del cultivar, solo del género",
+   "fuentes": [
+    "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dieffenbachia"
+   ]
+  }
+ ],
+ "no_pude_abrir": [
+  "https://www.rhs.org.uk/plants/dieffenbachia/growing-guide (404)",
+  "https://hort.extension.wisc.edu/articles/dieffenbachia-dieffenbachia-spp/ (404)",
+  "edis.ifas.ufl.edu EP137/EP138 (redirecciones, sin abrir)"
+ ]
+}

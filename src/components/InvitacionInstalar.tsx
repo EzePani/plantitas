@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { Share, Smartphone, X } from 'lucide-react'
 import { useEffect, useState } from 'react'
+import { useAtras } from '../lib/useAtras'
 import { Boton } from './Boton'
 
 const CLAVE = 'plantitas-invitacion-instalar'
@@ -64,6 +65,7 @@ export function InvitacionInstalar() {
     marcarVista()
     setVisible(false)
   }
+  useAtras(visible, cerrar)
   const instalar = async () => {
     if (!evento) return
     await evento.prompt()

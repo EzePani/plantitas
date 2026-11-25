@@ -290,7 +290,7 @@ export function MiEspacio() {
         {planta && <FichaPlanta planta={planta} />}
       </Panel>
 
-      <Dialogo abierto={aBorrar !== null} titulo={E.borrarTitulo} texto={aBorrar?.nombre}>
+      <Dialogo abierto={aBorrar !== null} titulo={E.borrarTitulo} texto={aBorrar?.nombre} onCerrar={() => setABorrar(null)}>
         <Boton
           variante="alerta"
           onClick={() => {
