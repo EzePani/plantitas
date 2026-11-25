@@ -252,7 +252,7 @@ export function Perfil() {
         />
       </HojaInferior>
 
-      <Dialogo abierto={pegando} titulo={P.pegarTitulo} texto={P.pegarTexto}>
+      <Dialogo abierto={pegando} titulo={P.pegarTitulo} texto={P.pegarTexto} onCerrar={() => setPegando(false)}>
         <textarea
           aria-label={P.pegarTitulo}
           value={pegado}
@@ -268,7 +268,7 @@ export function Perfil() {
         </Boton>
       </Dialogo>
 
-      <Dialogo abierto={pendiente !== null} titulo={P.importarConfirmarTitulo} texto={pendiente ? `${resumen(pendiente)} ${P.importarConfirmarTexto}` : P.importarConfirmarTexto}>
+      <Dialogo abierto={pendiente !== null} titulo={P.importarConfirmarTitulo} texto={pendiente ? `${resumen(pendiente)} ${P.importarConfirmarTexto}` : P.importarConfirmarTexto} onCerrar={() => setPendiente(null)}>
         <Boton
           onClick={() => {
             if (pendiente) s.reemplazarDatos(pendiente)

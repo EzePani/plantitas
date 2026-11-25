@@ -18,6 +18,7 @@ import { Hijitos } from './Hijitos'
 import { hoyLocal } from '../../lib/fecha'
 import { hijitosConAviso } from '../../lib/hijitos'
 import { Semaforo } from './Semaforo'
+import { useAtras } from '../../lib/useAtras'
 
 const P = TC.plantas
 const MASCOTAS: TipoMascota[] = ['ninguna', 'gato', 'perro', 'ambos']
@@ -104,6 +105,7 @@ export function Plantas({ onGuia }: { onGuia: (entradaId: string) => void }) {
   const [vista, setVista] = useState<'catalogo' | 'lista' | 'hijitos'>('catalogo')
   const avisos = useStore((s) => hijitosConAviso(s.hijitos, hoyLocal()))
   const [busqueda, setBusqueda] = useState('')
+  useAtras(vista !== 'catalogo', () => setVista('catalogo'))
   const q = normal(busqueda)
   const activos = filtrosActivos(filtros)
 

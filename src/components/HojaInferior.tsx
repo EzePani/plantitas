@@ -1,8 +1,10 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import type { ReactNode } from 'react'
+import { useAtras } from '../lib/useAtras'
 
 /** Bottom sheet: se desliza desde abajo, se cierra tocando afuera o arrastrando hacia abajo */
 export function HojaInferior({ abierta, onCerrar, children }: { abierta: boolean; onCerrar: () => void; children: ReactNode }) {
+  useAtras(abierta, onCerrar)
   return (
     <AnimatePresence>
       {abierta && (

@@ -16,6 +16,7 @@ import { UNIDADES } from '../../data/unidades'
 import { idRepaso } from '../../lib/camino'
 import { vibrar } from '../../lib/haptics'
 import { armarRefuerzo, clavePregunta, leccionesHechas } from '../../lib/refuerzo'
+import { useAtras } from '../../lib/useAtras'
 import type { UnidadId } from '../../lib/tipos'
 import { useStore, type Resumen } from '../../store/useStore'
 import { PreguntaVista } from './PreguntaVista'
@@ -106,6 +107,18 @@ export function Reproductor({ sesion, onCerrar }: { sesion: Sesion; onCerrar: ()
     if (n >= tarjetas.length) setEtapa('llevar')
     else setITarjeta(n)
   }
+
+  // Atrás del celular: vuelve una tarjeta; desde el principio o el quiz pregunta antes de salir
+  useAtras(true, () => {
+    if (etapa === 'fin') onCerrar()
+    else if (etapa === 'tarjetas' && iTarjeta > 0) setITarjeta(iTarjeta - 1)
+    else if (etapa === 'tarjetas') setEtapa('gancho')
+    else if (etapa === 'llevar' && tarjetas.length > 0) {
+      setITarjeta(tarjetas.length - 1)
+      setEtapa('tarjetas')
+    }
+    else setSalir(true)
+  })
 
   let cuerpo: ReactNode
   let pie: ReactNode = null
@@ -260,7 +273,7 @@ export function Reproductor({ sesion, onCerrar }: { sesion: Sesion; onCerrar: ()
         )}
       </AnimatePresence>
 
-      <Dialogo abierto={salir} titulo={T.leccion.salirTitulo} texto={T.leccion.salirTexto}>
+      <Dialogo abierto={salir} titulo={T.leccion.salirTitulo} texto={T.leccion.salirTexto} onCerrar={() => setSalir(false)}>
         <Boton onClick={() => setSalir(false)}>{T.leccion.salirNo}</Boton>
         <Boton variante="fantasma" onClick={onCerrar}>
           {T.leccion.salirSi}

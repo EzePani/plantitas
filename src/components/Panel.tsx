@@ -2,9 +2,11 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { ChevronLeft } from 'lucide-react'
 import type { ReactNode } from 'react'
 import { TC } from '../data/textosCatalogo'
+import { useAtras } from '../lib/useAtras'
 
 /** Pantalla que entra deslizando desde la derecha por encima de la pestaña actual */
 export function Panel({ abierto, titulo, onCerrar, children, pie }: { abierto: boolean; titulo?: string; onCerrar: () => void; children: ReactNode; pie?: ReactNode }) {
+  useAtras(abierto, onCerrar)
   return (
     <AnimatePresence>
       {abierto && (

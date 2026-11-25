@@ -1,8 +1,10 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import type { ReactNode } from 'react'
+import { useAtras } from '../lib/useAtras'
 
 /** Modal centrado para confirmaciones */
-export function Dialogo({ abierto, titulo, texto, children }: { abierto: boolean; titulo: string; texto?: string; children: ReactNode }) {
+export function Dialogo({ abierto, titulo, texto, onCerrar, children }: { abierto: boolean; titulo: string; texto?: string; onCerrar: () => void; children: ReactNode }) {
+  useAtras(abierto, onCerrar)
   return (
     <AnimatePresence>
       {abierto && (

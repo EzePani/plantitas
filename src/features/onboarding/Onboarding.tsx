@@ -14,6 +14,7 @@ import { TC } from '../../data/textosCatalogo'
 import type { DatosMascotas, PerfilLuz, Respuestas, TipoEspacio } from '../../lib/tipos'
 import { useStore, type EspacioInicial } from '../../store/useStore'
 import { PasoHoras, PasoObstaculos, PasoTipoLuz, ResumenLuz, pasosDeLuz } from '../spaces/EditorLuz'
+import { useAtras } from '../../lib/useAtras'
 
 // El cliente de la nube pesa bastante: solo se baja al llegar al paso de cuenta
 const Nube = lazy(() => import('../profile/Nube').then((m) => ({ default: m.Nube })))
@@ -100,6 +101,7 @@ export function Onboarding() {
     }
     setPaso(anterior)
   }
+  useAtras(paso !== 'bienvenida', volver)
 
   // Paso de luz actual: qué sub-paso es y de qué espacio
   const luzActual = paso.startsWith('luz-') ? { sub: paso.split('-')[1] as 'tipo' | 'horas' | 'obstaculos', i: Number(paso.split('-')[2]) } : null
