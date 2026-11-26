@@ -1,0 +1,39 @@
+{
+  "filodendro-hastatum": [
+    {
+      "archivo": "img/extra/filodendro-hastatum-2.webp",
+      "autor": "Krzysztof Ziarnek, Kenraiz",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Philodendron_hastatum_kz1.jpg"
+    },
+    {
+      "archivo": "img/extra/filodendro-hastatum-3.webp",
+      "autor": "filipeprates",
+      "licencia": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Philodendron_hastatum_466135153.jpg"
+    }
+  ],
+  "filodendro-domesticum": [],
+  "filodendro-birkin": [
+    {
+      "archivo": "img/extra/filodendro-birkin-2.webp",
+      "autor": "Yercaud-elango",
+      "licencia": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Philodendron_birkin-5-R.M.Nagar-bengaluru-India.jpg"
+    }
+  ],
+  "filodendro-rojo-congo": [
+    {
+      "archivo": "img/extra/filodendro-rojo-congo-2.webp",
+      "autor": "cultivar413",
+      "licencia": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:210820_073_SD_Botanic_Garden_-_Dickinson_Family_Conservatory,_Philodendron_%27Rojo_Congo%27.jpg"
+    },
+    {
+      "archivo": "img/extra/filodendro-rojo-congo-3.webp",
+      "autor": "Emőke Dénes",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Philodendron_%27Rojo_Congo%27_-_Kew_1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "helecho-azul": [
+    {
+      "archivo": "img/extra/helecho-azul-1.webp",
+      "autor": "Agnieszka Kwiecień, Nova",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Phlebodium_aureum_%27Blue_Star%27_Flebodium_z%C5%82ociste_2023-10-31_01.jpg"
+    },
+    {
+      "archivo": "img/extra/helecho-azul-2.webp",
+      "autor": "Daderot",
+      "licencia": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Phlebodium_aureum_%27Blue_Star%27_-_Longwood_Gardens_-_DSC01161.JPG"
+    },
+    {
+      "archivo": "img/extra/helecho-azul-3.webp",
+      "autor": "Krzysztof Ziarnek, Kenraiz",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Phlebodium_aureum_kz04.jpg"
+    }
+  ],
+  "potus-marble-queen": [
+    {
+      "archivo": "img/extra/potus-marble-queen-1.webp",
+      "autor": "Spnq",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Epipremnum_aureum_(Marble_Queen)_houseplant_(2).png"
+    },
+    {
+      "archivo": "img/extra/potus-marble-queen-2.webp",
+      "autor": "Yercaud-elango",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Scindapsus_aureus_marble_queen-1-xavier_cootage-yercaud-salem-India.JPG"
+    },
+    {
+      "archivo": "img/extra/potus-marble-queen-3.webp",
+      "autor": "Yercaud-elango",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Scindapsus_aureus_marble_queen-2-xavier_cottage-yercaud-salem-India.JPG"
+    }
+  ],
+  "potus-neon": [
+    {
+      "archivo": "img/extra/potus-neon-1.webp",
+      "autor": "Krzysztof Ziarnek, Kenraiz",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Epipremnum_aureum_Neon_kz1.jpg"
+    },
+    {
+      "archivo": "img/extra/potus-neon-2.webp",
+      "autor": "Juliengagne18",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Pothos_n%C3%A9on_-_Julien_Gagn%C3%A9.jpg"
+    },
+    {
+      "archivo": "img/extra/potus-neon-3.webp",
+      "autor": "Krzysztof Ziarnek, Kenraiz",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Epipremnum_aureum_Neon_kz2.jpg"
+    }
+  ],
+  "potus-njoy": [
+    {
+      "archivo": "img/extra/potus-njoy-1.webp",
+      "autor": "Mokkie",
+      "licencia": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Money_Plant_(Epipremnum_aureum_%27N%27_Joy%27)_1.jpg"
+    },
+    {
+      "archivo": "img/extra/potus-njoy-2.webp",
+      "autor": "Mokkie",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Money_Plant_(Epipremnum_aureum_%27N%27_Joy%27)_2_(cropped).jpg"
+    }
+  ]
+}

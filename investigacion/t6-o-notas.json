@@ -1,0 +1,312 @@
+{
+  "fuentes": [
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Goeppertia roseopicta",
+      "url": "https://plants.ces.ncsu.edu/plants/goeppertia-roseopicta/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Sinónimos, tamaño, luz, riego, humedad, sustrato, división, no tóxica",
+      "usado_en": [
+        "calatea-roseopicta"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Goeppertia roseopicta",
+      "url": "https://www.rhs.org.uk/plants/357231/goeppertia-roseopicta/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz filtrada, riego, humedad, mínimo 16 °C, tamaño, división a fines de primavera, sin poda",
+      "usado_en": [
+        "calatea-roseopicta"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow calatheas",
+      "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz y ventanas, riego por estación, agua, humedad, sustrato, división en primavera, sin poda de rutina",
+      "usado_en": [
+        "calatea-roseopicta",
+        "calatea-lancifolia",
+        "calatea-ornata"
+      ]
+    },
+    {
+      "org": "University of California Agriculture and Natural Resources",
+      "titulo": "A Painterly Plant, Goeppertia roseopicta",
+      "url": "https://ucanr.edu/blog/under-solano-sun/article/painterly-plant-goeppertia-roseopicta",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz indirecta, riego, humedad, sustrato, división, no tóxica",
+      "usado_en": [
+        "calatea-roseopicta"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Calathea (Calathea spp.)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/calathea",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Calathea spp. no tóxica para gatos ni perros",
+      "usado_en": [
+        "calatea-roseopicta",
+        "calatea-lancifolia",
+        "calatea-ornata"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Goeppertia insignis",
+      "url": "https://plants.ces.ncsu.edu/plants/goeppertia-insignis/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Sinónimo Calathea lancifolia, tamaño, luz, riego, humedad, sustrato, división, no tóxica",
+      "usado_en": [
+        "calatea-lancifolia"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Goeppertia insignis (rattlesnake plant)",
+      "url": "https://www.rhs.org.uk/plants/386634/goeppertia-insignis/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Nombre aceptado y sinónimos, luz, riego, humedad, temperatura, división, sin poda",
+      "usado_en": [
+        "calatea-lancifolia"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Prayer Plant (Calathea insignis)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/prayer-plant",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Calathea insignis (incluye 'Rattle Snake Plant') no tóxica para gatos ni perros",
+      "usado_en": [
+        "calatea-lancifolia"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Goeppertia ornata",
+      "url": "https://plants.ces.ncsu.edu/plants/goeppertia-ornata/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Sinónimos, tamaño, luz, riego, humedad 60 %, sustrato, división, no tóxica",
+      "usado_en": [
+        "calatea-ornata"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Goeppertia ornata",
+      "url": "https://www.rhs.org.uk/plants/357192/goeppertia-ornata/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Sinónimo, tamaño, luz, riego, humedad, división, cortar varas florales",
+      "usado_en": [
+        "calatea-ornata"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Maranta leuconeura var. erythroneura",
+      "url": "https://www.rhs.org.uk/plants/56852/maranta-leuconeura-var-erythroneura/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Nombre y sinónimo 'Tricolor', hoja, tamaño, luz, riego, división en primavera, sin poda",
+      "usado_en": [
+        "maranta-erythroneura"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Maranta leuconeura",
+      "url": "https://plants.ces.ncsu.edu/plants/maranta-leuconeura/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Variedades como nombres anteriores, tamaño, luz, riego, humedad, división; sin dato de toxicidad",
+      "usado_en": [
+        "maranta-erythroneura",
+        "maranta-kerchoveana"
+      ]
+    },
+    {
+      "org": "University of Illinois Extension",
+      "titulo": "Prayer Plant",
+      "url": "https://extension.illinois.edu/houseplants/prayer-plant",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz filtrada, tierra húmeda, humedad alta, no dejar agua en el centro",
+      "usado_en": [
+        "maranta-erythroneura",
+        "maranta-kerchoveana"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Maranta leuconeura var. kerchoveana",
+      "url": "https://www.rhs.org.uk/plants/91332/maranta-leuconeura-var-kerchoveana/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Hoja, tamaño, luz, humedad, raíces superficiales, división y esquejes basales, sin poda",
+      "usado_en": [
+        "maranta-kerchoveana"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Pilea cadierei",
+      "url": "https://www.rhs.org.uk/plants/13012/pilea-cadierei/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Tamaño, luz, humedad alta, esquejes de punta, sin poda requerida",
+      "usado_en": [
+        "pilea-cadierei"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Pilea cadierei",
+      "url": "https://plants.ces.ncsu.edu/plants/pilea-cadierei/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Tamaño, luz, riego, sustrato, humedad, esquejes, pellizcado, etiquetas de toxicidad contradictorias",
+      "usado_en": [
+        "pilea-cadierei"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow pilea",
+      "url": "https://www.rhs.org.uk/plants/pilea/how-to-grow-pilea",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, ventanas, riego, sustrato, humedad, mínimo 10 °C, recorte y esquejes en primavera o verano",
+      "usado_en": [
+        "pilea-cadierei",
+        "pilea-moon-valley"
+      ]
+    },
+    {
+      "org": "Penn State Extension",
+      "titulo": "Pilea as a Houseplant",
+      "url": "https://extension.psu.edu/pilea-as-a-houseplant",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz indirecta, riego, sustrato, temperatura, manchas por humedad, identidad dudosa de 'Moon Valley'",
+      "usado_en": [
+        "pilea-cadierei",
+        "pilea-moon-valley"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Aluminum Plant (Pilea cadieri)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/aluminum-plant",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Pilea cadieri no tóxica para gatos ni perros",
+      "usado_en": [
+        "pilea-cadierei"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Pilea involucrata 'Moon Valley'",
+      "url": "https://www.rhs.org.uk/plants/49384/pilea-involucrata-moon-valley/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Cultivar: hoja, tamaño, humedad alta, drenaje, división o rosetas en primavera",
+      "usado_en": [
+        "pilea-moon-valley"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Pilea involucrata",
+      "url": "https://plants.ces.ncsu.edu/plants/pilea-involucrata/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Cultivar 'Moon Valley', tamaño, luz, riego, humedad, sustrato, esquejes, pellizcado, no tóxica",
+      "usado_en": [
+        "pilea-moon-valley"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Friendship Plant (Pilea involucrata)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/friendship-plant",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Pilea involucrata no tóxica para gatos ni perros",
+      "usado_en": [
+        "pilea-moon-valley"
+      ]
+    }
+  ],
+  "revisar": [
+    {
+      "id": "maranta-erythroneura",
+      "dato": "toxicidad",
+      "motivo": "No verificada: ASPCA usa el nombre Calathea insignis en sus páginas de Maranta y NC State no informa.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/maranta-leuconeura/"
+      ]
+    },
+    {
+      "id": "maranta-kerchoveana",
+      "dato": "toxicidad",
+      "motivo": "No verificada, mismo motivo.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/maranta-leuconeura/"
+      ]
+    },
+    {
+      "id": "maranta-kerchoveana",
+      "dato": "propagacion.meses",
+      "motivo": "Sin época para la variedad: meses vacíos.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/91332/maranta-leuconeura-var-kerchoveana/details",
+        "https://plants.ces.ncsu.edu/plants/maranta-leuconeura/"
+      ]
+    },
+    {
+      "id": "pilea-cadierei",
+      "dato": "toxicidad",
+      "motivo": "ASPCA no tóxica; NC State tiene etiquetas contradictorias.",
+      "fuentes": [
+        "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/aluminum-plant",
+        "https://plants.ces.ncsu.edu/plants/pilea-cadierei/"
+      ]
+    },
+    {
+      "id": "pilea-cadierei",
+      "dato": "humedad",
+      "motivo": "Fuentes entre aire de casa y humedad alta.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/pilea/how-to-grow-pilea",
+        "https://www.rhs.org.uk/plants/13012/pilea-cadierei/details",
+        "https://plants.ces.ncsu.edu/plants/pilea-cadierei/"
+      ]
+    },
+    {
+      "id": "pilea-moon-valley",
+      "dato": "identidad y cuidados",
+      "motivo": "P. involucrata o P. mollis sin resolver; cuidados de la especie.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/49384/pilea-involucrata-moon-valley/details",
+        "https://extension.psu.edu/pilea-as-a-houseplant",
+        "https://plants.ces.ncsu.edu/plants/pilea-involucrata/"
+      ]
+    },
+    {
+      "id": "calatea-lancifolia",
+      "dato": "otros_nombres",
+      "motivo": "'Serpiente de cascabel' sin fuente argentina.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/goeppertia-insignis/",
+        "https://www.rhs.org.uk/plants/386634/goeppertia-insignis/details"
+      ]
+    },
+    {
+      "id": "pilea-cadierei",
+      "dato": "otros_nombres",
+      "motivo": "'Planta de aluminio' sin fuente argentina.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/pilea-cadierei/"
+      ]
+    }
+  ],
+  "no_pude_abrir": [
+    "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=249588&isprofile=0 (conexión rechazada)",
+    "https://missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=273889 (conexión rechazada)",
+    "https://ask.ifas.ufl.edu/publication/FP478 (demasiadas redirecciones)",
+    "https://ask.ifas.ufl.edu/publication/EP285 (demasiadas redirecciones)",
+    "https://plants.ces.ncsu.edu/plants/pilea-mollis/ (404)"
+  ]
+}

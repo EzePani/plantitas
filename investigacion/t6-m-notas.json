@@ -1,0 +1,378 @@
+{
+  "fuentes": [
+    {
+      "org": "RHS",
+      "titulo": "Alocasia growing guide",
+      "url": "https://www.rhs.org.uk/plants/alocasia/growing-guide",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz filtrada, riego (secar 5 cm, mínimo en invierno), humedad media-alta, sustrato 3:1 con grava, temperaturas, sin poda, hijuelos y división del rizoma, savia irritante",
+      "usado_en": [
+        "alocasia-black-velvet",
+        "alocasia-zebrina"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Alocasia (género)",
+      "url": "https://plants.ces.ncsu.edu/plants/alocasia/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego menor en invierno, sustrato, división de hijuelos, toxicidad (media, gatos y perros), A. reginula hasta 45 cm y A. zebrina hasta 90 cm",
+      "usado_en": [
+        "alocasia-black-velvet",
+        "alocasia-zebrina"
+      ]
+    },
+    {
+      "org": "University of Illinois Extension",
+      "titulo": "Alocasia",
+      "url": "https://extension.illinois.edu/plants/alocasia",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Media sombra, tierra húmeda con buen drenaje, ambiente cálido y húmedo (guía general, pensada para jardín)",
+      "usado_en": [
+        "alocasia-black-velvet",
+        "alocasia-zebrina"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Alocasia zebrina",
+      "url": "https://www.rhs.org.uk/plants/136827/alocasia-zebrina/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz indirecta brillante adentro, riego, sustrato, humedad, mínimo 15 °C, tamaño, propagación, sin poda, tóxica para mascotas",
+      "usado_en": [
+        "alocasia-zebrina"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Alocasia (Elephant's Ear)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/alocasia",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Alocasia spp. tóxica para perros y gatos; oxalatos y síntomas",
+      "usado_en": [
+        "alocasia-black-velvet",
+        "alocasia-zebrina"
+      ]
+    },
+    {
+      "org": "Pet Poison Helpline",
+      "titulo": "Alocasia",
+      "url": "https://www.petpoisonhelpline.com/poison/alocasia/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Cristales de oxalato: irritación y dolor en labios, boca y garganta de mascotas",
+      "usado_en": [
+        "alocasia-black-velvet",
+        "alocasia-zebrina"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Ficus lyrata",
+      "url": "https://plants.ces.ncsu.edu/plants/ficus-lyrata/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Cultivar 'Bambino' enano, luz, riego, humedad media, sustrato, poda, esquejes, toxicidad baja; Ficus pandurata como nombre anterior",
+      "usado_en": [
+        "ficus-lyrata-bambino"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Ficus lyrata 'Bambino'",
+      "url": "https://www.rhs.org.uk/plants/147427/ficus-lyrata-bambino/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Porte compacto 1 a 1,5 m, riego, humedad, sustrato, mínimo 10-15 °C, esquejes, sin poda, alergia en la piel",
+      "usado_en": [
+        "ficus-lyrata-bambino"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow ornamental figs (RHS Growing Guide)",
+      "url": "https://www.rhs.org.uk/plants/popular/ornamental-figs/growing-guide",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego por estación, humedad, sustrato, temperatura, época de poda y de esquejes (guía de higueras ornamentales)",
+      "usado_en": [
+        "ficus-lyrata-bambino"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Is That Houseplant Safe for Your Pets?",
+      "url": "https://www.aspca.org/news/houseplant-safe-your-pets",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Ficus lyrata levemente tóxico para perros y gatos; vómitos, diarrea, savia irritante",
+      "usado_en": [
+        "ficus-lyrata-bambino"
+      ]
+    },
+    {
+      "org": "Pet Poison Helpline",
+      "titulo": "Ficus",
+      "url": "https://www.petpoisonhelpline.com/poison/ficus/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Género Ficus: savia irritante, babeo, vómitos, diarrea, irritación de piel",
+      "usado_en": [
+        "ficus-lyrata-bambino"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Anthurium clarinervium",
+      "url": "https://www.rhs.org.uk/plants/84264/anthurium-clarinervium/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Epífita de México, 25-30 cm, luz, riego, sustrato, humedad, mínimo 18 °C en invierno, propagación, poda, irritante",
+      "usado_en": [
+        "anturio-clarinervium"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow anthuriums",
+      "url": "https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Género: luz, temperatura, humedad, riego cuando está casi seco, sustrato, división y esquejes en agua",
+      "usado_en": [
+        "anturio-clarinervium",
+        "anturio-scherzerianum"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Anthurium (género)",
+      "url": "https://plants.ces.ncsu.edu/plants/anthurium/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Género, menciona A. clarinervium y A. scherzerianum: luz, riego, humedad, temperatura, toxicidad baja (perros y gatos)",
+      "usado_en": [
+        "anturio-clarinervium"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "These Houseplants Can Cause Trouble for Your Pets",
+      "url": "https://www.aspca.org/news/these-houseplants-can-cause-trouble-your-pets",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Anthurium spp.: oxalatos de calcio, síntomas en mascotas, rara vez hinchazón de garganta",
+      "usado_en": [
+        "anturio-clarinervium",
+        "anturio-scherzerianum"
+      ]
+    },
+    {
+      "org": "Pet Poison Helpline",
+      "titulo": "Anthurium",
+      "url": "https://www.petpoisonhelpline.com/poison/anthurium/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Género Anthurium: irritación y dolor en labios, boca y garganta de mascotas",
+      "usado_en": [
+        "anturio-clarinervium",
+        "anturio-scherzerianum"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Anthurium scherzerianum",
+      "url": "https://www.rhs.org.uk/plants/1360/anthurium-scherzerianum/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, sustrato ácido, riego, humedad, mínimo 18 °C en invierno, tamaño, propagación, poda, irritante",
+      "usado_en": [
+        "anturio-scherzerianum"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Anthurium scherzerianum",
+      "url": "https://plants.ces.ncsu.edu/plants/anthurium-scherzerianum/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, sustrato, tamaño, floración, esquejes, toxicidad baja para perros y gatos",
+      "usado_en": [
+        "anturio-scherzerianum"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Flamingo Flower",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/flamingo-flower",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Anthurium scherzeranum tóxica para perros y gatos; oxalatos y síntomas",
+      "usado_en": [
+        "anturio-scherzerianum"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Peperomia caperata",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia-caperata/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, humedad, sustrato, tamaño, esquejes de hoja y punta, no tóxica",
+      "usado_en": [
+        "peperomia-caperata"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Peperomia caperata",
+      "url": "https://www.rhs.org.uk/plants/12494/peperomia-caperata/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego por estación, humedad, mínimo 10-15 °C, tamaño, esquejes de hoja, sin poda",
+      "usado_en": [
+        "peperomia-caperata"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow peperomia",
+      "url": "https://www.rhs.org.uk/plants/peperomia/how-to-grow-peperomia",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Género (incluye P. caperata): luz, temperatura, riego, humedad, sustrato, esquejes en agua o tierra, recorte",
+      "usado_en": [
+        "peperomia-caperata"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Peperomia (Peperomia spp.) indoor plant care and growing guide",
+      "url": "https://hgic.clemson.edu/factsheet/peperomia-peperomia-spp-indoor-plant-care-and-growing-guide/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, sustrato, propagación en agua y tierra, recorte (menciona P. caperata)",
+      "usado_en": [
+        "peperomia-caperata"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Emerald Ripple Peperomia",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/emerald-ripple-peperomia",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Peperomia caperata no tóxica para perros ni gatos",
+      "usado_en": [
+        "peperomia-caperata"
+      ]
+    },
+    {
+      "org": "Wikipedia",
+      "titulo": "Alocasia reginula",
+      "url": "https://en.wikipedia.org/wiki/Alocasia_reginula",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Solo identidad ('Black Velvet' es la especie, no un híbrido) y necesidad de buen drenaje",
+      "usado_en": [
+        "alocasia-black-velvet"
+      ]
+    },
+    {
+      "org": "El Espectador",
+      "titulo": "Cinco variedades de anturios",
+      "url": "https://www.elespectador.com/la-huerta/cinco-variedades-de-anturios-la-planta-nativa-que-debe-tener-en-su-casa/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Solo el nombre 'planta cola de cerdo'",
+      "usado_en": [
+        "anturio-scherzerianum"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Tail Flower",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/tail-flower",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Otra ficha de ASPCA que también corresponde a A. scherzeranum (no se citó en la ficha)",
+      "usado_en": []
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Green Ripple Peperomia",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/green-ripple-peperomia",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Confirma que P. caperata no es tóxica (no se citó en la ficha)",
+      "usado_en": []
+    },
+    {
+      "org": "WCVP (Royal Botanic Gardens, Kew) vía GBIF",
+      "titulo": "Búsqueda Ficus pandurata",
+      "url": "https://api.gbif.org/v1/species/search?q=Ficus%20pandurata&datasetKey=f382f0ce-323a-4091-bb9f-add557f3a9a2&limit=10",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Ficus pandurata Hance es especie aceptada; Ficus pandurata Sander es sinónimo de Ficus lyrata Warb.",
+      "usado_en": []
+    }
+  ],
+  "revisar": [
+    {
+      "id": "alocasia-black-velvet",
+      "dato": "riego, luz, humedad, sustrato",
+      "motivo": "Sin guía de cuidados de la especie: datos del género; riego con fuentes en conflicto (confianza baja).",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/alocasia/growing-guide",
+        "https://plants.ces.ncsu.edu/plants/alocasia/",
+        "https://extension.illinois.edu/plants/alocasia"
+      ]
+    },
+    {
+      "id": "alocasia-black-velvet",
+      "dato": "toxicidad",
+      "motivo": "ASPCA y Pet Poison Helpline cubren el género; confianza media.",
+      "fuentes": [
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/alocasia",
+        "https://www.petpoisonhelpline.com/poison/alocasia/"
+      ]
+    },
+    {
+      "id": "alocasia-zebrina",
+      "dato": "riego",
+      "motivo": "Fuentes con matices (abundante, húmedo o dejar secar).",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/136827/alocasia-zebrina/details",
+        "https://www.rhs.org.uk/plants/alocasia/growing-guide"
+      ]
+    },
+    {
+      "id": "ficus-lyrata-bambino",
+      "dato": "toxicidad y sol",
+      "motivo": "Datos de la especie o del género; discrepancia sobre sol directo.",
+      "fuentes": [
+        "https://www.aspca.org/news/houseplant-safe-your-pets",
+        "https://www.rhs.org.uk/plants/147427/ficus-lyrata-bambino/details"
+      ]
+    },
+    {
+      "id": "anturio-clarinervium",
+      "dato": "toxicidad",
+      "motivo": "Sin ficha ASPCA de la especie: respaldo del género.",
+      "fuentes": [
+        "https://www.aspca.org/news/these-houseplants-can-cause-trouble-your-pets",
+        "https://plants.ces.ncsu.edu/plants/anthurium/",
+        "https://www.petpoisonhelpline.com/poison/anthurium/"
+      ]
+    },
+    {
+      "id": "anturio-scherzerianum",
+      "dato": "nombre_comun",
+      "motivo": "No hay fuente para 'cola de chancho'; 'planta cola de cerdo' solo en un diario colombiano.",
+      "fuentes": []
+    },
+    {
+      "id": "ficus-lyrata-bambino",
+      "dato": "fotos",
+      "motivo": "Sin foto: en Commons solo hay un collage de una hoja abriéndose (File:Ficus lyrata Bambino leaf unfurling.jpg), no sirve como principal.",
+      "fuentes": []
+    },
+    {
+      "id": "peperomia-caperata",
+      "dato": "fotos",
+      "motivo": "Las tres son P. caperata según Commons, pero de cultivares distintos (verde y plateados/rojizos).",
+      "fuentes": []
+    },
+    {
+      "id": "ficus-lyrata",
+      "dato": "otros_nombres",
+      "motivo": "La entrada existente usa 'Ficus pandurata': es sinónimo solo en el sentido de Sander; Ficus pandurata Hance es otra especie (revisar si conviene dejarlo).",
+      "fuentes": []
+    }
+  ],
+  "no_pude_abrir": [
+    "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:853368-1 (403)",
+    "https://list.worldfloraonline.org/wfo-0000689628 (conexión rechazada)",
+    "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200006359 (403)",
+    "https://plants.ces.ncsu.edu/plants/alocasia-reginula/ (404)",
+    "https://plants.ces.ncsu.edu/plants/alocasia-zebrina/ (404)",
+    "https://plants.ces.ncsu.edu/plants/anthurium-clarinervium/ (404)",
+    "https://www.nparks.gov.sg/florafaunaweb/flora/6/7/6702 (404)"
+  ]
+}

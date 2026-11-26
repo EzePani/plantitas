@@ -1,0 +1,326 @@
+{
+  "palmito": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: sacá solo las hojas totalmente secas, con guantes por las espinas."
+    },
+    "propagacion": {
+      "metodos": [
+        "division",
+        "semilla"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "Suele largar hijitos en la base: en primavera se pueden separar con sus raíces y plantar aparte. De semilla también se puede, con mucha paciencia."
+    },
+    "fuentes": [
+      {
+        "titulo": "Chamaerops humilis",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/chamaerops-humilis/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Chamaerops humilis (dwarf fan palm)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/3695/i-Chamaerops-humilis-i/Details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Palms: hardy",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/types/trees/hardy-palms",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to Propagate Houseplants by Division and Offsets",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/how-propagate-houseplants-division-and-offsets",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Iowa State dice que lo ideal para dividir plantas de interior es el principio de la primavera (no es específico de esta palmera): se pasó a septiembre a noviembre."
+    ]
+  },
+  "palmera-excelsa": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: si querés, sacá solo las hojas totalmente secas, sin cortar las verdes."
+    },
+    "propagacion": {
+      "metodos": [
+        "semilla"
+      ],
+      "en_agua": false,
+      "meses": [],
+      "detalle": "Se multiplica sobre todo por semilla, que tarda en germinar. Las fuentes no dan una época precisa."
+    },
+    "fuentes": [
+      {
+        "titulo": "Trachycarpus fortunei",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/trachycarpus-fortunei/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Trachycarpus fortunei (Chusan palm)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/18291/i-trachycarpus-fortunei-i/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Palms: hardy",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/types/trees/hardy-palms",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Windmill Palm",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/trees-and-shrubs/palms-and-cycads/windmill-palm/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Palms",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/palms/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "La época de plantación al aire libre de las fuentes no se usó como época de propagación: se dejaron los meses vacíos."
+    ]
+  },
+  "palo-de-agua-massangeana": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "No necesita poda; si queda débil o muy alta, cortá el tallo en primavera a la altura que quieras: rebrota cerca del corte."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_tierra",
+        "acodo"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "En primavera o verano, plantá un tramo de tallo o la punta en sustrato, en un lugar cálido. En plantas altas también sirve el acodo aéreo."
+    },
+    "fuentes": [
+      {
+        "titulo": "Dracaena fragrans 'Massangeana' (v)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/79003/dracaena-fragrans-massangeana-v/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Dracaena (HGIC 1504)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow dracaena (RHS Growing Guide)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/dracaena/how-to-grow-dracaena",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS: poda y esquejes en primavera; guía RHS: esquejes en verano; Clemson: primavera o fines del verano. Se pasó a septiembre a febrero."
+    ]
+  },
+  "dracena-lemon-lime": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "No necesita poda; si queda débil o muy alta, podés cortarla en primavera para que rebrote."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_tierra",
+        "acodo"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "En primavera, plantá un esqueje o un tramo de tallo sin hojas en sustrato, con calorcito. También se puede hacer un acodo aéreo."
+    },
+    "fuentes": [
+      {
+        "titulo": "Dracaena fragrans (Deremensis Group) 'Lemon Lime' (v)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/119080/dracaena-fragrans-deremensis-group-lemon-lime-v/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Dracaena (HGIC 1504)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Cultural Guidelines for Commercial Production of Interiorscape Dracaena",
+        "org": "UF/IFAS Extension (EDIS ENH892)",
+        "url": "https://ask.ifas.ufl.edu/publication/EP149/pdf",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS: esquejes y recorte en primavera: se pasó a septiembre a noviembre."
+    ]
+  },
+  "dracena-janet-craig": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda; si querés bajarla o que se vea más tupida, podés cortar los tallos."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_tierra",
+        "acodo"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11,
+        2
+      ],
+      "detalle": "En primavera o a fines del verano, plantá la punta o un tramo de tallo sin hojas en sustrato, con calorcito. También sirve el acodo aéreo."
+    },
+    "fuentes": [
+      {
+        "titulo": "Dracaena fragrans 'Janet Craig'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/58174/dracaena-fragrans-janet-craig/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Dracaena (HGIC 1504)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Cultural Guidelines for Commercial Production of Interiorscape Dracaena",
+        "org": "UF/IFAS Extension (EDIS ENH892)",
+        "url": "https://ask.ifas.ufl.edu/publication/EP149/pdf",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Clemson: propagar en primavera o a fines del verano: se pasó a septiembre a noviembre y febrero."
+    ]
+  },
+  "dracena-compacta": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo sacá las hojas secas."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_tierra",
+        "acodo"
+      ],
+      "en_agua": false,
+      "meses": [
+        11,
+        12
+      ],
+      "detalle": "A fines de la primavera o principios del verano, plantá un esqueje de tallo algo maduro en sustrato, con calorcito."
+    },
+    "fuentes": [
+      {
+        "titulo": "Dracaena fragrans (Compacta Group) 'Compacta'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/73332/dracaena-fragrans-compacta-group-compacta/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Dracaena (HGIC 1504)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Cultural Guidelines for Commercial Production of Interiorscape Dracaena",
+        "org": "UF/IFAS Extension (EDIS ENH892)",
+        "url": "https://ask.ifas.ufl.edu/publication/EP149/pdf",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS: esquejes a fines de la primavera y principios del verano: se pasó a noviembre y diciembre."
+    ]
+  }
+}

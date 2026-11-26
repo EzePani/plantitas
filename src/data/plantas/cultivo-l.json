@@ -1,0 +1,266 @@
+{
+  "helecho-azul": {
+    "porte": [
+      "colgante",
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: cortá desde la base las frondes amarillas, secas o dañadas."
+    },
+    "propagacion": {
+      "metodos": [
+        "division"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "En primavera, cuando la maceta quede chica, dividí el rizoma en partes y plantá cada una sin enterrar los rizomas; mantenelas apenas húmedas hasta que arranquen."
+    },
+    "fuentes": [
+      {
+        "titulo": "Phlebodium aureum",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/12689/phlebodium-aureum/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Phlebodium aureum 'Blue Star'",
+        "org": "RHS",
+        "url": "https://rhs.org.uk/plants/325017/phlebodium-aureum-blue-star/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Phlebodium aureum",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/phlebodium-aureum/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow epiphytic ferns",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/epiphytic-ferns/how-to-grow-epiphytic-ferns",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Indoor Ferns (HGIC 1505)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS (primavera) y Clemson (inicio de primavera) dan la división en primavera del norte: se pasó a septiembre a noviembre."
+    ]
+  },
+  "potus-marble-queen": {
+    "porte": [
+      "trepadora",
+      "colgante"
+    ],
+    "tutor": {
+      "recomendado": "opcional",
+      "detalle": "Puede colgar libre o trepar: con un tutor de musgo o fibra de coco apenas húmedo se agarra con sus raíces aéreas."
+    },
+    "poda": {
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "En primavera recortá las guías largas justo por encima de una hoja para que ramifique; usá guantes porque la savia irrita."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_agua",
+        "esqueje_tierra",
+        "acodo"
+      ],
+      "en_agua": true,
+      "meses": [
+        12,
+        1,
+        2
+      ],
+      "detalle": "Cortá un tramo de guía con al menos un nudo y una hoja y ponelo en agua o en sustrato húmedo, con luz brillante sin sol directo: en agua saca raíces en unas semanas."
+    },
+    "fuentes": [
+      {
+        "titulo": "Scindapsus aureus 'Marble Queen'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/225572/scindapsus-aureus-marble-queen/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow epipremnum (RHS Growing Guide)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/epipremnum/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to Grow Pothos Indoors",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/how-to-grow-pothos-indoors-epipremnum-spp-care-cultivars-and-common-problems/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Pothos as a Houseplant",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/pothos-as-a-houseplant",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Pothos, Epipremnum aureum",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS poda las puntas en primavera: se pasó a septiembre a noviembre.",
+      "RHS da los esquejes en verano (Penn State, de primavera a verano): se tomó la época en la que coinciden, diciembre a febrero."
+    ]
+  },
+  "potus-neon": {
+    "porte": [
+      "trepadora",
+      "colgante"
+    ],
+    "tutor": {
+      "recomendado": "opcional",
+      "detalle": "Puede colgar libre o trepar: con un tutor de musgo o fibra de coco apenas húmedo se agarra con sus raíces aéreas."
+    },
+    "poda": {
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "En primavera recortá las guías largas justo por encima de una hoja para que ramifique; usá guantes porque la savia irrita."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_agua",
+        "esqueje_tierra",
+        "acodo"
+      ],
+      "en_agua": true,
+      "meses": [
+        12,
+        1,
+        2
+      ],
+      "detalle": "Cortá un tramo de guía con al menos un nudo y una hoja y ponelo en agua o en sustrato húmedo, con luz brillante sin sol directo: en agua saca raíces en unas semanas."
+    },
+    "fuentes": [
+      {
+        "titulo": "Epipremnum aureum 'Neon'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/381890/epipremnum-aureum-neon/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow epipremnum (RHS Growing Guide)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/epipremnum/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to Grow Pothos Indoors",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/how-to-grow-pothos-indoors-epipremnum-spp-care-cultivars-and-common-problems/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Pothos as a Houseplant",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/pothos-as-a-houseplant",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Pothos, Epipremnum aureum",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS poda las puntas en primavera: se pasó a septiembre a noviembre.",
+      "RHS da los esquejes en verano (Penn State, de primavera a verano): se tomó la época en la que coinciden, diciembre a febrero."
+    ]
+  },
+  "potus-njoy": {
+    "porte": [
+      "trepadora",
+      "colgante"
+    ],
+    "tutor": {
+      "recomendado": "opcional",
+      "detalle": "Puede colgar libre o trepar: con un tutor de musgo o fibra de coco apenas húmedo se agarra con sus raíces aéreas."
+    },
+    "poda": {
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "En primavera recortá las guías largas justo por encima de una hoja para que ramifique; usá guantes porque la savia irrita."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_agua",
+        "esqueje_tierra",
+        "acodo"
+      ],
+      "en_agua": true,
+      "meses": [
+        12,
+        1,
+        2
+      ],
+      "detalle": "Cortá un tramo de guía con al menos un nudo y una hoja y ponelo en agua o en sustrato húmedo, con luz brillante sin sol directo: en agua saca raíces en unas semanas."
+    },
+    "fuentes": [
+      {
+        "titulo": "Epipremnum [N'Joy] ('Hansoti12')",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/361702/epipremnum-n-joy-(-hansoti12-pbr)-(v)/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow epipremnum (RHS Growing Guide)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/epipremnum/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Epipremnum aureum (Pothos)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Pothos as a Houseplant",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/pothos-as-a-houseplant",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "RHS poda las puntas en primavera: se pasó a septiembre a noviembre.",
+      "RHS da los esquejes en verano (Penn State, de primavera a verano): se tomó la época en la que coinciden, diciembre a febrero.",
+      "Casi todo el cultivo se apoya en la especie; la poda y los esquejes de verano también figuran en la ficha RHS del cultivar."
+    ]
+  }
+}

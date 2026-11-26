@@ -1,0 +1,967 @@
+[
+  {
+    "id": "helecho-azul",
+    "nombre_comun": "Helecho azul",
+    "otros_nombres": [
+      "Phlebodium",
+      "Helecho estrella",
+      "Helecho Blue Star"
+    ],
+    "nombre_cientifico": "Phlebodium aureum",
+    "familia": "Polypodiaceae",
+    "grupo": "amiga_humedad",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Prefiere luz brillante y filtrada, sin sol directo que le quema las frondes. Lleva la luz media mejor que muchos helechos.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá a fondo apenas los primeros centímetros de sustrato empiecen a secarse, sin dejar que se seque del todo ni que quede agua en el plato.",
+      "invierno": "Regá menos: dejá el sustrato apenas húmedo y revisalo con el dedo antes de volver a mojarlo.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Le gusta el aire húmedo. Con la calefacción, apoyala en un plato con piedritas y agua (sin que la maceta toque el agua), agrupala con otras plantas o usá un humidificador; un baño luminoso le queda muy bien.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato aireado y rico en materia orgánica, apenas ácido, que drene rápido; por ejemplo una mezcla para plantas de interior con perlita y corteza de orquídeas.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 3,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Es un helecho sensible al frío: puede pasar los meses cálidos en un balcón sombreado y reparado, pero en Buenos Aires conviene entrarlo antes de que las noches bajen de unos 10 °C."
+    },
+    "tamano": "mediana",
+    "dificultad": "media",
+    "tip": "Sus rizomas peludos van por la superficie: no los entierres, y regá apenas el sustrato empiece a secarse.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "colgante",
+        "roseta"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: cortá desde la base las frondes amarillas, secas o dañadas."
+      },
+      "propagacion": {
+        "metodos": [
+          "division"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11
+        ],
+        "detalle": "En primavera, cuando la maceta quede chica, dividí el rizoma en partes y plantá cada una sin enterrar los rizomas; mantenelas apenas húmedas hasta que arranquen."
+      },
+      "fuentes": [
+        {
+          "titulo": "Phlebodium aureum",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/12689/phlebodium-aureum/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Phlebodium aureum 'Blue Star'",
+          "org": "RHS",
+          "url": "https://rhs.org.uk/plants/325017/phlebodium-aureum-blue-star/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Phlebodium aureum",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/phlebodium-aureum/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "How to grow epiphytic ferns",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/epiphytic-ferns/how-to-grow-epiphytic-ferns",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Indoor Ferns (HGIC 1505)",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "RHS (primavera) y Clemson (inicio de primavera) dan la división en primavera del norte: se pasó a septiembre a noviembre."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "no_verificada",
+      "toxicidad_perro": "no_verificada",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "No encontramos una fuente veterinaria que diga si es segura para gatos y perros, así que dejalo fuera de su alcance y, si lo muerden y los notás mal, consultá con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "baja",
+      "fuentes_toxicidad": []
+    },
+    "fuentes": [
+      {
+        "titulo": "Phlebodium aureum",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/phlebodium-aureum/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Phlebodium aureum",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/12689/phlebodium-aureum/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Phlebodium aureum 'Blue Star'",
+        "org": "RHS",
+        "url": "https://rhs.org.uk/plants/325017/phlebodium-aureum-blue-star/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Care tips for low-light tolerant houseplants",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/shows-events/rhs-urban-show/houseplant-profiles/houseplants-for-shade",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow epiphytic ferns",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/epiphytic-ferns/how-to-grow-epiphytic-ferns",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Indoor Ferns (HGIC 1505)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Estaciones convertidas: época de crecimiento (primavera y verano) de septiembre a febrero; invierno de junio a agosto.",
+      "Clemson desaconseja el sol de las ventanas sur u oeste (hemisferio norte): en Buenos Aires equivale a evitar el sol directo de las ventanas norte y oeste.",
+      "Temperaturas pasadas de °F a °C cuando hizo falta. Las fuentes lo dan como planta tierna (RHS H1B, mínimo 10 a 15 °C): se tradujo a entrarlo antes de las noches frías.",
+      "Altura: NC State da 60 a 120 cm y RHS 50 a 100 cm al aire libre o a plena madurez; en maceta se la clasificó como 'mediana'."
+    ],
+    "discrepancias": [
+      "Nombre y cultivar: en viveros suele venderse como helecho azul el cultivar 'Blue Star' (RHS lo describe como un helecho rastrero de frondes azul verdosas). NC State, en cambio, usa 'Blue Star Fern' como nombre común de toda la especie. Esta ficha vale para la especie y para 'Blue Star'.",
+      "Luz: NC State admite 2 a 6 horas de sol parcial y sombra profunda, y la ficha RHS de 'Blue Star' permite pleno sol afuera en zonas sin heladas; RHS (especie y guías) y Clemson piden luz filtrada sin sol directo. Se tomó 0 horas y no se incluyó 'baja' como tolerada.",
+      "Riego: NC State dice que aguanta secarse entre riegos y las guías de RHS riegan cuando se empieza a secar; Clemson pide no dejarlo secar nunca. Se tomó regar cuando empieza a secarse, sin que se seque del todo.",
+      "Humedad: NC State dice media a alta; RHS pide alta. Se dejó 'alta' por ser lo más cuidadoso.",
+      "Sustrato: la ficha de especie de RHS indica franco y pH neutro; NC State y la guía de epífitas de RHS piden mezcla suelta y ácida. Se tomó apenas ácida y aireada.",
+      "Mascotas: ASPCA lista como no tóxico al 'rabbit's foot fern', pero es Davallia, otro género; no se encontró ficha de Phlebodium ni de Polypodium, y NC State y RHS no informan toxicidad."
+    ]
+  },
+  {
+    "id": "helecho-azul-mandaianum",
+    "nombre_comun": "Helecho azul 'Mandaianum'",
+    "otros_nombres": [
+      "Mandaianum"
+    ],
+    "nombre_cientifico": "Phlebodium aureum 'Mandaianum'",
+    "familia": "Polypodiaceae",
+    "grupo": "amiga_humedad",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Como el helecho azul común: luz brillante y filtrada, sin sol directo. Aguanta luz media.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá a fondo apenas los primeros centímetros de sustrato empiecen a secarse, sin dejar que se seque del todo ni que quede agua en el plato.",
+      "invierno": "Regá menos: dejá el sustrato apenas húmedo y revisalo con el dedo antes de volver a mojarlo.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Le gusta el aire húmedo. Con la calefacción, apoyala en un plato con piedritas y agua (sin que la maceta toque el agua), agrupala con otras plantas o usá un humidificador; un baño luminoso le queda muy bien.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato aireado y rico en materia orgánica, apenas ácido, que drene rápido; por ejemplo una mezcla para plantas de interior con perlita y corteza de orquídeas.",
+      "confianza": "media"
+    },
+    "tolerancia_descuido": 3,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Es un helecho sensible al frío: puede pasar los meses cálidos en un balcón sombreado y reparado, pero en Buenos Aires conviene entrarlo antes de que las noches bajen de unos 10 °C."
+    },
+    "tamano": "mediana",
+    "dificultad": "media",
+    "tip": "Sus frondes azuladas de bordes retorcidos se lucen con luz filtrada; movelo con cuidado, que las frondes son delicadas al roce.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "colgante",
+        "roseta"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: cortá desde la base las frondes amarillas, secas o dañadas."
+      },
+      "propagacion": {
+        "metodos": [
+          "division"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11
+        ],
+        "detalle": "En primavera, cuando la maceta quede chica, dividí el rizoma en partes y plantá cada una sin enterrar los rizomas; mantenelas apenas húmedas hasta que arranquen."
+      },
+      "fuentes": [
+        {
+          "titulo": "Phlebodium aureum",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/12689/phlebodium-aureum/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Phlebodium aureum",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/phlebodium-aureum/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "How to grow epiphytic ferns",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/epiphytic-ferns/how-to-grow-epiphytic-ferns",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Indoor Ferns (HGIC 1505)",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "media",
+      "adaptaciones": [
+        "Clemson (inicio de primavera) y RHS dan la división y el trasplante en primavera del norte: se pasó a septiembre a noviembre.",
+        "Poda y propagación tomadas de la especie: no hay datos propios de 'Mandaianum'."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "no_verificada",
+      "toxicidad_perro": "no_verificada",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "No encontramos una fuente veterinaria que diga si es segura para gatos y perros, así que dejalo fuera de su alcance y, si lo muerden y los notás mal, consultá con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "baja",
+      "fuentes_toxicidad": []
+    },
+    "fuentes": [
+      {
+        "titulo": "Indoor Ferns (HGIC 1505)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Ground Covers for Warm Climates (Research Extension Series 052)",
+        "org": "University of Hawaii (CTAHR)",
+        "url": "https://www3.ctahr.hawaii.edu/oc/freepubs/pdf/RES-052.pdf",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Phlebodium aureum",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/phlebodium-aureum/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Phlebodium aureum",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/12689/phlebodium-aureum/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow epiphytic ferns",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/epiphytic-ferns/how-to-grow-epiphytic-ferns",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Phlebodium aureum 'Mandaianum'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/255306/phlebodium-aureum-mandaianum/details",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: época de crecimiento (primavera y verano) de septiembre a febrero; invierno de junio a agosto.",
+      "Clemson desaconseja el sol de las ventanas sur u oeste (hemisferio norte): en Buenos Aires equivale a evitar el sol directo de las ventanas norte y oeste.",
+      "Temperaturas pasadas de °F a °C cuando hizo falta. Las fuentes lo dan como planta tierna (RHS H1B, mínimo 10 a 15 °C): se tradujo a entrarlo antes de las noches frías."
+    ],
+    "discrepancias": [
+      "Cuidados tomados de la especie: Clemson describe a 'Mandaianum' (como Polypodium aureum, frondes verde azuladas de bordes retorcidos y dentados) dentro de su ficha de helechos de interior, y la Universidad de Hawái lo cita como 'helecho azul' de márgenes muy recortados; no hay cuidados propios del cultivar.",
+      "Rusticidad: RHS le asigna H3 (hasta unos -5 a 1 °C) al cultivar y H1B (mínimo 10 a 15 °C) a la especie. Se tomó lo más cuidadoso.",
+      "Nombres: ninguna fuente institucional abierta dice que 'Mandaianum' y 'Blue Star' sean la misma planta, por eso se mantienen separados.",
+      "Luz: NC State admite 2 a 6 horas de sol parcial y sombra profunda, y la ficha RHS de 'Blue Star' permite pleno sol afuera en zonas sin heladas; RHS (especie y guías) y Clemson piden luz filtrada sin sol directo. Se tomó 0 horas y no se incluyó 'baja' como tolerada.",
+      "Riego: NC State dice que aguanta secarse entre riegos y las guías de RHS riegan cuando se empieza a secar; Clemson pide no dejarlo secar nunca. Se tomó regar cuando empieza a secarse, sin que se seque del todo.",
+      "Humedad: NC State dice media a alta; RHS pide alta. Se dejó 'alta' por ser lo más cuidadoso.",
+      "Sustrato: la ficha de especie de RHS indica franco y pH neutro; NC State y la guía de epífitas de RHS piden mezcla suelta y ácida. Se tomó apenas ácida y aireada.",
+      "Mascotas: ASPCA lista como no tóxico al 'rabbit's foot fern', pero es Davallia, otro género; no se encontró ficha de Phlebodium ni de Polypodium, y NC State y RHS no informan toxicidad."
+    ]
+  },
+  {
+    "id": "potus-marble-queen",
+    "nombre_comun": "Potus 'Marble Queen'",
+    "otros_nombres": [
+      "Marble Queen"
+    ],
+    "nombre_cientifico": "Epipremnum aureum 'Marble Queen'",
+    "familia": "Araceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Necesita luz brillante y filtrada, más que otros potus, para conservar el jaspeado blanco. Evitá el sol directo, que puede quemar las partes claras.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá a fondo cuando el sustrato esté casi seco y no dejes agua en el plato.",
+      "invierno": "Regá menos seguido: esperá a que la tierra se seque bien antes de volver a regar.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Se adapta al aire de casa y agradece algo más de humedad. Si el ambiente está muy seco, ayuda un humidificador o un plato con piedritas y agua debajo de la maceta.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato suelto y aireado, que drene bien, en maceta con agujeros.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 4,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "No aguanta el frío ni las heladas: puede salir al balcón en los meses cálidos, a la sombra, y volver adentro antes de los primeros fríos."
+    },
+    "tamano": "mediana",
+    "dificultad": "facil",
+    "tip": "Si las hojas nuevas salen más chicas o casi todas verdes, tranqui: acercalo a una ventana luminosa, sin sol directo.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "trepadora",
+        "colgante"
+      ],
+      "tutor": {
+        "recomendado": "opcional",
+        "detalle": "Puede colgar libre o trepar: con un tutor de musgo o fibra de coco apenas húmedo se agarra con sus raíces aéreas."
+      },
+      "poda": {
+        "meses": [
+          9,
+          10,
+          11
+        ],
+        "detalle": "En primavera recortá las guías largas justo por encima de una hoja para que ramifique; usá guantes porque la savia irrita."
+      },
+      "propagacion": {
+        "metodos": [
+          "esqueje_agua",
+          "esqueje_tierra",
+          "acodo"
+        ],
+        "en_agua": true,
+        "meses": [
+          12,
+          1,
+          2
+        ],
+        "detalle": "Cortá un tramo de guía con al menos un nudo y una hoja y ponelo en agua o en sustrato húmedo, con luz brillante sin sol directo: en agua saca raíces en unas semanas."
+      },
+      "fuentes": [
+        {
+          "titulo": "Scindapsus aureus 'Marble Queen'",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/225572/scindapsus-aureus-marble-queen/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "How to grow epipremnum (RHS Growing Guide)",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/epipremnum/growing-guide",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "How to Grow Pothos Indoors",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/factsheet/how-to-grow-pothos-indoors-epipremnum-spp-care-cultivars-and-common-problems/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Pothos as a Houseplant",
+          "org": "Penn State Extension",
+          "url": "https://extension.psu.edu/pothos-as-a-houseplant",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Pothos, Epipremnum aureum",
+          "org": "University of Wisconsin-Madison Extension",
+          "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "RHS poda las puntas en primavera: se pasó a septiembre a noviembre.",
+        "RHS da los esquejes en verano (Penn State, de primavera a verano): se tomó la época en la que coinciden, diciembre a febrero."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Ardor e irritación fuerte en boca, lengua y labios, babeo, vómitos y dificultad para tragar. Rara vez, hinchazón de garganta.",
+      "partes": "Toda la planta (hojas y tallos incluidos); la savia puede irritar la piel y los ojos.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Colgalo alto o ponelo en un estante donde tu mascota no llegue a las guías. Si la muerde y babea mucho, vomita o le cuesta tragar, consultá enseguida con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Marble Queen",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/marble-queen",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Golden Pothos",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Epipremnum aureum (Pothos)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Scindapsus aureus 'Marble Queen'",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/225572/scindapsus-aureus-marble-queen/details",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "How to Grow Pothos Indoors",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/how-to-grow-pothos-indoors-epipremnum-spp-care-cultivars-and-common-problems/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Scindapsus aureus 'Marble Queen'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/225572/scindapsus-aureus-marble-queen/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Epipremnum aureum (Pothos)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Pothos, Epipremnum aureum",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Cultural Guidelines for Commercial Production of Interiorscape Epipremnum (ENH894)",
+        "org": "UF/IFAS Extension",
+        "url": "https://ask.ifas.ufl.edu/publication/EP151/pdf",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Estaciones convertidas: época de crecimiento (primavera y verano) de septiembre a febrero; invierno de junio a agosto.",
+      "Las fuentes lo dan como planta tierna (RHS H1B, mínimo 10 a 15 °C): se tradujo a no dejarlo afuera en el frío porteño."
+    ],
+    "discrepancias": [
+      "Cuidados: Clemson y RHS describen el cultivar; el riego, la humedad y el sustrato se completan con fuentes de la especie.",
+      "Luz tolerada: la especie aguanta poca luz, pero Clemson dice que 'Marble Queen' pide más que otras y UF que con poca luz las variegadas pierden color; no se incluyó 'baja'.",
+      "Riego: RHS riega abundante en crecimiento y moderado en invierno; Clemson deja secar el sustrato por completo. Se tomó regar cuando está casi seco.",
+      "Nombre: RHS lo registra como sinónimo bajo Scindapsus aureus 'Marble Queen' y ASPCA usa Scindapsus aureus.",
+      "Sol: RHS marca pleno sol o media sombra como posición y NC State admite 2 a 6 horas de sol directo; Wisconsin y Penn State piden evitar el sol directo y Clemson advierte que la luz intensa quema. Se tomó 0 horas.",
+      "Humedad: Clemson prefiere 50 a 70 % y Wisconsin humedad alta; la guía de RHS dice que no la necesita. Se dejó 'media'.",
+      "Gravedad: ASPCA no da escala y NC State la rotula media (en personas), Clemson leve. Se dejó 'moderada' como en el potus común.",
+      "Nombres: sin fuente para nombres usados en Argentina."
+    ]
+  },
+  {
+    "id": "potus-neon",
+    "nombre_comun": "Potus 'Neon'",
+    "otros_nombres": [
+      "Neon"
+    ],
+    "nombre_cientifico": "Epipremnum aureum 'Neon'",
+    "familia": "Araceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Prefiere luz brillante y filtrada, sin sol directo. Aguanta lugares con menos luz.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá a fondo cuando el sustrato esté casi seco y no dejes agua en el plato.",
+      "invierno": "Regá menos seguido: esperá a que la tierra se seque bien antes de volver a regar.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Se adapta al aire de casa y agradece algo más de humedad. Si el ambiente está muy seco, ayuda un humidificador o un plato con piedritas y agua debajo de la maceta.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato suelto y aireado, que drene bien, en maceta con agujeros.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 4,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "No aguanta el frío ni las heladas: puede salir al balcón en los meses cálidos, a la sombra, y volver adentro antes de los primeros fríos."
+    },
+    "tamano": "mediana",
+    "dificultad": "facil",
+    "tip": "Su verde lima ilumina cualquier rincón: regá recién cuando la tierra esté casi seca y mantenelo lejos del sol directo.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "trepadora",
+        "colgante"
+      ],
+      "tutor": {
+        "recomendado": "opcional",
+        "detalle": "Puede colgar libre o trepar: con un tutor de musgo o fibra de coco apenas húmedo se agarra con sus raíces aéreas."
+      },
+      "poda": {
+        "meses": [
+          9,
+          10,
+          11
+        ],
+        "detalle": "En primavera recortá las guías largas justo por encima de una hoja para que ramifique; usá guantes porque la savia irrita."
+      },
+      "propagacion": {
+        "metodos": [
+          "esqueje_agua",
+          "esqueje_tierra",
+          "acodo"
+        ],
+        "en_agua": true,
+        "meses": [
+          12,
+          1,
+          2
+        ],
+        "detalle": "Cortá un tramo de guía con al menos un nudo y una hoja y ponelo en agua o en sustrato húmedo, con luz brillante sin sol directo: en agua saca raíces en unas semanas."
+      },
+      "fuentes": [
+        {
+          "titulo": "Epipremnum aureum 'Neon'",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/381890/epipremnum-aureum-neon/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "How to grow epipremnum (RHS Growing Guide)",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/epipremnum/growing-guide",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "How to Grow Pothos Indoors",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/factsheet/how-to-grow-pothos-indoors-epipremnum-spp-care-cultivars-and-common-problems/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Pothos as a Houseplant",
+          "org": "Penn State Extension",
+          "url": "https://extension.psu.edu/pothos-as-a-houseplant",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Pothos, Epipremnum aureum",
+          "org": "University of Wisconsin-Madison Extension",
+          "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "RHS poda las puntas en primavera: se pasó a septiembre a noviembre.",
+        "RHS da los esquejes en verano (Penn State, de primavera a verano): se tomó la época en la que coinciden, diciembre a febrero."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Ardor e irritación fuerte en boca, lengua y labios, babeo, vómitos y dificultad para tragar. Rara vez, hinchazón de garganta.",
+      "partes": "Toda la planta (hojas y tallos incluidos); la savia puede irritar la piel y los ojos.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Colgalo alto o ponelo en un estante donde tu mascota no llegue a las guías. Si la muerde y babea mucho, vomita o le cuesta tragar, consultá enseguida con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Golden Pothos",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Epipremnum aureum (Pothos)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Epipremnum aureum 'Neon'",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/381890/epipremnum-aureum-neon/details",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "How to Grow Pothos Indoors",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/how-to-grow-pothos-indoors-epipremnum-spp-care-cultivars-and-common-problems/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Epipremnum aureum 'Neon'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/381890/epipremnum-aureum-neon/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Epipremnum aureum (Pothos)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Pothos, Epipremnum aureum",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Pothos as a Houseplant",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/pothos-as-a-houseplant",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Estaciones convertidas: época de crecimiento (primavera y verano) de septiembre a febrero; invierno de junio a agosto.",
+      "Las fuentes lo dan como planta tierna (RHS H1B, mínimo 10 a 15 °C): se tradujo a no dejarlo afuera en el frío porteño."
+    ],
+    "discrepancias": [
+      "Cuidados: Clemson y RHS describen el cultivar; humedad y parte del riego y la luz vienen de fuentes de la especie. ASPCA no tiene una ficha abierta de 'Neon', se usó la de la especie.",
+      "Color: Wisconsin lo describe de hojas totalmente amarillas, Penn State chartreuse y RHS verde brillante con brotes verde amarillentos.",
+      "Riego: RHS deja que el sustrato casi se seque; Clemson, que se seque por completo. Se tomó casi seco.",
+      "Sol: RHS marca pleno sol o media sombra como posición y NC State admite 2 a 6 horas de sol directo; Wisconsin y Penn State piden evitar el sol directo y Clemson advierte que la luz intensa quema. Se tomó 0 horas.",
+      "Humedad: Clemson prefiere 50 a 70 % y Wisconsin humedad alta; la guía de RHS dice que no la necesita. Se dejó 'media'.",
+      "Gravedad: ASPCA no da escala y NC State la rotula media (en personas), Clemson leve. Se dejó 'moderada' como en el potus común.",
+      "Nombres: sin fuente para nombres usados en Argentina."
+    ]
+  },
+  {
+    "id": "potus-njoy",
+    "nombre_comun": "Potus 'N'Joy'",
+    "otros_nombres": [
+      "N'Joy",
+      "Njoy"
+    ],
+    "nombre_cientifico": "Epipremnum aureum 'N'Joy'",
+    "familia": "Araceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Luz brillante y filtrada, sin sol directo. Con sombra el dibujo crema se va apagando.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá a fondo cuando el sustrato esté casi seco y no dejes agua en el plato.",
+      "invierno": "Regá menos seguido: esperá a que la tierra se seque bien antes de volver a regar.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Se adapta al aire de casa y agradece algo más de humedad. Si el ambiente está muy seco, ayuda un humidificador o un plato con piedritas y agua debajo de la maceta.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato suelto y aireado, que drene bien, en maceta con agujeros.",
+      "confianza": "media"
+    },
+    "tolerancia_descuido": 4,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "No aguanta el frío ni las heladas: puede salir al balcón en los meses cálidos, a la sombra, y volver adentro antes de los primeros fríos."
+    },
+    "tamano": "mediana",
+    "dificultad": "facil",
+    "tip": "Si el crema de las hojas se va apagando, tranqui: arrimalo a una ventana luminosa, sin sol directo.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "trepadora",
+        "colgante"
+      ],
+      "tutor": {
+        "recomendado": "opcional",
+        "detalle": "Puede colgar libre o trepar: con un tutor de musgo o fibra de coco apenas húmedo se agarra con sus raíces aéreas."
+      },
+      "poda": {
+        "meses": [
+          9,
+          10,
+          11
+        ],
+        "detalle": "En primavera recortá las guías largas justo por encima de una hoja para que ramifique; usá guantes porque la savia irrita."
+      },
+      "propagacion": {
+        "metodos": [
+          "esqueje_agua",
+          "esqueje_tierra",
+          "acodo"
+        ],
+        "en_agua": true,
+        "meses": [
+          12,
+          1,
+          2
+        ],
+        "detalle": "Cortá un tramo de guía con al menos un nudo y una hoja y ponelo en agua o en sustrato húmedo, con luz brillante sin sol directo: en agua saca raíces en unas semanas."
+      },
+      "fuentes": [
+        {
+          "titulo": "Epipremnum [N'Joy] ('Hansoti12')",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/361702/epipremnum-n-joy-(-hansoti12-pbr)-(v)/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "How to grow epipremnum (RHS Growing Guide)",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/epipremnum/growing-guide",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Epipremnum aureum (Pothos)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Pothos as a Houseplant",
+          "org": "Penn State Extension",
+          "url": "https://extension.psu.edu/pothos-as-a-houseplant",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "media",
+      "adaptaciones": [
+        "RHS poda las puntas en primavera: se pasó a septiembre a noviembre.",
+        "RHS da los esquejes en verano (Penn State, de primavera a verano): se tomó la época en la que coinciden, diciembre a febrero.",
+        "Casi todo el cultivo se apoya en la especie; la poda y los esquejes de verano también figuran en la ficha RHS del cultivar."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Ardor e irritación fuerte en boca, lengua y labios, babeo, vómitos y dificultad para tragar. Rara vez, hinchazón de garganta.",
+      "partes": "Toda la planta (hojas y tallos incluidos); la savia puede irritar la piel y los ojos.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Colgalo alto o ponelo en un estante donde tu mascota no llegue a las guías. Si la muerde y babea mucho, vomita o le cuesta tragar, consultá enseguida con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Golden Pothos",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Epipremnum aureum (Pothos)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Epipremnum [N'Joy] ('Hansoti12')",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/361702/epipremnum-n-joy-(-hansoti12-pbr)-(v)/details",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Epipremnum [N'Joy] ('Hansoti12')",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/361702/epipremnum-n-joy-(-hansoti12-pbr)-(v)/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Epipremnum aureum (Pothos)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Pothos, Epipremnum aureum",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to Grow Pothos Indoors",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/how-to-grow-pothos-indoors-epipremnum-spp-care-cultivars-and-common-problems/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Pothos as a Houseplant",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/pothos-as-a-houseplant",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: época de crecimiento (primavera y verano) de septiembre a febrero; invierno de junio a agosto.",
+      "Las fuentes lo dan como planta tierna (RHS H1B, mínimo 10 a 15 °C): se tradujo a no dejarlo afuera en el frío porteño."
+    ],
+    "discrepancias": [
+      "Cuidados mayormente de la especie: solo RHS tiene ficha de cultivo propia de 'N'Joy' y NC State lo describe sin cuidados aparte (hojas más chicas y finas con crema). Clemson, Wisconsin y Penn State no lo mencionan; por eso la confianza es media. ASPCA no tiene ficha abierta del cultivar, se usó la de la especie.",
+      "Luz tolerada: la especie aguanta poca luz, pero RHS indica que a la sombra el variegado se apaga; no se incluyó 'baja'.",
+      "Riego: RHS riega abundante en crecimiento y moderado en invierno; las fuentes de la especie dejan secar entre riegos. Se tomó regar cuando está casi seco.",
+      "Nombre: RHS lo lista como Epipremnum 'N'Joy' ('Hansoti12'), también bajo E. pinnatum; NC State como Beautifall 'Njoy' dentro de E. aureum.",
+      "Sol: RHS marca pleno sol o media sombra como posición y NC State admite 2 a 6 horas de sol directo; Wisconsin y Penn State piden evitar el sol directo y Clemson advierte que la luz intensa quema. Se tomó 0 horas.",
+      "Humedad: Clemson prefiere 50 a 70 % y Wisconsin humedad alta; la guía de RHS dice que no la necesita. Se dejó 'media'.",
+      "Gravedad: ASPCA no da escala y NC State la rotula media (en personas), Clemson leve. Se dejó 'moderada' como en el potus común.",
+      "Nombres: sin fuente para nombres usados en Argentina."
+    ]
+  }
+]

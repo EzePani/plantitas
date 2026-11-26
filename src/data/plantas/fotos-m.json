@@ -1,0 +1,73 @@
+{
+  "alocasia-black-velvet": [
+    {
+      "archivo": "img/extra/alocasia-black-velvet-2.webp",
+      "autor": "Obsidian Soul",
+      "licencia": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Alocasia_reginula_(Philippines)_05.jpg"
+    },
+    {
+      "archivo": "img/extra/alocasia-black-velvet-3.webp",
+      "autor": "Obsidian Soul",
+      "licencia": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Alocasia_reginula_leaf_underside_(Philippines).jpg"
+    }
+  ],
+  "alocasia-zebrina": [
+    {
+      "archivo": "img/extra/alocasia-zebrina-2.webp",
+      "autor": "Photo by David J. Stang",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Alocasia_zebrina_5zz.jpg"
+    },
+    {
+      "archivo": "img/extra/alocasia-zebrina-3.webp",
+      "autor": "Photo by David J. Stang",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Alocasia_zebrina_1zz.jpg"
+    }
+  ],
+  "ficus-lyrata-bambino": [],
+  "anturio-clarinervium": [
+    {
+      "archivo": "img/extra/anturio-clarinervium-2.webp",
+      "autor": "Photo by David J. Stang",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Anthurium_clarinervium_1zz.jpg"
+    },
+    {
+      "archivo": "img/extra/anturio-clarinervium-3.webp",
+      "autor": "Daderot",
+      "licencia": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Anthurium_clarinervium_-_Conservatory_of_Flowers_-_San_Francisco,_CA_-_DSC03116.JPG"
+    }
+  ],
+  "anturio-scherzerianum": [
+    {
+      "archivo": "img/extra/anturio-scherzerianum-2.webp",
+      "autor": "JJ Harrison ( https://www.jjharrison.com.au/ )",
+      "licencia": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Anthurium_scherzerianum_2.jpg"
+    },
+    {
+      "archivo": "img/extra/anturio-scherzerianum-3.webp",
+      "autor": "peganum from Small Dole, England",
+      "licencia": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Anthurium_scherzerianum_(23013840405).jpg"
+    }
+  ],
+  "peperomia-caperata": [
+    {
+      "archivo": "img/extra/peperomia-caperata-2.webp",
+      "autor": "Lazaregagnidze",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Peperomia_caperata_Emerald_Ripple_Pepper_%E1%83%9E%E1%83%94%E1%83%9E%E1%83%94%E1%83%A0%E1%83%9D%E1%83%9B%E1%83%98%E1%83%90.JPG"
+    },
+    {
+      "archivo": "img/extra/peperomia-caperata-3.webp",
+      "autor": "Yercaud-elango",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Peperomia_caperata-yercaud-salem-India.JPG"
+    }
+  ]
+}

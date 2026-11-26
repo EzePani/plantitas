@@ -422,5 +422,317 @@
     "autor": "Quartl",
     "licencia": "CC BY-SA 3.0",
     "url": "https://commons.wikimedia.org/wiki/File:Phoenix_canariensis_qtl1.jpg"
+  },
+  {
+    "id": "filodendro-hastatum",
+    "planta": "Filodendro hastatum",
+    "archivo": "img/filodendro-hastatum.webp",
+    "autor": "Krzysztof Ziarnek, Kenraiz",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Philodendron_hastatum_kz2.jpg"
+  },
+  {
+    "id": "filodendro-birkin",
+    "planta": "Filodendro 'Birkin'",
+    "archivo": "img/filodendro-birkin.webp",
+    "autor": "Yercaud-elango",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Philodendron_birkin-1-RM_Nagar-bangalore-India.jpg"
+  },
+  {
+    "id": "filodendro-rojo-congo",
+    "planta": "Filodendro 'Rojo Congo'",
+    "archivo": "img/filodendro-rojo-congo.webp",
+    "autor": "Uprising Man",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Philodendron_Rojo_Congo.jpg"
+  },
+  {
+    "id": "helecho-azul",
+    "planta": "Helecho azul",
+    "archivo": "img/helecho-azul.webp",
+    "autor": "Agnieszka Kwiecień, Nova",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Phlebodium_aureum_%27Blue_Star%27_Flebodium_z%C5%82ociste_2023-10-31_01.jpg"
+  },
+  {
+    "id": "potus-marble-queen",
+    "planta": "Potus 'Marble Queen'",
+    "archivo": "img/potus-marble-queen.webp",
+    "autor": "Spnq",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Epipremnum_aureum_(Marble_Queen)_houseplant_(2).png"
+  },
+  {
+    "id": "potus-neon",
+    "planta": "Potus 'Neon'",
+    "archivo": "img/potus-neon.webp",
+    "autor": "Krzysztof Ziarnek, Kenraiz",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Epipremnum_aureum_Neon_kz1.jpg"
+  },
+  {
+    "id": "potus-njoy",
+    "planta": "Potus 'N'Joy'",
+    "archivo": "img/potus-njoy.webp",
+    "autor": "Mokkie",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Money_Plant_(Epipremnum_aureum_%27N%27_Joy%27)_1.jpg"
+  },
+  {
+    "id": "alocasia-black-velvet",
+    "planta": "Alocasia 'Black Velvet'",
+    "archivo": "img/alocasia-black-velvet.webp",
+    "autor": "Obsidian Soul",
+    "licencia": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Alocasia_reginula_(Philippines)_01.jpg"
+  },
+  {
+    "id": "alocasia-zebrina",
+    "planta": "Alocasia zebrina",
+    "archivo": "img/alocasia-zebrina.webp",
+    "autor": "Photo by David J. Stang",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Alocasia_zebrina_3zz.jpg"
+  },
+  {
+    "id": "anturio-clarinervium",
+    "planta": "Anturio clarinervium",
+    "archivo": "img/anturio-clarinervium.webp",
+    "autor": "Yercaud-elango",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Anthurium_clarinervium-1-Ien_house-yercaud-salem-India.jpg"
+  },
+  {
+    "id": "anturio-scherzerianum",
+    "planta": "Anturio scherzerianum",
+    "archivo": "img/anturio-scherzerianum.webp",
+    "autor": "peganum from Small Dole, England",
+    "licencia": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Anthurium_scherzerianum_(22392643673).jpg"
+  },
+  {
+    "id": "peperomia-caperata",
+    "planta": "Peperomia caperata",
+    "archivo": "img/peperomia-caperata.webp",
+    "autor": "Jerzy Opioła",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Peperomia_caperata_1-OB9.jpg"
+  },
+  {
+    "id": "filodendro-brasil",
+    "planta": "Filodendro 'Brasil'",
+    "archivo": "img/filodendro-brasil.webp",
+    "autor": "Oleksandr Shynder",
+    "licencia": "CC BY 4.0",
+    "url": "https://www.inaturalist.org/observations/409932455"
+  },
+  {
+    "id": "filodendro-micans",
+    "planta": "Filodendro 'Micans'",
+    "archivo": "img/filodendro-micans.webp",
+    "autor": "Yercaud-elango",
+    "licencia": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Philodendron_oxycordia_micans-2-Vishuddhi_garden-bengaluru-India.jpg"
+  },
+  {
+    "id": "tradescantia-fluminensis",
+    "planta": "Tradescantia fluminensis",
+    "archivo": "img/tradescantia-fluminensis.webp",
+    "autor": "Harry Rose from South West Rocks, Australia",
+    "licencia": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tradescantia_fluminensis_habit2_(16190746409).jpg"
+  },
+  {
+    "id": "tradescantia-pallida",
+    "planta": "Tradescantia pallida",
+    "archivo": "img/tradescantia-pallida.webp",
+    "autor": "David E Mead",
+    "licencia": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Wandering_jew_(Tradescantia_pallida)_Buton_Island.jpg"
+  },
+  {
+    "id": "tradescantia-sillamontana",
+    "planta": "Tradescantia sillamontana",
+    "archivo": "img/tradescantia-sillamontana.webp",
+    "autor": "Photo by David J. Stang",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tradescantia_sillamontana_1zz.jpg"
+  },
+  {
+    "id": "cinta-bonnie",
+    "planta": "Cinta 'Bonnie'",
+    "archivo": "img/cinta-bonnie.webp",
+    "autor": "Mokkie",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Chlorophytum_%27Bonnie%27.jpg"
+  },
+  {
+    "id": "calatea-roseopicta",
+    "planta": "Calatea roseopicta",
+    "archivo": "img/calatea-roseopicta.webp",
+    "autor": "Mokkie",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Rose_Painted_Calathea_(Calathea_roseopicta)_1.jpg"
+  },
+  {
+    "id": "calatea-lancifolia",
+    "planta": "Calatea lancifolia",
+    "archivo": "img/calatea-lancifolia.webp",
+    "autor": "Dinkum",
+    "licencia": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Calathea_lancifolia_bb2.jpg"
+  },
+  {
+    "id": "calatea-ornata",
+    "planta": "Calatea ornata",
+    "archivo": "img/calatea-ornata.webp",
+    "autor": "Yercaud-elango",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Calathea_ornata_roseo-lineata-1-yercaud-salem-India.jpg"
+  },
+  {
+    "id": "maranta-erythroneura",
+    "planta": "Maranta 'Erythroneura'",
+    "archivo": "img/maranta-erythroneura.webp",
+    "autor": "Ural-66",
+    "licencia": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Maranta_leuconeura_var._erythroneura_f10.jpg"
+  },
+  {
+    "id": "maranta-kerchoveana",
+    "planta": "Maranta 'Kerchoveana'",
+    "archivo": "img/maranta-kerchoveana.webp",
+    "autor": "Daderot",
+    "licencia": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Maranta_leuconeura_var._kerchoveana_-_Kew_Gardens,_London_-_DSC03582.jpg"
+  },
+  {
+    "id": "pilea-cadierei",
+    "planta": "Pilea cadierei",
+    "archivo": "img/pilea-cadierei.webp",
+    "autor": "Steve Fitzgerald",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Pilea-cadierei-SF25147-01.jpg"
+  },
+  {
+    "id": "pilea-moon-valley",
+    "planta": "Pilea 'Moon Valley'",
+    "archivo": "img/pilea-moon-valley.webp",
+    "autor": "Alexander Klink",
+    "licencia": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Pilea_involucrata_(Sims)_Urban_Moon_Valley.jpg"
+  },
+  {
+    "id": "asplenium-nidus",
+    "planta": "Asplenium nido de ave",
+    "archivo": "img/asplenium-nidus.webp",
+    "autor": "Forest & Kim Starr",
+    "licencia": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Starr_061108-9605_Asplenium_nidus.jpg"
+  },
+  {
+    "id": "asplenium-bulbiferum",
+    "planta": "Asplenium bulbiferum (helecho madre)",
+    "archivo": "img/asplenium-bulbiferum.webp",
+    "autor": "Alex Lomas",
+    "licencia": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Asplenium_bulbiferum_(2944494936).jpg"
+  },
+  {
+    "id": "strelitzia-nicolai",
+    "planta": "Strelitzia nicolai",
+    "archivo": "img/strelitzia-nicolai.webp",
+    "autor": "Forest & Kim Starr",
+    "licencia": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Starr_080103-1149_Strelitzia_nicolai.jpg"
+  },
+  {
+    "id": "strelitzia-reginae",
+    "planta": "Ave del paraíso (Strelitzia reginae)",
+    "archivo": "img/strelitzia-reginae.webp",
+    "autor": "John Robert McPherson",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Strelitzia_reginae_River_of_Life_Church_240_Hamilton_Rd_Chermside_IMGP1905.jpg"
+  },
+  {
+    "id": "bananero",
+    "planta": "Bananero",
+    "archivo": "img/bananero.webp",
+    "autor": "Plant pests and diseases",
+    "licencia": "CC0 1.0",
+    "url": "https://www.flickr.com/photos/62295966@N07/9530684683"
+  },
+  {
+    "id": "bananero-basjoo",
+    "planta": "Bananero japonés",
+    "archivo": "img/bananero-basjoo.webp",
+    "autor": "Illustratedjc",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Musa_basjoo_-_G%C3%B6ttingen.jpg"
+  },
+  {
+    "id": "bananero-rojo",
+    "planta": "Bananero rojo",
+    "archivo": "img/bananero-rojo.webp",
+    "autor": "wallygrom",
+    "licencia": "CC BY-SA 2.0",
+    "url": "https://www.flickr.com/photos/33037982@N04/30521107165"
+  },
+  {
+    "id": "palmito",
+    "planta": "Palmito",
+    "archivo": "img/palmito.webp",
+    "autor": "Autor desconocido",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Chamaerops_humilis0.jpg"
+  },
+  {
+    "id": "palmera-excelsa",
+    "planta": "Palmito elevado",
+    "archivo": "img/palmera-excelsa.webp",
+    "autor": "Acabashi",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Trachycarpus_fortunei_Chusan_palm_Downhills_Park_Ornamental_Garden_Tottenham_London_1.jpg"
+  },
+  {
+    "id": "palo-de-agua-massangeana",
+    "planta": "Palo de agua 'Massangeana'",
+    "archivo": "img/palo-de-agua-massangeana.webp",
+    "autor": "Mokkie",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Corn_Plant_(Dracaena_fragrans_%27Massangeana%27).jpg"
+  },
+  {
+    "id": "dracena-lemon-lime",
+    "planta": "Dracena 'Lemon Lime'",
+    "archivo": "img/dracena-lemon-lime.webp",
+    "autor": "blumenbiene",
+    "licencia": "CC BY 2.0",
+    "url": "https://www.flickr.com/photos/47439717@N05/34214992436"
+  },
+  {
+    "id": "dracena-janet-craig",
+    "planta": "Dracena 'Janet Craig'",
+    "archivo": "img/dracena-janet-craig.webp",
+    "autor": "Nickjhowe",
+    "licencia": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Dracaena_Deremensis_Janet_Craig_Flowering.jpg"
+  },
+  {
+    "id": "dracena-compacta",
+    "planta": "Dracena 'Compacta'",
+    "archivo": "img/dracena-compacta.webp",
+    "autor": "Dandarmkd",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Dracaena_fragrans_%27Compacta%27_-_%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%BA%D0%B0_%D0%B3%D1%80%D0%B0%D0%B4%D0%B8%D0%BD%D0%B0_%D0%A1%D0%BA%D0%BE%D0%BF%D1%98%D0%B5_(1).jpg"
+  },
+  {
+    "id": "ficus-lyrata-bambino",
+    "planta": "Ficus lyrata 'Bambino'",
+    "archivo": "img/ficus-lyrata-bambino.webp",
+    "autor": "Kraskovskyi Tymofii (recorte)",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Ficus_lyrata_Bambino_leaf_unfurling.jpg"
   }
 ]

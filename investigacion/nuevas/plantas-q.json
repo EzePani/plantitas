@@ -1,0 +1,1213 @@
+[
+  {
+    "id": "palmito",
+    "nombre_comun": "Palmito",
+    "otros_nombres": [
+      "Chamaerops humilis",
+      "Chamaerops",
+      "Palma de escobas"
+    ],
+    "nombre_cientifico": "Chamaerops humilis",
+    "familia": "Arecaceae",
+    "grupo": "palmera",
+    "luz_requerida": "directa",
+    "luz_tolerada": [
+      "indirecta_brillante"
+    ],
+    "horas_sol_directo": 3,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "baja",
+    "luz": {
+      "detalle": "Le gusta mucho la luz: afuera, sol o media sombra; adentro, el lugar más luminoso que tengas, con algunas horas de sol. Con demasiada sombra pierde su forma compacta.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá con moderación mientras crece, cuando la superficie de la tierra se seque, sin dejar agua en el plato.",
+      "invierno": "Regá poco y dejá que la tierra se seque más entre riegos: el exceso le pudre las raíces y el tallo.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "baja",
+      "detalle": "Se banca el aire seco mejor que la mayoría de las palmeras, así que no suele hacer falta nada extra.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato a base de tierra, que drene muy bien, en maceta con agujeros.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 4,
+    "apta": {
+      "interior": true,
+      "balcon": true,
+      "nota_balcon": "Es de las palmeras más resistentes al frío (las fuentes la dan hasta unos -10 °C o menos ya establecida): en Buenos Aires puede vivir afuera todo el año; joven y en maceta, protegela de las heladas."
+    },
+    "tamano": "grande",
+    "dificultad": "facil",
+    "tip": "Crece muy despacio y tiene espinas filosas en los cabos de las hojas: ubicala lejos del paso y usá guantes para tocarla.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: sacá solo las hojas totalmente secas, con guantes por las espinas."
+      },
+      "propagacion": {
+        "metodos": [
+          "division",
+          "semilla"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11
+        ],
+        "detalle": "Suele largar hijitos en la base: en primavera se pueden separar con sus raíces y plantar aparte. De semilla también se puede, con mucha paciencia."
+      },
+      "fuentes": [
+        {
+          "titulo": "Chamaerops humilis",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/chamaerops-humilis/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Chamaerops humilis (dwarf fan palm)",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/3695/i-Chamaerops-humilis-i/Details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Palms: hardy",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/types/trees/hardy-palms",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "How to Propagate Houseplants by Division and Offsets",
+          "org": "Iowa State University Extension and Outreach",
+          "url": "https://yardandgarden.extension.iastate.edu/how-to/how-propagate-houseplants-division-and-offsets",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "media",
+      "adaptaciones": [
+        "Iowa State dice que lo ideal para dividir plantas de interior es el principio de la primavera (no es específico de esta palmera): se pasó a septiembre a noviembre."
+      ]
+    },
+    "imagen": null,
+    "atribucion_imagen": null,
+    "fotos_extra": [],
+    "mascotas": {
+      "toxicidad_gato": "no_verificada",
+      "toxicidad_perro": "no_verificada",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "No encontramos una ficha veterinaria de esta palmera, así que no podemos decirte que sea segura. Mantenela lejos de tus mascotas, también por las espinas, que pueden lastimarlas.",
+      "advertencia_grave": null,
+      "confianza": "baja",
+      "fuentes_toxicidad": []
+    },
+    "fuentes": [
+      {
+        "titulo": "Chamaerops humilis",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/chamaerops-humilis/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Chamaerops humilis (dwarf fan palm)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/3695/i-Chamaerops-humilis-i/Details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Palms: hardy",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/types/trees/hardy-palms",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Indoor Palms",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-palms/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Palms as Houseplants",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/palms-as-houseplants",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "European Fan Palm",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/home/plants/trees-and-more/palms-and-cycads/european-fan-palm",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Palms",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/palms/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Chamaerops humilis (palmito)",
+        "org": "Herbari Virtual, Universitat de les Illes Balears",
+        "url": "https://herbarivirtual.uib.cat/en/general/365/especie/palmito",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: crecimiento (primavera y verano) de septiembre a febrero; invierno de junio a agosto.",
+      "Temperaturas pasadas de °F a °C cuando hizo falta (redondeadas).",
+      "Las fuentes la usan afuera en zonas templadas: en Buenos Aires se la considera apta para balcón o patio todo el año. La ventana más soleada para tenerla adentro es la norte."
+    ],
+    "discrepancias": [
+      "Nombre: \"palmito\" también se usa en Argentina para Euterpe edulis, la palmera nativa de la selva misionera de la que se saca el palmito comestible (un trabajo del INTA la llama así). Esta ficha es la palmera ornamental, Chamaerops humilis.",
+      "Luz: NC State dice que lo mejor es pleno sol y que aguanta media sombra; Clemson, 3 a 4 horas de sol directo adentro; RHS, media sombra y luz brillante indirecta adentro; UF/IFAS, sol o sombra parciales. Se tomaron 3 horas, sin sol fuerte de la tarde por criterio conservador.",
+      "Tamaño: NC State la da de 1,8 a 4,5 m; RHS, 1,5 a 2,5 m tras décadas.",
+      "Frío: NC State, zonas USDA 8a a 11b; RHS H4 en la ficha y unos -12 °C en la guía; UF/IFAS, unos -12 °C ya establecida.",
+      "Humedad: las guías generales de palmeras piden aire húmedo; Penn State aclara que esta tolera más sequedad que la mayoría.",
+      "Mascotas: ASPCA no la lista en sus listados de plantas para gatos y perros, y NC State no informa toxicidad."
+    ]
+  },
+  {
+    "id": "palmera-excelsa",
+    "nombre_comun": "Palmito elevado",
+    "otros_nombres": [
+      "Palmera excelsa",
+      "Palmera de Fortune",
+      "Palmera china de abanico",
+      "Palmera de molino de viento",
+      "Palmito chino",
+      "Palmito gigante",
+      "Trachycarpus fortunei",
+      "Trachycarpus"
+    ],
+    "nombre_cientifico": "Trachycarpus fortunei",
+    "familia": "Arecaceae",
+    "grupo": "palmera",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "directa",
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 2,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Le va muy bien la media sombra luminosa. Aguanta el sol, pero con calor y sol pleno pide más riego y agradece algo de reparo.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá cuando la superficie de la tierra se seque, para que quede apenas húmeda y nunca encharcada; en maceta y recién plantada necesita más atención.",
+      "invierno": "Regá poco: que la tierra no quede empapada.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Las fuentes no piden humedad especial, así que afuera no hace falta nada extra.",
+      "confianza": "baja"
+    },
+    "sustrato": {
+      "tipo": "Tierra fértil y con buen drenaje, en maceta grande con agujeros.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 4,
+    "apta": {
+      "interior": false,
+      "balcon": true,
+      "nota_balcon": "Es de las palmeras más resistentes al frío (unos -10 °C o menos): en Buenos Aires vive afuera todo el año. Buscale un lugar reparado, porque el viento fuerte le rompe las hojas."
+    },
+    "tamano": "grande",
+    "dificultad": "facil",
+    "tip": "Ponela a resguardo del viento y, cuando crezca, pensá en el lugar: puede llegar a varios metros de altura.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: si querés, sacá solo las hojas totalmente secas, sin cortar las verdes."
+      },
+      "propagacion": {
+        "metodos": [
+          "semilla"
+        ],
+        "en_agua": false,
+        "meses": [],
+        "detalle": "Se multiplica sobre todo por semilla, que tarda en germinar. Las fuentes no dan una época precisa."
+      },
+      "fuentes": [
+        {
+          "titulo": "Trachycarpus fortunei",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/trachycarpus-fortunei/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Trachycarpus fortunei (Chusan palm)",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/18291/i-trachycarpus-fortunei-i/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Palms: hardy",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/types/trees/hardy-palms",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Windmill Palm",
+          "org": "UF/IFAS Gardening Solutions",
+          "url": "https://gardeningsolutions.ifas.ufl.edu/plants/trees-and-shrubs/palms-and-cycads/windmill-palm/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Palms",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/factsheet/palms/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "media",
+      "adaptaciones": [
+        "La época de plantación al aire libre de las fuentes no se usó como época de propagación: se dejaron los meses vacíos."
+      ]
+    },
+    "imagen": null,
+    "atribucion_imagen": null,
+    "fotos_extra": [],
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "ASPCA y NC State la dan como no tóxica para gatos y perros. Igual, los cabos de las hojas tienen el borde espinoso y comer cualquier planta puede caerles mal.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Toxic and Non-toxic Plants: Windmill Palm",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/windmill-palm",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Trachycarpus fortunei",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/trachycarpus-fortunei/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Trachycarpus fortunei",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/trachycarpus-fortunei/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Trachycarpus fortunei (Chusan palm)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/18291/i-trachycarpus-fortunei-i/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Palms: hardy",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/types/trees/hardy-palms",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Windmill Palm",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/trees-and-shrubs/palms-and-cycads/windmill-palm/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Palms",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/palms/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Trachycarpus fortunei (palmito elevado)",
+        "org": "Herbari Virtual, Universitat de les Illes Balears",
+        "url": "https://herbarivirtual.uib.cat/en/general/528/especie/palmito-elevado",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Trachycarpus fortunei: Palmera de Fortune, Palmito elevado",
+        "org": "Universidad de Valladolid, Campus de Palencia",
+        "url": "https://www.palencia.uva.es/wp-content/uploads/2026/04/Trachycarpus-fortunei_rv.pdf",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Trachycarpus fortunei: palmito chino, palmito gigante",
+        "org": "Instituto de Estudios Albacetenses (Jardín Botánico)",
+        "url": "https://iealbacetenses.com/files/portalcontenidos/396/documentos/15.pdf",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Palma de jardín",
+        "org": "EcuRed (enciclopedia colaborativa; solo para nombres comunes)",
+        "url": "https://www.ecured.cu/Palma_de_jard%C3%ADn",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: crecimiento (primavera y verano) de septiembre a febrero; invierno de junio a agosto.",
+      "Temperaturas pasadas de °F a °C cuando hizo falta (redondeadas).",
+      "La rusticidad de las fuentes (zonas USDA 7 a 11, RHS H5) se tradujo como apta para vivir afuera en Buenos Aires."
+    ],
+    "discrepancias": [
+      "Luz: NC State y RHS admiten pleno sol o media sombra; UF/IFAS dice que crece mejor en media sombra y Clemson pide sombra ligera a media. Se tomó la media sombra como ideal y 2 horas de sol directo (lo menor de NC State para media sombra), sin sol de la tarde.",
+      "Interior: RHS la menciona para invernadero o jardín de invierno templado y NC State para pasar el invierno adentro en climas fríos; como no la describen como planta de living, se marcó solo exterior.",
+      "Propagación: RHS también menciona separar retoños; NC State da la semilla como método recomendado y la ficha del jardín botánico albacetense habla de un solo tronco. Se dejó solo semilla.",
+      "Altura: NC State habla de unos 2,5 a 3 m en cultivo (6 a 12 m en su ambiente); RHS, más de 12 m.",
+      "Nombre: las fuentes universitarias en castellano la llaman palmito elevado o palmera de Fortune; \"palmera excelsa\" solo aparece en EcuRed (enciclopedia colaborativa) y como nombre catalán en el herbario balear, por eso quedó como nombre alternativo."
+    ]
+  },
+  {
+    "id": "palo-de-agua-massangeana",
+    "nombre_comun": "Palo de agua 'Massangeana'",
+    "otros_nombres": [
+      "Massangeana",
+      "Dracaena fragrans Massangeana",
+      "Dracaena massangeana"
+    ],
+    "nombre_cientifico": "Dracaena fragrans 'Massangeana'",
+    "familia": "Asparagaceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "tolerancia_descuido": 4,
+    "dificultad": "facil",
+    "tamano": "grande",
+    "clases": [
+      "follaje"
+    ],
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Es tropical (las fuentes piden más de 10 a 15 °C): en Buenos Aires vive adentro; al balcón solo en verano, a la sombra."
+    },
+    "luz": {
+      "detalle": "Luz brillante y filtrada, que le mantiene marcada la franja amarilla. Aguanta menos luz, pero las hojas pueden ponerse verdes; el sol fuerte se las quema.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá a fondo cuando la capa de arriba de la tierra esté seca, con agua que no esté fría, y no la dejes con agua en el plato.",
+      "invierno": "Regá menos seguido: dejá la tierra apenas húmeda y evitá encharcarla.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Si el aire está muy seco (calefacción), se le pueden secar las puntas: un humidificador o un plato con piedritas y agua ayudan.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato comercial para plantas de interior, que drene bien y sin mucha perlita, en maceta con agujeros.",
+      "confianza": "alta"
+    },
+    "tip": "Si la franja amarilla se apaga, acercala a una ventana luminosa, siempre sin sol fuerte.",
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [
+          9,
+          10,
+          11
+        ],
+        "detalle": "No necesita poda; si queda débil o muy alta, cortá el tallo en primavera a la altura que quieras: rebrota cerca del corte."
+      },
+      "propagacion": {
+        "metodos": [
+          "esqueje_tierra",
+          "acodo"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "detalle": "En primavera o verano, plantá un tramo de tallo o la punta en sustrato, en un lugar cálido. En plantas altas también sirve el acodo aéreo."
+      },
+      "fuentes": [
+        {
+          "titulo": "Dracaena fragrans 'Massangeana' (v)",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/79003/dracaena-fragrans-massangeana-v/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Dracaena (HGIC 1504)",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "How to grow dracaena (RHS Growing Guide)",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/dracaena/how-to-grow-dracaena",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "RHS: poda y esquejes en primavera; guía RHS: esquejes en verano; Clemson: primavera o fines del verano. Se pasó a septiembre a febrero."
+      ]
+    },
+    "imagen": null,
+    "atribucion_imagen": null,
+    "fotos_extra": [],
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Vómitos (a veces con sangre), decaimiento, falta de apetito y babeo; en gatos, pupilas dilatadas.",
+      "partes": "Toda la planta: hojas, tallos y savia.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Dejala donde tu mascota no pueda morder las hojas. Si la muerde y vomita, babea mucho o la ves decaída, consultá con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Dracaena fragrans 'Massangeana' (v)",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/79003/dracaena-fragrans-massangeana-v/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Toxic and Non-toxic Plants: Corn Plant",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/corn-plant",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Toxic and Non-toxic Plants: Dracaena",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dracaena",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Dracaena fragrans",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/dracaena-fragrans/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Dracaena",
+          "org": "Pet Poison Helpline",
+          "url": "https://www.petpoisonhelpline.com/poison/dracaena/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Dracaena fragrans 'Massangeana' (v)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/79003/dracaena-fragrans-massangeana-v/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Dracaena fragrans",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dracaena-fragrans/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Dracaena (HGIC 1504)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow dracaena (RHS Growing Guide)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/dracaena/how-to-grow-dracaena",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Dracaenas",
+        "org": "University of Missouri Extension (IPM)",
+        "url": "https://ipm.missouri.edu/MEG/2021/1/dracaenas-DT",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Cultural Guidelines for Commercial Production of Interiorscape Dracaena",
+        "org": "UF/IFAS Extension (EDIS ENH892)",
+        "url": "https://ask.ifas.ufl.edu/publication/EP149/pdf",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Estaciones convertidas: crecimiento (primavera y verano) de septiembre a febrero; invierno de junio a agosto.",
+      "Temperaturas pasadas de °F a °C cuando hizo falta (redondeadas)."
+    ],
+    "discrepancias": [
+      "Luz: la ficha RHS admite pleno sol (afuera) con sombra del sol fuerte adentro; NC State, Clemson y la guía RHS piden luz filtrada. Se tomó 0 horas de sol directo.",
+      "Altura: Clemson la da de 1,2 a 1,5 m; RHS, de 2,5 a 4 m con muchos años.",
+      "Riego: NC State y Missouri piden mantener la tierra algo húmeda en época de crecimiento; Clemson y la guía RHS, dejar secar la parte de arriba. Se tomó dejar secar la superficie, más segura contra la pudrición.",
+      "Sustrato: Clemson y Missouri desaconsejan la perlita (Missouri, por el flúor); la guía RHS la incluye en su mezcla. Se dejó \"sin mucha perlita\".",
+      "Gravedad: NC State la clasifica como baja y ASPCA no da escala; se dejó \"moderada\" con el mismo criterio que el palo de agua ya cargado, sin advertencia grave."
+    ]
+  },
+  {
+    "id": "dracena-lemon-lime",
+    "nombre_comun": "Dracena 'Lemon Lime'",
+    "otros_nombres": [
+      "Lemon Lime",
+      "Dracaena fragrans Lemon Lime",
+      "Dracaena deremensis Lemon Lime",
+      "Dracaena deremensis"
+    ],
+    "nombre_cientifico": "Dracaena fragrans 'Lemon Lime'",
+    "familia": "Asparagaceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "tolerancia_descuido": 4,
+    "dificultad": "facil",
+    "tamano": "grande",
+    "clases": [
+      "follaje"
+    ],
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Es tropical (las fuentes piden más de 10 a 15 °C): en Buenos Aires vive adentro; al balcón solo en verano, a la sombra."
+    },
+    "luz": {
+      "detalle": "Luz brillante y filtrada, sin sol directo fuerte. Aguanta luz media o baja, aunque crece más lento.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá a fondo cuando la capa de arriba de la tierra esté seca, con agua que no esté fría, y no la dejes con agua en el plato.",
+      "invierno": "Regá menos seguido: dejá la tierra apenas húmeda y evitá encharcarla.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Si el aire está muy seco (calefacción), se le pueden secar las puntas: un humidificador o un plato con piedritas y agua ayudan.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato comercial para plantas de interior, que drene bien y sin mucha perlita, en maceta con agujeros.",
+      "confianza": "alta"
+    },
+    "tip": "Lucí sus rayas verde lima con luz filtrada, y regá con agua de lluvia o filtrada si se le marcan las puntas.",
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [
+          9,
+          10,
+          11
+        ],
+        "detalle": "No necesita poda; si queda débil o muy alta, podés cortarla en primavera para que rebrote."
+      },
+      "propagacion": {
+        "metodos": [
+          "esqueje_tierra",
+          "acodo"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11
+        ],
+        "detalle": "En primavera, plantá un esqueje o un tramo de tallo sin hojas en sustrato, con calorcito. También se puede hacer un acodo aéreo."
+      },
+      "fuentes": [
+        {
+          "titulo": "Dracaena fragrans (Deremensis Group) 'Lemon Lime' (v)",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/119080/dracaena-fragrans-deremensis-group-lemon-lime-v/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Dracaena (HGIC 1504)",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Cultural Guidelines for Commercial Production of Interiorscape Dracaena",
+          "org": "UF/IFAS Extension (EDIS ENH892)",
+          "url": "https://ask.ifas.ufl.edu/publication/EP149/pdf",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "RHS: esquejes y recorte en primavera: se pasó a septiembre a noviembre."
+      ]
+    },
+    "imagen": null,
+    "atribucion_imagen": null,
+    "fotos_extra": [],
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Vómitos (a veces con sangre), decaimiento, falta de apetito y babeo; en gatos, pupilas dilatadas.",
+      "partes": "Toda la planta: hojas, tallos y savia.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Dejala donde tu mascota no pueda morder las hojas. Si la muerde y vomita, babea mucho o la ves decaída, consultá con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Dracaena fragrans (Deremensis Group) 'Lemon Lime' (v)",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/119080/dracaena-fragrans-deremensis-group-lemon-lime-v/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Toxic and Non-toxic Plants: Striped Dracaena",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/striped-dracaena",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Toxic and Non-toxic Plants: Dracaena",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dracaena",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Dracaena fragrans",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/dracaena-fragrans/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Dracaena",
+          "org": "Pet Poison Helpline",
+          "url": "https://www.petpoisonhelpline.com/poison/dracaena/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Dracaena fragrans (Deremensis Group) 'Lemon Lime' (v)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/119080/dracaena-fragrans-deremensis-group-lemon-lime-v/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Dracaena fragrans",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dracaena-fragrans/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Dracaena (HGIC 1504)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow dracaena (RHS Growing Guide)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/dracaena/how-to-grow-dracaena",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Dracaenas",
+        "org": "University of Missouri Extension (IPM)",
+        "url": "https://ipm.missouri.edu/MEG/2021/1/dracaenas-DT",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Cultural Guidelines for Commercial Production of Interiorscape Dracaena",
+        "org": "UF/IFAS Extension (EDIS ENH892)",
+        "url": "https://ask.ifas.ufl.edu/publication/EP149/pdf",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: crecimiento (primavera y verano) de septiembre a febrero; invierno de junio a agosto.",
+      "Temperaturas pasadas de °F a °C cuando hizo falta (redondeadas)."
+    ],
+    "discrepancias": [
+      "Cuidados de la especie y del grupo Deremensis: NC State, RHS y UF/IFAS nombran a Lemon Lime, pero Clemson y Missouri no la mencionan.",
+      "Luz: la ficha RHS dice pleno sol con sombra del sol fuerte adentro y tolera poca luz; UF/IFAS advierte que con mucha luz las variegadas de este grupo pierden dibujo; NC State pide luz filtrada. Se tomó 0 horas.",
+      "Riego: NC State y Missouri piden mantener la tierra algo húmeda en época de crecimiento; Clemson y la guía RHS, dejar secar la parte de arriba. Se tomó dejar secar la superficie, más segura contra la pudrición.",
+      "Sustrato: Clemson y Missouri desaconsejan la perlita (Missouri, por el flúor); la guía RHS la incluye en su mezcla. Se dejó \"sin mucha perlita\".",
+      "Gravedad: NC State la clasifica como baja y ASPCA no da escala; se dejó \"moderada\" con el mismo criterio que el palo de agua ya cargado, sin advertencia grave."
+    ]
+  },
+  {
+    "id": "dracena-janet-craig",
+    "nombre_comun": "Dracena 'Janet Craig'",
+    "otros_nombres": [
+      "Janet Craig",
+      "Dracaena fragrans Janet Craig",
+      "Dracaena deremensis Janet Craig",
+      "Dracaena deremensis"
+    ],
+    "nombre_cientifico": "Dracaena fragrans 'Janet Craig'",
+    "familia": "Asparagaceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "tolerancia_descuido": 4,
+    "dificultad": "facil",
+    "tamano": "grande",
+    "clases": [
+      "follaje"
+    ],
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Es tropical (las fuentes piden más de 10 a 15 °C): en Buenos Aires vive adentro; al balcón solo en verano, a la sombra."
+    },
+    "luz": {
+      "detalle": "Prefiere luz brillante filtrada y se banca muy bien los lugares con poca luz. Cuidala del sol fuerte.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá a fondo cuando la capa de arriba de la tierra esté seca, con agua que no esté fría, y no la dejes con agua en el plato.",
+      "invierno": "Regá menos seguido: dejá la tierra apenas húmeda y evitá encharcarla.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Si el aire está muy seco (calefacción), se le pueden secar las puntas: un humidificador o un plato con piedritas y agua ayudan.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato comercial para plantas de interior, que drene bien y sin mucha perlita, en maceta con agujeros.",
+      "confianza": "alta"
+    },
+    "tip": "Es de las que mejor se bancan los rincones poco luminosos: ahí crece más lento, así que revisá la tierra antes de regar.",
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda; si querés bajarla o que se vea más tupida, podés cortar los tallos."
+      },
+      "propagacion": {
+        "metodos": [
+          "esqueje_tierra",
+          "acodo"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11,
+          2
+        ],
+        "detalle": "En primavera o a fines del verano, plantá la punta o un tramo de tallo sin hojas en sustrato, con calorcito. También sirve el acodo aéreo."
+      },
+      "fuentes": [
+        {
+          "titulo": "Dracaena fragrans 'Janet Craig'",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/58174/dracaena-fragrans-janet-craig/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Dracaena (HGIC 1504)",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Cultural Guidelines for Commercial Production of Interiorscape Dracaena",
+          "org": "UF/IFAS Extension (EDIS ENH892)",
+          "url": "https://ask.ifas.ufl.edu/publication/EP149/pdf",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "Clemson: propagar en primavera o a fines del verano: se pasó a septiembre a noviembre y febrero."
+      ]
+    },
+    "imagen": null,
+    "atribucion_imagen": null,
+    "fotos_extra": [],
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Vómitos (a veces con sangre), decaimiento, falta de apetito y babeo; en gatos, pupilas dilatadas.",
+      "partes": "Toda la planta: hojas, tallos y savia.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Dejala donde tu mascota no pueda morder las hojas. Si la muerde y vomita, babea mucho o la ves decaída, consultá con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Dracaena fragrans 'Janet Craig'",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/58174/dracaena-fragrans-janet-craig/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Toxic and Non-toxic Plants: Striped Dracaena",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/striped-dracaena",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Toxic and Non-toxic Plants: Dracaena",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dracaena",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Dracaena fragrans",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/dracaena-fragrans/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Dracaena",
+          "org": "Pet Poison Helpline",
+          "url": "https://www.petpoisonhelpline.com/poison/dracaena/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Dracaena fragrans 'Janet Craig'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/58174/dracaena-fragrans-janet-craig/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Dracaena (HGIC 1504)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Dracaenas",
+        "org": "University of Missouri Extension (IPM)",
+        "url": "https://ipm.missouri.edu/MEG/2021/1/dracaenas-DT",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Dracaena fragrans",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dracaena-fragrans/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow dracaena (RHS Growing Guide)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/dracaena/how-to-grow-dracaena",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Cultural Guidelines for Commercial Production of Interiorscape Dracaena",
+        "org": "UF/IFAS Extension (EDIS ENH892)",
+        "url": "https://ask.ifas.ufl.edu/publication/EP149/pdf",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Estaciones convertidas: crecimiento (primavera y verano) de septiembre a febrero; invierno de junio a agosto.",
+      "Temperaturas pasadas de °F a °C cuando hizo falta (redondeadas)."
+    ],
+    "discrepancias": [
+      "Altura: Missouri la da en unos 1,2 m adentro; Clemson, hasta 3 m; RHS, 4 a 8 m.",
+      "Luz: la ficha RHS admite pleno sol o media sombra, sin sol fuerte adentro; Missouri destaca que tolera muy poca luz. Se tomó 0 horas.",
+      "Nombre: NC State asocia \"Janet Craig\" también a Compacta; RHS las lista por separado.",
+      "Riego: NC State y Missouri piden mantener la tierra algo húmeda en época de crecimiento; Clemson y la guía RHS, dejar secar la parte de arriba. Se tomó dejar secar la superficie, más segura contra la pudrición.",
+      "Sustrato: Clemson y Missouri desaconsejan la perlita (Missouri, por el flúor); la guía RHS la incluye en su mezcla. Se dejó \"sin mucha perlita\".",
+      "Gravedad: NC State la clasifica como baja y ASPCA no da escala; se dejó \"moderada\" con el mismo criterio que el palo de agua ya cargado, sin advertencia grave."
+    ]
+  },
+  {
+    "id": "dracena-compacta",
+    "nombre_comun": "Dracena 'Compacta'",
+    "otros_nombres": [
+      "Compacta",
+      "Dracaena fragrans Compacta",
+      "Dracaena deremensis Compacta",
+      "Janet Craig Compacta"
+    ],
+    "nombre_cientifico": "Dracaena fragrans 'Compacta'",
+    "familia": "Asparagaceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "tolerancia_descuido": 4,
+    "dificultad": "facil",
+    "tamano": "grande",
+    "clases": [
+      "follaje"
+    ],
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Es tropical (las fuentes piden más de 10 a 15 °C): en Buenos Aires vive adentro; al balcón solo en verano, a la sombra."
+    },
+    "luz": {
+      "detalle": "Luz brillante filtrada; se adapta a lugares con menos luz. El sol fuerte le quema las hojas.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá con moderación cuando la capa de arriba de la tierra esté seca, si podés con agua de lluvia, sin dejar agua en el plato.",
+      "invierno": "Regá poco y dejá que la tierra se oree más entre riegos.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Si el aire está muy seco (calefacción), se le pueden secar las puntas: un humidificador o un plato con piedritas y agua ayudan.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato comercial para plantas de interior, que drene bien y sin mucha perlita, en maceta con agujeros.",
+      "confianza": "alta"
+    },
+    "tip": "Crece muy despacio y casi no pide nada: si podés, usá agua de lluvia para el riego.",
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: solo sacá las hojas secas."
+      },
+      "propagacion": {
+        "metodos": [
+          "esqueje_tierra",
+          "acodo"
+        ],
+        "en_agua": false,
+        "meses": [
+          11,
+          12
+        ],
+        "detalle": "A fines de la primavera o principios del verano, plantá un esqueje de tallo algo maduro en sustrato, con calorcito."
+      },
+      "fuentes": [
+        {
+          "titulo": "Dracaena fragrans (Compacta Group) 'Compacta'",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/73332/dracaena-fragrans-compacta-group-compacta/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Dracaena (HGIC 1504)",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Cultural Guidelines for Commercial Production of Interiorscape Dracaena",
+          "org": "UF/IFAS Extension (EDIS ENH892)",
+          "url": "https://ask.ifas.ufl.edu/publication/EP149/pdf",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "RHS: esquejes a fines de la primavera y principios del verano: se pasó a noviembre y diciembre."
+      ]
+    },
+    "imagen": null,
+    "atribucion_imagen": null,
+    "fotos_extra": [],
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Vómitos (a veces con sangre), decaimiento, falta de apetito y babeo; en gatos, pupilas dilatadas.",
+      "partes": "Toda la planta: hojas, tallos y savia.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Dejala donde tu mascota no pueda morder las hojas. Si la muerde y vomita, babea mucho o la ves decaída, consultá con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Dracaena fragrans (Compacta Group) 'Compacta'",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/73332/dracaena-fragrans-compacta-group-compacta/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Toxic and Non-toxic Plants: Dracaena",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dracaena",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Dracaena fragrans",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/dracaena-fragrans/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Dracaena",
+          "org": "Pet Poison Helpline",
+          "url": "https://www.petpoisonhelpline.com/poison/dracaena/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Dracaena fragrans (Compacta Group) 'Compacta'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/73332/dracaena-fragrans-compacta-group-compacta/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Dracaena fragrans",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/dracaena-fragrans/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Dracaena (HGIC 1504)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow dracaena (RHS Growing Guide)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/dracaena/how-to-grow-dracaena",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Dracaenas",
+        "org": "University of Missouri Extension (IPM)",
+        "url": "https://ipm.missouri.edu/MEG/2021/1/dracaenas-DT",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Cultural Guidelines for Commercial Production of Interiorscape Dracaena",
+        "org": "UF/IFAS Extension (EDIS ENH892)",
+        "url": "https://ask.ifas.ufl.edu/publication/EP149/pdf",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: crecimiento (primavera y verano) de septiembre a febrero; invierno de junio a agosto.",
+      "Temperaturas pasadas de °F a °C cuando hizo falta (redondeadas)."
+    ],
+    "discrepancias": [
+      "Cuidados tomados del género y la especie: Missouri no nombra a Compacta y UF/IFAS solo la lista como \"Janet Craig Compacta\".",
+      "Altura: NC State la da de 0,9 a 1,8 m; RHS, de 1 a 1,5 m.",
+      "Luz: la ficha RHS admite pleno sol o media sombra con reparo del sol fuerte; NC State pide luz filtrada. Se tomó 0 horas.",
+      "Riego: NC State y Missouri piden mantener la tierra algo húmeda en época de crecimiento; Clemson y la guía RHS, dejar secar la parte de arriba. Se tomó dejar secar la superficie, más segura contra la pudrición.",
+      "Sustrato: Clemson y Missouri desaconsejan la perlita (Missouri, por el flúor); la guía RHS la incluye en su mezcla. Se dejó \"sin mucha perlita\".",
+      "Gravedad: NC State la clasifica como baja y ASPCA no da escala; se dejó \"moderada\" con el mismo criterio que el palo de agua ya cargado, sin advertencia grave."
+    ]
+  }
+]

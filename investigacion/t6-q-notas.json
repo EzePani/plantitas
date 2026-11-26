@@ -1,0 +1,428 @@
+{
+  "fuentes": [
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Chamaerops humilis",
+      "url": "https://plants.ces.ncsu.edu/plants/chamaerops-humilis/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, suelo, rusticidad, tamaño, maceta e interior, espinas, hijuelos, propagación; no informa toxicidad",
+      "usado_en": [
+        "palmito"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Chamaerops humilis (dwarf fan palm)",
+      "url": "https://www.rhs.org.uk/plants/3695/i-Chamaerops-humilis-i/Details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Media sombra, luz indirecta adentro, riego, sustrato, H4, sin poda, semilla o retoños",
+      "usado_en": [
+        "palmito"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Palms: hardy",
+      "url": "https://www.rhs.org.uk/plants/types/trees/hardy-palms",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Rusticidad, suelo, poda de hojas secas, división de retoños y semilla",
+      "usado_en": [
+        "palmito",
+        "palmera-excelsa"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Indoor Palms",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-palms/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "3 a 4 h de sol directo para Chamaerops; cuidados generales de palmeras de interior",
+      "usado_en": [
+        "palmito"
+      ]
+    },
+    {
+      "org": "Penn State Extension",
+      "titulo": "Palms as Houseplants",
+      "url": "https://extension.psu.edu/palms-as-houseplants",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Chamaerops tolera más sequedad que otras palmeras; hijuelos",
+      "usado_en": [
+        "palmito"
+      ]
+    },
+    {
+      "org": "UF/IFAS Gardening Solutions",
+      "titulo": "European Fan Palm",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/home/plants/trees-and-more/palms-and-cycads/european-fan-palm",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, sequía, maceta, retoños, dientes filosos, rusticidad",
+      "usado_en": [
+        "palmito"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Palms",
+      "url": "https://hgic.clemson.edu/factsheet/palms/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz y suelo de ambas palmeras; riego y poda generales",
+      "usado_en": [
+        "palmito",
+        "palmera-excelsa"
+      ]
+    },
+    {
+      "org": "Herbari Virtual, Universitat de les Illes Balears",
+      "titulo": "Chamaerops humilis (palmito)",
+      "url": "https://herbarivirtual.uib.cat/en/general/365/especie/palmito",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Nombres comunes: palmito, palma de escobas",
+      "usado_en": [
+        "palmito"
+      ]
+    },
+    {
+      "org": "Iowa State University Extension and Outreach",
+      "titulo": "How to Propagate Houseplants by Division and Offsets",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/how-propagate-houseplants-division-and-offsets",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Época de división (principio de primavera), general",
+      "usado_en": [
+        "palmito"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Trachycarpus fortunei",
+      "url": "https://plants.ces.ncsu.edu/plants/trachycarpus-fortunei/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, suelo, rusticidad, tamaño, semilla, viento, no tóxica para gatos y perros",
+      "usado_en": [
+        "palmera-excelsa"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Trachycarpus fortunei (Chusan palm)",
+      "url": "https://www.rhs.org.uk/plants/18291/i-trachycarpus-fortunei-i/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, suelo, H5, tamaño, sin poda, semilla o retoños",
+      "usado_en": [
+        "palmera-excelsa"
+      ]
+    },
+    {
+      "org": "UF/IFAS Gardening Solutions",
+      "titulo": "Windmill Palm",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/trees-and-shrubs/palms-and-cycads/windmill-palm/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Media sombra ideal, riego, poda opcional, rusticidad",
+      "usado_en": [
+        "palmera-excelsa"
+      ]
+    },
+    {
+      "org": "Herbari Virtual, Universitat de les Illes Balears",
+      "titulo": "Trachycarpus fortunei (palmito elevado)",
+      "url": "https://herbarivirtual.uib.cat/en/general/528/especie/palmito-elevado",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Nombres: palmito elevado, palmera china de abanico, de molino de viento; palmera excelsa en catalán",
+      "usado_en": [
+        "palmera-excelsa"
+      ]
+    },
+    {
+      "org": "Universidad de Valladolid, Campus de Palencia",
+      "titulo": "Trachycarpus fortunei: Palmera de Fortune, Palmito elevado",
+      "url": "https://www.palencia.uva.es/wp-content/uploads/2026/04/Trachycarpus-fortunei_rv.pdf",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Nombres palmera de Fortune y palmito elevado; frío, suelo, pecíolo espinoso",
+      "usado_en": [
+        "palmera-excelsa"
+      ]
+    },
+    {
+      "org": "Instituto de Estudios Albacetenses (Jardín Botánico)",
+      "titulo": "Trachycarpus fortunei: palmito chino, palmito gigante",
+      "url": "https://iealbacetenses.com/files/portalcontenidos/396/documentos/15.pdf",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Nombres palmito chino y palmito gigante; un solo tronco",
+      "usado_en": [
+        "palmera-excelsa"
+      ]
+    },
+    {
+      "org": "EcuRed (enciclopedia colaborativa; solo para nombres comunes)",
+      "titulo": "Palma de jardín",
+      "url": "https://www.ecured.cu/Palma_de_jard%C3%ADn",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Solo nombres comunes, incluido palmera excelsa (fuente colaborativa)",
+      "usado_en": [
+        "palmera-excelsa"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Toxic and Non-toxic Plants: Windmill Palm",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/windmill-palm",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "No tóxica para perros y gatos",
+      "usado_en": [
+        "palmera-excelsa"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Dracaena fragrans 'Massangeana' (v)",
+      "url": "https://www.rhs.org.uk/plants/79003/dracaena-fragrans-massangeana-v/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Ficha de Massangeana: luz, riego, tamaño, poda, propagación, dañina para mascotas",
+      "usado_en": [
+        "palo-de-agua-massangeana"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Dracaena fragrans",
+      "url": "https://plants.ces.ncsu.edu/plants/dracaena-fragrans/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Cultivares, luz, riego, humedad, sustrato, temperatura, toxicidad baja",
+      "usado_en": [
+        "palo-de-agua-massangeana",
+        "dracena-lemon-lime",
+        "dracena-janet-craig",
+        "dracena-compacta"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Dracaena (HGIC 1504)",
+      "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Cuidados del género, cultivares Massangeana, Janet Craig y Compacta, poda y propagación",
+      "usado_en": [
+        "palo-de-agua-massangeana",
+        "dracena-lemon-lime",
+        "dracena-janet-craig",
+        "dracena-compacta"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow dracaena (RHS Growing Guide)",
+      "url": "https://www.rhs.org.uk/plants/dracaena/how-to-grow-dracaena",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, humedad, sustrato, poda, esquejes, tóxicas para mascotas",
+      "usado_en": [
+        "palo-de-agua-massangeana",
+        "dracena-lemon-lime",
+        "dracena-janet-craig",
+        "dracena-compacta"
+      ]
+    },
+    {
+      "org": "University of Missouri Extension (IPM)",
+      "titulo": "Dracaenas",
+      "url": "https://ipm.missouri.edu/MEG/2021/1/dracaenas-DT",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Poca luz, riego, flúor y perlita, Massangeana y Janet Craig",
+      "usado_en": [
+        "palo-de-agua-massangeana",
+        "dracena-lemon-lime",
+        "dracena-janet-craig",
+        "dracena-compacta"
+      ]
+    },
+    {
+      "org": "UF/IFAS Extension (EDIS ENH892)",
+      "titulo": "Cultural Guidelines for Commercial Production of Interiorscape Dracaena",
+      "url": "https://ask.ifas.ufl.edu/publication/EP149/pdf",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Cultivares del grupo deremensis, luz, temperatura, propagación (PDF leído extrayendo el texto)",
+      "usado_en": [
+        "palo-de-agua-massangeana",
+        "dracena-lemon-lime",
+        "dracena-janet-craig",
+        "dracena-compacta"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Toxic and Non-toxic Plants: Corn Plant",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/corn-plant",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Dracaena fragrans tóxica para perros y gatos",
+      "usado_en": [
+        "palo-de-agua-massangeana"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Toxic and Non-toxic Plants: Dracaena",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dracaena",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Tóxica para perros y gatos (saponinas) y síntomas",
+      "usado_en": [
+        "palo-de-agua-massangeana",
+        "dracena-lemon-lime",
+        "dracena-janet-craig",
+        "dracena-compacta"
+      ]
+    },
+    {
+      "org": "Pet Poison Helpline",
+      "titulo": "Dracaena",
+      "url": "https://www.petpoisonhelpline.com/poison/dracaena/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Saponinas; babeo, vómitos y, en gatos, pupilas dilatadas",
+      "usado_en": [
+        "palo-de-agua-massangeana",
+        "dracena-lemon-lime",
+        "dracena-janet-craig",
+        "dracena-compacta"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Dracaena fragrans (Deremensis Group) 'Lemon Lime' (v)",
+      "url": "https://www.rhs.org.uk/plants/119080/dracaena-fragrans-deremensis-group-lemon-lime-v/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Ficha de Lemon Lime: tamaño, luz, riego, propagación, dañina para mascotas",
+      "usado_en": [
+        "dracena-lemon-lime"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Toxic and Non-toxic Plants: Striped Dracaena",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/striped-dracaena",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "D. deremensis (Janet Craig) tóxica para perros y gatos",
+      "usado_en": [
+        "dracena-lemon-lime",
+        "dracena-janet-craig"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Dracaena fragrans 'Janet Craig'",
+      "url": "https://www.rhs.org.uk/plants/58174/dracaena-fragrans-janet-craig/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Ficha de Janet Craig: tamaño, luz, propagación, dañina para mascotas",
+      "usado_en": [
+        "dracena-janet-craig"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Dracaena fragrans (Compacta Group) 'Compacta'",
+      "url": "https://www.rhs.org.uk/plants/73332/dracaena-fragrans-compacta-group-compacta/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Ficha de Compacta: tamaño, luz, riego, propagación, dañina para mascotas",
+      "usado_en": [
+        "dracena-compacta"
+      ]
+    },
+    {
+      "org": "Revista sobre Estudios e Investigaciones del Saber Académico (autores del INTA)",
+      "titulo": "Estudios exploratorios para la producción de palmito en Misiones, Argentina",
+      "url": "https://revistas.uni.edu.py/index.php/rseisa/article/view/175",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "En Argentina \"palmito\" nombra a Euterpe edulis, usada para palmito en conserva",
+      "usado_en": [
+        "palmito"
+      ]
+    }
+  ],
+  "revisar": [
+    {
+      "id": "palmito",
+      "dato": "nombre",
+      "motivo": "\"Palmito\" es ambiguo: Chamaerops humilis (ornamental, herbario balear) y Euterpe edulis (nativa de Misiones, comestible, INTA). Se eligió la ornamental.",
+      "fuentes": [
+        "https://herbarivirtual.uib.cat/en/general/365/especie/palmito",
+        "https://revistas.uni.edu.py/index.php/rseisa/article/view/175"
+      ]
+    },
+    {
+      "id": "palmito",
+      "dato": "toxicidad",
+      "motivo": "No verificada: no figura en los listados de ASPCA para gatos y perros y NC State no informa toxicidad.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/chamaerops-humilis/"
+      ]
+    },
+    {
+      "id": "palmito",
+      "dato": "horas_sol_directo",
+      "motivo": "Fuentes de pleno sol a media sombra; se tomaron 3 horas sin sol de tarde (conservador).",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/indoor-palms/"
+      ]
+    },
+    {
+      "id": "palmito",
+      "dato": "cultivo.propagacion.meses",
+      "motivo": "Época tomada de una guía general de división, no específica de la palmera.",
+      "fuentes": [
+        "https://yardandgarden.extension.iastate.edu/how-to/how-propagate-houseplants-division-and-offsets"
+      ]
+    },
+    {
+      "id": "palmera-excelsa",
+      "dato": "nombre",
+      "motivo": "\"Palmera excelsa\" solo con respaldo débil (EcuRed y nombre catalán): el nombre principal quedó \"Palmito elevado\".",
+      "fuentes": [
+        "https://www.ecured.cu/Palma_de_jard%C3%ADn"
+      ]
+    },
+    {
+      "id": "palmera-excelsa",
+      "dato": "humedad",
+      "motivo": "Ninguna fuente da pauta de humedad.",
+      "fuentes": []
+    },
+    {
+      "id": "palmera-excelsa",
+      "dato": "apta.interior",
+      "motivo": "Marcada solo exterior; RHS la admite en invernadero templado.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/18291/i-trachycarpus-fortunei-i/details"
+      ]
+    },
+    {
+      "id": "dracena-lemon-lime",
+      "dato": "cuidados",
+      "motivo": "Sin guía propia de cultivo más allá de la ficha RHS: se completó con la especie y el género.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/119080/dracaena-fragrans-deremensis-group-lemon-lime-v/details"
+      ]
+    },
+    {
+      "id": "dracena-compacta",
+      "dato": "cuidados",
+      "motivo": "Datos propios solo de RHS y NC State; el resto del género.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/73332/dracaena-fragrans-compacta-group-compacta/details"
+      ]
+    },
+    {
+      "id": "dracena-janet-craig",
+      "dato": "fotos",
+      "motivo": "Una sola foto abierta identificada como Janet Craig (en flor).",
+      "fuentes": [
+        "https://commons.wikimedia.org/wiki/File:Dracaena_Deremensis_Janet_Craig_Flowering.jpg"
+      ]
+    }
+  ],
+  "no_pude_abrir": [
+    "https://www.zaragoza.es/sede/servicio/especie/136 (conexión rechazada)",
+    "https://www.zaragoza.es/sede/servicio/especie/102 (conexión rechazada)",
+    "https://verd-urba.diba.cat/printpdf/353 (conexión rechazada)",
+    "https://www.dipucadiz.es (503)",
+    "https://buenosaires.gob.ar/gcaba_historico/... (503)",
+    "https://www.redalyc.org/journal/481/48160748003/html/ (503)",
+    "https://www.asturnatura.com/fichas/palmito-gigante.html (403)"
+  ]
+}

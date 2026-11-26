@@ -1,0 +1,353 @@
+{
+  "filodendro-brasil": {
+    "porte": [
+      "trepadora",
+      "colgante"
+    ],
+    "tutor": {
+      "recomendado": "opcional",
+      "detalle": "Queda lindo colgando; si querés que trepe, dale un tutor de musgo o un enrejado."
+    },
+    "poda": {
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "En primavera cortá las guías largas justo después de un nudo para que quede más tupido."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_agua",
+        "esqueje_tierra"
+      ],
+      "en_agua": true,
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "Cortá un tramo de tallo de unos 10 cm debajo de un nudo, sacale las hojas de abajo y ponelo en agua o en tierra húmeda."
+    },
+    "fuentes": [
+      {
+        "titulo": "How to grow philodendrons",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/philodendron/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Growing Philodendrons at Home",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-philodendrons-home",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "I “Heart” Philodendrons",
+        "org": "University of Connecticut Extension",
+        "url": "https://homegarden.cahnr.uconn.edu/2026/03/28/philodendrons/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Philodendron hederaceum 'Brasil' (v)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/382446/philodendron-hederaceum-brasil-(v)/details",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Poda de primavera: septiembre a noviembre. Esquejes de primavera a fin del verano: septiembre a febrero.",
+      "Poda, tutor y esquejes vienen de guías del género y de la especie."
+    ]
+  },
+  "filodendro-micans": {
+    "porte": [
+      "trepadora",
+      "colgante"
+    ],
+    "tutor": {
+      "recomendado": "opcional",
+      "detalle": "Puede colgar, pero con un tutor de musgo trepa y con el tiempo da hojas más grandes."
+    },
+    "poda": {
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "Si querés controlar el largo o que se vea más tupido, recortá en primavera después de un nudo."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_agua",
+        "esqueje_tierra",
+        "acodo"
+      ],
+      "en_agua": true,
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "En primavera o verano cortá un tramo de tallo con nudos y ponelo en agua o en sustrato húmedo. En primavera también se puede hacer acodo."
+    },
+    "fuentes": [
+      {
+        "titulo": "Philodendron hederaceum var. hederaceum",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/254662/philodendron-hederaceum-var-hederaceum/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow philodendrons",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/philodendron/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Philodendron",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/philodendron/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Growing Philodendrons at Home",
+        "org": "Iowa State University Extension and Outreach",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-philodendrons-home",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Esquejes de verano (RHS) y de primavera a fin del verano (guía RHS): septiembre a febrero. Poda y acodo de primavera: septiembre a noviembre.",
+      "El enraizado en agua viene de las guías del género y de la especie."
+    ]
+  },
+  "tradescantia-fluminensis": {
+    "porte": [
+      "colgante"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "Pellizcá las puntas cuando se estire; si es variegada, sacá los brotes que salgan lisos y verdes."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_agua",
+        "esqueje_tierra"
+      ],
+      "en_agua": true,
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "Cortá una puntita de 5 a 8 cm y ponela en agua o en sustrato: enraíza fácil por los nudos."
+    },
+    "fuentes": [
+      {
+        "titulo": "Tradescantia fluminensis",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/114378/tradescantia-fluminensis/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Tradescantia fluminensis 'Maiden's Blush'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/140077/tradescantia-fluminensis-maidens-blush/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Tradescantia fluminensis",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/tradescantia-fluminensis/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Tradescantia zebrina",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/tradescantia-zebrina/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Esquejes de primavera y verano: septiembre a febrero.",
+      "El enraizado en agua viene de la ficha RHS del cultivar 'Maiden's Blush' y de Wisconsin para tradescantias."
+    ]
+  },
+  "tradescantia-pallida": {
+    "porte": [
+      "colgante"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "Pellizcá las puntas para que ramifique y recortala después de florecer si quedó desgarbada."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_agua",
+        "esqueje_tierra"
+      ],
+      "en_agua": true,
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "Cortá una puntita con un nudo y clavala en sustrato suelto o dejala en agua hasta que saque raíces."
+    },
+    "fuentes": [
+      {
+        "titulo": "Tradescantia pallida",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/92332/tradescantia-pallida/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Purple Heart, Tradescantia pallida",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/purple-heart-tradescantia-pallida/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Tradescantia pallida",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/tradescantia-pallida/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Esquejes de primavera y verano: septiembre a febrero."
+    ]
+  },
+  "tradescantia-sillamontana": {
+    "porte": [
+      "colgante",
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "Pellizcá las puntas para que ramifique y recortala después de florecer."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_agua",
+        "esqueje_tierra"
+      ],
+      "en_agua": true,
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "Cortá una punta de tallo y ponela en sustrato o en agua hasta que saque raíces."
+    },
+    "fuentes": [
+      {
+        "titulo": "Tradescantia sillamontana",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/18298/tradescantia-sillamontana/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Tradescantia sillamontana",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/tradescantia-sillamontana/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Esquejes de primavera y verano: septiembre a febrero."
+    ]
+  },
+  "cinta-bonnie": {
+    "porte": [
+      "roseta",
+      "colgante"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: sacá las hojas secas y, si no querés hijitos, cortá las varas cuando terminen de florecer."
+    },
+    "propagacion": {
+      "metodos": [
+        "hijuelos",
+        "division"
+      ],
+      "en_agua": true,
+      "meses": [],
+      "detalle": "Apoyá un hijito sobre una macetita con tierra y cortá el tallo cuando haya prendido, o dejalo en un vaso con agua hasta que alargue las raíces. Las matas grandes se dividen."
+    },
+    "fuentes": [
+      {
+        "titulo": "Chlorophytum comosum 'Bonnie' (v)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/191491/chlorophytum-comosum-bonnie-pbr-v/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow spider plants",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/spider-plants/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Spider plant, Chlorophytum comosum",
+        "org": "University of Wisconsin-Madison Extension",
+        "url": "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Spider Plant",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/spider-plant/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Chlorophytum comosum",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Propagación tomada de la ficha RHS de 'Bonnie' y de guías de la especie. Las fuentes no dan una época clara para el hemisferio sur."
+    ]
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "filodendro-hastatum": {
+    "porte": [
+      "trepadora"
+    ],
+    "tutor": {
+      "recomendado": "si",
+      "detalle": "Ponele un tutor de musgo o un enrejado para que trepe; si el tutor es de musgo, mantenelo húmedo."
+    },
+    "poda": {
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "Si querés controlar el tamaño, recortá en primavera justo por encima de una hoja."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_agua",
+        "esqueje_tierra",
+        "acodo"
+      ],
+      "en_agua": true,
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "Cortá un tramo de tallo de unos 10 cm por debajo de un nudo, sacale las hojas de abajo y ponelo en agua o en tierra suelta hasta que saque raíces."
+    },
+    "fuentes": [
+      {
+        "titulo": "Philodendron hastatum",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/philodendron-hastatum/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Philodendron: growing guide",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/philodendron/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Philodendron",
+        "org": "UConn Home & Garden Education Center",
+        "url": "https://homegarden.cahnr.uconn.edu/factsheets/philodendron",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "RHS indica multiplicar de primavera a fines de verano (hemisferio norte): se pasó a septiembre a febrero.",
+      "La poda de primavera de RHS se pasó a septiembre a noviembre."
+    ]
+  },
+  "filodendro-domesticum": {
+    "porte": [
+      "trepadora"
+    ],
+    "tutor": {
+      "recomendado": "si",
+      "detalle": "Es trepadora: guiala por un tutor de musgo o un enrejado firme."
+    },
+    "poda": {
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "Si se va de tamaño, recortala en primavera justo por encima de una hoja."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_agua",
+        "esqueje_tierra",
+        "acodo"
+      ],
+      "en_agua": true,
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "Cortá un tramo de tallo por debajo de un nudo y ponelo en agua o en tierra suelta; si está muy larga y pelada abajo, también se puede hacer un acodo aéreo."
+    },
+    "fuentes": [
+      {
+        "titulo": "Philodendron: growing guide",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/philodendron/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Philodendron",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/philodendron/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Philodendron",
+        "org": "UConn Home & Garden Education Center",
+        "url": "https://homegarden.cahnr.uconn.edu/factsheets/philodendron",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "RHS indica multiplicar de primavera a fines de verano (hemisferio norte): se pasó a septiembre a febrero.",
+      "La poda de primavera de RHS se pasó a septiembre a noviembre.",
+      "Los métodos y épocas son los del género Philodendron para tipos trepadores."
+    ]
+  },
+  "filodendro-birkin": {
+    "porte": [
+      "erguida",
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo sacá las hojas secas."
+    },
+    "propagacion": {
+      "metodos": [
+        "hijuelos",
+        "esqueje_tierra"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "Si saca hijuelos, separalos con raíces; también se puede plantar un tramo de tallo con al menos dos nudos, mejor si tiene raíces aéreas."
+    },
+    "fuentes": [
+      {
+        "titulo": "Growing Philodendrons at Home",
+        "org": "Iowa State University Extension",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-philodendrons-home",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Philodendron: growing guide",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/philodendron/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Philodendron 'Birkin'",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/philodendron-birkin/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Philodendron",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/philodendron/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "baja",
+    "adaptaciones": [
+      "RHS indica multiplicar de primavera a fines de verano (hemisferio norte): se pasó a septiembre a febrero.",
+      "Multiplicación tomada de la guía para filodendros no trepadores (Iowa State), no es específica de este cultivar; no hay fuente de que sus hijos conserven el dibujo de las hojas."
+    ]
+  },
+  "filodendro-rojo-congo": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo sacá las hojas secas."
+    },
+    "propagacion": {
+      "metodos": [
+        "hijuelos",
+        "esqueje_tierra"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "En vivero se multiplica en laboratorio; en casa podés separar hijuelos si aparecen o plantar un tramo de tallo con al menos dos nudos, sin garantía de que prenda."
+    },
+    "fuentes": [
+      {
+        "titulo": "Philodendron plant named 'Rojo Congo' (USPP14116P3)",
+        "org": "Oficina de Patentes de EE. UU. (vía Google Patents)",
+        "url": "https://patents.google.com/patent/USPP14116P3/en",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Growing Philodendrons at Home",
+        "org": "Iowa State University Extension",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-philodendrons-home",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Philodendron: growing guide",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/philodendron/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "baja",
+    "adaptaciones": [
+      "RHS indica multiplicar de primavera a fines de verano (hemisferio norte): se pasó a septiembre a febrero.",
+      "Multiplicación casera tomada de la guía para filodendros no trepadores (Iowa State), no es específica de este cultivar; la patente solo describe cultivo de tejidos."
+    ]
+  }
+}

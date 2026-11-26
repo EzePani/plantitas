@@ -1,0 +1,1145 @@
+[
+  {
+    "id": "calatea-roseopicta",
+    "nombre_comun": "Calatea roseopicta",
+    "otros_nombres": [
+      "Calathea roseopicta",
+      "Goeppertia roseopicta"
+    ],
+    "nombre_cientifico": "Goeppertia roseopicta (sin. Calathea roseopicta)",
+    "familia": "Marantaceae",
+    "grupo": "amiga_humedad",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Quiere luz brillante pero filtrada. El sol directo le apaga y le quema las hojas, y con muy poca luz crece débil.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Mantené la tierra pareja de húmeda, sin encharcar; si podés, usá agua de lluvia o de la canilla reposada un día.",
+      "invierno": "Regá menos: dejá que se seque la superficie antes de volver a regar, sin que la tierra se seque del todo.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Necesita aire húmedo y sin corrientes. Juntala con otras plantas o apoyá la maceta sobre una bandeja ancha con piedritas y agua, sin que la base quede sumergida.",
+      "confianza": "alta"
+    },
+    "sustrato": {
+      "tipo": "Sustrato para plantas de interior suelto y rico en materia orgánica, que retenga humedad pero drene bien (con perlita o grava fina).",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 1,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Quiere calor parejo (nunca menos de unos 16 °C) y nada de corrientes de aire: en Buenos Aires va mejor adentro todo el año."
+    },
+    "tamano": "mediana",
+    "dificultad": "dificil",
+    "tip": "Pasale cada tanto un trapo húmedo a las hojas: así las líneas rosadas se lucen y respira mejor.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "roseta"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: solo cortá al ras las hojas secas o dañadas con una tijera limpia."
+      },
+      "propagacion": {
+        "metodos": [
+          "division"
+        ],
+        "en_agua": false,
+        "meses": [
+          10,
+          11
+        ],
+        "detalle": "Dividí la mata en primavera: separá el pan de raíces en partes con varias hojas y raíces cada una. Después tenelas en un lugar cálido y húmedo hasta que vuelvan a crecer."
+      },
+      "fuentes": [
+        {
+          "titulo": "Goeppertia roseopicta",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/357231/goeppertia-roseopicta/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Goeppertia roseopicta",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/goeppertia-roseopicta/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "How to grow calatheas",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "Las fuentes dicen fines de primavera o primavera (hemisferio norte): se pasó a octubre y noviembre."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Según las fuentes no es tóxica para gatos ni perros. Igual, si mastican hojas en cantidad les puede caer mal, así que mejor que no sea su juguete.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Calathea (Calathea spp.)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/calathea",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Goeppertia roseopicta",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/goeppertia-roseopicta/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "A Painterly Plant, Goeppertia roseopicta",
+          "org": "University of California Agriculture and Natural Resources",
+          "url": "https://ucanr.edu/blog/under-solano-sun/article/painterly-plant-goeppertia-roseopicta",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Goeppertia roseopicta",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/goeppertia-roseopicta/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Goeppertia roseopicta",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/357231/goeppertia-roseopicta/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow calatheas",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "A Painterly Plant, Goeppertia roseopicta",
+        "org": "University of California Agriculture and Natural Resources",
+        "url": "https://ucanr.edu/blog/under-solano-sun/article/painterly-plant-goeppertia-roseopicta",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS recomienda ventana norte o este en verano y sur en invierno (hemisferio norte): en Buenos Aires es al revés, sur o este en verano (diciembre a febrero) y norte en invierno (junio a agosto), siempre sin sol directo.",
+      "Estaciones convertidas: crecimiento de septiembre a marzo e invierno de junio a agosto, cuando además la calefacción seca el aire.",
+      "Los 65 °F que piden NC State y la Universidad de California equivalen a unos 18 °C; para el balcón se usó el mínimo de 16 °C de RHS."
+    ],
+    "discrepancias": [
+      "Luz: NC State la anota como sombra parcial (2 a 6 h de sol directo), pero su texto, RHS y la Universidad de California piden luz indirecta. Se tomó 0 horas de sol directo.",
+      "Tamaño: RHS la describe de unos 25 cm (rango 10 a 50 cm) y NC State y la Universidad de California la dan de 30 a 60 cm; se dejó 'mediana'.",
+      "Toxicidad: ASPCA no tiene ficha de la especie, sí del género Calathea (su nombre anterior); NC State y la Universidad de California la marcan no tóxica (esta última avisa que la savia puede irritar pieles sensibles)."
+    ]
+  },
+  {
+    "id": "calatea-lancifolia",
+    "nombre_comun": "Calatea lancifolia",
+    "otros_nombres": [
+      "Calathea lancifolia",
+      "Goeppertia insignis",
+      "Calathea insignis",
+      "Goeppertia lancifolia",
+      "Serpiente de cascabel",
+      "Rattlesnake plant"
+    ],
+    "nombre_cientifico": "Goeppertia insignis (sin. Calathea lancifolia)",
+    "familia": "Marantaceae",
+    "grupo": "amiga_humedad",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Le va bien un lugar luminoso con luz filtrada, sin sol fuerte. Con muy poca luz crece débil.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Mantené la tierra pareja de húmeda, sin que quede empapada; si podés, usá agua de lluvia o de la canilla reposada un día.",
+      "invierno": "Regá menos: dejá que se seque la superficie antes de volver a regar, sin que la tierra se seque del todo.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Necesita aire húmedo y sin corrientes. Juntala con otras plantas o apoyá la maceta sobre una bandeja ancha con piedritas y agua, sin que la base quede sumergida.",
+      "confianza": "alta"
+    },
+    "sustrato": {
+      "tipo": "Sustrato para plantas de interior suelto y rico en materia orgánica, que retenga humedad pero drene bien (con perlita o grava fina).",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 1,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Quiere calor parejo (nunca menos de unos 16 °C) y nada de corrientes de aire: en Buenos Aires va mejor adentro todo el año."
+    },
+    "tamano": "mediana",
+    "dificultad": "dificil",
+    "tip": "Si ves que de noche levanta las hojas, tranqui: se mueven así y a la mañana vuelven a abrirse.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "roseta"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: solo cortá al ras las hojas secas o dañadas con una tijera limpia."
+      },
+      "propagacion": {
+        "metodos": [
+          "division"
+        ],
+        "en_agua": false,
+        "meses": [
+          10,
+          11
+        ],
+        "detalle": "Dividí la mata en primavera: separá el pan de raíces en partes con varias hojas y raíces cada una. Después tenelas en un lugar cálido y húmedo hasta que vuelvan a crecer."
+      },
+      "fuentes": [
+        {
+          "titulo": "Goeppertia insignis (rattlesnake plant)",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/386634/goeppertia-insignis/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Goeppertia insignis",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/goeppertia-insignis/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "How to grow calatheas",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "Las fuentes dicen fines de primavera o primavera (hemisferio norte): se pasó a octubre y noviembre."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Según las fuentes no es tóxica para gatos ni perros. Igual, si mastican hojas en cantidad les puede caer mal, así que mejor que no sea su juguete.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Prayer Plant (Calathea insignis)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/prayer-plant",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Calathea (Calathea spp.)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/calathea",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Goeppertia insignis",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/goeppertia-insignis/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Goeppertia insignis",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/goeppertia-insignis/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Goeppertia insignis (rattlesnake plant)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/386634/goeppertia-insignis/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow calatheas",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS recomienda ventana norte o este en verano y sur en invierno (hemisferio norte): en Buenos Aires es al revés, sur o este en verano (diciembre a febrero) y norte en invierno (junio a agosto), siempre sin sol directo.",
+      "Estaciones convertidas: crecimiento de septiembre a marzo e invierno de junio a agosto, cuando además la calefacción seca el aire.",
+      "Los 65 a 75 °F de NC State equivalen a unos 18 a 24 °C; para el balcón se usó el mínimo de 16 °C de RHS."
+    ],
+    "discrepancias": [
+      "Nombre: RHS y NC State aceptan Goeppertia insignis y dan Calathea lancifolia, Calathea insignis y Goeppertia lancifolia como sinónimos. RHS conserva además una ficha aparte de Goeppertia lancifolia, marcada como sinónimo.",
+      "Luz: NC State admite sol suave de primera hora; RHS pide luz indirecta o filtrada. Se tomó 0 horas de sol directo.",
+      "Tamaño: NC State la da de unos 45 cm adentro y RHS de 50 cm a 1 m; se dejó 'mediana'.",
+      "Nombres: 'Serpiente de cascabel' es la traducción de uso común del nombre inglés; no se confirmó con una fuente argentina."
+    ]
+  },
+  {
+    "id": "calatea-ornata",
+    "nombre_comun": "Calatea ornata",
+    "otros_nombres": [
+      "Calathea ornata",
+      "Goeppertia ornata",
+      "Pinstripe"
+    ],
+    "nombre_cientifico": "Goeppertia ornata (sin. Calathea ornata)",
+    "familia": "Marantaceae",
+    "grupo": "amiga_humedad",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Quiere luz brillante pero indirecta. El sol directo le quema las hojas y con muy poca luz crece débil.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Mantené la tierra húmeda pero nunca empapada, y no la dejes secar; si podés, usá agua de lluvia o de la canilla reposada un día.",
+      "invierno": "Regá menos: dejá que se seque la superficie antes de volver a regar, sin que la tierra se seque del todo.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Necesita aire húmedo y sin corrientes. Juntala con otras plantas o apoyá la maceta sobre una bandeja ancha con piedritas y agua, sin que la base quede sumergida. Apuntá a un 60 % de humedad.",
+      "confianza": "alta"
+    },
+    "sustrato": {
+      "tipo": "Sustrato para plantas de interior suelto y rico en materia orgánica, que retenga humedad pero drene bien (con perlita o grava fina).",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 1,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Quiere calor parejo (nunca menos de unos 16 °C) y nada de corrientes de aire: en Buenos Aires va mejor adentro todo el año."
+    },
+    "tamano": "mediana",
+    "dificultad": "dificil",
+    "tip": "Sus rayitas finas se ven mejor con las hojas limpias: un trapo húmedo suave cada tanto alcanza.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: sacá las hojas secas y, si florece, cortá la vara cuando termine."
+      },
+      "propagacion": {
+        "metodos": [
+          "division"
+        ],
+        "en_agua": false,
+        "meses": [
+          10,
+          11
+        ],
+        "detalle": "Dividí la mata en primavera: separá el pan de raíces en partes con varias hojas y raíces cada una. Después tenelas en un lugar cálido y húmedo hasta que vuelvan a crecer."
+      },
+      "fuentes": [
+        {
+          "titulo": "Goeppertia ornata",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/357192/goeppertia-ornata/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Goeppertia ornata",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/goeppertia-ornata/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "How to grow calatheas",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "Las fuentes dicen fines de primavera o primavera (hemisferio norte): se pasó a octubre y noviembre."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Según las fuentes no es tóxica para gatos ni perros. Igual, si mastican hojas en cantidad les puede caer mal, así que mejor que no sea su juguete.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Calathea (Calathea spp.)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/calathea",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Goeppertia ornata",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/goeppertia-ornata/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Goeppertia ornata",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/goeppertia-ornata/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Goeppertia ornata",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/357192/goeppertia-ornata/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow calatheas",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS recomienda ventana norte o este en verano y sur en invierno (hemisferio norte): en Buenos Aires es al revés, sur o este en verano (diciembre a febrero) y norte en invierno (junio a agosto), siempre sin sol directo.",
+      "Estaciones convertidas: crecimiento de septiembre a marzo e invierno de junio a agosto, cuando además la calefacción seca el aire.",
+      "Los 65 a 75 °F de NC State equivalen a unos 18 a 24 °C; para el balcón se usó el mínimo de 16 °C de RHS."
+    ],
+    "discrepancias": [
+      "Luz: NC State menciona sombra parcial con 2 a 6 h de sol directo; RHS pide luz indirecta o filtrada. Se tomó 0 horas.",
+      "Tamaño: las fuentes la dan de 30 cm a 1 m; se dejó 'mediana'.",
+      "Toxicidad: ASPCA no tiene ficha de la especie, sí del género Calathea (su nombre anterior); NC State la marca no tóxica."
+    ]
+  },
+  {
+    "id": "maranta-erythroneura",
+    "nombre_comun": "Maranta 'Erythroneura'",
+    "otros_nombres": [
+      "Erythroneura",
+      "Maranta leuconeura erythroneura",
+      "Maranta erythroneura",
+      "Maranta Tricolor",
+      "Herringbone plant"
+    ],
+    "nombre_cientifico": "Maranta leuconeura var. erythroneura",
+    "familia": "Marantaceae",
+    "grupo": "amiga_humedad",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Luce mejor con luz brillante filtrada. Aguanta luz media o baja, pero el sol directo le decolora las venas rojas y el dibujo.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Mantené la tierra apenas húmeda todo el tiempo, sin encharcar y sin dejar agua acumulada en el centro de la mata.",
+      "invierno": "Regá menos seguido y dejá que la tierra se seque un poco más, sin que quede seca del todo.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Necesita aire húmedo: con la calefacción del invierno se resiente. Ayuda un humidificador o apoyarla sobre una bandeja con piedritas húmedas.",
+      "confianza": "alta"
+    },
+    "sustrato": {
+      "tipo": "Sustrato para plantas de interior suelto, que retenga algo de humedad y drene bien, en maceta con agujeros.",
+      "confianza": "media"
+    },
+    "tolerancia_descuido": 2,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "No aguanta el frío ni las corrientes de aire, y el sol directo le decolora las hojas: mejor adentro todo el año."
+    },
+    "tamano": "chica",
+    "dificultad": "media",
+    "tip": "De noche pliega las hojas hacia arriba como rezando: es normal y es parte de su gracia.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "roseta"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: solo cortá al ras las hojas secas o dañadas con una tijera limpia."
+      },
+      "propagacion": {
+        "metodos": [
+          "division"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11
+        ],
+        "detalle": "Se multiplica en primavera dividiendo la mata por los rizomas: dejá raíces y hojas en cada parte y tenelas cálidas y húmedas."
+      },
+      "fuentes": [
+        {
+          "titulo": "Maranta leuconeura var. erythroneura",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/56852/maranta-leuconeura-var-erythroneura/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Maranta leuconeura",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/maranta-leuconeura/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "RHS indica dividir en primavera (hemisferio norte): se pasó a septiembre a noviembre."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "no_verificada",
+      "toxicidad_perro": "no_verificada",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "No encontramos una ficha confiable para esta planta, así que no podemos asegurar que sea segura: por las dudas, tenela fuera del alcance de tu mascota.",
+      "advertencia_grave": null,
+      "confianza": "baja",
+      "fuentes_toxicidad": []
+    },
+    "fuentes": [
+      {
+        "titulo": "Maranta leuconeura var. erythroneura",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/56852/maranta-leuconeura-var-erythroneura/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Maranta leuconeura",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/maranta-leuconeura/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Prayer Plant",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/prayer-plant",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: crecimiento de septiembre a marzo e invierno de junio a agosto."
+    ],
+    "discrepancias": [
+      "Luz: NC State tolera luz baja a media y Illinois pide luz brillante filtrada; se tomó luz brillante indirecta como ideal y sin sol directo.",
+      "Nombre: RHS la trata como variedad, con 'Tricolor' como sinónimo; NC State incluye var. erythroneura entre los nombres anteriores de la especie. Los cuidados de NC State e Illinois son de la especie.",
+      "Toxicidad: no hay ficha de ASPCA de Maranta leuconeura ni de sus variedades. Las páginas de ASPCA 'Maranta', 'Red Veined Prayer' y 'Prayer Plant' llevan el nombre Calathea insignis, que es otra especie, y NC State no informa toxicidad: queda sin verificar, igual que la maranta ya cargada."
+    ]
+  },
+  {
+    "id": "maranta-kerchoveana",
+    "nombre_comun": "Maranta 'Kerchoveana'",
+    "otros_nombres": [
+      "Kerchoveana",
+      "Maranta leuconeura kerchoveana",
+      "Maranta kerchoveana"
+    ],
+    "nombre_cientifico": "Maranta leuconeura var. kerchoveana",
+    "familia": "Marantaceae",
+    "grupo": "amiga_humedad",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Luce mejor con luz brillante filtrada. Aguanta luz media o baja, pero el sol directo le decolora las manchas.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Mantené la tierra apenas húmeda todo el tiempo, sin encharcar y sin dejar agua acumulada en el centro de la mata.",
+      "invierno": "Regá menos seguido y dejá que la tierra se seque un poco más, sin que quede seca del todo.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Necesita aire húmedo: con la calefacción del invierno se resiente. Ayuda un humidificador o apoyarla sobre una bandeja con piedritas húmedas.",
+      "confianza": "alta"
+    },
+    "sustrato": {
+      "tipo": "Sustrato para plantas de interior suelto, que retenga algo de humedad y drene bien, en maceta con agujeros. Tiene raíces poco profundas, así que le va una maceta baja.",
+      "confianza": "media"
+    },
+    "tolerancia_descuido": 2,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "No aguanta el frío ni las corrientes de aire, y el sol directo le decolora las hojas: mejor adentro todo el año."
+    },
+    "tamano": "chica",
+    "dificultad": "media",
+    "tip": "Elegile una maceta baja y ancha: sus raíces son superficiales y así se extiende cómoda.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "roseta"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: solo cortá al ras las hojas secas o dañadas con una tijera limpia."
+      },
+      "propagacion": {
+        "metodos": [
+          "division",
+          "esqueje_tierra"
+        ],
+        "en_agua": false,
+        "meses": [],
+        "detalle": "Podés dividir la mata o enraizar en sustrato un brote cortado desde la base; las fuentes no dan una época para esta variedad."
+      },
+      "fuentes": [
+        {
+          "titulo": "Maranta leuconeura var. kerchoveana",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/91332/maranta-leuconeura-var-kerchoveana/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Maranta leuconeura",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/maranta-leuconeura/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "media",
+      "adaptaciones": []
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "no_verificada",
+      "toxicidad_perro": "no_verificada",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "No encontramos una ficha confiable para esta planta, así que no podemos asegurar que sea segura: por las dudas, tenela fuera del alcance de tu mascota.",
+      "advertencia_grave": null,
+      "confianza": "baja",
+      "fuentes_toxicidad": []
+    },
+    "fuentes": [
+      {
+        "titulo": "Maranta leuconeura var. kerchoveana",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/91332/maranta-leuconeura-var-kerchoveana/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Maranta leuconeura",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/maranta-leuconeura/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Prayer Plant",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/prayer-plant",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: crecimiento de septiembre a marzo e invierno de junio a agosto.",
+      "La orientación que RHS sugiere para plantarla es del hemisferio norte y no se trasladó a la ficha."
+    ],
+    "discrepancias": [
+      "Luz: NC State tolera luz baja a media y Illinois pide luz brillante filtrada; se tomó luz brillante indirecta como ideal y sin sol directo.",
+      "Nombre: RHS la trata como variedad; NC State incluye var. kerchoveana entre los nombres anteriores de la especie. Humedad, luz y riego de NC State e Illinois son de la especie.",
+      "Toxicidad: no hay ficha de ASPCA de Maranta leuconeura ni de sus variedades. Las páginas de ASPCA 'Maranta', 'Red Veined Prayer' y 'Prayer Plant' llevan el nombre Calathea insignis, que es otra especie, y NC State no informa toxicidad: queda sin verificar, igual que la maranta ya cargada."
+    ]
+  },
+  {
+    "id": "pilea-cadierei",
+    "nombre_comun": "Pilea cadierei",
+    "otros_nombres": [
+      "Planta aluminio",
+      "Planta de aluminio",
+      "Pilea aluminio",
+      "Pilea cadieri"
+    ],
+    "nombre_cientifico": "Pilea cadierei",
+    "familia": "Urticaceae",
+    "grupo": "amiga_humedad",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Quiere luz brillante pero indirecta; aguanta algo de sombra. El sol directo le puede poner las hojas marrón rojizo.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá cuando los primeros centímetros de tierra empiecen a secarse y vaciá el plato.",
+      "invierno": "Regá menos seguido, solo cuando la capa de arriba se haya secado, y nunca dejes agua en el plato.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Le gusta el aire húmedo: apoyá la maceta sobre una bandeja con piedritas húmedas, sobre todo con la calefacción prendida. Si queda encerrada sin ventilación, pueden salirle manchas en las hojas.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato para plantas de interior con turba o fibra, que mantenga algo de humedad y drene bien.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 3,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "No le gustan el frío ni las corrientes de aire (mínimo de unos 13 °C de noche): en Buenos Aires va mejor adentro todo el año."
+    },
+    "tamano": "chica",
+    "dificultad": "facil",
+    "tip": "Con el tiempo se pone leñosa abajo: hacé esquejes de las puntas y vas a tener plantas nuevas y tupidas.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "detalle": "Si se estira o se pela abajo, cortá o pellizcá las puntas en primavera o verano para que rebrote y quede compacta."
+      },
+      "propagacion": {
+        "metodos": [
+          "esqueje_tierra"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "detalle": "En primavera o verano cortá la punta de un tallo, plantala en sustrato suelto y mantenela cálida y húmeda hasta que enraíce."
+      },
+      "fuentes": [
+        {
+          "titulo": "How to grow pilea",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/pilea/how-to-grow-pilea",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Pilea cadierei",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/pilea-cadierei/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Pilea cadierei",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/13012/pilea-cadierei/details",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "RHS dice primavera o verano: se pasó a septiembre a febrero.",
+        "NC State indica esquejes a comienzos de primavera, dentro del rango de septiembre a febrero."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Según las fuentes no es tóxica para gatos ni perros. Igual, si mastican hojas en cantidad les puede caer mal, así que mejor que no sea su juguete.",
+      "advertencia_grave": null,
+      "confianza": "media",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Aluminum Plant (Pilea cadieri)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/aluminum-plant",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Pilea cadierei",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/pilea-cadierei/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Pilea cadierei",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/13012/pilea-cadierei/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Pilea cadierei",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/pilea-cadierei/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow pilea",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/pilea/how-to-grow-pilea",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Pilea as a Houseplant",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/pilea-as-a-houseplant",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Estaciones convertidas: crecimiento de septiembre a marzo y riego reducido de marzo a agosto.",
+      "RHS sugiere ventanas norte, este u oeste y apartarla de una ventana sur: en Buenos Aires van bien sur, este u oeste y conviene apartarla de una ventana norte, sobre todo en verano (diciembre a febrero).",
+      "Penn State pide noches por encima de 55 °F (unos 13 °C); RHS pide más de 10 °C. Se usó el valor más cuidadoso."
+    ],
+    "discrepancias": [
+      "Humedad: la guía de RHS dice que la mayoría de las pileas tolera el aire normal de casa; la ficha de RHS de la especie y NC State piden humedad alta. Se tomó alta.",
+      "Poda: la ficha de RHS dice que no requiere; la guía de RHS y NC State recomiendan recortar o pellizcar. Se dejó el recorte.",
+      "Luz: NC State incluye sombra densa y RHS sombra total o parcial; Penn State y la guía de RHS piden luz brillante indirecta. No se sumó luz baja como tolerada.",
+      "Toxicidad: ASPCA la da como no tóxica (la escribe Pilea cadieri). NC State la marca no tóxica para gatos, perros y caballos pero también le pone la etiqueta 'poisonous' sin explicarla; por eso confianza media.",
+      "Nombres: 'planta de aluminio' viene del nombre inglés; no se confirmó con una fuente argentina."
+    ]
+  },
+  {
+    "id": "pilea-moon-valley",
+    "nombre_comun": "Pilea 'Moon Valley'",
+    "otros_nombres": [
+      "Moon Valley",
+      "Pilea Moon Valley",
+      "Pilea involucrata Moon Valley",
+      "Pilea mollis Moon Valley"
+    ],
+    "nombre_cientifico": "Pilea involucrata 'Moon Valley'",
+    "familia": "Urticaceae",
+    "grupo": "amiga_humedad",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Quiere luz brillante pero indirecta, sin sol directo, que le puede cambiar el color y marcar las hojas.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá cuando los primeros centímetros de tierra empiecen a secarse y vaciá el plato.",
+      "invierno": "Regá menos seguido, solo cuando la capa de arriba se haya secado, y nunca dejes agua en el plato.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Le gusta el aire húmedo: apoyá la maceta sobre una bandeja con piedritas húmedas, sobre todo con la calefacción prendida. Si queda encerrada sin ventilación, pueden salirle manchas en las hojas.",
+      "confianza": "alta"
+    },
+    "sustrato": {
+      "tipo": "Sustrato para plantas de interior con turba o fibra, que mantenga algo de humedad y drene bien.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 2,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "No le gustan el frío ni las corrientes de aire (mínimo de unos 13 °C de noche): en Buenos Aires va mejor adentro todo el año."
+    },
+    "tamano": "chica",
+    "dificultad": "media",
+    "tip": "Cuando le recortes las puntas no las tires: plantadas en sustrato húmedo te dan plantas nuevas.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "detalle": "Si se estira o se pela abajo, cortá o pellizcá las puntas en primavera o verano para que rebrote y quede compacta."
+      },
+      "propagacion": {
+        "metodos": [
+          "esqueje_tierra",
+          "division"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "detalle": "En primavera o verano cortá la punta de un tallo, plantala en sustrato suelto y mantenela cálida y húmeda hasta que enraíce. En primavera también podés dividir la mata."
+      },
+      "fuentes": [
+        {
+          "titulo": "Pilea involucrata 'Moon Valley'",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/49384/pilea-involucrata-moon-valley/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "How to grow pilea",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/pilea/how-to-grow-pilea",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Pilea involucrata",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/pilea-involucrata/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "RHS dice primavera o verano: se pasó a septiembre a febrero.",
+        "RHS indica dividir en primavera: queda dentro del rango de septiembre a febrero."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Según las fuentes no es tóxica para gatos ni perros. Igual, si mastican hojas en cantidad les puede caer mal, así que mejor que no sea su juguete.",
+      "advertencia_grave": null,
+      "confianza": "media",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Friendship Plant (Pilea involucrata)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/friendship-plant",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Pilea involucrata",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/pilea-involucrata/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Pilea involucrata 'Moon Valley'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/49384/pilea-involucrata-moon-valley/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Pilea involucrata",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/pilea-involucrata/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow pilea",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/pilea/how-to-grow-pilea",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Pilea as a Houseplant",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/pilea-as-a-houseplant",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: crecimiento de septiembre a marzo y riego reducido de marzo a agosto.",
+      "RHS sugiere ventanas norte, este u oeste y apartarla de una ventana sur: en Buenos Aires van bien sur, este u oeste y conviene apartarla de una ventana norte, sobre todo en verano (diciembre a febrero).",
+      "Penn State pide noches por encima de 55 °F (unos 13 °C); RHS pide más de 10 °C. Se usó el valor más cuidadoso."
+    ],
+    "discrepancias": [
+      "Identidad: RHS la registra como Pilea involucrata 'Moon Valley'; Penn State advierte que también se vende como Pilea mollis y que no está resuelto si es lo mismo.",
+      "Cuidados: RHS y NC State nombran el cultivar pero casi no dan cuidados propios; luz, riego y sustrato salen de Pilea involucrata y de las guías de pileas.",
+      "Poda: la ficha de RHS del cultivar dice que no requiere; la guía de RHS (para P. involucrata) y NC State recomiendan recortar. Se dejó el recorte.",
+      "Toxicidad: ASPCA y NC State dan Pilea involucrata como no tóxica; no hay ficha del cultivar y su especie está en duda, por eso confianza media."
+    ]
+  }
+]

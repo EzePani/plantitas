@@ -1,0 +1,348 @@
+{
+  "calatea-roseopicta": {
+    "porte": [
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo cortá al ras las hojas secas o dañadas con una tijera limpia."
+    },
+    "propagacion": {
+      "metodos": [
+        "division"
+      ],
+      "en_agua": false,
+      "meses": [
+        10,
+        11
+      ],
+      "detalle": "Dividí la mata en primavera: separá el pan de raíces en partes con varias hojas y raíces cada una. Después tenelas en un lugar cálido y húmedo hasta que vuelvan a crecer."
+    },
+    "fuentes": [
+      {
+        "titulo": "Goeppertia roseopicta",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/357231/goeppertia-roseopicta/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Goeppertia roseopicta",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/goeppertia-roseopicta/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow calatheas",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Las fuentes dicen fines de primavera o primavera (hemisferio norte): se pasó a octubre y noviembre."
+    ]
+  },
+  "calatea-lancifolia": {
+    "porte": [
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo cortá al ras las hojas secas o dañadas con una tijera limpia."
+    },
+    "propagacion": {
+      "metodos": [
+        "division"
+      ],
+      "en_agua": false,
+      "meses": [
+        10,
+        11
+      ],
+      "detalle": "Dividí la mata en primavera: separá el pan de raíces en partes con varias hojas y raíces cada una. Después tenelas en un lugar cálido y húmedo hasta que vuelvan a crecer."
+    },
+    "fuentes": [
+      {
+        "titulo": "Goeppertia insignis (rattlesnake plant)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/386634/goeppertia-insignis/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Goeppertia insignis",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/goeppertia-insignis/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow calatheas",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Las fuentes dicen fines de primavera o primavera (hemisferio norte): se pasó a octubre y noviembre."
+    ]
+  },
+  "calatea-ornata": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: sacá las hojas secas y, si florece, cortá la vara cuando termine."
+    },
+    "propagacion": {
+      "metodos": [
+        "division"
+      ],
+      "en_agua": false,
+      "meses": [
+        10,
+        11
+      ],
+      "detalle": "Dividí la mata en primavera: separá el pan de raíces en partes con varias hojas y raíces cada una. Después tenelas en un lugar cálido y húmedo hasta que vuelvan a crecer."
+    },
+    "fuentes": [
+      {
+        "titulo": "Goeppertia ornata",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/357192/goeppertia-ornata/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Goeppertia ornata",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/goeppertia-ornata/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow calatheas",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Las fuentes dicen fines de primavera o primavera (hemisferio norte): se pasó a octubre y noviembre."
+    ]
+  },
+  "maranta-erythroneura": {
+    "porte": [
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo cortá al ras las hojas secas o dañadas con una tijera limpia."
+    },
+    "propagacion": {
+      "metodos": [
+        "division"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "Se multiplica en primavera dividiendo la mata por los rizomas: dejá raíces y hojas en cada parte y tenelas cálidas y húmedas."
+    },
+    "fuentes": [
+      {
+        "titulo": "Maranta leuconeura var. erythroneura",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/56852/maranta-leuconeura-var-erythroneura/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Maranta leuconeura",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/maranta-leuconeura/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS indica dividir en primavera (hemisferio norte): se pasó a septiembre a noviembre."
+    ]
+  },
+  "maranta-kerchoveana": {
+    "porte": [
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo cortá al ras las hojas secas o dañadas con una tijera limpia."
+    },
+    "propagacion": {
+      "metodos": [
+        "division",
+        "esqueje_tierra"
+      ],
+      "en_agua": false,
+      "meses": [],
+      "detalle": "Podés dividir la mata o enraizar en sustrato un brote cortado desde la base; las fuentes no dan una época para esta variedad."
+    },
+    "fuentes": [
+      {
+        "titulo": "Maranta leuconeura var. kerchoveana",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/91332/maranta-leuconeura-var-kerchoveana/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Maranta leuconeura",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/maranta-leuconeura/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": []
+  },
+  "pilea-cadierei": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "Si se estira o se pela abajo, cortá o pellizcá las puntas en primavera o verano para que rebrote y quede compacta."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_tierra"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "En primavera o verano cortá la punta de un tallo, plantala en sustrato suelto y mantenela cálida y húmeda hasta que enraíce."
+    },
+    "fuentes": [
+      {
+        "titulo": "How to grow pilea",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/pilea/how-to-grow-pilea",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Pilea cadierei",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/pilea-cadierei/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Pilea cadierei",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/13012/pilea-cadierei/details",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS dice primavera o verano: se pasó a septiembre a febrero.",
+      "NC State indica esquejes a comienzos de primavera, dentro del rango de septiembre a febrero."
+    ]
+  },
+  "pilea-moon-valley": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "Si se estira o se pela abajo, cortá o pellizcá las puntas en primavera o verano para que rebrote y quede compacta."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_tierra",
+        "division"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "En primavera o verano cortá la punta de un tallo, plantala en sustrato suelto y mantenela cálida y húmeda hasta que enraíce. En primavera también podés dividir la mata."
+    },
+    "fuentes": [
+      {
+        "titulo": "Pilea involucrata 'Moon Valley'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/49384/pilea-involucrata-moon-valley/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow pilea",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/pilea/how-to-grow-pilea",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Pilea involucrata",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/pilea-involucrata/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "RHS dice primavera o verano: se pasó a septiembre a febrero.",
+      "RHS indica dividir en primavera: queda dentro del rango de septiembre a febrero."
+    ]
+  }
+}

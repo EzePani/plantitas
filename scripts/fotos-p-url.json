@@ -1,0 +1,9 @@
+{
+  "bananero": [
+    { "imagen": "https://live.staticflickr.com/2864/9530684683_18a72e5700_b.jpg", "autor": "Plant pests and diseases", "licencia": "CC0 1.0", "url": "https://www.flickr.com/photos/62295966@N07/9530684683" },
+    { "imagen": "https://live.staticflickr.com/8423/7625599114_bde5071ff3_b.jpg", "autor": "TANAKA Juuyoh (田中十洋)", "licencia": "CC BY 2.0", "url": "https://www.flickr.com/photos/13910409@N05/7625599114" }
+  ],
+  "bananero-rojo": [
+    { "imagen": "https://live.staticflickr.com/5476/30521107165_6c5cc7a5c3_b.jpg", "autor": "wallygrom", "licencia": "CC BY-SA 2.0", "url": "https://www.flickr.com/photos/33037982@N04/30521107165" }
+  ]
+}

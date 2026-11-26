@@ -1,0 +1,67 @@
+{
+  "filodendro-brasil": [],
+  "filodendro-micans": [
+    {
+      "archivo": "img/extra/filodendro-micans-2.webp",
+      "autor": "Krzysztof Ziarnek, Kenraiz",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Philodendron_hederaceum_kz1.jpg"
+    },
+    {
+      "archivo": "img/extra/filodendro-micans-3.webp",
+      "autor": "Meise Botanic Garden",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://www.botanicalcollections.be/accession/2007034474"
+    }
+  ],
+  "tradescantia-fluminensis": [
+    {
+      "archivo": "img/extra/tradescantia-fluminensis-2.webp",
+      "autor": "Harry Rose from South West Rocks, Australia",
+      "licencia": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Tradescantia_fluminensis_leaf3_(15754515524).jpg"
+    },
+    {
+      "archivo": "img/extra/tradescantia-fluminensis-3.webp",
+      "autor": "Harry Rose from South West Rocks, Australia",
+      "licencia": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Tradescantia_fluminensis_flower1_(16376971605).jpg"
+    }
+  ],
+  "tradescantia-pallida": [
+    {
+      "archivo": "img/extra/tradescantia-pallida-2.webp",
+      "autor": "Krzysztof Ziarnek, Kenraiz",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Tradescantia_pallida_%27Purpurea%27_kz01.jpg"
+    },
+    {
+      "archivo": "img/extra/tradescantia-pallida-3.webp",
+      "autor": "PapiPijuan",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Tradescantia_pallida_Flower_1.jpg"
+    }
+  ],
+  "tradescantia-sillamontana": [
+    {
+      "archivo": "img/extra/tradescantia-sillamontana-2.webp",
+      "autor": "Krzysztof Ziarnek, Kenraiz",
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Tradescantia_sillamontana_kz06.jpg"
+    },
+    {
+      "archivo": "img/extra/tradescantia-sillamontana-3.webp",
+      "autor": "Olaf",
+      "licencia": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Tradescantia_sillamontana_Matuda_01.jpg"
+    }
+  ],
+  "cinta-bonnie": [
+    {
+      "archivo": "img/extra/cinta-bonnie-2.webp",
+      "autor": "Wildfeuer",
+      "licencia": "CC BY 2.5",
+      "url": "https://commons.wikimedia.org/wiki/File:2007-03-20CChlorophytum_comosum_Bonnie.jpg"
+    }
+  ]
+}

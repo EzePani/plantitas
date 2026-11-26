@@ -1,0 +1,497 @@
+{
+  "fuentes": [
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Philodendron hederaceum",
+      "url": "https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Cultivar 'Brasil' (variegado inestable), micans como nombre anterior, luz, riego, humedad, drenaje, trepa o cae, toxicidad baja en perros y gatos",
+      "usado_en": [
+        "filodendro-brasil",
+        "filodendro-micans"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Philodendron",
+      "url": "https://hgic.clemson.edu/factsheet/philodendron/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Filodendro aterciopelado (P. scandens f. micans), luz, riego, humedad, temperaturas, tutor, poda, esquejes y acodo, toxicidad",
+      "usado_en": [
+        "filodendro-micans"
+      ]
+    },
+    {
+      "org": "University of Connecticut Extension",
+      "titulo": "Philodendron (factsheet)",
+      "url": "https://homegarden.cahnr.uconn.edu/factsheets/philodendron/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "'Brazil' con banda amarilla; luz indirecta brillante, riego, humedad, sustrato, mínimo 18 °C, tutor, esquejes y acodo",
+      "usado_en": [
+        "filodendro-brasil",
+        "filodendro-micans"
+      ]
+    },
+    {
+      "org": "University of Connecticut Extension",
+      "titulo": "I “Heart” Philodendrons",
+      "url": "https://homegarden.cahnr.uconn.edu/2026/03/28/philodendrons/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "'Cordatum' como nombre viejo o incorrecto de P. hederaceum; 'Brazil'; riego y esquejes en tierra o agua",
+      "usado_en": [
+        "filodendro-brasil",
+        "filodendro"
+      ]
+    },
+    {
+      "org": "Iowa State University Extension and Outreach",
+      "titulo": "Growing Philodendrons at Home",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-philodendrons-home",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "'Brasil' y 'Micans' como variedades del filodendro de hoja de corazón; luz, riego, humedad, sustrato, tutor, esquejes en agua, toxicidad",
+      "usado_en": [
+        "filodendro-brasil",
+        "filodendro-micans"
+      ]
+    },
+    {
+      "org": "Iowa State University Extension and Outreach",
+      "titulo": "Philodendron hederaceum 'Brasil' (Bessey Greenhouse)",
+      "url": "https://greenhouse.eeob.iastate.edu/plant/philodendron-hederaceum-brasil",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Confirma el nombre del cultivar",
+      "usado_en": [
+        "filodendro-brasil"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Philodendron hederaceum 'Brasil' (v)",
+      "url": "https://www.rhs.org.uk/plants/382446/philodendron-hederaceum-brasil-(v)/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Descripción, luz filtrada, sustrato, humedad, mínimo 15 °C, tamaño, poda, toxicidad",
+      "usado_en": [
+        "filodendro-brasil"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Philodendron hederaceum var. hederaceum",
+      "url": "https://www.rhs.org.uk/plants/254662/philodendron-hederaceum-var-hederaceum/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Sinónimo Philodendron micans, hojas bronce, luz filtrada, riego, sustrato, mínimo 15 °C, propagación, poda, toxicidad",
+      "usado_en": [
+        "filodendro-micans"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow philodendrons",
+      "url": "https://www.rhs.org.uk/plants/philodendron/growing-guide",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, humedad, sustrato, tutor, poda en primavera, esquejes en agua, toxicidad",
+      "usado_en": [
+        "filodendro-brasil",
+        "filodendro-micans"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Toxic and Non-toxic Plants: Heartleaf Philodendron",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/heartleaf-philodendron",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "'Cordatum' como otro nombre común de P. hederaceum; tóxica para perros y gatos, síntomas",
+      "usado_en": [
+        "filodendro-brasil",
+        "filodendro-micans",
+        "filodendro"
+      ]
+    },
+    {
+      "org": "Pet Poison Helpline",
+      "titulo": "Philodendron",
+      "url": "https://www.petpoisonhelpline.com/poison/philodendron/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Cristales irritantes, babeo y vómitos; rara vez hinchazón de garganta",
+      "usado_en": [
+        "filodendro-brasil",
+        "filodendro-micans"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Philodendron cordatum",
+      "url": "https://www.rhs.org.uk/plants/156486/philodendron-cordatum/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "P. cordatum figura como nombre aceptado, sin datos de cultivo",
+      "usado_en": [
+        "filodendro"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Tradescantia fluminensis",
+      "url": "https://plants.ces.ncsu.edu/plants/tradescantia-fluminensis/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Nativa de Brasil a norte de Argentina, invasora en muchas zonas, luz, riego, tamaño, esquejes, pellizcado, toxicidad leve",
+      "usado_en": [
+        "tradescantia-fluminensis"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Tradescantia fluminensis",
+      "url": "https://www.rhs.org.uk/plants/114378/tradescantia-fluminensis/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Sinónimo T. albiflora, luz filtrada sin sol directo, sustrato, mínimo 5 a 10 °C, pellizcado, esquejes en primavera y verano",
+      "usado_en": [
+        "tradescantia-fluminensis"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Tradescantia fluminensis 'Maiden's Blush'",
+      "url": "https://www.rhs.org.uk/plants/140077/tradescantia-fluminensis-maidens-blush/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Esquejes de la especie (en un cultivar) enraízan en agua o sustrato; riego moderado y escaso en invierno",
+      "usado_en": [
+        "tradescantia-fluminensis"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Tradescantia",
+      "url": "https://plants.ces.ncsu.edu/plants/tradescantia/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Regar con los primeros 2,5 cm secos, luz indirecta, sustrato, entrar bajo 10 °C, propagación",
+      "usado_en": [
+        "tradescantia-fluminensis"
+      ]
+    },
+    {
+      "org": "Penn State Extension",
+      "titulo": "Spiderworts for the Home Garden",
+      "url": "https://extension.psu.edu/spiderworts-for-the-home-garden",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "T. fluminensis en maceta colgante con luz indirecta; T. pallida antes Setcreasea purpurea",
+      "usado_en": [
+        "tradescantia-fluminensis",
+        "tradescantia-pallida"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Tradescantia zebrina",
+      "url": "https://hort.extension.wisc.edu/articles/tradescantia-zebrina/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Menciona T. fluminensis (antes T. albiflora); esquejes en agua o tierra",
+      "usado_en": [
+        "tradescantia-fluminensis"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Toxic and Non-toxic Plants: Inch Plant",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/wandering-jew",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "T. fluminensis tóxica para perros y gatos: dermatitis",
+      "usado_en": [
+        "tradescantia-fluminensis"
+      ]
+    },
+    {
+      "org": "EcoRegistros",
+      "titulo": "Registro de Tradescantia fluminensis (Gorchs, Buenos Aires)",
+      "url": "https://www.ecoregistros.org/site_en/imagen.php?id=483795",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Nombre 'Amor de hombre' usado en Argentina para T. fluminensis (registro ciudadano)",
+      "usado_en": [
+        "tradescantia-fluminensis"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Tradescantia pallida",
+      "url": "https://plants.ces.ncsu.edu/plants/tradescantia-pallida/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, color con sol, sequía, sustrato, mínimo 10 °C, tamaño, esquejes, tendencia a invadir, toxicidad leve",
+      "usado_en": [
+        "tradescantia-pallida"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Tradescantia pallida",
+      "url": "https://www.rhs.org.uk/plants/92332/tradescantia-pallida/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz filtrada, el sol directo puede quemar, riego, sustrato, mínimo 5 a 10 °C, esquejes en agua, pellizcado, irritante para la piel",
+      "usado_en": [
+        "tradescantia-pallida"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Purple Heart, Tradescantia pallida",
+      "url": "https://hort.extension.wisc.edu/articles/purple-heart-tradescantia-pallida/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Sol para el color, aguanta sequía, menos riego en invierno, esquejes en agua, recorte tras la flor, savia irritante",
+      "usado_en": [
+        "tradescantia-pallida"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Tradescantia sillamontana",
+      "url": "https://plants.ces.ncsu.edu/plants/tradescantia-sillamontana/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Nativa del noreste de México, luz, riego, humedad y sequía, sustrato, tamaño, esquejes, poda, toxicidad leve",
+      "usado_en": [
+        "tradescantia-sillamontana"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Tradescantia sillamontana",
+      "url": "https://www.rhs.org.uk/plants/18298/tradescantia-sillamontana/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Hojas con pelos blancos, luz, riego, sustrato, mínimo 5 a 10 °C, esquejes en agua, pellizcado, irritante para la piel",
+      "usado_en": [
+        "tradescantia-sillamontana"
+      ]
+    },
+    {
+      "org": "Fronda (vivero)",
+      "titulo": "Tradescantia sillamontana",
+      "url": "https://www.fronda.com/productos/tradescantia-sillamontana",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Nombres 'planta terciopelo' y 'flor de terciopelo'; follaje gris plateado",
+      "usado_en": [
+        "tradescantia-sillamontana"
+      ]
+    },
+    {
+      "org": "Promesse de fleurs (vivero)",
+      "titulo": "Tradescantia sillamontana - Planta amor de hombre",
+      "url": "https://www.promessedefleurs.es/plantas-de-interior/plantas-de-interior-por-variedad/tradescantia-de-interior/tradescantia-sillamontana-planta-amor-de-hombre.html",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Se vende como 'Planta amor de hombre'",
+      "usado_en": [
+        "tradescantia-sillamontana"
+      ]
+    },
+    {
+      "org": "Elicriso (revista de jardinería)",
+      "titulo": "Tradescantia: información y cultivo",
+      "url": "https://www.elicriso.it/es/como_cultivar/tradescantia/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "T. fluminensis 'Quicksilver', de hojas rayadas de plata, como la llamada 'amor de hombre'",
+      "usado_en": [
+        "amor-de-hombre-plata"
+      ]
+    },
+    {
+      "org": "Purplant (vivero)",
+      "titulo": "Tipos de Tradescantia",
+      "url": "https://www.purplant.es/pages/guia-tipos-plantas-tradescantia",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Ninguna variedad figura como amor de hombre plata; zebrina descrita con rayas plateadas",
+      "usado_en": [
+        "amor-de-hombre-plata"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Chlorophytum comosum 'Bonnie' (v)",
+      "url": "https://www.rhs.org.uk/plants/191491/chlorophytum-comosum-bonnie-pbr-v/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Hojas rizadas y variegadas, compacta, luz, sustrato, mínimo 1 a 5 °C, propagación, poda de varas",
+      "usado_en": [
+        "cinta-bonnie"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Chlorophytum comosum",
+      "url": "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Cultivares 'Bonnie', 'Vittatum' y 'Variegatum'; luz, riego, humedad, sustrato, hijuelos, no tóxica",
+      "usado_en": [
+        "cinta-bonnie"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Spider plant, Chlorophytum comosum",
+      "url": "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Diferencia 'Vittatum' (raya central clara) y 'Variegatum' (borde blanco); luz, riego, sustrato, propagación",
+      "usado_en": [
+        "cinta-bonnie",
+        "cinta"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Spider Plant",
+      "url": "https://hgic.clemson.edu/factsheet/spider-plant/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, sustrato, temperaturas, hijuelos; 'Vittatum' y 'Variegatum'",
+      "usado_en": [
+        "cinta-bonnie"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Chlorophytum comosum 'Vittatum' (v)",
+      "url": "https://rhs.org.uk/plants/67933/Chlorophytum-comosum-Vittatum-(v)/Details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "'Vittatum': raya central blanco crema",
+      "usado_en": [
+        "cinta"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow spider plants",
+      "url": "https://www.rhs.org.uk/plants/spider-plants/growing-guide",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Hijitos en agua o sustrato y división de matas",
+      "usado_en": [
+        "cinta-bonnie"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Toxic and Non-toxic Plants: Spider Plant",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "No tóxica para perros y gatos",
+      "usado_en": [
+        "cinta-bonnie"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Houseplants safe for your pets (nota)",
+      "url": "https://www.aspca.org/news/houseplant-safe-your-pets",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "La menciona como levemente tóxica: vómitos y diarrea si la comen",
+      "usado_en": [
+        "cinta-bonnie"
+      ]
+    },
+    {
+      "org": "Excélsior",
+      "titulo": "Planta mala madre: cuidados y significado",
+      "url": "https://www.excelsior.com.mx/estilo-de-vida/planta-mala-madre-cuidados-y-significado",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "'Mala madre', 'planta cinta' y 'lazo de amor' como nombres de Chlorophytum comosum",
+      "usado_en": [
+        "cinta-bonnie",
+        "cinta"
+      ]
+    }
+  ],
+  "revisar": [
+    {
+      "id": "filodendro-cordatum",
+      "dato": "ficha no creada",
+      "motivo": "ASPCA da 'Cordatum' como nombre común de P. hederaceum y UConn lo llama nombre viejo o incorrecto. RHS lista P. cordatum como nombre aparte pero sin datos de cultivo; no hay 2 fuentes de cuidados. Sugerencia: sumar 'Cordatum' y 'Philodendron cordatum' a otros_nombres de filodendro.",
+      "fuentes": [
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/heartleaf-philodendron",
+        "https://homegarden.cahnr.uconn.edu/2026/03/28/philodendrons/",
+        "https://www.rhs.org.uk/plants/156486/philodendron-cordatum/details"
+      ]
+    },
+    {
+      "id": "cinta-vittatum",
+      "dato": "ficha omitida",
+      "motivo": "La foto principal de la ficha cinta es 'Vittatum' (raya central clara; 'Variegatum' tiene el borde blanco). Sugerencia: sumar 'Chlorophytum comosum Vittatum' y 'Mala madre' a otros_nombres de cinta.",
+      "fuentes": [
+        "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/",
+        "https://rhs.org.uk/plants/67933/Chlorophytum-comosum-Vittatum-(v)/Details",
+        "https://www.excelsior.com.mx/estilo-de-vida/planta-mala-madre-cuidados-y-significado"
+      ]
+    },
+    {
+      "id": "amor-de-hombre-plata",
+      "dato": "nombre comercial",
+      "motivo": "Sin fuente argentina para 'amor de hombre plata/plateado'. Candidatas: T. zebrina (rayas plateadas), T. fluminensis 'Quicksilver' (rayas plateadas) y T. sillamontana (pelusa plateada).",
+      "fuentes": [
+        "https://www.elicriso.it/es/como_cultivar/tradescantia/",
+        "https://www.purplant.es/pages/guia-tipos-plantas-tradescantia",
+        "https://www.promessedefleurs.es/plantas-de-interior/plantas-de-interior-por-variedad/tradescantia-de-interior/tradescantia-sillamontana-planta-amor-de-hombre.html",
+        "https://www.fronda.com/productos/tradescantia-sillamontana"
+      ]
+    },
+    {
+      "id": "tradescantia-pallida",
+      "dato": "toxicidad",
+      "motivo": "Sin ficha ASPCA encontrada; NC State y Wisconsin hablan de irritación leve.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/tradescantia-pallida/",
+        "https://hort.extension.wisc.edu/articles/purple-heart-tradescantia-pallida/"
+      ]
+    },
+    {
+      "id": "tradescantia-sillamontana",
+      "dato": "toxicidad",
+      "motivo": "Solo NC State.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/tradescantia-sillamontana/"
+      ]
+    },
+    {
+      "id": "tradescantia-fluminensis",
+      "dato": "humedad",
+      "motivo": "Ninguna fuente abierta la trata.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/tradescantia-fluminensis/"
+      ]
+    },
+    {
+      "id": "tradescantia-pallida",
+      "dato": "humedad y horas de sol",
+      "motivo": "Humedad con una sola mención; horas de sol estimadas.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/tradescantia-pallida/"
+      ]
+    },
+    {
+      "id": "cinta-bonnie",
+      "dato": "descripción del cultivar",
+      "motivo": "RHS la da variegada; NC State separa 'Bonnie' y 'Bonnie Variegated'.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/191491/chlorophytum-comosum-bonnie-pbr-v/details",
+        "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/"
+      ]
+    },
+    {
+      "id": "filodendro-brasil",
+      "dato": "fotos",
+      "motivo": "Solo 1 foto confiable (iNaturalist); la de Commons rotulada Brasil casi no muestra variegado.",
+      "fuentes": []
+    },
+    {
+      "id": "cinta-bonnie",
+      "dato": "fotos",
+      "motivo": "Solo 2 fotos confiables.",
+      "fuentes": []
+    },
+    {
+      "id": "filodendro-micans",
+      "dato": "fotos",
+      "motivo": "Se descartaron las 'micans 1zz/2zz/3zz' de Commons: muestran otra planta de hojas enormes. La 3ª viene vía Openverse (Europeana, Meise); la página de origen no mostró la licencia al abrirla.",
+      "fuentes": []
+    }
+  ],
+  "no_pude_abrir": [
+    "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77073767-1 (403; solo visto en resultados de búsqueda)",
+    "https://www.aroid.org/aroidl-archive/showthread.php?id=7606 (403)",
+    "https://ask.ifas.ufl.edu/publication/ep150 (redirecciones)",
+    "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=279259 (conexión rechazada)",
+    "https://www.rhs.org.uk/plants/tradescantia/growing-guide (404)",
+    "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/purple-heart (sin datos)",
+    "https://grupoclarin-la-voz-prod.cdn.arcpublishing.com/servicios/un-tesoro-natural-e-increible-la-planta-mala-madre (400)"
+  ]
+}
