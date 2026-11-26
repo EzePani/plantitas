@@ -2,7 +2,10 @@ import type { ElementoPlano, Espacio, Plano, PlantaEnEspacio, TipoElemento } fro
 
 export const LADO = 6
 export const CELDAS = LADO * LADO
-export const TIPOS_ELEMENTO: TipoElemento[] = ['ventana', 'puerta', 'mesa', 'mueble', 'estante', 'gancho']
+/** Referencias del espacio: sirven para ubicarse, van en la pared y no llevan plantas */
+export const REFERENCIAS: TipoElemento[] = ['ventana', 'puerta']
+/** Lugares donde se pueden poner plantas (además del piso, que es todo cuadradito libre) */
+export const LUGARES: TipoElemento[] = ['mesa', 'mueble', 'estante', 'gancho']
 
 export type Forma = 'rectangulo' | 'l' | 'u'
 export const FORMAS: Forma[] = ['rectangulo', 'l', 'u']
@@ -27,9 +30,7 @@ export function contraPared(suelo: number[], c: number): boolean {
   return vecinas.some((v) => !suelo.includes(v))
 }
 
-/** La ventana y la puerta son parte de la pared */
-export const vaEnPared = (t: TipoElemento): boolean => t === 'ventana' || t === 'puerta'
-export const llevaPlantas = (t: TipoElemento): boolean => t !== 'puerta'
+export const esReferencia = (t: TipoElemento): boolean => REFERENCIAS.includes(t)
 
 /** Cuántos cuadraditos puede medir un elemento para cada lado */
 export const MAX_LARGO = 3
@@ -46,7 +47,7 @@ export const elementoEn = (p: Plano, c: number): ElementoPlano | undefined => p.
 function cabe(p: Plano, e: ElementoPlano): boolean {
   if (columna(e.celda) + (e.ancho ?? 1) > LADO) return false
   const celdas = celdasDe(e)
-  if (!celdas.every((c) => p.suelo.includes(c) && (!vaEnPared(e.tipo) || contraPared(p.suelo, c)))) return false
+  if (!celdas.every((c) => p.suelo.includes(c) && (!esReferencia(e.tipo) || contraPared(p.suelo, c)))) return false
   return !p.elementos.some((x) => x.id !== e.id && celdasDe(x).some((c) => celdas.includes(c)))
 }
 
@@ -103,10 +104,10 @@ export const limpiarNombres = (p: Plano): Plano => ({
 
 export const lugarPiso = (c: number): string => `piso-${c}`
 
-/** El lugar admite plantas: un elemento que no sea la puerta, o un cuadradito de piso libre */
+/** El lugar admite plantas: un elemento que no sea de referencia, o un cuadradito de piso libre */
 export function lugarValido(p: Plano | undefined, lugar: string): boolean {
   if (!p) return false
-  if (p.elementos.some((e) => e.id === lugar && llevaPlantas(e.tipo))) return true
+  if (p.elementos.some((e) => e.id === lugar && !esReferencia(e.tipo))) return true
   return p.suelo.some((c) => lugarPiso(c) === lugar && !elementoEn(p, c))
 }
 

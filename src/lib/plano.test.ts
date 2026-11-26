@@ -3,7 +3,7 @@ import { DATOS_INICIALES } from '../store/useStore'
 import { esquemaDatos, migrar } from './backup'
 import { agregarPlanta, moverPlanta, quitarPlanta } from './espacios'
 import { fusionar } from './fusion'
-import { CELDAS, agregarElemento, alternarSuelo, celdasDe, conSuelo, contraPared, formaDe, limpiarNombres, lugarPiso, lugarValido, numeroDe, plantasEn, ponerPlano, quitarElemento, redimensionar, renombrar, sueloDe } from './plano'
+import { CELDAS, LUGARES, REFERENCIAS, esReferencia, agregarElemento, alternarSuelo, celdasDe, conSuelo, contraPared, formaDe, limpiarNombres, lugarPiso, lugarValido, numeroDe, plantasEn, ponerPlano, quitarElemento, redimensionar, renombrar, sueloDe } from './plano'
 import type { Espacio, Plano } from './tipos'
 
 const plano: Plano = {
@@ -42,6 +42,11 @@ describe('forma del espacio', () => {
 })
 
 describe('elementos', () => {
+  it('cada tipo es referencia o lugar para plantas, nunca las dos cosas', () => {
+    expect([...REFERENCIAS, ...LUGARES].sort()).toEqual(['estante', 'gancho', 'mesa', 'mueble', 'puerta', 'ventana'])
+    expect(REFERENCIAS.every(esReferencia)).toBe(true)
+    expect(LUGARES.some(esReferencia)).toBe(false)
+  })
   it('ventana y puerta solo contra una pared', () => {
     expect(contraPared(plano.suelo, 0)).toBe(true)
     expect(contraPared(plano.suelo, 14)).toBe(false)
@@ -104,8 +109,9 @@ describe('tamaño de los elementos', () => {
 })
 
 describe('plantas en el plano', () => {
-  it('van en elementos o en el piso libre, nunca en la puerta', () => {
+  it('van en lugares para plantas o en el piso libre, nunca en puertas ni ventanas', () => {
     expect(lugarValido(plano, 'el-e')).toBe(true)
+    expect(lugarValido(plano, 'el-v')).toBe(false)
     expect(lugarValido(plano, lugarPiso(14))).toBe(true)
     expect(lugarValido(plano, 'el-p')).toBe(false)
     expect(lugarValido(plano, lugarPiso(6))).toBe(false)
@@ -119,9 +125,9 @@ describe('plantas en el plano', () => {
     expect(quitarPlanta(e, 'potus').plantas.map((p) => p.id)).toEqual(['pl-2'])
     expect(quitarPlanta(e, 'potus', 'el-e').plantas.map((p) => p.id)).toEqual(['pl-1'])
     expect(quitarPlanta(e, 'potus', 'el-v')).toBe(e)
-    e = moverPlanta(e, 'potus', null, 'el-v')
-    expect(plantasEn(e, 'el-v').map((p) => p.id)).toEqual(['pl-1'])
-    expect(moverPlanta(e, 'potus', 'el-v', null).plantas[0]).toEqual({ id: 'pl-1', plantaId: 'potus' })
+    e = moverPlanta(e, 'potus', null, lugarPiso(14))
+    expect(plantasEn(e, lugarPiso(14)).map((p) => p.id)).toEqual(['pl-1'])
+    expect(moverPlanta(e, 'potus', lugarPiso(14), null).plantas[0]).toEqual({ id: 'pl-1', plantaId: 'potus' })
   })
   it('si desaparece el lugar o el plano, quedan sin ubicar', () => {
     const e = agregarPlanta(living, 'potus', 'pl-1', 'el-e')
