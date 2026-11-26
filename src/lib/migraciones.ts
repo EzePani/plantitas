@@ -132,4 +132,22 @@ function v6aV7(datos: unknown): unknown {
   return { ...datos, hijitos: datos.hijitos.map((h) => (esObj(h) ? { ...h, origen: h.origen ?? 'corte', prendio: h.prendio ?? null } : h)) }
 }
 
-export const MIGRACIONES: Record<number, (datos: unknown) => unknown> = { 1: v1aV2, 2: v2aV3, 3: v3aV4, 4: v4aV5, 5: v5aV6, 6: v6aV7 }
+// ---------- v8 → v9: los elementos del plano guardan sus cuadraditos uno por uno ----------
+
+/** De "esquina + ancho + alto" a la lista de cuadraditos que ocupa. (v7 → v8 solo sumó datos opcionales.) */
+function v8aV9(datos: unknown): unknown {
+  if (!esObj(datos) || !Array.isArray(datos.espacios)) return datos
+  const elemento = (e: unknown): unknown => {
+    if (!esObj(e) || Array.isArray(e.celdas) || typeof e.celda !== 'number') return e
+    const { celda, ancho, alto, ...resto } = e
+    const an = typeof ancho === 'number' ? ancho : 1
+    const al = typeof alto === 'number' ? alto : 1
+    return { ...resto, celdas: Array.from({ length: an * al }, (_, i) => celda + Math.floor(i / an) * 6 + (i % an)) }
+  }
+  return {
+    ...datos,
+    espacios: datos.espacios.map((e) => (esObj(e) && esObj(e.plano) && Array.isArray(e.plano.elementos) ? { ...e, plano: { ...e.plano, elementos: e.plano.elementos.map(elemento) } } : e)),
+  }
+}
+
+export const MIGRACIONES: Record<number, (datos: unknown) => unknown> = { 1: v1aV2, 2: v2aV3, 3: v3aV4, 4: v4aV5, 5: v5aV6, 6: v6aV7, 8: v8aV9 }

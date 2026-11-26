@@ -3,7 +3,7 @@ import { MIGRACIONES } from './migraciones'
 import type { DatosPersistidos } from './tipos'
 
 /** Versión del formato de datos persistidos. Subir al cambiar el modelo y agregar migración. */
-export const VERSION_DATOS = 8
+export const VERSION_DATOS = 9
 const MAX_BYTES = 1_000_000
 
 const idSeguro = z.string().regex(/^[a-z0-9-]{1,60}$/)
@@ -12,7 +12,6 @@ const unidad = z.enum(['basico', 'luz', 'riego', 'macetas', 'abono', 'familias',
 const tipoMascota = z.enum(['gato', 'perro', 'ambos', 'ninguna'])
 const hora = z.number().min(0).max(24)
 const celda = z.number().int().min(0).max(35)
-const largo = z.number().int().min(1).max(3)
 
 export const esquemaLuz = z.object({
   tipo: z.enum(['directa', 'indirecta', 'baja', 'no_se']),
@@ -67,7 +66,7 @@ export const esquemaDatos = z.object({
           .object({
             suelo: z.array(celda).min(1).max(36),
             elementos: z
-              .array(z.object({ id: idSeguro, tipo: z.enum(['ventana', 'puerta', 'mesa', 'mueble', 'estante', 'gancho']), celda, ancho: largo.optional(), alto: largo.optional(), nombre: z.string().max(30).optional() }))
+              .array(z.object({ id: idSeguro, tipo: z.enum(['ventana', 'puerta', 'mesa', 'mueble', 'estante', 'gancho']), celdas: z.array(celda).min(1).max(36), nombre: z.string().max(30).optional() }))
               .max(36),
           })
           .optional(),
