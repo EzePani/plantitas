@@ -1,0 +1,492 @@
+{
+  "fuentes": [
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Asplenium nidus",
+      "url": "https://plants.ces.ncsu.edu/plants/asplenium-nidus/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, humedad, sustrato, temperatura, cultivar Crispy Wave, esporas; no informa toxicidad",
+      "usado_en": [
+        "asplenium-nidus",
+        "asplenium-crispy-wave"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "How To Grow and Care for Bird's Nest Fern (Asplenium nidus)",
+      "url": "https://hgic.clemson.edu/how-to-grow-and-care-for-birds-nest-fern-asplenium-nidus/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, humedad, frío mínimo, tamaño adentro; helechos considerados no tóxicos",
+      "usado_en": [
+        "asplenium-nidus",
+        "asplenium-crispy-wave"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Asplenium nidus",
+      "url": "https://www.rhs.org.uk/plants/1728/asplenium-nidus/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, sustrato, humedad, división y esporas, tamaño",
+      "usado_en": [
+        "asplenium-nidus"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Epiphytic ferns",
+      "url": "https://www.rhs.org.uk/plants/epiphytic-ferns",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, humedad alta y temperatura de helechos epífitos",
+      "usado_en": [
+        "asplenium-nidus",
+        "asplenium-crispy-wave"
+      ]
+    },
+    {
+      "org": "UF/IFAS Gardening Solutions",
+      "titulo": "Bird's Nest Fern",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/birds-nest-fern/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Sombra, riego, esporas, retirar frondas viejas",
+      "usado_en": [
+        "asplenium-nidus"
+      ]
+    },
+    {
+      "org": "Purdue Extension",
+      "titulo": "HO-141: Ferns for Indoors",
+      "url": "https://ag.purdue.edu/department/hla/extension/extension-publications-library/ext-pubs/ho-141-w.html",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz de A. nidus, humedad y temperatura de helechos de interior",
+      "usado_en": [
+        "asplenium-nidus",
+        "asplenium-bulbiferum"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Indoor Ferns",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Cuidados generales de helechos de interior y división a comienzos de primavera",
+      "usado_en": [
+        "asplenium-nidus",
+        "asplenium-crispy-wave",
+        "asplenium-bulbiferum"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Asplenium nidus 'Crispy Wave'",
+      "url": "https://www.rhs.org.uk/plants/291477/asplenium-nidus-crispy-wave/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Nombre y especie del cultivar, luz, riego, sustrato, humedad, tamaño, propagación",
+      "usado_en": [
+        "asplenium-crispy-wave"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Asplenium bulbiferum",
+      "url": "https://www.rhs.org.uk/plants/1723/asplenium-bulbiferum/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, sustrato, riego, frío, plantitas sobre las frondas",
+      "usado_en": [
+        "asplenium-bulbiferum"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Asplenium bulbiferum",
+      "url": "https://plants.ces.ncsu.edu/plants/asplenium-bulbiferum/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, sustrato, hijitos, no tóxica para mascotas",
+      "usado_en": [
+        "asplenium-bulbiferum"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Asplenium x lucrosum",
+      "url": "https://www.rhs.org.uk/plants/245527/asplenium-lucrosum/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Híbrido con sinónimo 'A. bulbiferum mal aplicado'",
+      "usado_en": [
+        "asplenium-bulbiferum"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Toxic and Non-toxic Plants: Mother Fern",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/mother-fern",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "A. bulbiferum no tóxica para perros y gatos",
+      "usado_en": [
+        "asplenium-bulbiferum"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Strelitzia reginae",
+      "url": "https://plants.ces.ncsu.edu/plants/strelitzia-reginae/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, sustrato, tamaño, división, toxicidad leve",
+      "usado_en": [
+        "strelitzia-reginae"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow strelitzia",
+      "url": "https://www.rhs.org.uk/plants/strelitzia/how-to-grow-strelitzia",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Cultivo de strelitzia en interior: luz, riego, humedad, frío, propagación, poda",
+      "usado_en": [
+        "strelitzia-nicolai",
+        "strelitzia-reginae"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Bird of Paradise",
+      "url": "https://hgic.clemson.edu/factsheet/bird-of-paradise/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, humedad, temperatura, división",
+      "usado_en": [
+        "strelitzia-nicolai",
+        "strelitzia-reginae"
+      ]
+    },
+    {
+      "org": "UF/IFAS Gardening Solutions",
+      "titulo": "Bird of Paradise",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/bird-of-paradise/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, suelo, frío, división, poda de ambas especies",
+      "usado_en": [
+        "strelitzia-nicolai",
+        "strelitzia-reginae"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Toxic and Non-toxic Plants: Bird of Paradise Flower",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/bird-paradise-flower",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "S. reginae tóxica para perros y gatos; irritantes gastrointestinales",
+      "usado_en": [
+        "strelitzia-reginae"
+      ]
+    },
+    {
+      "org": "La Nación",
+      "titulo": "Flor de pájaro: la planta que pasó de los jardines tradicionales a ser la favorita para decorar",
+      "url": "https://www.lanacion.com.ar/revista-jardin/flor-de-pajaro-la-planta-que-paso-de-los-jardines-tradicionales-a-ser-la-favorita-para-decorar-nid23082021/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Nombres usados en Argentina: flor de pájaro y ave del paraíso",
+      "usado_en": [
+        "strelitzia-nicolai",
+        "strelitzia-reginae"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Strelitzia nicolai",
+      "url": "https://plants.ces.ncsu.edu/plants/strelitzia-nicolai/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, humedad, sustrato, frío, propagación, toxicidad leve",
+      "usado_en": [
+        "strelitzia-nicolai"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Strelitzia nicolai",
+      "url": "https://www.rhs.org.uk/plants/82161/strelitzia-nicolai/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, sustrato, división en primavera, tamaño",
+      "usado_en": [
+        "strelitzia-nicolai"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Musa acuminata 'Dwarf Cavendish' (AAA Group)",
+      "url": "https://www.rhs.org.uk/plants/56394/musa-acuminata-dwarf-cavendish-aaa-group-f/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Cultivar, sinónimos, luz, sustrato, frío, hijitos, tamaño",
+      "usado_en": [
+        "bananero"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow banana plants",
+      "url": "https://www.rhs.org.uk/plants/banana/growing-guide",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Riego por estación, sustrato, humedad, invierno, poda, hijitos y semillas",
+      "usado_en": [
+        "bananero",
+        "bananero-basjoo",
+        "bananero-rojo"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Musa acuminata",
+      "url": "https://plants.ces.ncsu.edu/plants/musa-acuminata/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, sustrato, uso en maceta e interior, no tóxica",
+      "usado_en": [
+        "bananero"
+      ]
+    },
+    {
+      "org": "UF/IFAS Gardening Solutions",
+      "titulo": "Bananas",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/fruits/bananas/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Dwarf Cavendish: sol, riego, daño por heladas, retoños",
+      "usado_en": [
+        "bananero"
+      ]
+    },
+    {
+      "org": "Penn State Extension",
+      "titulo": "Banana Plant: A Bold and Beautiful Tropical Addition to the Garden",
+      "url": "https://extension.psu.edu/programs/master-gardener/counties/adams/news/banana-plant-a-bold-and-beautiful-tropical-addition-to-the-garden",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz adentro, riego, sustrato, humedad, mínimo 10 °C",
+      "usado_en": [
+        "bananero"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Toxic and Non-toxic Plants: Banana",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/banana",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Musa acuminata no tóxica para perros y gatos",
+      "usado_en": [
+        "bananero"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Musa basjoo",
+      "url": "https://rhs.org.uk/plants/11230/musa-basjoo-japanese-banana-japanese-fiber-banana/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, sustrato, frío H2, hijitos, división, semilla, tamaño",
+      "usado_en": [
+        "bananero-basjoo"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Musa basjoo",
+      "url": "https://plants.ces.ncsu.edu/plants/musa-basjoo/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, sustrato, frío, uso en maceta, hijitos",
+      "usado_en": [
+        "bananero-basjoo"
+      ]
+    },
+    {
+      "org": "University of Illinois Extension",
+      "titulo": "Go tropical with ornamental bananas",
+      "url": "https://extension.illinois.edu/blogs/ilriverhort/2018-09-04-go-tropical-ornamental-bananas",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Invernada en interior y retoños de bananos ornamentales",
+      "usado_en": [
+        "bananero-basjoo"
+      ]
+    },
+    {
+      "org": "University of Maryland Extension",
+      "titulo": "Overwintering Tropical Plants",
+      "url": "https://extension.umd.edu/resource/overwintering-tropical-plants",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Invernada, resistencia al frío de M. basjoo, riego adentro",
+      "usado_en": [
+        "bananero-basjoo",
+        "bananero-rojo"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Ensete ventricosum 'Maurelii'",
+      "url": "https://www.rhs.org.uk/plants/118143/ensete-ventricosum-maurelii/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Cultivar, luz, sustrato, frío, semilla, poda",
+      "usado_en": [
+        "bananero-rojo"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Ensete ventricosum",
+      "url": "https://www.rhs.org.uk/plants/6397/ensete-ventricosum/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Datos de la especie Ensete ventricosum",
+      "usado_en": [
+        "bananero-rojo"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Ensete ventricosum 'Maurelii'",
+      "url": "https://plants.ces.ncsu.edu/plants/ensete-ventricosum-maurelii/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, sustrato, tamaño, uso en maceta, semilla",
+      "usado_en": [
+        "bananero-rojo"
+      ]
+    },
+    {
+      "org": "University of Washington, Elisabeth C. Miller Library",
+      "titulo": "Growing and caring for red banana plant",
+      "url": "https://depts.washington.edu/hortlib/pal/growing-and-caring-for-red-banana-plant/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, sustrato e invernada del banano rojo",
+      "usado_en": [
+        "bananero-rojo"
+      ]
+    },
+    {
+      "org": "Infobae",
+      "titulo": "Helecho nido de ave: la planta que prospera en baños",
+      "url": "https://www.infobae.com/mexico/2026/09/14/helecho-nido-de-ave-la-planta-que-prospera-en-banos-y-ayuda-a-mantener-la-humedad-ambiental/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Nombre en español: helecho nido de ave",
+      "usado_en": [
+        "asplenium-nidus"
+      ]
+    }
+  ],
+  "revisar": [
+    {
+      "id": "asplenium-nidus",
+      "dato": "toxicidad",
+      "motivo": "ASPCA no lista la especie (revisadas las listas de gatos y perros); Clemson solo dice que los helechos se consideran no tóxicos: queda no_verificada.",
+      "fuentes": [
+        "https://hgic.clemson.edu/how-to-grow-and-care-for-birds-nest-fern-asplenium-nidus/"
+      ]
+    },
+    {
+      "id": "asplenium-nidus",
+      "dato": "propagacion",
+      "motivo": "RHS menciona división y esporas; NC State y UF solo esporas. Confianza baja.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/1728/asplenium-nidus/details",
+        "https://plants.ces.ncsu.edu/plants/asplenium-nidus/"
+      ]
+    },
+    {
+      "id": "asplenium-crispy-wave",
+      "dato": "cuidados y toxicidad",
+      "motivo": "Solo RHS describe el cultivar; el resto es de la especie. Toxicidad no_verificada.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/291477/asplenium-nidus-crispy-wave/details"
+      ]
+    },
+    {
+      "id": "asplenium-bulbiferum",
+      "dato": "identidad",
+      "motivo": "Lo que se vende puede ser A. x lucrosum.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/245527/asplenium-lucrosum/details"
+      ]
+    },
+    {
+      "id": "asplenium-bulbiferum",
+      "dato": "riego invierno",
+      "motivo": "Sin pauta estacional en las fuentes.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/1723/asplenium-bulbiferum/details",
+        "https://plants.ces.ncsu.edu/plants/asplenium-bulbiferum/"
+      ]
+    },
+    {
+      "id": "strelitzia-nicolai",
+      "dato": "toxicidad",
+      "motivo": "Solo NC State; ASPCA lista S. reginae.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/strelitzia-nicolai/"
+      ]
+    },
+    {
+      "id": "strelitzia-reginae",
+      "dato": "horas de sol",
+      "motivo": "Estimación; las fuentes no coinciden.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/strelitzia-reginae/",
+        "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/bird-of-paradise/",
+        "https://hgic.clemson.edu/factsheet/bird-of-paradise/"
+      ]
+    },
+    {
+      "id": "bananero",
+      "dato": "horas de sol",
+      "motivo": "Estimación conservadora.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/musa-acuminata/",
+        "https://www.rhs.org.uk/plants/56394/musa-acuminata-dwarf-cavendish-aaa-group-f/details"
+      ]
+    },
+    {
+      "id": "bananero",
+      "dato": "propagacion",
+      "motivo": "No se incluyó semilla aunque RHS y NC State la mencionan.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/56394/musa-acuminata-dwarf-cavendish-aaa-group-f/details",
+        "https://plants.ces.ncsu.edu/plants/musa-acuminata/"
+      ]
+    },
+    {
+      "id": "bananero-basjoo",
+      "dato": "toxicidad",
+      "motivo": "ASPCA solo lista Musa acuminata y NC State no informa: no_verificada.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/musa-basjoo/",
+        "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/banana"
+      ]
+    },
+    {
+      "id": "bananero-basjoo",
+      "dato": "humedad y apto interior",
+      "motivo": "Humedad sin dato específico; se marcó no apto para vivir adentro.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/banana/growing-guide",
+        "https://plants.ces.ncsu.edu/plants/musa-basjoo/"
+      ]
+    },
+    {
+      "id": "bananero-rojo",
+      "dato": "toxicidad y humedad",
+      "motivo": "Sin ficha veterinaria; humedad sin dato específico.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/ensete-ventricosum-maurelii/"
+      ]
+    },
+    {
+      "id": "bananero-rojo",
+      "dato": "propagacion",
+      "motivo": "Solo semilla, sin época.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/118143/ensete-ventricosum-maurelii/details",
+        "https://www.rhs.org.uk/plants/banana/growing-guide"
+      ]
+    }
+  ],
+  "no_pude_abrir": [
+    "https://extension.umn.edu/houseplants/tropical-ferns (403)",
+    "https://pza.sanbi.org/strelitzia-nicolai (403)",
+    "https://ask.ifas.ufl.edu/publication/st604 (410)",
+    "https://ask.ifas.ufl.edu/publication/MG106 (demasiadas redirecciones)",
+    "https://ask.ifas.ufl.edu/publication/FP054 (demasiadas redirecciones)",
+    "https://www.missouribotanicalgarden.org (conexión rechazada)",
+    "https://plants.ces.ncsu.edu/plants/ensete-ventricosum/ (404)",
+    "https://plants.ces.ncsu.edu/plants/musa/ (404)"
+  ]
+}

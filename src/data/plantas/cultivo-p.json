@@ -1,0 +1,422 @@
+{
+  "asplenium-nidus": {
+    "porte": [
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: sacá solo las hojas secas, amarillas o dañadas."
+    },
+    "propagacion": {
+      "metodos": [
+        "division"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "Multiplicarlo en casa es difícil: se reproduce por esporas. La división de la mata es la alternativa que mencionan algunas guías; si la probás, que sea a comienzos de la primavera y con mucha delicadeza."
+    },
+    "fuentes": [
+      {
+        "titulo": "Asplenium nidus",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/1728/asplenium-nidus/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Bird's Nest Fern",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/birds-nest-fern/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Indoor Ferns",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Asplenium nidus",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/asplenium-nidus/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "baja",
+    "adaptaciones": [
+      "La división de helechos a comienzos de la primavera (Clemson) se tomó como septiembre a noviembre."
+    ]
+  },
+  "asplenium-crispy-wave": {
+    "porte": [
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: sacá solo las hojas secas o dañadas."
+    },
+    "propagacion": {
+      "metodos": [
+        "division"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "Multiplicarlo en casa es difícil: se reproduce por esporas. La división de la mata es la alternativa que mencionan algunas guías; si la probás, que sea a comienzos de la primavera y con mucha delicadeza."
+    },
+    "fuentes": [
+      {
+        "titulo": "Asplenium nidus 'Crispy Wave'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/291477/asplenium-nidus-crispy-wave/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Indoor Ferns",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Asplenium nidus",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/asplenium-nidus/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "baja",
+    "adaptaciones": [
+      "La división de helechos a comienzos de la primavera (Clemson) se tomó como septiembre a noviembre."
+    ]
+  },
+  "asplenium-bulbiferum": {
+    "porte": [
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: sacá las hojas secas o dañadas."
+    },
+    "propagacion": {
+      "metodos": [
+        "hijuelos",
+        "division"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "Sobre las hojas nacen plantitas: cuando tengan 3 o 4 hojitas, separalas y plantalas en tierra húmeda. También se puede dividir la mata a comienzos de la primavera."
+    },
+    "fuentes": [
+      {
+        "titulo": "Asplenium bulbiferum",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/1723/asplenium-bulbiferum/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Asplenium bulbiferum",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/asplenium-bulbiferum/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Indoor Ferns",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "La división de helechos a comienzos de la primavera (Clemson) se tomó como septiembre a noviembre.",
+      "Las fuentes no dan época para plantar los hijitos: los meses son los de la división."
+    ]
+  },
+  "strelitzia-nicolai": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: sacá desde la base las hojas secas o muy rotas."
+    },
+    "propagacion": {
+      "metodos": [
+        "division",
+        "semilla"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "En primavera separá los retoños que ya tengan raíces. También sale de semilla, pero es lento: la semilla es muy dura y hay que remojarla antes."
+    },
+    "fuentes": [
+      {
+        "titulo": "Strelitzia nicolai",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/82161/strelitzia-nicolai/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Strelitzia nicolai",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/strelitzia-nicolai/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Bird of Paradise",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/bird-of-paradise/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow strelitzia",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/strelitzia/how-to-grow-strelitzia",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "La división de retoños en primavera (RHS) se pasó a septiembre a noviembre."
+    ]
+  },
+  "strelitzia-reginae": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: sacá desde la base las hojas secas y cortá las varas cuando la flor se marchite."
+    },
+    "propagacion": {
+      "metodos": [
+        "division",
+        "semilla"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "detalle": "Entre primavera y comienzos del verano separá un retoño del borde de la mata, con hojas y raíces. De semilla también se puede, pero tarda años en florecer."
+    },
+    "fuentes": [
+      {
+        "titulo": "How to grow strelitzia",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/strelitzia/how-to-grow-strelitzia",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Bird of Paradise",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/bird-of-paradise/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Bird of Paradise",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/bird-of-paradise/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Strelitzia reginae",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/strelitzia-reginae/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "División a comienzos de la primavera (RHS, Clemson) y de fines de primavera a comienzos del verano (UF): se tomó de septiembre a diciembre."
+    ]
+  },
+  "bananero": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: cortá desde la base las hojas viejas o muy rotas."
+    },
+    "propagacion": {
+      "metodos": [
+        "hijuelos",
+        "division"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "En primavera separá un hijito de la base con la mayor cantidad de raíces posible, sacale algunas hojas y plantalo en una maceta justa."
+    },
+    "fuentes": [
+      {
+        "titulo": "Musa acuminata 'Dwarf Cavendish' (AAA Group)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/56394/musa-acuminata-dwarf-cavendish-aaa-group-f/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow banana plants",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/banana/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Bananas",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/fruits/bananas/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "La separación de hijitos a comienzos de la primavera (RHS) se pasó a septiembre a noviembre."
+    ]
+  },
+  "bananero-basjoo": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "Sacá las hojas viejas o dañadas; el tallo que ya dio flor se muere y lo reemplazan los hijitos."
+    },
+    "propagacion": {
+      "metodos": [
+        "hijuelos",
+        "division",
+        "semilla"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11
+      ],
+      "detalle": "En primavera separá un hijito con raíces o dividí la mata. De semilla también se puede, remojándola antes y con calor."
+    },
+    "fuentes": [
+      {
+        "titulo": "Musa basjoo",
+        "org": "RHS",
+        "url": "https://rhs.org.uk/plants/11230/musa-basjoo-japanese-banana-japanese-fiber-banana/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Musa basjoo",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/musa-basjoo/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow banana plants",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/banana/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "La separación de hijitos a comienzos de la primavera (RHS) se pasó a septiembre a noviembre."
+    ]
+  },
+  "bananero-rojo": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "Sacá las hojas secas cortando sin pasar de la base de la lámina de la hoja."
+    },
+    "propagacion": {
+      "metodos": [
+        "semilla"
+      ],
+      "en_agua": false,
+      "meses": [],
+      "detalle": "No suele dar hijitos: se multiplica por semilla, que germina de forma despareja. En casa no es sencillo."
+    },
+    "fuentes": [
+      {
+        "titulo": "Ensete ventricosum 'Maurelii'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/118143/ensete-ventricosum-maurelii/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow banana plants",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/banana/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Ensete ventricosum 'Maurelii'",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/ensete-ventricosum-maurelii/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Ensete ventricosum",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/6397/ensete-ventricosum/details",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Las fuentes no dan época de siembra: no se cargaron meses."
+    ]
+  }
+}

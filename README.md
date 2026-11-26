@@ -2,7 +2,7 @@
 
 PWA de uso personal para aprender sobre plantas de interior desde cero (macetas, balcón, interior). Lecciones cortas y muy visuales, en español rioplatense, pensada para Buenos Aires (hemisferio sur).
 
-> **Estado:** las 12 unidades y sus 49 lecciones (Familias creció con Trepadoras y colgantes, Tutores y soportes, y Plantas de flor y de hojas) están completas y con fuentes (tandas 1, 2 y 3). Catálogo de 54 plantas y recomendador por espacio con el Modelo de luz.
+> **Estado:** las 12 unidades y sus 49 lecciones (Familias creció con Trepadoras y colgantes, Tutores y soportes, y Plantas de flor y de hojas) están completas y con fuentes (tandas 1, 2 y 3). Catálogo de 95 plantas y recomendador por espacio con el Modelo de luz.
 
 ## Rigor del contenido
 

@@ -1,0 +1,319 @@
+{
+  "fuentes": [
+    {
+      "org": "NC State Extension",
+      "titulo": "Philodendron hastatum",
+      "url": "https://plants.ces.ncsu.edu/plants/philodendron-hastatum/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Especie: nombres, luz, riego, sustrato, humedad, porte trepador, tutor, esquejes, cultivar Silver Sword, toxicidad",
+      "usado_en": [
+        "filodendro-hastatum"
+      ]
+    },
+    {
+      "org": "NC State Extension",
+      "titulo": "Philodendron (género)",
+      "url": "https://plants.ces.ncsu.edu/plants/philodendron/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Cuidados del género, tipos no trepadores (Birkin) en roseta, toxicidad leve",
+      "usado_en": [
+        "filodendro-birkin"
+      ]
+    },
+    {
+      "org": "NC State Extension",
+      "titulo": "Philodendron 'Birkin'",
+      "url": "https://plants.ces.ncsu.edu/plants/philodendron-birkin/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Origen incierto, hojas rayadas, luz, sustrato, humedad, porte, tamaño, toxicidad",
+      "usado_en": [
+        "filodendro-birkin"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Philodendron growing guide",
+      "url": "https://www.rhs.org.uk/plants/philodendron/growing-guide",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, sustrato, tutor, poda y esquejes del género",
+      "usado_en": [
+        "filodendro-hastatum",
+        "filodendro-domesticum",
+        "filodendro-birkin",
+        "filodendro-rojo-congo"
+      ]
+    },
+    {
+      "org": "Clemson HGIC",
+      "titulo": "Philodendron",
+      "url": "https://hgic.clemson.edu/factsheet/philodendron/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Cuidados del género; describe P. domesticum como trepadora de hojas en flecha; toxicidad",
+      "usado_en": [
+        "filodendro-hastatum",
+        "filodendro-domesticum",
+        "filodendro-rojo-congo"
+      ]
+    },
+    {
+      "org": "Iowa State University Extension",
+      "titulo": "Growing Philodendrons at Home",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-philodendrons-home",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Cuidados, nombra P. domesticum, P. hastatum y Birkin; multiplicación de no trepadores; tóxico para perros y gatos",
+      "usado_en": [
+        "filodendro-hastatum",
+        "filodendro-domesticum",
+        "filodendro-birkin",
+        "filodendro-rojo-congo"
+      ]
+    },
+    {
+      "org": "UConn Home & Garden Education Center",
+      "titulo": "Philodendron",
+      "url": "https://homegarden.cahnr.uconn.edu/factsheets/philodendron",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, sustrato, acodo; nombra Rojo Congo",
+      "usado_en": [
+        "filodendro-hastatum",
+        "filodendro-domesticum",
+        "filodendro-rojo-congo"
+      ]
+    },
+    {
+      "org": "UF/IFAS Gardening Solutions",
+      "titulo": "Hybrid Philodendrons",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/home/plants/houseplants/hybrid-philodendrons",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz y riego de híbridos de porte erguido",
+      "usado_en": [
+        "filodendro-birkin",
+        "filodendro-rojo-congo"
+      ]
+    },
+    {
+      "org": "UF/IFAS Extension",
+      "titulo": "ENH893 Interiorscape Philodendron",
+      "url": "https://ask.ifas.ufl.edu/publication/EP150/pdf",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Híbridos autoportantes se multiplican por cultivo de tejidos; condiciones de interior (PDF leído extrayendo el texto)",
+      "usado_en": [
+        "filodendro-rojo-congo"
+      ]
+    },
+    {
+      "org": "Google Patents",
+      "titulo": "USPP14116P3 Rojo Congo",
+      "url": "https://patents.google.com/patent/USPP14116P3/en",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Parentesco (Imperial Red x P. tatei subsp. melanochlorum), porte, tamaño",
+      "usado_en": [
+        "filodendro-rojo-congo"
+      ]
+    },
+    {
+      "org": "Kew WCVP (vía GBIF)",
+      "titulo": "Búsqueda Philodendron domesticum",
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=f382f0ce-323a-4091-bb9f-add557f3a9a2&q=Philodendron%20domesticum&limit=10",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "P. ×domesticum aceptado",
+      "usado_en": [
+        "filodendro-domesticum"
+      ]
+    },
+    {
+      "org": "Kew WCVP (vía GBIF)",
+      "titulo": "Registro P. ×domesticum",
+      "url": "https://api.gbif.org/v1/species/206561051",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Híbrido aceptado, Baileya 14: 89 (1966)",
+      "usado_en": [
+        "filodendro-domesticum"
+      ]
+    },
+    {
+      "org": "Kew WCVP (vía GBIF)",
+      "titulo": "Búsqueda Philodendron hastatum",
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=f382f0ce-323a-4091-bb9f-add557f3a9a2&q=Philodendron%20hastatum&limit=10",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "P. hastatum K.Koch & Sello aceptado",
+      "usado_en": [
+        "filodendro-hastatum"
+      ]
+    },
+    {
+      "org": "Kew WCVP (vía GBIF)",
+      "titulo": "Sinónimos de P. hastatum",
+      "url": "https://api.gbif.org/v1/species/206560794/synonyms?limit=30",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Domesticum no es sinónimo",
+      "usado_en": [
+        "filodendro-hastatum",
+        "filodendro-domesticum"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Philodendron domesticum",
+      "url": "https://www.rhs.org.uk/plants/156462/philodendron-domesticum/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Nombre con estado sin resolver, familia",
+      "usado_en": [
+        "filodendro-domesticum"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Philodendron Rojo Congo",
+      "url": "https://www.rhs.org.uk/plants/515141/philodendron-rojo-congo/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Nombre aceptado, sinónimo 'Congo Red'",
+      "usado_en": [
+        "filodendro-rojo-congo"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Philodendron 'White Knight' (v)",
+      "url": "https://www.rhs.org.uk/plants/526301/philodendron-white-knight-(v)/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "La describe como cultivar variegado de P. domesticum (otro nombre; estado sin resolver)",
+      "usado_en": [
+        "filodendro-domesticum-variegado"
+      ]
+    },
+    {
+      "org": "Exotic Rainforest (no institucional)",
+      "titulo": "Philodendron hastatum",
+      "url": "https://exoticrainforest.com/Philodendron%20hastatum%20pc.html",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Historia de la confusión de nombres (Bunting 1966)",
+      "usado_en": [
+        "filodendro-domesticum",
+        "filodendro-hastatum"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Heartleaf Philodendron",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/heartleaf-philodendron",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Tóxica para perros y gatos (otra especie del género)",
+      "usado_en": [
+        "filodendro-hastatum",
+        "filodendro-domesticum",
+        "filodendro-birkin",
+        "filodendro-rojo-congo"
+      ]
+    },
+    {
+      "org": "Pet Poison Helpline",
+      "titulo": "Philodendron",
+      "url": "https://www.petpoisonhelpline.com/poison/philodendron/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Género tóxico para mascotas, síntomas, hinchazón de garganta rara",
+      "usado_en": [
+        "filodendro-hastatum",
+        "filodendro-domesticum",
+        "filodendro-birkin",
+        "filodendro-rojo-congo"
+      ]
+    }
+  ],
+  "revisar": [
+    {
+      "id": "filodendro-domesticum-variegado",
+      "dato": "existencia_del_cultivar",
+      "motivo": "No se incluyó: ninguna fuente seria abierta confirma un cultivar llamado domesticum variegado/'Variegata'. RHS solo describe 'White Knight' (v) como cultivar variegado de P. domesticum (otra planta comercial, hojas acorazonadas, nombre sin resolver). La base de cultivares de la International Aroid Society aparecía en un resumen de búsqueda con 'Variegata', pero respondió 403 y no se pudo leer. El resto son viveros.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/526301/philodendron-white-knight-(v)/details"
+      ]
+    },
+    {
+      "id": "filodendro-domesticum",
+      "dato": "cuidados",
+      "motivo": "Sin ficha de cultivo propia de la especie (NC State 404, ficha RHS vacía): cuidados del género. Sin fotos confiables en Commons.",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/philodendron/"
+      ]
+    },
+    {
+      "id": "filodendro-domesticum",
+      "dato": "toxicidad",
+      "motivo": "Solo fuentes del género; ASPCA abierta es de P. hederaceum.",
+      "fuentes": [
+        "https://www.petpoisonhelpline.com/poison/philodendron/"
+      ]
+    },
+    {
+      "id": "filodendro-hastatum",
+      "dato": "horas_sol_directo",
+      "motivo": "NC State se contradice (2 a 6 h de sol directo y a la vez evitar sol directo); se puso 0.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/philodendron-hastatum/"
+      ]
+    },
+    {
+      "id": "filodendro-rojo-congo",
+      "dato": "cuidados",
+      "motivo": "Sin ficha de cuidados del cultivar; confianza baja. Toxicidad solo por género.",
+      "fuentes": [
+        "https://patents.google.com/patent/USPP14116P3/en"
+      ]
+    },
+    {
+      "id": "filodendro-rojo-congo",
+      "dato": "propagacion",
+      "motivo": "Métodos caseros de la guía para no trepadores; la patente solo describe cultivo de tejidos.",
+      "fuentes": [
+        "https://yardandgarden.extension.iastate.edu/how-to/growing-philodendrons-home"
+      ]
+    },
+    {
+      "id": "filodendro-birkin",
+      "dato": "propagacion",
+      "motivo": "No es específica del cultivar; sin fuente sobre si los hijos conservan la variegación.",
+      "fuentes": [
+        "https://yardandgarden.extension.iastate.edu/how-to/growing-philodendrons-home"
+      ]
+    },
+    {
+      "id": "filodendro-birkin",
+      "dato": "parentesco",
+      "motivo": "Incierto según NC State: mutación de 'Rojo Congo' o híbrido 'Congo' x 'Imperial Green'.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/philodendron-birkin/"
+      ]
+    },
+    {
+      "id": "filodendro-hastatum",
+      "dato": "gravedad",
+      "motivo": "NC State dice severidad baja; se dejó moderada (aplica a las 4).",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/philodendron-hastatum/"
+      ]
+    },
+    {
+      "id": "filodendro-birkin",
+      "dato": "fotos",
+      "motivo": "Solo 2 fotos: el resto de las candidatas de Commons eran la misma toma. Ambas son verticales; la segunda muestra una hoja nueva blanca y otra casi sin rayas.",
+      "fuentes": []
+    },
+    {
+      "id": "filodendro-hastatum",
+      "dato": "fotos",
+      "motivo": "La principal tiene un cartel chico asomando arriba; la tercera es una planta silvestre (observación de iNaturalist) con identificación menos segura.",
+      "fuentes": []
+    }
+  ],
+  "no_pude_abrir": [
+    "powo.science.kew.org (403; se usó el dataset WCVP de Kew en GBIF)",
+    "https://www.gbif.org/species/3604671 (403; la API sí respondió)",
+    "aroid.org (403: base de cultivares y lista de especies)",
+    "https://davesgarden.com/guides/pf/go/62290 (403)",
+    "https://list.worldfloraonline.org/wfo-4000029230 (conexión rechazada)",
+    "aggie-hort.tamu.edu ficha de P. domesticum (redirecciones en bucle)",
+    "https://plants.ces.ncsu.edu/plants/philodendron-domesticum/ (404)",
+    "https://mrec.ifas.ufl.edu/foliage/folnotes/philo-sh.htm (404)"
+  ]
+}

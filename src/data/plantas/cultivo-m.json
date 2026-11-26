@@ -1,0 +1,319 @@
+{
+  "alocasia-black-velvet": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo sacá desde la base las hojas secas."
+    },
+    "propagacion": {
+      "metodos": [
+        "hijuelos",
+        "division"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "detalle": "En primavera separá los hijitos con todas las raíces que puedas, o dividí el rizoma al final de la primavera. Usá guantes porque la savia irrita."
+    },
+    "fuentes": [
+      {
+        "titulo": "Alocasia growing guide",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/alocasia/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Alocasia (género)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/alocasia/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Hijuelos en primavera (septiembre a noviembre) y división del rizoma a fines de primavera o principio de verano (noviembre y diciembre): se unificó en septiembre a diciembre."
+    ]
+  },
+  "alocasia-zebrina": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo sacá desde la base las hojas secas."
+    },
+    "propagacion": {
+      "metodos": [
+        "hijuelos",
+        "division",
+        "esqueje_tierra"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "Lo más simple es separar los hijitos en primavera o dividir la mata en primavera o verano; también se puede probar con esquejes de tallo en primavera. Usá guantes."
+    },
+    "fuentes": [
+      {
+        "titulo": "Alocasia zebrina",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/136827/alocasia-zebrina/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Alocasia growing guide",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/alocasia/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Alocasia (género)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/alocasia/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "División en primavera o verano e hijuelos y esquejes en primavera: se pasó a septiembre a febrero."
+    ]
+  },
+  "ficus-lyrata-bambino": {
+    "porte": [
+      "erguida"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [
+        8,
+        9
+      ],
+      "detalle": "Casi no necesita poda: si un brote se alarga de más, acortalo justo arriba de una hoja a fin del invierno. Usá guantes porque la savia irrita."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje_tierra"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "Se multiplica con esquejes de tallo semimaduro en sustrato, en primavera o verano. Prende mejor con calor de base, así que paciencia."
+    },
+    "fuentes": [
+      {
+        "titulo": "Ficus lyrata 'Bambino'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/147427/ficus-lyrata-bambino/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow ornamental figs (RHS Growing Guide)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/popular/ornamental-figs/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Ficus lyrata",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/ficus-lyrata/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Poda a fines de invierno o principio de primavera: agosto y septiembre.",
+      "Esquejes en primavera o fines del verano del norte: se pasó a septiembre a febrero."
+    ]
+  },
+  "anturio-clarinervium": {
+    "porte": [
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo sacá desde la base las hojas secas y las varas de flores pasadas."
+    },
+    "propagacion": {
+      "metodos": [
+        "division",
+        "hijuelos",
+        "esqueje_tierra"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "En primavera o verano separá la mata o los hijitos, cada uno con sus raíces; también sirve un trozo de tallo o rizoma en una mezcla suelta."
+    },
+    "fuentes": [
+      {
+        "titulo": "Anthurium clarinervium",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/84264/anthurium-clarinervium/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow anthuriums",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Anthurium (género)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/anthurium/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Propagación en primavera o verano: septiembre a febrero."
+    ]
+  },
+  "anturio-scherzerianum": {
+    "porte": [
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: solo sacá desde la base las hojas secas y las varas de flores pasadas."
+    },
+    "propagacion": {
+      "metodos": [
+        "division",
+        "hijuelos",
+        "esqueje_tierra"
+      ],
+      "en_agua": false,
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "En primavera o verano dividí la mata o separá los hijitos con sus raíces; también podés usar un trozo de tallo o rizoma en mezcla suelta."
+    },
+    "fuentes": [
+      {
+        "titulo": "Anthurium scherzerianum",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/1360/anthurium-scherzerianum/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Anthurium scherzerianum",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/anthurium-scherzerianum/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Propagación en primavera o verano: septiembre a febrero."
+    ]
+  },
+  "peperomia-caperata": {
+    "porte": [
+      "roseta"
+    ],
+    "tutor": {
+      "recomendado": "no",
+      "detalle": ""
+    },
+    "poda": {
+      "meses": [],
+      "detalle": "No necesita poda: sacá las hojas secas y, si querés, las espigas de flores pasadas o algún tallo estirado."
+    },
+    "propagacion": {
+      "metodos": [
+        "hoja",
+        "esqueje_tierra",
+        "esqueje_agua"
+      ],
+      "en_agua": true,
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "detalle": "En primavera o verano plantá una hoja con su palito o la punta de un tallo en sustrato suelto. El esqueje de tallo también puede enraizar primero en agua."
+    },
+    "fuentes": [
+      {
+        "titulo": "Peperomia caperata",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/peperomia-caperata/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Peperomia caperata",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/12494/peperomia-caperata/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow peperomia",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/peperomia/how-to-grow-peperomia",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Peperomia (Peperomia spp.) indoor plant care and growing guide",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/peperomia-peperomia-spp-indoor-plant-care-and-growing-guide/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Esquejes en primavera o verano: septiembre a febrero."
+    ]
+  }
+}

@@ -1,0 +1,1028 @@
+[
+  {
+    "id": "alocasia-black-velvet",
+    "nombre_comun": "Alocasia 'Black Velvet'",
+    "otros_nombres": [
+      "Black Velvet"
+    ],
+    "nombre_cientifico": "Alocasia reginula",
+    "familia": "Araceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Le va la luz brillante filtrada, sin sol fuerte sobre las hojas. Con poca luz aguanta, pero crece más lento.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá cuando los primeros 5 cm de tierra estén secos y no dejes agua en el plato.",
+      "invierno": "Regá lo mínimo: con frío descansa y el exceso de agua le pudre la base.",
+      "confianza": "baja"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Prefiere aire húmedo: agrupala con otras plantas o usá un plato con piedritas mojadas, sin que la maceta toque el agua.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Mezcla muy suelta y de buen drenaje: unas 3 partes de sustrato para plantas de interior y 1 de grava fina o perlita, en maceta con agujeros.",
+      "confianza": "media"
+    },
+    "tolerancia_descuido": 2,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "No le gusta el frío: conviene que no baje de unos 16 °C cuando crece ni de 10 °C en invierno. En Buenos Aires vive adentro."
+    },
+    "tamano": "mediana",
+    "dificultad": "media",
+    "tip": "Si en invierno pierde alguna hoja, tranqui: está descansando. Regá poquito y esperá a la primavera.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: solo sacá desde la base las hojas secas."
+      },
+      "propagacion": {
+        "metodos": [
+          "hijuelos",
+          "division"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "detalle": "En primavera separá los hijitos con todas las raíces que puedas, o dividí el rizoma al final de la primavera. Usá guantes porque la savia irrita."
+      },
+      "fuentes": [
+        {
+          "titulo": "Alocasia growing guide",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/alocasia/growing-guide",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Alocasia (género)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/alocasia/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "media",
+      "adaptaciones": [
+        "Hijuelos en primavera (septiembre a noviembre) y división del rizoma a fines de primavera o principio de verano (noviembre y diciembre): se unificó en septiembre a diciembre."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Irritación y dolor en la boca, los labios, la lengua y la garganta, mucha baba, dificultad para tragar y vómitos.",
+      "partes": "Toda la planta",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Es tóxica para gatos y perros. Ponela donde no lleguen y usá guantes al manipularla. Si la mordieron y babean, vomitan o les cuesta tragar, consultá con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "media",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Alocasia (Elephant's Ear)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/alocasia",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Alocasia (género)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/alocasia/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Alocasia",
+          "org": "Pet Poison Helpline",
+          "url": "https://www.petpoisonhelpline.com/poison/alocasia/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Alocasia growing guide",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/alocasia/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Alocasia (género)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/alocasia/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Alocasia",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/plants/alocasia",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "baja",
+    "adaptaciones": [
+      "No encontré una guía de cuidados propia de Alocasia reginula: luz, riego, humedad y sustrato salen de guías del género Alocasia (RHS, NC State, Illinois).",
+      "Estaciones convertidas: primavera de septiembre a noviembre, verano de diciembre a febrero, invierno (reposo) de junio a agosto.",
+      "Temperaturas de las guías llevadas al clima de Buenos Aires: adentro todo el año."
+    ],
+    "discrepancias": [
+      "Riego: Illinois pide tierra siempre húmeda, NC State regar seguido en época de crecimiento y RHS dejar secar los primeros 5 cm; se eligió dejar secar, por el riesgo de pudrición. Por eso y por ser datos del género, la confianza del riego es baja.",
+      "Sol: NC State e Illinois hablan de media sombra (NC State admite algunas horas de sol, pensando en jardín) y RHS advierte que el sol fuerte quema; se tomó 0 horas.",
+      "'Black Velvet' es el nombre con el que se vende la especie Alocasia reginula; NC State la llama 'Black Velvet Elephant Ear'.",
+      "Gravedad: ASPCA no da escala; NC State rotula el género con severidad media. ASPCA y Pet Poison Helpline cubren el género, no la especie."
+    ]
+  },
+  {
+    "id": "alocasia-zebrina",
+    "nombre_comun": "Alocasia zebrina",
+    "otros_nombres": [
+      "Zebra alocasia"
+    ],
+    "nombre_cientifico": "Alocasia zebrina",
+    "familia": "Araceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Quiere mucha claridad pero filtrada, sin sol fuerte sobre las hojas. Con poca luz crece más despacio.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá cuando los primeros 5 cm de tierra estén secos; en pleno crecimiento toma bastante, pero sin agua en el plato.",
+      "invierno": "Regá lo mínimo: con frío el exceso le pudre las raíces.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Le encanta el aire húmedo: un plato con piedritas mojadas o juntarla con otras plantas ayuda, sobre todo con la calefacción.",
+      "confianza": "alta"
+    },
+    "sustrato": {
+      "tipo": "Sustrato para plantas de interior con grava fina o perlita (unas 3 partes a 1), húmedo pero con muy buen drenaje.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 2,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Pide más de 15 °C: en Buenos Aires es planta de adentro todo el año."
+    },
+    "tamano": "mediana",
+    "dificultad": "media",
+    "tip": "Sus tallos rayados son la estrella: girá la maceta cada vez que regás para que no se incline hacia la ventana.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: solo sacá desde la base las hojas secas."
+      },
+      "propagacion": {
+        "metodos": [
+          "hijuelos",
+          "division",
+          "esqueje_tierra"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "detalle": "Lo más simple es separar los hijitos en primavera o dividir la mata en primavera o verano; también se puede probar con esquejes de tallo en primavera. Usá guantes."
+      },
+      "fuentes": [
+        {
+          "titulo": "Alocasia zebrina",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/136827/alocasia-zebrina/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Alocasia growing guide",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/alocasia/growing-guide",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Alocasia (género)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/alocasia/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "División en primavera o verano e hijuelos y esquejes en primavera: se pasó a septiembre a febrero."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Irritación y dolor en la boca, los labios, la lengua y la garganta, mucha baba, dificultad para tragar y vómitos.",
+      "partes": "Toda la planta",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Es tóxica para gatos y perros. Ponela donde no lleguen y usá guantes al manipularla. Si la mordieron y babean, vomitan o les cuesta tragar, consultá con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Alocasia (Elephant's Ear)",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/alocasia",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Alocasia zebrina",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/136827/alocasia-zebrina/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Alocasia (género)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/alocasia/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Alocasia",
+          "org": "Pet Poison Helpline",
+          "url": "https://www.petpoisonhelpline.com/poison/alocasia/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Alocasia zebrina",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/136827/alocasia-zebrina/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Alocasia growing guide",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/alocasia/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Alocasia (género)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/alocasia/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Alocasia",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/plants/alocasia",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: primavera a otoño del norte (abril a octubre) equivale a octubre a abril; el invierno es de junio a agosto.",
+      "RHS pide ventana este u oeste (hemisferio norte); este y oeste sirven igual en Buenos Aires, y una ventana norte va con cortina."
+    ],
+    "discrepancias": [
+      "Riego: la ficha de RHS dice regar en abundancia, Illinois mantener húmedo y la guía RHS del género dejar secar 5 cm; se eligió dejar secar.",
+      "Sol: la ficha de RHS admite pleno sol o media sombra (cultivo en general) pero adentro pide luz indirecta; se tomó 0 horas.",
+      "Tamaño: NC State la da hasta unos 90 cm y RHS entre 0,5 y 1 m; se dejó mediana.",
+      "Humedad y temperatura de Illinois son del género."
+    ]
+  },
+  {
+    "id": "ficus-lyrata-bambino",
+    "nombre_comun": "Ficus lyrata 'Bambino'",
+    "otros_nombres": [],
+    "nombre_cientifico": "Ficus lyrata 'Bambino'",
+    "familia": "Moraceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Necesita mucha claridad: luz brillante filtrada, cerca de una ventana. Cuidalo del sol fuerte, sobre todo el de la tarde.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá cuando la capa de arriba de la tierra esté seca, sin dejarlo encharcado.",
+      "invierno": "Regá menos: dejá la tierra apenas húmeda y controlala con el dedo antes de regar.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Agradece el aire algo húmedo: un plato con piedritas mojadas ayuda, sin que la maceta toque el agua. Lejos de estufas.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato de buena calidad que retenga algo de humedad y drene bien; se le puede sumar corteza fina.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 2,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "No tolera el frío ni las corrientes de aire (mejor arriba de 10 a 15 °C): en Buenos Aires vive adentro."
+    },
+    "tamano": "grande",
+    "dificultad": "media",
+    "tip": "Es la versión compacta del ficus lira: elegile un rincón luminoso y quedate con ese lugar, que los cambios bruscos no le gustan.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [
+          8,
+          9
+        ],
+        "detalle": "Casi no necesita poda: si un brote se alarga de más, acortalo justo arriba de una hoja a fin del invierno. Usá guantes porque la savia irrita."
+      },
+      "propagacion": {
+        "metodos": [
+          "esqueje_tierra"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "detalle": "Se multiplica con esquejes de tallo semimaduro en sustrato, en primavera o verano. Prende mejor con calor de base, así que paciencia."
+      },
+      "fuentes": [
+        {
+          "titulo": "Ficus lyrata 'Bambino'",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/147427/ficus-lyrata-bambino/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "How to grow ornamental figs (RHS Growing Guide)",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/popular/ornamental-figs/growing-guide",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Ficus lyrata",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/ficus-lyrata/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "media",
+      "adaptaciones": [
+        "Poda a fines de invierno o principio de primavera: agosto y septiembre.",
+        "Esquejes en primavera o fines del verano del norte: se pasó a septiembre a febrero."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "leve",
+      "sintomas": "Irritación en la boca, babeo, vómitos y diarrea; la savia también puede irritar la piel.",
+      "partes": "Hojas, tallos y savia",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Juntá las hojas que se caigan y limpiá la savia si lo podás, así tu mascota no la lame. Si vomita o babea mucho, consultá con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "media",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Is That Houseplant Safe for Your Pets?",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/news/houseplant-safe-your-pets",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Ficus lyrata",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/ficus-lyrata/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Ficus",
+          "org": "Pet Poison Helpline",
+          "url": "https://www.petpoisonhelpline.com/poison/ficus/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Ficus lyrata 'Bambino'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/147427/ficus-lyrata-bambino/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Ficus lyrata",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/ficus-lyrata/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow ornamental figs (RHS Growing Guide)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/popular/ornamental-figs/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: crecimiento (primavera y verano) de septiembre a febrero; invierno de junio a agosto.",
+      "La ventana más soleada en Buenos Aires es la norte: ahí conviene filtrar la luz."
+    ],
+    "discrepancias": [
+      "Luz: la ficha RHS de 'Bambino' admite pleno sol o media sombra y la guía RHS de higueras algo de sol de mañana o tarde, sobre todo en invierno; NC State pide protegerlo del sol de la tarde. Se tomó 0 horas.",
+      "Tamaño: NC State habla de pocos pies de alto y RHS de 1 a 1,5 m; se dejó 'grande'.",
+      "Poda: la ficha RHS dice que no requiere; la guía RHS admite recortes a fin de invierno.",
+      "Toxicidad: ASPCA y NC State hablan de Ficus lyrata y Pet Poison Helpline del género; ninguna evalúa 'Bambino' por separado.",
+      "Acodo aéreo: la guía RHS lo cita para higueras en general (no para esta), así que no se cargó."
+    ]
+  },
+  {
+    "id": "anturio-clarinervium",
+    "nombre_comun": "Anturio clarinervium",
+    "otros_nombres": [],
+    "nombre_cientifico": "Anthurium clarinervium",
+    "familia": "Araceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Luz brillante pero indirecta: el sol directo le quema las hojas aterciopeladas.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá cuando la mezcla esté casi seca unos centímetros abajo, y dejá que escurra bien.",
+      "invierno": "Regá poco, solo cuando la mezcla esté casi seca: con exceso se le pudren las raíces.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Necesita aire húmedo: plato con piedritas mojadas, plantas juntas o un baño con buena luz.",
+      "confianza": "alta"
+    },
+    "sustrato": {
+      "tipo": "Mezcla suelta y algo ácida para epífitas: 2 partes de sustrato ácido, 1 de grava o perlita y 1 de corteza de orquídeas.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 2,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "En invierno pide más de 18 °C y no tolera corrientes frías: es planta de adentro."
+    },
+    "tamano": "mediana",
+    "dificultad": "media",
+    "tip": "Sus venas blancas se lucen con las hojas limpias y buena claridad; mimala con aire húmedo, sobre todo en invierno.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "roseta"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: solo sacá desde la base las hojas secas y las varas de flores pasadas."
+      },
+      "propagacion": {
+        "metodos": [
+          "division",
+          "hijuelos",
+          "esqueje_tierra"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "detalle": "En primavera o verano separá la mata o los hijitos, cada uno con sus raíces; también sirve un trozo de tallo o rizoma en una mezcla suelta."
+      },
+      "fuentes": [
+        {
+          "titulo": "Anthurium clarinervium",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/84264/anthurium-clarinervium/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "How to grow anthuriums",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Anthurium (género)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/anthurium/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "media",
+      "adaptaciones": [
+        "Propagación en primavera o verano: septiembre a febrero."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Ardor y dolor en la boca, los labios y la lengua, hinchazón, babeo, vómitos y dificultad para tragar. Rara vez, con mucha cantidad, hinchazón de garganta que complica la respiración.",
+      "partes": "Toda la planta",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Ponela alta, donde no lleguen a morderla, y usá guantes al cortar o trasplantar. Si la mastican y babean o les cuesta tragar, consultá con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "media",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "These Houseplants Can Cause Trouble for Your Pets",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/news/these-houseplants-can-cause-trouble-your-pets",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Anthurium (género)",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/anthurium/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Anthurium",
+          "org": "Pet Poison Helpline",
+          "url": "https://www.petpoisonhelpline.com/poison/anthurium/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Anthurium clarinervium",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/84264/anthurium-clarinervium/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow anthuriums",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Anthurium (género)",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/anthurium/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: primavera y verano de septiembre a febrero; invierno de junio a agosto.",
+      "RHS pide ventana este u oeste, o la más soleada con cortina: en Buenos Aires la que necesita cortina es la norte.",
+      "Riego, humedad y temperatura se completan con las guías del género (RHS y NC State)."
+    ],
+    "discrepancias": [
+      "Riego: la ficha RHS de la especie dice regar en abundancia (poco en invierno) y las guías del género regar cuando está casi seco; se eligió lo segundo.",
+      "Toxicidad: no encontré ficha de ASPCA de esta especie; ASPCA (artículo), NC State y Pet Poison Helpline cubren el género Anthurium.",
+      "Gravedad: NC State la rotula baja; se dejó moderada, igual que en el anturio rojo, por criterio conservador.",
+      "Tamaño: RHS da 25 a 30 cm de alto y hasta 50 cm de ancho; se dejó mediana.",
+      "Esquejes en agua: la guía RHS del género los menciona, pero la ficha de la especie no; no se cargó."
+    ]
+  },
+  {
+    "id": "anturio-scherzerianum",
+    "nombre_comun": "Anturio scherzerianum",
+    "otros_nombres": [
+      "Planta cola de cerdo",
+      "Pigtail plant"
+    ],
+    "nombre_cientifico": "Anthurium scherzerianum",
+    "familia": "Araceae",
+    "grupo": "con_flor",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Luz brillante indirecta, que lo ayuda a florecer. El sol directo le quema las hojas y con poca luz florece menos.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá cuando la superficie de la mezcla se sienta seca, sin dejar agua en el plato.",
+      "invierno": "Regá con moderación, esperando un poco más entre riegos para que no se pudran las raíces.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Le gusta el ambiente cálido y húmedo: un plato con piedritas mojadas le viene muy bien.",
+      "confianza": "alta"
+    },
+    "sustrato": {
+      "tipo": "Mezcla liviana, ácida y de buen drenaje: 2 partes de sustrato ácido, 1 de grava fina y 1 de corteza de orquídeas.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 3,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "En invierno conviene que no baje de 18 °C: es planta de adentro."
+    },
+    "tamano": "mediana",
+    "dificultad": "media",
+    "tip": "Su espiga enrulada es única: sacá las flores pasadas y dale buena claridad para que siga floreciendo.",
+    "clases": [
+      "con_flor"
+    ],
+    "cultivo": {
+      "porte": [
+        "roseta"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: solo sacá desde la base las hojas secas y las varas de flores pasadas."
+      },
+      "propagacion": {
+        "metodos": [
+          "division",
+          "hijuelos",
+          "esqueje_tierra"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "detalle": "En primavera o verano dividí la mata o separá los hijitos con sus raíces; también podés usar un trozo de tallo o rizoma en mezcla suelta."
+      },
+      "fuentes": [
+        {
+          "titulo": "Anthurium scherzerianum",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/1360/anthurium-scherzerianum/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Anthurium scherzerianum",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/anthurium-scherzerianum/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "media",
+      "adaptaciones": [
+        "Propagación en primavera o verano: septiembre a febrero."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "moderada",
+      "sintomas": "Ardor y dolor en la boca, los labios y la lengua, hinchazón, babeo, vómitos y dificultad para tragar. Rara vez, con mucha cantidad, hinchazón de garganta que complica la respiración.",
+      "partes": "Toda la planta: hojas, tallos, flores, frutos, raíces, semillas y savia.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Ponela alta, donde no lleguen a morderla, y usá guantes al cortar o trasplantar. Si la mastican y babean o les cuesta tragar, consultá con tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Flamingo Flower",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/flamingo-flower",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Anthurium scherzerianum",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/anthurium-scherzerianum/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "These Houseplants Can Cause Trouble for Your Pets",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/news/these-houseplants-can-cause-trouble-your-pets",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Anthurium",
+          "org": "Pet Poison Helpline",
+          "url": "https://www.petpoisonhelpline.com/poison/anthurium/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Anthurium scherzerianum",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/1360/anthurium-scherzerianum/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Anthurium scherzerianum",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/anthurium-scherzerianum/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow anthuriums",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: primavera y verano de septiembre a febrero; invierno de junio a agosto.",
+      "Las fuentes del norte sugieren ventanas este, oeste o sur: en Buenos Aires la equivalente a la sur es la norte, con cortina."
+    ],
+    "discrepancias": [
+      "Riego: RHS dice regar en abundancia (poco en invierno) y NC State cuando la tierra se siente seca; se eligió dejar secar la superficie.",
+      "Sol: NC State admite media sombra con algunas horas de sol pero advierte que el sol directo quema; se tomó 0 horas.",
+      "Gravedad: NC State la rotula baja y ASPCA no da escala; se dejó moderada, igual que en el anturio rojo.",
+      "Nombre: no encontré fuente para 'cola de chancho'; sí 'planta cola de cerdo' (El Espectador, Colombia), por eso el nombre común es el científico."
+    ]
+  },
+  {
+    "id": "peperomia-caperata",
+    "nombre_comun": "Peperomia caperata",
+    "otros_nombres": [
+      "Emerald Ripple"
+    ],
+    "nombre_cientifico": "Peperomia caperata",
+    "familia": "Piperaceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Está mejor con luz brillante filtrada. Aguanta unos meses con poca luz, pero se estira. El sol directo de verano la quema.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá cuando la tierra se haya secado en parte, sin que llegue a secarse del todo ni quede encharcada.",
+      "invierno": "Regá poco, esperando a que la tierra se seque bastante antes de volver a regar.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Se lleva bien con el aire de casa; si está muy seco por la calefacción, un plato con piedritas mojadas la ayuda.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Sustrato suelto y poroso que drene bien, como mezcla para plantas de interior con perlita.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 3,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "No le gusta el frío (mejor arriba de 10 a 15 °C) ni las corrientes de aire: en Buenos Aires mejor adentro."
+    },
+    "tamano": "chica",
+    "dificultad": "facil",
+    "tip": "Ante la duda, esperá un par de días antes de regar: lo que más le cuesta es tener las raíces mojadas.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "roseta"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: sacá las hojas secas y, si querés, las espigas de flores pasadas o algún tallo estirado."
+      },
+      "propagacion": {
+        "metodos": [
+          "hoja",
+          "esqueje_tierra",
+          "esqueje_agua"
+        ],
+        "en_agua": true,
+        "meses": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "detalle": "En primavera o verano plantá una hoja con su palito o la punta de un tallo en sustrato suelto. El esqueje de tallo también puede enraizar primero en agua."
+      },
+      "fuentes": [
+        {
+          "titulo": "Peperomia caperata",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/peperomia-caperata/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Peperomia caperata",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/12494/peperomia-caperata/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "How to grow peperomia",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/peperomia/how-to-grow-peperomia",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Peperomia (Peperomia spp.) indoor plant care and growing guide",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/factsheet/peperomia-peperomia-spp-indoor-plant-care-and-growing-guide/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "Esquejes en primavera o verano: septiembre a febrero."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "ASPCA y NC State la dan como no tóxica para gatos y perros. Igual, si comen mucho de cualquier planta les puede caer mal.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Emerald Ripple Peperomia",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/emerald-ripple-peperomia",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Peperomia caperata",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/peperomia-caperata/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Peperomia caperata",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/peperomia-caperata/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Peperomia caperata",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/12494/peperomia-caperata/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow peperomia",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/peperomia/how-to-grow-peperomia",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Peperomia (Peperomia spp.) indoor plant care and growing guide",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/peperomia-peperomia-spp-indoor-plant-care-and-growing-guide/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: primavera y verano de septiembre a febrero; invierno de junio a agosto.",
+      "Las fuentes del norte sugieren ventana este u oeste, o retirada de la más soleada: en Buenos Aires la más soleada es la norte."
+    ],
+    "discrepancias": [
+      "Luz: NC State prefiere luz media y RHS y Clemson luz brillante filtrada; se tomó brillante como ideal y media y baja como toleradas.",
+      "Sol: NC State admite media sombra con algunas horas de sol y la ficha RHS plena luz en invierno; la guía RHS y Clemson advierten que el sol quema. Se tomó 0 horas.",
+      "Humedad: NC State dice media a baja y RHS media a alta; se dejó media."
+    ]
+  }
+]

@@ -1,0 +1,1386 @@
+[
+  {
+    "id": "asplenium-nidus",
+    "nombre_comun": "Asplenium nido de ave",
+    "otros_nombres": [
+      "Helecho nido de ave",
+      "Nido de ave",
+      "Bird's nest fern",
+      "Nest fern"
+    ],
+    "nombre_cientifico": "Asplenium nidus",
+    "familia": "Aspleniaceae",
+    "grupo": "amiga_humedad",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Le va muy bien con luz brillante sin sol directo, por ejemplo cerca de una ventana al este o al sur, o algo alejado de una al norte. Aguanta lugares con menos luz; con mucho sol las hojas se ponen amarillas y deja de crecer.",
+      "confianza": "alta",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá cuando los primeros 2 o 3 cm de tierra estén secos, sin dejar que se seque del todo: hacelo por el borde de la maceta, sin mojar el centro, y vaciá el plato.",
+      "invierno": "Revisá la tierra y regá un poco más espaciado, sin dejarla secar del todo ni encharcada; usá agua a temperatura ambiente.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Le gusta el aire húmedo. Con la calefacción prendida, ponelo sobre una bandeja con piedritas y agua (sin que la maceta toque el agua) o usá un humidificador cerca; un baño luminoso le encanta.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Suelto, rico en materia orgánica, que drene bien y sea ligeramente ácido: una mezcla para helechos o para plantas de interior.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 2,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Sufre el frío (conviene que no baje de 10 °C) y el sol directo: en Buenos Aires va adentro; afuera solo en los meses cálidos, a la sombra y reparado del viento."
+    },
+    "tamano": "mediana",
+    "dificultad": "facil",
+    "tip": "Regalo para tu nido: mojá la tierra de alrededor y dejá el centro seco. Las hojas nuevas son delicadas, mejor no tocarlas.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "roseta"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: sacá solo las hojas secas, amarillas o dañadas."
+      },
+      "propagacion": {
+        "metodos": [
+          "division"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11
+        ],
+        "detalle": "Multiplicarlo en casa es difícil: se reproduce por esporas. La división de la mata es la alternativa que mencionan algunas guías; si la probás, que sea a comienzos de la primavera y con mucha delicadeza."
+      },
+      "fuentes": [
+        {
+          "titulo": "Asplenium nidus",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/1728/asplenium-nidus/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Bird's Nest Fern",
+          "org": "UF/IFAS Gardening Solutions",
+          "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/birds-nest-fern/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Indoor Ferns",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Asplenium nidus",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/asplenium-nidus/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "baja",
+      "adaptaciones": [
+        "La división de helechos a comienzos de la primavera (Clemson) se tomó como septiembre a noviembre."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "no_verificada",
+      "toxicidad_perro": "no_verificada",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "No encontramos ficha de ASPCA para esta especie. Una guía de extensión universitaria considera a los helechos no tóxicos, pero no alcanza para confirmarlo: mejor que no la mordisqueen y, si pasa y notás algo raro, consultá a tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "baja",
+      "fuentes_toxicidad": []
+    },
+    "fuentes": [
+      {
+        "titulo": "Asplenium nidus",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/asplenium-nidus/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How To Grow and Care for Bird's Nest Fern (Asplenium nidus)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/how-to-grow-and-care-for-birds-nest-fern-asplenium-nidus/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Asplenium nidus",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/1728/asplenium-nidus/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Epiphytic ferns",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/epiphytic-ferns",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Bird's Nest Fern",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/birds-nest-fern/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "HO-141: Ferns for Indoors",
+        "org": "Purdue Extension",
+        "url": "https://ag.purdue.edu/department/hla/extension/extension-publications-library/ext-pubs/ho-141-w.html",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: primavera de septiembre a noviembre, verano de diciembre a febrero, invierno de junio a agosto.",
+      "Las ventanas recomendadas en el norte (este o norte) se adaptaron a Buenos Aires: este o sur, o apartado de una ventana norte.",
+      "El abono de fines de primavera y verano del norte no se incluyó en la ficha."
+    ],
+    "discrepancias": [
+      "Luz: Purdue admite de poca a mucha luz y UF habla de media sombra a sombra; NC State incluye 2 a 6 horas de sol directo pero avisa que el exceso la amarillea. Se dejó 0 horas de sol directo.",
+      "Riego: Clemson deja secar los primeros 2,5 cm, Purdue pide tierra siempre húmeda y la guía de helechos epífitos de RHS dice dejarla casi seca. Se tomó el punto medio.",
+      "Humedad: la ficha de RHS habla de humedad moderada y su guía de helechos epífitos de humedad alta; se dejó 'alta'.",
+      "Mascotas: Clemson dice que los helechos se consideran no tóxicos, pero ASPCA no lista Asplenium nidus (solo A. bulbiferum) y NC State no informa toxicidad: queda no verificada."
+    ]
+  },
+  {
+    "id": "asplenium-crispy-wave",
+    "nombre_comun": "Asplenium 'Crispy Wave'",
+    "otros_nombres": [
+      "Crispy Wave",
+      "Asplenium nidus Crispy Wave"
+    ],
+    "nombre_cientifico": "Asplenium nidus 'Crispy Wave'",
+    "familia": "Aspleniaceae",
+    "grupo": "amiga_humedad",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "indirecta_media"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Es una variedad del nido de ave con hojas erguidas y muy onduladas. Dale luz brillante sin sol directo; aguanta algo menos de luz.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Mantené la tierra húmeda pero no empapada: regá cuando los primeros 2 o 3 cm estén secos, por el borde de la maceta, y vaciá el plato.",
+      "invierno": "Regá un poco más espaciado, sin dejar que se seque del todo ni que quede encharcada.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Agradece el aire húmedo. Con la calefacción prendida, una bandeja con piedritas y agua o un humidificador cerca le ayudan.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Suelto, con buen drenaje, que retenga algo de humedad y sea ácido o neutro: mezcla para plantas de interior con material grueso.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 2,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "No aguanta el frío: en Buenos Aires va adentro; afuera solo con noches templadas (más de 10 °C), a la sombra y sin viento."
+    },
+    "tamano": "mediana",
+    "dificultad": "facil",
+    "tip": "Sus hojas rizadas son la gracia: tocalas poco y regá alrededor, no en el centro.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "roseta"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: sacá solo las hojas secas o dañadas."
+      },
+      "propagacion": {
+        "metodos": [
+          "division"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11
+        ],
+        "detalle": "Multiplicarlo en casa es difícil: se reproduce por esporas. La división de la mata es la alternativa que mencionan algunas guías; si la probás, que sea a comienzos de la primavera y con mucha delicadeza."
+      },
+      "fuentes": [
+        {
+          "titulo": "Asplenium nidus 'Crispy Wave'",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/291477/asplenium-nidus-crispy-wave/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Indoor Ferns",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Asplenium nidus",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/asplenium-nidus/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "baja",
+      "adaptaciones": [
+        "La división de helechos a comienzos de la primavera (Clemson) se tomó como septiembre a noviembre."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "no_verificada",
+      "toxicidad_perro": "no_verificada",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "No encontramos ficha veterinaria de esta variedad ni de su especie en ASPCA: por las dudas, que no la mordisqueen, y si pasa y notás algo raro, consultá a tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "baja",
+      "fuentes_toxicidad": []
+    },
+    "fuentes": [
+      {
+        "titulo": "Asplenium nidus 'Crispy Wave'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/291477/asplenium-nidus-crispy-wave/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Asplenium nidus",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/asplenium-nidus/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How To Grow and Care for Bird's Nest Fern (Asplenium nidus)",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/how-to-grow-and-care-for-birds-nest-fern-asplenium-nidus/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Epiphytic ferns",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/epiphytic-ferns",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: primavera de septiembre a noviembre, verano de diciembre a febrero, invierno de junio a agosto.",
+      "El abono de mayo a agosto del hemisferio norte (RHS) no se incluyó en la ficha."
+    ],
+    "discrepancias": [
+      "Especie: RHS la nombra Asplenium nidus 'Crispy Wave' y NC State la lista entre los cultivares de A. nidus.",
+      "La única fuente de cuidados propia del cultivar es la ficha de RHS; luz, riego y humedad se completaron con fuentes de la especie (NC State, Clemson, RHS helechos epífitos).",
+      "Tamaño: RHS indica hasta 1 a 1,5 m tras varios años y Clemson habla de hojas de 45 a 60 cm adentro (especie); se dejó 'mediana'.",
+      "Humedad: la ficha de RHS dice moderada y la guía de helechos epífitos, alta; se dejó 'alta'."
+    ]
+  },
+  {
+    "id": "asplenium-bulbiferum",
+    "nombre_comun": "Asplenium bulbiferum (helecho madre)",
+    "otros_nombres": [
+      "Helecho madre",
+      "Mother fern",
+      "Mother spleenwort",
+      "Hen and chickens fern"
+    ],
+    "nombre_cientifico": "Asplenium bulbiferum",
+    "familia": "Aspleniaceae",
+    "grupo": "amiga_humedad",
+    "luz_requerida": "indirecta_media",
+    "luz_tolerada": [
+      "indirecta_brillante",
+      "baja"
+    ],
+    "horas_sol_directo": 0,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "media",
+    "luz": {
+      "detalle": "Va bien con luz suave o filtrada, sin sol directo, que le amarillea las hojas. También se adapta a sitios luminosos sin sol y a la sombra.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "alto",
+      "verano": "Mantené la tierra siempre húmeda pero sin encharcar, y no dejes agua en el plato.",
+      "invierno": "Con menos calor la tierra tarda más en secarse: tocala antes de regar y mantenela apenas húmeda, sin mojar el centro de la mata.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Con la calefacción el aire se seca: una bandeja con piedritas y agua, una maceta doble con musgo húmedo o un humidificador le vienen bien.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Con mucha materia orgánica, que retenga humedad pero drene bien, y ácido o neutro: por ejemplo mezcla para plantas de interior con turba o mantillo de hojas.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 2,
+    "apta": {
+      "interior": true,
+      "balcon": false,
+      "nota_balcon": "Aguanta algo de fresco pero no las heladas: en Buenos Aires puede estar en un balcón reparado y a la sombra, y conviene entrarla cuando se anuncia helada."
+    },
+    "tamano": "mediana",
+    "dificultad": "media",
+    "tip": "Esos mini helechos sobre las hojas son sus hijitos: cuando tengan 3 o 4 hojitas podés plantarlos.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "roseta"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: sacá las hojas secas o dañadas."
+      },
+      "propagacion": {
+        "metodos": [
+          "hijuelos",
+          "division"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11
+        ],
+        "detalle": "Sobre las hojas nacen plantitas: cuando tengan 3 o 4 hojitas, separalas y plantalas en tierra húmeda. También se puede dividir la mata a comienzos de la primavera."
+      },
+      "fuentes": [
+        {
+          "titulo": "Asplenium bulbiferum",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/1723/asplenium-bulbiferum/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Asplenium bulbiferum",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/asplenium-bulbiferum/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Indoor Ferns",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "La división de helechos a comienzos de la primavera (Clemson) se tomó como septiembre a noviembre.",
+        "Las fuentes no dan época para plantar los hijitos: los meses son los de la división."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "ASPCA y NC State la consideran no tóxica para gatos y perros. Igual, comer plantas puede caerles mal al estómago: si vomita o está decaído, consultá a tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Toxic and Non-toxic Plants: Mother Fern",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/mother-fern",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Asplenium bulbiferum",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/asplenium-bulbiferum/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Asplenium bulbiferum",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/1723/asplenium-bulbiferum/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Asplenium bulbiferum",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/asplenium-bulbiferum/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Indoor Ferns",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "HO-141: Ferns for Indoors",
+        "org": "Purdue Extension",
+        "url": "https://ag.purdue.edu/department/hla/extension/extension-publications-library/ext-pubs/ho-141-w.html",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Asplenium x lucrosum",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/245527/asplenium-lucrosum/details",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: primavera de septiembre a noviembre, verano de diciembre a febrero, invierno de junio a agosto.",
+      "El abono de mayo a agosto del hemisferio norte (RHS) no se incluyó en la ficha."
+    ],
+    "discrepancias": [
+      "Luz: RHS pide luz indirecta brillante y NC State prefiere poca luz o sombra; se dejó 'indirecta_media' como requerida.",
+      "Riego en invierno: ninguna fuente abierta da una pauta propia de la estación; la frase es una aplicación de la regla de tierra húmeda sin encharcar.",
+      "Humedad: no hay dato específico de la especie en NC State; RHS sugiere humedad moderada y Clemson y Purdue hablan de helechos de interior en general.",
+      "Identidad: muchas plantas que se venden como helecho madre podrían ser el híbrido Asplenium x lucrosum, que RHS lista con el sinónimo 'Asplenium bulbiferum mal aplicado'. La toxicidad se verificó para A. bulbiferum."
+    ]
+  },
+  {
+    "id": "strelitzia-nicolai",
+    "nombre_comun": "Strelitzia nicolai",
+    "otros_nombres": [
+      "Ave del paraíso",
+      "Flor de pájaro",
+      "White bird of paradise",
+      "Giant bird of paradise"
+    ],
+    "nombre_cientifico": "Strelitzia nicolai",
+    "familia": "Strelitziaceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "indirecta_brillante",
+    "luz_tolerada": [
+      "directa"
+    ],
+    "horas_sol_directo": 2,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "baja",
+    "luz": {
+      "detalle": "Quiere el lugar más luminoso que tengas, como junto a una ventana al norte. Puede recibir algunas horas de sol suave; protegela del sol fuerte del mediodía y la tarde.",
+      "confianza": "media",
+      "confianza_sol": "media"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá a fondo cuando la capa de arriba de la tierra esté seca, y dejá que escurra.",
+      "invierno": "Regá poco: esperá a que la tierra se seque más antes de volver a mojar.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Prefiere el aire húmedo: con la calefacción, una bandeja con piedritas y agua o un humidificador le ayudan.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Fértil, que drene bien y retenga algo de humedad: mezcla con tierra y arena o material grueso, de ácida a neutra.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 3,
+    "apta": {
+      "interior": true,
+      "balcon": true,
+      "nota_balcon": "Puede estar en un balcón grande y reparado del viento, que le rasga las hojas. No le gusta bajar de 10 °C: en invierno conviene entrarla o protegerla muy bien, sobre todo de las heladas."
+    },
+    "tamano": "grande",
+    "dificultad": "media",
+    "tip": "Las rajaduras en las hojas son normales con el viento o los roces: dale espacio y no te preocupes.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: sacá desde la base las hojas secas o muy rotas."
+      },
+      "propagacion": {
+        "metodos": [
+          "division",
+          "semilla"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11
+        ],
+        "detalle": "En primavera separá los retoños que ya tengan raíces. También sale de semilla, pero es lento: la semilla es muy dura y hay que remojarla antes."
+      },
+      "fuentes": [
+        {
+          "titulo": "Strelitzia nicolai",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/82161/strelitzia-nicolai/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Strelitzia nicolai",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/strelitzia-nicolai/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Bird of Paradise",
+          "org": "UF/IFAS Gardening Solutions",
+          "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/bird-of-paradise/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "How to grow strelitzia",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/strelitzia/how-to-grow-strelitzia",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "La división de retoños en primavera (RHS) se pasó a septiembre a noviembre."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "leve",
+      "sintomas": "Náuseas, vómitos y somnolencia.",
+      "partes": "Flores, frutos, hojas y semillas.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "NC State la marca como tóxica de baja gravedad. Dejá las hojas y flores lejos de quien las muerda y, si tu gato o perro vomita o está raro, consultá a tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "media",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Strelitzia nicolai",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/strelitzia-nicolai/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Strelitzia nicolai",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/strelitzia-nicolai/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Strelitzia nicolai",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/82161/strelitzia-nicolai/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow strelitzia",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/strelitzia/how-to-grow-strelitzia",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Bird of Paradise",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/bird-of-paradise/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Bird of Paradise",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/bird-of-paradise/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Flor de pájaro: la planta que pasó de los jardines tradicionales a ser la favorita para decorar",
+        "org": "La Nación",
+        "url": "https://www.lanacion.com.ar/revista-jardin/flor-de-pajaro-la-planta-que-paso-de-los-jardines-tradicionales-a-ser-la-favorita-para-decorar-nid23082021/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: primavera de septiembre a noviembre, verano de diciembre a febrero, invierno de junio a agosto.",
+      "La ventana luminosa se tradujo a ventana norte.",
+      "En Buenos Aires las salidas al exterior van en los meses cálidos."
+    ],
+    "discrepancias": [
+      "Luz: NC State habla de luz indirecta brillante y media sombra (2 a 6 horas de sol), UF de pleno sol a sombra ligera y RHS de plena luz con protección del sol fuerte; se tomó lo más conservador (2 horas).",
+      "Frío: NC State no la quiere por debajo de 10 °C y UF la da para zonas 9b a 11; se tomó 10 °C.",
+      "Tamaño: afuera puede superar los 6 m (NC State, RHS); en maceta crece mucho menos, pero las fuentes no dan medida de interior.",
+      "Mascotas: ASPCA tiene ficha de Strelitzia reginae, no de S. nicolai; la toxicidad se tomó solo de NC State."
+    ]
+  },
+  {
+    "id": "strelitzia-reginae",
+    "nombre_comun": "Ave del paraíso (Strelitzia reginae)",
+    "otros_nombres": [
+      "Ave del paraíso",
+      "Flor de pájaro",
+      "Bird of paradise",
+      "Crane flower"
+    ],
+    "nombre_cientifico": "Strelitzia reginae",
+    "familia": "Strelitziaceae",
+    "grupo": "con_flor",
+    "luz_requerida": "directa",
+    "luz_tolerada": [
+      "indirecta_brillante"
+    ],
+    "horas_sol_directo": 4,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "baja",
+    "luz": {
+      "detalle": "Para crecer y florecer necesita mucha luz: junto a una ventana soleada, como la norte. Un poco de sombra en las horas más fuertes cuida las flores. Con menos luz vive, pero es difícil que florezca.",
+      "confianza": "alta",
+      "confianza_sol": "baja"
+    },
+    "riego": {
+      "nivel": "medio",
+      "verano": "Regá seguido para que la tierra se mantenga húmeda sin encharcarse, mirando antes con el dedo.",
+      "invierno": "Regá mucho menos: dejá que la tierra se seque bastante entre un riego y otro.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Le gusta algo de humedad: con la calefacción, apoyala sobre una bandeja con piedritas y agua.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Fértil y con buen drenaje: tierra de buena calidad con materia orgánica y algo de material grueso.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 3,
+    "apta": {
+      "interior": true,
+      "balcon": true,
+      "nota_balcon": "Va bien en un balcón luminoso y reparado en los meses cálidos. En invierno protegela de las heladas y, si las noches se acercan a 10 a 12 °C, conviene entrarla."
+    },
+    "tamano": "grande",
+    "dificultad": "media",
+    "tip": "Paciencia con las flores: pueden tardar varios años en aparecer. Cuanta más luz, más chances.",
+    "clases": [
+      "con_flor",
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: sacá desde la base las hojas secas y cortá las varas cuando la flor se marchite."
+      },
+      "propagacion": {
+        "metodos": [
+          "division",
+          "semilla"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "detalle": "Entre primavera y comienzos del verano separá un retoño del borde de la mata, con hojas y raíces. De semilla también se puede, pero tarda años en florecer."
+      },
+      "fuentes": [
+        {
+          "titulo": "How to grow strelitzia",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/strelitzia/how-to-grow-strelitzia",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Bird of Paradise",
+          "org": "UF/IFAS Gardening Solutions",
+          "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/bird-of-paradise/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Bird of Paradise",
+          "org": "Clemson Cooperative Extension HGIC",
+          "url": "https://hgic.clemson.edu/factsheet/bird-of-paradise/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Strelitzia reginae",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/strelitzia-reginae/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "División a comienzos de la primavera (RHS, Clemson) y de fines de primavera a comienzos del verano (UF): se tomó de septiembre a diciembre."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "toxica",
+      "toxicidad_perro": "toxica",
+      "gravedad": "leve",
+      "sintomas": "Náuseas leves, vómitos y somnolencia.",
+      "partes": "Principalmente frutos y semillas.",
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "Es tóxica leve para gatos y perros, sobre todo si comen frutos o semillas. Cortá las flores marchitas y, si notás vómitos o decaimiento, consultá a tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Toxic and Non-toxic Plants: Bird of Paradise Flower",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/bird-paradise-flower",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Strelitzia reginae",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/strelitzia-reginae/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Strelitzia reginae",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/strelitzia-reginae/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow strelitzia",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/strelitzia/how-to-grow-strelitzia",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Bird of Paradise",
+        "org": "Clemson Cooperative Extension HGIC",
+        "url": "https://hgic.clemson.edu/factsheet/bird-of-paradise/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Bird of Paradise",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/bird-of-paradise/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Flor de pájaro: la planta que pasó de los jardines tradicionales a ser la favorita para decorar",
+        "org": "La Nación",
+        "url": "https://www.lanacion.com.ar/revista-jardin/flor-de-pajaro-la-planta-que-paso-de-los-jardines-tradicionales-a-ser-la-favorita-para-decorar-nid23082021/",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Estaciones convertidas: primavera de septiembre a noviembre, verano de diciembre a febrero, invierno de junio a agosto.",
+      "La ventana soleada del norte del hemisferio se tradujo a ventana norte.",
+      "El riego reducido de otoño e invierno (RHS) se pasó a las estaciones del sur."
+    ],
+    "discrepancias": [
+      "Sol: NC State admite pleno sol (6 horas o más) o media sombra (2 a 6), UF prefiere media sombra y Clemson pleno sol; se dejaron 4 horas sin sol de tarde, como estimación.",
+      "Frío: RHS pide no bajar de 10 a 12 °C; UF la da para zonas 10 y 11 con protección contra heladas.",
+      "Floración: RHS habla de 5 a 10 años; el momento de flor varía según la fuente.",
+      "No confundir con Caesalpinia gilliesii, otra planta llamada ave del paraíso que ASPCA describe como más tóxica."
+    ]
+  },
+  {
+    "id": "bananero",
+    "nombre_comun": "Bananero",
+    "otros_nombres": [
+      "Bananero enano",
+      "Dwarf Cavendish",
+      "Dwarf banana",
+      "Chinese banana",
+      "Musa acuminata Dwarf Cavendish",
+      "Musa cavendishii"
+    ],
+    "nombre_cientifico": "Musa acuminata 'Dwarf Cavendish'",
+    "familia": "Musaceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "directa",
+    "luz_tolerada": [
+      "indirecta_brillante"
+    ],
+    "horas_sol_directo": 4,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "baja",
+    "luz": {
+      "detalle": "Cuanta más luz, mejor: ponelo en el lugar más luminoso, pegado a una ventana al norte. Puede recibir sol, con algo de resguardo en las horas más fuertes del verano.",
+      "confianza": "alta",
+      "confianza_sol": "baja"
+    },
+    "riego": {
+      "nivel": "alto",
+      "verano": "Regá seguido y a fondo, sin dejar que la tierra se seque; en maceta y con calor puede pedir agua casi a diario. Que no quede encharcado.",
+      "invierno": "Regá mucho menos y dejá que la tierra se seque entre un riego y otro.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "alta",
+      "detalle": "Le gusta el aire húmedo: si los bordes de las hojas se ponen marrones, revisá el riego y sumá humedad con una bandeja con piedritas o agrupándolo con otras plantas.",
+      "confianza": "media"
+    },
+    "sustrato": {
+      "tipo": "Rico en materia orgánica y con buen drenaje: tierra de buena calidad con compost y perlita o material grueso.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 2,
+    "apta": {
+      "interior": true,
+      "balcon": true,
+      "nota_balcon": "Va muy bien en un balcón grande, luminoso y sin viento fuerte en los meses cálidos. Las heladas lo queman: antes del frío entralo o protegelo (conviene que no baje de 10 °C)."
+    },
+    "tamano": "grande",
+    "dificultad": "media",
+    "tip": "Las hojas rasgadas son cosas del viento; elegí una maceta grande y dale agua y luz con ganas. Adentro es raro que dé fruta.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "No necesita poda: cortá desde la base las hojas viejas o muy rotas."
+      },
+      "propagacion": {
+        "metodos": [
+          "hijuelos",
+          "division"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11
+        ],
+        "detalle": "En primavera separá un hijito de la base con la mayor cantidad de raíces posible, sacale algunas hojas y plantalo en una maceta justa."
+      },
+      "fuentes": [
+        {
+          "titulo": "Musa acuminata 'Dwarf Cavendish' (AAA Group)",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/56394/musa-acuminata-dwarf-cavendish-aaa-group-f/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "How to grow banana plants",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/banana/growing-guide",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Bananas",
+          "org": "UF/IFAS Gardening Solutions",
+          "url": "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/fruits/bananas/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "La separación de hijitos a comienzos de la primavera (RHS) se pasó a septiembre a noviembre."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "segura",
+      "toxicidad_perro": "segura",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "ASPCA y NC State consideran no tóxico al banano (Musa acuminata) para gatos y perros. Si igual come mucha hoja y se siente mal, consultá a tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "alta",
+      "fuentes_toxicidad": [
+        {
+          "titulo": "Toxic and Non-toxic Plants: Banana",
+          "org": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/banana",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Musa acuminata",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/musa-acuminata/",
+          "fecha_consulta": "2026-11-26"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "titulo": "Musa acuminata 'Dwarf Cavendish' (AAA Group)",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/56394/musa-acuminata-dwarf-cavendish-aaa-group-f/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow banana plants",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/banana/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Musa acuminata",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/musa-acuminata/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Bananas",
+        "org": "UF/IFAS Gardening Solutions",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/fruits/bananas/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Banana Plant: A Bold and Beautiful Tropical Addition to the Garden",
+        "org": "Penn State Extension",
+        "url": "https://extension.psu.edu/programs/master-gardener/counties/adams/news/banana-plant-a-bold-and-beautiful-tropical-addition-to-the-garden",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Estaciones convertidas: primavera de septiembre a noviembre, verano de diciembre a febrero, invierno de junio a agosto.",
+      "La orientación sur, este u oeste que sugiere RHS se tradujo a ventana norte, la más soleada en Buenos Aires.",
+      "Las salidas al exterior van en los meses cálidos."
+    ],
+    "discrepancias": [
+      "Cultivar: RHS lo identifica y menciona entre los bananos que pueden florecer en un invernadero soleado; NC State habla de la especie Musa acuminata y de su uso como planta de interior, sin nombrar 'Dwarf Cavendish'. La toxicidad es de la especie.",
+      "Tamaño: aun siendo enano, RHS le da 2,5 a 4 m; necesita mucho espacio.",
+      "Sol: NC State pide pleno sol con filtro en las horas de más calor; se dejaron 4 horas sin sol de tarde, como estimación.",
+      "Propagación: RHS y NC State mencionan semilla, pero no se incluyó porque para este cultivar de fruto comestible lo práctico son los hijitos."
+    ]
+  },
+  {
+    "id": "bananero-basjoo",
+    "nombre_comun": "Bananero japonés (Musa basjoo)",
+    "otros_nombres": [
+      "Japanese banana",
+      "Japanese fibre banana",
+      "Hardy banana",
+      "Musa japonica"
+    ],
+    "nombre_cientifico": "Musa basjoo",
+    "familia": "Musaceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "directa",
+    "luz_tolerada": [
+      "indirecta_brillante"
+    ],
+    "horas_sol_directo": 4,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "baja",
+    "luz": {
+      "detalle": "Es sobre todo una planta de afuera y quiere mucha luz, con sol. Si pasa un tiempo adentro, ponelo en el ambiente más soleado. Un poco de resguardo del sol fuerte le viene bien en maceta.",
+      "confianza": "alta",
+      "confianza_sol": "baja"
+    },
+    "riego": {
+      "nivel": "alto",
+      "verano": "Mantené la tierra siempre húmeda, sin encharcar; en maceta y con calor revisala todos los días.",
+      "invierno": "Regá poco: lo justo para que no se seque del todo, y cuidá que la maceta no quede empapada con frío.",
+      "confianza": "alta"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Con aire muy seco los bordes de las hojas pueden ponerse marrones: mantené el riego parejo y reparalo del viento.",
+      "confianza": "baja"
+    },
+    "sustrato": {
+      "tipo": "Suelto, con materia orgánica y buen drenaje; en maceta, tierra de buena calidad con material grueso.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 2,
+    "apta": {
+      "interior": false,
+      "balcon": true,
+      "nota_balcon": "Es el bananero que mejor aguanta el frío: va bien en un balcón o patio amplio, soleado y sin viento fuerte. Con heladas se quema el follaje; protegé el tallo y las raíces de la maceta."
+    },
+    "tamano": "grande",
+    "dificultad": "media",
+    "tip": "Si el frío le quema las hojas, tranqui: cuidando la base suele rebrotar en primavera.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "Sacá las hojas viejas o dañadas; el tallo que ya dio flor se muere y lo reemplazan los hijitos."
+      },
+      "propagacion": {
+        "metodos": [
+          "hijuelos",
+          "division",
+          "semilla"
+        ],
+        "en_agua": false,
+        "meses": [
+          9,
+          10,
+          11
+        ],
+        "detalle": "En primavera separá un hijito con raíces o dividí la mata. De semilla también se puede, remojándola antes y con calor."
+      },
+      "fuentes": [
+        {
+          "titulo": "Musa basjoo",
+          "org": "RHS",
+          "url": "https://rhs.org.uk/plants/11230/musa-basjoo-japanese-banana-japanese-fiber-banana/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Musa basjoo",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/musa-basjoo/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "How to grow banana plants",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/banana/growing-guide",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "alta",
+      "adaptaciones": [
+        "La separación de hijitos a comienzos de la primavera (RHS) se pasó a septiembre a noviembre."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "no_verificada",
+      "toxicidad_perro": "no_verificada",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "ASPCA tiene ficha del banano común (Musa acuminata), no de esta especie: por las dudas, que no la mordisqueen, y si pasa y notás algo raro, consultá a tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "baja",
+      "fuentes_toxicidad": []
+    },
+    "fuentes": [
+      {
+        "titulo": "Musa basjoo",
+        "org": "RHS",
+        "url": "https://rhs.org.uk/plants/11230/musa-basjoo-japanese-banana-japanese-fiber-banana/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Musa basjoo",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/musa-basjoo/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow banana plants",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/banana/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Go tropical with ornamental bananas",
+        "org": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/blogs/ilriverhort/2018-09-04-go-tropical-ornamental-bananas",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Overwintering Tropical Plants",
+        "org": "University of Maryland Extension",
+        "url": "https://extension.umd.edu/resource/overwintering-tropical-plants",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "alta",
+    "adaptaciones": [
+      "Estaciones convertidas: primavera de septiembre a noviembre, verano de diciembre a febrero, invierno de junio a agosto.",
+      "La orientación sur que pide RHS se tradujo a la más soleada (norte en Buenos Aires)."
+    ],
+    "discrepancias": [
+      "Interior: NC State permite pasar la maceta a un ambiente soleado en invierno, pero las fuentes lo tratan como planta de jardín o invernadero; se marcó como no apto para vivir adentro.",
+      "Resistencia al frío: RHS la califica H2 (no soporta congelarse) y NC State y Maryland dicen que el rizoma tolera mucho frío bajo tierra y bien cubierto.",
+      "Sol: RHS pide pleno sol y NC State admite media sombra; se dejaron 4 horas sin sol de tarde, como estimación.",
+      "Humedad: las fuentes de la especie no la tratan; es un criterio basado en la guía general de bananos de RHS.",
+      "Los frutos no son comestibles (RHS, NC State)."
+    ]
+  },
+  {
+    "id": "bananero-rojo",
+    "nombre_comun": "Bananero rojo (Ensete ventricosum 'Maurelii')",
+    "otros_nombres": [
+      "Red banana",
+      "Red Abyssinian banana",
+      "Ethiopian black banana",
+      "Ensete ventricosum Maurelii",
+      "Ensete Maurelii"
+    ],
+    "nombre_cientifico": "Ensete ventricosum 'Maurelii'",
+    "familia": "Musaceae",
+    "grupo": "follaje_tropical",
+    "luz_requerida": "directa",
+    "luz_tolerada": [
+      "indirecta_brillante"
+    ],
+    "horas_sol_directo": 4,
+    "tolera_sol_tarde": false,
+    "sensibilidad_calor": "baja",
+    "luz": {
+      "detalle": "Necesita muchísima luz: pleno sol afuera, con algo de sombra en las horas más fuertes, o la ventana más luminosa si está adentro.",
+      "confianza": "alta",
+      "confianza_sol": "baja"
+    },
+    "riego": {
+      "nivel": "alto",
+      "verano": "Mantené la tierra húmeda pero no empapada; en maceta y con calor revisala seguido.",
+      "invierno": "Adentro y con frío regá mucho menos, cuando la tierra se haya secado, sin dejar agua en el plato.",
+      "confianza": "media"
+    },
+    "humedad": {
+      "nivel": "media",
+      "detalle": "Agradece algo de humedad; con la calefacción prendida, una bandeja con piedritas y agua ayuda.",
+      "confianza": "baja"
+    },
+    "sustrato": {
+      "tipo": "Con buen drenaje y materia orgánica; en maceta, un sustrato que no se apelmace.",
+      "confianza": "alta"
+    },
+    "tolerancia_descuido": 2,
+    "apta": {
+      "interior": true,
+      "balcon": true,
+      "nota_balcon": "Va bien en un balcón o patio muy amplio, soleado y sin viento fuerte en los meses cálidos. No soporta heladas: en invierno entralo o protegelo."
+    },
+    "tamano": "grande",
+    "dificultad": "media",
+    "tip": "Pensá el espacio antes de comprarlo: puede crecer muchísimo y le cuesta que lo trasplanten del suelo a la maceta.",
+    "clases": [
+      "follaje"
+    ],
+    "cultivo": {
+      "porte": [
+        "erguida"
+      ],
+      "tutor": {
+        "recomendado": "no",
+        "detalle": ""
+      },
+      "poda": {
+        "meses": [],
+        "detalle": "Sacá las hojas secas cortando sin pasar de la base de la lámina de la hoja."
+      },
+      "propagacion": {
+        "metodos": [
+          "semilla"
+        ],
+        "en_agua": false,
+        "meses": [],
+        "detalle": "No suele dar hijitos: se multiplica por semilla, que germina de forma despareja. En casa no es sencillo."
+      },
+      "fuentes": [
+        {
+          "titulo": "Ensete ventricosum 'Maurelii'",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/118143/ensete-ventricosum-maurelii/details",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "How to grow banana plants",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/banana/growing-guide",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Ensete ventricosum 'Maurelii'",
+          "org": "NC State Extension Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/ensete-ventricosum-maurelii/",
+          "fecha_consulta": "2026-11-26"
+        },
+        {
+          "titulo": "Ensete ventricosum",
+          "org": "RHS",
+          "url": "https://www.rhs.org.uk/plants/6397/ensete-ventricosum/details",
+          "fecha_consulta": "2026-11-26"
+        }
+      ],
+      "confianza": "media",
+      "adaptaciones": [
+        "Las fuentes no dan época de siembra: no se cargaron meses."
+      ]
+    },
+    "imagen": null,
+    "fotos_extra": [],
+    "atribucion_imagen": null,
+    "mascotas": {
+      "toxicidad_gato": "no_verificada",
+      "toxicidad_perro": "no_verificada",
+      "gravedad": null,
+      "sintomas": null,
+      "partes": null,
+      "atractivo_para_mascotas": "desconocido",
+      "atractivo_motivo": "",
+      "repelencia_por_olor": "ninguna",
+      "nota_mascotas": "No encontramos ficha veterinaria de esta planta: por las dudas, que no la mordisqueen, y si pasa y notás algo raro, consultá a tu veterinario.",
+      "advertencia_grave": null,
+      "confianza": "baja",
+      "fuentes_toxicidad": []
+    },
+    "fuentes": [
+      {
+        "titulo": "Ensete ventricosum 'Maurelii'",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/118143/ensete-ventricosum-maurelii/details",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Ensete ventricosum 'Maurelii'",
+        "org": "NC State Extension Plant Toolbox",
+        "url": "https://plants.ces.ncsu.edu/plants/ensete-ventricosum-maurelii/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "How to grow banana plants",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/banana/growing-guide",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Growing and caring for red banana plant",
+        "org": "University of Washington, Elisabeth C. Miller Library",
+        "url": "https://depts.washington.edu/hortlib/pal/growing-and-caring-for-red-banana-plant/",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Overwintering Tropical Plants",
+        "org": "University of Maryland Extension",
+        "url": "https://extension.umd.edu/resource/overwintering-tropical-plants",
+        "fecha_consulta": "2026-11-26"
+      },
+      {
+        "titulo": "Ensete ventricosum",
+        "org": "RHS",
+        "url": "https://www.rhs.org.uk/plants/6397/ensete-ventricosum/details",
+        "fecha_consulta": "2026-11-26"
+      }
+    ],
+    "confianza": "media",
+    "adaptaciones": [
+      "Estaciones convertidas: primavera de septiembre a noviembre, verano de diciembre a febrero, invierno de junio a agosto.",
+      "La orientación sur u oeste que sugiere RHS se tradujo a la más soleada (norte en Buenos Aires).",
+      "El ingreso antes de las heladas del norte se adaptó al invierno de Buenos Aires."
+    ],
+    "discrepancias": [
+      "No es un Musa: es otro género de la misma familia (Ensete), aunque se lo venda como bananero.",
+      "Riego en interior: Maryland riega a fondo cuando la tierra se seca del todo y la biblioteca de la Universidad de Washington pide humedad pareja, reduciendo adentro; se tomó húmeda en verano y reducida en invierno.",
+      "Sol: las fuentes admiten pleno sol o media sombra; se dejaron 4 horas sin sol de tarde, como estimación.",
+      "Humedad: no hay dato específico del cultivar; se apoya en la guía general de bananos de RHS."
+    ]
+  }
+]

@@ -1,0 +1,304 @@
+{
+  "fuentes": [
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Phlebodium aureum",
+      "url": "https://plants.ces.ncsu.edu/plants/phlebodium-aureum/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Nombres comunes, sinónimo Polypodium aureum, luz, riego, humedad, sustrato, tamaño, hábito, división",
+      "usado_en": [
+        "helecho-azul",
+        "helecho-azul-mandaianum"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Phlebodium aureum",
+      "url": "https://www.rhs.org.uk/plants/12689/phlebodium-aureum/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Media sombra sin sol directo, riego, H1B, tamaño, sin poda, división",
+      "usado_en": [
+        "helecho-azul",
+        "helecho-azul-mandaianum"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Phlebodium aureum 'Blue Star'",
+      "url": "https://rhs.org.uk/plants/325017/phlebodium-aureum-blue-star/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "'Blue Star': frondes azul verdosas, luz filtrada, riego por estación, sacar frondes secas, división en primavera",
+      "usado_en": [
+        "helecho-azul"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Care tips for low-light tolerant houseplants",
+      "url": "https://www.rhs.org.uk/shows-events/rhs-urban-show/houseplant-profiles/houseplants-for-shade",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "'Blue Star': luz indirecta, tolera poca luz, riego, humedad, temperatura",
+      "usado_en": [
+        "helecho-azul"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow epiphytic ferns",
+      "url": "https://www.rhs.org.uk/plants/epiphytic-ferns/how-to-grow-epiphytic-ferns",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, humedad, sustrato ácido y drenante, trasplante en primavera, división",
+      "usado_en": [
+        "helecho-azul",
+        "helecho-azul-mandaianum"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "Indoor Ferns (HGIC 1505)",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Polypodium aureum y 'Mandaianum' (frondes verde azuladas de borde retorcido y dentado), luz, riego, sustrato, división a inicio de primavera",
+      "usado_en": [
+        "helecho-azul",
+        "helecho-azul-mandaianum"
+      ]
+    },
+    {
+      "org": "University of Hawaii (CTAHR)",
+      "titulo": "Ground Covers for Warm Climates (Research Extension Series 052)",
+      "url": "https://www3.ctahr.hawaii.edu/oc/freepubs/pdf/RES-052.pdf",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Polypodium aureum: sombra y humedad; 'Mandaianum' (helecho azul) de márgenes muy recortados. Leído extrayendo el texto del PDF",
+      "usado_en": [
+        "helecho-azul-mandaianum"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Phlebodium aureum 'Mandaianum'",
+      "url": "https://www.rhs.org.uk/plants/255306/phlebodium-aureum-mandaianum/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Identidad del cultivar, sinónimo y rusticidad H3",
+      "usado_en": [
+        "helecho-azul-mandaianum"
+      ]
+    },
+    {
+      "org": "NC State Extension Plant Toolbox",
+      "titulo": "Epipremnum aureum (Pothos)",
+      "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Cultivares Marble Queen, Neon y Njoy, luz, riego, sustrato, propagación, toxicidad",
+      "usado_en": [
+        "potus-marble-queen",
+        "potus-neon",
+        "potus-njoy"
+      ]
+    },
+    {
+      "org": "Clemson Cooperative Extension HGIC",
+      "titulo": "How to Grow Pothos Indoors",
+      "url": "https://hgic.clemson.edu/factsheet/how-to-grow-pothos-indoors-epipremnum-spp-care-cultivars-and-common-problems/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Marble Queen pide más luz; Neon tolera menos luz; riego, humedad, tutor, esquejes, toxicidad",
+      "usado_en": [
+        "potus-marble-queen",
+        "potus-neon",
+        "potus-njoy"
+      ]
+    },
+    {
+      "org": "University of Wisconsin-Madison Extension",
+      "titulo": "Pothos, Epipremnum aureum",
+      "url": "https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Marble Queen y Neon, luz, riego, humedad, esquejes en agua",
+      "usado_en": [
+        "potus-marble-queen",
+        "potus-neon",
+        "potus-njoy"
+      ]
+    },
+    {
+      "org": "Penn State Extension",
+      "titulo": "Pothos as a Houseplant",
+      "url": "https://extension.psu.edu/pothos-as-a-houseplant",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Sin sol directo, riego, esquejes primavera a verano, toxicidad",
+      "usado_en": [
+        "potus-marble-queen",
+        "potus-neon",
+        "potus-njoy"
+      ]
+    },
+    {
+      "org": "UF/IFAS Extension",
+      "titulo": "Cultural Guidelines for Commercial Production of Interiorscape Epipremnum (ENH894)",
+      "url": "https://ask.ifas.ufl.edu/publication/EP151/pdf",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Marble Queen jaspeado blanco; con poca luz las variegadas pierden color. Leído extrayendo el texto del PDF",
+      "usado_en": [
+        "potus-marble-queen"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "How to grow epipremnum (RHS Growing Guide)",
+      "url": "https://www.rhs.org.uk/plants/epipremnum/growing-guide",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Luz, riego, sustrato, tutor, poda, esquejes en agua, acodo",
+      "usado_en": [
+        "potus-marble-queen",
+        "potus-neon",
+        "potus-njoy"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Scindapsus aureus 'Marble Queen'",
+      "url": "https://www.rhs.org.uk/plants/225572/scindapsus-aureus-marble-queen/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Ficha del cultivar: luz, riego, sustrato, poda en primavera, esquejes en verano, acodo, dañino",
+      "usado_en": [
+        "potus-marble-queen"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Epipremnum aureum 'Neon'",
+      "url": "https://www.rhs.org.uk/plants/381890/epipremnum-aureum-neon/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Ficha del cultivar: descripción, luz, riego, tutor, poda, esquejes, dañino para mascotas",
+      "usado_en": [
+        "potus-neon"
+      ]
+    },
+    {
+      "org": "RHS",
+      "titulo": "Epipremnum [N'Joy] ('Hansoti12')",
+      "url": "https://www.rhs.org.uk/plants/361702/epipremnum-n-joy-(-hansoti12-pbr)-(v)/details",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Ficha del cultivar: luz, variegado que se apaga a la sombra, riego, poda, esquejes, dañino para mascotas",
+      "usado_en": [
+        "potus-njoy"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Golden Pothos",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Tóxico para gatos y perros, oxalatos, síntomas",
+      "usado_en": [
+        "potus-marble-queen",
+        "potus-neon",
+        "potus-njoy"
+      ]
+    },
+    {
+      "org": "ASPCA",
+      "titulo": "Marble Queen",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/marble-queen",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "'Marble Queen' tóxico para gatos y perros",
+      "usado_en": [
+        "potus-marble-queen"
+      ]
+    },
+    {
+      "org": "Valls Garden (vivero de Argentina)",
+      "titulo": "Phlebodium aureum",
+      "url": "https://catalogovallsgarden.com.ar/producto/asparagus-flevonium/",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Solo nombres: en Argentina se vende como helecho azul",
+      "usado_en": [
+        "helecho-azul"
+      ]
+    },
+    {
+      "org": "Viveros González (comercio)",
+      "titulo": "Phlebodium Blue Star",
+      "url": "https://viverosgonzalez.es/es/interior-sombra/1359267-phlebodium-blue-star-.html",
+      "fecha_consulta": "2026-11-26",
+      "que_se_tomo": "Solo nombres: 'Blue Star' se vende como helecho estrella o helecho azul",
+      "usado_en": [
+        "helecho-azul"
+      ]
+    }
+  ],
+  "revisar": [
+    {
+      "id": "helecho-azul",
+      "dato": "toxicidad",
+      "motivo": "No verificada: sin ficha ASPCA de Phlebodium/Polypodium; la de rabbit's foot fern es Davallia.",
+      "fuentes": []
+    },
+    {
+      "id": "helecho-azul-mandaianum",
+      "dato": "toxicidad",
+      "motivo": "No verificada, igual que la especie.",
+      "fuentes": []
+    },
+    {
+      "id": "helecho-azul",
+      "dato": "humedad",
+      "motivo": "NC State media-alta, RHS alta.",
+      "fuentes": [
+        "https://plants.ces.ncsu.edu/plants/phlebodium-aureum/",
+        "https://www.rhs.org.uk/plants/epiphytic-ferns/how-to-grow-epiphytic-ferns"
+      ]
+    },
+    {
+      "id": "helecho-azul",
+      "dato": "otros_nombres",
+      "motivo": "'Helecho estrella' sale de comercios. INTA registra en Argentina Phlebodium areolatum (nativo), que no se evaluó; podría haber confusión de nombres en vivero.",
+      "fuentes": []
+    },
+    {
+      "id": "helecho-azul-mandaianum",
+      "dato": "cuidados",
+      "motivo": "Cuidados de la especie; el cultivar solo tiene descripción. Confianza media.",
+      "fuentes": [
+        "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+        "https://www3.ctahr.hawaii.edu/oc/freepubs/pdf/RES-052.pdf",
+        "https://www.rhs.org.uk/plants/255306/phlebodium-aureum-mandaianum/details"
+      ]
+    },
+    {
+      "id": "helecho-azul-mandaianum",
+      "dato": "fotos",
+      "motivo": "Sin fotos: Wikimedia Commons no devolvió ninguna del cultivar.",
+      "fuentes": []
+    },
+    {
+      "id": "potus-njoy",
+      "dato": "cuidados",
+      "motivo": "Solo una fuente de cultivo propia del cultivar (RHS); resto de la especie. Confianza media.",
+      "fuentes": [
+        "https://www.rhs.org.uk/plants/361702/epipremnum-n-joy-(-hansoti12-pbr)-(v)/details",
+        "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/"
+      ]
+    },
+    {
+      "id": "potus-njoy",
+      "dato": "fotos",
+      "motivo": "Solo 2 fotos; la de Yercaud rotulada N'Joy no se parecía y la de macetas tenía etiqueta de otro nombre.",
+      "fuentes": []
+    },
+    {
+      "id": "potus-marble-queen",
+      "dato": "fotos",
+      "motivo": "La foto File:Epipremnum aureum (Marble Queen) houseplant.png ya está cargada como extra de `potus` (src/data/plantas/fotos-dos.json): conviene revisarla porque muestra 'Marble Queen' y no el potus común. En este lote no se usó, pero la principal es otra toma de la misma maceta.",
+      "fuentes": []
+    }
+  ],
+  "no_pude_abrir": [
+    "hortflora.rbg.vic.gov.au (conexión rechazada)",
+    "https://ask.ifas.ufl.edu/publication/EP151 (redirecciones infinitas; se leyó la versión PDF)",
+    "https://www.petpoisonhelpline.com/poison/pothos/ (404)",
+    "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/golden-polypody (404)",
+    "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/golden-polypody/ (404)",
+    "https://elnougarden.com/products/phlebodium-aureum-blue-star (429)"
+  ]
+}
