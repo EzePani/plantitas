@@ -1,3 +1,4 @@
+import { unirPlantas } from './espacios'
 import type { Coleccion, DatosPersistidos, Hijito, Refuerzo } from './tipos'
 
 /**
@@ -19,7 +20,12 @@ export function fusionar(a: DatosPersistidos, b: DatosPersistidos): DatosPersist
   for (const [id, f] of Object.entries(a.insignias)) insignias[id] = insignias[id] && insignias[id] < f ? insignias[id] : f
 
   const ids = new Set(a.espacios.map((e) => e.id))
-  const espacios = [...a.espacios, ...b.espacios.filter((e) => !ids.has(e.id))].slice(0, 50)
+  // Un espacio que está en los dos lados conserva la versión local y suma las plantas anotadas en el otro
+  const conPlantas = a.espacios.map((e) => {
+    const otro = b.espacios.find((x) => x.id === e.id)
+    return otro ? { ...e, plantas: unirPlantas(e.plantas, otro.plantas) } : e
+  })
+  const espacios = [...conPlantas, ...b.espacios.filter((e) => !ids.has(e.id))].slice(0, 50)
 
   const rachaA = a.racha
   const rachaB = b.racha
