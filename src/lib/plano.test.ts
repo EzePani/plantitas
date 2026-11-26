@@ -3,7 +3,7 @@ import { DATOS_INICIALES } from '../store/useStore'
 import { esquemaDatos, migrar } from './backup'
 import { agregarPlanta, moverPlanta, quitarPlanta } from './espacios'
 import { fusionar } from './fusion'
-import { CELDAS, alternarSuelo, conSuelo, contraPared, formaDe, lugarPiso, lugarValido, numeroDe, plantasEn, ponerPlano, sueloDe, tocarElemento } from './plano'
+import { CELDAS, agregarElemento, alternarSuelo, celdasDe, conSuelo, contraPared, formaDe, limpiarNombres, lugarPiso, lugarValido, numeroDe, plantasEn, ponerPlano, quitarElemento, redimensionar, renombrar, sueloDe } from './plano'
 import type { Espacio, Plano } from './tipos'
 
 const plano: Plano = {
@@ -47,18 +47,59 @@ describe('elementos', () => {
     expect(contraPared(plano.suelo, 14)).toBe(false)
     // En la L, la celda junto al recorte también es pared
     expect(contraPared(sueloDe('l'), 20)).toBe(true)
-    expect(tocarElemento(plano, 14, 'ventana', 'el-x')).toBeNull()
-    expect(tocarElemento(plano, 14, 'mesa', 'el-x')?.elementos).toHaveLength(4)
+    expect(agregarElemento(plano, 14, 'ventana', 'el-x')).toBeNull()
+    expect(agregarElemento(plano, 14, 'mesa', 'el-x')?.elementos).toHaveLength(4)
   })
-  it('tocar uno puesto lo quita; fuera del piso no se pone nada', () => {
-    expect(tocarElemento(plano, 6, 'mesa', 'el-x')?.elementos.map((e) => e.id)).toEqual(['el-v', 'el-p'])
-    expect(tocarElemento({ ...plano, suelo: sueloDe('l') }, 35, 'mesa', 'el-x')).toBeNull()
+  it('no se pone sobre otro ni fuera del piso, y se puede quitar', () => {
+    expect(agregarElemento(plano, 6, 'mesa', 'el-x')).toBeNull()
+    expect(agregarElemento({ ...plano, suelo: sueloDe('l') }, 35, 'mesa', 'el-x')).toBeNull()
+    expect(quitarElemento(plano, 'el-e').elementos.map((e) => e.id)).toEqual(['el-v', 'el-p'])
   })
-  it('numera solo los repetidos', () => {
-    const dos = tocarElemento(plano, 14, 'estante', 'el-e2')!
+  it('numera solo los repetidos sin nombre propio', () => {
+    const dos = agregarElemento(plano, 14, 'estante', 'el-e2')!
     expect(numeroDe(dos, dos.elementos[1])).toBe(1)
     expect(numeroDe(dos, dos.elementos[3])).toBe(2)
     expect(numeroDe(plano, plano.elementos[0])).toBeNull()
+    expect(numeroDe(renombrar(dos, 'el-e2', 'Arriba de la tele'), dos.elementos[1])).toBeNull()
+  })
+  it('se guardan los nombres sin espacios de más y sin vacíos', () => {
+    expect(limpiarNombres(renombrar(plano, 'el-e', '  Tele  ')).elementos[1].nombre).toBe('Tele')
+    expect(limpiarNombres(renombrar(plano, 'el-e', '   ')).elementos[1]).not.toHaveProperty('nombre')
+    expect(renombrar(plano, 'el-e', 'x'.repeat(50)).elementos[1].nombre).toHaveLength(30)
+  })
+})
+
+describe('tamaño de los elementos', () => {
+  const mesa = (celda: number) => agregarElemento({ suelo: sueloDe('rectangulo'), elementos: [] }, celda, 'mesa', 'el-m')!
+  it('ocupa dos o tres cuadraditos a lo ancho y a lo alto', () => {
+    const p = redimensionar(mesa(7), 'el-m', 3, 2)!
+    expect(celdasDe(p.elementos[0])).toEqual([7, 8, 9, 13, 14, 15])
+    expect(redimensionar(p, 'el-m', 1, 1)!.elementos[0]).toEqual({ id: 'el-m', tipo: 'mesa', celda: 7 })
+    expect(redimensionar(p, 'el-m', 4, 1)).toBeNull()
+  })
+  it('contra el borde se corre para entrar, sin dejar su cuadradito', () => {
+    expect(celdasDe(redimensionar(mesa(35), 'el-m', 2, 2)!.elementos[0])).toEqual([28, 29, 34, 35])
+    expect(celdasDe(redimensionar(mesa(5), 'el-m', 3, 1)!.elementos[0])).toEqual([3, 4, 5])
+  })
+  it('no pisa a otro elemento', () => {
+    const p = agregarElemento(mesa(0), 1, 'mueble', 'el-x')!
+    expect(redimensionar(p, 'el-m', 2, 1)).toBeNull()
+    expect(redimensionar(p, 'el-m', 1, 2)).not.toBeNull()
+  })
+  it('una ventana ancha va entera contra la pared', () => {
+    expect(redimensionar(plano, 'el-v', 3, 1)).not.toBeNull()
+    expect(redimensionar(plano, 'el-v', 1, 2)).toBeNull()
+  })
+  it('todos sus cuadraditos son el mismo lugar y tapan el piso', () => {
+    const p = redimensionar(plano, 'el-e', 3, 1)!
+    expect(lugarValido(p, lugarPiso(8))).toBe(false)
+    expect(agregarElemento(p, 8, 'mesa', 'el-x')).toBeNull()
+    // Si se le saca un pedazo de piso, se va entero
+    expect(alternarSuelo(p, 8).elementos.map((e) => e.id)).toEqual(['el-v', 'el-p'])
+  })
+  it('tamaño y nombre se guardan', () => {
+    const p = renombrar(redimensionar(plano, 'el-e', 2, 1)!, 'el-e', 'Estante tele')
+    expect(esquemaDatos.parse({ ...DATOS_INICIALES, espacios: [{ ...living, plano: p }] }).espacios[0].plano).toEqual(p)
   })
 })
 
@@ -84,7 +125,7 @@ describe('plantas en el plano', () => {
   })
   it('si desaparece el lugar o el plano, quedan sin ubicar', () => {
     const e = agregarPlanta(living, 'potus', 'pl-1', 'el-e')
-    for (const nuevo of [ponerPlano(e, tocarElemento(plano, 6, 'mesa', 'x')!), ponerPlano(e, undefined)]) {
+    for (const nuevo of [ponerPlano(e, quitarElemento(plano, 'el-e')), ponerPlano(e, undefined)]) {
       expect(nuevo.plantas).toEqual([{ id: 'pl-1', plantaId: 'potus' }])
     }
     expect(ponerPlano(e, undefined)).not.toHaveProperty('plano')

@@ -12,6 +12,7 @@ const unidad = z.enum(['basico', 'luz', 'riego', 'macetas', 'abono', 'familias',
 const tipoMascota = z.enum(['gato', 'perro', 'ambos', 'ninguna'])
 const hora = z.number().min(0).max(24)
 const celda = z.number().int().min(0).max(35)
+const largo = z.number().int().min(1).max(3)
 
 export const esquemaLuz = z.object({
   tipo: z.enum(['directa', 'indirecta', 'baja', 'no_se']),
@@ -65,7 +66,9 @@ export const esquemaDatos = z.object({
         plano: z
           .object({
             suelo: z.array(celda).min(1).max(36),
-            elementos: z.array(z.object({ id: idSeguro, tipo: z.enum(['ventana', 'puerta', 'mesa', 'mueble', 'estante', 'gancho']), celda })).max(36),
+            elementos: z
+              .array(z.object({ id: idSeguro, tipo: z.enum(['ventana', 'puerta', 'mesa', 'mueble', 'estante', 'gancho']), celda, ancho: largo.optional(), alto: largo.optional(), nombre: z.string().max(30).optional() }))
+              .max(36),
           })
           .optional(),
       }),

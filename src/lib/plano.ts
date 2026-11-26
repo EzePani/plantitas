@@ -31,10 +31,31 @@ export function contraPared(suelo: number[], c: number): boolean {
 export const vaEnPared = (t: TipoElemento): boolean => t === 'ventana' || t === 'puerta'
 export const llevaPlantas = (t: TipoElemento): boolean => t !== 'puerta'
 
-/** Cambia el piso y saca los elementos que quedaron afuera (o lejos de la pared, si son de pared) */
+/** Cuántos cuadraditos puede medir un elemento para cada lado */
+export const MAX_LARGO = 3
+
+/** Los cuadraditos que ocupa un elemento */
+export function celdasDe(e: ElementoPlano): number[] {
+  const ancho = e.ancho ?? 1
+  return Array.from({ length: ancho * (e.alto ?? 1) }, (_, i) => e.celda + Math.floor(i / ancho) * LADO + (i % ancho))
+}
+
+export const elementoEn = (p: Plano, c: number): ElementoPlano | undefined => p.elementos.find((e) => celdasDe(e).includes(c))
+
+/** Entra en la cuadrícula, todo sobre el piso, sin pisar a otro y, si es de pared, entero contra la pared */
+function cabe(p: Plano, e: ElementoPlano): boolean {
+  if (columna(e.celda) + (e.ancho ?? 1) > LADO) return false
+  const celdas = celdasDe(e)
+  if (!celdas.every((c) => p.suelo.includes(c) && (!vaEnPared(e.tipo) || contraPared(p.suelo, c)))) return false
+  return !p.elementos.some((x) => x.id !== e.id && celdasDe(x).some((c) => celdas.includes(c)))
+}
+
+const reemplazar = (p: Plano, nuevo: ElementoPlano): Plano => ({ ...p, elementos: p.elementos.map((e) => (e.id === nuevo.id ? nuevo : e)) })
+
+/** Cambia el piso y saca los elementos que ya no entran (quedaron afuera, o lejos de la pared si son de pared) */
 export function conSuelo(p: Plano, suelo: number[]): Plano {
-  const orden = [...suelo].sort((a, b) => a - b)
-  return { suelo: orden, elementos: p.elementos.filter((e) => orden.includes(e.celda) && (!vaEnPared(e.tipo) || contraPared(orden, e.celda))) }
+  const nuevo = { suelo: [...suelo].sort((a, b) => a - b), elementos: p.elementos }
+  return { ...nuevo, elementos: p.elementos.filter((e) => cabe(nuevo, e)) }
 }
 
 /** Suma o saca un cuadradito del piso. Siempre queda al menos uno. */
@@ -43,15 +64,42 @@ export function alternarSuelo(p: Plano, c: number): Plano {
   return p.suelo.length > 1 ? conSuelo(p, p.suelo.filter((x) => x !== c)) : p
 }
 
-/**
- * Tocar una celda con un elemento elegido: si está ocupada, lo quita; si está libre, lo pone.
- * Devuelve null si ese elemento no puede ir ahí (ventana o puerta lejos de la pared).
- */
-export function tocarElemento(p: Plano, c: number, tipo: TipoElemento, id: string): Plano | null {
-  if (p.elementos.some((e) => e.celda === c)) return { ...p, elementos: p.elementos.filter((e) => e.celda !== c) }
-  if (!p.suelo.includes(c) || (vaEnPared(tipo) && !contraPared(p.suelo, c))) return null
-  return { ...p, elementos: [...p.elementos, { id, tipo, celda: c }] }
+/** Pone un elemento de un cuadradito. Devuelve null si no puede ir ahí (ocupado, o ventana o puerta lejos de la pared). */
+export function agregarElemento(p: Plano, c: number, tipo: TipoElemento, id: string): Plano | null {
+  const nuevo: ElementoPlano = { id, tipo, celda: c }
+  return cabe(p, nuevo) ? { ...p, elementos: [...p.elementos, nuevo] } : null
 }
+
+/**
+ * Cambia cuánto ocupa un elemento. Crece hacia la derecha y hacia abajo; si ahí no hay lugar,
+ * se corre sin dejar su cuadradito inicial. Devuelve null si ese tamaño no entra.
+ */
+export function redimensionar(p: Plano, id: string, ancho: number, alto: number): Plano | null {
+  const e = p.elementos.find((x) => x.id === id)
+  if (!e || ancho < 1 || alto < 1 || ancho > MAX_LARGO || alto > MAX_LARGO) return null
+  const { ancho: _ancho, alto: _alto, ...base } = e
+  for (let dy = 0; dy < alto; dy++) {
+    for (let dx = 0; dx < ancho; dx++) {
+      if (fila(e.celda) < dy || columna(e.celda) < dx) continue
+      const nuevo: ElementoPlano = { ...base, celda: e.celda - dy * LADO - dx, ...(ancho > 1 && { ancho }), ...(alto > 1 && { alto }) }
+      if (cabe(p, nuevo)) return reemplazar(p, nuevo)
+    }
+  }
+  return null
+}
+
+export const quitarElemento = (p: Plano, id: string): Plano => ({ ...p, elementos: p.elementos.filter((e) => e.id !== id) })
+
+export function renombrar(p: Plano, id: string, nombre: string): Plano {
+  const e = p.elementos.find((x) => x.id === id)
+  return e ? reemplazar(p, { ...e, nombre: nombre.slice(0, 30) }) : p
+}
+
+/** Antes de guardar: sin espacios de más y sin nombres vacíos */
+export const limpiarNombres = (p: Plano): Plano => ({
+  ...p,
+  elementos: p.elementos.map(({ nombre, ...e }) => (nombre?.trim() ? { ...e, nombre: nombre.trim() } : e)),
+})
 
 export const lugarPiso = (c: number): string => `piso-${c}`
 
@@ -59,7 +107,7 @@ export const lugarPiso = (c: number): string => `piso-${c}`
 export function lugarValido(p: Plano | undefined, lugar: string): boolean {
   if (!p) return false
   if (p.elementos.some((e) => e.id === lugar && llevaPlantas(e.tipo))) return true
-  return p.suelo.some((c) => lugarPiso(c) === lugar && !p.elementos.some((e) => e.celda === c))
+  return p.suelo.some((c) => lugarPiso(c) === lugar && !elementoEn(p, c))
 }
 
 /** Dónde está una planta; null si está sin ubicar (o su lugar ya no existe) */
@@ -75,8 +123,8 @@ export function ponerPlano(e: Espacio, plano: Plano | undefined): Espacio {
   return nuevo
 }
 
-/** Número para distinguir dos elementos iguales ("Estante 2"), en orden de lectura; null si es el único */
+/** Número para distinguir dos elementos iguales sin nombre propio ("Estante 2"), en orden de lectura; null si es el único */
 export function numeroDe(p: Plano, el: ElementoPlano): number | null {
-  const iguales = p.elementos.filter((x) => x.tipo === el.tipo).sort((a, b) => a.celda - b.celda)
+  const iguales = p.elementos.filter((x) => x.tipo === el.tipo && !x.nombre?.trim()).sort((a, b) => a.celda - b.celda)
   return iguales.length > 1 ? iguales.findIndex((x) => x.id === el.id) + 1 : null
 }

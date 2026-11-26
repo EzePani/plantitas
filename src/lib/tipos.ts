@@ -85,8 +85,13 @@ export type TipoElemento = 'ventana' | 'puerta' | 'mesa' | 'mueble' | 'estante' 
 export interface ElementoPlano {
   id: string
   tipo: TipoElemento
-  /** Posición en la cuadrícula: fila * 6 + columna */
+  /** Su cuadradito de arriba a la izquierda: fila * 6 + columna */
   celda: number
+  /** Cuadraditos que ocupa a lo ancho y a lo alto (sin valor: 1) */
+  ancho?: number
+  alto?: number
+  /** Nombre propio ("Estante arriba de la tele"); sin él se muestra el tipo */
+  nombre?: string
 }
 
 /** El espacio visto desde arriba, sobre una cuadrícula */
