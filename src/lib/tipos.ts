@@ -72,6 +72,12 @@ export type TipoEspacio = 'living' | 'dormitorio' | 'cocina' | 'bano' | 'balcon'
 export type TamanoEspacio = 'chico' | 'mediano' | 'amplio'
 export type Esfuerzo = 'poco' | 'medio' | 'mucho'
 
+/** Una planta que vive en un espacio. Siempre es del catálogo; el `id` es interno y distingue dos plantas iguales. */
+export interface PlantaEnEspacio {
+  id: string
+  plantaId: string
+}
+
 /** Un espacio de la casa, con su propio perfil de luz. Las recomendaciones se calculan al mostrarlo. */
 export interface Espacio {
   id: string
@@ -82,6 +88,8 @@ export interface Espacio {
   tamano: TamanoEspacio
   mascotas: TipoMascota
   esfuerzo: Esfuerzo
+  /** Plantas que ya están en este lugar, en el orden en que se agregaron */
+  plantas: PlantaEnEspacio[]
 }
 
 /** Todo lo que se persiste en localStorage y viaja en el backup */

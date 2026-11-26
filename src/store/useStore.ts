@@ -1,6 +1,7 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import { VERSION_DATOS, esquemaDatos, migrar } from '../lib/backup'
+import { agregarPlanta, quitarPlanta } from '../lib/espacios'
 import { hoyLocal } from '../lib/fecha'
 import { MAX_HIJITOS, corregirFechas, errorDeFechas, type FechasHijito } from '../lib/hijitos'
 import { actualizarFallidas, leccionesHechas } from '../lib/refuerzo'
@@ -63,6 +64,10 @@ interface Acciones {
   saltarUnidad: (u: UnidadId) => void
   guardarEspacio: (e: Espacio) => void
   borrarEspacio: (id: string) => void
+  /** Anota una planta del catálogo en un espacio. Se puede repetir. */
+  agregarPlantaAEspacio: (espacioId: string, plantaId: string) => void
+  /** Saca del espacio una planta de ese tipo (la última agregada) */
+  quitarPlantaDeEspacio: (espacioId: string, plantaId: string) => void
   alternarFavorita: (plantaId: string) => void
   /** Crea una colección vacía y devuelve su id (o null si el nombre está vacío o ya hay 20) */
   crearColeccion: (nombre: string) => string | null
@@ -141,6 +146,7 @@ export const useStore = create<Estado>()(
             tamano: 'mediano',
             mascotas: mascotas.tipo,
             esfuerzo: ESFUERZO_POR_TIEMPO[r.tiempo],
+            plantas: [],
           })),
         }),
 
@@ -199,6 +205,11 @@ export const useStore = create<Estado>()(
       // Si el espacio ya existe se actualiza en su lugar; si es nuevo va al final
       guardarEspacio: (e) => set((s) => ({ espacios: s.espacios.some((x) => x.id === e.id) ? s.espacios.map((x) => (x.id === e.id ? e : x)) : [...s.espacios, e].slice(0, 50) })),
       borrarEspacio: (id) => set((s) => ({ espacios: s.espacios.filter((x) => x.id !== id) })),
+      agregarPlantaAEspacio: (espacioId, plantaId) => {
+        const id = `pl-${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`
+        set((s) => ({ espacios: s.espacios.map((e) => (e.id === espacioId ? agregarPlanta(e, plantaId, id) : e)) }))
+      },
+      quitarPlantaDeEspacio: (espacioId, plantaId) => set((s) => ({ espacios: s.espacios.map((e) => (e.id === espacioId ? quitarPlanta(e, plantaId) : e)) })),
 
       // Sin duplicados; las nuevas van primero
       alternarFavorita: (id) =>

@@ -14,8 +14,8 @@ const datos: DatosPersistidos = {
   insignias: { 'primera-leccion': '2026-11-12' },
   semillas: ['basico'],
   espacios: [
-    { id: 'living-1', nombre: 'Living', creado: '2026-11-14', tipo: 'living', luz: { tipo: 'indirecta', tramos: [], obstaculos: [] }, tamano: 'mediano', mascotas: 'gato', esfuerzo: 'medio' },
-    { id: 'balcon-1', nombre: 'Balcón', creado: '2026-11-14', tipo: 'balcon', luz: { tipo: 'directa', tramos: [{ desde: 8, hasta: 11.5 }, { desde: 17, hasta: 18 }], obstaculos: ['edificio', 'vidrio'] }, tamano: 'chico', mascotas: 'gato', esfuerzo: 'poco' },
+    { id: 'living-1', nombre: 'Living', creado: '2026-11-14', tipo: 'living', luz: { tipo: 'indirecta', tramos: [], obstaculos: [] }, tamano: 'mediano', mascotas: 'gato', esfuerzo: 'medio', plantas: [{ id: 'pl-1', plantaId: 'potus' }, { id: 'pl-2', plantaId: 'potus' }] },
+    { id: 'balcon-1', nombre: 'Balcón', creado: '2026-11-14', tipo: 'balcon', luz: { tipo: 'directa', tramos: [{ desde: 8, hasta: 11.5 }, { desde: 17, hasta: 18 }], obstaculos: ['edificio', 'vidrio'] }, tamano: 'chico', mascotas: 'gato', esfuerzo: 'poco', plantas: [] },
   ],
   favoritas: ['monstera', 'cinta'],
   colecciones: [{ id: 'col-sala', nombre: 'Sala', plantas: ['monstera'] }],

@@ -3,7 +3,7 @@ import { MIGRACIONES } from './migraciones'
 import type { DatosPersistidos } from './tipos'
 
 /** Versión del formato de datos persistidos. Subir al cambiar el modelo y agregar migración. */
-export const VERSION_DATOS = 5
+export const VERSION_DATOS = 6
 const MAX_BYTES = 1_000_000
 
 const idSeguro = z.string().regex(/^[a-z0-9-]{1,60}$/)
@@ -59,6 +59,7 @@ export const esquemaDatos = z.object({
         tamano: z.enum(['chico', 'mediano', 'amplio']),
         mascotas: tipoMascota,
         esfuerzo: z.enum(['poco', 'medio', 'mucho']),
+        plantas: z.array(z.object({ id: idSeguro, plantaId: idSeguro })).max(100),
       }),
     )
     .max(50),

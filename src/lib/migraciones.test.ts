@@ -38,7 +38,7 @@ const migrado = () => {
 
 describe('migración v1 → v2', () => {
   it('el resultado es un estado válido de la versión actual', () => {
-    expect(VERSION_DATOS).toBe(5)
+    expect(VERSION_DATOS).toBe(6)
     expect(esquemaDatos.safeParse(migrar(structuredClone(v1), 1)).success).toBe(true)
   })
 
@@ -82,6 +82,7 @@ describe('migración v1 → v2', () => {
       tamano: 'mediano',
       mascotas: 'gato',
       esfuerzo: 'poco',
+      plantas: [],
     })
     expect(d.espacios[1].luz).toEqual({ tipo: 'baja', tramos: [], obstaculos: [] })
   })

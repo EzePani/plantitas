@@ -116,4 +116,12 @@ function v4aV5(datos: unknown): unknown {
   }
 }
 
-export const MIGRACIONES: Record<number, (datos: unknown) => unknown> = { 1: v1aV2, 2: v2aV3, 3: v3aV4, 4: v4aV5 }
+// ---------- v5 → v6: plantas dentro de cada espacio ----------
+
+/** Cada espacio arranca sin plantas anotadas. Todo lo demás queda como estaba. */
+function v5aV6(datos: unknown): unknown {
+  if (!esObj(datos) || !Array.isArray(datos.espacios)) return datos
+  return { ...datos, espacios: datos.espacios.map((e) => (esObj(e) ? { ...e, plantas: Array.isArray(e.plantas) ? e.plantas : [] } : e)) }
+}
+
+export const MIGRACIONES: Record<number, (datos: unknown) => unknown> = { 1: v1aV2, 2: v2aV3, 3: v3aV4, 4: v4aV5, 5: v5aV6 }
