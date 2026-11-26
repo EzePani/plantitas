@@ -2,7 +2,7 @@ import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import { VERSION_DATOS, esquemaDatos, migrar } from '../lib/backup'
 import { hoyLocal } from '../lib/fecha'
-import { MAX_HIJITOS } from '../lib/hijitos'
+import { MAX_HIJITOS, corregirFechas, errorDeFechas, type FechasHijito } from '../lib/hijitos'
 import { actualizarFallidas, leccionesHechas } from '../lib/refuerzo'
 import {
   XP_COFRE,
@@ -74,6 +74,8 @@ interface Acciones {
   agregarHijito: (h: { plantaId: string | null; nombre: string; medio: Hijito['medio']; inicio?: string }) => boolean
   /** Anota que hoy se le cambió el agua, se le vieron raíces o pasó a maceta */
   marcarHijito: (id: string, que: 'agua' | 'raices' | 'maceta') => void
+  /** Corrige a mano las fechas de inicio, raíces y maceta (null = todavía no pasó) */
+  corregirHijito: (id: string, fechas: FechasHijito) => void
   borrarHijito: (id: string) => void
   /** Guarda qué preguntas de una lección se fallaron, para repetirlas en el refuerzo */
   anotarRespuestas: (falladas: string[], acertadas: string[]) => void
@@ -224,12 +226,14 @@ export const useStore = create<Estado>()(
       agregarHijito: ({ plantaId, nombre, medio, inicio }) => {
         const n = nombre.trim().slice(0, 40)
         if (!n || get().hijitos.length >= MAX_HIJITOS) return false
-        const dia = inicio ?? hoyLocal()
+        const hoy = hoyLocal()
+        const dia = inicio && !errorDeFechas({ inicio, raices: null, maceta: null }, hoy) ? inicio : hoy
         const id = `hij-${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`
         set((s) => ({ hijitos: [{ id, plantaId, nombre: n, medio, inicio: dia, agua: dia, raices: null, maceta: null }, ...s.hijitos] }))
         return true
       },
       marcarHijito: (id, que) => set((s) => ({ hijitos: s.hijitos.map((h) => (h.id === id ? { ...h, [que]: hoyLocal() } : h)) })),
+      corregirHijito: (id, fechas) => set((s) => ({ hijitos: s.hijitos.map((h) => (h.id === id ? corregirFechas(h, fechas, hoyLocal()) : h)) })),
       borrarHijito: (id) => set((s) => ({ hijitos: s.hijitos.filter((h) => h.id !== id) })),
 
       anotarRespuestas: (falladas, acertadas) => set((s) => ({ refuerzo: { ...s.refuerzo, fallidas: actualizarFallidas(s.refuerzo.fallidas, falladas, acertadas) } })),

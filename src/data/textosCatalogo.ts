@@ -49,9 +49,35 @@ export const TC = {
       donde: '¿Dónde lo pusiste?',
       medio: { agua: 'En agua', tierra: 'En tierra' },
       guardar: 'Empezar a seguirlo',
+      cuando: '¿Cuándo lo pusiste?',
+      cuandoAyuda: 'Si fue otro día, cambiá la fecha.',
+      hoy: 'Hoy',
+      desde: (fecha: string) => `Desde el ${fecha}`,
+      empezo: (fecha: string) => `Empezó el ${fecha}`,
+      /** "Raíces a los 18 días · Maceta a los 32" */
+      tiempos: (raices: number | null, maceta: number | null) => {
+        const a = (n: number, corto: boolean) => (n === 0 ? 'el mismo día' : n === 1 ? 'al día siguiente' : corto ? `a los ${n}` : `a los ${n} días`)
+        return [raices !== null && `Raíces ${a(raices, false)}`, maceta !== null && `Maceta ${a(maceta, raices !== null && raices > 1)}`].filter(Boolean).join(' · ')
+      },
+      fechas: {
+        boton: (n: string) => `Corregir fechas de ${n}`,
+        corregir: 'Corregir',
+        titulo: 'Corregir fechas',
+        intro: 'Si te olvidaste de anotar algo a tiempo, poné acá el día en que pasó de verdad.',
+        inicio: 'Lo puse a enraizar',
+        raices: 'Le vi raíces',
+        maceta: 'Lo pasé a maceta',
+        sinFecha: 'Todavía no · tocá para poner la fecha',
+        quitar: 'Quitar',
+        guardar: 'Guardar fechas',
+        error: {
+          formato: 'Revisá las fechas: falta alguna o no es válida.',
+          futuro: 'Ninguna fecha puede ser posterior a hoy.',
+          orden: 'Las fechas tienen que ir en orden: primero el inicio, después las raíces y al final la maceta.',
+        },
+      },
       limite: 'Llegaste al máximo de 60 hijitos. Borrá alguno para sumar otro.',
       dia: (n: number, medio: 'agua' | 'tierra') => (n === 0 ? `Empezó hoy, ${medio === 'agua' ? 'en agua' : 'en tierra'}` : n === 1 ? `1 día ${medio === 'agua' ? 'en agua' : 'en tierra'}` : `${n} días ${medio === 'agua' ? 'en agua' : 'en tierra'}`),
-      enMaceta: (n: number) => (n === 1 ? 'Pasó a maceta al día siguiente' : `Pasó a maceta a los ${n} días`),
       tocaAgua: 'Toca cambiarle el agua',
       aguaOk: 'Agua al día',
       conRaices: 'Ya tiene raíces',
