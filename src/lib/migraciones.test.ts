@@ -38,7 +38,7 @@ const migrado = () => {
 
 describe('migración v1 → v2', () => {
   it('el resultado es un estado válido de la versión actual', () => {
-    expect(VERSION_DATOS).toBe(6)
+    expect(VERSION_DATOS).toBe(7)
     expect(esquemaDatos.safeParse(migrar(structuredClone(v1), 1)).success).toBe(true)
   })
 
@@ -217,7 +217,7 @@ describe('migración v4 → v5', () => {
     const hijitos = [{ id: 'hij-a', plantaId: null, nombre: 'Del balcón', medio: 'tierra', inicio: '2026-11-01', agua: '2026-11-01', raices: '2026-11-20', maceta: null }]
     const refuerzo = { ultimo: '2026-11-20', leccionesAlUltimo: 5, fallidas: ['luz-1:0'] }
     const d = esquemaDatos.parse(migrar({ ...v4(), hijitos, refuerzo }, 4))
-    expect(d.hijitos).toEqual(hijitos)
+    expect(d.hijitos).toEqual(hijitos.map((h) => ({ ...h, origen: 'corte', prendio: null })))
     expect(d.refuerzo).toEqual(refuerzo)
   })
 })

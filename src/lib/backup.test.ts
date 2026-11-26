@@ -19,7 +19,7 @@ const datos: DatosPersistidos = {
   ],
   favoritas: ['monstera', 'cinta'],
   colecciones: [{ id: 'col-sala', nombre: 'Sala', plantas: ['monstera'] }],
-  hijitos: [{ id: 'hij-1', plantaId: 'potus', nombre: 'Potus', medio: 'agua', inicio: '2026-11-10', agua: '2026-11-13', raices: null, maceta: null }],
+  hijitos: [{ id: 'hij-1', plantaId: 'potus', nombre: 'Potus', origen: 'corte', medio: 'agua', inicio: '2026-11-10', agua: '2026-11-13', raices: null, maceta: null, prendio: null }],
   refuerzo: { ultimo: '2026-11-13', leccionesAlUltimo: 1, fallidas: ['riego-1:2'] },
 }
 

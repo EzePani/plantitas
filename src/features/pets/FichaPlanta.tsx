@@ -9,6 +9,7 @@ import { useStore } from '../../store/useStore'
 import { BotonFavorita, CalceEspacios } from './Favorita'
 import { BotonCompartirPlanta, GuardarEnColeccion } from './Lista'
 import { Semaforo } from './Semaforo'
+import { SelectorOrigen } from './SelectoresHijito'
 
 const P = TC.plantas
 const F = P.ficha
@@ -32,6 +33,7 @@ export function FichaPlanta({ planta: p }: { planta: Planta }) {
   const c = p.cultivo
   const agregarHijito = useStore((s) => s.agregarHijito)
   const [anotado, setAnotado] = useState(false)
+  const [eligiendo, setEligiendo] = useState(false)
   const mesesPoda = rangoMeses(c.poda.meses)
   const mesesHijitos = rangoMeses(c.propagacion.meses)
   const fuentes = [...p.fuentes, ...m.fuentes_toxicidad, ...c.fuentes].filter((f, i, todas) => todas.findIndex((x) => x.url === f.url) === i)
@@ -174,17 +176,23 @@ export function FichaPlanta({ planta: p }: { planta: Planta }) {
           </Dato>
         </div>
         {c.adaptaciones.length > 0 && <p className="text-tinta-suave mt-2 mb-0 text-[13px] font-bold">{F.adaptado}</p>}
-        {c.propagacion.metodos.length > 0 && (
-          <button
-            type="button"
-            disabled={anotado}
-            onClick={() => setAnotado(agregarHijito({ plantaId: p.id, nombre: p.nombre_comun, medio: c.propagacion.en_agua ? 'agua' : 'tierra' }))}
-            className={`mt-3 flex min-h-12 w-full items-center justify-center gap-2 rounded-full border-2 px-4 text-[15px] font-extrabold ${anotado ? 'border-brote bg-brote text-hoja-osc' : 'border-hoja text-hoja-osc bg-white'}`}
-          >
-            <Sprout size={18} aria-hidden />
-            {anotado ? P.hijitos.anotado : P.hijitos.desdeFicha}
-          </button>
-        )}
+        {c.propagacion.metodos.length > 0 &&
+          (eligiendo && !anotado ? (
+            <div className="mt-3">
+              <p className="font-display text-tinta mt-0 mb-2 text-[18px] font-semibold">{P.hijitos.comoSaco}</p>
+              <SelectorOrigen valor={null} onCambio={(origen) => setAnotado(agregarHijito({ plantaId: p.id, nombre: p.nombre_comun, origen, medio: c.propagacion.en_agua ? 'agua' : 'tierra' }))} />
+            </div>
+          ) : (
+            <button
+              type="button"
+              disabled={anotado}
+              onClick={() => setEligiendo(true)}
+              className={`mt-3 flex min-h-12 w-full items-center justify-center gap-2 rounded-full border-2 px-4 text-[15px] font-extrabold ${anotado ? 'border-brote bg-brote text-hoja-osc' : 'border-hoja text-hoja-osc bg-white'}`}
+            >
+              <Sprout size={18} aria-hidden />
+              {anotado ? P.hijitos.anotado : P.hijitos.desdeFicha}
+            </button>
+          ))}
 
         <h3 className="font-display text-tinta mt-6 mb-2 text-[20px] font-semibold">{F.fuentes}</h3>
         <ListaFuentes fuentes={fuentes} />

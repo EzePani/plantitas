@@ -3,7 +3,7 @@ import { persist } from 'zustand/middleware'
 import { VERSION_DATOS, esquemaDatos, migrar } from '../lib/backup'
 import { agregarPlanta, quitarPlanta } from '../lib/espacios'
 import { hoyLocal } from '../lib/fecha'
-import { MAX_HIJITOS, corregirFechas, errorDeFechas, type FechasHijito } from '../lib/hijitos'
+import { MAX_HIJITOS, aplicarCorreccion, errorDeFechas, normalizar, type CorreccionHijito } from '../lib/hijitos'
 import { actualizarFallidas, leccionesHechas } from '../lib/refuerzo'
 import {
   XP_COFRE,
@@ -76,11 +76,11 @@ interface Acciones {
   /** Agrega la planta a la colección o la saca si ya estaba */
   alternarEnColeccion: (id: string, plantaId: string) => void
   /** Empieza a seguir un hijito desde hoy (o desde `inicio`). Devuelve false si el nombre está vacío o ya hay demasiados. */
-  agregarHijito: (h: { plantaId: string | null; nombre: string; medio: Hijito['medio']; inicio?: string }) => boolean
-  /** Anota que hoy se le cambió el agua, se le vieron raíces o pasó a maceta */
-  marcarHijito: (id: string, que: 'agua' | 'raices' | 'maceta') => void
-  /** Corrige a mano las fechas de inicio, raíces y maceta (null = todavía no pasó) */
-  corregirHijito: (id: string, fechas: FechasHijito) => void
+  agregarHijito: (h: { plantaId: string | null; nombre: string; origen: Hijito['origen']; medio: Hijito['medio']; inicio?: string }) => boolean
+  /** Anota que hoy se le cambió el agua, se le vieron raíces, pasó a maceta o (si es una separada) prendió */
+  marcarHijito: (id: string, que: 'agua' | 'raices' | 'maceta' | 'prendio') => void
+  /** Corrige a mano el tipo, dónde está y las fechas (null = todavía no pasó) */
+  corregirHijito: (id: string, correccion: CorreccionHijito) => void
   borrarHijito: (id: string) => void
   /** Guarda qué preguntas de una lección se fallaron, para repetirlas en el refuerzo */
   anotarRespuestas: (falladas: string[], acertadas: string[]) => void
@@ -234,17 +234,18 @@ export const useStore = create<Estado>()(
           ),
         })),
 
-      agregarHijito: ({ plantaId, nombre, medio, inicio }) => {
+      agregarHijito: ({ plantaId, nombre, origen, medio, inicio }) => {
         const n = nombre.trim().slice(0, 40)
         if (!n || get().hijitos.length >= MAX_HIJITOS) return false
         const hoy = hoyLocal()
-        const dia = inicio && !errorDeFechas({ inicio, raices: null, maceta: null }, hoy) ? inicio : hoy
+        const dia = inicio && !errorDeFechas({ inicio, raices: null, maceta: null, prendio: null }, hoy) ? inicio : hoy
         const id = `hij-${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`
-        set((s) => ({ hijitos: [{ id, plantaId, nombre: n, medio, inicio: dia, agua: dia, raices: null, maceta: null }, ...s.hijitos] }))
+        const nuevo = normalizar<Hijito>({ id, plantaId, nombre: n, origen, medio, inicio: dia, agua: dia, raices: null, maceta: null, prendio: null })
+        set((s) => ({ hijitos: [nuevo, ...s.hijitos] }))
         return true
       },
       marcarHijito: (id, que) => set((s) => ({ hijitos: s.hijitos.map((h) => (h.id === id ? { ...h, [que]: hoyLocal() } : h)) })),
-      corregirHijito: (id, fechas) => set((s) => ({ hijitos: s.hijitos.map((h) => (h.id === id ? corregirFechas(h, fechas, hoyLocal()) : h)) })),
+      corregirHijito: (id, correccion) => set((s) => ({ hijitos: s.hijitos.map((h) => (h.id === id ? aplicarCorreccion(h, correccion, hoyLocal()) : h)) })),
       borrarHijito: (id) => set((s) => ({ hijitos: s.hijitos.filter((h) => h.id !== id) })),
 
       anotarRespuestas: (falladas, acertadas) => set((s) => ({ refuerzo: { ...s.refuerzo, fallidas: actualizarFallidas(s.refuerzo.fallidas, falladas, acertadas) } })),

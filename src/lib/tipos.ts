@@ -120,14 +120,20 @@ export interface Hijito {
   /** Planta del catálogo de la que salió, si se eligió una */
   plantaId: string | null
   nombre: string
+  /** 'corte': un pedacito sin raíces que hay que enraizar. 'separada': salió con raíces y fue directo a otra maceta */
+  origen: 'corte' | 'separada'
+  /** Las separadas siempre van en tierra */
   medio: 'agua' | 'tierra'
+  /** Día en que se cortó o se separó */
   inicio: string
   /** Último cambio de agua (arranca igual que `inicio`) */
   agua: string
   /** Día en que se le vieron raíces */
   raices: string | null
-  /** Día en que pasó a su maceta: ahí termina el seguimiento */
+  /** Día en que pasó a su maceta: ahí termina el seguimiento de un corte */
   maceta: string | null
+  /** Solo separadas: día en que prendió en su maceta nueva (ahí termina su seguimiento) */
+  prendio: string | null
 }
 
 /** Quiz de refuerzo: cuándo fue el último y qué preguntas conviene repetir */

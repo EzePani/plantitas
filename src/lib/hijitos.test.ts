@@ -5,41 +5,52 @@ import { UNIDADES } from '../data/unidades'
 import { WIKI } from '../data/wiki'
 import { DATOS_INICIALES } from '../store/useStore'
 import { fusionar } from './fusion'
+import { esquemaDatos, migrar } from './backup'
 import { fechaCorta } from './fecha'
-import { DIAS_CAMBIO_AGUA, corregirFechas, errorDeFechas, estadoHijito, hijitosConAviso, ordenarHijitos } from './hijitos'
+import { DIAS_CAMBIO_AGUA, aplicarCorreccion, errorDeFechas, estadoHijito, hijitosConAviso, ordenarHijitos } from './hijitos'
 import { TC } from '../data/textosCatalogo'
 import { PREGUNTAS_REFUERZO, actualizarFallidas, armarRefuerzo, refuerzoDisponible, umbrales } from './refuerzo'
 import type { Hijito } from './tipos'
 
-const h = (x: Partial<Hijito> = {}): Hijito => ({ id: 'hij-1', plantaId: 'potus', nombre: 'Potus', medio: 'agua', inicio: '2026-11-10', agua: '2026-11-10', raices: null, maceta: null, ...x })
+const h = (x: Partial<Hijito> = {}): Hijito => ({ id: 'hij-1', plantaId: 'potus', nombre: 'Potus', origen: 'corte', medio: 'agua', inicio: '2026-11-10', agua: '2026-11-10', raices: null, maceta: null, prendio: null, ...x })
+/** Fechas completas a partir de las que interesan en cada caso */
+const f = (x: { inicio: string; raices?: string | null; maceta?: string | null; prendio?: string | null }) => ({ raices: null, maceta: null, prendio: null, ...x })
 
 describe('fechas de los hijitos', () => {
   const hoy = '2026-11-26'
   it('acepta fechas en orden y hasta hoy', () => {
-    expect(errorDeFechas({ inicio: '2026-11-01', raices: null, maceta: null }, hoy)).toBeNull()
-    expect(errorDeFechas({ inicio: '2026-11-01', raices: '2026-11-19', maceta: hoy }, hoy)).toBeNull()
-    expect(errorDeFechas({ inicio: hoy, raices: hoy, maceta: hoy }, hoy)).toBeNull()
+    expect(errorDeFechas(f({ inicio: '2026-11-01', raices: null, maceta: null }), hoy)).toBeNull()
+    expect(errorDeFechas(f({ inicio: '2026-11-01', raices: '2026-11-19', maceta: hoy }), hoy)).toBeNull()
+    expect(errorDeFechas(f({ inicio: hoy, raices: hoy, maceta: hoy }), hoy)).toBeNull()
     // Sin raíces anotadas igual puede haber pasado a maceta
-    expect(errorDeFechas({ inicio: '2026-11-01', raices: null, maceta: '2026-11-20' }, hoy)).toBeNull()
+    expect(errorDeFechas(f({ inicio: '2026-11-01', raices: null, maceta: '2026-11-20' }), hoy)).toBeNull()
   })
   it('rechaza fechas futuras, desordenadas o mal escritas', () => {
-    expect(errorDeFechas({ inicio: '2026-11-27', raices: null, maceta: null }, hoy)).toBe('futuro')
-    expect(errorDeFechas({ inicio: '2026-11-10', raices: '2026-11-09', maceta: null }, hoy)).toBe('orden')
-    expect(errorDeFechas({ inicio: '2026-11-10', raices: '2026-11-20', maceta: '2026-11-15' }, hoy)).toBe('orden')
-    expect(errorDeFechas({ inicio: '2026-11-10', raices: null, maceta: '2026-11-05' }, hoy)).toBe('orden')
-    expect(errorDeFechas({ inicio: '', raices: null, maceta: null }, hoy)).toBe('formato')
-    expect(errorDeFechas({ inicio: '2026-13-40', raices: null, maceta: null }, hoy)).toBe('formato')
+    expect(errorDeFechas(f({ inicio: '2026-11-27', raices: null, maceta: null }), hoy)).toBe('futuro')
+    expect(errorDeFechas(f({ inicio: '2026-11-10', raices: '2026-11-09', maceta: null }), hoy)).toBe('orden')
+    expect(errorDeFechas(f({ inicio: '2026-11-10', raices: '2026-11-20', maceta: '2026-11-15' }), hoy)).toBe('orden')
+    expect(errorDeFechas(f({ inicio: '2026-11-10', raices: null, maceta: '2026-11-05' }), hoy)).toBe('orden')
+    expect(errorDeFechas(f({ inicio: '', raices: null, maceta: null }), hoy)).toBe('formato')
+    expect(errorDeFechas(f({ inicio: '2026-13-40', raices: null, maceta: null }), hoy)).toBe('formato')
   })
   it('corregir cambia las tres fechas y arrastra el agua si quedó antes del inicio', () => {
     const base = h({ inicio: '2026-11-10', agua: '2026-11-12' })
-    expect(corregirFechas(base, { inicio: '2026-10-20', raices: '2026-11-07', maceta: null }, hoy)).toEqual({ ...base, inicio: '2026-10-20', raices: '2026-11-07', agua: '2026-11-12' })
-    expect(corregirFechas(base, { inicio: '2026-11-20', raices: null, maceta: null }, hoy).agua).toBe('2026-11-20')
+    expect(aplicarCorreccion(base, { ...base, inicio: '2026-10-20', raices: '2026-11-07', maceta: null }, hoy)).toEqual({ ...base, inicio: '2026-10-20', raices: '2026-11-07', agua: '2026-11-12' })
+    expect(aplicarCorreccion(base, { ...base, inicio: '2026-11-20', raices: null, maceta: null }, hoy).agua).toBe('2026-11-20')
     // Se puede deshacer un "ya tiene raíces" tocado por error
-    expect(corregirFechas(h({ raices: '2026-11-20' }), { inicio: '2026-11-10', raices: null, maceta: null }, hoy).raices).toBeNull()
+    expect(aplicarCorreccion(h({ raices: '2026-11-20' }), { ...h({ raices: '2026-11-20' }), inicio: '2026-11-10', raices: null, maceta: null }, hoy).raices).toBeNull()
+  })
+  it('pasar un corte a separada limpia raíces y maceta y lo deja en tierra', () => {
+    const base = h({ raices: '2026-11-15' })
+    const r = aplicarCorreccion(base, { ...base, origen: 'separada', prendio: '2026-11-20' }, hoy)
+    expect(r).toMatchObject({ origen: 'separada', medio: 'tierra', raices: null, maceta: null, prendio: '2026-11-20' })
+    // Y se puede volver atrás
+    expect(aplicarCorreccion(r, { ...r, origen: 'corte', medio: 'agua' }, hoy)).toMatchObject({ origen: 'corte', medio: 'agua', prendio: null })
+    expect(errorDeFechas(f({ inicio: '2026-11-10', prendio: '2026-11-09' }), hoy)).toBe('orden')
   })
   it('si las fechas no son válidas, no toca nada', () => {
     const base = h()
-    expect(corregirFechas(base, { inicio: '2026-12-01', raices: null, maceta: null }, hoy)).toBe(base)
+    expect(aplicarCorreccion(base, { ...base, inicio: '2026-12-01', raices: null, maceta: null }, hoy)).toBe(base)
   })
   it('muestra cuánto tardó cada etapa', () => {
     const e = estadoHijito(h({ inicio: '2026-10-01', raices: '2026-10-19', maceta: '2026-11-02' }), hoy)
@@ -55,10 +66,36 @@ describe('fechas de los hijitos', () => {
   })
 })
 
+describe('plantas separadas', () => {
+  const separada = (x: Partial<Hijito> = {}) => h({ origen: 'separada', medio: 'tierra', ...x })
+  it('se adaptan hasta que prenden, sin avisos de agua ni etapa de raíces', () => {
+    expect(estadoHijito(separada(), '2026-12-22')).toEqual({ etapa: 'adaptandose', dias: 42, tocaAgua: false, diasRaices: null, diasMaceta: null, diasPrendio: null })
+    expect(estadoHijito(separada({ prendio: '2026-11-30' }), '2026-12-22')).toEqual({ etapa: 'prendida', dias: 20, tocaAgua: false, diasRaices: null, diasMaceta: null, diasPrendio: 20 })
+    expect(TC.plantas.hijitos.prendioEn(20)).toBe('Prendió a los 20 días')
+  })
+  it('las que ya prendieron van al final de la lista', () => {
+    const lista = [separada({ id: 'a', prendio: '2026-11-12' }), separada({ id: 'b' }), h({ id: 'c' })]
+    expect(ordenarHijitos(lista, '2026-11-20').map((x) => x.id)).toEqual(['c', 'b', 'a'])
+  })
+  it('al sincronizar no mezcla datos de un corte en una separada', () => {
+    const a = { ...DATOS_INICIALES, hijitos: [separada()] }
+    const b = { ...DATOS_INICIALES, hijitos: [h({ raices: '2026-11-15' })] }
+    expect(fusionar(a, b).hijitos[0]).toMatchObject({ origen: 'separada', raices: null, medio: 'tierra' })
+  })
+  it('lo anotado antes (v6) queda como corte, sin perder nada', () => {
+    const { origen: _o, prendio: _p, ...viejo } = h({ raices: '2026-11-15' })
+    const d = esquemaDatos.parse(migrar({ ...DATOS_INICIALES, hijitos: [viejo] }, 6))
+    expect(d.hijitos).toEqual([h({ raices: '2026-11-15' })])
+    // Si ya traía el tipo, se conserva
+    const s = separada({ prendio: '2026-11-15' })
+    expect(esquemaDatos.parse(migrar({ ...DATOS_INICIALES, hijitos: [s] }, 6)).hijitos).toEqual([s])
+  })
+})
+
 describe('hijitos', () => {
   it('avisa del agua recién a los días indicados, y solo si está en agua', () => {
     expect(DIAS_CAMBIO_AGUA).toBe(4)
-    expect(estadoHijito(h(), '2026-11-13')).toEqual({ etapa: 'enraizando', dias: 3, tocaAgua: false, diasRaices: null, diasMaceta: null })
+    expect(estadoHijito(h(), '2026-11-13')).toEqual({ etapa: 'enraizando', dias: 3, tocaAgua: false, diasRaices: null, diasMaceta: null, diasPrendio: null })
     expect(estadoHijito(h(), '2026-11-14').tocaAgua).toBe(true)
     expect(estadoHijito(h({ agua: '2026-11-14' }), '2026-11-15').tocaAgua).toBe(false)
     expect(estadoHijito(h({ medio: 'tierra' }), '2026-11-30').tocaAgua).toBe(false)
@@ -66,7 +103,7 @@ describe('hijitos', () => {
 
   it('pasa de enraizando a con raíces y a maceta, y en maceta deja de contar y de avisar', () => {
     expect(estadoHijito(h({ raices: '2026-11-25' }), '2026-11-26').etapa).toBe('con_raices')
-    expect(estadoHijito(h({ raices: '2026-11-25', maceta: '2026-11-30' }), '2026-12-20')).toEqual({ etapa: 'en_maceta', dias: 20, tocaAgua: false, diasRaices: 15, diasMaceta: 20 })
+    expect(estadoHijito(h({ raices: '2026-11-25', maceta: '2026-11-30' }), '2026-12-20')).toEqual({ etapa: 'en_maceta', dias: 20, tocaAgua: false, diasRaices: 15, diasMaceta: 20, diasPrendio: null })
   })
 
   it('ordena primero los que piden agua y al final los que ya están en maceta', () => {
