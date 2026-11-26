@@ -24,7 +24,9 @@ export function fusionar(a: DatosPersistidos, b: DatosPersistidos): DatosPersist
   // Un espacio que está en los dos lados conserva la versión local y suma las plantas anotadas en el otro
   const conPlantas = a.espacios.map((e) => {
     const otro = b.espacios.find((x) => x.id === e.id)
-    return otro ? { ...e, plantas: unirPlantas(e.plantas, otro.plantas) } : e
+    if (!otro) return e
+    const plano = e.plano ?? otro.plano
+    return { ...e, ...(plano && { plano }), plantas: unirPlantas(e.plantas, otro.plantas) }
   })
   const espacios = [...conPlantas, ...b.espacios.filter((e) => !ids.has(e.id))].slice(0, 50)
 

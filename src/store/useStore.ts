@@ -1,9 +1,10 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import { VERSION_DATOS, esquemaDatos, migrar } from '../lib/backup'
-import { agregarPlanta, quitarPlanta } from '../lib/espacios'
+import { agregarPlanta, moverPlanta, quitarPlanta } from '../lib/espacios'
 import { hoyLocal } from '../lib/fecha'
 import { MAX_HIJITOS, aplicarCorreccion, errorDeFechas, normalizar, type CorreccionHijito } from '../lib/hijitos'
+import { ponerPlano } from '../lib/plano'
 import { actualizarFallidas, leccionesHechas } from '../lib/refuerzo'
 import {
   XP_COFRE,
@@ -16,7 +17,7 @@ import {
   type InsigniaId,
 } from '../lib/gamificacion'
 import { asignarPerfil } from '../lib/perfil'
-import type { DatosMascotas, DatosPersistidos, Espacio, Esfuerzo, Hijito, PerfilLuz, Respuestas, Tiempo, TipoEspacio, UnidadId } from '../lib/tipos'
+import type { DatosMascotas, DatosPersistidos, Espacio, Plano, Esfuerzo, Hijito, PerfilLuz, Respuestas, Tiempo, TipoEspacio, UnidadId } from '../lib/tipos'
 import { LECCIONES_POR_UNIDAD } from '../data/lessons'
 
 export const DATOS_INICIALES: DatosPersistidos = {
@@ -64,10 +65,14 @@ interface Acciones {
   saltarUnidad: (u: UnidadId) => void
   guardarEspacio: (e: Espacio) => void
   borrarEspacio: (id: string) => void
-  /** Anota una planta del catálogo en un espacio. Se puede repetir. */
-  agregarPlantaAEspacio: (espacioId: string, plantaId: string) => void
-  /** Saca del espacio una planta de ese tipo (la última agregada) */
-  quitarPlantaDeEspacio: (espacioId: string, plantaId: string) => void
+  /** Anota una planta del catálogo en un espacio, opcionalmente en un lugar del plano. Se puede repetir. */
+  agregarPlantaAEspacio: (espacioId: string, plantaId: string, lugar?: string | null) => void
+  /** Saca del espacio una planta de ese tipo (de ese lugar, si se indica) */
+  quitarPlantaDeEspacio: (espacioId: string, plantaId: string, lugar?: string | null) => void
+  /** Cambia de lugar una planta ya anotada (null = sin ubicar) */
+  moverPlantaEnEspacio: (espacioId: string, plantaId: string, desde: string | null, hacia: string | null) => void
+  /** Guarda el plano de un espacio, o lo quita */
+  guardarPlano: (espacioId: string, plano: Plano | undefined) => void
   alternarFavorita: (plantaId: string) => void
   /** Crea una colección vacía y devuelve su id (o null si el nombre está vacío o ya hay 20) */
   crearColeccion: (nombre: string) => string | null
@@ -205,11 +210,13 @@ export const useStore = create<Estado>()(
       // Si el espacio ya existe se actualiza en su lugar; si es nuevo va al final
       guardarEspacio: (e) => set((s) => ({ espacios: s.espacios.some((x) => x.id === e.id) ? s.espacios.map((x) => (x.id === e.id ? e : x)) : [...s.espacios, e].slice(0, 50) })),
       borrarEspacio: (id) => set((s) => ({ espacios: s.espacios.filter((x) => x.id !== id) })),
-      agregarPlantaAEspacio: (espacioId, plantaId) => {
+      agregarPlantaAEspacio: (espacioId, plantaId, lugar) => {
         const id = `pl-${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`
-        set((s) => ({ espacios: s.espacios.map((e) => (e.id === espacioId ? agregarPlanta(e, plantaId, id) : e)) }))
+        set((s) => ({ espacios: s.espacios.map((e) => (e.id === espacioId ? agregarPlanta(e, plantaId, id, lugar) : e)) }))
       },
-      quitarPlantaDeEspacio: (espacioId, plantaId) => set((s) => ({ espacios: s.espacios.map((e) => (e.id === espacioId ? quitarPlanta(e, plantaId) : e)) })),
+      quitarPlantaDeEspacio: (espacioId, plantaId, lugar) => set((s) => ({ espacios: s.espacios.map((e) => (e.id === espacioId ? quitarPlanta(e, plantaId, lugar) : e)) })),
+      moverPlantaEnEspacio: (espacioId, plantaId, desde, hacia) => set((s) => ({ espacios: s.espacios.map((e) => (e.id === espacioId ? moverPlanta(e, plantaId, desde, hacia) : e)) })),
+      guardarPlano: (espacioId, plano) => set((s) => ({ espacios: s.espacios.map((e) => (e.id === espacioId ? ponerPlano(e, plano) : e)) })),
 
       // Sin duplicados; las nuevas van primero
       alternarFavorita: (id) =>

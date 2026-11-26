@@ -76,6 +76,29 @@ export type Esfuerzo = 'poco' | 'medio' | 'mucho'
 export interface PlantaEnEspacio {
   id: string
   plantaId: string
+  /** Id de un elemento del plano o `piso-<celda>`. Sin valor: todavía sin ubicar. */
+  lugar?: string
+}
+
+export type TipoElemento = 'ventana' | 'puerta' | 'mesa' | 'mueble' | 'estante' | 'gancho'
+
+export interface ElementoPlano {
+  id: string
+  tipo: TipoElemento
+  /** Su cuadradito de arriba a la izquierda: fila * 6 + columna */
+  celda: number
+  /** Cuadraditos que ocupa a lo ancho y a lo alto (sin valor: 1) */
+  ancho?: number
+  alto?: number
+  /** Nombre propio ("Estante arriba de la tele"); sin él se muestra el tipo */
+  nombre?: string
+}
+
+/** El espacio visto desde arriba, sobre una cuadrícula */
+export interface Plano {
+  /** Celdas que forman el piso */
+  suelo: number[]
+  elementos: ElementoPlano[]
 }
 
 /** Un espacio de la casa, con su propio perfil de luz. Las recomendaciones se calculan al mostrarlo. */
@@ -90,6 +113,7 @@ export interface Espacio {
   esfuerzo: Esfuerzo
   /** Plantas que ya están en este lugar, en el orden en que se agregaron */
   plantas: PlantaEnEspacio[]
+  plano?: Plano
 }
 
 /** Todo lo que se persiste en localStorage y viaja en el backup */
