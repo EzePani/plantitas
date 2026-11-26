@@ -5,16 +5,60 @@ import { UNIDADES } from '../data/unidades'
 import { WIKI } from '../data/wiki'
 import { DATOS_INICIALES } from '../store/useStore'
 import { fusionar } from './fusion'
-import { DIAS_CAMBIO_AGUA, estadoHijito, hijitosConAviso, ordenarHijitos } from './hijitos'
+import { fechaCorta } from './fecha'
+import { DIAS_CAMBIO_AGUA, corregirFechas, errorDeFechas, estadoHijito, hijitosConAviso, ordenarHijitos } from './hijitos'
+import { TC } from '../data/textosCatalogo'
 import { PREGUNTAS_REFUERZO, actualizarFallidas, armarRefuerzo, refuerzoDisponible, umbrales } from './refuerzo'
 import type { Hijito } from './tipos'
 
 const h = (x: Partial<Hijito> = {}): Hijito => ({ id: 'hij-1', plantaId: 'potus', nombre: 'Potus', medio: 'agua', inicio: '2026-11-10', agua: '2026-11-10', raices: null, maceta: null, ...x })
 
+describe('fechas de los hijitos', () => {
+  const hoy = '2026-11-26'
+  it('acepta fechas en orden y hasta hoy', () => {
+    expect(errorDeFechas({ inicio: '2026-11-01', raices: null, maceta: null }, hoy)).toBeNull()
+    expect(errorDeFechas({ inicio: '2026-11-01', raices: '2026-11-19', maceta: hoy }, hoy)).toBeNull()
+    expect(errorDeFechas({ inicio: hoy, raices: hoy, maceta: hoy }, hoy)).toBeNull()
+    // Sin raíces anotadas igual puede haber pasado a maceta
+    expect(errorDeFechas({ inicio: '2026-11-01', raices: null, maceta: '2026-11-20' }, hoy)).toBeNull()
+  })
+  it('rechaza fechas futuras, desordenadas o mal escritas', () => {
+    expect(errorDeFechas({ inicio: '2026-11-27', raices: null, maceta: null }, hoy)).toBe('futuro')
+    expect(errorDeFechas({ inicio: '2026-11-10', raices: '2026-11-09', maceta: null }, hoy)).toBe('orden')
+    expect(errorDeFechas({ inicio: '2026-11-10', raices: '2026-11-20', maceta: '2026-11-15' }, hoy)).toBe('orden')
+    expect(errorDeFechas({ inicio: '2026-11-10', raices: null, maceta: '2026-11-05' }, hoy)).toBe('orden')
+    expect(errorDeFechas({ inicio: '', raices: null, maceta: null }, hoy)).toBe('formato')
+    expect(errorDeFechas({ inicio: '2026-13-40', raices: null, maceta: null }, hoy)).toBe('formato')
+  })
+  it('corregir cambia las tres fechas y arrastra el agua si quedó antes del inicio', () => {
+    const base = h({ inicio: '2026-11-10', agua: '2026-11-12' })
+    expect(corregirFechas(base, { inicio: '2026-10-20', raices: '2026-11-07', maceta: null }, hoy)).toEqual({ ...base, inicio: '2026-10-20', raices: '2026-11-07', agua: '2026-11-12' })
+    expect(corregirFechas(base, { inicio: '2026-11-20', raices: null, maceta: null }, hoy).agua).toBe('2026-11-20')
+    // Se puede deshacer un "ya tiene raíces" tocado por error
+    expect(corregirFechas(h({ raices: '2026-11-20' }), { inicio: '2026-11-10', raices: null, maceta: null }, hoy).raices).toBeNull()
+  })
+  it('si las fechas no son válidas, no toca nada', () => {
+    const base = h()
+    expect(corregirFechas(base, { inicio: '2026-12-01', raices: null, maceta: null }, hoy)).toBe(base)
+  })
+  it('muestra cuánto tardó cada etapa', () => {
+    const e = estadoHijito(h({ inicio: '2026-10-01', raices: '2026-10-19', maceta: '2026-11-02' }), hoy)
+    expect(TC.plantas.hijitos.tiempos(e.diasRaices, e.diasMaceta)).toBe('Raíces a los 18 días · Maceta a los 32')
+    expect(TC.plantas.hijitos.tiempos(18, null)).toBe('Raíces a los 18 días')
+    expect(TC.plantas.hijitos.tiempos(null, 32)).toBe('Maceta a los 32 días')
+    expect(TC.plantas.hijitos.tiempos(1, 1)).toBe('Raíces al día siguiente · Maceta al día siguiente')
+    expect(TC.plantas.hijitos.tiempos(null, null)).toBe('')
+  })
+  it('fecha corta, con año solo si es otro', () => {
+    expect(fechaCorta('2026-11-04', hoy)).toBe('4 nov')
+    expect(fechaCorta('2025-12-31', hoy)).toBe('31 dic 2025')
+  })
+})
+
 describe('hijitos', () => {
   it('avisa del agua recién a los días indicados, y solo si está en agua', () => {
     expect(DIAS_CAMBIO_AGUA).toBe(4)
-    expect(estadoHijito(h(), '2026-11-13')).toEqual({ etapa: 'enraizando', dias: 3, tocaAgua: false })
+    expect(estadoHijito(h(), '2026-11-13')).toEqual({ etapa: 'enraizando', dias: 3, tocaAgua: false, diasRaices: null, diasMaceta: null })
     expect(estadoHijito(h(), '2026-11-14').tocaAgua).toBe(true)
     expect(estadoHijito(h({ agua: '2026-11-14' }), '2026-11-15').tocaAgua).toBe(false)
     expect(estadoHijito(h({ medio: 'tierra' }), '2026-11-30').tocaAgua).toBe(false)
@@ -22,7 +66,7 @@ describe('hijitos', () => {
 
   it('pasa de enraizando a con raíces y a maceta, y en maceta deja de contar y de avisar', () => {
     expect(estadoHijito(h({ raices: '2026-11-25' }), '2026-11-26').etapa).toBe('con_raices')
-    expect(estadoHijito(h({ raices: '2026-11-25', maceta: '2026-11-30' }), '2026-12-20')).toEqual({ etapa: 'en_maceta', dias: 20, tocaAgua: false })
+    expect(estadoHijito(h({ raices: '2026-11-25', maceta: '2026-11-30' }), '2026-12-20')).toEqual({ etapa: 'en_maceta', dias: 20, tocaAgua: false, diasRaices: 15, diasMaceta: 20 })
   })
 
   it('ordena primero los que piden agua y al final los que ya están en maceta', () => {
