@@ -1,5 +1,6 @@
 import { CalendarDays, Check, Droplet, Flower2, Plus, Sprout, Trash2 } from 'lucide-react'
 import { useState } from 'react'
+import { Boton } from '../../components/Boton'
 import { FotoPlanta } from '../../components/FotoPlanta'
 import { Panel } from '../../components/Panel'
 import { PLANTAS, plantaPorId, type Planta } from '../../data/plantas'
@@ -7,10 +8,11 @@ import { TC } from '../../data/textosCatalogo'
 import { buscarPlantas } from '../../lib/buscar'
 import { fechaCorta, hoyLocal } from '../../lib/fecha'
 import { vibrar } from '../../lib/haptics'
-import { MAX_HIJITOS, errorDeFechas, estadoHijito, ordenarHijitos, type FechasHijito } from '../../lib/hijitos'
+import { MAX_HIJITOS, errorDeFechas, estadoHijito, normalizar, ordenarHijitos, terminado, type CorreccionHijito } from '../../lib/hijitos'
 import type { Hijito } from '../../lib/tipos'
 import { useStore } from '../../store/useStore'
 import { BotonPie } from './Lista'
+import { SelectorMedio, SelectorOrigen } from './SelectoresHijito'
 
 const H = TC.plantas.hijitos
 
@@ -29,24 +31,26 @@ function CampoFecha({ etiqueta, valor, onCambio, min, hoy }: { etiqueta: string;
   )
 }
 
-/** Panel para corregir a mano cuándo empezó, cuándo echó raíces y cuándo pasó a maceta */
+/** Panel para corregir a mano el tipo (hijito o separada), dónde está y las fechas */
 function EditorFechas({ hijito, hoy, onCerrar }: { hijito: Hijito | null; hoy: string; onCerrar: () => void }) {
   const corregir = useStore((s) => s.corregirHijito)
-  const [f, setF] = useState<FechasHijito | null>(null)
+  const [f, setF] = useState<CorreccionHijito | null>(null)
   const [de, setDe] = useState<string | null>(null)
   // Al abrirlo para otro hijito se cargan sus fechas
   if (hijito && de !== hijito.id) {
     setDe(hijito.id)
-    setF({ inicio: hijito.inicio, raices: hijito.raices, maceta: hijito.maceta })
+    const { origen, medio, inicio, raices, maceta, prendio } = hijito
+    setF({ origen, medio, inicio, raices, maceta, prendio })
   }
   if (!hijito && de !== null) setDe(null)
-  const error = f ? errorDeFechas(f, hoy) : null
+  // Se valida solo lo que corresponde al tipo elegido; lo demás queda en el panel por si se vuelve atrás
+  const error = f ? errorDeFechas(normalizar(f), hoy) : null
   const guardar = () => {
     if (!hijito || !f || error) return
     corregir(hijito.id, f)
     onCerrar()
   }
-  const etapa = (campo: 'raices' | 'maceta', min: string) =>
+  const etapa = (campo: 'raices' | 'maceta' | 'prendio', min: string) =>
     f && (
       <section>
         <h2 className="font-display text-tinta mt-5 mb-2 text-[18px] font-semibold">{H.fechas[campo]}</h2>
@@ -71,13 +75,27 @@ function EditorFechas({ hijito, hoy, onCerrar }: { hijito: Hijito | null; hoy: s
           <p className="text-tinta m-0 text-[15px] leading-snug font-bold">
             <strong className="font-extrabold">{hijito.nombre}.</strong> {H.fechas.intro}
           </p>
-          <h2 className="font-display text-tinta mt-5 mb-2 text-[18px] font-semibold">{H.fechas.inicio}</h2>
-          <CampoFecha etiqueta={H.fechas.inicio} valor={f.inicio} hoy={hoy} onCambio={(v) => setF({ ...f, inicio: v })} />
-          {etapa('raices', f.inicio)}
-          {etapa('maceta', f.raices ?? f.inicio)}
+          <h2 className="font-display text-tinta mt-5 mb-2 text-[18px] font-semibold">{H.comoSaco}</h2>
+          <SelectorOrigen valor={f.origen} onCambio={(origen) => setF({ ...f, origen })} />
+          {f.origen === 'corte' && (
+            <>
+              <h2 className="font-display text-tinta mt-5 mb-2 text-[18px] font-semibold">{H.donde}</h2>
+              <SelectorMedio valor={f.medio} onCambio={(medio) => setF({ ...f, medio })} />
+            </>
+          )}
+          <h2 className="font-display text-tinta mt-5 mb-2 text-[18px] font-semibold">{H.fechas.inicio[f.origen]}</h2>
+          <CampoFecha etiqueta={H.fechas.inicio[f.origen]} valor={f.inicio} hoy={hoy} onCambio={(v) => setF({ ...f, inicio: v })} />
+          {f.origen === 'separada' ? (
+            etapa('prendio', f.inicio)
+          ) : (
+            <>
+              {etapa('raices', f.inicio)}
+              {etapa('maceta', f.raices ?? f.inicio)}
+            </>
+          )}
           {error && (
             <p role="alert" className="text-alerta mt-4 mb-0 text-[14px] leading-snug font-extrabold">
-              {H.fechas.error[error]}
+              {H.fechas.error[error === 'orden' && f.origen === 'separada' ? 'ordenSeparada' : error]}
             </p>
           )}
         </div>
@@ -92,11 +110,19 @@ function Tarjeta({ hijito: h, hoy, onGuia, onFechas }: { hijito: Hijito; hoy: st
   const [seguro, setSeguro] = useState(false)
   const e = estadoHijito(h, hoy)
   const planta = h.plantaId ? plantaPorId(h.plantaId) : undefined
-  const accion = (que: 'agua' | 'raices' | 'maceta') => {
+  const accion = (que: 'agua' | 'raices' | 'maceta' | 'prendio') => {
     vibrar('toque')
     marcar(h.id, que)
   }
-  const ayuda = e.etapa === 'en_maceta' ? H.ayuda.en_maceta : H.ayuda[`${e.etapa}_${h.medio}`]
+  const fin = terminado(e.etapa)
+  const separada = h.origen === 'separada'
+  const ayuda = e.etapa === 'en_maceta' || e.etapa === 'adaptandose' || e.etapa === 'prendida' ? H.ayuda[e.etapa] : H.ayuda[`${e.etapa}_${h.medio}`]
+  const cuando = fin ? (separada ? H.separadaEl : H.empezo)(fechaCorta(h.inicio, hoy)) : separada ? H.diaSeparada(e.dias) : H.dia(e.dias, h.medio)
+  const estado = e.tocaAgua
+    ? H.tocaAgua
+    : { enraizando: h.medio === 'agua' ? H.aguaOk : H.enraizando, con_raices: H.conRaices, en_maceta: H.etapaMaceta, adaptandose: H.adaptandose, prendida: H.prendida }[e.etapa]
+  const tiempos = e.diasPrendio !== null ? H.prendioEn(e.diasPrendio) : H.tiempos(e.diasRaices, e.diasMaceta)
+  const chip = 'inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-[12px] font-extrabold'
   const boton = 'min-h-11 flex-1 rounded-full border-2 px-3 text-[14px] font-extrabold'
   return (
     <article className={`rounded-3xl border-2 bg-white p-3 shadow-[0_3px_0_var(--color-arena-osc)] ${e.tocaAgua ? 'border-agua' : 'border-arena-osc'}`}>
@@ -110,11 +136,14 @@ function Tarjeta({ hijito: h, hoy, onGuia, onFechas }: { hijito: Hijito; hoy: st
         )}
         <div className="min-w-0 flex-1">
           <h3 className="font-display text-tinta m-0 truncate text-[18px] leading-tight font-semibold">{h.nombre}</h3>
-          <p className="text-tinta-suave m-0 text-[13px] font-bold">{e.etapa === 'en_maceta' ? H.empezo(fechaCorta(h.inicio, hoy)) : H.dia(e.dias, h.medio)}</p>
-          <span className={`mt-1 inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-[12px] font-extrabold ${e.tocaAgua ? 'bg-agua text-white' : 'bg-brote text-hoja-osc'}`}>
-            {e.etapa === 'en_maceta' ? <Flower2 size={13} aria-hidden /> : e.tocaAgua ? <Droplet size={13} aria-hidden /> : <Check size={13} strokeWidth={3.2} aria-hidden />}
-            {e.etapa === 'en_maceta' ? H.etapaMaceta : e.tocaAgua ? H.tocaAgua : e.etapa === 'con_raices' ? H.conRaices : h.medio === 'agua' ? H.aguaOk : H.medio.tierra}
-          </span>
+          <p className="text-tinta-suave m-0 text-[13px] font-bold">{cuando}</p>
+          <div className="mt-1 flex flex-wrap gap-1">
+            <span className={`${chip} border-2 ${separada ? 'border-tinta bg-tinta text-white' : 'border-hoja text-hoja-osc bg-white'}`}>{H.etiqueta(h.origen, h.medio)}</span>
+            <span className={`${chip} ${e.tocaAgua ? 'bg-agua text-white' : 'bg-brote text-hoja-osc'}`}>
+              {fin ? <Flower2 size={13} aria-hidden /> : e.tocaAgua ? <Droplet size={13} aria-hidden /> : e.etapa === 'adaptandose' ? <Sprout size={13} aria-hidden /> : <Check size={13} strokeWidth={3.2} aria-hidden />}
+              {estado}
+            </span>
+          </div>
         </div>
         <button
           type="button"
@@ -129,18 +158,22 @@ function Tarjeta({ hijito: h, hoy, onGuia, onFechas }: { hijito: Hijito; hoy: st
       {seguro && <p className="text-alerta mt-2 mb-0 text-right text-[13px] font-extrabold">{H.borrarSeguro}</p>}
       <button type="button" aria-label={H.fechas.boton(h.nombre)} onClick={() => onFechas(h)} className="bg-arena text-tinta mt-2.5 flex min-h-11 w-full items-center gap-2 rounded-2xl border-0 px-3 py-1.5 text-left text-[13px] leading-snug font-extrabold">
         <CalendarDays size={17} className="text-tinta-suave shrink-0" aria-hidden />
-        <span className="min-w-0 flex-1">{[e.etapa !== 'en_maceta' && H.desde(fechaCorta(h.inicio, hoy)), H.tiempos(e.diasRaices, e.diasMaceta)].filter(Boolean).join(' · ')}</span>
+        <span className="min-w-0 flex-1">{[!fin && H.desde(fechaCorta(h.inicio, hoy)), tiempos].filter(Boolean).join(' · ')}</span>
         <span className="text-hoja-osc shrink-0 underline">{H.fechas.corregir}</span>
       </button>
       <p className="text-tinta mt-2.5 mb-0 text-[14px] leading-snug font-bold">{ayuda}</p>
-      {e.etapa !== 'en_maceta' && (
+      {!fin && (
         <div className="mt-3 flex flex-wrap gap-2">
           {h.medio === 'agua' && (
             <button type="button" onClick={() => accion('agua')} className={`${boton} ${e.tocaAgua ? 'border-agua bg-agua text-white' : 'border-arena-osc text-tinta bg-white'}`}>
               {H.cambieAgua}
             </button>
           )}
-          {e.etapa === 'enraizando' ? (
+          {separada ? (
+            <button type="button" onClick={() => accion('prendio')} className={`${boton} border-hoja bg-hoja text-white`}>
+              {H.yaPrendio}
+            </button>
+          ) : e.etapa === 'enraizando' ? (
             <button type="button" onClick={() => accion('raices')} className={`${boton} border-arena-osc text-tinta bg-white`}>
               {H.tieneRaices}
             </button>
@@ -160,7 +193,7 @@ function Tarjeta({ hijito: h, hoy, onGuia, onFechas }: { hijito: Hijito; hoy: st
   )
 }
 
-/** Pestaña "Hijitos": esquejes en seguimiento, con aviso para cambiarles el agua */
+/** Pestaña "Hijitos": esquejes y plantas separadas en seguimiento, con aviso para cambiar el agua */
 export function Hijitos({ onGuia }: { onGuia: (entradaId: string) => void }) {
   const hijitos = useStore((s) => s.hijitos)
   const agregar = useStore((s) => s.agregarHijito)
@@ -168,10 +201,11 @@ export function Hijitos({ onGuia }: { onGuia: (entradaId: string) => void }) {
   const [nuevo, setNuevo] = useState(false)
   const [nombre, setNombre] = useState('')
   const [planta, setPlanta] = useState<Planta | null>(null)
+  const [origen, setOrigen] = useState<Hijito['origen'] | null>(null)
   const [medio, setMedio] = useState<Hijito['medio']>('agua')
   const [inicio, setInicio] = useState(hoy)
   const [fechasDe, setFechasDe] = useState<string | null>(null)
-  const errorInicio = errorDeFechas({ inicio, raices: null, maceta: null }, hoy)
+  const errorInicio = errorDeFechas({ inicio, raices: null, maceta: null, prendio: null }, hoy)
   const inicioOk = !errorInicio
   const lleno = hijitos.length >= MAX_HIJITOS
   // Mientras se escribe se sugieren plantas del catálogo; si se elige una, el hijito queda con su foto
@@ -180,12 +214,13 @@ export function Hijitos({ onGuia }: { onGuia: (entradaId: string) => void }) {
   const abrir = () => {
     setNombre('')
     setPlanta(null)
+    setOrigen(null)
     setMedio('agua')
     setInicio(hoy)
     setNuevo(true)
   }
   const guardar = () => {
-    if (inicioOk && agregar({ plantaId: planta?.id ?? null, nombre, medio, inicio })) setNuevo(false)
+    if (origen && inicioOk && agregar({ plantaId: planta?.id ?? null, nombre, origen, medio, inicio })) setNuevo(false)
   }
 
   return (
@@ -208,7 +243,7 @@ export function Hijitos({ onGuia }: { onGuia: (entradaId: string) => void }) {
         )}
       </div>
 
-      <Panel abierto={nuevo} titulo={H.nuevoTitulo} onCerrar={() => setNuevo(false)} pie={<BotonPie onClick={guardar}>{H.guardar}</BotonPie>}>
+      <Panel abierto={nuevo} titulo={H.nuevoTitulo} onCerrar={() => setNuevo(false)} pie={<Boton disabled={!origen || !nombre.trim() || !inicioOk} onClick={guardar}>{H.guardar}</Boton>}>
         <div className="px-5 pb-6">
           <h2 className="font-display text-tinta mt-2 mb-2 text-[18px] font-semibold">{H.deQue}</h2>
           <input
@@ -244,17 +279,21 @@ export function Hijitos({ onGuia }: { onGuia: (entradaId: string) => void }) {
             </div>
           )}
           {planta && <p className="text-tinta-suave mt-2 mb-0 text-[14px] leading-snug font-bold">{planta.cultivo.propagacion.detalle}</p>}
-          <h2 className="font-display text-tinta mt-6 mb-2 text-[18px] font-semibold">{H.donde}</h2>
-          <div className="flex gap-2">
-            {(['agua', 'tierra'] as const).map((m) => (
-              <button key={m} type="button" aria-pressed={medio === m} onClick={() => setMedio(m)} className={`min-h-11 flex-1 rounded-full border-2 text-[15px] font-extrabold ${medio === m ? 'border-hoja bg-hoja text-white' : 'border-arena-osc text-tinta bg-white'}`}>
-                {H.medio[m]}
-              </button>
-            ))}
-          </div>
-          <h2 className="font-display text-tinta mt-6 mb-1 text-[18px] font-semibold">{H.cuando}</h2>
-          <p className="text-tinta-suave mt-0 mb-2 text-[13px] font-bold">{inicio === hoy ? `${H.hoy}. ${H.cuandoAyuda}` : errorInicio ? H.fechas.error[errorInicio] : H.empezo(fechaCorta(inicio, hoy))}</p>
-          <CampoFecha etiqueta={H.cuando} valor={inicio} hoy={hoy} onCambio={setInicio} />
+          <h2 className="font-display text-tinta mt-6 mb-2 text-[18px] font-semibold">{H.comoSaco}</h2>
+          <SelectorOrigen valor={origen} onCambio={setOrigen} />
+          {origen === 'corte' && (
+            <>
+              <h2 className="font-display text-tinta mt-6 mb-2 text-[18px] font-semibold">{H.donde}</h2>
+              <SelectorMedio valor={medio} onCambio={setMedio} />
+            </>
+          )}
+          {origen && (
+            <>
+              <h2 className="font-display text-tinta mt-6 mb-1 text-[18px] font-semibold">{H.cuando}</h2>
+              <p className="text-tinta-suave mt-0 mb-2 text-[13px] font-bold">{inicio === hoy ? `${H.hoy}. ${H.cuandoAyuda}` : errorInicio ? H.fechas.error[errorInicio] : (origen === 'separada' ? H.separadaEl : H.empezo)(fechaCorta(inicio, hoy))}</p>
+              <CampoFecha etiqueta={H.cuando} valor={inicio} hoy={hoy} onCambio={setInicio} />
+            </>
+          )}
         </div>
       </Panel>
 

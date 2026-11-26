@@ -1,4 +1,5 @@
 import { unirPlantas } from './espacios'
+import { normalizar } from './hijitos'
 import type { Coleccion, DatosPersistidos, Hijito, Refuerzo } from './tipos'
 
 /**
@@ -57,7 +58,7 @@ export function fusionar(a: DatosPersistidos, b: DatosPersistidos): DatosPersist
 function fusionarHijitos(a: Hijito[], b: Hijito[]): Hijito[] {
   const salida = a.map((h) => {
     const otro = b.find((x) => x.id === h.id)
-    return otro ? { ...h, agua: h.agua > otro.agua ? h.agua : otro.agua, raices: h.raices ?? otro.raices, maceta: h.maceta ?? otro.maceta } : h
+    return otro ? normalizar({ ...h, agua: h.agua > otro.agua ? h.agua : otro.agua, raices: h.raices ?? otro.raices, maceta: h.maceta ?? otro.maceta, prendio: h.prendio ?? otro.prendio }) : h
   })
   const ids = new Set(a.map((h) => h.id))
   return [...salida, ...b.filter((h) => !ids.has(h.id))].slice(0, 60)

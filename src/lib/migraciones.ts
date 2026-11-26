@@ -124,4 +124,12 @@ function v5aV6(datos: unknown): unknown {
   return { ...datos, espacios: datos.espacios.map((e) => (esObj(e) ? { ...e, plantas: Array.isArray(e.plantas) ? e.plantas : [] } : e)) }
 }
 
-export const MIGRACIONES: Record<number, (datos: unknown) => unknown> = { 1: v1aV2, 2: v2aV3, 3: v3aV4, 4: v4aV5, 5: v5aV6 }
+// ---------- v6 → v7: hijitos y plantas separadas ----------
+
+/** Todo lo anotado hasta ahora queda como corte; el que era una planta separada se cambia desde "Corregir". */
+function v6aV7(datos: unknown): unknown {
+  if (!esObj(datos) || !Array.isArray(datos.hijitos)) return datos
+  return { ...datos, hijitos: datos.hijitos.map((h) => (esObj(h) ? { ...h, origen: h.origen ?? 'corte', prendio: h.prendio ?? null } : h)) }
+}
+
+export const MIGRACIONES: Record<number, (datos: unknown) => unknown> = { 1: v1aV2, 2: v2aV3, 3: v3aV4, 4: v4aV5, 5: v5aV6, 6: v6aV7 }
