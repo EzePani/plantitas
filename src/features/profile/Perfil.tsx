@@ -18,6 +18,7 @@ import { soloDatos, useStore } from '../../store/useStore'
 import { EditorMascotas } from '../pets/EditorMascotas'
 import { Panel } from '../../components/Panel'
 import { Jardin } from './Jardin'
+import { Copias } from './Copias'
 import { Nube } from './Nube'
 import { FotoPlanta } from '../../components/FotoPlanta'
 import { plantaPorId } from '../../data/plantas'
@@ -64,6 +65,7 @@ export function Perfil() {
   const archivo = useRef<HTMLInputElement>(null)
   const [pegando, setPegando] = useState(false)
   const [pegado, setPegado] = useState('')
+  const [copia, setCopia] = useState<DatosPersistidos | null>(null)
 
   const leccionesHechas = Object.keys(s.completadas).filter((id) => !id.startsWith('repaso-')).length
   const unidades = Object.keys(LECCIONES_POR_UNIDAD) as UnidadId[]
@@ -234,6 +236,12 @@ export function Perfil() {
             {aviso.texto}
           </p>
         )}
+        <Copias
+          onElegir={(d) => {
+            setAviso(null)
+            setCopia(d)
+          }}
+        />
         <p className="text-tinta-suave mt-4 mb-8 text-[13px] leading-snug font-bold">{P.disclaimer}</p>
       </section>
     </div>
@@ -251,6 +259,21 @@ export function Perfil() {
           }}
         />
       </HojaInferior>
+
+      <Dialogo abierto={copia !== null} titulo={P.copias.confirmar} texto={P.copias.confirmarTexto} onCerrar={() => setCopia(null)}>
+        <Boton
+          onClick={() => {
+            if (copia) s.recuperarCopia(copia)
+            setCopia(null)
+            setAviso({ tipo: 'ok', texto: P.copias.listo })
+          }}
+        >
+          {P.copias.si}
+        </Boton>
+        <Boton variante="fantasma" onClick={() => setCopia(null)}>
+          {T.comun.cancelar}
+        </Boton>
+      </Dialogo>
 
       <Dialogo abierto={pegando} titulo={P.pegarTitulo} texto={P.pegarTexto} onCerrar={() => setPegando(false)}>
         <textarea
