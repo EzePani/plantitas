@@ -1,8 +1,10 @@
 import { createClient } from '@supabase/supabase-js'
 import { VERSION_DATOS, esquemaDatos, migrar } from './backup'
+import { guardarCopia, sePierde } from './copias'
 import { fusionar } from './fusion'
 import type { DatosPersistidos } from './tipos'
-import { soloDatos, useStore } from '../store/useStore'
+import { leerBloqueo } from '../store/disco'
+import { alDia, estaRefrescando, soloDatos, useStore } from '../store/useStore'
 
 // La clave "publishable" es pública por diseño: la seguridad la dan las reglas por usuario (RLS) de la base.
 const URL = 'https://kliipodfdabuyhiceryw.supabase.co'
@@ -168,10 +170,14 @@ async function correr() {
       return
     }
 
+    let pendiente = false
     for (let intento = 0; intento < 3; intento++) {
-      const m = leerMeta()
       const { data: remoto, error } = await cliente.from('progreso').select('datos,version,actualizado').maybeSingle()
       if (error) throw error
+      // Recién después de esperar a la red: mientras tanto pudo escribir otra ventana
+      alDia()
+      if (leerBloqueo()) throw new Error('Cerrá la app y volvé a abrirla para sincronizar.')
+      const m = leerMeta()
       const local = soloDatos(useStore.getState())
 
       let subir: DatosPersistidos | null = null
@@ -179,20 +185,26 @@ async function correr() {
       if (!remoto) {
         subir = local
       } else {
+        if (remoto.version > VERSION_DATOS) throw new Error('La nube tiene datos de una versión más nueva. Cerrá la app y volvé a abrirla para actualizarla.')
         const leido = esquemaDatos.safeParse(migrar(remoto.datos, remoto.version))
         if (!leido.success) throw new Error('Los datos de la nube no se pueden leer.')
         if (remoto.actualizado === m.visto) {
           if (m.sucio) subir = local
-        } else if (!m.sucio) {
+        } else if (!m.sucio && remoto.version === VERSION_DATOS) {
           aplicar(leido.data)
           visto = remoto.actualizado
         } else {
+          // Cambió en los dos lados, o lo escribió una app vieja que pudo no tener todo: se junta
           subir = fusionar(local, leido.data)
+          guardarMeta({ ...m, sucio: true })
           aplicar(subir)
         }
+        // Antes de pisar la nube queda una copia de lo que se perdería
+        if (subir && sePierde(leido.data, subir)) guardarCopia(leido.data, VERSION_DATOS, 'reemplazo')
       }
 
       if (subir) {
+        const antes = JSON.stringify(soloDatos(useStore.getState()))
         const fila = { datos: subir, version: VERSION_DATOS, actualizado: new Date().toISOString() }
         const q = remoto
           ? cliente.from('progreso').update(fila).eq('user_id', uid).eq('actualizado', remoto.actualizado).select('actualizado')
@@ -201,10 +213,17 @@ async function correr() {
         if (e2) throw e2
         if (!filas?.length) continue // otro dispositivo se adelantó: se vuelve a leer y a unir
         visto = filas[0].actualizado
+        // Lo que se haya cambiado mientras subía queda para la próxima
+        alDia()
+        pendiente = JSON.stringify(soloDatos(useStore.getState())) !== antes
       }
 
-      guardarMeta({ ...leerMeta(), visto, sucio: false })
+      guardarMeta({ ...leerMeta(), visto, sucio: pendiente })
       break
+    }
+    if (pendiente) {
+      clearTimeout(temporizador)
+      temporizador = setTimeout(() => void sincronizar(), 1500)
     }
     const ahora = new Date().toISOString()
     await cliente.from('dispositivos').update({ ultima_sync: ahora }).eq('id', meta.id)
@@ -225,7 +244,7 @@ export function iniciar() {
   })
   void cliente.auth.getSession().then(({ data }) => poner({ email: data.session?.user.email ?? null }))
   useStore.subscribe(() => {
-    if (aplicando) return
+    if (aplicando || estaRefrescando()) return
     const m = leerMeta()
     if (!m.registrado) return
     guardarMeta({ ...m, sucio: true })

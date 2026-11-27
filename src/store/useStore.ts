@@ -1,6 +1,9 @@
 import { create } from 'zustand'
-import { persist } from 'zustand/middleware'
+import { createJSONStorage, persist } from 'zustand/middleware'
 import { VERSION_DATOS, esquemaDatos, migrar } from '../lib/backup'
+import { guardarCopia, sePierde } from '../lib/copias'
+import { fusionar } from '../lib/fusion'
+import { CLAVE_ESTADO, almacen, bloquear, novedad } from './disco'
 import { agregarPlanta, moverPlanta, quitarPlanta } from '../lib/espacios'
 import { hoyLocal } from '../lib/fecha'
 import { MAX_CASOS, anotarControl, revisarCaso, anotarVisita, borrarVisita, sinVisitas, cerrarEl, corregirFecha, dentroDe, limitesDeIngresoNuevo, type FechaDeCaso } from '../lib/guardia'
@@ -114,7 +117,10 @@ interface Acciones {
   completarRefuerzo: (aciertos: number, total: number, falladas: string[], acertadas: string[]) => Resumen
   /** "Ahora no": el refuerzo vuelve a aparecer más adelante */
   posponerRefuerzo: () => void
+  /** Cambia todos los datos (sincronización o archivo). Si se pierde algo, antes guarda una copia */
   reemplazarDatos: (d: DatosPersistidos) => void
+  /** Suma lo que haya en una copia, sin borrar nada de lo actual */
+  recuperarCopia: (d: DatosPersistidos) => void
   reiniciar: () => void
 }
 
@@ -154,9 +160,43 @@ function conInsignias(
   return { insignias, nuevas }
 }
 
+let refrescando = false
+/** Mientras se lee lo que escribió otra ventana (no es un cambio hecho acá) */
+export const estaRefrescando = () => refrescando
+
+/** Pone esta ventana al día con lo guardado, por si escribió otra */
+export function alDia(): void {
+  const otro = novedad()
+  if (!otro) return
+  if (otro.version === VERSION_DATOS) {
+    refrescando = true
+    void useStore.persist.rehydrate()
+    refrescando = false
+    return
+  }
+  // Lo escribió una ventana con la app vieja, que puede no tener lo último: se suma, no se reemplaza
+  const r = esquemaDatos.safeParse(migrar(otro.state, otro.version))
+  if (r.success) useStore.setState(fusionar(soloDatos(useStore.getState()), r.data))
+}
+
+/** Cada acción parte de lo último guardado: si no, una ventana abierta de antes pisaría lo nuevo */
+function alDiaAntes(estado: Estado): Estado {
+  return Object.fromEntries(
+    Object.entries(estado).map(([k, v]) => [
+      k,
+      typeof v === 'function'
+        ? (...args: unknown[]) => {
+            alDia()
+            return (v as (...a: unknown[]) => unknown)(...args)
+          }
+        : v,
+    ]),
+  ) as unknown as Estado
+}
+
 export const useStore = create<Estado>()(
   persist(
-    (set, get) => ({
+    (set, get) => alDiaAntes({
       ...DATOS_INICIALES,
 
       completarOnboarding: (r, mascotas, espacios) =>
@@ -230,8 +270,14 @@ export const useStore = create<Estado>()(
         if (!s.salteadas.includes(u)) set({ salteadas: [...s.salteadas, u] })
       },
 
-      // Si el espacio ya existe se actualiza en su lugar; si es nuevo va al final
-      guardarEspacio: (e) => set((s) => ({ espacios: s.espacios.some((x) => x.id === e.id) ? s.espacios.map((x) => (x.id === e.id ? e : x)) : [...s.espacios, e].slice(0, 50) })),
+      // Si el espacio ya existe se actualiza en su lugar; si es nuevo va al final. Las plantas y el plano
+      // no salen del formulario: valen los guardados, que pueden haber cambiado mientras estaba abierto
+      guardarEspacio: (e) =>
+        set((s) => ({
+          espacios: s.espacios.some((x) => x.id === e.id)
+            ? s.espacios.map((x) => (x.id === e.id ? { ...e, plantas: x.plantas, ...(x.plano && { plano: x.plano }) } : x))
+            : [...s.espacios, e].slice(0, 50),
+        })),
       borrarEspacio: (id) => set((s) => ({ espacios: s.espacios.filter((x) => x.id !== id) })),
       agregarPlantaAEspacio: (espacioId, plantaId, lugar) => {
         const id = `pl-${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`
@@ -321,21 +367,39 @@ export const useStore = create<Estado>()(
       },
       posponerRefuerzo: () => set((s) => ({ refuerzo: { ...s.refuerzo, ultimo: hoyLocal(), leccionesAlUltimo: leccionesHechas(s.completadas).length } })),
 
-      reemplazarDatos: (d) => set({ ...d }),
+      reemplazarDatos: (d) => {
+        const antes = soloDatos(get())
+        if (sePierde(antes, d)) guardarCopia(antes, VERSION_DATOS, 'reemplazo')
+        set({ ...d })
+      },
+      recuperarCopia: (d) => set(fusionar(soloDatos(get()), d)),
       reiniciar: () => {
         set({ ...DATOS_INICIALES })
         void borrarFotos()
       },
     }),
     {
-      name: 'plantitas-estado',
+      name: CLAVE_ESTADO,
+      storage: createJSONStorage(() => almacen(window.localStorage)),
       version: VERSION_DATOS,
       partialize: (s) => soloDatos(s),
       // Un estado guardado con un formato viejo pasa por las mismas migraciones que un backup
       migrate: (guardado, version) => {
+        // Antes de pasar a otro formato queda una copia de lo que había
+        guardarCopia(guardado, version, 'actualizacion')
         const r = esquemaDatos.safeParse(migrar(guardado, version))
-        return r.success ? r.data : DATOS_INICIALES
+        if (r.success) return r.data
+        // Nunca se pisa lo que no se entiende: queda como está y la app avisa
+        bloquear('ilegible')
+        return DATOS_INICIALES
       },
     },
   ),
 )
+
+if (typeof window !== 'undefined' && window.addEventListener) {
+  window.addEventListener('storage', (e) => e.key === CLAVE_ESTADO && alDia())
+  window.addEventListener('pageshow', alDia)
+  window.addEventListener('focus', alDia)
+  document.addEventListener('visibilitychange', () => document.visibilityState === 'visible' && alDia())
+}

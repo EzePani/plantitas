@@ -1,7 +1,8 @@
 import { AnimatePresence, motion } from 'framer-motion'
-import { lazy, Suspense, useEffect, useState } from 'react'
+import { lazy, Suspense, useEffect, useState, useSyncExternalStore } from 'react'
 import { InvitacionInstalar } from './components/InvitacionInstalar'
 import { BarraNav, type Pestana } from './components/BarraNav'
+import { Bloqueada } from './components/Bloqueada'
 import { T } from './data/textos'
 import { iniciarAtras } from './lib/atras'
 import { useAtras } from './lib/useAtras'
@@ -9,6 +10,7 @@ import { Onboarding } from './features/onboarding/Onboarding'
 import { Aprender } from './features/learn/Aprender'
 import type { Sesion } from './features/quiz/Reproductor'
 import { cargarContenido } from './lib/useContenido'
+import { leerBloqueo, suscribirBloqueo } from './store/disco'
 import { useStore } from './store/useStore'
 
 // Estas pantallas (y los datos pesados que usan) se cargan aparte; se precargan apenas la app queda en reposo
@@ -29,6 +31,7 @@ const ORDEN: Pestana[] = ['aprender', 'plantas', 'espacio', 'guardia', 'perfil']
 
 export function App() {
   const listo = useStore((s) => s.onboardingCompleto)
+  const bloqueo = useSyncExternalStore(suscribirBloqueo, leerBloqueo)
   const [pestana, setPestana] = useState<Pestana>('aprender')
   const [direccion, setDireccion] = useState(1)
   // Pestañas por las que se pasó, para que el botón atrás las recorra hasta volver a Aprender
@@ -86,6 +89,8 @@ export function App() {
     mostrar(anteriores[anteriores.length - 1] ?? 'aprender')
     setAnteriores(anteriores.slice(0, -1))
   })
+
+  if (bloqueo) return <Bloqueada motivo={bloqueo} />
 
   return (
     <div className="marco">

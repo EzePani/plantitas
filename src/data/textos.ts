@@ -1,6 +1,12 @@
 /** Textos de la interfaz. Nada de esto se escribe directo en los componentes. */
 export const T = {
   app: { nombre: 'Plantitas' },
+  bloqueo: {
+    titulo: 'Cerrá la app y volvé a abrirla',
+    nueva: 'Hay una versión más nueva abierta. Esta ventana no va a guardar nada, para no pisar tus datos.',
+    ilegible: 'No pude leer tus datos guardados. No los toqué.',
+    boton: 'Volver a abrir',
+  },
   nav: { aprender: 'Aprender', plantas: 'Plantas', espacio: 'Mi espacio', guardia: 'Guardia', perfil: 'Perfil' },
   comun: {
     continuar: 'Continuar',
@@ -153,6 +159,17 @@ export const T = {
       no_es_backup: 'Ese archivo no es un backup de Plantitas.',
       version_futura: 'Este backup es de una versión más nueva de la app. Actualizá y probá de nuevo.',
       datos_invalidos: 'El backup tiene datos que no puedo leer. No toqué nada de tu progreso.',
+    },
+    copias: {
+      titulo: 'Copias automáticas',
+      ayuda: 'La app guarda una antes de reemplazar tus datos o al actualizarse. No incluyen fotos.',
+      motivo: { reemplazo: 'Antes de un reemplazo', actualizacion: 'Antes de actualizarse' },
+      contiene: (espacios: number, plantas: number, guardia: number) => `Espacios: ${espacios} · Plantas: ${plantas} · Guardia: ${guardia}`,
+      recuperar: 'Recuperar',
+      confirmar: '¿Recuperamos esta copia?',
+      confirmarTexto: 'Se suma lo que falte y no se borra nada de lo de ahora. Si habías borrado algo a propósito, vuelve.',
+      si: 'Sí, recuperar',
+      listo: 'Listo, sumé lo que había en la copia.',
     },
     reiniciar: 'Empezar de cero',
     reiniciarTitulo: '¿Borramos todo y empezamos de nuevo?',
