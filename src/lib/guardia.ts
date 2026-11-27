@@ -190,7 +190,8 @@ export function unirCasos(a: Caso[], b: Caso[]): Caso[] {
     const ingreso = controles[0] && controles[0].fecha < c.ingreso ? controles[0].fecha : c.ingreso
     const nuevas = otro.vivero?.filter((v) => !c.vivero?.some((x) => x.id === v.id)) ?? []
     const vivero = c.vivero || otro.vivero ? [...(c.vivero ?? []), ...nuevas].sort(porFecha).slice(-MAX_VISITAS) : undefined
-    return { ...c, ingreso, causas, controles, ...(vivero && { vivero }), ...(cierre && { cierre }) }
+    const foto = c.foto ?? otro.foto
+    return { ...c, ingreso, causas, controles, ...(vivero && { vivero }), ...(cierre && { cierre }), ...(foto && { foto }) }
   })
   const ids = new Set(a.map((c) => c.id))
   return [...salida, ...b.filter((c) => !ids.has(c.id))].slice(0, MAX_CASOS)

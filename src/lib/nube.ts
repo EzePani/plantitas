@@ -1,14 +1,17 @@
 import { createClient } from '@supabase/supabase-js'
 import { VERSION_DATOS, esquemaDatos, migrar } from './backup'
-import { guardarCopia, sePierde } from './copias'
+import { aFilas, canonico, claveDe, conciliar, deFilas, huella, pendientes, type Base, type Remota } from './filas'
+import { guardarEstadoFotos, leerEstadoFotos } from './fotos'
 import { fusionar } from './fusion'
+import { sincronizarFotos } from './nubeFotos'
 import type { DatosPersistidos } from './tipos'
 import { leerBloqueo } from '../store/disco'
-import { alDia, estaRefrescando, soloDatos, useStore } from '../store/useStore'
+import { DATOS_INICIALES, alDia, esReemplazo, estaRefrescando, soloDatos, useStore } from '../store/useStore'
 
 // La clave "publishable" es pública por diseño: la seguridad la dan las reglas por usuario (RLS) de la base.
-const URL = 'https://kliipodfdabuyhiceryw.supabase.co'
-const CLAVE = 'sb_publishable_Kec2CFSHtIENyJHTohXv2g_PetFQjr_'
+// En desarrollo se puede apuntar a una base de prueba con VITE_SUPABASE_URL y VITE_SUPABASE_CLAVE.
+const URL = import.meta.env?.VITE_SUPABASE_URL ?? 'https://kliipodfdabuyhiceryw.supabase.co'
+const CLAVE = import.meta.env?.VITE_SUPABASE_CLAVE ?? 'sb_publishable_Kec2CFSHtIENyJHTohXv2g_PetFQjr_'
 
 export const cliente = createClient(URL, CLAVE, {
   auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true },
@@ -20,7 +23,7 @@ interface Meta {
   id: string
   nombre: string
   registrado: boolean
-  /** `actualizado` de la última versión remota que este dispositivo vio */
+  /** `actualizado` del último bloque `progreso` que este dispositivo vio */
   visto: string | null
   /** Hay cambios locales que todavía no se subieron */
   sucio: boolean
@@ -104,6 +107,13 @@ export async function entrarConCodigo(email: string, token: string): Promise<str
 export async function cerrarSesion() {
   const m = leerMeta()
   guardarMeta({ ...m, registrado: false, visto: null, sucio: false })
+  // Lo que este dispositivo sabía de la base ya no vale: al volver a entrar se junta todo de nuevo
+  try {
+    localStorage.removeItem(CLAVE_SINC)
+    guardarEstadoFotos({ ...leerEstadoFotos(), subida: {} })
+  } catch {
+    // sin almacenamiento no había nada guardado
+  }
   poner({ registrado: false, fase: 'quieto', error: null })
   await cliente.auth.signOut()
 }
@@ -138,21 +148,88 @@ export async function vincular(nombre: string): Promise<string | null> {
 }
 
 // ---------- Sincronización ----------
+//
+// La base guarda cada cosa en su fila (ver `filas.ts` y `supabase/migrations`). Este dispositivo conserva
+// una copia completa para funcionar sin conexión y, de cada fila, una huella de cómo estaba la última vez
+// que coincidió con la base. Con eso sabe qué cambió acá (se sube) y qué cambió allá (se trae).
+// Borrar es explícito: solo se quita de la base lo que la persona borró a propósito. Si algo falta acá
+// sin haberse borrado, se vuelve a traer.
+
+/** El último formato que usó el bloque único `progreso`. Las filas con esa versión salieron de ahí */
+const VERSION_BLOQUE = 15
+
+interface Sinc {
+  usuario: string
+  base: Base
+  /** Claves de filas que la persona borró y todavía no se avisó a la base */
+  borrados: string[]
+  /** El `actualizado` más nuevo que se trajo */
+  visto: string | null
+  /** Ya se sumó lo que había en el bloque viejo */
+  bloque: boolean
+  /** Huella de lo último que se copió al bloque de respaldo */
+  respaldo: string | null
+}
+const CLAVE_SINC = 'plantitas-filas'
+
+function leerSinc(usuario?: string): Sinc {
+  try {
+    const s = JSON.parse(localStorage.getItem(CLAVE_SINC) ?? 'null') as Sinc | null
+    if (s && typeof s.usuario === 'string' && s.base && Array.isArray(s.borrados) && (!usuario || s.usuario === usuario)) return s
+  } catch {
+    // se arma uno nuevo
+  }
+  return { usuario: usuario ?? '', base: {}, borrados: [], visto: null, bloque: false, respaldo: null }
+}
+function guardarSinc(s: Sinc) {
+  try {
+    localStorage.setItem(CLAVE_SINC, JSON.stringify(s))
+  } catch {
+    // sin almacenamiento: la próxima vez se compara todo de nuevo
+  }
+}
+
+/** Anota lo que la persona acaba de borrar, para quitarlo también de la base */
+function anotarBorrados(antes: DatosPersistidos, despues: DatosPersistidos) {
+  const s = leerSinc()
+  if (!s.usuario) return
+  const a = aFilas(antes)
+  const d = aFilas(despues)
+  const borrados = new Set(s.borrados)
+  const tamano = borrados.size
+  let cambio = false
+  for (const k of a.keys()) if (!d.has(k) && s.base[k]?.[0] != null) borrados.add(k)
+  for (const k of d.keys()) if (borrados.delete(k)) cambio = true
+  if (cambio || borrados.size !== tamano) guardarSinc({ ...s, borrados: [...borrados] })
+}
 
 let aplicando = false
 let enCurso: Promise<void> | null = null
 let temporizador: ReturnType<typeof setTimeout> | undefined
+/** La primera sincronización de cada apertura trae todo, no solo lo que cambió */
+let primera = true
 
 function aplicar(d: DatosPersistidos) {
   aplicando = true
-  useStore.getState().reemplazarDatos(d)
-  aplicando = false
+  try {
+    useStore.getState().reemplazarDatos(d)
+  } finally {
+    aplicando = false
+  }
 }
 
 export function sincronizar(): Promise<void> {
   enCurso ??= correr().finally(() => (enCurso = null))
   return enCurso
 }
+
+/** Una sola ventana sincroniza a la vez */
+function conCandado<T>(hacer: () => Promise<T>): Promise<T> {
+  const candados = typeof navigator !== 'undefined' ? navigator.locks : undefined
+  return candados ? (candados.request('plantitas-sincronizacion', hacer) as Promise<T>) : hacer()
+}
+
+const NUEVA = 'La nube tiene datos de una versión más nueva. Cerrá la app y volvé a abrirla para actualizarla.'
 
 async function correr() {
   const meta = leerMeta()
@@ -170,67 +247,131 @@ async function correr() {
       return
     }
 
-    let pendiente = false
-    for (let intento = 0; intento < 3; intento++) {
-      const { data: remoto, error } = await cliente.from('progreso').select('datos,version,actualizado').maybeSingle()
-      if (error) throw error
-      // Recién después de esperar a la red: mientras tanto pudo escribir otra ventana
-      alDia()
-      if (leerBloqueo()) throw new Error('Cerrá la app y volvé a abrirla para sincronizar.')
-      const m = leerMeta()
-      const local = soloDatos(useStore.getState())
-
-      let subir: DatosPersistidos | null = null
-      let visto = m.visto
-      if (!remoto) {
-        subir = local
-      } else {
-        if (remoto.version > VERSION_DATOS) throw new Error('La nube tiene datos de una versión más nueva. Cerrá la app y volvé a abrirla para actualizarla.')
-        const leido = esquemaDatos.safeParse(migrar(remoto.datos, remoto.version))
-        if (!leido.success) throw new Error('Los datos de la nube no se pueden leer.')
-        if (remoto.actualizado === m.visto) {
-          if (m.sucio) subir = local
-        } else if (!m.sucio && remoto.version === VERSION_DATOS) {
-          aplicar(leido.data)
-          visto = remoto.actualizado
-        } else {
-          // Cambió en los dos lados, o lo escribió una app vieja que pudo no tener todo: se junta
-          subir = fusionar(local, leido.data)
-          guardarMeta({ ...m, sucio: true })
-          aplicar(subir)
-        }
-        // Antes de pisar la nube queda una copia de lo que se perdería
-        if (subir && sePierde(leido.data, subir)) guardarCopia(leido.data, VERSION_DATOS, 'reemplazo')
-      }
-
-      if (subir) {
-        const antes = JSON.stringify(soloDatos(useStore.getState()))
-        const fila = { datos: subir, version: VERSION_DATOS, actualizado: new Date().toISOString() }
-        const q = remoto
-          ? cliente.from('progreso').update(fila).eq('user_id', uid).eq('actualizado', remoto.actualizado).select('actualizado')
-          : cliente.from('progreso').insert({ ...fila, user_id: uid }).select('actualizado')
-        const { data: filas, error: e2 } = await q
-        if (e2) throw e2
-        if (!filas?.length) continue // otro dispositivo se adelantó: se vuelve a leer y a unir
-        visto = filas[0].actualizado
-        // Lo que se haya cambiado mientras subía queda para la próxima
-        alDia()
-        pendiente = JSON.stringify(soloDatos(useStore.getState())) !== antes
-      }
-
-      guardarMeta({ ...leerMeta(), visto, sucio: pendiente })
-      break
-    }
+    const pendiente = await conCandado(() => porFilas(uid))
     if (pendiente) {
       clearTimeout(temporizador)
       temporizador = setTimeout(() => void sincronizar(), 1500)
     }
+    // Las fotos van aparte y nunca frenan los datos
+    void sincronizarFotos(cliente, uid).catch(() => {})
+
     const ahora = new Date().toISOString()
     await cliente.from('dispositivos').update({ ultima_sync: ahora }).eq('id', meta.id)
     poner({ fase: 'ok', ultima: ahora })
   } catch (e) {
-    poner({ fase: 'error', error: e instanceof Error ? e.message : 'No se pudo sincronizar.' })
+    const msg = e instanceof Error ? e.message : String((e as { message?: unknown } | null)?.message ?? '')
+    poner({ fase: 'error', error: msg.includes('PLANTITAS_VERSION_VIEJA') ? NUEVA : e instanceof Error ? msg : 'No se pudo sincronizar.' })
   }
+}
+
+/** Trae lo que cambió en la base, lo suma a lo local y sube lo que cambió acá. Devuelve si quedó algo por subir */
+async function porFilas(uid: string): Promise<boolean> {
+  let todo = primera
+  for (let intento = 0; intento < 4; intento++) {
+    let s = leerSinc(uid)
+    const completo = todo || !s.visto
+    const desde = completo ? null : new Date(Date.parse(s.visto!) - 10 * 60_000).toISOString()
+    const { data, error } = await cliente.rpc('plantitas_cambios', { desde })
+    if (error) throw error
+    const remotas = (data ?? []) as Remota[]
+
+    // La primera vez también se mira el bloque viejo, por si tiene algo que no llegó a las filas
+    let bloque: { datos: DatosPersistidos; version: number; actualizado: string } | null = null
+    if (!s.bloque) {
+      const { data: b, error: eb } = await cliente.from('progreso').select('datos,version,actualizado').maybeSingle()
+      if (eb) throw eb
+      if (b) {
+        if (b.version > VERSION_DATOS) throw new Error(NUEVA)
+        const leido = esquemaDatos.safeParse(migrar(b.datos, b.version))
+        if (leido.success) bloque = { datos: leido.data, version: b.version, actualizado: b.actualizado }
+      }
+    }
+
+    // Recién después de esperar a la red: mientras tanto pudo escribir otra ventana
+    alDia()
+    if (leerBloqueo()) throw new Error('Cerrá la app y volvé a abrirla para sincronizar.')
+    s = leerSinc(uid)
+    const m = leerMeta()
+    const enPantalla = soloDatos(useStore.getState())
+    let local = enPantalla
+    let teniaCambios = m.sucio
+    if (bloque && bloque.actualizado !== m.visto) {
+      if (!m.sucio && bloque.version >= VERSION_BLOQUE) local = bloque.datos
+      else {
+        // Cambió en los dos lados, o lo escribió una app vieja que pudo no tener todo: se junta
+        local = fusionar(local, bloque.datos)
+        teniaCambios = true
+      }
+    }
+
+    const borrados = new Set(s.borrados)
+    const nunca = Object.keys(s.base).length === 0
+    const c = conciliar(aFilas(local), remotas, s.base, borrados, { version: VERSION_DATOS, ganaRemoto: nunca && !teniaCambios, delBloque: VERSION_BLOQUE })
+    if (c.nuevas) throw new Error(NUEVA)
+    if (c.faltan.length && !completo) {
+      todo = true
+      continue
+    }
+    // Lo que tampoco está en la base ya no existe
+    for (const k of c.faltan) delete c.base[k]
+
+    const leido = esquemaDatos.safeParse(deFilas(c.filas, DATOS_INICIALES))
+    if (!leido.success) throw new Error('Los datos de la nube no se pueden leer.')
+    const nuevo = leido.data
+    if (canonico(nuevo) !== canonico(enPantalla)) aplicar(nuevo)
+
+    const filas = aFilas(nuevo)
+    const pedido = pendientes(filas, c.base, borrados, VERSION_DATOS)
+    const visto = remotas.reduce<string | null>((v, r) => (!v || Date.parse(r.actualizado) > Date.parse(v) ? r.actualizado : v), s.visto)
+    s = { ...s, usuario: uid, base: c.base, visto, bloque: true }
+    guardarSinc(s)
+    primera = false
+
+    if (pedido.length) {
+      const { data: escritas, error: e2 } = await cliente.rpc('plantitas_guardar', { filas: pedido })
+      if (e2) throw e2
+      // Otra ventana pudo anotar borrados mientras tanto: se parte de lo guardado
+      s = leerSinc(uid)
+      const quedan = new Set(s.borrados)
+      let choques = 0
+      ;(escritas as { tabla: string; id: string; actualizado: string | null; escrito: boolean }[]).forEach((x, i) => {
+        const clave = claveDe(x.tabla, x.id)
+        const p = pedido[i]
+        if (!x.escrito) return void choques++
+        if (p.borrado) quedan.delete(clave)
+        if (!x.actualizado) delete s.base[clave]
+        else s.base[clave] = [p.borrado ? null : huella(p.datos), x.actualizado]
+      })
+      s.borrados = [...quedan]
+      guardarSinc(s)
+      // Alguna fila cambió en la base justo antes: se vuelve a traer y a unir
+      if (choques) continue
+    }
+
+    // Borrados de cosas que la base nunca tuvo: no hay nada que avisar
+    const vivos = s.borrados.filter((k) => s.base[k]?.[0] != null)
+    if (vivos.length !== s.borrados.length) guardarSinc({ ...s, borrados: vivos })
+    guardarMeta({ ...leerMeta(), sucio: false })
+
+    await respaldar(uid, nuevo)
+    alDia()
+    return canonico(soloDatos(useStore.getState())) !== canonico(nuevo)
+  }
+  return true
+}
+
+/**
+ * Copia de respaldo en el bloque viejo, con la versión nueva: una app sin actualizar la ve, no la
+ * entiende y deja de sincronizar en vez de pisar algo. Si falla no pasa nada: las filas ya están.
+ */
+async function respaldar(uid: string, datos: DatosPersistidos) {
+  const h = huella(datos)
+  if (leerSinc(uid).respaldo === h) return
+  const actualizado = new Date().toISOString()
+  const { error } = await cliente.from('progreso').upsert({ user_id: uid, datos, version: VERSION_DATOS, actualizado })
+  if (error) return
+  guardarSinc({ ...leerSinc(uid), respaldo: h })
+  guardarMeta({ ...leerMeta(), visto: actualizado })
 }
 
 let iniciado = false
@@ -243,10 +384,11 @@ export function iniciar() {
     if (s) setTimeout(() => void sincronizar(), 0)
   })
   void cliente.auth.getSession().then(({ data }) => poner({ email: data.session?.user.email ?? null }))
-  useStore.subscribe(() => {
+  useStore.subscribe((ahora, antes) => {
     if (aplicando || estaRefrescando()) return
     const m = leerMeta()
     if (!m.registrado) return
+    if (!esReemplazo()) anotarBorrados(soloDatos(antes), soloDatos(ahora))
     guardarMeta({ ...m, sucio: true })
     clearTimeout(temporizador)
     temporizador = setTimeout(() => void sincronizar(), 1500)
