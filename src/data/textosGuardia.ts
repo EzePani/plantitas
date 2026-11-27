@@ -9,6 +9,12 @@ interface Causa {
   guia?: string
 }
 
+/** Una opción para tocar, con la explicación de qué significa */
+export interface Opcion {
+  nombre: string
+  detalle: string
+}
+
 /** Resume lo que explica la Guía rápida (no agrega datos nuevos) */
 export const CAUSA: Record<CausaId, Causa> = {
   exceso_riego: {
@@ -34,7 +40,7 @@ export const CAUSA: Record<CausaId, Causa> = {
   },
   falta_luz: {
     nombre: 'Le falta luz',
-    porque: 'Donde está recibe menos luz de la que necesita.',
+    porque: 'Recibe menos luz de la que necesita: por eso crece lento, se estira o pierde hojas.',
     hacer: ['Acercala de a poco a una ventana.', 'Regá solo cuando la tierra lo pida: con poca luz toma menos agua.'],
     evitar: ['No compenses con abono.', 'No la pases de golpe al sol fuerte.'],
     guia: 'falta-de-luz',
@@ -55,7 +61,7 @@ export const CAUSA: Record<CausaId, Causa> = {
   },
   plaga: {
     nombre: 'Una plaga (cochinilla o arañuela)',
-    porque: 'Pelusa blanca o bultitos son cochinilla; puntitos claros y telaraña fina, arañuela.',
+    porque: 'Pelusa blanca o bultitos son cochinilla; puntitos claros y telaraña fina, arañuela. A veces lo primero que se nota son hojas enrolladas.',
     hacer: [
       'Separala de las demás y mirá el revés de las hojas.',
       'Cochinilla: sacalas una por una con un hisopo con alcohol (guardalo lejos de tus mascotas). Arañuela: un buen chorro de agua.',
@@ -138,8 +144,10 @@ export const TG = {
   buscar: 'Buscar…',
   sinResultados: 'No encontré ninguna planta con ese nombre.',
 
-  sintomasTitulo: '¿Qué le ves?',
-  sintomasAyuda: 'Marcá todo lo que veas.',
+  sintomasTitulo: '¿A cuál se parece?',
+  sintomasAyuda: 'Podés marcar varias.',
+  grupoSintomas: { hojas: 'En las hojas', resto: 'En el tallo o la tierra' },
+  /** Cómo se nombran en el historial */
   sintoma: {
     amarillas: 'Hojas amarillas',
     puntas: 'Puntas marrones',
@@ -149,12 +157,37 @@ export const TG = {
     tallo_blando: 'Tallo blando',
     se_caen: 'Se le caen hojas',
     moho: 'Moho en la tierra',
+    enrolladas: 'Hojas enrolladas',
+    arrugadas: 'Hojas arrugadas',
+    estirada: 'Planta estirada',
   } satisfies Record<Sintoma, string>,
-  tierraTitulo: '¿Cómo está la tierra?',
-  tierraAyuda: 'Meté el dedo 2 o 3 centímetros.',
+  /** Las tarjetas con dibujo donde se eligen */
+  tarjeta: {
+    amarillas: { nombre: 'Amarillas', detalle: 'Se ponen amarillas' },
+    puntas: { nombre: 'Puntas marrones', detalle: 'Bordes o puntas secas' },
+    manchas: { nombre: 'Manchas', detalle: 'Oscuras o redondas' },
+    enrolladas: { nombre: 'Enrolladas', detalle: 'Se cierran como un tubo' },
+    arrugadas: { nombre: 'Arrugadas', detalle: 'Fruncidas, sin firmeza' },
+    caidas: { nombre: 'Caídas', detalle: 'Cuelgan sin fuerza' },
+    se_caen: { nombre: 'Se le caen', detalle: 'Aparecen en el piso' },
+    estirada: { nombre: 'Estirada', detalle: 'Tallo largo, hojas chicas y separadas' },
+    bichos: { nombre: 'Bichos', detalle: 'Puntitos, telitas o algodón' },
+    tallo_blando: { nombre: 'Tallo blando', detalle: 'Oscuro o aguado abajo' },
+    moho: { nombre: 'Moho en la tierra', detalle: 'Pelusa blanca o verdosa' },
+  } satisfies Record<Sintoma, Opcion>,
+  marcadas: (n: number) => (n === 0 ? 'Marcá al menos una' : `Siguiente (${n} marcada${n > 1 ? 's' : ''})`),
+  masTitulo: 'Contanos más',
+  tierraTitulo: 'Tocá la tierra con el dedo',
+  tierraAyuda: 'Metelo 2 o 3 centímetros y elegí una.',
   tierra: { mojada: 'Mojada', humeda: 'Húmeda', seca: 'Seca' } satisfies Record<Tierra, string>,
-  cambiosTitulo: '¿Qué cambió hace poco?',
-  cambiosAyuda: 'En las últimas semanas.',
+  tierraOpcion: {
+    mojada: { nombre: 'Mojada', detalle: 'Se pega al dedo o hay agua' },
+    humeda: { nombre: 'Húmeda', detalle: 'Se siente fresca, casi no se pega' },
+    seca: { nombre: 'Seca', detalle: 'Sale polvo o está dura' },
+  } satisfies Record<Tierra, Opcion>,
+  cambiosTitulo: '¿Qué cambió en las últimas semanas?',
+  cambiosAyuda: 'Podés marcar varias.',
+  /** Cómo se nombran en el historial */
   cambio: {
     trasplante: 'Trasplante',
     vivero: 'Vino del vivero',
@@ -165,9 +198,25 @@ export const TG = {
     poda: 'Poda',
     nada: 'Nada',
   } satisfies Record<Cambio, string>,
-  notas: 'Notas',
+  cambioOpcion: {
+    trasplante: { nombre: 'La trasplanté', detalle: 'Cambié la maceta o la tierra' },
+    vivero: { nombre: 'Es nueva', detalle: 'Vino del vivero hace poco' },
+    lugar: { nombre: 'La moví', detalle: 'Cambió de lugar o de luz' },
+    riego: { nombre: 'Cambié el riego', detalle: 'Más o menos agua, o más seguido' },
+    temperatura: { nombre: 'Frío o calor', detalle: 'Estufa, aire, helada u ola de calor' },
+    abono: { nombre: 'La aboné', detalle: 'Le puse fertilizante' },
+    poda: { nombre: 'La podé', detalle: 'Le corté hojas o ramas' },
+    nada: { nombre: 'Nada', detalle: 'Todo sigue igual' },
+  } satisfies Record<Cambio, Opcion>,
+  finTitulo: 'Para terminar',
+  cuandoIngresa: '¿Qué día ingresa a la Guardia?',
+  cuando: { hoy: 'Hoy', ayer: 'Ayer', otro: 'Otro día' },
+  fecha: 'Fecha',
+  fechaEntre: (min: string, max: string) => (min === max ? `Solo puede ser el ${max}: ese día ya hay algo anotado.` : `Elegí una fecha entre el ${min} y el ${max}.`),
+  fechaTope: (max: string) => `Como muy tarde el ${max}: después ya hay algo anotado.`,
+  notas: 'Nota (opcional)',
   notasEjemplo: 'Contá lo que quieras…',
-  paso: (n: number) => `Paso ${n} de 2`,
+  paso: (n: number) => `Paso ${n} de 3`,
   siguiente: 'Siguiente',
   verCausas: 'Ver qué puede ser',
 
@@ -191,11 +240,15 @@ export const TG = {
   cambiarControl: 'Cambiar el control de hoy',
   darAlta: 'Dar de alta',
   murio: 'Se murió',
-  cerradoEl: (tipo: 'alta' | 'despedida', f: string) => (tipo === 'alta' ? `De alta el ${f}` : `Despedida el ${f}`),
   borrar: 'Borrar del historial',
+  filaIngreso: 'Ingresó',
+  filaCierre: { alta: 'Alta', despedida: 'Despedida' },
+  cambiar: 'Cambiar',
+  corregir: { ingreso: '¿Qué día ingresó?', alta: '¿Qué día le diste el alta?', despedida: '¿Qué día fue?' },
+  guardarFecha: 'Guardar fecha',
   altaTitulo: '¿Le damos el alta?',
   altaTexto: 'Deja de pedir controles y queda en el historial.',
-  altaSi: 'Sí, de alta',
+  altaSi: 'Confirmar alta',
   murioTitulo: '¿Se murió?',
   murioTexto: 'Queda anotada en el historial. A veces pasa aunque hagas todo bien.',
   murioSi: 'Sí, despedirla',
@@ -207,7 +260,6 @@ export const TG = {
   comoVes: '¿Cómo la ves?',
   estado: { mejor: 'Mejor', igual: 'Igual', peor: 'Peor' } satisfies Record<EstadoControl, string>,
   yTierra: '¿Y la tierra?',
-  nota: 'Nota (opcional)',
   guardar: 'Guardar control',
   guardarYRevisar: 'Guardar y revisar síntomas',
   soloGuardar: 'Solo guardar',

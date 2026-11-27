@@ -1,6 +1,7 @@
 import { CalendarDays, Check, Droplet, Flower2, Plus, Sprout, Trash2 } from 'lucide-react'
 import { useState } from 'react'
 import { Boton } from '../../components/Boton'
+import { CampoFecha } from '../../components/CampoFecha'
 import { FotoPlanta } from '../../components/FotoPlanta'
 import { Panel } from '../../components/Panel'
 import { PLANTAS, plantaPorId, type Planta } from '../../data/plantas'
@@ -15,21 +16,6 @@ import { BotonPie } from './Lista'
 import { SelectorMedio, SelectorOrigen } from './SelectoresHijito'
 
 const H = TC.plantas.hijitos
-
-/** Selector de fecha nativo del celular; nunca deja elegir un día posterior a hoy */
-function CampoFecha({ etiqueta, valor, onCambio, min, hoy }: { etiqueta: string; valor: string; onCambio: (f: string) => void; min?: string; hoy: string }) {
-  return (
-    <input
-      type="date"
-      aria-label={etiqueta}
-      value={valor}
-      min={min}
-      max={hoy}
-      onChange={(e) => onCambio(e.target.value)}
-      className="border-arena-osc text-tinta focus:border-hoja block min-h-12 w-full min-w-0 appearance-none rounded-full border-2 bg-white px-4 text-left text-[16px] font-bold outline-none"
-    />
-  )
-}
 
 /** Panel para corregir a mano el tipo (hijito o separada), dónde está y las fechas */
 function EditorFechas({ hijito, hoy, onCerrar }: { hijito: Hijito | null; hoy: string; onCerrar: () => void }) {
@@ -60,7 +46,7 @@ function EditorFechas({ hijito, hoy, onCerrar }: { hijito: Hijito | null; hoy: s
           </button>
         ) : (
           <div className="flex items-center gap-2">
-            <CampoFecha etiqueta={H.fechas[campo]} valor={f[campo]} min={min} hoy={hoy} onCambio={(v) => setF({ ...f, [campo]: v })} />
+            <CampoFecha etiqueta={H.fechas[campo]} valor={f[campo]} min={min} max={hoy} onCambio={(v) => setF({ ...f, [campo]: v })} />
             <button type="button" onClick={() => setF({ ...f, [campo]: null })} className="text-tinta-suave min-h-11 shrink-0 border-0 bg-transparent px-2 text-[14px] font-extrabold underline">
               {H.fechas.quitar}
             </button>
@@ -84,7 +70,7 @@ function EditorFechas({ hijito, hoy, onCerrar }: { hijito: Hijito | null; hoy: s
             </>
           )}
           <h2 className="font-display text-tinta mt-5 mb-2 text-[18px] font-semibold">{H.fechas.inicio[f.origen]}</h2>
-          <CampoFecha etiqueta={H.fechas.inicio[f.origen]} valor={f.inicio} hoy={hoy} onCambio={(v) => setF({ ...f, inicio: v })} />
+          <CampoFecha etiqueta={H.fechas.inicio[f.origen]} valor={f.inicio} max={hoy} onCambio={(v) => setF({ ...f, inicio: v })} />
           {f.origen === 'separada' ? (
             etapa('prendio', f.inicio)
           ) : (
@@ -291,7 +277,7 @@ export function Hijitos({ onGuia }: { onGuia: (entradaId: string) => void }) {
             <>
               <h2 className="font-display text-tinta mt-6 mb-1 text-[18px] font-semibold">{H.cuando}</h2>
               <p className="text-tinta-suave mt-0 mb-2 text-[13px] font-bold">{inicio === hoy ? `${H.hoy}. ${H.cuandoAyuda}` : errorInicio ? H.fechas.error[errorInicio] : (origen === 'separada' ? H.separadaEl : H.empezo)(fechaCorta(inicio, hoy))}</p>
-              <CampoFecha etiqueta={H.cuando} valor={inicio} hoy={hoy} onCambio={setInicio} />
+              <CampoFecha etiqueta={H.cuando} valor={inicio} max={hoy} onCambio={setInicio} />
             </>
           )}
         </div>

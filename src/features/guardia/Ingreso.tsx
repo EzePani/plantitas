@@ -1,23 +1,28 @@
 import { ChevronRight, Search } from 'lucide-react'
 import { useState } from 'react'
 import { Boton } from '../../components/Boton'
+import { CampoFecha } from '../../components/CampoFecha'
 import { FotoPlanta } from '../../components/FotoPlanta'
 import { Panel } from '../../components/Panel'
 import { PLANTAS, plantaPorId, type Planta } from '../../data/plantas'
 import { TG } from '../../data/textosGuardia'
 import { buscarPlantas } from '../../lib/buscar'
 import { agruparPlantas } from '../../lib/espacios'
-import { contextoDe, diagnosticar } from '../../lib/guardia'
+import { fechaCorta, sumarDias } from '../../lib/fecha'
+import { contextoDe, dentroDe, diagnosticar, limitesDeIngresoNuevo } from '../../lib/guardia'
 import { lugarDe, plantasEn } from '../../lib/plano'
-import { CAMBIOS, SINTOMAS, TIERRAS, type Cambio, type Caso, type Espacio, type RespuestasGuardia, type Sintoma, type Tierra } from '../../lib/tipos'
+import { CAMBIOS, TIERRAS, type Cambio, type Caso, type Espacio, type RespuestasGuardia, type Sintoma, type Tierra } from '../../lib/tipos'
 import { useStore } from '../../store/useStore'
 import { nombreDeLugar } from '../spaces/Plano'
 import { Causas } from './Causas'
-import { Notas, Opciones, alTope, ayuda, fila, titulo } from './comunes'
+import { TarjetasSintomas } from './Sintomas'
+import { Detalladas, Notas, Opciones, alTope, ayuda, fila, titulo } from './comunes'
 
 /** La planta sobre la que se está preguntando */
 export type Sujeto = Pick<Caso, 'plantaId' | 'nombre' | 'donde' | 'espacioId' | 'lugar'>
-type Paso = 'elegir' | 'sintomas' | 'cambios' | 'resultado'
+type Paso = 'elegir' | 'sintomas' | 'cambios' | 'fin' | 'resultado'
+const DIAS = ['hoy', 'ayer', 'otro'] as const
+type Dia = (typeof DIAS)[number]
 /** Con `caso` es una revisión porque empeoró; sin él, un ingreso nuevo */
 export interface Consulta {
   caso?: Caso
@@ -110,9 +115,19 @@ function Elegir({ onElegir, onCaso }: { onElegir: (s: Sujeto) => void; onCaso: (
   )
 }
 
+function Encabezado({ paso, texto, detalle }: { paso: number; texto: string; detalle?: string }) {
+  return (
+    <div>
+      <p className="text-tinta-suave m-0 text-[13px] font-extrabold">{TG.paso(paso)}</p>
+      <h2 className={titulo}>{texto}</h2>
+      {detalle && <p className={ayuda}>{detalle}</p>}
+    </div>
+  )
+}
+
 /**
- * Elegir la planta → síntomas → cambios → causas posibles. Nada se guarda hasta confirmar el final.
- * Para revisar un caso se empieza directo en los síntomas.
+ * Elegir la planta → síntomas → tierra y cambios → fecha y nota → causas posibles. Nada se guarda hasta confirmar el final.
+ * Para revisar un caso se empieza directo en los síntomas y no se pide la fecha.
  */
 export function Ingreso({ consulta, hoy, onCerrar, onCaso, onGuia }: { consulta: Consulta | null; hoy: string; onCerrar: () => void; onCaso: (id: string) => void; onGuia: (entrada: string) => void }) {
   const espacios = useStore((s) => s.espacios)
@@ -125,6 +140,8 @@ export function Ingreso({ consulta, hoy, onCerrar, onCaso, onGuia }: { consulta:
   const [tierra, setTierra] = useState<Tierra | null>(null)
   const [cambios, setCambios] = useState<Cambio[]>([])
   const [notas, setNotas] = useState('')
+  const [dia, setDia] = useState<Dia>('hoy')
+  const [otroDia, setOtroDia] = useState('')
   // Cada consulta arranca en blanco
   if (consulta && consulta !== de) {
     setDe(consulta)
@@ -134,6 +151,8 @@ export function Ingreso({ consulta, hoy, onCerrar, onCaso, onGuia }: { consulta:
     setTierra(consulta.tierra ?? null)
     setCambios([])
     setNotas('')
+    setDia('hoy')
+    setOtroDia('')
   }
 
   const respuestas: RespuestasGuardia | null = tierra ? { sintomas, tierra, cambios, notas } : null
@@ -141,11 +160,16 @@ export function Ingreso({ consulta, hoy, onCerrar, onCaso, onGuia }: { consulta:
   const espacio = espacios.find((e) => e.id === sujeto?.espacioId)
   const causas = paso === 'resultado' && respuestas ? diagnosticar(respuestas, planta && contextoDe(planta, hoy, espacio, sujeto?.lugar)) : []
 
+  const limites = limitesDeIngresoNuevo(hoy)
+  const ingreso = dia === 'hoy' ? hoy : dia === 'ayer' ? sumarDias(hoy, -1) : otroDia
+  const fechaLista = !!de?.caso || dentroDe(ingreso, limites)
+
   const alternar = <T,>(lista: T[], v: T) => (lista.includes(v) ? lista.filter((x) => x !== v) : [...lista, v])
   // "Nada" no convive con otros cambios
   const elegirCambio = (v: Cambio) => setCambios((l) => (v === 'nada' ? (l.includes('nada') ? [] : ['nada']) : alternar(l.filter((x) => x !== 'nada'), v)))
   const atras = () => {
-    if (paso === 'resultado') return setPaso('cambios')
+    if (paso === 'resultado') return setPaso('fin')
+    if (paso === 'fin') return setPaso('cambios')
     if (paso === 'cambios') return setPaso('sintomas')
     if (paso === 'sintomas' && !de?.caso) return setPaso('elegir')
     onCerrar()
@@ -157,26 +181,32 @@ export function Ingreso({ consulta, hoy, onCerrar, onCaso, onGuia }: { consulta:
       return onCaso(de.caso.id)
     }
     const { plantaId, nombre, donde, espacioId, lugar } = sujeto
-    const id = ingresar({ plantaId, nombre, donde, ...(espacioId && { espacioId }), ...(lugar && { lugar }), ...respuestas, causas })
+    const id = ingresar({ plantaId, nombre, donde, ...(espacioId && { espacioId }), ...(lugar && { lugar }), ...respuestas, causas, ingreso })
     if (id) onCaso(id)
   }
 
   const pie =
     paso === 'sintomas' ? (
-      <Boton disabled={sintomas.length === 0 || !tierra} onClick={() => setPaso('cambios')}>
-        {TG.siguiente}
+      <Boton disabled={sintomas.length === 0} onClick={() => setPaso('cambios')}>
+        {TG.marcadas(sintomas.length)}
       </Boton>
     ) : paso === 'cambios' ? (
-      <Boton onClick={() => setPaso('resultado')}>{TG.verCausas}</Boton>
+      <Boton disabled={!tierra} onClick={() => setPaso('fin')}>
+        {TG.siguiente}
+      </Boton>
+    ) : paso === 'fin' ? (
+      <Boton disabled={!fechaLista} onClick={() => setPaso('resultado')}>
+        {TG.verCausas}
+      </Boton>
     ) : paso === 'resultado' ? (
       <Boton variante="sol" onClick={confirmar}>
         {de?.caso ? TG.actualizar : TG.empezar}
       </Boton>
     ) : undefined
-  const encabezado = { elegir: TG.elegir, sintomas: TG.sintomasTitulo, cambios: TG.cambiosTitulo, resultado: TG.causasTitulo }[paso]
+  const enPreguntas = paso === 'sintomas' || paso === 'cambios' || paso === 'fin'
 
   return (
-    <Panel abierto={consulta !== null} titulo={paso === 'sintomas' || paso === 'cambios' ? sujeto?.nombre : encabezado} onCerrar={atras} pie={pie}>
+    <Panel abierto={consulta !== null} titulo={enPreguntas ? sujeto?.nombre : paso === 'elegir' ? TG.elegir : TG.causasTitulo} onCerrar={atras} pie={pie}>
       <div key={paso} ref={alTope} className="flex flex-col gap-3 px-5 pt-1 pb-6">
         {paso === 'elegir' && (
           <Elegir
@@ -189,27 +219,40 @@ export function Ingreso({ consulta, hoy, onCerrar, onCaso, onGuia }: { consulta:
         )}
         {paso === 'sintomas' && (
           <>
-            <div>
-              <p className="text-tinta-suave m-0 text-[13px] font-extrabold">{TG.paso(1)}</p>
-              <h2 className={titulo}>{TG.sintomasTitulo}</h2>
-              <p className={ayuda}>{TG.sintomasAyuda}</p>
-            </div>
-            <Opciones valores={SINTOMAS} textos={TG.sintoma} elegidas={sintomas} onElegir={(v) => setSintomas((l) => alternar(l, v))} />
-            <div className="mt-1">
-              <h2 className={titulo}>{TG.tierraTitulo}</h2>
-              <p className={ayuda}>{TG.tierraAyuda}</p>
-            </div>
-            <Opciones valores={TIERRAS} textos={TG.tierra} elegidas={tierra ? [tierra] : []} columnas={3} onElegir={setTierra} />
+            <Encabezado paso={1} texto={TG.sintomasTitulo} detalle={TG.sintomasAyuda} />
+            <TarjetasSintomas elegidos={sintomas} onElegir={(v) => setSintomas((l) => alternar(l, v))} />
           </>
         )}
         {paso === 'cambios' && (
           <>
+            <Encabezado paso={2} texto={TG.masTitulo} />
             <div>
-              <p className="text-tinta-suave m-0 text-[13px] font-extrabold">{TG.paso(2)}</p>
+              <h2 className={titulo}>{TG.tierraTitulo}</h2>
+              <p className={ayuda}>{TG.tierraAyuda}</p>
+            </div>
+            <Detalladas valores={TIERRAS} textos={TG.tierraOpcion} elegidas={tierra ? [tierra] : []} onElegir={setTierra} />
+            <div className="mt-2">
               <h2 className={titulo}>{TG.cambiosTitulo}</h2>
               <p className={ayuda}>{TG.cambiosAyuda}</p>
             </div>
-            <Opciones valores={CAMBIOS} textos={TG.cambio} elegidas={cambios} onElegir={elegirCambio} />
+            <Detalladas valores={CAMBIOS} textos={TG.cambioOpcion} elegidas={cambios} onElegir={elegirCambio} />
+          </>
+        )}
+        {paso === 'fin' && (
+          <>
+            <Encabezado paso={3} texto={TG.finTitulo} />
+            {!de?.caso && (
+              <>
+                <h2 className={titulo}>{TG.cuandoIngresa}</h2>
+                <Opciones valores={DIAS} textos={TG.cuando} elegidas={[dia]} columnas={3} onElegir={setDia} />
+                {dia === 'otro' && (
+                  <>
+                    <CampoFecha etiqueta={TG.fecha} valor={otroDia} min={limites.min} max={limites.max} onCambio={setOtroDia} />
+                    {otroDia && !fechaLista && <p className={ayuda}>{TG.fechaEntre(fechaCorta(limites.min, hoy), fechaCorta(limites.max, hoy))}</p>}
+                  </>
+                )}
+              </>
+            )}
             <Notas valor={notas} onCambio={setNotas} />
           </>
         )}

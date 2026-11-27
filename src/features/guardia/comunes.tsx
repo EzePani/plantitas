@@ -1,4 +1,5 @@
-import { TG } from '../../data/textosGuardia'
+import { Check } from 'lucide-react'
+import { TG, type Opcion } from '../../data/textosGuardia'
 import { vibrar } from '../../lib/haptics'
 
 export const titulo = 'font-display text-tinta m-0 text-[18px] font-semibold'
@@ -23,6 +24,35 @@ export function Opciones<T extends string>({ valores, textos, elegidas, columnas
             className={`min-h-12 rounded-2xl border-2 px-2 py-1.5 text-[15px] leading-tight font-extrabold ${on ? 'border-hoja bg-hoja text-white' : 'border-arena-osc text-tinta bg-white'}`}
           >
             {textos[v]}
+          </button>
+        )
+      })}
+    </div>
+  )
+}
+
+/** Opciones una debajo de otra, cada una con la explicación de qué significa */
+export function Detalladas<T extends string>({ valores, textos, elegidas, onElegir }: { valores: readonly T[]; textos: Record<T, Opcion>; elegidas: readonly T[]; onElegir: (v: T) => void }) {
+  return (
+    <div className="flex flex-col gap-2">
+      {valores.map((v) => {
+        const on = elegidas.includes(v)
+        return (
+          <button
+            key={v}
+            type="button"
+            aria-pressed={on}
+            onClick={() => {
+              vibrar('toque')
+              onElegir(v)
+            }}
+            className={`flex min-h-13 items-center gap-2 rounded-2xl border-2 px-3.5 py-1.5 text-left ${on ? 'border-hoja bg-hoja text-white' : 'border-arena-osc text-tinta bg-white'}`}
+          >
+            <span className="min-w-0 flex-1">
+              <span className="block text-[15px] leading-tight font-extrabold">{textos[v].nombre}</span>
+              <span className={`block text-[13px] leading-tight font-bold ${on ? 'text-white/85' : 'text-tinta-suave'}`}>{textos[v].detalle}</span>
+            </span>
+            {on && <Check size={20} strokeWidth={3.5} className="shrink-0" aria-hidden />}
           </button>
         )
       })}
