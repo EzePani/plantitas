@@ -1,7 +1,7 @@
 /** Textos de la interfaz. Nada de esto se escribe directo en los componentes. */
 export const T = {
   app: { nombre: 'Plantitas' },
-  nav: { aprender: 'Aprender', plantas: 'Plantas', espacio: 'Mi espacio', perfil: 'Perfil' },
+  nav: { aprender: 'Aprender', plantas: 'Plantas', espacio: 'Mi espacio', guardia: 'Guardia', perfil: 'Perfil' },
   comun: {
     continuar: 'Continuar',
     cerrar: 'Cerrar',

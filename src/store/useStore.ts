@@ -3,6 +3,7 @@ import { persist } from 'zustand/middleware'
 import { VERSION_DATOS, esquemaDatos, migrar } from '../lib/backup'
 import { agregarPlanta, moverPlanta, quitarPlanta } from '../lib/espacios'
 import { hoyLocal } from '../lib/fecha'
+import { MAX_CASOS, anotarControl, revisarCaso } from '../lib/guardia'
 import { MAX_HIJITOS, aplicarCorreccion, errorDeFechas, normalizar, type CorreccionHijito } from '../lib/hijitos'
 import { ponerLuz } from '../lib/lugares'
 import type { CategoriaLuz } from '../lib/luz'
@@ -19,7 +20,7 @@ import {
   type InsigniaId,
 } from '../lib/gamificacion'
 import { asignarPerfil } from '../lib/perfil'
-import type { DatosMascotas, DatosPersistidos, Espacio, Plano, Esfuerzo, Hijito, PerfilLuz, Respuestas, Tiempo, TipoEspacio, UnidadId } from '../lib/tipos'
+import type { Caso, CausaId, Control, DatosMascotas, DatosPersistidos, Espacio, Plano, Esfuerzo, Hijito, PerfilLuz, RespuestasGuardia, Respuestas, Tiempo, TipoEspacio, UnidadId } from '../lib/tipos'
 import { LECCIONES_POR_UNIDAD } from '../data/lessons'
 
 export const DATOS_INICIALES: DatosPersistidos = {
@@ -37,6 +38,7 @@ export const DATOS_INICIALES: DatosPersistidos = {
   favoritas: [],
   colecciones: [],
   hijitos: [],
+  casos: [],
   refuerzo: { ultimo: null, leccionesAlUltimo: 0, fallidas: [] },
 }
 
@@ -91,6 +93,15 @@ interface Acciones {
   /** Corrige a mano el tipo, dónde está y las fechas (null = todavía no pasó) */
   corregirHijito: (id: string, correccion: CorreccionHijito) => void
   borrarHijito: (id: string) => void
+  /** Abre un caso en Guardia. Devuelve su id, o null si ya hay demasiados. */
+  ingresarCaso: (c: Omit<Caso, 'id' | 'ingreso' | 'controles' | 'cierre'>) => string | null
+  /** Anota el control de hoy */
+  controlarCaso: (id: string, control: Omit<Control, 'fecha'>) => void
+  /** Nuevos síntomas y causas porque empeoró */
+  revisarSintomas: (id: string, r: RespuestasGuardia, causas: CausaId[]) => void
+  /** Alta o despedida */
+  cerrarCaso: (id: string, tipo: 'alta' | 'despedida') => void
+  borrarCaso: (id: string) => void
   /** Guarda qué preguntas de una lección se fallaron, para repetirlas en el refuerzo */
   anotarRespuestas: (falladas: string[], acertadas: string[]) => void
   completarRefuerzo: (aciertos: number, total: number, falladas: string[], acertadas: string[]) => Resumen
@@ -120,6 +131,7 @@ export function soloDatos(s: Estado): DatosPersistidos {
     favoritas: s.favoritas,
     colecciones: s.colecciones,
     hijitos: s.hijitos,
+    casos: s.casos,
     refuerzo: s.refuerzo,
   }
 }
@@ -259,6 +271,17 @@ export const useStore = create<Estado>()(
       marcarHijito: (id, que) => set((s) => ({ hijitos: s.hijitos.map((h) => (h.id === id ? { ...h, [que]: hoyLocal() } : h)) })),
       corregirHijito: (id, correccion) => set((s) => ({ hijitos: s.hijitos.map((h) => (h.id === id ? aplicarCorreccion(h, correccion, hoyLocal()) : h)) })),
       borrarHijito: (id) => set((s) => ({ hijitos: s.hijitos.filter((h) => h.id !== id) })),
+
+      ingresarCaso: (c) => {
+        if (get().casos.length >= MAX_CASOS) return null
+        const id = `caso-${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`
+        set((s) => ({ casos: [{ ...c, notas: c.notas.trim(), id, ingreso: hoyLocal(), controles: [] }, ...s.casos] }))
+        return id
+      },
+      controlarCaso: (id, control) => set((s) => ({ casos: s.casos.map((c) => (c.id === id ? anotarControl(c, { ...control, fecha: hoyLocal() }) : c)) })),
+      revisarSintomas: (id, r, causas) => set((s) => ({ casos: s.casos.map((c) => (c.id === id ? revisarCaso(c, r, causas, hoyLocal()) : c)) })),
+      cerrarCaso: (id, tipo) => set((s) => ({ casos: s.casos.map((c) => (c.id === id && !c.cierre ? { ...c, cierre: { fecha: hoyLocal(), tipo } } : c)) })),
+      borrarCaso: (id) => set((s) => ({ casos: s.casos.filter((c) => c.id !== id) })),
 
       anotarRespuestas: (falladas, acertadas) => set((s) => ({ refuerzo: { ...s.refuerzo, fallidas: actualizarFallidas(s.refuerzo.fallidas, falladas, acertadas) } })),
 

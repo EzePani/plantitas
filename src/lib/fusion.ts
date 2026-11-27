@@ -1,4 +1,5 @@
 import { unirPlantas } from './espacios'
+import { unirCasos } from './guardia'
 import { normalizar } from './hijitos'
 import type { Coleccion, DatosPersistidos, Hijito, Refuerzo } from './tipos'
 
@@ -52,6 +53,7 @@ export function fusionar(a: DatosPersistidos, b: DatosPersistidos): DatosPersist
     favoritas: [...new Set([...a.favoritas, ...b.favoritas])].slice(0, 200),
     colecciones: fusionarColecciones(a.colecciones, b.colecciones),
     hijitos: fusionarHijitos(a.hijitos, b.hijitos),
+    casos: unirCasos(a.casos, b.casos),
     refuerzo: fusionarRefuerzo(a.refuerzo, b.refuerzo),
   }
 }

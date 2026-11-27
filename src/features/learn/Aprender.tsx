@@ -1,3 +1,4 @@
+import { AvisoGuardia } from '../../components/AvisoGuardia'
 import { InvitacionCuenta } from '../../components/InvitacionCuenta'
 import { motion } from 'framer-motion'
 import { BookOpen, Check, Dumbbell, FastForward, Flame, Gift, Leaf, Lock, Star, Zap, type LucideIcon } from 'lucide-react'
@@ -79,9 +80,11 @@ interface Props {
   onJugar: (s: Sesion) => void
   onIrAEspacio: () => void
   onGuia: () => void
+  /** Abre Guardia, en un caso puntual si se indica */
+  onGuardia: (casoId: string | null) => void
 }
 
-export function Aprender({ onJugar, onIrAEspacio, onGuia }: Props) {
+export function Aprender({ onJugar, onIrAEspacio, onGuia, onGuardia }: Props) {
   const s = useStore()
   const hoy = hoyLocal()
   const [elegido, setElegido] = useState<Nodo | null>(null)
@@ -153,6 +156,7 @@ export function Aprender({ onJugar, onIrAEspacio, onGuia }: Props) {
         </div>
       </header>
 
+      <AvisoGuardia onVer={onGuardia} />
       <InvitacionCuenta />
 
       <div className="relative min-h-0 flex-1">

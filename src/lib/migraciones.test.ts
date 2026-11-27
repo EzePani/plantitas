@@ -38,7 +38,7 @@ const migrado = () => {
 
 describe('migración v1 → v2', () => {
   it('el resultado es un estado válido de la versión actual', () => {
-    expect(VERSION_DATOS).toBe(11)
+    expect(VERSION_DATOS).toBe(12)
     expect(esquemaDatos.safeParse(migrar(structuredClone(v1), 1)).success).toBe(true)
   })
 
@@ -110,7 +110,7 @@ describe('migración v1 → v2', () => {
 
   it('un estado sin onboarding migra sin inventar espacios', () => {
     const vacio = { onboardingCompleto: false, respuestas: null, perfil: null, mascotas: { tipo: 'ninguna' }, completadas: {}, salteadas: [], xp: 0, racha: { dias: 0, ultima: null }, insignias: {}, semillas: [], espacios: [] }
-    expect(esquemaDatos.parse(migrar(vacio, 1))).toEqual({ ...vacio, favoritas: [], colecciones: [], hijitos: [], refuerzo: { ultimo: null, leccionesAlUltimo: 0, fallidas: [] } })
+    expect(esquemaDatos.parse(migrar(vacio, 1))).toEqual({ ...vacio, favoritas: [], colecciones: [], hijitos: [], casos: [], refuerzo: { ultimo: null, leccionesAlUltimo: 0, fallidas: [] } })
   })
 
   it('renombra la unidad "agua" si estaba salteada o con semilla', () => {

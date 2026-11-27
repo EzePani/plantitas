@@ -12,6 +12,12 @@ export function diasEntre(a: string, b: string): number {
   return Math.round((Date.UTC(by, bm - 1, bd) - Date.UTC(ay, am - 1, ad)) / 86_400_000)
 }
 
+/** La fecha `n` días después de `f` (AAAA-MM-DD) */
+export function sumarDias(f: string, n: number): string {
+  const [a, m, d] = f.split('-').map(Number)
+  return new Date(Date.UTC(a, m - 1, d + n)).toISOString().slice(0, 10)
+}
+
 const MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic']
 
 /** "14 nov"; lleva el año solo si no es el de `hoy` ("14 nov 2025") */
