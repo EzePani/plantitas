@@ -6,7 +6,7 @@ import { fusionar } from '../lib/fusion'
 import { CLAVE_ESTADO, almacen, bloquear, novedad } from './disco'
 import { agregarPlanta, moverPlanta, quitarPlanta } from '../lib/espacios'
 import { hoyLocal } from '../lib/fecha'
-import { MAX_CASOS, anotarControl, revisarCaso, anotarVisita, borrarVisita, sinVisitas, cerrarEl, corregirFecha, corregirNota, dentroDe, limitesDeIngresoNuevo, type FechaDeCaso } from '../lib/guardia'
+import { MAX_CASOS, anotarControl, revisarCaso, anotarVisita, borrarVisita, sinVisitas, cerrarEl, corregirFecha, corregirNota, corregirNotaControl, dentroDe, limitesDeIngresoNuevo, type FechaDeCaso } from '../lib/guardia'
 import { avisarFotos, borrarFoto, borrarFotos } from '../lib/fotos'
 import { MAX_HIJITOS, aplicarCorreccion, errorDeFechas, normalizar, type CorreccionHijito } from '../lib/hijitos'
 import { ponerLuz } from '../lib/lugares'
@@ -109,6 +109,8 @@ interface Acciones {
   corregirFechaCaso: (id: string, cual: FechaDeCaso, fecha: string) => void
   /** Cambia la nota del ingreso */
   corregirNotaCaso: (id: string, nota: string) => void
+  /** Cambia la nota del control de ese día */
+  corregirNotaDeControl: (id: string, fecha: string, nota: string) => void
   borrarCaso: (id: string) => void
   /** Sin id es una visita nueva */
   anotarVisitaCaso: (id: string, visita: Omit<VisitaVivero, 'id'> & { id?: string }) => void
@@ -352,11 +354,12 @@ export const useStore = create<Estado>()(
         set((s) => ({ casos: [{ ...c, notas: c.notas.trim(), id, ingreso, controles: [] }, ...s.casos] }))
         return id
       },
-      controlarCaso: (id, control) => set((s) => ({ casos: s.casos.map((c) => (c.id === id ? anotarControl(c, { ...control, fecha: hoyLocal() }) : c)) })),
-      revisarSintomas: (id, r, causas) => set((s) => ({ casos: s.casos.map((c) => (c.id === id ? revisarCaso(c, r, causas, hoyLocal()) : c)) })),
+      controlarCaso: (id, control) => set((s) => ({ casos: s.casos.map((c) => (c.id === id ? anotarControl(c, { ...control, fecha: hoyLocal() }, new Date().toISOString()) : c)) })),
+      revisarSintomas: (id, r, causas) => set((s) => ({ casos: s.casos.map((c) => (c.id === id ? revisarCaso(c, r, causas, hoyLocal(), new Date().toISOString()) : c)) })),
       cerrarCaso: (id, tipo, fecha) => set((s) => ({ casos: s.casos.map((c) => (c.id === id ? cerrarEl(c, tipo, fecha ?? hoyLocal(), hoyLocal()) : c)) })),
       corregirFechaCaso: (id, cual, fecha) => set((s) => ({ casos: s.casos.map((c) => (c.id === id ? corregirFecha(c, cual, fecha, hoyLocal()) : c)) })),
       corregirNotaCaso: (id, nota) => set((s) => ({ casos: s.casos.map((c) => (c.id === id ? corregirNota(c, nota, new Date().toISOString()) : c)) })),
+      corregirNotaDeControl: (id, fecha, nota) => set((s) => ({ casos: s.casos.map((c) => (c.id === id ? corregirNotaControl(c, fecha, nota, new Date().toISOString()) : c)) })),
       anotarVisitaCaso: (id, visita) => {
         const visitaId = visita.id ?? `visita-${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`
         set((s) => ({ casos: s.casos.map((c) => (c.id === id ? anotarVisita(c, { ...visita, id: visitaId }, hoyLocal()) : c)) }))

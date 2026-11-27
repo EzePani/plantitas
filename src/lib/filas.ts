@@ -1,4 +1,4 @@
-import { notaVigente } from './guardia'
+import { notaVigente, unirControl } from './guardia'
 import { normalizar } from './hijitos'
 import type { Caso, Coleccion, Control, DatosPersistidos, Espacio, Hijito, Plano, PlantaEnEspacio, Racha, Refuerzo, RegistroNodo, VisitaVivero } from './tipos'
 
@@ -138,6 +138,7 @@ export function unir(tabla: Tabla, id: string, a: Datos, b: Datos): Datos {
   if (tabla === 'lecciones') return num(b.aciertos) > num(a.aciertos) || (num(b.aciertos) === num(a.aciertos) && txt(b.fecha) > txt(a.fecha)) ? b : a
   if (tabla === 'insignias') return txt(b.fecha) && txt(b.fecha) < txt(a.fecha) ? b : a
   if (tabla === 'colecciones') return { ...a, plantas: [...new Set([...((a.plantas as string[]) ?? []), ...((b.plantas as string[]) ?? [])])].slice(0, 200) }
+  if (tabla === 'controles') return unirControl(a as unknown as Control, b as unknown as Control) as unknown as Datos
   if (tabla === 'casos') {
     const nota = notaVigente(a as unknown as Caso, b as unknown as Caso)
     return { ...a, ...nota, ...(!a.cierre && b.cierre ? { cierre: b.cierre } : {}), ...(b.contestoVivero ? { contestoVivero: true } : {}), ...(!a.foto && b.foto ? { foto: b.foto } : {}) }

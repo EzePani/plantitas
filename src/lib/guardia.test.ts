@@ -6,7 +6,7 @@ import { DATOS_INICIALES } from '../store/useStore'
 import { esquemaDatos, migrar } from './backup'
 import { medidas } from './fotos'
 import { fusionar } from './fusion'
-import { GRUPOS_SINTOMAS, SIN_CONTEXTO, anotarControl, anotarVisita, borrarVisita, sinVisitas, cerrarEl, contextoDe, corregirFecha, corregirNota, diagnosticar, enTratamiento, limitesDeFecha, pendientes, proximoControl, revisarCaso, tocaControl, unirCasos } from './guardia'
+import { GRUPOS_SINTOMAS, SIN_CONTEXTO, anotarControl, anotarVisita, borrarVisita, sinVisitas, cerrarEl, contextoDe, corregirFecha, corregirNota, corregirNotaControl, diagnosticar, enTratamiento, limitesDeFecha, pendientes, proximoControl, revisarCaso, tocaControl, unirCasos } from './guardia'
 import { CAUSAS, SINTOMAS, type Caso, type Control, type Espacio, type RespuestasGuardia } from './tipos'
 
 const r = (x: Partial<RespuestasGuardia> = {}): RespuestasGuardia => ({ sintomas: [], tierra: 'humeda', cambios: [], notas: '', ...x })
@@ -146,6 +146,28 @@ describe('nota del ingreso', () => {
     expect(corregirNota(caso, 'x'.repeat(400), 't1').notas).toHaveLength(300)
     expect(corregirNota(caso, '   ', 't1').notas).toBe('')
     expect(corregirNota(caso, ' vieja ', 't1')).toBe(caso)
+  })
+
+  it('la nota de un control se corrige aunque el caso esté cerrado', () => {
+    const conControl = { ...caso, controles: [{ fecha: '2026-11-02', estado: 'igual' as const, tierra: 'seca' as const, nota: 'a' }], cierre: { fecha: '2026-11-03', tipo: 'alta' as const } }
+    expect(corregirNotaControl(conControl, '2026-11-02', ' b ', 't1').controles[0]).toMatchObject({ nota: 'b', notaCambiada: 't1', estado: 'igual' })
+    expect(corregirNotaControl(conControl, '2026-11-02', 'a', 't1')).toBe(conControl)
+    expect(corregirNotaControl(conControl, '2026-11-09', 'b', 't1')).toBe(conControl)
+  })
+
+  it('rehacer un control sin tocar la nota no le renueva la marca', () => {
+    const base = { fecha: '2026-11-02', estado: 'igual' as const, tierra: 'seca' as const, nota: 'a' }
+    const uno = anotarControl(caso, base, 't1')
+    expect(uno.controles[0].notaCambiada).toBe('t1')
+    expect(anotarControl(uno, { ...base, estado: 'mejor' }, 't2').controles[0].notaCambiada).toBe('t1')
+    expect(anotarControl(uno, { ...base, nota: 'b' }, 't2').controles[0].notaCambiada).toBe('t2')
+  })
+
+  it('al juntar dos versiones del mismo control vale la nota corregida más tarde', () => {
+    const control = { fecha: '2026-11-02', estado: 'igual' as const, tierra: 'seca' as const, nota: 'a' }
+    const viejo = { ...caso, controles: [control] }
+    const nuevo = corregirNotaControl(viejo, control.fecha, 'b', 't1')
+    for (const [a, b] of [[viejo, nuevo], [nuevo, viejo]]) expect(unirCasos([a], [b])[0].controles[0].nota).toBe('b')
   })
 
   it('al juntar dos versiones vale la corregida más tarde', () => {

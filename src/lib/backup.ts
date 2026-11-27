@@ -3,7 +3,7 @@ import { MIGRACIONES } from './migraciones'
 import { CAMBIOS, CAUSAS, ESTADOS_CONTROL, SINTOMAS, TIERRAS, TIPOS_ELEMENTO, type DatosPersistidos } from './tipos'
 
 /** Versión del formato de datos persistidos. Subir al cambiar el modelo y agregar migración. */
-export const VERSION_DATOS = 17
+export const VERSION_DATOS = 18
 const MAX_BYTES = 1_000_000
 
 const idSeguro = z.string().regex(/^[a-z0-9-]{1,60}$/)
@@ -112,7 +112,7 @@ export const esquemaDatos = z.object({
         // v17: nota corregida. Es opcional, así que no necesita migración
         notasCambiadas: z.string().min(1).max(40).optional(),
         causas: z.array(z.enum(CAUSAS)).min(1).max(3),
-        controles: z.array(z.object({ fecha, estado: z.enum(ESTADOS_CONTROL), tierra: z.enum(TIERRAS), nota: z.string().max(300), sintomas: z.array(z.enum(SINTOMAS)).max(SINTOMAS.length).optional() })).max(200),
+        controles: z.array(z.object({ fecha, estado: z.enum(ESTADOS_CONTROL), tierra: z.enum(TIERRAS), nota: z.string().max(300), notaCambiada: z.string().min(1).max(40).optional(), sintomas: z.array(z.enum(SINTOMAS)).max(SINTOMAS.length).optional() })).max(200),
         vivero: z.array(z.object({ id: idSeguro, fecha, dijo: z.string().min(1).max(500) })).max(20).optional(),
         cierre: z.object({ fecha, tipo: z.enum(['alta', 'despedida']) }).optional(),
         // v16: marca de la foto. Es opcional, así que no necesita migración

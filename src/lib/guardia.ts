@@ -151,20 +151,38 @@ export function notaVigente(a: Pick<Caso, 'notas' | 'notasCambiadas'>, b: Pick<C
   return { notas, ...(notasCambiadas && { notasCambiadas }) }
 }
 
+/** Cambia la nota de un control ya anotado; vacía la quita. Vale también en casos cerrados */
+export function corregirNotaControl(c: Caso, fecha: string, nota: string, ahora: string): Caso {
+  const control = controlDe(c, fecha)
+  const nueva = nota.trim().slice(0, MAX_NOTA)
+  if (!control || nueva === control.nota) return c
+  return { ...c, controles: c.controles.map((x) => (x === control ? { ...x, nota: nueva, notaCambiada: ahora } : x)) }
+}
+
+/** El control de un mismo día visto en dos dispositivos: vale `a`, con la nota corregida más tarde y sin perder los síntomas */
+export function unirControl<T extends Control>(a: T, b: Control): T {
+  const { nota, notaCambiada } = (b.notaCambiada ?? '') > (a.notaCambiada ?? '') ? b : a
+  const sintomas = a.sintomas ?? b.sintomas
+  return { ...a, nota, ...(notaCambiada && { notaCambiada }), ...(sintomas && { sintomas }) }
+}
+
 /** Anota el control del día (si ya había uno, lo reemplaza conservando la revisión de síntomas) */
-export function anotarControl(c: Caso, nuevo: Control): Caso {
+export function anotarControl(c: Caso, nuevo: Control, ahora?: string): Caso {
   if (c.cierre) return c
   const previo = controlDe(c, nuevo.fecha)
-  const control = { ...nuevo, nota: nuevo.nota.trim().slice(0, MAX_NOTA), ...(previo?.sintomas && !nuevo.sintomas && { sintomas: previo.sintomas }) }
+  const nota = nuevo.nota.trim().slice(0, MAX_NOTA)
+  // La marca de la nota solo se renueva si lo escrito cambió
+  const notaCambiada = (nota !== (previo?.nota ?? '') && ahora) || previo?.notaCambiada
+  const control = { ...nuevo, nota, ...(previo?.sintomas && !nuevo.sintomas && { sintomas: previo.sintomas }), ...(notaCambiada && { notaCambiada }) }
   const controles = [...c.controles.filter((x) => x.fecha !== nuevo.fecha), control].sort((a, b) => a.fecha.localeCompare(b.fecha))
   return { ...c, controles: controles.slice(-MAX_CONTROLES) }
 }
 
 /** Revisión por empeoramiento: cambian las causas y queda anotado en el control del día; el ingreso no se toca */
-export function revisarCaso(c: Caso, r: RespuestasGuardia, causas: CausaId[], hoy: string): Caso {
+export function revisarCaso(c: Caso, r: RespuestasGuardia, causas: CausaId[], hoy: string, ahora?: string): Caso {
   const previo = controlDe(c, hoy)
   const nota = r.notas.trim() || previo?.nota || ''
-  return { ...anotarControl(c, { fecha: hoy, estado: previo?.estado ?? 'peor', tierra: r.tierra, nota, sintomas: r.sintomas }), causas }
+  return { ...anotarControl(c, { fecha: hoy, estado: previo?.estado ?? 'peor', tierra: r.tierra, nota, sintomas: r.sintomas }, ahora), causas }
 }
 
 const porFecha = (a: VisitaVivero, b: VisitaVivero) => a.fecha.localeCompare(b.fecha)
@@ -194,7 +212,11 @@ export function unirCasos(a: Caso[], b: Caso[]): Caso[] {
   const salida = a.map((c) => {
     const otro = b.find((x) => x.id === c.id)
     if (!otro) return c
-    const controles = [...c.controles, ...otro.controles.filter((x) => !controlDe(c, x.fecha))].sort((x, y) => x.fecha.localeCompare(y.fecha)).slice(-MAX_CONTROLES)
+    const propios = c.controles.map((x) => {
+      const del = controlDe(otro, x.fecha)
+      return del ? unirControl(x, del) : x
+    })
+    const controles = [...propios, ...otro.controles.filter((x) => !controlDe(c, x.fecha))].sort((x, y) => x.fecha.localeCompare(y.fecha)).slice(-MAX_CONTROLES)
     const cierre = c.cierre ?? otro.cierre
     // Las causas salen de quien vio la planta por última vez
     const causas = ultimaRevision(otro) > ultimaRevision(c) ? otro.causas : c.causas

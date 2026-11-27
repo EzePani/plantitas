@@ -33,7 +33,7 @@ El catálogo de plantas, las lecciones y la guía son contenido de la app, no da
 - Borrar marca `borrado`. Solo se marca lo que la persona borró a propósito.
 - Si a un dispositivo le falta algo que no borró, lo vuelve a traer de la base.
 - Si la misma fila cambió en dos dispositivos, se une lo que se puede (puntos, racha, lecciones, colecciones, hijitos); en el resto gana el último en subir y la otra versión queda en `historial`.
-- En un caso de la Guardia, la nota del ingreso corregida más tarde, el alta y la foto agregada sobreviven aunque otro dispositivo suba después su versión del caso.
+- En un caso de la Guardia, las notas (del ingreso y de cada control) corregidas más tarde, el alta y la foto agregada sobreviven aunque otro dispositivo suba después su versión del caso.
 - Una app vieja no puede pisar una fila escrita por una más nueva.
 - Un envío guarda todas sus filas o ninguna.
 

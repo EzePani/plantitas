@@ -136,27 +136,30 @@ function PanelControl({ caso, abierto, hoy, onCerrar, onRevisar }: { caso: Caso 
   )
 }
 
-/** Para corregir la nota que se escribió al ingresar */
-function PanelNota({ caso, abierto, onCerrar }: { caso: Caso | null; abierto: boolean; onCerrar: () => void }) {
-  const corregir = useStore((s) => s.corregirNotaCaso)
-  const [antes, setAntes] = useState(false)
+/** Para corregir la nota del ingreso o la de un control (`cual` es su fecha) */
+function PanelNota({ caso, cual, hoy, onCerrar }: { caso: Caso | null; cual: 'ingreso' | (string & {}) | null; hoy: string; onCerrar: () => void }) {
+  const delIngreso = useStore((s) => s.corregirNotaCaso)
+  const delControl = useStore((s) => s.corregirNotaDeControl)
+  const [antes, setAntes] = useState<string | null>(null)
   const [nota, setNota] = useState('')
+  const actual = !caso || !cual ? '' : cual === 'ingreso' ? caso.notas : (controlDe(caso, cual)?.nota ?? '')
   // Al abrirse muestra la nota actual
-  if (abierto !== antes) {
-    setAntes(abierto)
-    if (abierto && caso) setNota(caso.notas)
+  if (cual !== antes) {
+    setAntes(cual)
+    if (cual) setNota(actual)
   }
   return (
     <Panel
-      abierto={abierto && caso !== null}
-      titulo={TG.notaIngreso.titulo}
+      abierto={cual !== null && caso !== null}
+      titulo={cual && cual !== 'ingreso' ? TG.notaControl(fechaCorta(cual, hoy)) : TG.notaIngreso.titulo}
       onCerrar={onCerrar}
       pie={
         <Boton
           variante="sol"
-          disabled={nota.trim() === caso?.notas}
+          disabled={nota.trim() === actual}
           onClick={() => {
-            if (caso) corregir(caso.id, nota)
+            if (caso && cual === 'ingreso') delIngreso(caso.id, nota)
+            else if (caso && cual) delControl(caso.id, cual, nota)
             onCerrar()
           }}
         >
@@ -177,7 +180,8 @@ export function Historia({ caso, hoy, onCerrar, onRevisar, onGuia }: { caso: Cas
   const borrar = useStore((s) => s.borrarCaso)
   const corregir = useStore((s) => s.corregirFechaCaso)
   const [controlando, setControlando] = useState(false)
-  const [anotando, setAnotando] = useState(false)
+  const [anotando, setAnotando] = useState<string | null>(null)
+  const botonNota = (nota: string, cual: string) => ({ texto: nota ? TG.notaIngreso.cambiar : TG.notaIngreso.agregar, onClick: () => setAnotando(cual) })
   const [indicaciones, setIndicaciones] = useState(false)
   const [confirmar, setConfirmar] = useState<'alta' | 'despedida' | 'borrar' | 'foto' | null>(null)
   const foto = useFoto(caso?.id)
@@ -256,6 +260,7 @@ export function Historia({ caso, hoy, onCerrar, onRevisar, onGuia }: { caso: Cas
                   titulo={TG.estado[c.estado]}
                   detalle={[`Tierra ${TG.tierra[c.tierra].toLowerCase()}`, c.sintomas && `${TG.revision}: ${lista(c.sintomas).toLowerCase()}`].filter(Boolean).join('. ')}
                   nota={c.nota}
+                  accion={botonNota(c.nota, c.fecha)}
                 />
               ))}
               <Entrada
@@ -270,7 +275,7 @@ export function Historia({ caso, hoy, onCerrar, onRevisar, onGuia }: { caso: Cas
                   .filter(Boolean)
                   .join('. ')}
                 nota={caso.notas}
-                accion={{ texto: caso.notas ? TG.notaIngreso.cambiar : TG.notaIngreso.agregar, onClick: () => setAnotando(true) }}
+                accion={botonNota(caso.notas, 'ingreso')}
               />
             </ul>
             {caso.cierre && (
@@ -290,7 +295,7 @@ export function Historia({ caso, hoy, onCerrar, onRevisar, onGuia }: { caso: Cas
         )}
       </Panel>
 
-      <PanelNota caso={caso} abierto={anotando} onCerrar={() => setAnotando(false)} />
+      <PanelNota caso={caso} cual={anotando} hoy={hoy} onCerrar={() => setAnotando(null)} />
 
       <PanelVivero caso={caso} visita={visita} hoy={hoy} onCerrar={() => setVisita(null)} />
 
