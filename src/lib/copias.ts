@@ -65,7 +65,7 @@ const cosas = (d: DatosPersistidos): string[] => [
     ...(e.plano ? [`plano ${e.id}`, ...e.plano.elementos.map((x) => `elemento ${e.id} ${x.id}`)] : []),
     ...e.plantas.map((p) => `planta ${e.id} ${p.id}`),
   ]),
-  ...d.casos.flatMap((c) => [`caso ${c.id}`, ...c.controles.map((x) => `control ${c.id} ${x.fecha}`), ...(c.vivero ?? []).map((v) => `visita ${v.id}`), ...(c.foto ? [`foto ${c.id}`] : []), ...(c.notas ? [`nota ${c.id}`] : [])]),
+  ...d.casos.flatMap((c) => [`caso ${c.id}`, ...c.controles.map((x) => `control ${c.id} ${x.fecha}`), ...c.controles.filter((x) => x.nota).map((x) => `nota ${c.id} ${x.fecha}`), ...(c.vivero ?? []).map((v) => `visita ${v.id}`), ...(c.foto ? [`foto ${c.id}`] : []), ...(c.notas ? [`nota ${c.id}`] : [])]),
   ...d.hijitos.map((h) => `hijito ${h.id}`),
   ...d.colecciones.map((c) => `coleccion ${c.id}`),
   ...d.favoritas.map((f) => `favorita ${f}`),

@@ -342,6 +342,25 @@ describe('sincronización: cada cosa en su fila', () => {
   })
 
   for (const primero of ['quien escribe', 'el otro'] as const) {
+    it(`la nota corregida de un control no la pisa un dispositivo atrasado que rehízo ese control (sincroniza primero ${primero})`, async () => {
+      const celu = await celuConTodo()
+      const id = usar(celu).s().casos[0].id
+      usar(celu).s().controlarCaso(id, { estado: 'igual', tierra: 'humeda', nota: 'primera' })
+      await sincronizar(celu)
+      const compu = await otroDispositivo()
+      await sincronizar(compu)
+      const dia = usar(celu).s().casos[0].controles[0].fecha
+      usar(celu).s().corregirNotaDeControl(id, dia, 'corregida')
+      // La compu cambia el estado de ese control, con la nota vieja todavía en el formulario
+      usar(compu).s().controlarCaso(id, { estado: 'mejor', tierra: 'seca', nota: 'primera' })
+      const orden = primero === 'quien escribe' ? [celu, compu, celu] : [compu, celu, compu]
+      for (const d of orden) await sincronizar(d)
+      for (const d of [celu, compu]) expect(usar(d).s().casos[0].controles).toMatchObject([{ nota: 'corregida' }])
+      expect(usar(celu).s().casos[0].controles).toEqual(usar(compu).s().casos[0].controles)
+    })
+  }
+
+  for (const primero of ['quien escribe', 'el otro'] as const) {
     it(`la nota corregida no la pisa un dispositivo atrasado que tocó el mismo caso (sincroniza primero ${primero})`, async () => {
       const celu = await celuConTodo()
       const compu = await otroDispositivo()

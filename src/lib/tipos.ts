@@ -171,6 +171,8 @@ export interface Control {
   estado: EstadoControl
   tierra: Tierra
   nota: string
+  /** Cuándo se escribió o corrigió la nota por última vez (fecha y hora) */
+  notaCambiada?: string
   /** Si ese día se revisaron los síntomas porque empeoró */
   sintomas?: Sintoma[]
 }
