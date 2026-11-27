@@ -3,7 +3,7 @@ import { MIGRACIONES } from './migraciones'
 import { CAMBIOS, CAUSAS, ESTADOS_CONTROL, SINTOMAS, TIERRAS, TIPOS_ELEMENTO, type DatosPersistidos } from './tipos'
 
 /** Versión del formato de datos persistidos. Subir al cambiar el modelo y agregar migración. */
-export const VERSION_DATOS = 12
+export const VERSION_DATOS = 13
 const MAX_BYTES = 1_000_000
 
 const idSeguro = z.string().regex(/^[a-z0-9-]{1,60}$/)
@@ -105,12 +105,12 @@ export const esquemaDatos = z.object({
         espacioId: idSeguro.optional(),
         lugar: idSeguro.optional(),
         ingreso: fecha,
-        sintomas: z.array(z.enum(SINTOMAS)).max(8),
+        sintomas: z.array(z.enum(SINTOMAS)).max(SINTOMAS.length),
         tierra: z.enum(TIERRAS),
         cambios: z.array(z.enum(CAMBIOS)).max(8),
         notas: z.string().max(300),
         causas: z.array(z.enum(CAUSAS)).min(1).max(3),
-        controles: z.array(z.object({ fecha, estado: z.enum(ESTADOS_CONTROL), tierra: z.enum(TIERRAS), nota: z.string().max(300), sintomas: z.array(z.enum(SINTOMAS)).max(8).optional() })).max(200),
+        controles: z.array(z.object({ fecha, estado: z.enum(ESTADOS_CONTROL), tierra: z.enum(TIERRAS), nota: z.string().max(300), sintomas: z.array(z.enum(SINTOMAS)).max(SINTOMAS.length).optional() })).max(200),
         cierre: z.object({ fecha, tipo: z.enum(['alta', 'despedida']) }).optional(),
       }),
     )

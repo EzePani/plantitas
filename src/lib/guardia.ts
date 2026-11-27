@@ -11,6 +11,14 @@ export const MAX_CONTROLES = 200
 export const MAX_NOTA = 300
 /** Durante la primera semana se controla todos los días */
 const PRIMERA_SEMANA = 7
+/** Cuánto para atrás se puede anotar un ingreso */
+const MAX_ATRAS = 365
+
+/** Cómo se agrupan los síntomas para mirarlos */
+export const GRUPOS_SINTOMAS: Record<'hojas' | 'resto', Sintoma[]> = {
+  hojas: ['amarillas', 'puntas', 'manchas', 'enrolladas', 'arrugadas', 'caidas', 'se_caen', 'estirada', 'bichos'],
+  resto: ['tallo_blando', 'moho'],
+}
 
 /** Lo que se sabe de la planta y de su lugar, además de las respuestas */
 export interface Contexto {
@@ -54,18 +62,19 @@ export function diagnosticar(r: RespuestasGuardia, c: Contexto = SIN_CONTEXTO): 
   const mudanza = Number(cambio('lugar')) + Number(cambio('vivero')) + Number(cambio('trasplante'))
 
   const puntos: Partial<Record<CausaId, number>> = {
-    raices_podridas: suma([si('tallo_blando'), 5], [mojada && si('caidas'), 4], [mojada && si('amarillas'), 1]),
+    raices_podridas: suma([si('tallo_blando'), 5], [mojada && si('caidas'), 4], [mojada && si('amarillas'), 1], [mojada && si('arrugadas'), 4]),
     exceso_riego: seca ? 0 : suma([mojada, 3], [si('amarillas'), 2], [mojada && si('caidas'), 2], [si('moho'), 2], [si('se_caen'), 1], [cambio('riego'), 1]),
-    falta_riego: !seca ? 0 : suma([true, 2], [si('caidas'), 3], [si('puntas'), 1], [si('amarillas'), 1], [si('se_caen'), 1], [cambio('riego'), 1]),
-    plaga: suma([si('bichos'), 6], [si('bichos') && cambio('vivero'), 1]),
+    falta_riego: !seca ? 0 : suma([true, 2], [si('caidas'), 3], [si('arrugadas'), 3], [si('enrolladas'), 3], [si('puntas'), 1], [si('amarillas'), 1], [si('se_caen'), 1], [cambio('riego'), 1]),
+    plaga: suma([si('bichos'), 6], [si('bichos') && cambio('vivero'), 1], [si('enrolladas'), 3]),
     mosquitas: seca ? 0 : suma([si('bichos'), 4], [si('bichos') && mojada, 1]),
     hongos: suma([si('manchas'), 3], [si('moho'), 3], [si('manchas') && mojada, 1]),
-    falta_luz: c.luz !== 'poca' ? 0 : suma([true, 3], [si('amarillas'), 1], [si('se_caen'), 1]),
-    demasiado_sol: c.luz !== 'mucha' ? 0 : suma([true, 3], [si('manchas'), 2], [si('puntas'), 2], [cambio('lugar'), 1]),
+    // Estirarse es la señal típica, aunque el lugar parezca tener buena luz
+    falta_luz: suma([si('estirada'), 4], [c.luz === 'poca', 3], [c.luz === 'poca' && si('amarillas'), 1], [c.luz === 'poca' && si('se_caen'), 1]),
+    demasiado_sol: c.luz !== 'mucha' ? 0 : suma([true, 3], [si('manchas'), 2], [si('puntas'), 2], [si('enrolladas'), 2], [cambio('lugar'), 1]),
     aire_seco: mojada ? 0 : suma([si('puntas'), 3], [si('puntas') && c.humedadAlta, 2], [si('puntas') && c.invierno, 1]),
     exceso_abono: !cambio('abono') ? 0 : suma([true, 2], [si('puntas'), 2], [si('se_caen'), 1], [si('caidas'), 1]),
     adaptacion: !mudanza ? 0 : suma([true, 1 + mudanza], [si('se_caen'), 2], [si('caidas'), 1], [si('amarillas'), 1]),
-    temperatura: !cambio('temperatura') ? 0 : suma([true, 3], [si('se_caen'), 1], [si('caidas'), 1], [si('manchas'), 1]),
+    temperatura: !cambio('temperatura') ? 0 : suma([true, 3], [si('se_caen'), 1], [si('caidas'), 1], [si('manchas'), 1], [si('enrolladas'), 1]),
   }
   const causas = (Object.entries(puntos) as [CausaId, number][])
     .filter(([, n]) => n >= MINIMO)
@@ -100,6 +109,34 @@ export const diaDe = (c: Caso, fecha: string): number => diasEntre(c.ingreso, fe
 export const enTratamiento = (casos: Caso[]): Caso[] => casos.filter(abierto).sort((a, b) => proximoControl(a).localeCompare(proximoControl(b)))
 export const cerrados = (casos: Caso[]): Caso[] => casos.filter((c) => !abierto(c)).sort((a, b) => b.cierre!.fecha.localeCompare(a.cierre!.fecha))
 
+export type FechaDeCaso = 'ingreso' | 'cierre'
+export interface Limites {
+  min: string
+  max: string
+}
+
+export const limitesDeIngresoNuevo = (hoy: string): Limites => ({ min: sumarDias(hoy, -MAX_ATRAS), max: hoy })
+export const dentroDe = (f: string, l: Limites): boolean => /^\d{4}-\d{2}-\d{2}$/.test(f) && f >= l.min && f <= l.max
+
+/** El ingreso no puede quedar después de nada de lo anotado, ni el cierre antes */
+export function limitesDeFecha(c: Caso, cual: FechaDeCaso, hoy: string): Limites {
+  if (cual === 'cierre') return { min: ultimaRevision(c), max: hoy }
+  const { min } = limitesDeIngresoNuevo(hoy)
+  const primero = [c.controles[0]?.fecha, c.cierre?.fecha, hoy].filter((f): f is string => !!f).sort()[0]
+  return { min: c.ingreso < min ? c.ingreso : min, max: primero }
+}
+
+export function corregirFecha(c: Caso, cual: FechaDeCaso, fecha: string, hoy: string): Caso {
+  if (!dentroDe(fecha, limitesDeFecha(c, cual, hoy))) return c
+  if (cual === 'ingreso') return { ...c, ingreso: fecha }
+  return c.cierre ? { ...c, cierre: { ...c.cierre, fecha } } : c
+}
+
+/** Alta o despedida, en el día que se elija */
+export function cerrarEl(c: Caso, tipo: 'alta' | 'despedida', fecha: string, hoy: string): Caso {
+  return !c.cierre && dentroDe(fecha, limitesDeFecha(c, 'cierre', hoy)) ? { ...c, cierre: { fecha, tipo } } : c
+}
+
 /** Anota el control del día (si ya había uno, lo reemplaza conservando la revisión de síntomas) */
 export function anotarControl(c: Caso, nuevo: Control): Caso {
   if (c.cierre) return c
@@ -125,7 +162,9 @@ export function unirCasos(a: Caso[], b: Caso[]): Caso[] {
     const cierre = c.cierre ?? otro.cierre
     // Las causas salen de quien vio la planta por última vez
     const causas = ultimaRevision(otro) > ultimaRevision(c) ? otro.causas : c.causas
-    return { ...c, causas, controles, ...(cierre && { cierre }) }
+    // Si en el otro dispositivo hay un control anterior al ingreso corregido acá, manda el control
+    const ingreso = controles[0] && controles[0].fecha < c.ingreso ? controles[0].fecha : c.ingreso
+    return { ...c, ingreso, causas, controles, ...(cierre && { cierre }) }
   })
   const ids = new Set(a.map((c) => c.id))
   return [...salida, ...b.filter((c) => !ids.has(c.id))].slice(0, MAX_CASOS)

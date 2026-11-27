@@ -5,8 +5,8 @@ import { entradaPorId } from '../data/wiki'
 import { DATOS_INICIALES } from '../store/useStore'
 import { esquemaDatos, migrar } from './backup'
 import { fusionar } from './fusion'
-import { SIN_CONTEXTO, anotarControl, contextoDe, diagnosticar, enTratamiento, pendientes, proximoControl, revisarCaso, tocaControl, unirCasos } from './guardia'
-import { CAUSAS, type Caso, type Control, type Espacio, type RespuestasGuardia } from './tipos'
+import { GRUPOS_SINTOMAS, SIN_CONTEXTO, anotarControl, cerrarEl, contextoDe, corregirFecha, diagnosticar, enTratamiento, limitesDeFecha, pendientes, proximoControl, revisarCaso, tocaControl, unirCasos } from './guardia'
+import { CAUSAS, SINTOMAS, type Caso, type Control, type Espacio, type RespuestasGuardia } from './tipos'
 
 const r = (x: Partial<RespuestasGuardia> = {}): RespuestasGuardia => ({ sintomas: [], tierra: 'humeda', cambios: [], notas: '', ...x })
 const con = (x: Partial<typeof SIN_CONTEXTO>) => ({ ...SIN_CONTEXTO, ...x })
@@ -46,8 +46,23 @@ describe('causas posibles', () => {
     expect(diagnosticar(r({ sintomas: ['amarillas'], cambios: ['nada'] }))).toEqual(['hoja_vieja'])
     expect(diagnosticar(r({ sintomas: ['caidas'] }))).toEqual(['sin_pista'])
   })
+  it('hojas enrolladas: sed si está seca; si no, mirar si hay plaga', () => {
+    expect(diagnosticar(r({ sintomas: ['enrolladas'], tierra: 'seca' }))).toEqual(['falta_riego', 'plaga'])
+    expect(diagnosticar(r({ sintomas: ['enrolladas'] }))).toEqual(['plaga'])
+    expect(diagnosticar(r({ sintomas: ['enrolladas'] }), con({ luz: 'mucha' }))[0]).toBe('demasiado_sol')
+  })
+  it('hojas arrugadas: sed, o raíces podridas si la tierra está mojada', () => {
+    expect(diagnosticar(r({ sintomas: ['arrugadas'], tierra: 'seca' }))[0]).toBe('falta_riego')
+    expect(diagnosticar(r({ sintomas: ['arrugadas'], tierra: 'mojada' }))[0]).toBe('raices_podridas')
+  })
+  it('estirada: le falta luz', () => {
+    expect(diagnosticar(r({ sintomas: ['estirada'] }))).toEqual(['falta_luz'])
+  })
+  it('cada síntoma tiene una sola tarjeta', () => {
+    expect([...GRUPOS_SINTOMAS.hojas, ...GRUPOS_SINTOMAS.resto].sort()).toEqual([...SINTOMAS].sort())
+  })
   it('muestra como mucho tres', () => {
-    expect(diagnosticar(r({ sintomas: ['amarillas', 'puntas', 'caidas', 'manchas', 'bichos', 'tallo_blando', 'se_caen', 'moho'], tierra: 'mojada', cambios: ['abono', 'temperatura', 'vivero'] }))).toHaveLength(3)
+    expect(diagnosticar(r({ sintomas: [...SINTOMAS], tierra: 'mojada', cambios: ['abono', 'temperatura', 'vivero'] }))).toHaveLength(3)
   })
   it('toda causa tiene su texto y una ficha de la guía que existe', () => {
     for (const id of CAUSAS) {
@@ -95,12 +110,43 @@ describe('controles', () => {
   })
 })
 
+describe('fechas del caso', () => {
+  const hoy = '2026-11-20'
+  const seguido = anotarControl(anotarControl(caso, control('2026-11-05')), control('2026-11-08'))
+  it('el ingreso se corrige sin pasar del primer control', () => {
+    expect(limitesDeFecha(seguido, 'ingreso', hoy).max).toBe('2026-11-05')
+    expect(corregirFecha(seguido, 'ingreso', '2026-10-28', hoy).ingreso).toBe('2026-10-28')
+    expect(corregirFecha(seguido, 'ingreso', '2026-11-06', hoy)).toBe(seguido)
+    expect(corregirFecha(seguido, 'ingreso', '', hoy)).toBe(seguido)
+    expect(limitesDeFecha(caso, 'ingreso', hoy).max).toBe(hoy)
+  })
+  it('el alta va entre el último control y hoy, y se puede corregir', () => {
+    expect(cerrarEl(seguido, 'alta', '2026-11-07', hoy)).toBe(seguido)
+    expect(cerrarEl(seguido, 'alta', '2026-11-21', hoy)).toBe(seguido)
+    const alta = cerrarEl(seguido, 'alta', '2026-11-10', hoy)
+    expect(alta.cierre).toEqual({ fecha: '2026-11-10', tipo: 'alta' })
+    expect(corregirFecha(alta, 'cierre', '2026-11-09', hoy).cierre).toEqual({ fecha: '2026-11-09', tipo: 'alta' })
+    expect(corregirFecha(alta, 'cierre', '2026-11-07', hoy)).toBe(alta)
+    expect(corregirFecha(seguido, 'cierre', '2026-11-10', hoy)).toBe(seguido)
+    // Sin controles, el ingreso tampoco puede quedar después del alta
+    expect(limitesDeFecha(cerrarEl(caso, 'alta', '2026-11-03', hoy), 'ingreso', hoy).max).toBe('2026-11-03')
+  })
+  it('al sincronizar, el ingreso no queda después de un control', () => {
+    const movido = corregirFecha(caso, 'ingreso', '2026-11-04', hoy)
+    expect(unirCasos([movido], [anotarControl(caso, control('2026-11-02'))])[0].ingreso).toBe('2026-11-02')
+  })
+})
+
 describe('guardado', () => {
   it('los datos anteriores suman la lista vacía y un caso es válido', () => {
     const { casos: _c, ...viejo } = DATOS_INICIALES
     expect(esquemaDatos.parse(migrar(viejo, 11)).casos).toEqual([])
     const lleno = { ...anotarControl(caso, control('2026-11-02')), espacioId: 'living-1', lugar: 'el-e', cierre: { fecha: '2026-11-09', tipo: 'despedida' as const } }
     expect(esquemaDatos.parse({ ...DATOS_INICIALES, casos: [lleno] }).casos[0]).toEqual(lleno)
+  })
+  it('un caso con los síntomas nuevos es válido', () => {
+    const todos = { ...caso, sintomas: [...SINTOMAS] }
+    expect(esquemaDatos.parse({ ...DATOS_INICIALES, casos: [todos] }).casos[0]).toEqual(todos)
   })
   it('al sincronizar se juntan los controles y vale el alta', () => {
     const local = anotarControl(caso, control('2026-11-02'))

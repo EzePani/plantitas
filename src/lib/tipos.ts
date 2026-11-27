@@ -146,7 +146,7 @@ export interface DatosPersistidos {
   refuerzo: Refuerzo
 }
 
-export const SINTOMAS = ['amarillas', 'puntas', 'caidas', 'manchas', 'bichos', 'tallo_blando', 'se_caen', 'moho'] as const
+export const SINTOMAS = ['amarillas', 'puntas', 'caidas', 'manchas', 'bichos', 'tallo_blando', 'se_caen', 'moho', 'enrolladas', 'arrugadas', 'estirada'] as const
 export type Sintoma = (typeof SINTOMAS)[number]
 export const TIERRAS = ['mojada', 'humeda', 'seca'] as const
 export type Tierra = (typeof TIERRAS)[number]

@@ -3,7 +3,7 @@ import { persist } from 'zustand/middleware'
 import { VERSION_DATOS, esquemaDatos, migrar } from '../lib/backup'
 import { agregarPlanta, moverPlanta, quitarPlanta } from '../lib/espacios'
 import { hoyLocal } from '../lib/fecha'
-import { MAX_CASOS, anotarControl, revisarCaso } from '../lib/guardia'
+import { MAX_CASOS, anotarControl, revisarCaso, cerrarEl, corregirFecha, dentroDe, limitesDeIngresoNuevo, type FechaDeCaso } from '../lib/guardia'
 import { MAX_HIJITOS, aplicarCorreccion, errorDeFechas, normalizar, type CorreccionHijito } from '../lib/hijitos'
 import { ponerLuz } from '../lib/lugares'
 import type { CategoriaLuz } from '../lib/luz'
@@ -94,13 +94,15 @@ interface Acciones {
   corregirHijito: (id: string, correccion: CorreccionHijito) => void
   borrarHijito: (id: string) => void
   /** Abre un caso en Guardia. Devuelve su id, o null si ya hay demasiados. */
-  ingresarCaso: (c: Omit<Caso, 'id' | 'ingreso' | 'controles' | 'cierre'>) => string | null
+  /** Sin fecha, ingresa hoy */
+  ingresarCaso: (c: Omit<Caso, 'id' | 'ingreso' | 'controles' | 'cierre'> & { ingreso?: string }) => string | null
   /** Anota el control de hoy */
   controlarCaso: (id: string, control: Omit<Control, 'fecha'>) => void
   /** Nuevos síntomas y causas porque empeoró */
   revisarSintomas: (id: string, r: RespuestasGuardia, causas: CausaId[]) => void
-  /** Alta o despedida */
-  cerrarCaso: (id: string, tipo: 'alta' | 'despedida') => void
+  /** Alta o despedida; sin fecha, es hoy */
+  cerrarCaso: (id: string, tipo: 'alta' | 'despedida', fecha?: string) => void
+  corregirFechaCaso: (id: string, cual: FechaDeCaso, fecha: string) => void
   borrarCaso: (id: string) => void
   /** Guarda qué preguntas de una lección se fallaron, para repetirlas en el refuerzo */
   anotarRespuestas: (falladas: string[], acertadas: string[]) => void
@@ -275,12 +277,15 @@ export const useStore = create<Estado>()(
       ingresarCaso: (c) => {
         if (get().casos.length >= MAX_CASOS) return null
         const id = `caso-${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`
-        set((s) => ({ casos: [{ ...c, notas: c.notas.trim(), id, ingreso: hoyLocal(), controles: [] }, ...s.casos] }))
+        const hoy = hoyLocal()
+        const ingreso = c.ingreso && dentroDe(c.ingreso, limitesDeIngresoNuevo(hoy)) ? c.ingreso : hoy
+        set((s) => ({ casos: [{ ...c, notas: c.notas.trim(), id, ingreso, controles: [] }, ...s.casos] }))
         return id
       },
       controlarCaso: (id, control) => set((s) => ({ casos: s.casos.map((c) => (c.id === id ? anotarControl(c, { ...control, fecha: hoyLocal() }) : c)) })),
       revisarSintomas: (id, r, causas) => set((s) => ({ casos: s.casos.map((c) => (c.id === id ? revisarCaso(c, r, causas, hoyLocal()) : c)) })),
-      cerrarCaso: (id, tipo) => set((s) => ({ casos: s.casos.map((c) => (c.id === id && !c.cierre ? { ...c, cierre: { fecha: hoyLocal(), tipo } } : c)) })),
+      cerrarCaso: (id, tipo, fecha) => set((s) => ({ casos: s.casos.map((c) => (c.id === id ? cerrarEl(c, tipo, fecha ?? hoyLocal(), hoyLocal()) : c)) })),
+      corregirFechaCaso: (id, cual, fecha) => set((s) => ({ casos: s.casos.map((c) => (c.id === id ? corregirFecha(c, cual, fecha, hoyLocal()) : c)) })),
       borrarCaso: (id) => set((s) => ({ casos: s.casos.filter((c) => c.id !== id) })),
 
       anotarRespuestas: (falladas, acertadas) => set((s) => ({ refuerzo: { ...s.refuerzo, fallidas: actualizarFallidas(s.refuerzo.fallidas, falladas, acertadas) } })),
