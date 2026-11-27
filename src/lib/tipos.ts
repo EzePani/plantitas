@@ -141,7 +141,56 @@ export interface DatosPersistidos {
   colecciones: Coleccion[]
   /** Esquejes e hijitos que se están enraizando en casa */
   hijitos: Hijito[]
+  /** Plantas enfermas en Guardia: en tratamiento y ya cerradas */
+  casos: Caso[]
   refuerzo: Refuerzo
+}
+
+export const SINTOMAS = ['amarillas', 'puntas', 'caidas', 'manchas', 'bichos', 'tallo_blando', 'se_caen', 'moho'] as const
+export type Sintoma = (typeof SINTOMAS)[number]
+export const TIERRAS = ['mojada', 'humeda', 'seca'] as const
+export type Tierra = (typeof TIERRAS)[number]
+export const CAMBIOS = ['trasplante', 'vivero', 'lugar', 'riego', 'temperatura', 'abono', 'poda', 'nada'] as const
+export type Cambio = (typeof CAMBIOS)[number]
+export const CAUSAS = ['exceso_riego', 'raices_podridas', 'falta_riego', 'falta_luz', 'demasiado_sol', 'aire_seco', 'plaga', 'mosquitas', 'hongos', 'exceso_abono', 'adaptacion', 'temperatura', 'hoja_vieja', 'sin_pista'] as const
+export type CausaId = (typeof CAUSAS)[number]
+export const ESTADOS_CONTROL = ['mejor', 'igual', 'peor'] as const
+export type EstadoControl = (typeof ESTADOS_CONTROL)[number]
+
+/** Lo que se contesta al ingresar una planta (o al revisarla si empeora) */
+export interface RespuestasGuardia {
+  sintomas: Sintoma[]
+  tierra: Tierra
+  cambios: Cambio[]
+  notas: string
+}
+
+/** Un control del seguimiento. Hay a lo sumo uno por día. */
+export interface Control {
+  fecha: string
+  estado: EstadoControl
+  tierra: Tierra
+  nota: string
+  /** Si ese día se revisaron los síntomas porque empeoró */
+  sintomas?: Sintoma[]
+}
+
+/** La historia clínica de una planta, desde que ingresa hasta el alta o la despedida */
+export interface Caso extends RespuestasGuardia {
+  id: string
+  plantaId: string
+  /** Nombre de la planta al ingresar (así el aviso no necesita cargar el catálogo) */
+  nombre: string
+  /** De dónde es, en palabras ("Estante · Living"); vacío si se buscó en el catálogo */
+  donde: string
+  espacioId?: string
+  /** Lugar del plano, si estaba ubicada */
+  lugar?: string
+  ingreso: string
+  /** Causas posibles según la última revisión, de más a menos probable */
+  causas: CausaId[]
+  controles: Control[]
+  cierre?: { fecha: string; tipo: 'alta' | 'despedida' }
 }
 
 /** Un esqueje o hijito en seguimiento. Las fechas son AAAA-MM-DD, hora local. */

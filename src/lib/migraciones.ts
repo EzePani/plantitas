@@ -150,4 +150,9 @@ function v8aV9(datos: unknown): unknown {
   }
 }
 
-export const MIGRACIONES: Record<number, (datos: unknown) => unknown> = { 1: v1aV2, 2: v2aV3, 3: v3aV4, 4: v4aV5, 5: v5aV6, 6: v6aV7, 8: v8aV9 }
+/** v12: aparece Guardia, sin casos todavía */
+function v11aV12(d: unknown): unknown {
+  return esObj(d) ? { casos: [], ...d } : d
+}
+
+export const MIGRACIONES: Record<number, (datos: unknown) => unknown> = { 1: v1aV2, 2: v2aV3, 3: v3aV4, 4: v4aV5, 5: v5aV6, 6: v6aV7, 8: v8aV9, 11: v11aV12 }

@@ -14,16 +14,18 @@ import { useStore } from './store/useStore'
 // Estas pantallas (y los datos pesados que usan) se cargan aparte; se precargan apenas la app queda en reposo
 const cargarPlantas = () => import('./features/pets/Plantas').then((m) => ({ default: m.Plantas }))
 const cargarEspacio = () => import('./features/spaces/MiEspacio').then((m) => ({ default: m.MiEspacio }))
+const cargarGuardia = () => import('./features/guardia/Guardia').then((m) => ({ default: m.Guardia }))
 const cargarPerfil = () => import('./features/profile/Perfil').then((m) => ({ default: m.Perfil }))
 const cargarReproductor = () => import('./features/quiz/Reproductor').then((m) => ({ default: m.Reproductor }))
 const cargarGuia = () => import('./features/wiki/Guia').then((m) => ({ default: m.Guia }))
 const Plantas = lazy(cargarPlantas)
 const MiEspacio = lazy(cargarEspacio)
+const Guardia = lazy(cargarGuardia)
 const Perfil = lazy(cargarPerfil)
 const Reproductor = lazy(cargarReproductor)
 const Guia = lazy(cargarGuia)
 
-const ORDEN: Pestana[] = ['aprender', 'plantas', 'espacio', 'perfil']
+const ORDEN: Pestana[] = ['aprender', 'plantas', 'espacio', 'guardia', 'perfil']
 
 export function App() {
   const listo = useStore((s) => s.onboardingCompleto)
@@ -34,6 +36,8 @@ export function App() {
   const [avisoSalir, setAvisoSalir] = useState(false)
   useEffect(() => iniciarAtras(setAvisoSalir), [])
   const [sesion, setSesion] = useState<Sesion | null>(null)
+  /** Caso de Guardia a abrir al llegar desde el aviso */
+  const [caso, setCaso] = useState<string | null>(null)
   // La guía rápida se abre desde Aprender (lista completa) o desde el buscador de Plantas (directo en una ficha).
   // `vez` cambia en cada apertura para que arranque limpia.
   const [guia, setGuia] = useState<{ abierta: boolean; entrada: string | null; vez: number }>({ abierta: false, entrada: null, vez: 0 })
@@ -45,6 +49,7 @@ export function App() {
       void cargarContenido()
       void cargarPlantas()
       void cargarEspacio()
+      void cargarGuardia()
       void cargarPerfil()
       void cargarGuia()
     }
@@ -107,10 +112,21 @@ export function App() {
                   exit="sale"
                   transition={{ duration: 0.2, ease: 'easeOut' }}
                 >
-                  {pestana === 'aprender' && <Aprender onJugar={setSesion} onIrAEspacio={() => cambiar('espacio')} onGuia={() => abrirGuia()} />}
+                  {pestana === 'aprender' && (
+                    <Aprender
+                      onJugar={setSesion}
+                      onIrAEspacio={() => cambiar('espacio')}
+                      onGuia={() => abrirGuia()}
+                      onGuardia={(id) => {
+                        setCaso(id)
+                        cambiar('guardia')
+                      }}
+                    />
+                  )}
                   <Suspense fallback={null}>
                     {pestana === 'plantas' && <Plantas onGuia={abrirGuia} />}
                     {pestana === 'espacio' && <MiEspacio />}
+                    {pestana === 'guardia' && <Guardia abrir={caso} onAbierto={() => setCaso(null)} onGuia={abrirGuia} />}
                     {pestana === 'perfil' && <Perfil />}
                   </Suspense>
                 </motion.div>
