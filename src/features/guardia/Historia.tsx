@@ -27,7 +27,7 @@ export function cuandoToca(c: Caso, hoy: string): string {
   return f === sumarDias(hoy, 1) ? TG.manana : fechaCorta(f, hoy)
 }
 
-function Entrada({ dia, fecha, hoy, titulo: encabezado, detalle, nota }: { dia: number; fecha: string; hoy: string; titulo: string; detalle?: string; nota?: string }) {
+function Entrada({ dia, fecha, hoy, titulo: encabezado, detalle, nota, accion }: { dia: number; fecha: string; hoy: string; titulo: string; detalle?: string; nota?: string; accion?: { texto: string; onClick: () => void } }) {
   return (
     <li className="border-arena-osc rounded-2xl border-2 bg-white p-3">
       <div className="flex items-baseline justify-between gap-2">
@@ -38,6 +38,11 @@ function Entrada({ dia, fecha, hoy, titulo: encabezado, detalle, nota }: { dia: 
       </div>
       {detalle && <p className="text-tinta m-0 mt-0.5 text-[14px] leading-snug font-bold">{detalle}</p>}
       {nota && <p className="text-tinta-suave m-0 mt-0.5 text-[14px] leading-snug font-bold break-words">“{nota}”</p>}
+      {accion && (
+        <button type="button" onClick={accion.onClick} className="border-arena-osc text-hoja-osc mt-2 min-h-11 rounded-full border-2 bg-white px-4 text-[14px] font-extrabold">
+          {accion.texto}
+        </button>
+      )}
     </li>
   )
 }
@@ -131,12 +136,48 @@ function PanelControl({ caso, abierto, hoy, onCerrar, onRevisar }: { caso: Caso 
   )
 }
 
+/** Para corregir la nota que se escribió al ingresar */
+function PanelNota({ caso, abierto, onCerrar }: { caso: Caso | null; abierto: boolean; onCerrar: () => void }) {
+  const corregir = useStore((s) => s.corregirNotaCaso)
+  const [antes, setAntes] = useState(false)
+  const [nota, setNota] = useState('')
+  // Al abrirse muestra la nota actual
+  if (abierto !== antes) {
+    setAntes(abierto)
+    if (abierto && caso) setNota(caso.notas)
+  }
+  return (
+    <Panel
+      abierto={abierto && caso !== null}
+      titulo={TG.notaIngreso.titulo}
+      onCerrar={onCerrar}
+      pie={
+        <Boton
+          variante="sol"
+          disabled={nota.trim() === caso?.notas}
+          onClick={() => {
+            if (caso) corregir(caso.id, nota)
+            onCerrar()
+          }}
+        >
+          {TG.notaIngreso.guardar}
+        </Boton>
+      }
+    >
+      <div className="px-5 pt-1 pb-6">
+        <Notas valor={nota} onCambio={setNota} />
+      </div>
+    </Panel>
+  )
+}
+
 /** La historia clínica de un caso, desde el ingreso hasta el alta o la despedida */
 export function Historia({ caso, hoy, onCerrar, onRevisar, onGuia }: { caso: Caso | null; hoy: string; onCerrar: () => void; onRevisar: (caso: Caso, tierra: Tierra) => void; onGuia: (entrada: string) => void }) {
   const cerrar = useStore((s) => s.cerrarCaso)
   const borrar = useStore((s) => s.borrarCaso)
   const corregir = useStore((s) => s.corregirFechaCaso)
   const [controlando, setControlando] = useState(false)
+  const [anotando, setAnotando] = useState(false)
   const [indicaciones, setIndicaciones] = useState(false)
   const [confirmar, setConfirmar] = useState<'alta' | 'despedida' | 'borrar' | 'foto' | null>(null)
   const foto = useFoto(caso?.id)
@@ -229,6 +270,7 @@ export function Historia({ caso, hoy, onCerrar, onRevisar, onGuia }: { caso: Cas
                   .filter(Boolean)
                   .join('. ')}
                 nota={caso.notas}
+                accion={{ texto: caso.notas ? TG.notaIngreso.cambiar : TG.notaIngreso.agregar, onClick: () => setAnotando(true) }}
               />
             </ul>
             {caso.cierre && (
@@ -247,6 +289,8 @@ export function Historia({ caso, hoy, onCerrar, onRevisar, onGuia }: { caso: Cas
           </div>
         )}
       </Panel>
+
+      <PanelNota caso={caso} abierto={anotando} onCerrar={() => setAnotando(false)} />
 
       <PanelVivero caso={caso} visita={visita} hoy={hoy} onCerrar={() => setVisita(null)} />
 

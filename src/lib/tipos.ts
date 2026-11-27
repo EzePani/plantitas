@@ -184,6 +184,8 @@ export interface VisitaVivero {
 
 /** La historia clínica de una planta, desde que ingresa hasta el alta o la despedida */
 export interface Caso extends RespuestasGuardia {
+  /** Cuándo se corrigió la nota del ingreso (fecha y hora). Sin el dato es la que se escribió al ingresar */
+  notasCambiadas?: string
   id: string
   plantaId: string
   /** Nombre de la planta al ingresar (así el aviso no necesita cargar el catálogo) */

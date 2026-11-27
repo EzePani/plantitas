@@ -6,7 +6,7 @@ import { DATOS_INICIALES } from '../store/useStore'
 import { esquemaDatos, migrar } from './backup'
 import { medidas } from './fotos'
 import { fusionar } from './fusion'
-import { GRUPOS_SINTOMAS, SIN_CONTEXTO, anotarControl, anotarVisita, borrarVisita, sinVisitas, cerrarEl, contextoDe, corregirFecha, diagnosticar, enTratamiento, limitesDeFecha, pendientes, proximoControl, revisarCaso, tocaControl, unirCasos } from './guardia'
+import { GRUPOS_SINTOMAS, SIN_CONTEXTO, anotarControl, anotarVisita, borrarVisita, sinVisitas, cerrarEl, contextoDe, corregirFecha, corregirNota, diagnosticar, enTratamiento, limitesDeFecha, pendientes, proximoControl, revisarCaso, tocaControl, unirCasos } from './guardia'
 import { CAUSAS, SINTOMAS, type Caso, type Control, type Espacio, type RespuestasGuardia } from './tipos'
 
 const r = (x: Partial<RespuestasGuardia> = {}): RespuestasGuardia => ({ sintomas: [], tierra: 'humeda', cambios: [], notas: '', ...x })
@@ -135,6 +135,24 @@ describe('fechas del caso', () => {
   it('al sincronizar, el ingreso no queda después de un control', () => {
     const movido = corregirFecha(caso, 'ingreso', '2026-11-04', hoy)
     expect(unirCasos([movido], [anotarControl(caso, control('2026-11-02'))])[0].ingreso).toBe('2026-11-02')
+  })
+})
+
+describe('nota del ingreso', () => {
+  const caso = { id: 'c', plantaId: 'potus', nombre: 'Potus', donde: '', sintomas: [], tierra: 'seca' as const, cambios: [], notas: 'vieja', causas: ['falta_riego' as const], ingreso: '2026-11-01', controles: [] }
+
+  it('se corrige, se recorta y se puede quitar', () => {
+    expect(corregirNota(caso, '  nueva ', 't1')).toMatchObject({ notas: 'nueva', notasCambiadas: 't1' })
+    expect(corregirNota(caso, 'x'.repeat(400), 't1').notas).toHaveLength(300)
+    expect(corregirNota(caso, '   ', 't1').notas).toBe('')
+    expect(corregirNota(caso, ' vieja ', 't1')).toBe(caso)
+  })
+
+  it('al juntar dos versiones vale la corregida más tarde', () => {
+    const antes = corregirNota(caso, 'primera', '2026-11-02T10:00:00.000Z')
+    const despues = corregirNota(caso, '', '2026-11-03T10:00:00.000Z')
+    for (const [a, b] of [[antes, despues], [despues, antes], [caso, despues]]) expect(unirCasos([a], [b])[0].notas).toBe('')
+    expect(unirCasos([caso], [antes])[0].notas).toBe('primera')
   })
 })
 
