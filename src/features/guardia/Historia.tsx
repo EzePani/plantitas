@@ -7,10 +7,13 @@ import { Panel } from '../../components/Panel'
 import { T } from '../../data/textos'
 import { TG } from '../../data/textosGuardia'
 import { fechaCorta, sumarDias } from '../../lib/fecha'
+import { borrarFoto, guardarFoto, useFoto } from '../../lib/fotos'
 import { controlDe, dentroDe, diaDe, limitesDeFecha, proximoControl, tocaControl, type FechaDeCaso, type Limites } from '../../lib/guardia'
 import { ESTADOS_CONTROL, TIERRAS, type Caso, type EstadoControl, type Sintoma, type Tierra } from '../../lib/tipos'
 import { useStore } from '../../store/useStore'
 import { Causas } from './Causas'
+import { Foto } from './Foto'
+import { PanelVivero, SeccionVivero, type VisitaElegida } from './Vivero'
 import { Detalladas, Notas, Opciones, ayuda, fila, titulo } from './comunes'
 
 /** "Hojas amarillas, manchas": mayúscula solo al principio */
@@ -135,7 +138,9 @@ export function Historia({ caso, hoy, onCerrar, onRevisar, onGuia }: { caso: Cas
   const corregir = useStore((s) => s.corregirFechaCaso)
   const [controlando, setControlando] = useState(false)
   const [indicaciones, setIndicaciones] = useState(false)
-  const [confirmar, setConfirmar] = useState<'alta' | 'despedida' | 'borrar' | null>(null)
+  const [confirmar, setConfirmar] = useState<'alta' | 'despedida' | 'borrar' | 'foto' | null>(null)
+  const foto = useFoto(caso?.id)
+  const [visita, setVisita] = useState<VisitaElegida | null>(null)
   const [editando, setEditando] = useState<FechaDeCaso | null>(null)
   const [fecha, setFecha] = useState('')
   const cierra = confirmar === 'alta' || confirmar === 'despedida'
@@ -157,6 +162,7 @@ export function Historia({ caso, hoy, onCerrar, onRevisar, onGuia }: { caso: Cas
     alta: [TG.altaTitulo, TG.altaTexto, TG.altaSi],
     despedida: [TG.murioTitulo, TG.murioTexto, TG.murioSi],
     borrar: [TG.borrarTitulo, caso?.nombre ?? '', TG.borrarSi],
+    foto: [TG.foto.quitarTitulo, TG.foto.quitarTexto, TG.foto.quitarSi],
   }[confirmar]
 
   const pie =
@@ -196,6 +202,8 @@ export function Historia({ caso, hoy, onCerrar, onRevisar, onGuia }: { caso: Cas
               </span>
               <ChevronRight size={20} className="text-tinta-suave shrink-0" aria-hidden />
             </button>
+            <SeccionVivero caso={caso} hoy={hoy} onVisita={setVisita} />
+            <Foto key={caso.id} etiqueta={TG.foto.titulo} nombre={caso.nombre} url={foto.url} fallo={foto.fallo} onFoto={(f) => void guardarFoto(caso.id, f)} onQuitar={() => setConfirmar('foto')} />
             {/* Lo más nuevo arriba; el ingreso queda al final */}
             <ul className="m-0 flex list-none flex-col gap-2 p-0">
               {[...caso.controles].reverse().map((c) => (
@@ -240,6 +248,8 @@ export function Historia({ caso, hoy, onCerrar, onRevisar, onGuia }: { caso: Cas
         )}
       </Panel>
 
+      <PanelVivero caso={caso} visita={visita} hoy={hoy} onCerrar={() => setVisita(null)} />
+
       <PanelControl
         caso={caso}
         abierto={controlando}
@@ -260,7 +270,8 @@ export function Historia({ caso, hoy, onCerrar, onRevisar, onGuia }: { caso: Cas
             if (caso && confirmar === 'borrar') {
               borrar(caso.id)
               onCerrar()
-            } else if (caso && cierra) cerrar(caso.id, confirmar, fecha)
+            } else if (caso && confirmar === 'foto') void borrarFoto(caso.id)
+            else if (caso && cierra) cerrar(caso.id, confirmar, fecha)
             setConfirmar(null)
           }}
         >

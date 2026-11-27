@@ -5,6 +5,7 @@ import { FotoPlanta } from '../../components/FotoPlanta'
 import { plantaPorId } from '../../data/plantas'
 import { TG } from '../../data/textosGuardia'
 import { MAX_CASOS, cerrados, enTratamiento, tocaControl } from '../../lib/guardia'
+import { useFoto } from '../../lib/fotos'
 import type { Caso } from '../../lib/tipos'
 import { useHoy } from '../../lib/useHoy'
 import { useStore } from '../../store/useStore'
@@ -14,9 +15,11 @@ import { ayuda, fila, titulo } from './comunes'
 
 function FilaCaso({ caso, estado, urgente, onClick }: { caso: Caso; estado: string; urgente?: boolean; onClick: () => void }) {
   const planta = plantaPorId(caso.plantaId)
+  const foto = useFoto(caso.id)
   return (
     <button type="button" onClick={onClick} className={fila}>
-      {planta && <FotoPlanta planta={planta} className="size-11 shrink-0 rounded-2xl" />}
+      {/* Si le sacó una foto, se la reconoce mejor que con la del catálogo */}
+      {foto.url ? <img src={foto.url} alt="" className="size-11 shrink-0 rounded-2xl object-cover" /> : planta && <FotoPlanta planta={planta} className="size-11 shrink-0 rounded-2xl" />}
       <span className="min-w-0 flex-1">
         <span className="block text-[16px] leading-tight font-extrabold">{caso.nombre}</span>
         {caso.donde && <span className="text-tinta-suave block text-[13px] leading-tight font-bold">{caso.donde}</span>}

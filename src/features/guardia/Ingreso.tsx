@@ -9,12 +9,14 @@ import { TG } from '../../data/textosGuardia'
 import { buscarPlantas } from '../../lib/buscar'
 import { agruparPlantas } from '../../lib/espacios'
 import { fechaCorta, sumarDias } from '../../lib/fecha'
+import { guardarFoto, useUrlDe } from '../../lib/fotos'
 import { contextoDe, dentroDe, diagnosticar, limitesDeIngresoNuevo } from '../../lib/guardia'
 import { lugarDe, plantasEn } from '../../lib/plano'
 import { CAMBIOS, TIERRAS, type Cambio, type Caso, type Espacio, type RespuestasGuardia, type Sintoma, type Tierra } from '../../lib/tipos'
 import { useStore } from '../../store/useStore'
 import { nombreDeLugar } from '../spaces/Plano'
 import { Causas } from './Causas'
+import { Foto } from './Foto'
 import { TarjetasSintomas } from './Sintomas'
 import { Detalladas, Notas, Opciones, alTope, ayuda, fila, titulo } from './comunes'
 
@@ -126,8 +128,8 @@ function Encabezado({ paso, texto, detalle }: { paso: number; texto: string; det
 }
 
 /**
- * Elegir la planta → síntomas → tierra y cambios → fecha y nota → causas posibles. Nada se guarda hasta confirmar el final.
- * Para revisar un caso se empieza directo en los síntomas y no se pide la fecha.
+ * Elegir la planta → síntomas → tierra y cambios → fecha, foto y nota → causas posibles. Nada se guarda hasta confirmar el final.
+ * Para revisar un caso se empieza directo en los síntomas y no se piden ni la fecha ni la foto.
  */
 export function Ingreso({ consulta, hoy, onCerrar, onCaso, onGuia }: { consulta: Consulta | null; hoy: string; onCerrar: () => void; onCaso: (id: string) => void; onGuia: (entrada: string) => void }) {
   const espacios = useStore((s) => s.espacios)
@@ -142,6 +144,8 @@ export function Ingreso({ consulta, hoy, onCerrar, onCaso, onGuia }: { consulta:
   const [notas, setNotas] = useState('')
   const [dia, setDia] = useState<Dia>('hoy')
   const [otroDia, setOtroDia] = useState('')
+  const [foto, setFoto] = useState<Blob | null>(null)
+  const urlFoto = useUrlDe(foto)
   // Cada consulta arranca en blanco
   if (consulta && consulta !== de) {
     setDe(consulta)
@@ -153,6 +157,7 @@ export function Ingreso({ consulta, hoy, onCerrar, onCaso, onGuia }: { consulta:
     setNotas('')
     setDia('hoy')
     setOtroDia('')
+    setFoto(null)
   }
 
   const respuestas: RespuestasGuardia | null = tierra ? { sintomas, tierra, cambios, notas } : null
@@ -182,7 +187,9 @@ export function Ingreso({ consulta, hoy, onCerrar, onCaso, onGuia }: { consulta:
     }
     const { plantaId, nombre, donde, espacioId, lugar } = sujeto
     const id = ingresar({ plantaId, nombre, donde, ...(espacioId && { espacioId }), ...(lugar && { lugar }), ...respuestas, causas, ingreso })
-    if (id) onCaso(id)
+    if (!id) return
+    if (foto) void guardarFoto(id, foto)
+    onCaso(id)
   }
 
   const pie =
@@ -251,6 +258,7 @@ export function Ingreso({ consulta, hoy, onCerrar, onCaso, onGuia }: { consulta:
                     {otroDia && !fechaLista && <p className={ayuda}>{TG.fechaEntre(fechaCorta(limites.min, hoy), fechaCorta(limites.max, hoy))}</p>}
                   </>
                 )}
+                <Foto etiqueta={TG.foto.opcional} nombre={sujeto?.nombre ?? ''} url={urlFoto} onFoto={setFoto} onQuitar={() => setFoto(null)} />
               </>
             )}
             <Notas valor={notas} onCambio={setNotas} />

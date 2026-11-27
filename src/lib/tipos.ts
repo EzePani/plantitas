@@ -175,6 +175,13 @@ export interface Control {
   sintomas?: Sintoma[]
 }
 
+/** Lo que le dijeron en una ida al vivero */
+export interface VisitaVivero {
+  id: string
+  fecha: string
+  dijo: string
+}
+
 /** La historia clínica de una planta, desde que ingresa hasta el alta o la despedida */
 export interface Caso extends RespuestasGuardia {
   id: string
@@ -190,6 +197,8 @@ export interface Caso extends RespuestasGuardia {
   /** Causas posibles según la última revisión, de más a menos probable */
   causas: CausaId[]
   controles: Control[]
+  /** Visitas al vivero, de la más vieja a la más nueva. Sin el dato no se contestó; vacío es "no la llevé" */
+  vivero?: VisitaVivero[]
   cierre?: { fecha: string; tipo: 'alta' | 'despedida' }
 }
 
