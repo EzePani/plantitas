@@ -311,6 +311,50 @@ describe('sincronización: cada cosa en su fila', () => {
     expect(completo(enBase())).toEqual(TODO)
   })
 
+  it('una foto agregada en un dispositivo no se pierde si en el otro se tocó el mismo caso', async () => {
+    const celu = await celuConTodo()
+    const compu = await otroDispositivo()
+    await sincronizar(compu)
+    const id = usar(celu).s().casos[0].id
+    usar(celu).s().marcarFotoCaso(id, 'f-nueva')
+    usar(compu).s().cerrarCaso(id, 'alta')
+    await sincronizar(celu)
+    await sincronizar(compu)
+    await sincronizar(celu)
+    for (const d of [celu, compu]) expect(usar(d).s().casos[0]).toMatchObject({ foto: 'f-nueva', cierre: { tipo: 'alta' } })
+  })
+
+  it('la nota corregida en un dispositivo llega al otro', async () => {
+    const celu = await celuConTodo()
+    const compu = await otroDispositivo()
+    await sincronizar(compu)
+    const id = usar(celu).s().casos[0].id
+    usar(celu).s().corregirNotaCaso(id, '  La regué de más  ')
+    await sincronizar(celu)
+    await sincronizar(compu)
+    expect(usar(compu).s().casos[0].notas).toBe('La regué de más')
+    // Quitarla también viaja
+    usar(compu).s().corregirNotaCaso(id, '')
+    await sincronizar(compu)
+    await sincronizar(celu)
+    expect(usar(celu).s().casos[0].notas).toBe('')
+    expect(nube.historial.some((f) => f.tabla === 'casos' && f.datos.notas === 'La regué de más')).toBe(true)
+  })
+
+  for (const primero of ['quien escribe', 'el otro'] as const) {
+    it(`la nota corregida no la pisa un dispositivo atrasado que tocó el mismo caso (sincroniza primero ${primero})`, async () => {
+      const celu = await celuConTodo()
+      const compu = await otroDispositivo()
+      await sincronizar(compu)
+      const id = usar(celu).s().casos[0].id
+      usar(celu).s().corregirNotaCaso(id, 'Nota nueva')
+      usar(compu).s().cerrarCaso(id, 'alta')
+      const orden = primero === 'quien escribe' ? [celu, compu, celu] : [compu, celu, compu]
+      for (const d of orden) await sincronizar(d)
+      for (const d of [celu, compu]) expect(usar(d).s().casos[0]).toMatchObject({ notas: 'Nota nueva', cierre: { tipo: 'alta' } })
+    })
+  }
+
   it('lo que se borra a propósito se borra en todos lados, y la base lo conserva marcado', async () => {
     const celu = await celuConTodo()
     const compu = await otroDispositivo()

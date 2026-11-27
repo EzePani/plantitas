@@ -1,3 +1,4 @@
+import { notaVigente } from './guardia'
 import { normalizar } from './hijitos'
 import type { Caso, Coleccion, Control, DatosPersistidos, Espacio, Hijito, Plano, PlantaEnEspacio, Racha, Refuerzo, RegistroNodo, VisitaVivero } from './tipos'
 
@@ -137,7 +138,10 @@ export function unir(tabla: Tabla, id: string, a: Datos, b: Datos): Datos {
   if (tabla === 'lecciones') return num(b.aciertos) > num(a.aciertos) || (num(b.aciertos) === num(a.aciertos) && txt(b.fecha) > txt(a.fecha)) ? b : a
   if (tabla === 'insignias') return txt(b.fecha) && txt(b.fecha) < txt(a.fecha) ? b : a
   if (tabla === 'colecciones') return { ...a, plantas: [...new Set([...((a.plantas as string[]) ?? []), ...((b.plantas as string[]) ?? [])])].slice(0, 200) }
-  if (tabla === 'casos') return { ...a, ...(!a.cierre && b.cierre ? { cierre: b.cierre } : {}), ...(b.contestoVivero ? { contestoVivero: true } : {}) }
+  if (tabla === 'casos') {
+    const nota = notaVigente(a as unknown as Caso, b as unknown as Caso)
+    return { ...a, ...nota, ...(!a.cierre && b.cierre ? { cierre: b.cierre } : {}), ...(b.contestoVivero ? { contestoVivero: true } : {}), ...(!a.foto && b.foto ? { foto: b.foto } : {}) }
+  }
   if (tabla === 'hijitos') {
     const h = a as unknown as Hijito
     const o = b as unknown as Hijito

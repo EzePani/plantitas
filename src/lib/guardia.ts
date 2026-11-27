@@ -139,6 +139,18 @@ export function cerrarEl(c: Caso, tipo: 'alta' | 'despedida', fecha: string, hoy
   return !c.cierre && dentroDe(fecha, limitesDeFecha(c, 'cierre', hoy)) ? { ...c, cierre: { fecha, tipo } } : c
 }
 
+/** Cambia la nota que se escribió al ingresar; vacía la quita. `ahora` es fecha y hora */
+export function corregirNota(c: Caso, nota: string, ahora: string): Caso {
+  const notas = nota.trim().slice(0, MAX_NOTA)
+  return notas === c.notas ? c : { ...c, notas, notasCambiadas: ahora }
+}
+
+/** De dos versiones de la nota del ingreso vale la corregida más tarde; ante un empate, la de `a` */
+export function notaVigente(a: Pick<Caso, 'notas' | 'notasCambiadas'>, b: Pick<Caso, 'notas' | 'notasCambiadas'>): Pick<Caso, 'notas' | 'notasCambiadas'> {
+  const { notas, notasCambiadas } = (b.notasCambiadas ?? '') > (a.notasCambiadas ?? '') ? b : a
+  return { notas, ...(notasCambiadas && { notasCambiadas }) }
+}
+
 /** Anota el control del día (si ya había uno, lo reemplaza conservando la revisión de síntomas) */
 export function anotarControl(c: Caso, nuevo: Control): Caso {
   if (c.cierre) return c
@@ -191,7 +203,7 @@ export function unirCasos(a: Caso[], b: Caso[]): Caso[] {
     const nuevas = otro.vivero?.filter((v) => !c.vivero?.some((x) => x.id === v.id)) ?? []
     const vivero = c.vivero || otro.vivero ? [...(c.vivero ?? []), ...nuevas].sort(porFecha).slice(-MAX_VISITAS) : undefined
     const foto = c.foto ?? otro.foto
-    return { ...c, ingreso, causas, controles, ...(vivero && { vivero }), ...(cierre && { cierre }), ...(foto && { foto }) }
+    return { ...c, ...notaVigente(c, otro), ingreso, causas, controles, ...(vivero && { vivero }), ...(cierre && { cierre }), ...(foto && { foto }) }
   })
   const ids = new Set(a.map((c) => c.id))
   return [...salida, ...b.filter((c) => !ids.has(c.id))].slice(0, MAX_CASOS)

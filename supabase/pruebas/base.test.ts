@@ -6,6 +6,7 @@
 import { execSync } from 'node:child_process'
 import { createClient, type SupabaseClient } from '@supabase/supabase-js'
 import { beforeAll, describe, expect, it, vi } from 'vitest'
+import { VERSION_DATOS } from '../../src/lib/backup'
 import { aFilas, canonico, type Remota } from '../../src/lib/filas'
 import type { DatosPersistidos } from '../../src/lib/tipos'
 
@@ -141,7 +142,7 @@ describe('dos dispositivos de una cuenta', () => {
     expect(compu.usar().s().espacios).toEqual(celu.usar().s().espacios)
     expect(compu.usar().s().casos).toEqual(celu.usar().s().casos)
     // El bloque viejo queda como respaldo
-    expect((await admin.from('progreso').select('version').eq('user_id', cuenta.id)).data).toEqual([{ version: 16 }])
+    expect((await admin.from('progreso').select('version').eq('user_id', cuenta.id)).data).toEqual([{ version: VERSION_DATOS }])
   })
 
   it('cargan cosas distintas a la vez y quedan las dos', async () => {
@@ -205,7 +206,7 @@ describe('dos dispositivos de una cuenta', () => {
 
   it('una fila que cambió en la base desde la última vez no se pisa', async () => {
     const c = celu.usar().nube.cliente
-    const pedido = { tabla: 'favoritas', id: 'gomero', datos: { nota: 1 }, version: 16, borrado: false }
+    const pedido = { tabla: 'favoritas', id: 'gomero', datos: { nota: 1 }, version: VERSION_DATOS, borrado: false }
     const { data: viejo } = await c.rpc('plantitas_guardar', { filas: [{ ...pedido, visto: '2020-01-01T00:00:00+00:00' }] })
     expect(viejo).toMatchObject([{ escrito: false }])
     expect(await filasDe(cuenta, 'favoritas').then((f) => f.find((x) => x.id === 'gomero')!.datos)).toEqual({})
@@ -216,14 +217,14 @@ describe('dos dispositivos de una cuenta', () => {
 
   it('un pedido con algo mal no guarda nada, y una app vieja no pisa filas más nuevas', async () => {
     const c = celu.usar().nube.cliente
-    const mal = await c.rpc('plantitas_guardar', { filas: [{ tabla: 'favoritas', id: 'nueva', datos: {}, version: 16, borrado: false, visto: null }, { tabla: 'progreso', id: 'x', datos: {}, version: 16, borrado: false, visto: null }] })
+    const mal = await c.rpc('plantitas_guardar', { filas: [{ tabla: 'favoritas', id: 'nueva', datos: {}, version: VERSION_DATOS, borrado: false, visto: null }, { tabla: 'progreso', id: 'x', datos: {}, version: VERSION_DATOS, borrado: false, visto: null }] })
     expect(mal.error?.message).toContain('PLANTITAS_TABLA')
     expect((await filasDe(cuenta, 'favoritas')).some((f) => f.id === 'nueva')).toBe(false)
 
     const [fila] = (await filasDe(cuenta, 'espacios')) as { id: string; actualizado: string }[]
     const { data: cambios } = await c.rpc('plantitas_cambios', { desde: null })
     const visto = (cambios as Remota[]).find((r) => r.tabla === 'espacios' && r.id === fila.id)!.actualizado
-    const vieja = await c.rpc('plantitas_guardar', { filas: [{ tabla: 'espacios', id: fila.id, datos: { nombre: 'Recortado' }, version: 15, borrado: false, visto }] })
+    const vieja = await c.rpc('plantitas_guardar', { filas: [{ tabla: 'espacios', id: fila.id, datos: { nombre: 'Recortado' }, version: VERSION_DATOS - 1, borrado: false, visto }] })
     expect(vieja.error?.message).toContain('PLANTITAS_VERSION_VIEJA')
     expect(await filasDe(cuenta, 'espacios')).toMatchObject([{ nombre: 'Comedor' }])
   })
@@ -240,7 +241,7 @@ describe('dos dispositivos de una cuenta', () => {
     }
     expect((await filasDe(cuenta, 'espacios')).every((f) => !f.borrado)).toBe(true)
     // Guardar con el id de una fila ajena crea una propia: la de la otra cuenta no cambia
-    await ajeno.rpc('plantitas_guardar', { filas: [{ tabla: 'espacios', id: 'living-1', datos: { nombre: 'Intruso' }, version: 16, borrado: false, visto: null }] })
+    await ajeno.rpc('plantitas_guardar', { filas: [{ tabla: 'espacios', id: 'living-1', datos: { nombre: 'Intruso' }, version: VERSION_DATOS, borrado: false, visto: null }] })
     expect(await filasDe(cuenta, 'espacios')).toMatchObject([{ nombre: 'Comedor' }])
 
     const anonimo = createClient(entorno.API_URL, entorno.ANON_KEY, { auth: { persistSession: false } })

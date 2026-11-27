@@ -215,6 +215,7 @@ export const TG = {
   fechaEntre: (min: string, max: string) => (min === max ? `Solo puede ser el ${max}: ese día ya hay algo anotado.` : `Elegí una fecha entre el ${min} y el ${max}.`),
   fechaTope: (max: string) => `Como muy tarde el ${max}: después ya hay algo anotado.`,
   notas: 'Nota (opcional)',
+  notaIngreso: { titulo: 'Nota del ingreso', agregar: 'Agregar nota', cambiar: 'Cambiar nota', guardar: 'Guardar nota' },
   foto: {
     opcional: 'Foto (opcional)',
     titulo: 'Foto',
