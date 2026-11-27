@@ -7,7 +7,7 @@ import { CLAVE_ESTADO, almacen, bloquear, novedad } from './disco'
 import { agregarPlanta, moverPlanta, quitarPlanta } from '../lib/espacios'
 import { hoyLocal } from '../lib/fecha'
 import { MAX_CASOS, anotarControl, revisarCaso, anotarVisita, borrarVisita, sinVisitas, cerrarEl, corregirFecha, dentroDe, limitesDeIngresoNuevo, type FechaDeCaso } from '../lib/guardia'
-import { borrarFoto, borrarFotos } from '../lib/fotos'
+import { avisarFotos, borrarFoto, borrarFotos } from '../lib/fotos'
 import { MAX_HIJITOS, aplicarCorreccion, errorDeFechas, normalizar, type CorreccionHijito } from '../lib/hijitos'
 import { ponerLuz } from '../lib/lugares'
 import type { CategoriaLuz } from '../lib/luz'
@@ -112,6 +112,8 @@ interface Acciones {
   anotarVisitaCaso: (id: string, visita: Omit<VisitaVivero, 'id'> & { id?: string }) => void
   sinVisitasCaso: (id: string) => void
   borrarVisitaCaso: (id: string, visitaId: string) => void
+  /** Anota en el caso la marca de su foto (null: ya no tiene) */
+  marcarFotoCaso: (id: string, marca: string | null) => void
   /** Guarda qué preguntas de una lección se fallaron, para repetirlas en el refuerzo */
   anotarRespuestas: (falladas: string[], acertadas: string[]) => void
   completarRefuerzo: (aciertos: number, total: number, falladas: string[], acertadas: string[]) => Resumen
@@ -158,6 +160,21 @@ function conInsignias(
   const insignias = { ...previas }
   for (const i of nuevas) insignias[i] = hoy
   return { insignias, nuevas }
+}
+
+let reemplazando = false
+/**
+ * Mientras se cambian todos los datos juntos (un archivo, una copia). Lo que falte después de eso no es
+ * algo que la persona borró: la sincronización no lo quita de la base
+ */
+export const esReemplazo = () => reemplazando
+function enBloque(hacer: () => void) {
+  reemplazando = true
+  try {
+    hacer()
+  } finally {
+    reemplazando = false
+  }
 }
 
 let refrescando = false
@@ -343,6 +360,13 @@ export const useStore = create<Estado>()(
       },
       sinVisitasCaso: (id) => set((s) => ({ casos: s.casos.map((c) => (c.id === id ? sinVisitas(c) : c)) })),
       borrarVisitaCaso: (id, visitaId) => set((s) => ({ casos: s.casos.map((c) => (c.id === id ? borrarVisita(c, visitaId) : c)) })),
+      marcarFotoCaso: (id, marca) =>
+        set((s) => {
+          const caso = s.casos.find((c) => c.id === id)
+          if (!caso || (caso.foto ?? null) === marca) return s
+          const { foto: _antes, ...resto } = caso
+          return { casos: s.casos.map((c) => (c.id === id ? { ...resto, ...(marca && { foto: marca }) } : c)) }
+        }),
       borrarCaso: (id) => {
         set((s) => ({ casos: s.casos.filter((c) => c.id !== id) }))
         void borrarFoto(id)
@@ -370,11 +394,11 @@ export const useStore = create<Estado>()(
       reemplazarDatos: (d) => {
         const antes = soloDatos(get())
         if (sePierde(antes, d)) guardarCopia(antes, VERSION_DATOS, 'reemplazo')
-        set({ ...d })
+        enBloque(() => set({ ...d }))
       },
-      recuperarCopia: (d) => set(fusionar(soloDatos(get()), d)),
+      recuperarCopia: (d) => enBloque(() => set(fusionar(soloDatos(get()), d))),
       reiniciar: () => {
-        set({ ...DATOS_INICIALES })
+        enBloque(() => set({ ...DATOS_INICIALES }))
         void borrarFotos()
       },
     }),
@@ -396,6 +420,8 @@ export const useStore = create<Estado>()(
     },
   ),
 )
+
+avisarFotos((id, marca) => useStore.getState().marcarFotoCaso(id, marca))
 
 if (typeof window !== 'undefined' && window.addEventListener) {
   window.addEventListener('storage', (e) => e.key === CLAVE_ESTADO && alDia())

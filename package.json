@@ -8,7 +8,8 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "icons": "node scripts/generar-iconos.mjs"
+    "icons": "node scripts/generar-iconos.mjs",
+    "test:base": "vitest run --config supabase/pruebas/vitest.config.ts"
   },
   "dependencies": {
     "@fontsource-variable/fredoka": "^5.3.0",

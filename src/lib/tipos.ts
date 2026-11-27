@@ -200,6 +200,8 @@ export interface Caso extends RespuestasGuardia {
   /** Visitas al vivero, de la más vieja a la más nueva. Sin el dato no se contestó; vacío es "no la llevé" */
   vivero?: VisitaVivero[]
   cierre?: { fecha: string; tipo: 'alta' | 'despedida' }
+  /** Marca de la foto guardada (cambia con cada foto nueva). La imagen va aparte: en el dispositivo y en el almacenamiento de la nube */
+  foto?: string
 }
 
 /** Un esqueje o hijito en seguimiento. Las fechas son AAAA-MM-DD, hora local. */

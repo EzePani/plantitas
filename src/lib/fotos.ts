@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
 
 /**
- * Las fotos de los casos de la Guardia viven solo en este dispositivo (IndexedDB), guardadas con el
- * id del caso: pesan demasiado para ir con el resto de los datos, así que no se sincronizan ni se exportan.
+ * Las fotos de los casos de la Guardia se guardan en este dispositivo (IndexedDB) con el id del caso.
+ * Pesan demasiado para ir con el resto de los datos: el caso lleva solo una marca (`foto`) y, con una
+ * cuenta conectada, la imagen se sube aparte (`nubeFotos.ts`). No entran en la exportación.
  */
 const BASE = 'plantitas-fotos'
 const ALMACEN = 'casos'
@@ -74,15 +75,93 @@ async function cambiar(id: string, hacer: (almacen: IDBObjectStore) => IDBReques
   return salio
 }
 
-export const guardarFoto = (id: string, foto: Blob) => cambiar(id, (a) => a.put(foto, id))
-export const borrarFoto = (id: string) => cambiar(id, (a) => a.delete(id))
-export const borrarFotos = () => cambiar('', (a) => a.clear())
+// ---------- Qué foto hay de cada caso ----------
 
-async function leerFoto(id: string): Promise<Blob | undefined> {
+/** `tengo`: la marca de la foto que está en este dispositivo. `subida`: la marca que ya está en la nube */
+export interface EstadoFotos {
+  tengo: Record<string, string>
+  subida: Record<string, string>
+}
+const CLAVE_ESTADO = 'plantitas-fotos-estado'
+export function leerEstadoFotos(): EstadoFotos {
+  try {
+    const e = JSON.parse(localStorage.getItem(CLAVE_ESTADO) ?? 'null') as Partial<EstadoFotos> | null
+    return { tengo: { ...e?.tengo }, subida: { ...e?.subida } }
+  } catch {
+    return { tengo: {}, subida: {} }
+  }
+}
+export function guardarEstadoFotos(e: EstadoFotos) {
+  try {
+    localStorage.setItem(CLAVE_ESTADO, JSON.stringify(e))
+  } catch {
+    // sin almacenamiento: se vuelve a calcular en la próxima sincronización
+  }
+}
+function anotar(id: string, marca: string | null) {
+  const e = leerEstadoFotos()
+  if (marca) e.tengo[id] = marca
+  else delete e.tengo[id]
+  guardarEstadoFotos(e)
+}
+export const nuevaMarca = () => `f${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`
+
+/** A quién avisarle que la persona puso o quitó una foto (el caso lleva la marca) */
+let alCambiar: (id: string, marca: string | null) => void = () => {}
+export function avisarFotos(f: typeof alCambiar) {
+  alCambiar = f
+}
+
+/** La persona eligió una foto */
+export async function guardarFoto(id: string, foto: Blob): Promise<boolean> {
+  const salio = await cambiar(id, (a) => a.put(foto, id))
+  if (salio) {
+    const marca = nuevaMarca()
+    anotar(id, marca)
+    alCambiar(id, marca)
+  }
+  return salio
+}
+/** La persona quitó la foto (o borró el caso) */
+export async function borrarFoto(id: string): Promise<boolean> {
+  const salio = await cambiar(id, (a) => a.delete(id))
+  if (salio) {
+    anotar(id, null)
+    alCambiar(id, null)
+  }
+  return salio
+}
+export async function borrarFotos(): Promise<boolean> {
+  const salio = await cambiar('', (a) => a.clear())
+  if (salio) guardarEstadoFotos({ tengo: {}, subida: {} })
+  return salio
+}
+
+/** Lo que trae o saca la sincronización: no es un cambio hecho acá */
+export async function ponerFotoTraida(id: string, foto: Blob, marca: string): Promise<boolean> {
+  const salio = await cambiar(id, (a) => a.put(foto, id))
+  if (salio) anotar(id, marca)
+  return salio
+}
+export async function sacarFotoTraida(id: string): Promise<boolean> {
+  const salio = await cambiar(id, (a) => a.delete(id))
+  if (salio) anotar(id, null)
+  return salio
+}
+
+export async function leerFoto(id: string): Promise<Blob | undefined> {
   try {
     return (await operar('readonly', (a) => a.get(id))) as Blob | undefined
   } catch {
     return undefined
+  }
+}
+/** Los casos que tienen foto en este dispositivo */
+export async function idsDeFotos(): Promise<string[]> {
+  try {
+    return ((await operar('readonly', (a) => a.getAllKeys())) as IDBValidKey[]).map(String)
+  } catch {
+    return []
   }
 }
 
