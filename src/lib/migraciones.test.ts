@@ -38,7 +38,7 @@ const migrado = () => {
 
 describe('migración v1 → v2', () => {
   it('el resultado es un estado válido de la versión actual', () => {
-    expect(VERSION_DATOS).toBe(9)
+    expect(VERSION_DATOS).toBe(10)
     expect(esquemaDatos.safeParse(migrar(structuredClone(v1), 1)).success).toBe(true)
   })
 

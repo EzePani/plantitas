@@ -1,11 +1,24 @@
-import type { ElementoPlano, Espacio, Plano, PlantaEnEspacio, TipoElemento } from './tipos'
+import type { ElementoPlano, Espacio, Plano, PlantaEnEspacio, TipoElemento, TipoEspacio } from './tipos'
 
 export const LADO = 6
 export const CELDAS = LADO * LADO
-/** Referencias del espacio: sirven para ubicarse, van en la pared y no llevan plantas */
-export const REFERENCIAS: TipoElemento[] = ['ventana', 'puerta']
-/** Lugares donde se pueden poner plantas (además del piso, que es todo cuadradito libre) */
-export const LUGARES: TipoElemento[] = ['mesa', 'mueble', 'estante', 'gancho']
+/** Puertas y ventanas: están en todos los espacios y van contra una pared */
+const ABERTURAS: TipoElemento[] = ['ventana', 'puerta']
+const LUGARES_COMUNES: TipoElemento[] = ['mesa', 'mueble', 'estante', 'gancho']
+/** Lo propio de cada tipo de espacio: referencias para ubicarse y, a veces, algún lugar más para plantas */
+const PROPIOS: Record<TipoEspacio, { referencias: TipoElemento[]; lugares: TipoElemento[] }> = {
+  living: { referencias: ['sillon', 'tele'], lugares: [] },
+  dormitorio: { referencias: ['cama', 'placard'], lugares: [] },
+  cocina: { referencias: ['horno', 'heladera', 'bacha'], lugares: ['mesada'] },
+  bano: { referencias: ['ducha', 'inodoro', 'bidet', 'bacha'], lugares: [] },
+  balcon: { referencias: ['parrilla', 'lavarropas'], lugares: ['baranda'] },
+  escritorio: { referencias: ['silla', 'compu'], lugares: [] },
+}
+/** Referencias que se ofrecen en un espacio: sirven para ubicarse y no llevan plantas */
+export const referenciasDe = (t: TipoEspacio): TipoElemento[] => [...ABERTURAS, ...PROPIOS[t].referencias]
+/** Lugares para plantas que se ofrecen en un espacio (además del piso, que es todo cuadradito libre) */
+export const lugaresDe = (t: TipoEspacio): TipoElemento[] => [...LUGARES_COMUNES, ...PROPIOS[t].lugares]
+const REFERENCIAS = new Set<TipoElemento>(Object.keys(PROPIOS).flatMap((t) => referenciasDe(t as TipoEspacio)))
 
 export type Forma = 'rectangulo' | 'l' | 'u'
 export const FORMAS: Forma[] = ['rectangulo', 'l', 'u']
@@ -30,28 +43,32 @@ export function contraPared(suelo: number[], c: number): boolean {
   return vecinas.some((v) => !suelo.includes(v))
 }
 
-export const esReferencia = (t: TipoElemento): boolean => REFERENCIAS.includes(t)
+export const esReferencia = (t: TipoElemento): boolean => REFERENCIAS.has(t)
+export const vaEnPared = (t: TipoElemento): boolean => ABERTURAS.includes(t)
 
 export const elementoEn = (p: Plano, c: number): ElementoPlano | undefined => p.elementos.find((e) => e.celdas.includes(c))
 
 const reemplazar = (p: Plano, nuevo: ElementoPlano): Plano => ({ ...p, elementos: p.elementos.map((e) => (e.id === nuevo.id ? nuevo : e)) })
 
 /** Un elemento de ese tipo puede ocupar el cuadradito: es piso, está libre y, si es puerta o ventana, da a una pared */
-export const puedeIr = (p: Plano, tipo: TipoElemento, c: number): boolean => p.suelo.includes(c) && !elementoEn(p, c) && (!esReferencia(tipo) || contraPared(p.suelo, c))
+export const puedeIr = (p: Plano, tipo: TipoElemento, c: number): boolean => p.suelo.includes(c) && !elementoEn(p, c) && (!vaEnPared(tipo) || contraPared(p.suelo, c))
 
 /** Cambia el piso. Cada elemento pierde los cuadraditos que ya no le sirven, y se va si no le queda ninguno. */
 export function conSuelo(p: Plano, suelo: number[]): Plano {
   const orden = [...suelo].sort((a, b) => a - b)
   const elementos = p.elementos
-    .map((e) => ({ ...e, celdas: e.celdas.filter((c) => orden.includes(c) && (!esReferencia(e.tipo) || contraPared(orden, c))) }))
+    .map((e) => ({ ...e, celdas: e.celdas.filter((c) => orden.includes(c) && (!vaEnPared(e.tipo) || contraPared(orden, c))) }))
     .filter((e) => e.celdas.length > 0)
   return { suelo: orden, elementos }
 }
 
-/** Suma o saca un cuadradito del piso. Siempre queda al menos uno. */
-export function alternarSuelo(p: Plano, c: number): Plano {
-  if (!p.suelo.includes(c)) return conSuelo(p, [...p.suelo, c])
-  return p.suelo.length > 1 ? conSuelo(p, p.suelo.filter((x) => x !== c)) : p
+/**
+ * Pinta o despinta un cuadradito del piso. Mientras se dibuja la forma los elementos no se tocan
+ * (si se vuelve a pintar, siguen ahí); al terminar, `conSuelo` saca los que quedaron afuera.
+ */
+export function pintarSuelo(p: Plano, c: number, pintar: boolean): Plano {
+  if (p.suelo.includes(c) === pintar) return p
+  return { ...p, suelo: pintar ? [...p.suelo, c].sort((a, b) => a - b) : p.suelo.filter((x) => x !== c) }
 }
 
 /** Empieza un elemento todavía sin cuadraditos: se le van tildando con `alternarCelda` */

@@ -80,7 +80,13 @@ export interface PlantaEnEspacio {
   lugar?: string
 }
 
-export type TipoElemento = 'ventana' | 'puerta' | 'mesa' | 'mueble' | 'estante' | 'gancho'
+/** Todo lo que se puede dibujar en un plano. Qué se ofrece en cada espacio lo define `plano.ts`. */
+export const TIPOS_ELEMENTO = [
+  'ventana', 'puerta',
+  'sillon', 'tele', 'cama', 'placard', 'horno', 'heladera', 'bacha', 'ducha', 'inodoro', 'bidet', 'parrilla', 'lavarropas', 'silla', 'compu',
+  'mesa', 'mueble', 'estante', 'gancho', 'mesada', 'baranda',
+] as const
+export type TipoElemento = (typeof TIPOS_ELEMENTO)[number]
 
 export interface ElementoPlano {
   id: string

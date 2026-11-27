@@ -3,8 +3,8 @@ import { DATOS_INICIALES } from '../store/useStore'
 import { esquemaDatos, migrar } from './backup'
 import { agregarPlanta, moverPlanta, quitarPlanta } from './espacios'
 import { fusionar } from './fusion'
-import { CELDAS, LUGARES, REFERENCIAS, alternarCelda, alternarSuelo, conSuelo, contraPared, esReferencia, formaDe, franja, limpiar, lugarPiso, lugarValido, nuevoElemento, numeroDe, plantasEn, ponerPlano, puedeIr, quitarElemento, renombrar, sueloDe } from './plano'
-import type { Espacio, Plano } from './tipos'
+import { CELDAS, alternarCelda, conSuelo, contraPared, esReferencia, formaDe, franja, limpiar, lugarPiso, lugarValido, lugaresDe, nuevoElemento, numeroDe, pintarSuelo, plantasEn, ponerPlano, puedeIr, quitarElemento, referenciasDe, renombrar, sueloDe, vaEnPared } from './plano'
+import { TIPOS_ELEMENTO, type Espacio, type Plano, type TipoEspacio } from './tipos'
 
 const plano: Plano = {
   suelo: sueloDe('rectangulo'),
@@ -31,17 +31,22 @@ describe('forma del espacio', () => {
     expect(formaDe(sueloDe('l'))).toBe('l')
     expect(formaDe(sueloDe('l').slice(1))).toBeNull()
   })
-  it('se retoca de a un cuadradito y nunca queda vacío', () => {
-    const sin = alternarSuelo(plano, 0)
+  it('se pinta y se despinta de a un cuadradito, hasta quedar en blanco', () => {
+    const sin = pintarSuelo(plano, 0, false)
     expect(sin.suelo).not.toContain(0)
-    expect(alternarSuelo(sin, 0).suelo).toEqual(plano.suelo)
-    const uno: Plano = { suelo: [7], elementos: [] }
-    expect(alternarSuelo(uno, 7)).toBe(uno)
+    expect(pintarSuelo(sin, 0, false)).toBe(sin)
+    expect(pintarSuelo(sin, 0, true).suelo).toEqual(plano.suelo)
+    expect(pintarSuelo({ suelo: [7], elementos: [] }, 7, false).suelo).toEqual([])
   })
-  it('al sacar piso, un elemento pierde ese cuadradito y se va si era el último', () => {
+  it('despintar y volver a pintar no pierde lo que había', () => {
+    const p = pintarSuelo(pintarSuelo(plano, 6, false), 6, true)
+    expect(conSuelo(p, p.suelo)).toEqual(plano)
+  })
+  it('al cerrar la forma, un elemento pierde lo que quedó afuera y se va si no le queda nada', () => {
     const p = tildar(plano, 'el-e', 7)
-    expect(alternarSuelo(p, 6).elementos[1].celdas).toEqual([7])
-    expect(alternarSuelo(plano, 6).elementos.map((e) => e.id)).toEqual(['el-v', 'el-p'])
+    const sin = pintarSuelo(p, 6, false)
+    expect(conSuelo(sin, sin.suelo).elementos[1].celdas).toEqual([7])
+    expect(conSuelo(plano, pintarSuelo(plano, 6, false).suelo).elementos.map((e) => e.id)).toEqual(['el-v', 'el-p'])
   })
   it('una ventana que deja de dar a la pared se va', () => {
     const chico: Plano = { suelo: [0, 1, 2], elementos: [{ id: 'el-v', tipo: 'ventana', celdas: [1] }] }
@@ -51,10 +56,26 @@ describe('forma del espacio', () => {
 })
 
 describe('elementos', () => {
+  const ESPACIOS: TipoEspacio[] = ['living', 'dormitorio', 'cocina', 'bano', 'balcon', 'escritorio']
   it('cada tipo es referencia o lugar para plantas, nunca las dos cosas', () => {
-    expect([...REFERENCIAS, ...LUGARES].sort()).toEqual(['estante', 'gancho', 'mesa', 'mueble', 'puerta', 'ventana'])
-    expect(REFERENCIAS.every(esReferencia)).toBe(true)
-    expect(LUGARES.some(esReferencia)).toBe(false)
+    const ofrecidos = ESPACIOS.flatMap((t) => [...referenciasDe(t), ...lugaresDe(t)])
+    expect(new Set(ofrecidos)).toEqual(new Set(TIPOS_ELEMENTO))
+    for (const t of ESPACIOS) {
+      expect(referenciasDe(t).every(esReferencia)).toBe(true)
+      expect(lugaresDe(t).some(esReferencia)).toBe(false)
+    }
+  })
+  it('cada espacio ofrece lo suyo, y puertas y ventanas en todos', () => {
+    expect(referenciasDe('bano')).toEqual(['ventana', 'puerta', 'ducha', 'inodoro', 'bidet', 'bacha'])
+    expect(lugaresDe('cocina')).toContain('mesada')
+    expect(lugaresDe('living')).not.toContain('mesada')
+    for (const t of ESPACIOS) expect(referenciasDe(t).slice(0, 2)).toEqual(['ventana', 'puerta'])
+  })
+  it('solo puertas y ventanas piden pared; el resto va en cualquier lado del piso y no lleva plantas', () => {
+    expect(TIPOS_ELEMENTO.filter(vaEnPared)).toEqual(['ventana', 'puerta'])
+    const p = tildar(nuevoElemento(plano, 'inodoro', 'el-i'), 'el-i', 14)
+    expect(lugarValido(p, 'el-i')).toBe(false)
+    expect(esquemaDatos.safeParse({ ...DATOS_INICIALES, espacios: [{ ...living, tipo: 'bano', plano: p }] }).success).toBe(true)
   })
   it('se arman tildando cuadraditos, con cualquier forma', () => {
     const p = tildar(nuevoElemento(plano, 'mesa', 'el-m'), 'el-m', 15, 14, 20)

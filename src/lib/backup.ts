@@ -1,9 +1,9 @@
 import { z } from 'zod'
 import { MIGRACIONES } from './migraciones'
-import type { DatosPersistidos } from './tipos'
+import { TIPOS_ELEMENTO, type DatosPersistidos } from './tipos'
 
 /** Versión del formato de datos persistidos. Subir al cambiar el modelo y agregar migración. */
-export const VERSION_DATOS = 9
+export const VERSION_DATOS = 10
 const MAX_BYTES = 1_000_000
 
 const idSeguro = z.string().regex(/^[a-z0-9-]{1,60}$/)
@@ -66,7 +66,7 @@ export const esquemaDatos = z.object({
           .object({
             suelo: z.array(celda).min(1).max(36),
             elementos: z
-              .array(z.object({ id: idSeguro, tipo: z.enum(['ventana', 'puerta', 'mesa', 'mueble', 'estante', 'gancho']), celdas: z.array(celda).min(1).max(36), nombre: z.string().max(30).optional() }))
+              .array(z.object({ id: idSeguro, tipo: z.enum(TIPOS_ELEMENTO), celdas: z.array(celda).min(1).max(36), nombre: z.string().max(30).optional() }))
               .max(36),
           })
           .optional(),

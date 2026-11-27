@@ -1,26 +1,27 @@
 import { Check, ChevronRight, Pencil, Plus, Sprout } from 'lucide-react'
-import { useState, type CSSProperties } from 'react'
+import { useRef, useState, type CSSProperties, type PointerEvent as EventoPuntero } from 'react'
 import { Boton } from '../../components/Boton'
 import { Panel } from '../../components/Panel'
 import type { Planta } from '../../data/plantas'
 import { TC } from '../../data/textosCatalogo'
 import { MAX_PLANTAS_ESPACIO } from '../../lib/espacios'
 import { vibrar } from '../../lib/haptics'
-import { CELDAS, FORMAS, LADO, LUGARES, REFERENCIAS, alternarCelda, alternarSuelo, conSuelo, elementoEn, esReferencia, formaDe, franja, limpiar, lugarPiso, nuevoElemento, numeroDe, plantasEn, puedeIr, quitarElemento, renombrar, sueloDe } from '../../lib/plano'
+import { CELDAS, FORMAS, LADO, alternarCelda, conSuelo, elementoEn, esReferencia, formaDe, franja, limpiar, lugarPiso, lugaresDe, nuevoElemento, numeroDe, pintarSuelo, plantasEn, puedeIr, quitarElemento, referenciasDe, renombrar, sueloDe, vaEnPared } from '../../lib/plano'
 import type { ElementoPlano, Espacio, Plano, TipoElemento } from '../../lib/tipos'
 import { useStore } from '../../store/useStore'
 import { BotonAgregarPlanta, FilasPlantas } from './PlantasEspacio'
 
 const T = TC.espacio.plano
-/** Las referencias son bloques llenos y rectos, como parte de la pared; los lugares, tarjetas verdes con una hoja */
-const REFERENCIA: Record<'ventana' | 'puerta', string> = { ventana: 'border-agua bg-agua text-white', puerta: 'border-terracota-osc bg-terracota-osc text-white' }
+/** Las referencias son bloques llenos y rectos (ventana y puerta con color propio, el resto gris); los lugares, tarjetas verdes con una hoja */
+const REFERENCIA: Partial<Record<TipoElemento, string>> = { ventana: 'border-agua bg-agua text-white', puerta: 'border-terracota-osc bg-terracota-osc text-white' }
+const FIJO = 'border-tinta-suave bg-tinta-suave text-white'
 const LUGAR = 'border-hoja bg-brote text-hoja-osc'
-const claseElemento = (t: TipoElemento) => (t === 'ventana' || t === 'puerta' ? REFERENCIA[t] : LUGAR)
+const claseElemento = (t: TipoElemento) => (esReferencia(t) ? (REFERENCIA[t] ?? FIJO) : LUGAR)
 type Paso = 'forma' | 'referencias' | 'lugares'
 
 /** El color de cada cosa en chiquito, para la leyenda y la paleta */
 const muestra = (t: TipoElemento | 'piso') =>
-  `size-4 shrink-0 border-2 ${t === 'piso' ? 'rounded-xs border-arena-osc bg-white' : t === 'ventana' || t === 'puerta' ? `rounded-xs ${REFERENCIA[t]}` : 'rounded-md border-hoja bg-brote'}`
+  `size-4 shrink-0 border-2 ${t === 'piso' ? 'rounded-xs border-arena-osc bg-white' : `${esReferencia(t) ? 'rounded-xs' : 'rounded-md'} ${claseElemento(t)}`}`
 const chip = (activo: boolean) => `min-h-11 rounded-full border-2 px-2 text-[14px] font-extrabold ${activo ? 'border-hoja bg-hoja text-white' : 'border-arena-osc text-tinta bg-white'}`
 
 /** El nombre propio o "Estante 2"; también "Piso" y "Sin ubicar" */
@@ -47,13 +48,54 @@ function forma(el: ElementoPlano, c: number): { caja: CSSProperties; fondo: CSSP
 
 /**
  * El espacio visto desde arriba. En 'forma' se toca cualquier celda; en el resto, solo las del piso.
- * `activo` es el elemento que se está tildando y `tipoActivo` su tipo: marca dónde puede ir.
+ * `activo` es el elemento que se está tildando: marca dónde puede ir.
+ * Con `onPintar` se puede deslizar el dedo: el primer cuadradito decide si se pinta o se despinta.
  */
-function Cuadricula({ plano, modo, espacio, activo, onCelda }: { plano: Plano; modo: Paso | 'ver'; espacio?: Espacio; activo?: ElementoPlano; onCelda: (c: number) => void }) {
+function Cuadricula({ plano, modo, espacio, activo, onCelda, onPintar }: { plano: Plano; modo: Paso | 'ver'; espacio?: Espacio; activo?: ElementoPlano; onCelda: (c: number) => void; onPintar?: (c: number, pintar: boolean) => void }) {
+  const trazo = useRef<{ pintar: boolean; x: number; y: number; ultima: number } | null>(null)
+  const pintada = (c: number) => (activo ? activo.celdas.includes(c) : plano.suelo.includes(c))
+  const celdaEn = (x: number, y: number) => {
+    const c = document.elementFromPoint(x, y)?.closest<HTMLElement>('[data-celda]')?.dataset.celda
+    return c === undefined ? null : Number(c)
+  }
+  const pasar = (c: number, pintar: boolean) => {
+    if (pintada(c) !== pintar) vibrar('toque')
+    onPintar?.(c, pintar)
+  }
+  const empezarTrazo = (e: EventoPuntero<HTMLDivElement>) => {
+    const c = celdaEn(e.clientX, e.clientY)
+    if (!onPintar || c === null || e.button !== 0) return
+    e.currentTarget.setPointerCapture(e.pointerId)
+    trazo.current = { pintar: !pintada(c), x: e.clientX, y: e.clientY, ultima: c }
+    pasar(c, trazo.current.pintar)
+  }
+  const seguirTrazo = (e: EventoPuntero<HTMLDivElement>) => {
+    const t = trazo.current
+    if (!t) return
+    // Se recorre el tramo de a poco para no saltearse cuadraditos si el dedo va rápido
+    const pasos = Math.max(1, Math.ceil(Math.hypot(e.clientX - t.x, e.clientY - t.y) / 12))
+    for (let i = 1; i <= pasos; i++) {
+      const c = celdaEn(t.x + ((e.clientX - t.x) * i) / pasos, t.y + ((e.clientY - t.y) * i) / pasos)
+      if (c === null || c === t.ultima) continue
+      t.ultima = c
+      pasar(c, t.pintar)
+    }
+    t.x = e.clientX
+    t.y = e.clientY
+  }
+  const cortarTrazo = () => {
+    trazo.current = null
+  }
   const lugar = (c: number) => `${(c % LADO) + 1}`
   const renglon = (c: number) => `${Math.floor(c / LADO) + 1}`
   return (
-    <div className="mx-auto grid aspect-square w-full max-w-[360px] grid-cols-6 grid-rows-6">
+    <div
+      className={`mx-auto grid aspect-square w-full max-w-[360px] grid-cols-6 grid-rows-6 ${onPintar ? 'touch-none' : ''}`}
+      onPointerDown={empezarTrazo}
+      onPointerMove={seguirTrazo}
+      onPointerUp={cortarTrazo}
+      onPointerCancel={cortarTrazo}
+    >
       {Array.from({ length: CELDAS }, (_, c) => {
         const piso = plano.suelo.includes(c)
         const el = modo === 'forma' ? undefined : elementoEn(plano, c)
@@ -80,11 +122,14 @@ function Cuadricula({ plano, modo, espacio, activo, onCelda }: { plano: Plano; m
           <button
             key={c}
             type="button"
+            data-celda={c}
             aria-label={etiqueta}
             aria-pressed={modo === 'forma' ? piso : activo ? tildado : undefined}
             style={{ ...posicion, ...(f ? f.caja : { padding: '2px' }) }}
             disabled={modo === 'ver' && el && esReferencia(el.tipo)}
-            onClick={() => {
+            onClick={(ev) => {
+              // Al pintar, el dedo y el mouse ya actuaron al apoyarse; el click queda para el teclado
+              if (onPintar && ev.detail > 0) return
               vibrar('toque')
               onCelda(c)
             }}
@@ -136,6 +181,7 @@ function Leyenda() {
   const filas = [
     ['ventana', T.tipo.ventana],
     ['puerta', T.tipo.puerta],
+    ['placard', T.leyenda.fijo],
     ['mesa', T.leyenda.lugar],
     ['piso', T.leyenda.piso],
   ] as const
@@ -211,7 +257,7 @@ function FichaElemento({ plano, elemento: el, onCambio, onQuitar }: { plano: Pla
           {T.quitarElemento(tipo)}
         </button>
       </div>
-      <p className="text-tinta m-0 text-[14px] leading-snug font-bold">{esReferencia(el.tipo) ? T.tildarPared : T.tildar}</p>
+      <p className="text-tinta m-0 text-[14px] leading-snug font-bold">{vaEnPared(el.tipo) ? T.tildarPared : T.tildar}</p>
       <input
         value={el.nombre ?? ''}
         onChange={(e) => onCambio(renombrar(plano, el.id, e.target.value))}
@@ -227,7 +273,7 @@ function FichaElemento({ plano, elemento: el, onCambio, onQuitar }: { plano: Pla
   )
 }
 
-/** Armado del plano en tres pasos: forma, puertas y ventanas, y lugares para plantas. Nada se guarda hasta el final. */
+/** Armado del plano en tres pasos: forma, referencias y lugares para plantas. Nada se guarda hasta el final. */
 export function EditorPlano({ espacio, onCerrar }: { espacio: Espacio | null; onCerrar: () => void }) {
   const guardar = useStore((s) => s.guardarPlano)
   const [de, setDe] = useState<string | null>(null)
@@ -261,13 +307,22 @@ export function EditorPlano({ espacio, onCerrar }: { espacio: Espacio | null; on
     setActivoId(id)
     setAviso(null)
   }
+  /** Tilda o destilda un cuadradito del elemento activo; si no se puede, avisa por qué */
+  const tildar = (c: number, poner: boolean) => {
+    if (!activo) return
+    const id = activo.id
+    const cambio = (p: Plano) => (p.elementos.find((e) => e.id === id)?.celdas.includes(c) === poner ? p : alternarCelda(p, id, c))
+    const r = cambio(plano)
+    setAviso(typeof r === 'string' ? (r === 'pared' ? T.pared : T.ocupado) : null)
+    // Al deslizar llegan varios cambios seguidos: cada uno parte del anterior
+    setPlano((p) => {
+      const nuevo = cambio(p)
+      return typeof nuevo === 'string' ? p : nuevo
+    })
+  }
+  const pintar = (c: number, poner: boolean) => setPlano((p) => pintarSuelo(p, c, poner))
   const tocar = (c: number) => {
-    if (activo) {
-      const r = alternarCelda(plano, activo.id, c)
-      if (typeof r === 'string') return setAviso(r === 'pared' ? T.pared : T.ocupado)
-      setAviso(null)
-      return setPlano(r)
-    }
+    if (activo) return tildar(c, !activo.celdas.includes(c))
     const puesto = elementoEn(plano, c)
     if (!puesto) return setAviso(T.primeroElegi)
     // Cada paso toca solo lo suyo
@@ -284,14 +339,25 @@ export function EditorPlano({ espacio, onCerrar }: { espacio: Espacio | null; on
     setPaso(p)
     setAviso(null)
   }
+  /** Al dejar la forma, se va lo que quedó fuera del piso */
+  const cerrarForma = () => {
+    const nuevo = conSuelo(plano, plano.suelo)
+    const perdidos = plano.elementos.length - nuevo.elementos.length
+    setPlano(nuevo)
+    irA('referencias')
+    if (perdidos > 0) setAviso(T.quitadosPorForma(perdidos))
+  }
   const esForma = paso === 'forma'
   const numero = { forma: 1, referencias: 2, lugares: 3 }[paso]
   const titulo = { forma: T.pasoForma, referencias: T.pasoReferencias, lugares: T.pasoLugares }[paso]
-  const ayuda = { forma: T.ayudaForma, referencias: T.ayudaReferencias, lugares: T.ayudaLugares }[paso]
+  const sinPiso = plano.suelo.length === 0
+  const ayuda = { forma: sinPiso ? T.sinPiso : T.ayudaForma, referencias: T.ayudaReferencias(TC.espacio.enTu[espacio?.tipo ?? 'living']), lugares: T.ayudaLugares }[paso]
   const pie = activo ? (
     <Boton onClick={soltar}>{T.listoCon[activo.tipo]}</Boton>
   ) : esForma ? (
-    <Boton onClick={() => irA('referencias')}>{T.seguirReferencias}</Boton>
+    <Boton disabled={sinPiso} onClick={cerrarForma}>
+      {T.seguirReferencias}
+    </Boton>
   ) : paso === 'referencias' ? (
     <Boton onClick={() => irA('lugares')}>{T.seguirLugares}</Boton>
   ) : (
@@ -310,19 +376,30 @@ export function EditorPlano({ espacio, onCerrar }: { espacio: Espacio | null; on
         {esForma && (
           <div className="grid grid-cols-3 gap-2">
             {FORMAS.map((f) => (
-              <button key={f} type="button" aria-pressed={formaDe(plano.suelo) === f} onClick={() => setPlano(conSuelo(plano, sueloDe(f)))} className={chip(formaDe(plano.suelo) === f)}>
+              <button key={f} type="button" aria-pressed={formaDe(plano.suelo) === f} onClick={() => setPlano({ ...plano, suelo: sueloDe(f) })} className={chip(formaDe(plano.suelo) === f)}>
                 {T.formas[f]}
               </button>
             ))}
           </div>
         )}
-        <Cuadricula plano={plano} modo={paso} activo={activo} onCelda={esForma ? (c) => setPlano(alternarSuelo(plano, c)) : tocar} />
+        <Cuadricula
+          plano={plano}
+          modo={paso}
+          activo={activo}
+          onCelda={esForma ? (c) => pintar(c, !plano.suelo.includes(c)) : tocar}
+          onPintar={esForma ? pintar : activo ? tildar : undefined}
+        />
         {esForma ? (
-          espacio?.plano && (
-            <button type="button" onClick={() => (seguro ? terminar(undefined) : setSeguro(true))} className="text-alerta min-h-11 border-0 bg-transparent text-[14px] font-extrabold underline">
-              {seguro ? T.quitarSeguro : T.quitar}
+          <>
+            <button type="button" disabled={sinPiso} onClick={() => setPlano({ ...plano, suelo: [] })} className="text-hoja-osc min-h-11 border-0 bg-transparent text-[15px] font-extrabold underline disabled:opacity-40">
+              {T.despintarTodo}
             </button>
-          )
+            {espacio?.plano && (
+              <button type="button" onClick={() => (seguro ? terminar(undefined) : setSeguro(true))} className="text-alerta min-h-11 border-0 bg-transparent text-[14px] font-extrabold underline">
+                {seguro ? T.quitarSeguro : T.quitar}
+              </button>
+            )}
+          </>
         ) : (
           <>
             {aviso && (
@@ -345,7 +422,7 @@ export function EditorPlano({ espacio, onCerrar }: { espacio: Espacio | null; on
               <>
                 <h2 className="font-display text-tinta m-0 text-[18px] font-semibold">{T.queAgregar}</h2>
                 <div className="grid grid-cols-2 gap-2">
-                  {(paso === 'referencias' ? REFERENCIAS : LUGARES).map((t) => (
+                  {(!espacio ? [] : paso === 'referencias' ? referenciasDe(espacio.tipo) : lugaresDe(espacio.tipo)).map((t) => (
                     <button key={t} type="button" aria-label={T.agregar(T.tipo[t])} onClick={() => empezar(t)} className="border-arena-osc text-tinta flex min-h-12 items-center gap-2 rounded-full border-2 bg-white px-3 text-[15px] font-extrabold">
                       <Plus size={17} strokeWidth={3} className="text-hoja-osc shrink-0" aria-hidden />
                       <span className={muestra(t)} aria-hidden />
