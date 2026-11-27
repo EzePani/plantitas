@@ -4,8 +4,9 @@ import { CAUSA } from '../data/textosGuardia'
 import { entradaPorId } from '../data/wiki'
 import { DATOS_INICIALES } from '../store/useStore'
 import { esquemaDatos, migrar } from './backup'
+import { medidas } from './fotos'
 import { fusionar } from './fusion'
-import { GRUPOS_SINTOMAS, SIN_CONTEXTO, anotarControl, cerrarEl, contextoDe, corregirFecha, diagnosticar, enTratamiento, limitesDeFecha, pendientes, proximoControl, revisarCaso, tocaControl, unirCasos } from './guardia'
+import { GRUPOS_SINTOMAS, SIN_CONTEXTO, anotarControl, anotarVisita, borrarVisita, sinVisitas, cerrarEl, contextoDe, corregirFecha, diagnosticar, enTratamiento, limitesDeFecha, pendientes, proximoControl, revisarCaso, tocaControl, unirCasos } from './guardia'
 import { CAUSAS, SINTOMAS, type Caso, type Control, type Espacio, type RespuestasGuardia } from './tipos'
 
 const r = (x: Partial<RespuestasGuardia> = {}): RespuestasGuardia => ({ sintomas: [], tierra: 'humeda', cambios: [], notas: '', ...x })
@@ -134,6 +135,43 @@ describe('fechas del caso', () => {
   it('al sincronizar, el ingreso no queda después de un control', () => {
     const movido = corregirFecha(caso, 'ingreso', '2026-11-04', hoy)
     expect(unirCasos([movido], [anotarControl(caso, control('2026-11-02'))])[0].ingreso).toBe('2026-11-02')
+  })
+})
+
+describe('visitas al vivero', () => {
+  const hoy = '2026-11-20'
+  const visita = { id: 'visita-1', fecha: '2026-11-10', dijo: ' Tiene cochinilla ' }
+  const con1 = anotarVisita(caso, visita, hoy)
+  it('guarda cuándo fue y qué le dijeron, en orden de fecha', () => {
+    expect(con1.vivero).toEqual([{ ...visita, dijo: 'Tiene cochinilla' }])
+    // Puede haber ido antes de ingresarla a la Guardia
+    expect(anotarVisita(con1, { id: 'visita-2', fecha: '2026-10-30', dijo: 'Poca luz' }, hoy).vivero?.map((v) => v.id)).toEqual(['visita-2', 'visita-1'])
+  })
+  it('se corrige por id y no acepta vacíos ni fechas futuras', () => {
+    expect(anotarVisita(con1, { ...visita, fecha: '2026-11-12', dijo: 'Hongos' }, hoy).vivero).toEqual([{ id: 'visita-1', fecha: '2026-11-12', dijo: 'Hongos' }])
+    expect(anotarVisita(con1, { ...visita, dijo: '  ' }, hoy)).toBe(con1)
+    expect(anotarVisita(caso, { ...visita, fecha: '2026-11-21' }, hoy)).toBe(caso)
+  })
+  it('"no" se recuerda, no pisa visitas y al borrar la última vuelve la pregunta', () => {
+    expect(sinVisitas(caso).vivero).toEqual([])
+    expect(sinVisitas(con1)).toBe(con1)
+    expect(borrarVisita(con1, 'visita-1')).not.toHaveProperty('vivero')
+  })
+  it('se guarda y al sincronizar se juntan', () => {
+    for (const c of [con1, sinVisitas(caso)]) expect(esquemaDatos.parse({ ...DATOS_INICIALES, casos: [c] }).casos[0]).toEqual(c)
+    const otra = anotarVisita(caso, { id: 'visita-2', fecha: '2026-11-15', dijo: 'Mejorando' }, hoy)
+    expect(unirCasos([con1], [otra])[0].vivero?.map((v) => v.id)).toEqual(['visita-1', 'visita-2'])
+    expect(unirCasos([caso], [con1])[0].vivero).toEqual(con1.vivero)
+    expect(unirCasos([caso], [caso])[0]).not.toHaveProperty('vivero')
+  })
+})
+
+describe('fotos', () => {
+  it('se achican sin deformarse y las chicas quedan igual', () => {
+    expect(medidas(4000, 3000)).toEqual([1280, 960])
+    expect(medidas(3000, 4000)).toEqual([960, 1280])
+    expect(medidas(800, 600)).toEqual([800, 600])
+    expect(medidas(5000, 1)).toEqual([1280, 1])
   })
 })
 

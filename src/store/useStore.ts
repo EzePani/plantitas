@@ -3,7 +3,8 @@ import { persist } from 'zustand/middleware'
 import { VERSION_DATOS, esquemaDatos, migrar } from '../lib/backup'
 import { agregarPlanta, moverPlanta, quitarPlanta } from '../lib/espacios'
 import { hoyLocal } from '../lib/fecha'
-import { MAX_CASOS, anotarControl, revisarCaso, cerrarEl, corregirFecha, dentroDe, limitesDeIngresoNuevo, type FechaDeCaso } from '../lib/guardia'
+import { MAX_CASOS, anotarControl, revisarCaso, anotarVisita, borrarVisita, sinVisitas, cerrarEl, corregirFecha, dentroDe, limitesDeIngresoNuevo, type FechaDeCaso } from '../lib/guardia'
+import { borrarFoto, borrarFotos } from '../lib/fotos'
 import { MAX_HIJITOS, aplicarCorreccion, errorDeFechas, normalizar, type CorreccionHijito } from '../lib/hijitos'
 import { ponerLuz } from '../lib/lugares'
 import type { CategoriaLuz } from '../lib/luz'
@@ -20,7 +21,7 @@ import {
   type InsigniaId,
 } from '../lib/gamificacion'
 import { asignarPerfil } from '../lib/perfil'
-import type { Caso, CausaId, Control, DatosMascotas, DatosPersistidos, Espacio, Plano, Esfuerzo, Hijito, PerfilLuz, RespuestasGuardia, Respuestas, Tiempo, TipoEspacio, UnidadId } from '../lib/tipos'
+import type { Caso, CausaId, Control, DatosMascotas, DatosPersistidos, Espacio, Plano, Esfuerzo, Hijito, PerfilLuz, RespuestasGuardia, Respuestas, Tiempo, TipoEspacio, UnidadId, VisitaVivero } from '../lib/tipos'
 import { LECCIONES_POR_UNIDAD } from '../data/lessons'
 
 export const DATOS_INICIALES: DatosPersistidos = {
@@ -104,6 +105,10 @@ interface Acciones {
   cerrarCaso: (id: string, tipo: 'alta' | 'despedida', fecha?: string) => void
   corregirFechaCaso: (id: string, cual: FechaDeCaso, fecha: string) => void
   borrarCaso: (id: string) => void
+  /** Sin id es una visita nueva */
+  anotarVisitaCaso: (id: string, visita: Omit<VisitaVivero, 'id'> & { id?: string }) => void
+  sinVisitasCaso: (id: string) => void
+  borrarVisitaCaso: (id: string, visitaId: string) => void
   /** Guarda qué preguntas de una lección se fallaron, para repetirlas en el refuerzo */
   anotarRespuestas: (falladas: string[], acertadas: string[]) => void
   completarRefuerzo: (aciertos: number, total: number, falladas: string[], acertadas: string[]) => Resumen
@@ -286,7 +291,16 @@ export const useStore = create<Estado>()(
       revisarSintomas: (id, r, causas) => set((s) => ({ casos: s.casos.map((c) => (c.id === id ? revisarCaso(c, r, causas, hoyLocal()) : c)) })),
       cerrarCaso: (id, tipo, fecha) => set((s) => ({ casos: s.casos.map((c) => (c.id === id ? cerrarEl(c, tipo, fecha ?? hoyLocal(), hoyLocal()) : c)) })),
       corregirFechaCaso: (id, cual, fecha) => set((s) => ({ casos: s.casos.map((c) => (c.id === id ? corregirFecha(c, cual, fecha, hoyLocal()) : c)) })),
-      borrarCaso: (id) => set((s) => ({ casos: s.casos.filter((c) => c.id !== id) })),
+      anotarVisitaCaso: (id, visita) => {
+        const visitaId = visita.id ?? `visita-${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`
+        set((s) => ({ casos: s.casos.map((c) => (c.id === id ? anotarVisita(c, { ...visita, id: visitaId }, hoyLocal()) : c)) }))
+      },
+      sinVisitasCaso: (id) => set((s) => ({ casos: s.casos.map((c) => (c.id === id ? sinVisitas(c) : c)) })),
+      borrarVisitaCaso: (id, visitaId) => set((s) => ({ casos: s.casos.map((c) => (c.id === id ? borrarVisita(c, visitaId) : c)) })),
+      borrarCaso: (id) => {
+        set((s) => ({ casos: s.casos.filter((c) => c.id !== id) }))
+        void borrarFoto(id)
+      },
 
       anotarRespuestas: (falladas, acertadas) => set((s) => ({ refuerzo: { ...s.refuerzo, fallidas: actualizarFallidas(s.refuerzo.fallidas, falladas, acertadas) } })),
 
@@ -308,7 +322,10 @@ export const useStore = create<Estado>()(
       posponerRefuerzo: () => set((s) => ({ refuerzo: { ...s.refuerzo, ultimo: hoyLocal(), leccionesAlUltimo: leccionesHechas(s.completadas).length } })),
 
       reemplazarDatos: (d) => set({ ...d }),
-      reiniciar: () => set({ ...DATOS_INICIALES }),
+      reiniciar: () => {
+        set({ ...DATOS_INICIALES })
+        void borrarFotos()
+      },
     }),
     {
       name: 'plantitas-estado',

@@ -4,11 +4,13 @@ import { luzParaPlanta } from './lugares'
 import { derivarLuz } from './luz'
 import { lugarValido } from './plano'
 import { calceDeLuz } from './recomendador'
-import type { Caso, CausaId, Control, Espacio, RespuestasGuardia, Sintoma, Cambio } from './tipos'
+import type { Caso, CausaId, Control, Espacio, RespuestasGuardia, Sintoma, Cambio, VisitaVivero } from './tipos'
 
 export const MAX_CASOS = 60
 export const MAX_CONTROLES = 200
 export const MAX_NOTA = 300
+export const MAX_VISITAS = 20
+export const MAX_DIAGNOSTICO = 500
 /** Durante la primera semana se controla todos los días */
 const PRIMERA_SEMANA = 7
 /** Cuánto para atrás se puede anotar un ingreso */
@@ -153,6 +155,28 @@ export function revisarCaso(c: Caso, r: RespuestasGuardia, causas: CausaId[], ho
   return { ...anotarControl(c, { fecha: hoy, estado: previo?.estado ?? 'peor', tierra: r.tierra, nota, sintomas: r.sintomas }), causas }
 }
 
+const porFecha = (a: VisitaVivero, b: VisitaVivero) => a.fecha.localeCompare(b.fecha)
+
+/** Contesta que no la llevó al vivero; no borra visitas ya anotadas */
+export const sinVisitas = (c: Caso): Caso => (c.vivero?.length ? c : { ...c, vivero: [] })
+
+/** Anota una visita al vivero o corrige la que tiene ese mismo id */
+export function anotarVisita(c: Caso, visita: VisitaVivero, hoy: string): Caso {
+  const previas = c.vivero ?? []
+  const previa = previas.find((v) => v.id === visita.id)
+  const dijo = visita.dijo.trim().slice(0, MAX_DIAGNOSTICO)
+  const fechaVale = visita.fecha === previa?.fecha || dentroDe(visita.fecha, limitesDeIngresoNuevo(hoy))
+  if (!dijo || !fechaVale || (!previa && previas.length >= MAX_VISITAS)) return c
+  return { ...c, vivero: [...previas.filter((v) => v.id !== visita.id), { ...visita, dijo }].sort(porFecha) }
+}
+
+/** Al borrar la última, vuelve a quedar sin contestar */
+export function borrarVisita(c: Caso, id: string): Caso {
+  const quedan = (c.vivero ?? []).filter((v) => v.id !== id)
+  const { vivero: _antes, ...resto } = c
+  return quedan.length ? { ...c, vivero: quedan } : resto
+}
+
 /** Un caso de dos dispositivos: se juntan los controles; el cierre de cualquiera vale */
 export function unirCasos(a: Caso[], b: Caso[]): Caso[] {
   const salida = a.map((c) => {
@@ -164,7 +188,9 @@ export function unirCasos(a: Caso[], b: Caso[]): Caso[] {
     const causas = ultimaRevision(otro) > ultimaRevision(c) ? otro.causas : c.causas
     // Si en el otro dispositivo hay un control anterior al ingreso corregido acá, manda el control
     const ingreso = controles[0] && controles[0].fecha < c.ingreso ? controles[0].fecha : c.ingreso
-    return { ...c, ingreso, causas, controles, ...(cierre && { cierre }) }
+    const nuevas = otro.vivero?.filter((v) => !c.vivero?.some((x) => x.id === v.id)) ?? []
+    const vivero = c.vivero || otro.vivero ? [...(c.vivero ?? []), ...nuevas].sort(porFecha).slice(-MAX_VISITAS) : undefined
+    return { ...c, ingreso, causas, controles, ...(vivero && { vivero }), ...(cierre && { cierre }) }
   })
   const ids = new Set(a.map((c) => c.id))
   return [...salida, ...b.filter((c) => !ids.has(c.id))].slice(0, MAX_CASOS)
