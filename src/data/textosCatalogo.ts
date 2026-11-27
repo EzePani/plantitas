@@ -339,6 +339,39 @@ export const TC = {
       sinUbicar: 'Sin ubicar',
       sinUbicarAyuda: 'Para ubicarlas, tocá un lugar del plano y sumalas desde ahí.',
       lugarVacio: 'Todavía no hay plantas en este lugar.',
+      luz: {
+        corregida: 'Elegida por vos',
+        distancia: (n: number) => (n <= 1 ? 'Está junto a una ventana.' : `Está a ${n} cuadraditos de la ventana más cercana.`),
+        tuya: 'La elegiste vos para este lugar.',
+        balcon: 'En el balcón vale la luz de todo el espacio.',
+        sinVentana: 'Marcá las ventanas en el plano para estimarla mejor. Por ahora uso la de todo el espacio.',
+        corregir: 'Corregir la luz',
+        pregunta: '¿Cuánta luz hay acá en realidad?',
+        automatica: 'Volver a la estimada',
+      },
+      avisos: {
+        luz: {
+          bien: 'Le sirve la luz de acá.',
+          con_ajuste: 'Le va con cuidado: filtrá el sol o corrila un poco de la ventana.',
+          poca_luz: 'Le falta luz acá.',
+          demasiado_sol: 'Acá recibe demasiado sol.',
+          calor: 'El sol fuerte de acá la puede quemar.',
+        },
+        noEsPara: (balcon: boolean) => `No es una planta para ${balcon ? 'balcón' : 'interior'}.`,
+        quien: (especies: ('gato' | 'perro')[]) => especies.map((e) => `tu ${e}`).join(' y '),
+        mascota: {
+          toxica: {
+            si: (q: string, v: boolean) => `Tóxica para ${q}, y acá la ${v ? 'alcanzan' : 'alcanza'}.`,
+            colgando: (q: string, v: boolean) => `Tóxica para ${q}: sus ramas cuelgan y la ${v ? 'pueden' : 'puede'} alcanzar.`,
+            no: (q: string, v: boolean) => `Tóxica para ${q}: acá no la ${v ? 'alcanzan' : 'alcanza'}, pero ojo con las hojas que caen.`,
+          },
+          no_verificada: {
+            si: (q: string, v: boolean) => `Sin verificar que sea segura para ${q}, y acá la ${v ? 'alcanzan' : 'alcanza'}.`,
+            colgando: (q: string, v: boolean) => `Sin verificar que sea segura para ${q}: sus ramas cuelgan y la ${v ? 'pueden' : 'puede'} alcanzar.`,
+            no: (q: string, v: boolean) => `Sin verificar que sea segura para ${q}. Acá no la ${v ? 'alcanzan' : 'alcanza'}.`,
+          },
+        },
+      },
     },
     pasos: {
       tipo: {

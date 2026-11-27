@@ -4,6 +4,8 @@ import { VERSION_DATOS, esquemaDatos, migrar } from '../lib/backup'
 import { agregarPlanta, moverPlanta, quitarPlanta } from '../lib/espacios'
 import { hoyLocal } from '../lib/fecha'
 import { MAX_HIJITOS, aplicarCorreccion, errorDeFechas, normalizar, type CorreccionHijito } from '../lib/hijitos'
+import { ponerLuz } from '../lib/lugares'
+import type { CategoriaLuz } from '../lib/luz'
 import { ponerPlano } from '../lib/plano'
 import { actualizarFallidas, leccionesHechas } from '../lib/refuerzo'
 import {
@@ -73,6 +75,8 @@ interface Acciones {
   moverPlantaEnEspacio: (espacioId: string, plantaId: string, desde: string | null, hacia: string | null) => void
   /** Guarda el plano de un espacio, o lo quita */
   guardarPlano: (espacioId: string, plano: Plano | undefined) => void
+  /** Corrige la luz de un lugar del plano; con null vuelve a la estimada */
+  corregirLuz: (espacioId: string, lugar: string, categoria: CategoriaLuz | null) => void
   alternarFavorita: (plantaId: string) => void
   /** Crea una colección vacía y devuelve su id (o null si el nombre está vacío o ya hay 20) */
   crearColeccion: (nombre: string) => string | null
@@ -217,6 +221,7 @@ export const useStore = create<Estado>()(
       quitarPlantaDeEspacio: (espacioId, plantaId, lugar) => set((s) => ({ espacios: s.espacios.map((e) => (e.id === espacioId ? quitarPlanta(e, plantaId, lugar) : e)) })),
       moverPlantaEnEspacio: (espacioId, plantaId, desde, hacia) => set((s) => ({ espacios: s.espacios.map((e) => (e.id === espacioId ? moverPlanta(e, plantaId, desde, hacia) : e)) })),
       guardarPlano: (espacioId, plano) => set((s) => ({ espacios: s.espacios.map((e) => (e.id === espacioId ? ponerPlano(e, plano) : e)) })),
+      corregirLuz: (espacioId, lugar, categoria) => set((s) => ({ espacios: s.espacios.map((e) => (e.id === espacioId ? ponerLuz(e, lugar, categoria) : e)) })),
 
       // Sin duplicados; las nuevas van primero
       alternarFavorita: (id) =>

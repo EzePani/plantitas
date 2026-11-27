@@ -87,7 +87,11 @@ export function calceEnEspacio(p: Planta, d: DatosEspacio): Calce {
   const seguridad = seguridadPara(p, d.mascotas)
   if (seguridad === 'toxica') return { nivel: 'no', motivo: 'toxica' }
   if (seguridad === 'no_verificada') return { nivel: 'no', motivo: 'no_verificada' }
-  const luz = derivarLuz(d.luz)
+  return calceDeLuz(p, derivarLuz(d.luz), interior)
+}
+
+/** La parte del calce que depende solo de la luz: sirve para un espacio entero o para un lugar del plano */
+export function calceDeLuz(p: Planta, luz: LuzDerivada, interior: boolean): { nivel: 'bien' | 'con_ajuste' } | { nivel: 'no'; motivo: 'poca_luz' | 'demasiado_sol' | 'calor' } {
   const comp = luzCompatible(p, luz, interior)
   if (comp === 'no') return { nivel: 'no', motivo: luz.categoria === 'directa' ? (luz.avisoCalor && !p.tolera_sol_tarde ? 'calor' : 'demasiado_sol') : 'poca_luz' }
   // Con aviso de calor, las muy sensibles sufren aunque la luz sea compatible

@@ -1,4 +1,4 @@
-import { Check, ChevronRight, Pencil, Plus, Sprout } from 'lucide-react'
+import { Check, ChevronRight, Pencil, Plus, Sprout, Sun } from 'lucide-react'
 import { useRef, useState, type CSSProperties, type PointerEvent as EventoPuntero } from 'react'
 import { Boton } from '../../components/Boton'
 import { Panel } from '../../components/Panel'
@@ -6,6 +6,8 @@ import type { Planta } from '../../data/plantas'
 import { TC } from '../../data/textosCatalogo'
 import { MAX_PLANTAS_ESPACIO } from '../../lib/espacios'
 import { vibrar } from '../../lib/haptics'
+import type { CategoriaLuz } from '../../lib/luz'
+import { luzDeLugar } from '../../lib/lugares'
 import { CELDAS, FORMAS, LADO, alternarCelda, conSuelo, elementoEn, esReferencia, formaDe, franja, limpiar, lugarPiso, lugaresDe, nuevoElemento, numeroDe, pintarSuelo, plantasEn, puedeIr, quitarElemento, referenciasDe, renombrar, sueloDe, vaEnPared } from '../../lib/plano'
 import type { ElementoPlano, Espacio, Plano, TipoElemento } from '../../lib/tipos'
 import { useStore } from '../../store/useStore'
@@ -232,12 +234,60 @@ export function TarjetaPlano({ espacio, onEditar, onLugar }: { espacio: Espacio;
   )
 }
 
+const CATEGORIAS: CategoriaLuz[] = ['directa', 'indirecta_brillante', 'indirecta_media', 'baja']
+
+/** Cuánta luz hay en un lugar: estimada por la distancia a las ventanas, y se puede corregir */
+function LuzDelLugar({ espacio, lugar }: { espacio: Espacio; lugar: string }) {
+  const corregir = useStore((s) => s.corregirLuz)
+  const [eligiendo, setEligiendo] = useState(false)
+  const { luz, origen, distancia } = luzDeLugar(espacio, lugar)
+  const L = T.luz
+  const porQue = origen === 'ventana' ? L.distancia(distancia!) : { corregida: L.tuya, balcon: L.balcon, sin_ventana: L.sinVentana }[origen]
+  const elegir = (c: CategoriaLuz | null) => {
+    vibrar('toque')
+    corregir(espacio.id, lugar, c)
+    setEligiendo(false)
+  }
+  return (
+    <section className="bg-sol-claro flex flex-col gap-1.5 rounded-2xl p-3">
+      <div className="flex items-center gap-2">
+        <Sun className="text-sol-osc shrink-0" aria-hidden />
+        <h2 className="font-display text-tinta m-0 flex-1 text-[18px] leading-tight font-semibold">{TC.luz.categorias[luz.categoria]}</h2>
+        <span className="text-sol-osc rounded-full bg-white px-2.5 py-0.5 text-[12px] font-extrabold tracking-wide uppercase">{origen === 'corregida' ? L.corregida : TC.luz.resumen.estimacion}</span>
+      </div>
+      <p className="text-tinta m-0 text-[14px] leading-snug font-bold">{porQue}</p>
+      {eligiendo ? (
+        <>
+          <p className="text-tinta m-0 mt-1 text-[14px] font-extrabold">{L.pregunta}</p>
+          <div className="grid grid-cols-2 gap-2">
+            {CATEGORIAS.map((c) => (
+              <button key={c} type="button" aria-pressed={luz.categoria === c} onClick={() => elegir(c)} className={chip(luz.categoria === c)}>
+                {TC.luz.categorias[c]}
+              </button>
+            ))}
+          </div>
+          {origen === 'corregida' && (
+            <button type="button" onClick={() => elegir(null)} className="text-hoja-osc min-h-11 border-0 bg-transparent text-[14px] font-extrabold underline">
+              {L.automatica}
+            </button>
+          )}
+        </>
+      ) : (
+        <button type="button" onClick={() => setEligiendo(true)} className="text-hoja-osc min-h-11 self-start border-0 bg-transparent p-0 text-[14px] font-extrabold underline">
+          {L.corregir}
+        </button>
+      )}
+    </section>
+  )
+}
+
 /** Lo que hay en un lugar del plano (o sin ubicar) */
 export function DetalleLugar({ espacio, lugar, onVerPlanta, onAgregar }: { espacio: Espacio; lugar: string | null; onVerPlanta: (p: Planta) => void; onAgregar: () => void }) {
   const vacio = plantasEn(espacio, lugar).length === 0
   return (
     <div className="flex flex-col gap-2.5 px-5 pb-6">
       {lugar === null && <p className="text-tinta-suave m-0 text-[14px] leading-snug font-bold">{T.sinUbicarAyuda}</p>}
+      {lugar !== null && espacio.plano && <LuzDelLugar key={lugar} espacio={espacio} lugar={lugar} />}
       {vacio && <p className="text-tinta-suave m-0 text-[15px] leading-snug font-bold">{T.lugarVacio}</p>}
       <FilasPlantas espacio={espacio} lugar={lugar} onVerPlanta={onVerPlanta} />
       <BotonAgregarPlanta lleno={espacio.plantas.length >= MAX_PLANTAS_ESPACIO} onClick={onAgregar} />

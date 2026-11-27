@@ -32,7 +32,7 @@ const MEDIODIA_SOLAR = 13
 const FIN_MANANA = 12
 const INICIO_TARDE = 15
 /** Sol directo que se asume cuando hay sol pero no se saben las horas */
-const HORAS_SI_NO_SABE = 3
+export const HORAS_SI_NO_SABE = 3
 
 export function tramosValidos(tramos: TramoSol[]): TramoSol[] {
   return tramos
