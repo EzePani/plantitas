@@ -59,7 +59,7 @@ export function conSuelo(p: Plano, suelo: number[]): Plano {
   const elementos = p.elementos
     .map((e) => ({ ...e, celdas: e.celdas.filter((c) => orden.includes(c) && (!vaEnPared(e.tipo) || contraPared(orden, c))) }))
     .filter((e) => e.celdas.length > 0)
-  return { suelo: orden, elementos }
+  return { ...p, suelo: orden, elementos }
 }
 
 /**
@@ -129,6 +129,12 @@ export const plantasEn = (e: Espacio, lugar: string | null): PlantaEnEspacio[] =
 export function ponerPlano(e: Espacio, plano: Plano | undefined): Espacio {
   const nuevo: Espacio = { ...e, plano }
   if (!plano) delete nuevo.plano
+  else if (plano.luces) {
+    // Las correcciones de luz de lugares que ya no existen se descartan
+    const { luces, ...resto } = plano
+    const vigentes = Object.entries(luces).filter(([lugar]) => lugarValido(plano, lugar))
+    nuevo.plano = vigentes.length ? { ...resto, luces: Object.fromEntries(vigentes) } : resto
+  }
   nuevo.plantas = e.plantas.map(({ lugar, ...p }) => (lugar && lugarValido(plano, lugar) ? { ...p, lugar } : p))
   return nuevo
 }

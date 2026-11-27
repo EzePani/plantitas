@@ -1,3 +1,4 @@
+import type { CategoriaLuz } from './luz'
 export type Experiencia = 'nunca' | 'murieron' | 'algunas' | 'bastante'
 export type Lugar = 'interior' | 'balcon' | 'ambos'
 export type TipoMascota = 'gato' | 'perro' | 'ambos' | 'ninguna'
@@ -102,6 +103,8 @@ export interface Plano {
   /** Celdas que forman el piso */
   suelo: number[]
   elementos: ElementoPlano[]
+  /** Luz corregida a mano, por lugar (id de elemento o `piso-<celda>`). Sin entrada: se estima. */
+  luces?: Record<string, CategoriaLuz>
 }
 
 /** Un espacio de la casa, con su propio perfil de luz. Las recomendaciones se calculan al mostrarlo. */
